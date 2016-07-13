@@ -2,36 +2,26 @@
 <html>
 <head>
   <title>Food Desert</title>
-  <script src="app.js"></script>
+
   <link rel="stylesheet" type="text/css" href="main.css">
   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
   <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
   <meta charset="utf-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <style>
-
-    body {
-      margin:0;
-      padding:0;
-      font-family: 'EB Garamond', Georgia, Times, "Times New Roman", serif;
-    }
-
-    .map {
-      height:400px;
-      top:0;
-      bottom:0;
-      width:100%;
-      max-width: 400px;
-    }
-  </style>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.1/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+  <script src="app.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 <body>
 
-  <h1>Food Deserts &amp; Health in LA</h1>
+
+
+  <h1>Food Oasis</h1>
 
   <div class="info">
-    <h2>What is a food desert?</h2>
+    <h2>What is a food desert ?</h2>
     <p>A food desert is defined as a geographical area that lacks grocery stores with a 1 mile radius in an urban setting and 10 mile radius in an urban desert</p>
     <h2>What is being done to tackle food desert</h2>
     <ul>
@@ -43,10 +33,6 @@
   </div>
 
 <div id='map-one' class='map'> </div>
-  <script>
-    L.mapbox.accessToken = 'pk.eyJ1IjoicXVpcGNvZGUiLCJhIjoiY2lvbHVnb25kMDAwMXVhbHlzanpua3ZjZiJ9.KtezPL2kFNItzTUUajYiug';
-    L.mapbox.map('map-one', 'mapbox.streets').setView([34.0522,-118.2437], 14);
-  </script>
 
   <div class="links">
     <h2>Resources</h2>
@@ -57,6 +43,21 @@
       <li><a href="http://www.foodispower.org/food-deserts/" title=""> Food is Power</a></li>
       <li><a href="http://http://www.chc-inc.org/" title=""> Community Health Council</a></li>
       <li><a href="http://http://healthpolicy.ucla.edu/Pages/home.aspx /" title=""> UCLA</a></li>
+      <li><a href="http://www.chc-inc.org/ " title="">Policy</a></li>
+      <li><a href="https://www.lacity.org/city-government">Government</a></li>
+      <li><a href="http://publichealth.lacounty.gov/  ">Government</a></li>
+      <li><a href="http://goodfoodla.org/good-food/day-to-day-steps/">Useful links</a>  </li>
+      <li><a href="http://www.foodispower.org/food-deserts/#">Resources</a></li>
+      <li><a href="http://healthpolicy.ucla.edu/Pages/home.aspx">policy/education</a>  </li>
+      <li><a href="https://psmag.com/finding-nutrition-in-the-food-deserts-of-california-e90f7932ae16#.cubdrvdci">article</a></li>
+      <li><a href="http://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas.aspx">food desert map</a>  </li>
+      <li><a href="http://policylink.org/">Policy</a></li>
+      <li><a href="http://civileats.com/2016/05/12/poor-health-in-americas-cities-flint-extend-beyond-the-water/">Article</a></li>
+      <li><a href="https://www.emich.edu/mcnair/documents/1_i-got-99-problems-and-nutrition-is-one.pdf">Paper</a></li>
+      <li><a href="http://thefoodtrust.org/uploads/media_items/grocerygap.original.pdf">Publication</a></li>
+      <li><a href="http://thefoodtrust.org/">Orginization</a></li>
+      <li><a href="http://www.nytimes.com/2012/04/18/health/research/pairing-of-food-deserts-and-obesity-challenged-in-studies.html?_r=0">Article</a></li>
+
     </ul>
     <h2>Education</h2>
     <ul>
@@ -68,6 +69,7 @@
     </ul>
 
   </div>
+  <button> Hello World</button>
 
   <footer>
     <h2>About this project</h2>

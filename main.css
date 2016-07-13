@@ -1,3 +1,30 @@
-.links {
-  background-color: olive;
+
+body {
+  margin:4.5em;
+  padding:0;
+  font-family: 'EB Garamond', Georgia, Times, "Times New Roman", serif;
+  font-size:100%;
+  line-height:1.5;
+  color:#2262CC;
 }
+
+h1,h2{
+  color:black;
+}
+
+
+.map {
+  height:400px;
+  top:0;
+  bottom:0;
+  width:100%;
+
+}
+
+
+.links {
+  /*background-color: #2262CC;*/
+
+}
+
+/*stroke-linejoin="round" stroke-linecap="round" fill-rule="evenodd" stroke="#2262CC" stroke-opacity="0.6" stroke-width="2" fill="#2262CC" fill-opacity="0.1"*/
