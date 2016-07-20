@@ -1,0 +1,23 @@
+{
+  "name": "fooddesert",
+  "version": "1.0.0",
+  "description": "This is a website with list of resources about food deserts and health… http://tamurafatherree.github.io/fooddesert",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamurafatherree/fooddesert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamurafatherree/fooddesert/issues"
+  },
+  "homepage": "https://github.com/tamurafatherree/fooddesert#readme",
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "express": "^4.14.0"
+  }
+}
