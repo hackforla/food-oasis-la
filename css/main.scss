@@ -1,15 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
 body {
   margin: 4.5em;
   padding: 0;
   font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
   font-size: 100%;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 h1, h2 {
-  color: black; }
+  color: black;
+}
 
 .map {
   top: 0;
   bottom: 0;
   height: 400px;
-  width: 100%; }
+  width: 100%;
+}
