@@ -1,14 +1,31 @@
 <html>
 <head>
+	<title>Food Oasis LA</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
 	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
+	<nav>
+		<h1>Food Oasis</h1>
+	</nav>
+	
+	<div class="info">
+	<h2>What is a food desert ?</h2>
+	<p>A food desert is defined as a geographical area that lacks grocery stores with a 1 mile radius in an urban setting and 10 mile radius in an urban desert</p>
+	<h2>What is being done to tackle food desert</h2>
+	<ul>
+		<li>Food policy council to better food distribution</li>
+		<li>Getting convenience stores to sell healthier foods</li>
+		<li>Farmer’s market</li>
+		<li>Subsidized supermarket. </li>
+	</ul>
+	</div>
 
 	<div id="mapid" style="width: 100%; height: 100%"></div>
-
 	<script src="leaflet/leaflet.js"></script>
 	<script>
 
