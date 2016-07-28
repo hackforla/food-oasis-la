@@ -9,6 +9,12 @@
 	<link rel="stylesheet" href="leaflet/leaflet.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+	
 </head>
 <body>
 	<h1>Food Oasis</h1>
@@ -32,25 +38,10 @@
 	</ul>
 
 	<h2>Map of food deserts in Los Angeles</h2>
-	<div id="mapid" style="width: 100%; height: 500px"></div>
+	<div id="map" style="width: 100%; height: 500px"></div>
 	<script src="leaflet/leaflet.js"></script>
 	<script>
-
-		var mymap = L.map('mapid').setView([34.052235, -118.243683], 13);
-
-		L.tileLayer('https://api.mapbox.com/styles/v1/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw', {
-			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			id: 'mapbox.streets'
-		}).addTo(mymap);
-
-		var popup = new mapboxgl.Popup({
-			closeButton: false,
-			closeOnClick: false
-		});
-
+ 
 // 		L.marker([34.04938, -118.25992]).addTo(mymap)
 // 			.bindPopup("FoodBankXYZ <br />123 Flower St., Los Angeles, CA 90000 <br />Open Now til 8PM <br />Food Bank").openPopup();
 // 
@@ -66,40 +57,44 @@
 // 			[51.51, -0.047]
 // 		]).addTo(mymap).bindPopup("I am a polygon.");
 
-		var popup = L.popup();
-
-		function onMapClick(e) {
-			popup
-				.setLatLng(e.latlng)
-				.setContent("You clicked the map at " + e.latlng.toString())
-				.openOn(mymap);
-		}
-
-		mymap.on('click', onMapClick);
-		
-		L.on('mousemove', function(e) {
-		var features = map.queryRenderedFeatures(e.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)'] });
-		// Change the cursor style as a UI indicator.
-		L.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-		if (!features.length) {
-			popup.remove();
-			return;
-		}
-
-		var feature = features[0];
-		console.log(feature);//Displays the contents as an array in the console log
-
-		popup.setLngLat(feature.geometry.coordinates)
-			.setHTML(
-			"<p>Name: "+feature.properties["NAME:"]+
-			"<p>Address: "+feature.properties["ADDRESS:"]+
-			"<p>Contact: "+feature.properties["CONTACT:"]+
-			"<P>Times: "+feature.properties["TIMES:"])
-			.addTo(map);
-		}); 
+		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+		var map = new mapboxgl.Map({
+			container: 'map', // container id
+			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', //stylesheet location
+			center: [-118.243685, 34.052234], // starting position
+			zoom: 9 // starting zoom
+		});
 	
-		map.addControl(new mapboxgl.Geocoder());
+		// Create a popup, but don't add it to the map yet.
+		var popup = new mapboxgl.Popup({
+			closeButton: false,
+			closeOnClick: false
+		});
 
+		//Creates a popup on hover
+		map.on('mousemove', function(e) {
+			var features = map.queryRenderedFeatures(e.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)'] });
+			// Change the cursor style as a UI indicator.
+			map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+			if (!features.length) {
+				popup.remove();
+				return;
+			}
+
+			var feature = features[0];
+			console.log(feature);//Displays the contents as an array in the console log
+
+			popup.setLngLat(feature.geometry.coordinates)
+				.setHTML(
+				"<p>Name: "+feature.properties["NAME:"]+
+				"<p>Address: "+feature.properties["ADDRESS:"]+
+				"<p>Contact: "+feature.properties["CONTACT:"]+
+				"<P>Times: "+feature.properties["TIMES:"])
+				.addTo(map);
+		}); 
+    
+		map.addControl(new mapboxgl.Geocoder());
+		
 	</script>
 
 	<h2>Resources</h2>
