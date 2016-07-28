@@ -47,7 +47,7 @@
 		
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
-			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', //stylesheet location
+			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
 			center: [-118.243685, 34.052234], // starting position
 			zoom: 9 // starting zoom
 		});
@@ -80,8 +80,15 @@
 					"<p> Hours: "+feature.properties["TIMES:"])
 				.addTo(map);
 		}); 
+		
+// 		mapboxgl.easyButton('fa-compass', 
+// 			function (){
+// 				map.locate({setView: true});
+// 			},
+// 			'Interact with the map')
     
 		map.addControl(new mapboxgl.Geocoder());
+//		map.addControl();
 		
 	</script>
 
