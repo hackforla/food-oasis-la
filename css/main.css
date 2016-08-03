@@ -7,6 +7,11 @@ body {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 100%;
   line-height: 1.5;
+
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-family: 'Muli', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
 }
 
 a {
@@ -61,6 +66,7 @@ h1, h2 {
 
 .icon {
   vertical-align: middle;
+  width: 20px;
 }
 
 
