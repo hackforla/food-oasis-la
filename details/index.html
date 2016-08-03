@@ -33,12 +33,19 @@
 		var mymap = L.map('map', { zoomControl:false }).setView([-118.243685, 34.052234], 12);
 
 		L.tileLayer('https://api.mapbox.com/styles/v1/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw', {
-			
+			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			id: 'mapbox.streets'
 		}).addTo(mymap);
 
 		L.marker([-118.243685, 34.052234]).addTo(mymap);
 
-		
+		mymap.touchZoom.disable();
+		mymap.doubleClickZoom.disable();
+		mymap.scrollWheelZoom.disable();
+		mymap.boxZoom.disable();
+		mymap.keyboard.disable();
 		
 		
 	</script>
