@@ -64,9 +64,20 @@ h1, h2 {
   background: black
 }
 
+.title {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.title + br {
+  display: none;
+}
 .icon {
   vertical-align: middle;
   width: 20px;
+  margin-right: 0.25em;
+}
+.icon + span {
+  font-weight: bold;
 }
 
 
