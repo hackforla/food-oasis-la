@@ -91,9 +91,22 @@
 					"<p><a href='details/'>Details</a></p>")
 				.addTo(map);
 		}); 
-		
+
     	// Add Search Functionality
 		map.addControl(new mapboxgl.Geocoder());	
+
+		// Add 'Current Location' Functionality
+		map.addControl(new mapboxgl.Geolocate());
+
+		map.flyTo({
+			center: target,
+	        zoom: 9,
+	        bearing: 0,
+	        speed: 0.2, // make the flying slow
+	        curve: 1
+		});
+		
+
 	</script>
 </body>
 </html>
