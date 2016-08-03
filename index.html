@@ -96,16 +96,11 @@
 		map.addControl(new mapboxgl.Geocoder());	
 
 		// Add 'Current Location' Functionality
-		map.addControl(new mapboxgl.Geolocate());
+		map.addControl(new mapboxgl.Geolocate());		
 
-		map.flyTo({
-			center: target,
-	        zoom: 9,
-	        bearing: 0,
-	        speed: 0.2, // make the flying slow
-	        curve: 1
-		});
-		
+		// BELOW is the wrong syntax, need to figure out how to get geolocated coordinates!!!
+		// var newctr = new mapboxgl.getCenter();
+		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
 
 	</script>
 </body>
