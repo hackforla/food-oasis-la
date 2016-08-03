@@ -18,20 +18,10 @@
 	
 	<script src="../leaflet/leaflet.js"></script>
 	<script>
-// 
-// 		var mymap = L.map('map').setView([], 14);
-// 		
-// 		L.tileLayer('https://api.mapbox.com/styles/v1/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw', {
-// 			maxZoom: 14,
-// 		}).addTo(mymap);
-// 		
-// 		L.marker([-118.243685, 34.052234]).addTo(mymap);
-// 		
-// 		
-// 		
-		
-		var mymap = L.map('map', { zoomControl:false }).setView([51.505, -0.09], 13);
 
+		var mymap = L.map('map', { zoomControl:false }).setView([51.505, -0.09], 16);
+
+		// Essentially provide a static map
 		mymap.touchZoom.disable();
 		mymap.doubleClickZoom.disable();
 		mymap.scrollWheelZoom.disable();
@@ -44,8 +34,6 @@
 
 		L.marker([51.505, -0.09]).addTo(mymap);
 
-		
-		
 	</script>
 	
 	
