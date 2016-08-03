@@ -9,6 +9,13 @@ body {
   line-height: 1.5;
 }
 
+a {
+  color: #4D5594;
+}
+a:visited {
+  color: #562949;
+}
+
 @media (min-width: 30em) {
   body {
     margin: 3em;
@@ -49,11 +56,11 @@ h1, h2 {
 }
 
 .logo {
-  display: inline;
-  float: left;  
-  padding: 8px;
-  width: 200px;
+  background: black
 }
-  
+
+.icon {
+  vertical-align: middle;
+}
 
 
