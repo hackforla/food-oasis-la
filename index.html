@@ -23,15 +23,18 @@
 	
 </head>
 <body>
-	<h1><img src="images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></h1>
 	<nav>
+		<h1><img src="images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></h1>
+	</nav>
+
+	<div class="header">
 		<p>
 			<a href="about/">
 				<img class="icon" src="images/icons/info.svg" width="30" alt="" />
 				About this project
 			</a>
 		</p>
-	</nav>
+	</div>
 
 	<!--
 	<form action="" method="post">
@@ -46,7 +49,7 @@
 	</form>
 	-->
 
-	<div id="map" style="width: 100%; height: 500px"></div>
+	<div id="map" class="mapbox"></div>
 	<script src="leaflet/leaflet.js"></script>
 	<script>
 	
@@ -89,16 +92,8 @@
 				.addTo(map);
 		}); 
 		
-// 		mapboxgl.easyButton('fa-compass', 
-// 			function (){
-// 				map.locate({setView: true});
-// 			},
-// 			'Interact with the map')
-    
     	// Add Search Functionality
-		map.addControl(new mapboxgl.Geocoder());
-
-		
+		map.addControl(new mapboxgl.Geocoder());	
 	</script>
 </body>
 </html>
