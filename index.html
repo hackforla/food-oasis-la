@@ -50,7 +50,6 @@ layout: null
 	<div id="map" class="mapbox"></div>
 	<script src="assets/leaflet/leaflet.js"></script>
 	<script>
-		var x = document.getElementById("demo");
 
 		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 
@@ -61,15 +60,18 @@ layout: null
 			zoom: 9 // starting zoom
 		});
 
+		var myLat = 0;
+	    var myLon = 0;
+	    var myCoords = [];		
+
 		function findMe() {
-			// Grab user's location on page-load
 			navigator.geolocation.getCurrentPosition(success, error);
 
 			function success(position) {
 			    // Set new starting location
-			    var myLat = position.coords.latitude;
-			    var myLon = position.coords.longitude;
-			    var myCoords = [myLon, myLat];
+			    myLat = position.coords.latitude;
+			    myLon = position.coords.longitude;
+			    myCoords = [myLon, myLat];
 				map.panTo(myCoords);
 
 				// Place a current location marker
@@ -134,19 +136,6 @@ layout: null
 			closeButton: false,
 			closeOnClick: false
 		});
-		
-		//
-		// Start of Mapbox GL code
-		//
-
-		// mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
-		
-		// var map = new mapboxgl.Map({
-		// 	container: 'map', // container id
-		// 	style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
-		// 	center: myCoords, // starting position
-		// 	zoom: 9 // starting zoom
-		// });
 	
 		// Creates a popup on hover
 		map.on('click', function(e) {
@@ -195,7 +184,8 @@ layout: null
 
 			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
 		}); 
-				
+
+		// Grab user's location on page-load
 		if ("geolocation" in navigator) {
 			findMe()
 		}
