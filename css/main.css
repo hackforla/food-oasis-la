@@ -2,16 +2,11 @@
 
 
 body {
-  margin: 0em;
+  margin: 1.5em;
   padding: 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 100%;
-  line-height: 1.5;
-
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Work Sans', sans-serif;
-  font-family: 'Muli', sans-serif;
-  font-family: 'Reem Kufi', sans-serif;
+  line-height: 1.5; /* @page-margin */
 }
 
 a {
@@ -21,45 +16,20 @@ a:visited {
   color: #562949;
 }
 
-@media (min-width: 30em) {
-  body {
-    margin: 0em;
-  }
-
-  .header {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-
-  nav {
-    margin-left: 3em;
-    margin-right: 3em;
-  }
-}
-
-h1, h2 {
-  color: black;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .mapbox {
-  top: 0;
-  bottom: 0;
   height: 600px;
-  width: 100%;
+  margin-left: -1.5rem; /* @page-margin */
+  margin-right: -1.5rem;
 }
 
-.header {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-}
-
-nav {
-  margin-left: 1.5em;
-  margin-right: 1.5em;
-}
-
-.logo {
-  background: black
+/* Make the map shorter on the details page */
+.mapbox.details {
+  height: 150px;
 }
 
 .title {
@@ -78,4 +48,17 @@ nav {
   font-weight: bold;
 }
 
+
+
+@media (min-width: 30em) {
+  body {
+    margin-left: 3em; /* @page-margin-widescreen */
+    margin-right: 3em; /* @page-margin-widescreen */
+    margin-bottom: 3em; /* @page-margin-widescreen */
+  }
+  .mapbox {
+    margin-left: -3rem; /* @page-margin-widescreen */
+    margin-right: -3rem;
+  }
+}
 
