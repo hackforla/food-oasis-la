@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+body {
+  margin: 1.5em;
+  padding: 0;
+  font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.5; /* @page-margin */
+}
+
+a {
+  color: #4D5594;
+}
+a:visited {
+  color: #562949;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.mapbox {
+  height: 600px;
+  margin-left: -1.5rem; /* @page-margin */
+  margin-right: -1.5rem;
+}
+
+/* Make the map shorter on the details page */
+.mapbox.details {
+  height: 150px;
+}
+
+.title {
+  display: block;
+  margin-bottom: 0.5em;
+}
+.title + br {
+  display: none;
+}
+.icon {
+  vertical-align: middle;
+  width: 20px;
+  margin-right: 0.25em;
+}
+.icon + span {
+  font-weight: bold;
+}
+
+
+
+@media (min-width: 30em) {
+  body {
+    margin-left: 3em; /* @page-margin-widescreen */
+    margin-right: 3em; /* @page-margin-widescreen */
+    margin-bottom: 3em; /* @page-margin-widescreen */
+  }
+  .mapbox {
+    margin-left: -3rem; /* @page-margin-widescreen */
+    margin-right: -3rem;
+  }
+}
+

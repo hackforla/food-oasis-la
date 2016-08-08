@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>New Life in Christ Full Gospel / Food Oasis LA</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<link rel="stylesheet" href="../../assets/css/oasis.css" />
+	<link rel="stylesheet" href="../../assets/leaflet/leaflet.css" />	
+	
+	<!-- Need the following files to enable Mapbox -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    
+</head>
+<body>
+	<p><a href="../../"><img src="../../assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></a></p>
+	
+	<div id="map" class="mapbox details"></div>
+	
+	<script src="../../assets/leaflet/leaflet.js"></script>
+	<script>
+
+		var SOURCE = {
+			name: 'New Life in Christ Full Gospel',
+			latitude: 33.9631636,
+			longitude: -118.2479196,
+		} 
+
+		// var map = L.map('map', { zoomControl:false }).setView([-118.243685, 34.052234], 16);
+
+		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+		
+		var map = new mapboxgl.Map({
+			container: 'map', // container id
+			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
+			center: [SOURCE.longitude, SOURCE.latitude], // starting position
+			zoom: 14, // starting zoom
+			interactive: false // static map
+		});
+
+		// var marker = new mapboxgl.Marker()
+		// 	.setLngLat([-118.243685, 34.052234])
+		// 	.addTo(map);
+
+		map.addControl(new mapboxgl.Geolocate({}));
+		
+		// BELOW is the wrong syntax, need to figure out how to get geolocated coordinates!!!
+		// var newctr = new mapboxgl.getCenter();
+		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
+
+		map.on('load', function () {
+		    map.addSource("points", {
+		        "type": "geojson",
+		        "data": {
+		            "type": "FeatureCollection",
+		            "features": [{
+		                "type": "Feature",
+		                "geometry": {
+		                    "type": "Point",
+		                    "coordinates": [SOURCE.longitude, SOURCE.latitude]
+		                },
+		                "properties": {
+		                    "title": SOURCE.name,
+		                    "icon": "mymarker"
+		                }
+		            }]
+		        }
+		    });
+
+		    map.addLayer({
+		        "id": "points",
+		        "type": "symbol",
+		        "source": "points",
+		        "layout": {
+		            "icon-image": "{icon}",
+		            "text-field": "{title}",
+		            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+		            //"text-color": "#ffff00",
+		            //"text-opacity": 0.75,
+		            "text-offset": [0, 0.75],
+		            "text-anchor": "top"
+		        }
+		    });
+		});
+
+
+
+		// L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
+		// 	id: 'mapbox.streets'
+		// }).addTo(map);
+
+		// L.marker([-118.243685, 34.052234]).addTo(map);
+
+	</script>
+	
+	<div class="page-contents">
+		<h1>New Life in Christ Full Gospel</h1>
+
+		<p>
+			<span class="title"><!--<img class="icon" src="../../assets/images/icons/category.svg" width="30" alt="" />--> <span>Category</span></span><br />
+			Food Bank
+		</p>
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
+			8301 S. Compton Avenue Los Angeles 90001<br />
+			<a href="http://maps.google.com/maps/place/8301 S. Compton Avenue Los Angeles 90001">Get Directions</a>
+		</p>
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
+			323.584.9270
+		</p>
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
+			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
+				PLACEHOLDER: New Life in Christ Full Gospel on Yelp
+			</a>
+		</p>
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
+			
+		</p>
+
+		<p>2nd & 4th Thurs 11am 230pm</p>
+		<!--
+		<dl>
+			<dt>Monday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+			<dd>Open Now!</dd>
+
+			<dt>Tuesday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Wednesday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Thursday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Friday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Saturday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+			
+			<dt>Sunday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+		</dl>
+		-->
+	</div>
+</body>
+</html>

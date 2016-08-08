@@ -1,0 +1,736 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Food Oasis LA</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
+	<link rel="stylesheet" href="assets/css/oasis.css" />
+
+	<!-- Need the following files to enable Mapbox -->
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+	
+</head>
+<body>
+	<nav>
+		<h1><img src="assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></h1>
+	</nav>
+
+	<div class="header">
+		<p>
+			<a href="about/">
+				<img class="icon" src="assets/images/icons/info.svg" width="30" alt="" />
+				About this project
+			</a>
+		</p>
+	</div>
+
+	<!--
+	<form action="" method="post">
+		<h2>Find food sources</h2>
+		<p>
+			<label>
+				Enter your address<br />
+				<input type="search" name="address" />
+			</label>
+			<button>Submit</button>
+		</p>
+	</form>
+	-->
+
+	<div id="map" class="mapbox"></div>
+	<script src="assets/leaflet/leaflet.js"></script>
+	<script>
+	
+		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+		
+		var map = new mapboxgl.Map({
+			container: 'map', // container id
+			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
+			center: [-118.243685, 34.052234], // starting position
+			zoom: 9 // starting zoom
+		});
+	
+		// Create a popup, but don't add it to the map yet.
+		var popup = new mapboxgl.Popup({
+			closeButton: false,
+			closeOnClick: false
+		});
+
+		// Creates a popup on hover
+		map.on('click', function(e) {
+			var features = map.queryRenderedFeatures(e.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)','Farmers Markets (Solution)','Groceries (Problem)'] });
+
+			// Change the cursor style as a UI indicator.
+			map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+			if (!features.length) {
+				popup.remove();
+				return;
+			}
+
+			var feature = features[0];
+			var name = feature.properties["name"] || feature.properties["Name"] || feature.properties["NAME"] || feature.properties["NAME:"] || feature.properties["MarketName"];
+			var hours = feature.properties["times"] || feature.properties["Times"] || feature.properties["TIMES"] || feature.properties["TIMES:"];
+			var telephone = feature.properties["telephone"] || feature.properties["Telephone"] || feature.properties["CONTACT"] || feature.properties["CONTACT:"];
+			var address = "";
+			var street = feature.properties["address"] || feature.properties["Address"] || feature.properties["ADDRESS"] || feature.properties["ADDRESS:"];
+			var city = feature.properties["city"] || feature.properties["City"];
+			var state = feature.properties["state"] || feature.properties["State"];
+			if (street) address += street;
+			if (city) address += (street ? '<br />' : '') + city;
+			if (state) address += (city ? ', ' : (street ? '<br />' : '')) + state;
+
+			// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
+			var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
+
+			var html = [];
+
+			html.push("<p>" + name + "</p>");
+			if (address) {
+				html.push("<p>" + address + "</p>");
+			}
+			// html.push("<p>"+feature.properties["CONTACT"]+"</p>");
+			if (hours) {
+				html.push("<p> Hours: " + hours + "</p>");
+			}
+			if (telephone) {
+				html.push("<p>" + telephone + "</p>");
+			}
+			if (name && showLink) {
+				html.push("<p><a href='source/" + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-') + "/'>Details</a></p>");
+			}
+
+			console.log(feature);//Displays the contents as an array in the console log
+
+			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
+		}); 
+
+    	// Add Search Functionality
+		map.addControl(new mapboxgl.Geocoder());	
+
+		// Add 'Current Location' Functionality
+		map.addControl(new mapboxgl.Geolocate());		
+
+		// BELOW is the wrong syntax, need to figure out how to get geolocated coordinates!!!
+		// var newctr = new mapboxgl.getCenter();
+		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
+
+	</script>
+
+	
+	<ul>
+		<li><a href="source/all-peoples-christian-center">All Peoples Christian Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/all-saints-conference">All Saints Conference</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/all-saints-episcopal-church-highland-park">All Saints Episcopal Church Highland Park</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/ananda-marga-of-l.a.-inc.">Ananda Marga of L.A. Inc.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/ascension's-food-pantry">Ascension's Food Pantry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/belvue-presbyterian-church">Belvue Presbyterian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/berean-s.d.a.-church">Berean S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/bethel-ame-church--richard-allen-center">Bethel AME Church- Richard Allen Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/bethel-unspeakable-joy-christian-church">Bethel Unspeakable Joy Christian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/bethesda-temple-church">Bethesda Temple Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/blood-of-jesus-prayer-and-deliverance-ministry">Blood of Jesus Prayer and Deliverance Ministry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/catholic-charities-of-l.a.">Catholic Charities of L.A.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/catholic-charities---brownson-house">Catholic Charities - Brownson House</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/ccc-ebenezery-parish">CCC Ebenezery Parish</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/central-filipino-s.d.a.-church">Central Filipino S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/central-spanish-s.d.a.-church">Central Spanish S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/charismatic-ecumencial-ministries-international">Charismatic Ecumencial Ministries International</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/childrens-hospital-los-angeles">Childrens Hospital Los Angeles</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/chinese-community-service-center">Chinese Community Service Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/christ-gospel-prayer-center">Christ Gospel Prayer Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/christ-the-good-shepherd-episcopal">Christ the Good Shepherd Episcopal</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/christian-association-for-social-services">Christian Association for Social Services</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/church-of-the-epiphany">Church of the Epiphany</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/cory's-kitchen-el-sereno">Cory's Kitchen-El Sereno</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/cover-the-homeless-ministry">Cover the Homeless Ministry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/crenshaw-united-methodist-church">Crenshaw United Methodist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/crusaders-for-christ-baptist-church">Crusaders for Christ Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/do-right-christian-church">Do Right Christian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/door-of-hope-community-center">Door of Hope Community Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/east-l.a.-bilingual-s.d.a.-church">East L.A. Bilingual S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/east-la-community-corporation">East LA Community Corporation</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/eastmont-community-center">Eastmont Community Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/eastmont-sda-spanish-church">Eastmont SDA Spanish Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/echo-park-united-methodist">Echo Park United Methodist</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/ephesus-s.d.a.-church">Ephesus S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/esmirna-pentecostal-church">Esmirna Pentecostal Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/estelle-van-meter-multipurpose">Estelle Van Meter Multipurpose</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/estrada-courts-community-center">Estrada Courts Community Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/family-mennonite-church">Family Mennonite Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/fifty-fourth-street-s.d.a.-church">Fifty Fourth Street S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/figueroa-church-of-christ">Figueroa Church of Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/filipino-christian-church">Filipino Christian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/first-african-methodist-episcopal-church">First African Methodist Episcopal Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/first-baptist-church-hope-net">First Baptist Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/first-new-christian-fellowship">First New Christian Fellowship</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/first-presbyterian-church">First Presbyterian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/first-unitarian-church-hope-net">First Unitarian Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/food-net--east-l.a.-center">Food Net- East L.A. Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/food-net-centro-maravilla">Food Net-Centro Maravilla</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/food-net-florence-firestone-center">Food Net-Florence Firestone Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/food-net-willowbrook-senior-center">Food Net-Willowbrook Senior Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/fred-jordan-mission">Fred Jordan Mission</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/friends-outside-in-l.a.-county">Friends Outside in L.A. County</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/good-news-central-church">Good News Central Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/good-news-missionary-baptist-church">Good News Missionary Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/good-news-prayer-center">Good News Prayer Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/gospel-mission-baptist-church">Gospel Mission Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/grace-presbyterian-church">Grace Presbyterian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/greater-new-morning-star-baptist-church">Greater New Morning Star Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/greater-new-unity-baptist-church">Greater New Unity Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/greater-true-light-m.b.c.">Greater True Light M.B.C.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/guadalupe-food-program">Guadalupe Food Program</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/h.o.p.e.-helping-other-people-excel">H.O.P.E. Helping Other People Excel</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/heavenly-vision-church-of-god-in-christ">Heavenly Vision Church of God in Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/hoap-inc.">HOAP Inc.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/hollywood-west-tenant-action-committee">Hollywood West Tenant Action Committee</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/holy-cross-center">Holy Cross Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/holy-trinity-church-of-god-in-christ">Holy Trinity Church of God in Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/holy-virgin-mary-coptic-orthodox-church">Holy Virgin Mary Coptic Orthodox Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/hope-international-bible-fellowship">Hope International Bible Fellowship</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/hurting---hungry">Hurting & Hungry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-apostolica-manantial-de-vida">Iglesia Apostolica Manantial de Vida</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-cristiana-el-shaddai-usa">Iglesia Cristiana El Shaddai USA</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-de-la-comunidad-presbyterian-church">Iglesia de la Comunidad Presbyterian Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-del-nazareno-elysian-park">Iglesia del Nazareno Elysian Park</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-la-puerta-abierta">Iglesia la Puerta Abierta</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-macedonia-defenders-of-the-christian-faith">Iglesia Macedonia Defenders of the Christian Faith</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/iglesia-pentecostes-roca-de-salvacion">Iglesia Pentecostes Roca de Salvacion</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/imani-unidos-a.i.d.s.-project">Imani Unidos A.I.D.S. Project</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/immaculate-heart-of-mary-hope-net">Immaculate Heart of Mary-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/immanuel-presbyterian-church-hope-net">Immanuel Presbyterian Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/imperial-church-of-christ">Imperial Church of Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/islamic-center-of-southern-ca-hope-net">Islamic Center of Southern CA-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/jfs-sova-community-food---resource-program">JFS/SOVA Community Food & Resource Program</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/koreatown-multipurpose-senior-center">Koreatown Multipurpose Senior Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/l.a.-grace-church">L.A. Grace Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/life-deliverance-ministries">Life Deliverance Ministries</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/living-truth-christian-fellowship">Living Truth Christian Fellowship</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-boys---girls-club">Los Angeles Boys & Girls Club</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-central-city-s.d.a.-church">Los Angeles Central City S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-first-church-of-the-nazarene-hope-net">Los Angeles First Church of the Nazarene-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-housing-partnership">Los Angeles Housing Partnership</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-housing-partnership">Los Angeles Housing Partnership</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/los-angeles-housing-partnership">Los Angeles Housing Partnership</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/love---faith-christian-center">Love & Faith Christian Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/metropolitan-community-church-of-l.a.-hope-net">Metropolitan Community Church of L.A.-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/my-friends-house">My Friends House</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/new-life-in-christ-full-gospel">New Life in Christ Full Gospel</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/normandie-community-development-food-pantry">Normandie Community Development Food Pantry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/our-lady-of-guadalupe-church">Our Lady of Guadalupe Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/our-lady-of-talpa-church">Our Lady of Talpa Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/our-lady-queen-of-angels-catholic-church">Our Lady Queen of Angels Catholic Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/pennacle-foundation-inc">Pennacle Foundation Inc</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/pentecostal-church-of-god">Pentecostal Church of God</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/people-for-community-improvement">People for Community Improvement</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/pilgrim's-hope-baptist-church">Pilgrim's Hope Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/pilipino-worker-center-of-southern-california">Pilipino Worker Center of Southern California</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/presentation-of-mary-catholic">Presentation of Mary Catholic</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/redeemer-missionary-baptist-church">Redeemer Missionary Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/robbins-memorial-church-of-god-in-christ">Robbins Memorial Church of God in Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/rosewood-revitalization-group">Rosewood Revitalization Group</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/sacred-heart-church">Sacred Heart Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/saint-mark-food-pantry">Saint Mark Food Pantry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/salvation-army---east-l.a.">Salvation Army - East L.A.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/salvation-army--l.a.-central-corp">Salvation Army- L.A. Central Corp</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/san-miguel-church">San Miguel Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/silverlake-community-church-hope-net">Silverlake Community Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/spanish-american-s.d.a.-church">Spanish American S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-agnes-parish">St. Agnes Parish</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-athanasius---st.-paul-church">St. Athanasius & St. Paul Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-brigid-catholic-church">St. Brigid Catholic Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-cecilia-catholic-church">St. Cecilia Catholic Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-francis-center">St. Francis Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-james-episcopal-church-hope-net">St. James Episcopal Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-john's-cathedral-hope-net">St. John's Cathedral-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-lawrence-of-brindisi">St. Lawrence of Brindisi</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-mark-missionary-baptist">St. Mark Missionary Baptist</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-philip's-episcopal-church">St. Philip's Episcopal Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-thomas-center">St. Thomas Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/st.-vincent-de-paul-church">St. Vincent de Paul Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/star-christian-school">Star Christian School</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/testimonial-community-love-center">Testimonial Community Love Center</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/the-great-vision-church">The Great Vision Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/the-restoration-foundation">The Restoration Foundation</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/travelers-rest-missionary-b.c.">Travelers Rest Missionary B.C.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/trinity-baptist-church-l.a.">Trinity Baptist Church L.A.</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/united-african-church">United African Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/united-gospel-outreach">United Gospel Outreach</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/university-s.d.a.-church">University S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/victory-baptist-church">Victory Baptist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/vision-of-hope-outreach-ministry">Vision of Hope Outreach Ministry</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/visions-community-outreach">Visions Community Outreach</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/wesley-united-methodist-church">Wesley United Methodist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/west-adams-church-of-christ">West Adams Church of Christ</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/west-angeles-community-corporation">West Angeles Community Corporation</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/white-memorial-s.d.a.-church">White Memorial S.D.A. Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/willowbrook-project-area-commission">Willowbrook Project Area Commission</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/wilshire-boulevard-temple-hope-net">Wilshire Boulevard Temple Hope-Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/wilshire-presbyterian-church-hope-net">Wilshire Presbyterian Church-Hope Net</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/wsfb---st.-gerard's-social-services">WSFB - St. Gerard's Social Services</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/young-hwa-united-methodist-church">Young Hwa United Methodist Church</a></li>
+	</ul>
+	
+	<ul>
+		<li><a href="source/zion-hill-baptist-church">Zion Hill Baptist Church</a></li>
+	</ul>
+	
+</body>
+</html>
