@@ -126,10 +126,12 @@ layout: null
 
 	</script>
 
-	{% for source in site.data['food_banks_andrew'] %}
+	<h2>Food Banks</h2>
 	<ul>
+	{% for source in site.data['food_banks_andrew'] %}
 		<li><a href="source/{{ source['name'] | downcase | replace: ' ', '-' | replace: '/', '-' | replace: '&', '-' }}">{{ source['name'] }}</a></li>
-	</ul>
 	{% endfor %}
+	</ul>
+	
 </body>
 </html>
