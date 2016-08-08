@@ -50,22 +50,104 @@ layout: null
 	<div id="map" class="mapbox"></div>
 	<script src="assets/leaflet/leaflet.js"></script>
 	<script>
-	
+		var x = document.getElementById("demo");
+
 		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
-		
+
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
-			center: [-118.243685, 34.052234], // starting position
+			center: [-118.243683, 34.052235], // starting position
 			zoom: 9 // starting zoom
 		});
-	
+
+		function findMe() {
+			// Grab user's location on page-load
+			navigator.geolocation.getCurrentPosition(success, error);
+
+			function success(position) {
+			    // Set new starting location
+			    var myLat = position.coords.latitude;
+			    var myLon = position.coords.longitude;
+			    var myCoords = [myLon, myLat];
+				map.panTo(myCoords);
+
+				// Place a current location marker
+				while (map.getCenter().toArray() == myCoords) {
+					// map.on('load', function () {
+					//     map.addSource("points", {
+					//         "type": "geojson",
+					//         "data": {
+					//             "type": "FeatureCollection",
+					//             "features": [{
+					//                 "type": "Feature",
+					//                 "geometry": {
+					//                     "type": "Point",
+					//                     "coordinates": myCoords
+					//                 },
+					//                 "properties": {
+					//                     "title": "My Location",
+					//                     "icon": mymarker
+					//                 }
+					//             }]
+					//         }
+					//     });
+
+					//     map.addLayer({
+					//         "id": "points",
+					//         "type": "symbol",
+					//         "source": "points",
+					//         "layout": {
+					//             "icon-image": "{icon}",
+					//             "text-field": "{title}",
+					//             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+					//             //"text-color": "#ffff00",
+					//             //"text-opacity": 0.75,
+					//             "text-offset": [0, 0.75],
+					//             "text-anchor": "top"
+					//         }
+					//     });
+					// });
+				};
+			};
+
+			function error() {
+				alert("Unable to retrieve your location");
+			};
+
+			function showPosition(position) {
+				//x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude; 
+
+			    myLat = position.coords.latitude;
+			    myLon = position.coords.longitude;
+			};
+		};
+
+		// Add Search Functionality
+		map.addControl(new mapboxgl.Geocoder());	
+
+		// Add 'Current Location' Functionality
+		map.addControl(new mapboxgl.Geolocate());
+
 		// Create a popup, but don't add it to the map yet.
 		var popup = new mapboxgl.Popup({
 			closeButton: false,
 			closeOnClick: false
 		});
+		
+		//
+		// Start of Mapbox GL code
+		//
 
+		// mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+		
+		// var map = new mapboxgl.Map({
+		// 	container: 'map', // container id
+		// 	style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
+		// 	center: myCoords, // starting position
+		// 	zoom: 9 // starting zoom
+		// });
+	
 		// Creates a popup on hover
 		map.on('click', function(e) {
 			var features = map.queryRenderedFeatures(e.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)','Farmers Markets (Solution)','Groceries (Problem)'] });
@@ -113,16 +195,10 @@ layout: null
 
 			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
 		}); 
-
-    	// Add Search Functionality
-		map.addControl(new mapboxgl.Geocoder());	
-
-		// Add 'Current Location' Functionality
-		map.addControl(new mapboxgl.Geolocate());		
-
-		// BELOW is the wrong syntax, need to figure out how to get geolocated coordinates!!!
-		// var newctr = new mapboxgl.getCenter();
-		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
+				
+		if ("geolocation" in navigator) {
+			findMe()
+		}
 
 	</script>
 
