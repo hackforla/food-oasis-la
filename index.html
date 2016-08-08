@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html>
 <head>
@@ -75,16 +78,40 @@
 			}
 
 			var feature = features[0];
+			var name = feature.properties["name"] || feature.properties["Name"] || feature.properties["NAME"] || feature.properties["NAME:"] || feature.properties["MarketName"];
+			var hours = feature.properties["times"] || feature.properties["Times"] || feature.properties["TIMES"] || feature.properties["TIMES:"];
+			var telephone = feature.properties["telephone"] || feature.properties["Telephone"] || feature.properties["CONTACT"] || feature.properties["CONTACT:"];
+			var address = "";
+			var street = feature.properties["address"] || feature.properties["Address"] || feature.properties["ADDRESS"] || feature.properties["ADDRESS:"];
+			var city = feature.properties["city"] || feature.properties["City"];
+			var state = feature.properties["state"] || feature.properties["State"];
+			if (street) address += street;
+			if (city) address += (street ? '<br />' : '') + city;
+			if (state) address += (city ? ', ' : (street ? '<br />' : '')) + state;
+
+			// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
+			var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
+
+			var html = [];
+
+			html.push("<p>" + name + "</p>");
+			if (address) {
+				html.push("<p>" + address + "</p>");
+			}
+			// html.push("<p>"+feature.properties["CONTACT"]+"</p>");
+			if (hours) {
+				html.push("<p> Hours: " + hours + "</p>");
+			}
+			if (telephone) {
+				html.push("<p>" + telephone + "</p>");
+			}
+			if (name && showLink) {
+				html.push("<p><a href='source/" + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-') + "/'>Details</a></p>");
+			}
+
 			console.log(feature);//Displays the contents as an array in the console log
 
-			popup.setLngLat(feature.geometry.coordinates)
-				.setHTML(
-					"<p>"+feature.properties["NAME:"]+"</p>"+
-					"<p>"+feature.properties["ADDRESS:"]+"</p>"+
-					//"<p>"+feature.properties["CONTACT:"]+"</p>"+
-					"<p> Hours: "+feature.properties["TIMES:"]+"</p>"+
-					"<p><a href='details/'>Details</a></p>")
-				.addTo(map);
+			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
 		}); 
 
     	// Add Search Functionality
@@ -98,5 +125,11 @@
 		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
 
 	</script>
+
+	{% for source in site.data['food_banks_andrew'] %}
+	<ul>
+		<li><a href="source/{{ source['name'] | downcase | replace: ' ', '-' | replace: '/', '-' | replace: '&', '-' }}">{{ source['name'] }}</a></li>
+	</ul>
+	{% endfor %}
 </body>
 </html>

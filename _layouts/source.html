@@ -1,14 +1,17 @@
+---
+layout: null
+---
 <!doctype html>
 <html>
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>Food Source Details / Food Oasis LA</title>
+	<title>{{ page.title }} / Food Oasis LA</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
-	<link rel="stylesheet" href="../assets/css/oasis.css" />
-	<link rel="stylesheet" href="../leaflet/leaflet.css" />	
+	<link rel="stylesheet" href="../../assets/css/oasis.css" />
+	<link rel="stylesheet" href="../../assets/leaflet/leaflet.css" />	
 	
 	<!-- Need the following files to enable Mapbox -->
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
@@ -16,12 +19,18 @@
     
 </head>
 <body>
-	<p><a href="../"><img src="../assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></a></p>
+	<p><a href="../../"><img src="../../assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></a></p>
 	
 	<div id="map" class="mapbox details"></div>
 	
-	<script src="../assets/leaflet/leaflet.js"></script>
+	<script src="../../assets/leaflet/leaflet.js"></script>
 	<script>
+
+		var SOURCE = {
+			name: '{{ page.source['name'] }}',
+			latitude: {{ page.source['latitude'] }},
+			longitude: {{ page.source['longitude'] }},
+		} 
 
 		// var map = L.map('map', { zoomControl:false }).setView([-118.243685, 34.052234], 16);
 
@@ -30,7 +39,7 @@
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
-			center: [-118.243685, 34.052234], // starting position
+			center: [SOURCE.longitude, SOURCE.latitude], // starting position
 			zoom: 14, // starting zoom
 			interactive: false // static map
 		});
@@ -54,10 +63,10 @@
 		                "type": "Feature",
 		                "geometry": {
 		                    "type": "Point",
-		                    "coordinates": [-118.243685, 34.052234]
+		                    "coordinates": [SOURCE.longitude, SOURCE.latitude]
 		                },
 		                "properties": {
-		                    "title": "1st Street Baptist Church",
+		                    "title": SOURCE.name,
 		                    "icon": "mymarker"
 		                }
 		            }]
@@ -91,37 +100,37 @@
 	</script>
 	
 	<div class="page-contents">
-
-		<h1>1st Street Baptist Church</h1>
+		<h1>{{ page.source['name'] }}</h1>
 
 		<p>
-			<span class="title"><!--<img class="icon" src="../assets/images/icons/category.svg" width="30" alt="" />--> <span>Category</span></span><br />
+			<span class="title"><!--<img class="icon" src="../../assets/images/icons/category.svg" width="30" alt="" />--> <span>Category</span></span><br />
 			Food Bank
 		</p>
 
 		<p>
-			<span class="title"><img class="icon" src="../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			12345 1st Street<br />
-			Los Angeles, CA 90038<br />
-			<a href="http://maps.google.com/">Get Directions</a>
+			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
+			{{ page.source['address'] }}<br />
+			<a href="http://maps.google.com/maps/place/{{ page.source['address'] }}">Get Directions</a>
 		</p>
 
 		<p>
-			<span class="title"><img class="icon" src="../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
-			310-111-2222
+			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
+			{{ page.source['phone'] }}
 		</p>
 		<p>
-			<span class="title"><img class="icon" src="../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
+			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
 			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
-				1st Street Baptist Church on Yelp
+				PLACEHOLDER: {{ page.source['name'] }} on Yelp
 			</a>
 		</p>
 
 		<p>
-			<span class="title"><img class="icon" src="../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
+			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
 			
 		</p>
 
+		<p>{{ page.source['hours'] }}</p>
+		<!--
 		<dl>
 			<dt>Monday</dt>
 			<dd>11:00 am - 7:00 pm</dd>
@@ -145,6 +154,7 @@
 			<dt>Sunday</dt>
 			<dd>11:00 am - 7:00 pm</dd>
 		</dl>
+		-->
 	</div>
 </body>
 </html>
