@@ -30,7 +30,9 @@ Run this command…
 jekyll build
 ```
 
-### Step 4: Publish
+### Step 4: Commit your changes to `master`
+
+### Step 5: Publish
 
 When you generate the site, Jekyll creates a folder called `_site` within your project folder.
 
