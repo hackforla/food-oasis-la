@@ -22,7 +22,7 @@ gem install jekyll
 
 Clone the **[site](https://github.com/foodoasisla/site)** repository and make your changes.
 
-### Step 3: Commit your changes to `master`
+### Step 3: Commit your changes
 
 ### Step 4: Generate the site with Jekyll
 
