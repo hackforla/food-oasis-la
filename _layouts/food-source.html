@@ -19,7 +19,7 @@ layout: null
 </head>
 <body class="food-source">
 	<p><a href="../../"><!-- ⇠ -->Back to the map</a></p>
-	<h1>{{ page.source['name'] }}</h1>
+	<h1>{{ page.food_source['name'] }}</h1>
 
 	<p>
 		<!--
@@ -34,9 +34,9 @@ layout: null
 	<script>
 
 		var SOURCE = {
-			name: '{{ page.source['name'] }}',
-			latitude: {{ page.source['latitude'] }},
-			longitude: {{ page.source['longitude'] }},
+			name: '{{ page.food_source['name'] }}',
+			latitude: {{ page.food_source['latitude'] }},
+			longitude: {{ page.food_source['longitude'] }},
 		} 
 
 		// var map = L.map('map', { zoomControl:false }).setView([-118.243685, 34.052234], 16);
@@ -110,18 +110,18 @@ layout: null
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.source['address'] }}">{{ page.source['address'] }}</a>
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] }}">{{ page.food_source['address'] }}</a>
 		</p>
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
-			{{ page.source['phone'] }}
+			{{ page.food_source['phone'] }}
 		</p>
 		<!--
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
 			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
-				PLACEHOLDER: {{ page.source['name'] }} on Yelp
+				PLACEHOLDER: {{ page.food_source['name'] }} on Yelp
 			</a>
 		</p>
 		-->
@@ -131,7 +131,7 @@ layout: null
 			
 		</p>
 
-		<p>{{ page.source['hours'] }}</p>
+		<p>{{ page.food_source['hours'] }}</p>
 		<!--
 		<dl>
 			<dt>Monday</dt>

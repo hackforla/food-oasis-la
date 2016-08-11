@@ -175,7 +175,13 @@ layout: null
 			html.push('<div class="map-point-details">');
 
 			if (name && showLink) {
-				html.push('<h3><a href="source/' + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-').replace(/\./g, '-') + '/">' + name + '</a></h3>');
+				var uri = name.toLowerCase().replace(/\s/g, '-')
+											.replace(/\//g, '-')
+											.replace(/\&/g, '-')
+											.replace(/\./g, '-')
+											.replace(/\'/g, '')
+											.replace(/\-\-/g, '-')
+				html.push('<h3><a href="/source/' + uri + '/">' + name + '</a></h3>');
 			} else if (name) {
 				html.push('<h3>' + name + '</h3>');
 			}
