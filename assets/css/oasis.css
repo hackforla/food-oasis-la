@@ -27,9 +27,18 @@ img {
   margin-right: -1.5rem;
 }
 
-/* Make the map shorter on the details page */
-.mapbox.details {
-  height: 150px;
+.map-point-details h3 {
+  margin-top: 0;
+}
+.map-point-details h4 {
+  margin-bottom: 0;
+}
+.map-point-details .hours {
+  margin-top: 0;
+  max-width: 15em;
+}
+.map-point-details p:last-child {
+  margin-bottom: 0;
 }
 
 .title {
@@ -62,3 +71,96 @@ img {
   }
 }
 
+
+
+.home .header {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+}
+.home .header h1 {
+  color: white;
+  font-size: inherit;
+  margin: 0;
+  padding: 0.375em 0.75em;
+}
+
+.home .mapbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+@media (min-width: 20em) {
+  .home .header {
+    bottom: 25px;
+  }
+}
+@media (min-width: 40em) {
+  .home .header {
+    right: auto;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+
+
+.food-source footer h2 {
+  font-size: inherit;
+  margin-top: 3em;
+}
+.food-source h1 {
+  margin-bottom: 0;
+}
+.food-source h1 + p {
+  margin-bottom: 1.5em;
+}
+
+.food-source .mapbox {
+  height: 150px;
+}
+
+/* OPTIONAL: Make the map taller on larger screens. */
+@media (min-height: 500px) {
+  .food-source .mapbox {
+    height: 33vh;
+  }
+}
+
+@media (min-width: 60em) {
+
+/* Make the map shorter on the details page */
+.food-source .mapbox {
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 500px;
+  height: 100vh;
+}
+.food-source .page-contents {
+  width: 45%;
+}
+}
+@media (min-width: 60em) and (min-height: 40em) {
+  .food-source footer h2 {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 1.5em;
+    left: 3em;
+  }
+}
+@media (min-height: 50em) {
+  .food-source footer h2 {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 1.5em;
+    left: 3em;
+  }
+}

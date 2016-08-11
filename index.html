@@ -9,7 +9,7 @@ layout: null
 
 	<title>Food Oasis LA</title>
 	
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi" />
 	<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
 	<link rel="stylesheet" href="assets/css/oasis.css" />
 
@@ -18,36 +18,14 @@ layout: null
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
-	
 </head>
-<body>
-	<nav>
-		<h1><img src="assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></h1>
-	</nav>
-
+<body class="home">
 	<div class="header">
-		<p>
-			<a href="about/">
-				<img class="icon" src="assets/images/icons/info.svg" width="30" alt="" />
-				About this project
-			</a>
-		</p>
+		<h1><a href="about/">Food Oasis Los Angeles</a></h1>
 	</div>
 
-	<!--
-	<form action="" method="post">
-		<h2>Find food sources</h2>
-		<p>
-			<label>
-				Enter your address<br />
-				<input type="search" name="address" />
-			</label>
-			<button>Submit</button>
-		</p>
-	</form>
-	-->
-
 	<div id="map" class="mapbox"></div>
+
 	<script src="assets/leaflet/leaflet.js"></script>
 	<script>
 
@@ -149,13 +127,36 @@ layout: null
 			}
 
 			var feature = features[0];
-			var name = feature.properties["name"] || feature.properties["Name"] || feature.properties["NAME"] || feature.properties["NAME:"] || feature.properties["MarketName"];
-			var hours = feature.properties["times"] || feature.properties["Times"] || feature.properties["TIMES"] || feature.properties["TIMES:"];
-			var telephone = feature.properties["telephone"] || feature.properties["Telephone"] || feature.properties["CONTACT"] || feature.properties["CONTACT:"];
+
+			// Name
+			var name = 	feature.properties["name"] || 
+						feature.properties["Name"] ||
+						feature.properties["NAME"] ||
+						feature.properties["NAME:"] ||
+						feature.properties["MarketName"];
+
+			// Hours
+			var hours = feature.properties["times"] ||
+						feature.properties["Times"] ||
+						feature.properties["TIMES"] ||
+						feature.properties["TIMES:"];
+
+			// Phone
+			var telephone = feature.properties["telephone"] ||
+							feature.properties["Telephone"] ||
+							feature.properties["CONTACT"] ||
+							feature.properties["CONTACT:"];
+
+			// Address
 			var address = "";
-			var street = feature.properties["address"] || feature.properties["Address"] || feature.properties["ADDRESS"] || feature.properties["ADDRESS:"];
-			var city = feature.properties["city"] || feature.properties["City"];
-			var state = feature.properties["state"] || feature.properties["State"];
+			var street = 	feature.properties["address"] ||
+							feature.properties["Address"] ||
+							feature.properties["ADDRESS"] ||
+							feature.properties["ADDRESS:"];
+			var city = 	feature.properties["city"] ||
+						feature.properties["City"];
+			var state = feature.properties["state"] ||
+						feature.properties["State"];
 			if (street) address += street;
 			if (city) address += (street ? '<br />' : '') + city;
 			if (state) address += (city ? ', ' : (street ? '<br />' : '')) + state;
@@ -165,22 +166,28 @@ layout: null
 
 			var html = [];
 
-			html.push("<p>" + name + "</p>");
+			html.push('<div class="map-point-details">');
+
+			if (name && showLink) {
+				html.push('<h3><a href="source/' + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-') + '/">' + name + '</a></h3>');
+			} else if (name) {
+				html.push('<h3>' + name + '</h3>');
+			}
 			if (address) {
-				html.push("<p>" + address + "</p>");
+				html.push('<p>' + address + '</p>');
+			}
+			if (telephone) {
+				html.push('<p>' + telephone + '</p>');
 			}
 			// html.push("<p>"+feature.properties["CONTACT"]+"</p>");
 			if (hours) {
-				html.push("<p> Hours: " + hours + "</p>");
-			}
-			if (telephone) {
-				html.push("<p>" + telephone + "</p>");
-			}
-			if (name && showLink) {
-				html.push("<p><a href='source/" + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-') + "/'>Details</a></p>");
+				html.push('<h4>Hours</h4>');
+				html.push('<p class="hours">' + hours + '</p>');
 			}
 
-			console.log(feature);//Displays the contents as an array in the console log
+			html.push('</div>');
+
+			//console.log(feature);//Displays the contents as an array in the console log
 
 			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
 		}); 
@@ -192,12 +199,14 @@ layout: null
 
 	</script>
 
+	{% if false %}
 	<h2>Food Banks</h2>
 	<ul>
 	{% for source in site.data['food_banks_andrew'] %}
 		<li><a href="source/{{ source['name'] | downcase | replace: ' ', '-' | replace: '/', '-' | replace: '&', '-' }}">{{ source['name'] }}</a></li>
 	{% endfor %}
 	</ul>
+	{% endif %}
 	
 </body>
 </html>

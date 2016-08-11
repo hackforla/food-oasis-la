@@ -9,19 +9,26 @@ layout: null
 
 	<title>{{ page.title }} / Food Oasis LA</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi" />
 	<link rel="stylesheet" href="../../assets/css/oasis.css" />
 	<link rel="stylesheet" href="../../assets/leaflet/leaflet.css" />	
 	
 	<!-- Need the following files to enable Mapbox -->
 	<script src='https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
 	<link href='https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-    
 </head>
-<body>
-	<p><a href="../../"><img src="../../assets/images/food-oasis-la.svg" width="300" alt="Food Oasis LA" /></a></p>
+<body class="food-source">
+	<p><a href="../../"><!-- ⇠ -->Back to the map</a></p>
+	<h1>{{ page.source['name'] }}</h1>
+
+	<p>
+		<!--
+		<span class="title"><img class="icon" src="../../assets/images/icons/category.svg" width="30" alt="" /> <span>Category</span></span><br />
+		-->
+		Food Bank
+	</p>
 	
-	<div id="map" class="mapbox details"></div>
+	<div id="map" class="mapbox"></div>
 	
 	<script src="../../assets/leaflet/leaflet.js"></script>
 	<script>
@@ -100,29 +107,24 @@ layout: null
 	</script>
 	
 	<div class="page-contents">
-		<h1>{{ page.source['name'] }}</h1>
-
-		<p>
-			<span class="title"><!--<img class="icon" src="../../assets/images/icons/category.svg" width="30" alt="" />--> <span>Category</span></span><br />
-			Food Bank
-		</p>
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			{{ page.source['address'] }}<br />
-			<a href="http://maps.google.com/maps/place/{{ page.source['address'] }}">Get Directions</a>
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.source['address'] }}">{{ page.source['address'] }}</a>
 		</p>
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
 			{{ page.source['phone'] }}
 		</p>
+		<!--
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
 			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
 				PLACEHOLDER: {{ page.source['name'] }} on Yelp
 			</a>
 		</p>
+		-->
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
@@ -156,5 +158,8 @@ layout: null
 		</dl>
 		-->
 	</div>
+	<footer>
+		<h2><a href="../../about/">Food Oasis Los Angeles</a></h2>
+	</footer>
 </body>
 </html>
