@@ -18,11 +18,13 @@ Once you have Ruby installed, you can install Jekyll from your terminal with thi
 gem install jekyll
 ```
 
-### Step 2: Make your changes
+### Step 2: Make your changes to the source code
 
-Clone the **[site](https://github.com/foodoasisla/site)** repository and make your changes.
+a. Clone this `site` repository… [github.com/foodoasisla/site](https://github.com/foodoasisla/site)
 
-### Step 3: Commit your changes
+b. Make your changes
+
+c. Commit and push your changes
 
 ### Step 4: Generate the site with Jekyll
 
@@ -38,6 +40,10 @@ When you generate the site, Jekyll creates a folder called `_site` within your p
 
 To publish your changes…
 
-1. Clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) respository.
-2. Overwrite those files with the contents of your `_site` folder.
-3. Push your changes, and you’re done!
+a. Clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) respository.
+
+b. Overwrite those files with the contents of your `_site` folder.
+
+c. Commit and push your changes.
+
+And you’re done!
