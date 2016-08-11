@@ -97,14 +97,14 @@
 	body.home {
 		margin-bottom: 0;
 	}
-	.home .header h1 {
+	.header h1 {
 		color: white;
 		font-size: 1.5em;
 		font-weight: inherit;
 		margin: -1.5rem -1.5rem 0;
 		text-align: center;
 	}
-	.home .header a {
+	.header a {
 		display: block;
 		padding: 0.375em 0.75em;
 		text-decoration: none;
@@ -112,11 +112,14 @@
 		color: white;
 		opacity: 0.95;
 	}
-	.home .header a span {
+	.header a span {
 		opacity: 0.65;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		margin-left: 0.25em;
 	}
 	@media (min-width: 30em) {
-		.home .header h1 {
+		.header h1 {
 			margin-left: -3rem;
 			margin-right: -3rem
 		}
@@ -126,18 +129,6 @@
 		height: 500px;
 		height: 100vh;
 		height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */
-	}
-	@media (min-width: 20em) {
-		.home .header {
-			bottom: 25px;
-		}
-	}
-	@media (min-width: 40em) {
-		.home .header {
-			right: auto;
-			left: 0;
-			bottom: 0;
-		}
 	}
 
 
@@ -154,12 +145,6 @@
 		font-weight: bold;
 	}
 
-
-
-	.food-source footer h2 {
-		font-size: inherit;
-		margin-top: 3em;
-	}
 	.food-source h1 {
 		margin-bottom: 0;
 	}
@@ -178,35 +163,19 @@
 		}
 	}
 
+	/* OPTIONAL: Position the map on the right side, on really big screens. */
 	@media (min-width: 60em) {
-
-	/* Make the map shorter on the details page */
-	.food-source .mapbox {
-		width: 50%;
-		margin: 0;
-		position: absolute;
-		top: 0;
-		right: 0;
-		height: 500px;
-		height: 100vh;
-	}
-	.food-source .page-contents {
-		width: 45%;
-	}
-	}
-	@media (min-width: 60em) and (min-height: 40em) {
-		.food-source footer h2 {
-			margin-bottom: 0;
+		.food-source .mapbox {
+			width: 50%;
+			margin: 0;
 			position: absolute;
-			bottom: 1.5em;
-			left: 3em;
+			top: 3.375rem;
+			right: 0;
+			height: 500px;
+			height: 100vh;
+			height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */
 		}
-	}
-	@media (min-height: 50em) {
-		.food-source footer h2 {
-			margin-bottom: 0;
-			position: absolute;
-			bottom: 1.5em;
-			left: 3em;
+		.food-source .page-contents {
+			width: 45%;
 		}
 	}
