@@ -20,7 +20,7 @@ gem install jekyll
 
 ### Step 2: Make your changes
 
-Check out the `master` branch of this project and make your changes.
+Clone the **[site](https://github.com/foodoasisla/site)** repository and make your changes.
 
 ### Step 3: Commit your changes to `master`
 
