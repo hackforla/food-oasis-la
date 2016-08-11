@@ -1,167 +1,201 @@
-@charset "utf-8";
+
+	@charset "utf-8";
+
+	/*
+	Oasis Style Sheet
+
+	Sections are grouped under headings with a “=” symbol,
+	to make searching easier.
+
+	When a style is used more than once, it sometimes has a “@keyword”
+	in a comment next to it (to help with search and replace).
+
+	For example…
+
+	16px  @font-size
+	24px  @line-height
+	32em  @page-max-width
+	*/
 
 
-body {
-
-	margin: 1.5em;
-	padding: 0;
-	font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 100%;
-	line-height: 1.5; /* @page-margin */
-}
-
-a {
-	color: #4D5594;
-}
-a:visited {
-	color: #562949;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-.mapbox {
-	height: 600px;
-	margin-left: -1.5rem; /* @page-margin */
-	margin-right: -1.5rem;
-}
-
-.map-point-details h3 {
-	margin-top: 0;
-}
-.map-point-details h4 {
-	margin-bottom: 0;
-}
-.map-point-details .hours {
-	margin-top: 0;
-	max-width: 15em;
-}
-.map-point-details p:last-child {
-	margin-bottom: 0;
-}
-
-.title {
-	display: block;
-	margin-bottom: 0.5em;
-}
-.title + br {
-	display: none;
-}
-.icon {
-	vertical-align: middle;
-	width: 20px;
-	margin-right: 0.25em;
-}
-.icon + span {
-	font-weight: bold;
-}
-
-
-
-@media (min-width: 30em) {
+	/* =Elements
+	----------------------------------------------- */
 	body {
-		margin-left: 3em; /* @page-margin-widescreen */
-		margin-right: 3em; /* @page-margin-widescreen */
-		margin-bottom: 3em; /* @page-margin-widescreen */
+		background: white;
+		color: black;
+		margin: 1.5em;
+		padding: 0;
+		font: 100%/1.5 "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 	}
+
+	@media (min-width: 30em) {
+		body {
+			margin-left: 3em; /* @page-margin-widescreen */
+			margin-right: 3em; /* @page-margin-widescreen */
+			margin-bottom: 3em; /* @page-margin-widescreen */
+		}
+	}
+
+	a {
+		color: #4D5594;
+	}
+	a:visited {
+		color: #562949;
+	}
+
+ 	/* Shrink images to fit the available space */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	/* Make new HTML elements look nice in older browsers */
+	main, section, article, aside, nav, header, footer, figure {
+		display: block;
+	}
+
+
+	.icon {
+		vertical-align: middle;
+		width: 20px;
+		margin-right: 0.25em;
+	}
+
+
+	/* =Map
+	----------------------------------------------- */
 	.mapbox {
-		margin-left: -3rem; /* @page-margin-widescreen */
-		margin-right: -3rem;
+		height: 600px;
+		margin-left: -1.5rem; /* @page-margin */
+		margin-right: -1.5rem;
 	}
-}
 
-
-
-.home .header {
-	position: absolute;
-	bottom: 50px;
-	right: 0;
-	z-index: 1;
-	background: rgba(255, 255, 255, 0.5);
-}
-.home .header h1 {
-	color: white;
-	font-size: inherit;
-	margin: 0;
-	padding: 0.375em 0.75em;
-}
-
-.home .mapbox {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-}
-@media (min-width: 20em) {
-	.home .header {
-		bottom: 25px;
+	@media (min-width: 30em) {
+		.mapbox {
+			margin-left: -3rem; /* @page-margin-widescreen */
+			margin-right: -3rem;
+		}
 	}
-}
-@media (min-width: 40em) {
+
+	.map-point-details h3 {
+		margin-top: 0;
+	}
+	.map-point-details h4 {
+		margin-bottom: 0;
+	}
+	.map-point-details .hours {
+		margin-top: 0;
+		max-width: 15em;
+	}
+	.map-point-details p:last-child {
+		margin-bottom: 0;
+	}
+
+
+	/* =Home
+	----------------------------------------------- */
 	.home .header {
-		right: auto;
+		position: absolute;
+		bottom: 50px;
+		right: 0;
+		z-index: 1;
+		background: rgba(255, 255, 255, 0.5);
+	}
+	.home .header h1 {
+		color: white;
+		font-size: inherit;
+		margin: 0;
+		padding: 0.375em 0.75em;
+	}
+
+	.home .mapbox {
+		position: absolute;
+		top: 0;
 		left: 0;
-		bottom: 0;
+		width: 100%;
+		height: 100%;
+		margin: 0;
 	}
-}
+	@media (min-width: 20em) {
+		.home .header {
+			bottom: 25px;
+		}
+	}
+	@media (min-width: 40em) {
+		.home .header {
+			right: auto;
+			left: 0;
+			bottom: 0;
+		}
+	}
+
+
+	/* =Food Source
+	----------------------------------------------- */
+	.food-source .title {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.food-source .title + br {
+		display: none;
+	}
+	.food-source .icon + span {
+		font-weight: bold;
+	}
 
 
 
-.food-source footer h2 {
-	font-size: inherit;
-	margin-top: 3em;
-}
-.food-source h1 {
-	margin-bottom: 0;
-}
-.food-source h1 + p {
-	margin-bottom: 1.5em;
-}
+	.food-source footer h2 {
+		font-size: inherit;
+		margin-top: 3em;
+	}
+	.food-source h1 {
+		margin-bottom: 0;
+	}
+	.food-source h1 + p {
+		margin-bottom: 1.5em;
+	}
 
-.food-source .mapbox {
-	height: 150px;
-}
-
-/* OPTIONAL: Make the map taller on larger screens. */
-@media (min-height: 500px) {
 	.food-source .mapbox {
-		height: 33vh;
+		height: 150px;
 	}
-}
 
-@media (min-width: 60em) {
+	/* OPTIONAL: Make the map taller on larger screens. */
+	@media (min-height: 500px) {
+		.food-source .mapbox {
+			height: 33vh;
+		}
+	}
 
-/* Make the map shorter on the details page */
-.food-source .mapbox {
-	width: 50%;
-	margin: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 500px;
-	height: 100vh;
-}
-.food-source .page-contents {
-	width: 45%;
-}
-}
-@media (min-width: 60em) and (min-height: 40em) {
-	.food-source footer h2 {
-		margin-bottom: 0;
+	@media (min-width: 60em) {
+
+	/* Make the map shorter on the details page */
+	.food-source .mapbox {
+		width: 50%;
+		margin: 0;
 		position: absolute;
-		bottom: 1.5em;
-		left: 3em;
+		top: 0;
+		right: 0;
+		height: 500px;
+		height: 100vh;
 	}
-}
-@media (min-height: 50em) {
-	.food-source footer h2 {
-		margin-bottom: 0;
-		position: absolute;
-		bottom: 1.5em;
-		left: 3em;
+	.food-source .page-contents {
+		width: 45%;
 	}
-}
+	}
+	@media (min-width: 60em) and (min-height: 40em) {
+		.food-source footer h2 {
+			margin-bottom: 0;
+			position: absolute;
+			bottom: 1.5em;
+			left: 3em;
+		}
+	}
+	@media (min-height: 50em) {
+		.food-source footer h2 {
+			margin-bottom: 0;
+			position: absolute;
+			bottom: 1.5em;
+			left: 3em;
+		}
+	}
