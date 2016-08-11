@@ -15,7 +15,7 @@ module Jekyll
       @dir = dir
       @name = 'index.html'
       self.process('index.html')
-      self.read_yaml(File.join(base, '_layouts'), 'source.html')
+      self.read_yaml(base, 'food-source.html')
       self.data['title'] = source['name']
       self.data['source'] = source
     end
