@@ -28,11 +28,19 @@ c. Commit and push your changes
 
 ### Step 4: Generate the site with Jekyll
 
-Run this command…
+Run this command within your project folder…
 
 ```
 jekyll build
 ```
+
+If you want to preview the site on your machine, run the command `serve` instead…
+
+```
+jekyll serve
+```
+
+And then visit… [http://localhost:4000](http://localhost:4000)
 
 ### Step 5: Publish
 
