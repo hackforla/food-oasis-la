@@ -20,7 +20,7 @@ gem install jekyll
 
 ### Step 2: Make your changes to the source code
 
-a. Clone this `site` repository… [github.com/foodoasisla/site](https://github.com/foodoasisla/site)
+a. Clone the `site` repository… [github.com/foodoasisla/site](https://github.com/foodoasisla/site)
 
 b. Make your changes
 
