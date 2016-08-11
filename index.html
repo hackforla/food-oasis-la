@@ -31,11 +31,17 @@ layout: null
 
 		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 
+		var bounds = [
+			[33.7089729,-118.9442369], // Southwest coordinates
+			[34.8275538,-117.63282912]  // Northeast coordinates
+		];
+
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
 			center: [-118.243683, 34.052235], // starting position
-			zoom: 9 // starting zoom
+			zoom: 9, // starting zoom
+			maxBounds: bounds
 		});
 
 		var myLat = 0;
