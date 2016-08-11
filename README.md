@@ -2,7 +2,7 @@
 # Food Oasis
 
 This is a website with list of resources about food deserts and health. You can view the site here…
-https://foodoasisla.github.io/site
+https://foodoasisla.github.io
 
 ## How to make changes to the site
 
@@ -38,8 +38,6 @@ When you generate the site, Jekyll creates a folder called `_site` within your p
 
 To publish your changes…
 
-1. Move the `_site` folder out of your project to a temporary location.
-2. Switch to the `gh-pages` branch.
-3. Overwrite the files in your project with the contents of the `_site` folder.
-
-Now push your changes to the `gh-pages` branch. And you’re done!
+1. Clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) respository.
+2. Overwrite those files with the contents of your `_site` folder.
+3. Push your changes, and you’re done!
