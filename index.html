@@ -175,7 +175,7 @@ layout: null
 			html.push('<div class="map-point-details">');
 
 			if (name && showLink) {
-				html.push('<h3><a href="source/' + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-') + '/">' + name + '</a></h3>');
+				html.push('<h3><a href="source/' + name.toLowerCase().replace(/\s/g, '-').replace(/\//g, '-').replace(/\&/g, '-').replace(/\./g, '-') + '/">' + name + '</a></h3>');
 			} else if (name) {
 				html.push('<h3>' + name + '</h3>');
 			}
@@ -209,7 +209,7 @@ layout: null
 	<h2>Food Banks</h2>
 	<ul>
 	{% for source in site.data['food_banks_andrew'] %}
-		<li><a href="source/{{ source['name'] | downcase | replace: ' ', '-' | replace: '/', '-' | replace: '&', '-' }}">{{ source['name'] }}</a></li>
+		<li><a href="source/{{ source['uri'] }}">{{ source['name'] }}</a></li>
 	{% endfor %}
 	</ul>
 	{% endif %}

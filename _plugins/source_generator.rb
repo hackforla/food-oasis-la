@@ -3,7 +3,8 @@ module Jekyll
   class SourceListGenerator < Generator
     def generate(site)
       site.data['food_banks_andrew'].each do | source |
-        site.pages << SourcePage.new(site, "/", "source/#{ source['name'].downcase.gsub(" ", "-").gsub("/", "-").gsub("&", "-") }", source)
+        source['uri'] = source['name'].downcase.gsub(" ", "-").gsub("/", "-").gsub("&", "-").gsub(".", "-")
+        site.pages << SourcePage.new(site, "/", "source/#{ source['uri'] }", source)
       end
     end
   end
@@ -15,7 +16,7 @@ module Jekyll
       @dir = dir
       @name = 'index.html'
       self.process('index.html')
-      self.read_yaml(base, 'food-source.html')
+      self.read_yaml(File.join(base, '_layouts'), 'food-source.html')
       self.data['title'] = source['name']
       self.data['source'] = source
     end
