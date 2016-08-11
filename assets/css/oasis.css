@@ -97,6 +97,10 @@
 	body.home {
 		margin-bottom: 0;
 	}
+	.header {
+		position: relative;
+		z-index: 1;
+	}
 	.header h1 {
 		color: white;
 		font-size: 1.5em;
@@ -105,18 +109,14 @@
 		text-align: center;
 	}
 	.header a {
+		background: #90C246;
 		display: block;
 		padding: 0.375em 0.75em;
-		text-decoration: none;
-		background: #90C246;
-		color: white;
-		opacity: 0.95;
 	}
-	.header a span {
-		opacity: 0.65;
-		font-variant: small-caps;
-		text-transform: lowercase;
-		margin-left: 0.25em;
+	.header a img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	@media (min-width: 30em) {
 		.header h1 {
