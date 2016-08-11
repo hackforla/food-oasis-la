@@ -34,7 +34,7 @@ Run this command within your project folder…
 jekyll build
 ```
 
-If you want to preview the site on your machine, run the command `serve` instead…
+Or, if you want to preview the site on your machine…
 
 ```
 jekyll serve
@@ -55,3 +55,5 @@ b. Overwrite those files with the contents of your `_site` folder.
 c. Commit and push your changes.
 
 And you’re done!
+
+You can see your published changes at… [https://foodoasisla.github.io](https://foodoasisla.github.io)
