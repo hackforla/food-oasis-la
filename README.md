@@ -2,7 +2,7 @@
 # Food Oasis
 
 This is a website with list of resources about food deserts and health. You can view the site here…
-http://tamurafatherree.github.io/fooddesert
+https://foodoasisla.github.io/site
 
 ## How to make changes to the site
 
