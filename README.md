@@ -26,7 +26,7 @@ b. Make your changes
 
 c. Commit and push your changes
 
-### Step 4: Generate the site with Jekyll
+### Step 3: Generate the site with Jekyll
 
 Run this command within your project folder…
 
@@ -42,7 +42,7 @@ jekyll serve
 
 And then visit… [http://localhost:4000](http://localhost:4000)
 
-### Step 5: Publish
+### Step 4: Publish
 
 When you generate the site, Jekyll creates a folder called `_site` within your project folder.
 
@@ -53,6 +53,8 @@ a. Clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.
 b. Overwrite those files with the contents of your `_site` folder.
 
 c. Commit and push your changes.
+
+OPTIONAL: You can also clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) respository to your `_site` folder to save a step… [See step 11 in this Stack Overflow answer](http://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
 
 And you’re done!
 
