@@ -22,7 +22,10 @@
 	----------------------------------------------- */
 	body {
 		background: white;
+		background: rgb(243, 247, 235);
 		color: black;
+		color: rgb(27, 30, 23);
+		color: rgba(0, 0, 0, 0.9);
 		margin: 1.5em;
 		padding: 0;
 		font: 100%/1.5 "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
@@ -36,12 +39,18 @@
 		}
 	}
 
+	p {
+		max-width: 33em;
+	}
+
 	a {
 		color: #4D5594;
 	}
+	/*
 	a:visited {
 		color: #562949;
 	}
+	*/
 
  	/* Shrink images to fit the available space */
 	img {
@@ -59,6 +68,94 @@
 		vertical-align: middle;
 		width: 20px;
 		margin-right: 0.25em;
+	}
+
+
+	/* =Header
+	----------------------------------------------- */
+	.header {
+		position: relative;
+		z-index: 1;
+	}
+	.header h1 {
+		font-size: 1.5em;
+		font-weight: inherit;
+		margin: -1.5rem -1.5rem 0;
+		text-align: center;
+		background-color: rgb(144, 194, 70);
+		color: white;
+	}
+	.header a {
+		display: block;
+		padding: 0.375em 0.75rem;
+		text-align: right;
+	}
+	.header a img {
+		display: block;
+		opacity: 0.85;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	@media (min-width: 30em) {
+		.header h1 {
+			margin-left: -3rem;
+			margin-right: -3rem
+		}
+		.header a {
+			margin-right: 2.25rem;
+		}
+		.header a img {
+			margin-right: 0;
+		}
+	}
+
+
+	/* =Navigation
+	----------------------------------------------- */
+	nav {
+		margin-top: 1.5em;
+	}
+	@media (min-width: 30em) {
+		nav {
+			margin-top: 3em;
+		}
+	}
+	nav ul,
+	nav li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	nav li {
+		display: inline;
+	}
+	nav a {
+		display: inline-block;
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgb(243, 117, 104); /* @salmon */
+		background: rgb(209, 43, 43); /* @apple */
+		background: rgb(249, 192, 88); /* @canteloupe */
+		color: black;
+		color: rgba(0, 0, 0, 0.8);
+		text-decoration: none;
+		padding: 0.375em 1.5em;
+		border-radius: 0.25em;
+	}
+
+
+	/* =Main
+	----------------------------------------------- */
+	h1 {
+		margin-top: 1.5em;
+	}
+	main {
+		padding-bottom: 6em;
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	section {
+		margin-top: 3em;
 	}
 
 
@@ -97,35 +194,7 @@
 	body.home {
 		margin-bottom: 0;
 	}
-	.header {
-		position: relative;
-		z-index: 1;
-	}
-	.header h1 {
-		color: white;
-		font-size: 1.5em;
-		font-weight: inherit;
-		margin: -1.5rem -1.5rem 0;
-		text-align: center;
-	}
-	.header a {
-		background: #90C246;
-		display: block;
-		padding: 0.375em 0.75em;
-	}
-	.header a img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	@media (min-width: 30em) {
-		.header h1 {
-			margin-left: -3rem;
-			margin-right: -3rem
-		}
-	}
-
-	.home .mapbox {
+	body.home .mapbox {
 		height: 500px;
 		height: 100vh;
 		height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */

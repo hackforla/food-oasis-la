@@ -7,22 +7,37 @@ layout: null
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>Food Oasis Los Angeles</title>
+	<title>Food Banks in Los Angeles</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi" />
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 </head>
 <body class="home">
 	<div class="header">
-		<h1><a href="/about"><img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" /></a></h1>
+		<h1>
+			<a href="/about">
+				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
+			</a>
+		</h1>
 	</div>
+	<nav>
+		<ul>
+			<li><a href="/">Food Source Map</a></li>
+			<!--
+			<li><a href="/source">Food Sources</a></li>
+			<li><a href="/about">About</a></li>
+			-->
+		</ul>
+	</nav>
 
-	<h2>Food Banks</h2>
-	<ul>
-	{% for source in site.data['food_banks_andrew'] %}
-		<li><a href="/source/{{ source['uri'] }}">{{ source['name'] }}</a></li>
-	{% endfor %}
-	</ul>
+	<main>
+		<h1>Food Banks in Los Angeles</h1>
+		<ul>
+		{% for source in site.data['food_banks_andrew'] %}
+			<li><a href="/source/{{ source['uri'] }}">{{ source['name'] }}</a></li>
+		{% endfor %}
+		</ul>
+	</main>
 	
 </body>
 </html>
