@@ -16,18 +16,12 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
 
-    <script>
-		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
-		function getParameterByName(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-					results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, " "));
-		}
-	</script>
+    <style>
+    	h2 {
+    		margin-top: 3em;
+    	}
+    </style>
+
 </head>
 <body class="home">
 	<div class="header">
@@ -38,284 +32,26 @@
 		</h1>
 	</div>
 
-	<form action="/map" method="get">
-		<h1>Find food near you</h1>
-		<p>
-			<label>
-				<span>Enter your address</span><br />
-				<input type="text" name="address" placeholder="525 South Hewitt Street, Los Angeles" />
-			</label>
-			<button type="submit">Search</button>
-		</p>
-	</form>
-	<script>
-		var addressField = document.querySelector('input[name="address"]');
+	<main>
+		<form action="/map" method="get">
+			<h1>Find food near you</h1>
+			<p>
+				<label>
+					<span>Enter your address</span><br />
+					<input type="text" name="address" placeholder="525 South Hewitt Street, Los Angeles" />
+				</label>
+				<button type="submit">Search</button>
+			</p>
+		</form>
 
-		function addressAvailable() {
-			return addressField && addressField.value != null && addressField.value != '';
-		}
+		<h2>Food sources in Los Angeles</h2>
+		<ul>
+			<li><a href="/source">Food Banks</a></li>
+			<li><a>Farmers Markets</a></li>
+			<li><a>Urban Gardens</a></li>
+			<li><a>Grocery Stores</a></li>
+		</ul>
 
-		(function() {
-			// Persist the address, if it was passed to this page
-			var addressField = document.querySelector('input[name="address"]');
-			var address = getParameterByName('address');
-
-			if (address && addressField) {
-				addressField.value = address;
-			}
-
-			function addCityToAdddress() {
-				if (addressAvailable() && addressField.value.indexOf('Los Angeles') < 0) {
-					addressField.value = addressField.value + ', Los Angeles';
-				}
-			}
-			addCityToAdddress();
-
-			var form = document.querySelector('form');
-			form.addEventListener('submit', function(e) {
-				if (window.moveMapToAddress) {
-					addCityToAdddress();
-					window.moveMapToAddress()
-					e.preventDefault();
-					document.getElementById('map').scrollIntoView(false);
-				}
-			})
-		})();
-	</script>
-
-	<div id="map" class="mapbox"></div>
-
-	<!-- Jim’s Google Maps API key -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script
-
-	<script src="/assets/leaflet/leaflet.js"></script>
-	<script>
-
-		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
-
-		var bounds = [
-			[-118.9442369,33.7089729], // Southwest coordinates
-			[-117.63282912,34.8275538]  // Northeast coordinates
-		];
-
-		var map = new mapboxgl.Map({
-			container: 'map', // container id
-			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
-			center: [-118.243683, 34.052235], // starting position
-			zoom: 13, // starting zoom
-			maxBounds: bounds
-		});
-
-		// Add Search Functionality
-		//map.addControl(new mapboxgl.Geocoder());	
-
-		// Add 'Current Location' Functionality
-		map.addControl(new mapboxgl.Geolocate());
-
-		// Create a popup, but don't add it to the map yet.
-		var popup = new mapboxgl.Popup({
-			closeButton: false,
-			closeOnClick: false
-		});
-	
-		// Creates a popup on hover
-		map.on('click', function(e) {
-			var features = map.queryRenderedFeatures(e.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)','Farmers Markets (Solution)','Groceries (Problem)'] });
-
-			// Change the cursor style as a UI indicator.
-			map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
-			if (!features.length) {
-				popup.remove();
-				return;
-			}
-
-			var feature = features[0];
-
-			// Name
-			var name = 	feature.properties["name"] || 
-						feature.properties["Name"] ||
-						feature.properties["NAME"] ||
-						feature.properties["NAME:"] ||
-						feature.properties["MarketName"];
-
-			// Hours
-			var hours = feature.properties["times"] ||
-						feature.properties["Times"] ||
-						feature.properties["TIMES"] ||
-						feature.properties["TIMES:"];
-
-			// Phone
-			var telephone = feature.properties["telephone"] ||
-							feature.properties["Telephone"] ||
-							feature.properties["CONTACT"] ||
-							feature.properties["CONTACT:"];
-
-			// Address
-			var address = "";
-			var street = 	feature.properties["address"] ||
-							feature.properties["Address"] ||
-							feature.properties["ADDRESS"] ||
-							feature.properties["ADDRESS:"];
-			var city = 	feature.properties["city"] ||
-						feature.properties["City"];
-			var state = feature.properties["state"] ||
-						feature.properties["State"];
-			if (street) address += street;
-			if (city) address += (street ? '<br />' : '') + city;
-			if (state) address += (city ? ', ' : (street ? '<br />' : '')) + state;
-
-			// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-			var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
-
-			var html = [];
-
-			html.push('<div class="map-point-details">');
-
-			if (name && showLink) {
-				var uri = name.toLowerCase().replace(/\s/g, '-')
-											.replace(/\//g, '-')
-											.replace(/\&/g, '-')
-											.replace(/\./g, '-')
-											.replace(/\'/g, '')
-											.replace(/\-\-/g, '-')
-				html.push('<h3><a href="/source/' + uri + '/">' + name + '</a></h3>');
-			} else if (name) {
-				html.push('<h3>' + name + '</h3>');
-			}
-			if (address) {
-				html.push('<p>' + address + '</p>');
-			}
-			if (telephone) {
-				html.push('<p>' + telephone + '</p>');
-			}
-			// html.push("<p>"+feature.properties["CONTACT"]+"</p>");
-			if (hours) {
-				html.push('<h4>Hours</h4>');
-				html.push('<p class="hours">' + hours + '</p>');
-			}
-
-			html.push('</div>');
-
-			//console.log(feature);//Displays the contents as an array in the console log
-
-			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
-		}); 
-
-		function geocodeAddress(address, callback) {
-			var geocoder = new google.maps.Geocoder();
-
-			geocoder.geocode({'address': address}, function(results, status) {
-				if (status === google.maps.GeocoderStatus.OK) {
-
-					var longitude = results[0].geometry.location.lng();
-					var latitude  = results[0].geometry.location.lat();
-
-					// console.log('longitude: ' + longitude);
-					// console.log('latitude: ' + latitude);
-
-					callback([longitude, latitude]);
-
-				} else {
-					console.error('Geocode was not successful for the following reason: ' + status);
-				}
-			});
-		}
-
-		function moveMapToPosition(position) {
-			 map.setZoom(14);
-			 map.panTo(position);
-
-			var marker = document.createElement('div');
-			marker.className = 'marker';
-
-			var img = document.createElement('img');
-			img.className = 'icon';
-			img.src = '/assets/images/markers/green.svg';
-			marker.appendChild(img);
-
-			/*
-			var label = document.createElement('span');
-			label.className = 'label';
-			label.innerText = 'You are here' //addressField.value;
-			marker.appendChild(label);
-			*/
-
-			new mapboxgl.Marker(marker)
-				.setLngLat(position)
-				.addTo(map);
-		}
-
-		function moveMapToAddress() {
-			if (addressAvailable()) {
-				geocodeAddress(addressField.value, moveMapToPosition);
-			}
-		}
-
-		if (addressAvailable()) {
-			moveMapToAddress();
-
-		// Grab user's location on page-load
-		} else if ("geolocation" in navigator) {
-			navigator.geolocation.getCurrentPosition(function(position) {
-
-				// Set new starting location
-				var myCoords = [position.coords.longitude, position.coords.latitude];
-				moveMapToPosition(myCoords)
-
-				/*
-				// Place a current location marker
-				while (map.getCenter().toArray() == myCoords) {
-					// map.on('load', function () {
-					//     map.addSource("points", {
-					//         "type": "geojson",
-					//         "data": {
-					//             "type": "FeatureCollection",
-					//             "features": [{
-					//                 "type": "Feature",
-					//                 "geometry": {
-					//                     "type": "Point",
-					//                     "coordinates": myCoords
-					//                 },
-					//                 "properties": {
-					//                     "title": "My Location",
-					//                     "icon": mymarker
-					//                 }
-					//             }]
-					//         }
-					//     });
-
-					//     map.addLayer({
-					//         "id": "points",
-					//         "type": "symbol",
-					//         "source": "points",
-					//         "layout": {
-					//             "icon-image": "{icon}",
-					//             "text-field": "{title}",
-					//             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-					//             //"text-color": "#ffff00",
-					//             //"text-opacity": 0.75,
-					//             "text-offset": [0, 0.75],
-					//             "text-anchor": "top"
-					//         }
-					//     });
-					// });
-				}
-				*/
-
-				/*
-				function showPosition(position) {
-					//x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude; 
-
-				    myLat = position.coords.latitude;
-				    myLon = position.coords.longitude;
-				};
-				*/
-			}, function() {
-				console.error("Unable to retrieve your location");
-			});
-		}
-
-	</script>
-	
+	</main>
 </body>
 </html>

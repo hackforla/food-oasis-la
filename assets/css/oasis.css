@@ -284,6 +284,7 @@
 	body.home .mapbox {
 		height: 500px;
 		height: 100vh;
+		height: calc(100vh - 25rem); /* header height */
 		height: calc(100vh - 5.75rem); /* header height */
 	}
 
