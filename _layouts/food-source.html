@@ -2,7 +2,7 @@
 layout: null
 ---
 <!doctype html>
-<html>
+<html lang="en" dir="ltr">
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,18 +20,14 @@ layout: null
 <body class="food-source">
 	<div class="header">
 		<h2>
-			<a href="/about">
+			<a href="/">
 				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
 			</a>
 		</h2>
 	</div>
 	<nav>
 		<ul>
-			<li><a href="/">Food Source Map</a></li>
-			<!--
-			<li><a href="/source">Food Sources</a></li>
-			<li><a href="/about">About</a></li>
-			-->
+			<li><a href="/">Find food near you</a></li>
 		</ul>
 	</nav>
 
@@ -65,8 +61,11 @@ layout: null
 			//style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
 			center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
 			zoom: 14, // starting zoom
-			interactive: false // static map
+			scrollZoom: false // If  true , the "scroll to zoom" interaction is enable
 		});
+
+		var nav = new mapboxgl.Navigation({position: 'top-left'}); // position is optional
+		map.addControl(nav);
 
 		// var marker = new mapboxgl.Marker()
 		// 	.setLngLat([-118.243685, 34.052234])
@@ -83,7 +82,7 @@ layout: null
 
 		var img = document.createElement('img');
 		img.className = 'icon';
-		img.src = '/assets/images/orange-marker.svg';
+		img.src = '/assets/images/markers/orange.svg';
 		marker.appendChild(img);
 
 		var label = document.createElement('span');

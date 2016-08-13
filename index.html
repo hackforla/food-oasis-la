@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en" dir="ltr">
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,27 +7,88 @@
 	<title>Food Oasis Los Angeles</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
-	<link rel="stylesheet" href="assets/leaflet/leaflet.css" />
-	<link rel="stylesheet" href="assets/css/oasis.css" />
+	<link rel="stylesheet" href="/assets/leaflet/leaflet.css" />
+	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
 	<!-- Need the following files to enable Mapbox -->
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+
+    <script>
+		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+		function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+					results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+	</script>
 </head>
 <body class="home">
 	<div class="header">
 		<h1>
 			<a href="/about">
-				<img src="assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
+				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
 			</a>
 		</h1>
 	</div>
 
+	<form action="/map" method="get">
+		<h1>Find food near you</h1>
+		<p>
+			<label>
+				<span>Enter your address</span><br />
+				<input type="text" name="address" placeholder="525 South Hewitt Street, Los Angeles" />
+			</label>
+			<button type="submit">Search</button>
+		</p>
+	</form>
+	<script>
+		var addressField = document.querySelector('input[name="address"]');
+
+		function addressAvailable() {
+			return addressField && addressField.value != null && addressField.value != '';
+		}
+
+		(function() {
+			// Persist the address, if it was passed to this page
+			var addressField = document.querySelector('input[name="address"]');
+			var address = getParameterByName('address');
+
+			if (address && addressField) {
+				addressField.value = address;
+			}
+
+			function addCityToAdddress() {
+				if (addressAvailable() && addressField.value.indexOf('Los Angeles') < 0) {
+					addressField.value = addressField.value + ', Los Angeles';
+				}
+			}
+			addCityToAdddress();
+
+			var form = document.querySelector('form');
+			form.addEventListener('submit', function(e) {
+				if (window.moveMapToAddress) {
+					addCityToAdddress();
+					window.moveMapToAddress()
+					e.preventDefault();
+					document.getElementById('map').scrollIntoView(false);
+				}
+			})
+		})();
+	</script>
+
 	<div id="map" class="mapbox"></div>
 
-	<script src="assets/leaflet/leaflet.js"></script>
+	<!-- Jim’s Google Maps API key -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script
+
+	<script src="/assets/leaflet/leaflet.js"></script>
 	<script>
 
 		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
@@ -44,74 +105,9 @@
 			zoom: 13, // starting zoom
 			maxBounds: bounds
 		});
-		
-		var myLat = 0;
-	    var myLon = 0;
-	    var myCoords = [];		
-
-		function findMe() {
-			navigator.geolocation.getCurrentPosition(success, error);
-
-			function success(position) {
-			    // Set new starting location
-			    myLat = position.coords.latitude;
-			    myLon = position.coords.longitude;
-			    myCoords = [myLon, myLat];
-				map.panTo(myCoords);
-
-				// Place a current location marker
-				while (map.getCenter().toArray() == myCoords) {
-					// map.on('load', function () {
-					//     map.addSource("points", {
-					//         "type": "geojson",
-					//         "data": {
-					//             "type": "FeatureCollection",
-					//             "features": [{
-					//                 "type": "Feature",
-					//                 "geometry": {
-					//                     "type": "Point",
-					//                     "coordinates": myCoords
-					//                 },
-					//                 "properties": {
-					//                     "title": "My Location",
-					//                     "icon": mymarker
-					//                 }
-					//             }]
-					//         }
-					//     });
-
-					//     map.addLayer({
-					//         "id": "points",
-					//         "type": "symbol",
-					//         "source": "points",
-					//         "layout": {
-					//             "icon-image": "{icon}",
-					//             "text-field": "{title}",
-					//             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-					//             //"text-color": "#ffff00",
-					//             //"text-opacity": 0.75,
-					//             "text-offset": [0, 0.75],
-					//             "text-anchor": "top"
-					//         }
-					//     });
-					// });
-				};
-			};
-
-			function error() {
-				alert("Unable to retrieve your location");
-			};
-
-			function showPosition(position) {
-				//x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude; 
-
-			    myLat = position.coords.latitude;
-			    myLon = position.coords.longitude;
-			};
-		};
 
 		// Add Search Functionality
-		map.addControl(new mapboxgl.Geocoder());	
+		//map.addControl(new mapboxgl.Geocoder());	
 
 		// Add 'Current Location' Functionality
 		map.addControl(new mapboxgl.Geolocate());
@@ -205,9 +201,118 @@
 			popup.setLngLat(feature.geometry.coordinates).setHTML(html.join('')).addTo(map);
 		}); 
 
+		function geocodeAddress(address, callback) {
+			var geocoder = new google.maps.Geocoder();
+
+			geocoder.geocode({'address': address}, function(results, status) {
+				if (status === google.maps.GeocoderStatus.OK) {
+
+					var longitude = results[0].geometry.location.lng();
+					var latitude  = results[0].geometry.location.lat();
+
+					// console.log('longitude: ' + longitude);
+					// console.log('latitude: ' + latitude);
+
+					callback([longitude, latitude]);
+
+				} else {
+					console.error('Geocode was not successful for the following reason: ' + status);
+				}
+			});
+		}
+
+		function moveMapToPosition(position) {
+			 map.setZoom(15);
+			 map.panTo(position);
+
+			var marker = document.createElement('div');
+			marker.className = 'marker';
+
+			var img = document.createElement('img');
+			img.className = 'icon';
+			img.src = '/assets/images/markers/green.svg';
+			marker.appendChild(img);
+
+			/*
+			var label = document.createElement('span');
+			label.className = 'label';
+			label.innerText = 'You are here' //addressField.value;
+			marker.appendChild(label);
+			*/
+
+			new mapboxgl.Marker(marker)
+				.setLngLat(position)
+				.addTo(map);
+		}
+
+		function moveMapToAddress() {
+			if (addressAvailable()) {
+				geocodeAddress(addressField.value, moveMapToPosition);
+			}
+		}
+
+		if (addressAvailable()) {
+			moveMapToAddress();
+
 		// Grab user's location on page-load
-		if ("geolocation" in navigator) {
-			findMe()
+		} else if ("geolocation" in navigator) {
+			navigator.geolocation.getCurrentPosition(function(position) {
+
+				// Set new starting location
+				var myCoords = [position.coords.longitude, position.coords.latitude];
+				moveMapToPosition(myCoords)
+
+				/*
+				// Place a current location marker
+				while (map.getCenter().toArray() == myCoords) {
+					// map.on('load', function () {
+					//     map.addSource("points", {
+					//         "type": "geojson",
+					//         "data": {
+					//             "type": "FeatureCollection",
+					//             "features": [{
+					//                 "type": "Feature",
+					//                 "geometry": {
+					//                     "type": "Point",
+					//                     "coordinates": myCoords
+					//                 },
+					//                 "properties": {
+					//                     "title": "My Location",
+					//                     "icon": mymarker
+					//                 }
+					//             }]
+					//         }
+					//     });
+
+					//     map.addLayer({
+					//         "id": "points",
+					//         "type": "symbol",
+					//         "source": "points",
+					//         "layout": {
+					//             "icon-image": "{icon}",
+					//             "text-field": "{title}",
+					//             "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+					//             //"text-color": "#ffff00",
+					//             //"text-opacity": 0.75,
+					//             "text-offset": [0, 0.75],
+					//             "text-anchor": "top"
+					//         }
+					//     });
+					// });
+				}
+				*/
+
+				/*
+				function showPosition(position) {
+					//x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude; 
+
+				    myLat = position.coords.latitude;
+				    myLon = position.coords.longitude;
+				};
+				*/
+			}, function() {
+				console.error("Unable to retrieve your location");
+			});
 		}
 
 	</script>

@@ -77,7 +77,7 @@
 
 	.icon {
 		vertical-align: middle;
-		width: 20px;
+		width: 1.25em;
 		margin-right: 0.25em;
 	}
 
@@ -132,6 +132,11 @@
 	nav li {
 		display: inline;
 	}
+
+
+	/* =Button
+	----------------------------------------------- */
+	button,
 	nav a {
 		display: inline-block;
 		background: rgb(144, 194, 70); /* @lime */
@@ -140,10 +145,51 @@
 		background: rgb(249, 192, 88); /* @canteloupe */
 		color: black;
 		color: rgba(0, 0, 0, 0.8);
-		text-decoration: none;
 		padding: 0.375em 1.5em;
 		border-radius: 0.25em;
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		font-size: 1.25em;
+	}
+	nav a {
+		text-decoration: none;
+	}
+	button {
+		background-color: #90C246;
+		color: white;
+		cursor: pointer;
+		font-size: inherit;
+		text-transform: uppercase;
+	}
+	label span {
+		display: block;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 1.25em;
+		margin-bottom: 0.375em;
+	}
+	label br {
+		display: none;
+	}
+
+
+	/* =Field
+	----------------------------------------------- */
+	input[type=search] {
+	   -moz-appearance:none;
+	   -webkit-appearance:none;
+	}
+	input[type="text"],
+	input[type="search"] {
+		line-height: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.375em 0.75em;
+		border-radius: 0.25em;
+		border: 1px solid black;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		width: 20em;
+		max-width: 100%;
+		box-sizing: border-box;
 	}
 
 
@@ -214,14 +260,19 @@
 	}
 	.marker .label {
 		position: absolute;
-		top: 30px;
+		top: 1.875em;
 		width: 15em;
 		left: 50%;
 		text-align: center;
-		margin-left: -10em;
+		margin-left: -7.5em;
 		padding: 0.375em;
 		background: white;
 		background: rgba(255, 255, 255, 0.5)
+	}
+	@media (min-width: 30em) {
+		.marker {
+			font-size: 1.5rem;
+		}
 	}
 
 
@@ -262,7 +313,7 @@
 	}
 
 	.food-source .mapbox {
-		height: 150px;
+		height: 20em;
 	}
 
 	/* OPTIONAL: Make the map taller on larger screens. */
