@@ -116,6 +116,12 @@
 		display: block;
 		opacity: 0.85;
 	}
+	@media (max-width: 29.99999em) {
+		.header h1 img,
+		.header h2 img {
+			width: 100%;
+		}
+	}
 	@media (min-width: 30em) {
 		.header h1,
 		.header h2 {
@@ -157,6 +163,7 @@
 		border-radius: 0.25em;
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: transparent;
 		font-size: 1.25em;
 	}
 	nav a {
@@ -302,6 +309,76 @@
 		height: 100vh;
 		height: calc(100vh - 25rem); /* header height */
 		height: calc(100vh - 5.75rem); /* header height */
+	}
+
+
+	/* =Find
+	----------------------------------------------- */
+	body.find {
+		background-color: rgb(144, 194, 70); /* @lime */
+		background-color: rgb(249, 192, 88); /* @canteloupe */
+		/*
+		background-image: url(https://dollyskettle.com/wp-content/uploads/2016/07/usedgreen-peppers.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		*/
+		color: white;
+	}
+	body.find form a {
+		color: inherit;
+	}
+	body.find section h1,
+	body.find section h2 {
+		color: inherit;
+	}
+	body.find form h1,
+	body.find form h2 {
+		color: inherit;
+	}
+	body.find input[type="text"],
+	body.find button {
+		border-color: transparent;
+	}
+	body.find button {
+		background: white;
+		background: rgba(255, 255, 255, 0.8);
+	}
+	body.find section {
+		background: white;
+		color: black;
+		padding: 1.5em;
+		margin-left: -1.5em;
+		margin-right: -1.5em;
+	}
+	@media (min-width: 30em) {
+		body.find section {
+			padding: 3em;
+			margin-left: -3em;
+			margin-right: -3em;
+		}
+	}
+	body.find main h1 {
+		margin-top: 0;
+	}
+	body.find section h2 {
+		margin-top: 0;
+	}
+	body.find section h3 {
+		margin-top: 3em;
+	}
+	body.find form {
+		min-height: 50vh;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+	body.find {
+		margin-bottom: 0;
+	}
+	body.find main {
+		padding-bottom: 0;
 	}
 
 

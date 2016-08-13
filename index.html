@@ -10,45 +10,41 @@
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
     <script src="/assets/js/placeholder.js"></script>
-
-    <style>
-    	h2,
-    	h3 {
-    		margin-top: 3em;
-    	}
-    </style>
-
 </head>
-<body class="home">
+<body class="find">
 	<div class="header">
-		<h1>
-			<a href="/about">
+		<h2>
+			<a href="/">
 				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
 			</a>
-		</h1>
+		</h2>
 	</div>
 
 	<main>
 		<form action="/map" method="get">
-			<h1>Find food near you</h1>
-			<p>
-				<label>
-					<span>Address, Neighborhood, or Zip</span><br />
-					<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" />
-				</label>
-				<button type="submit">Go</button>
-			</p>
+			<div>
+				<h1>Find food near you</h1>
+				<p>
+					<label>
+						<span>Address, Neighborhood, or Zip</span><br />
+						<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" />
+					</label>
+					<button type="submit">Go</button>
+				</p>
+			</div>
 		</form>
 
-		<h2>Food sources in Los Angeles</h2>
-		<ul>
-			<li><a href="/source">Food Banks</a></li>
-			<li><a>Community Gardens</a></li>
-			<li><a>Farmers Markets</a></li>
-			<li><a>Grocery Stores</a></li>
-		</ul>
+		<section>
+			<h2>Food sources in Los Angeles</h2>
+			<ul>
+				<li><a href="/source">Food Banks</a></li>
+				<li><a>Community Gardens</a></li>
+				<li><a>Farmers Markets</a></li>
+				<li><a>Grocery Stores</a></li>
+			</ul>
 
-		<h3><img class="icon" src="../../assets/images/icons/info.svg" width="30" alt="" /> <a href="/about">About this project</a></h3>
+			<h3><img class="icon" src="../../assets/images/icons/info.svg" width="30" alt="" /> <a href="/about">About this project</a></h3>
+		</section>
 
 	</main>
 </body>
