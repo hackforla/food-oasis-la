@@ -95,14 +95,16 @@
 		color: white;
 		*/
 	}
-	.header a {
+	.header h1 a,
+	.header h2 a {
 		display: block;
 		padding: 1.125em 0.75rem;
 		text-align: right;
 		margin-left: 0.75rem;
 		margin-right: 0.75rem;
 	}
-	.header a img {
+	.header h1 img,
+	.header h2 img {
 		display: block;
 		opacity: 0.85;
 	}
@@ -112,7 +114,8 @@
 			margin-left: -3rem;
 			margin-right: -3rem
 		}
-		.header a {
+		.header h1 a,
+		.header h2 a {
 			margin-left: 2.25rem;
 		}
 	}
@@ -120,14 +123,6 @@
 
 	/* =Navigation
 	----------------------------------------------- */
-	nav {
-		margin-top: 1.5em;
-	}
-	@media (min-width: 30em) {
-		nav {
-			margin-top: 3em;
-		}
-	}
 	nav ul,
 	nav li {
 		list-style: none;
@@ -183,11 +178,28 @@
 		}
 	}
 
+	.map-point-details {
+		max-width: 80vw;
+		font-size: 1rem;
+	}
+	.map-point-details p {
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+	}
 	.map-point-details h3 {
+		margin-top: 0;
+		margin-bottom: 0.6em;
+		font-size: 1.25em;
+		line-height: 1.2;
+	}
+	.map-point-details h3 + p {
 		margin-top: 0;
 	}
 	.map-point-details h4 {
+		margin-top: 0;
 		margin-bottom: 0;
+		font-family: inherit;
+		font-weight: bold;
 	}
 	.map-point-details .hours {
 		margin-top: 0;
@@ -195,6 +207,21 @@
 	}
 	.map-point-details p:last-child {
 		margin-bottom: 0;
+	}
+	.marker {
+		position: relative;
+		font-size: 1rem;
+	}
+	.marker .label {
+		position: absolute;
+		top: 30px;
+		width: 15em;
+		left: 50%;
+		text-align: center;
+		margin-left: -10em;
+		padding: 0.375em;
+		background: white;
+		background: rgba(255, 255, 255, 0.5)
 	}
 
 

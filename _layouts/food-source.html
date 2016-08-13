@@ -41,7 +41,7 @@ layout: null
 		<!--
 		<span class="title"><img class="icon" src="../../assets/images/icons/category.svg" width="30" alt="" /> <span>Category</span></span><br />
 		-->
-		<a href="/source" title="View list of all food sources">Food Bank</a>
+		<a href="/source" title="List of Food Banks in Los Angeles">Food Bank</a>
 	</p>
 	
 	<div id="map" class="mapbox"></div>
@@ -61,8 +61,8 @@ layout: null
 		
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
-		    //style: 'mapbox://styles/mapbox/streets-v9',
-			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
+		    style: 'mapbox://styles/mapbox/light-v9',
+			//style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
 			center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
 			zoom: 14, // starting zoom
 			interactive: false // static map
@@ -78,6 +78,24 @@ layout: null
 		// var newctr = new mapboxgl.getCenter();
 		// var myLoc = mapboxgl.Marker().setLngLat(newctr).addTo(map);
 
+		var marker = document.createElement('div');
+		marker.className = 'marker';
+
+		var img = document.createElement('img');
+		img.className = 'icon';
+		img.src = '/assets/images/orange-marker.svg';
+		marker.appendChild(img);
+
+		var label = document.createElement('span');
+		label.className = 'label';
+		label.innerText = FOOD_SOURCE.name;
+		marker.appendChild(label);
+
+		new mapboxgl.Marker(marker)
+			.setLngLat([FOOD_SOURCE.longitude, FOOD_SOURCE.latitude])
+			.addTo(map);
+
+		/*
 		map.on('load', function () {
 		    map.addSource("points", {
 		        "type": "geojson",
@@ -112,6 +130,7 @@ layout: null
 		        }
 		    });
 		});
+		*/
 
 
 
