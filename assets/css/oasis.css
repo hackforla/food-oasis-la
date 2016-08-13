@@ -280,6 +280,7 @@
 	.marker {
 		position: relative;
 		font-size: 1rem;
+		line-height: 1.5;
 	}
 	.marker .label {
 		position: absolute;
@@ -299,12 +300,12 @@
 	}
 
 
-	/* =Home
+	/* =Map
 	----------------------------------------------- */
-	body.home {
+	body.map {
 		margin-bottom: 0;
 	}
-	body.home .mapbox {
+	body.map .mapbox {
 		height: 500px;
 		height: 100vh;
 		height: calc(100vh - 25rem); /* header height */
