@@ -14,9 +14,9 @@ To use Jekyll, you first need to [install Ruby and Jekyll](https://jekyllrb.com/
 
 a. Clone the `site` repository… [github.com/foodoasisla/site](https://github.com/foodoasisla/site)
 
-b. Make your changes
+b. Make your changes.
 
-c. Commit and push your changes
+c. Commit and push your changes.
 
 ### Step 2: Generate the site with Jekyll
 
