@@ -14,11 +14,11 @@ layout: null
 </head>
 <body class="home">
 	<div class="header">
-		<h1>
+		<h2>
 			<a href="/about">
 				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
 			</a>
-		</h1>
+		</h2>
 	</div>
 	<nav>
 		<ul>
@@ -31,7 +31,7 @@ layout: null
 	</nav>
 
 	<main>
-		<h1>Food Banks in Los Angeles</h1>
+		<h1>Food Banks in Los&nbsp;Angeles</h1>
 		<ul>
 		{% for source in site.data['food_banks_andrew'] %}
 			<li><a href="/source/{{ source['uri'] }}">{{ source['name'] }}</a></li>

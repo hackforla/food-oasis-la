@@ -82,7 +82,8 @@
 		position: relative;
 		z-index: 1;
 	}
-	.header h1 {
+	.header h1,
+	.header h2 {
 		font-size: 1.5em;
 		font-weight: inherit;
 		margin: -1.5rem -1.5rem 0;
@@ -102,7 +103,8 @@
 		margin-left: auto;
 	}
 	@media (min-width: 30em) {
-		.header h1 {
+		.header h1,
+		.header h2 {
 			margin-left: -3rem;
 			margin-right: -3rem
 		}
@@ -227,6 +229,9 @@
 	.food-source h1 {
 		margin-bottom: 0;
 	}
+	.food-source h1 span {
+		display: inline-block; /* Keep the last two words on the same line */
+	}
 	.food-source h1 + p {
 		margin-bottom: 1.5em;
 	}
@@ -254,6 +259,7 @@
 			height: 100vh;
 			height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */
 		}
+		.food-source h1,
 		.food-source .page-contents {
 			width: 45%;
 		}

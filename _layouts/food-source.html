@@ -19,11 +19,11 @@ layout: null
 </head>
 <body class="food-source">
 	<div class="header">
-		<h1>
+		<h2>
 			<a href="/about">
 				<img src="/assets/images/food-oasis-la-horizontal.svg" width="300" alt="Food Oasis Los Angeles" />
 			</a>
-		</h1>
+		</h2>
 	</div>
 	<nav>
 		<ul>
@@ -35,7 +35,7 @@ layout: null
 		</ul>
 	</nav>
 
-	<h1>{{ page.food_source['name'] }}</h1>
+	<h1>{{ page.name_html }}</h1>
 
 	<p>
 		<!--
@@ -126,12 +126,12 @@ layout: null
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] }}">{{ page.food_source['address'] }}</a>
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">{{ page.food_source['address'] | escape }}</a>
 		</p>
 
 		<p>
 			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
-			{{ page.food_source['phone'] }}
+			{{ page.food_source['phone'] | escape }}
 		</p>
 		<!--
 		<p>
@@ -147,7 +147,7 @@ layout: null
 			
 		</p>
 
-		<p>{{ page.food_source['hours'] }}</p>
+		<p>{{ page.food_source['hours'] | escape }}</p>
 		<!--
 		<dl>
 			<dt>Monday</dt>
