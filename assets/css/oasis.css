@@ -134,6 +134,17 @@
 		}
 	}
 
+	.header h1,
+	.header h2 {
+		background: rgb(249, 192, 88); /* @canteloupe */
+	}
+
+
+/* EXPERIMENTAL */
+.header + nav {
+	display: none;
+}
+
 
 	/* =Navigation
 	----------------------------------------------- */
@@ -424,10 +435,11 @@
 			width: 50%;
 			margin: 0;
 			position: absolute;
-			top: 0;
+			top: 5.75rem;
 			right: 0;
 			height: 500px;
 			height: 100vh;
+			height: calc(100vh - 5.75rem); /* header height */
 		}
 		.food-source h1,
 		.food-source .page-contents {
