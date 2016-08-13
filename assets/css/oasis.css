@@ -22,7 +22,10 @@
 	----------------------------------------------- */
 	body {
 		background: white;
+		background: rgb(255, 255, 245);
+		/*
 		background: rgb(252, 255, 245);
+		*/
 		color: black;
 		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
@@ -56,6 +59,9 @@
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
 	}
+	h1 {
+		margin-top: 1.5em;
+	}
 
  	/* Shrink images to fit the available space */
 	img {
@@ -78,29 +84,27 @@
 
 	/* =Header
 	----------------------------------------------- */
-	.header {
-		position: relative;
-		z-index: 1;
-	}
 	.header h1,
 	.header h2 {
 		font-size: 1.5em;
 		font-weight: inherit;
 		margin: -1.5rem -1.5rem 0;
 		text-align: center;
+		/*
 		background-color: rgb(144, 194, 70);
 		color: white;
+		*/
 	}
 	.header a {
 		display: block;
-		padding: 0.375em 0.75rem;
+		padding: 1.125em 0.75rem;
 		text-align: right;
+		margin-left: 0.75rem;
+		margin-right: 0.75rem;
 	}
 	.header a img {
 		display: block;
 		opacity: 0.85;
-		margin-right: auto;
-		margin-left: auto;
 	}
 	@media (min-width: 30em) {
 		.header h1,
@@ -109,10 +113,7 @@
 			margin-right: -3rem
 		}
 		.header a {
-			margin-right: 2.25rem;
-		}
-		.header a img {
-			margin-right: 0;
+			margin-left: 2.25rem;
 		}
 	}
 
@@ -153,12 +154,9 @@
 
 	/* =Main
 	----------------------------------------------- */
-	h1 {
-		margin-top: 1.5em;
-	}
 	main {
 		padding-bottom: 6em;
-		max-width: 40em;
+		max-width: 33em;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -208,7 +206,7 @@
 	body.home .mapbox {
 		height: 500px;
 		height: 100vh;
-		height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */
+		height: calc(100vh - 5.75rem); /* header height */
 	}
 
 
@@ -253,11 +251,10 @@
 			width: 50%;
 			margin: 0;
 			position: absolute;
-			top: 3.375rem;
+			top: 0;
 			right: 0;
 			height: 500px;
 			height: 100vh;
-			height: calc(100vh - 3.375rem); /* 2.25 x 1.5 */
 		}
 		.food-source h1,
 		.food-source .page-contents {

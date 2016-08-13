@@ -49,7 +49,7 @@ layout: null
 	<script src="../../assets/leaflet/leaflet.js"></script>
 	<script>
 
-		var SOURCE = {
+		var FOOD_SOURCE = {
 			name: '{{ page.food_source['name'] }}',
 			latitude: {{ page.food_source['latitude'] }},
 			longitude: {{ page.food_source['longitude'] }},
@@ -61,8 +61,9 @@ layout: null
 		
 		var map = new mapboxgl.Map({
 			container: 'map', // container id
+		    //style: 'mapbox://styles/mapbox/streets-v9',
 			style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
-			center: [SOURCE.longitude, SOURCE.latitude], // starting position
+			center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
 			zoom: 14, // starting zoom
 			interactive: false // static map
 		});
@@ -71,7 +72,7 @@ layout: null
 		// 	.setLngLat([-118.243685, 34.052234])
 		// 	.addTo(map);
 
-		map.addControl(new mapboxgl.Geolocate({}));
+		// map.addControl(new mapboxgl.Geolocate({}));
 		
 		// BELOW is the wrong syntax, need to figure out how to get geolocated coordinates!!!
 		// var newctr = new mapboxgl.getCenter();
@@ -86,10 +87,10 @@ layout: null
 		                "type": "Feature",
 		                "geometry": {
 		                    "type": "Point",
-		                    "coordinates": [SOURCE.longitude, SOURCE.latitude]
+		                    "coordinates": [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude]
 		                },
 		                "properties": {
-		                    "title": SOURCE.name,
+		                    "title": FOOD_SOURCE.name,
 		                    "icon": "mymarker"
 		                }
 		            }]
