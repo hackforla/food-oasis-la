@@ -210,6 +210,7 @@
 	/* =Food Source
 	----------------------------------------------- */
 	.food-source .title {
+		margin-top: 1.5em;
 		display: block;
 		margin-bottom: 0.5em;
 	}
