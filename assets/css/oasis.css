@@ -22,13 +22,13 @@
 	----------------------------------------------- */
 	body {
 		background: white;
-		background: rgb(243, 247, 235);
+		background: rgb(250, 255, 240);
 		color: black;
 		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
 		margin: 1.5em;
 		padding: 0;
-		font: 100%/1.5 "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
 
 	@media (min-width: 30em) {
@@ -51,6 +51,11 @@
 		color: #562949;
 	}
 	*/
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: normal;
+	}
 
  	/* Shrink images to fit the available space */
 	img {
@@ -140,6 +145,7 @@
 		text-decoration: none;
 		padding: 0.375em 1.5em;
 		border-radius: 0.25em;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 	}
 
 
@@ -211,7 +217,7 @@
 		display: none;
 	}
 	.food-source .icon + span {
-		font-weight: bold;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 	}
 
 	.food-source h1 {
