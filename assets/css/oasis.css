@@ -197,8 +197,17 @@
 		button {
 			width: 100%;
 		}
+		button {
+			margin-top: 0.375em;
+		}
 	}
 
+	/* OPTIONAL: Hide the label in browsers that support placeholder */
+	.supports-placeholder label span {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
 
 	/* =Main
 	----------------------------------------------- */

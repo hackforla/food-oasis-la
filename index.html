@@ -7,17 +7,13 @@
 	<title>Food Oasis Los Angeles</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
-	<link rel="stylesheet" href="/assets/leaflet/leaflet.css" />
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
-	<!-- Need the following files to enable Mapbox -->
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
-    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+    <script src="/assets/js/placeholder.js"></script>
 
     <style>
-    	h2 {
+    	h2,
+    	h3 {
     		margin-top: 3em;
     	}
     </style>
@@ -38,7 +34,7 @@
 			<p>
 				<label>
 					<span>Address, Neighborhood, or Zip</span><br />
-					<input type="text" name="address" placeholder="2465 Fruitland Avenue" />
+					<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" />
 				</label>
 				<button type="submit">Go</button>
 			</p>
@@ -51,6 +47,8 @@
 			<li><a>Farmers Markets</a></li>
 			<li><a>Grocery Stores</a></li>
 		</ul>
+
+		<h3><img class="icon" src="../../assets/images/icons/info.svg" width="30" alt="" /> <a href="/about">About this project</a></h3>
 
 	</main>
 </body>
