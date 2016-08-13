@@ -54,8 +54,8 @@ b. Overwrite those files with the contents of your `_site` folder.
 
 c. Commit and push your changes.
 
-OPTIONAL: You can also clone the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) respository to your `_site` folder to save a step… [See step 11 in this Stack Overflow answer](http://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
-
 And you’re done!
 
 You can see your published changes at… [https://foodoasisla.github.io](https://foodoasisla.github.io)
+
+HINT: You can save a step by pushing to the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) repository from your `_site` folder… [See step 11 in this Stack Overflow answer](http://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
