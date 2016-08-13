@@ -8,9 +8,7 @@ https://foodoasisla.github.io
 
 The site is published with [GitHub Pages](https://pages.github.com), and the website files are generated with [Jekyll](http://jekyllrb.com).
 
-### Step 1: Install Jekyll
-
-To use Jekyll, you’ll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+To use Jekyll, you first need to install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 
 Once you have Ruby installed, you can install Jekyll from your terminal with this command…
 
@@ -18,7 +16,7 @@ Once you have Ruby installed, you can install Jekyll from your terminal with thi
 gem install jekyll
 ```
 
-### Step 2: Make your changes to the source code
+### Step 1: Make your changes to the source code
 
 a. Clone the `site` repository… [github.com/foodoasisla/site](https://github.com/foodoasisla/site)
 
@@ -26,7 +24,7 @@ b. Make your changes
 
 c. Commit and push your changes
 
-### Step 3: Generate the site with Jekyll
+### Step 2: Generate the site with Jekyll
 
 Run this command within your project folder…
 
@@ -42,7 +40,7 @@ jekyll serve
 
 And then visit… [http://localhost:4000](http://localhost:4000)
 
-### Step 4: Publish
+### Step 3: Publish
 
 When you generate the site, Jekyll creates a folder called `_site` within your project folder.
 
