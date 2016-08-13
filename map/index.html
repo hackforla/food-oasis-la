@@ -83,11 +83,13 @@
 				addressField.value = address;
 			}
 
+			/*
 			function addCityToAdddress() {
 				if (addressAvailable() && addressField.value.indexOf('Los Angeles') < 0) {
 					addressField.value = addressField.value + ', Los Angeles';
 				}
 			}
+			*/
 			//addCityToAdddress();
 
 			/*
@@ -266,14 +268,13 @@
 				.addTo(map);
 		}
 
-		function moveMapToAddress() {
-			if (addressAvailable()) {
-				geocodeAddress(addressField.value, moveMapToPosition);
-			}
-		}
+		var address = getParameterByName('address');
 
-		if (addressAvailable()) {
-			moveMapToAddress();
+		if (address) {
+			if (address.indexOf('Los Angeles') < 0) {
+				address += ' Los Angeles';
+			}
+			geocodeAddress(address, moveMapToPosition);
 
 		// Grab user's location on page-load
 		} else if ("geolocation" in navigator) {
