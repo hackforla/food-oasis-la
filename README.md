@@ -1,20 +1,14 @@
 
 # Food Oasis
 
-This is a website with map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
+This is a website with a map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
 https://foodoasisla.github.io
 
 ## How to make changes
 
 The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
-To use Jekyll, you first need to install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
-
-Once you have Ruby installed, you can install Jekyll from your terminal with this command…
-
-```
-gem install jekyll
-```
+To use Jekyll, you first need to [install Ruby and Jekyll](https://jekyllrb.com/docs/installation/).
 
 ### Step 1: Make your changes to the source code
 
