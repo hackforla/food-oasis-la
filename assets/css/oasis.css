@@ -218,7 +218,7 @@
 		margin-right: auto;
 	}
 	.page-contents {
-		padding-bottom: 6em;
+		padding-bottom: 1.5em;
 	}
 	section {
 		margin-top: 3em;
@@ -330,13 +330,13 @@
 	}
 
 	.food-source .mapbox {
-		height: 20em;
+		height: 150px;
+		height: 50vh;
+		margin-bottom: -1.5em;
 	}
-
-	/* OPTIONAL: Make the map taller on larger screens. */
-	@media (min-height: 500px) {
+	@media (min-width: 30em) {
 		.food-source .mapbox {
-			height: 33vh;
+			margin-bottom: -3em;
 		}
 	}
 

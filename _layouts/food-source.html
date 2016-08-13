@@ -40,6 +40,59 @@ layout: null
 		<a href="/source" title="List of Food Banks in Los Angeles">Food Bank</a>
 	</p>
 	
+	<div class="page-contents">
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">{{ page.food_source['address'] | escape }}</a>
+		</p>
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
+			{{ page.food_source['phone'] | escape }}
+		</p>
+		<!--
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
+			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
+				PLACEHOLDER: {{ page.food_source['name'] }} on Yelp
+			</a>
+		</p>
+		-->
+
+		<p>
+			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
+			
+		</p>
+
+		<p>{{ page.food_source['hours'] | escape }}</p>
+		<!--
+		<dl>
+			<dt>Monday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+			<dd>Open Now!</dd>
+
+			<dt>Tuesday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Wednesday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Thursday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Friday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+
+			<dt>Saturday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+			
+			<dt>Sunday</dt>
+			<dd>11:00 am - 7:00 pm</dd>
+		</dl>
+		-->
+	</div>
+	
 	<div id="map" class="mapbox"></div>
 	
 	<script src="../../assets/leaflet/leaflet.js"></script>
@@ -60,8 +113,7 @@ layout: null
 		    style: 'mapbox://styles/mapbox/light-v9',
 			//style: 'mapbox://styles/fooddesertsla/ciqlgjsvb0001bkno0wkx8gg8', // stylesheet location
 			center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
-			zoom: 14, // starting zoom
-			scrollZoom: false // If  true , the "scroll to zoom" interaction is enable
+			zoom: 14 // starting zoom
 		});
 
 		var nav = new mapboxgl.Navigation({position: 'top-left'}); // position is optional
@@ -140,58 +192,5 @@ layout: null
 		// L.marker([-118.243685, 34.052234]).addTo(map);
 
 	</script>
-	
-	<div class="page-contents">
-
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">{{ page.food_source['address'] | escape }}</a>
-		</p>
-
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
-			{{ page.food_source['phone'] | escape }}
-		</p>
-		<!--
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
-			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
-				PLACEHOLDER: {{ page.food_source['name'] }} on Yelp
-			</a>
-		</p>
-		-->
-
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
-			
-		</p>
-
-		<p>{{ page.food_source['hours'] | escape }}</p>
-		<!--
-		<dl>
-			<dt>Monday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-			<dd>Open Now!</dd>
-
-			<dt>Tuesday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-
-			<dt>Wednesday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-
-			<dt>Thursday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-
-			<dt>Friday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-
-			<dt>Saturday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-			
-			<dt>Sunday</dt>
-			<dd>11:00 am - 7:00 pm</dd>
-		</dl>
-		-->
-	</div>
 </body>
 </html>
