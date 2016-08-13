@@ -4,9 +4,9 @@
 This is a website with map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
 https://foodoasisla.github.io
 
-## How to make changes to the site
+## How to make changes
 
-The site is published with [GitHub Pages](https://pages.github.com), and the website files are generated with [Jekyll](http://jekyllrb.com).
+The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
 To use Jekyll, you first need to install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
 
