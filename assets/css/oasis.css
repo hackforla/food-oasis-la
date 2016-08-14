@@ -48,7 +48,18 @@
 
 	a {
 		color: rgb(144, 194, 70); /* @lime */
-		color: #4D5594;
+		color: #4D5594; /* @blueberry */
+		color: #F15F5B; /* @strawberry */
+		text-decoration: none;
+	}
+	a[href]:hover,
+	a[href]:active,
+	a[href]:focus {
+		text-decoration: underline;
+	}
+	a:not([href]) {
+		color: inherit;
+		opacity: 0.5;
 	}
 	/*
 	a:visited {
@@ -59,15 +70,20 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
+		color: rgba(0, 0, 0, 0.8);
 	}
 	h1 {
 		margin-top: 1.5em;
 		color: rgb(249, 192, 88); /* @canteloupe */
 		color: rgb(144, 194, 70); /* @lime */
+		color: inherit;
+		color: rgba(0, 0, 0, 0.8);
 	}
 	h2 {
 		color: rgb(249, 192, 88); /* @canteloupe */
 		color: rgb(144, 194, 70); /* @lime */
+		color: inherit;
+		color: rgba(0, 0, 0, 0.8);
 		/*border-bottom: 2px solid rgba(144, 194, 70, 0.9);*/ /* @lime */
 	}
 
@@ -82,12 +98,27 @@
 		display: block;
 	}
 
-
 	.icon {
-		vertical-align: middle;
-		width: 1.25em;
+		vertical-align: text-top;
+		height: 1.5em;
 		margin-right: 0.25em;
 	}
+
+
+	/* =List
+	----------------------------------------------- */
+	.link-list,
+	.link-list li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.link-list li {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding-top: 0.75em;
+		margin-top: 0.75em;
+	}
+
 
 
 	/* =Header
@@ -136,7 +167,9 @@
 
 	.header h1,
 	.header h2 {
+		border-top-color: transparent;
 		border-top: 0.25em solid rgb(249, 192, 88); /* @canteloupe */
+		border-top-color: rgb(144, 194, 70); /* @lime */
 	}
 	.header h1 a,
 	.header h2 a {
@@ -156,29 +189,29 @@
 }
 
 	/* Position the nav on top of the map */
-	.map .header + nav {
+	.header + nav {
 		display: block;
 		position: absolute;
 		z-index: 1;
 		top: 0.375em;
 		right: 1.5em;
 	}
-	.map .header + nav .icon {
+	.header + nav .icon {
 		height: 1.5em;
 		width: 1.5em;
 		margin-left: -0.75em;
 		vertical-align: text-top;
 	}
 	@media (max-width: 30em) {
-		.map .header + nav {
+		.header + nav {
 			top: 1em;
 		}
 	}
 	@media (max-width: 40em) {
-		.map .header + nav .icon {
+		.header + nav .icon {
 			margin-right: -0.75em;
 		}
-		.map .header + nav .icon + span {
+		.header + nav .icon + span {
 			position: absolute;
 			left: -9999px;
 		}
@@ -498,21 +531,27 @@
 
 	/* =Navigation
 	----------------------------------------------- */
-	.navigation {
-		background-color: rgb(144, 194, 70); /* @lime */
+	body.navigation {
 		background-color: rgb(249, 192, 88); /* @canteloupe */
+		background-color: rgb(144, 194, 70); /* @lime */
 		color: white;
 	}
-	.navigation a {
+	body.navigation .header h1,
+	body.navigation .header h2 {
+		border-top-color: white;
+		border-top-color: rgba(255, 255, 255, 0.8);
+		border-top-color: transparent;
+	}
+	body.navigation a {
 		color: inherit;
 	}
-	.navigation ul,
-	.navigation li {
+	body.navigation > ul,
+	body.navigation > ul li {
 		list-style: none;
 		marign-left: 0;
 		padding-left: 0;
 	}
-	.navigation ul {
+	body.navigation > ul {
 		min-height: calc(100vh - 15em);
 		display: flex;
 		flex-direction: column;
@@ -520,13 +559,13 @@
 		justify-content: center;
 		align-content: center;
 	}
-	.navigation li {
+	body.navigation > ul li {
 		margin: 0.375em;
 		width: 15em;
 		max-width: 100%;
 		text-align: center;
 	}
-	.navigation li a {
+	body.navigation > ul li a {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		text-decoration: none;
 		background: rgba(255, 255, 255, 0.9);
@@ -537,7 +576,7 @@
 		display: block;
 	}
 	@media (min-width: 30em) {
-		.navigation li {
+		body.navigation > ul li {
 			font-size: 1.5em;
 		}
 	}
