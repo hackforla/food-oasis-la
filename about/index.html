@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!doctype html>
 <html lang="en" dir="ltr">
 <head>
@@ -81,6 +84,21 @@
 				<li><a href="http://thefoodtrust.org/uploads/media_items/grocerygap.original.pdf">The Grocery Gap, Who Has Access to Health Food and Why It Matters (PolicyLink)</a></li>
 				<li><a href="http://thefoodtrust.org">The Food Trust</a></li>
 				<li><a href="http://www.nytimes.com/2012/04/18/health/research/pairing-of-food-deserts-and-obesity-challenged-in-studies.html?_r=0">Studies Question the Pairing of Food Deserts and Obesity (The New York Times)</a></li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Blog Posts</h2>
+
+			<ul class="link-list">
+				{% for post in site.posts %}
+				<li>
+					<a href="{{ post.url | prepend: site.baseurl }}">
+						<h3>{{ post.title }}</h3>
+						<p>{{ post.date | date: "%b %-d, %Y" }}</p>
+					</a>
+				</li>
+				{% endfor %}
 			</ul>
 		</section>
 

@@ -1,4 +1,6 @@
-
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
 	@charset "utf-8";
 
 	/*
@@ -143,6 +145,16 @@
 	}
 	.link-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.link-list h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+		color: inherit;
+	}
+	.link-list p {
+		margin-top: 0;
+		margin-bottom: 0;
+		color: rgb(51, 51, 51);
 	}
 
 
@@ -695,3 +707,18 @@
 	}
 
 
+
+$spacing-unit:     30px;
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "syntax-highlighting"
+;
