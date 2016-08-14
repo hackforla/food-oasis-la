@@ -150,11 +150,38 @@
 		}
 	}
 
+/* EXPERIMENTAL */
+.header + nav {
+	display: none;
+}
+
 	/* Position the nav on top of the map */
 	.map .header + nav {
 		display: block;
 		position: absolute;
 		z-index: 1;
+		top: 0.375em;
+		right: 1.5em;
+	}
+	.map .header + nav .icon {
+		height: 1.5em;
+		width: 1.5em;
+		margin-left: -0.75em;
+		vertical-align: text-top;
+	}
+	@media (max-width: 30em) {
+		.map .header + nav {
+			top: 1em;
+		}
+	}
+	@media (max-width: 40em) {
+		.map .header + nav .icon {
+			margin-right: -0.75em;
+		}
+		.map .header + nav .icon + span {
+			position: absolute;
+			left: -9999px;
+		}
 	}
 
 
@@ -467,3 +494,52 @@
 			width: 45%;
 		}
 	}
+
+
+	/* =Navigation
+	----------------------------------------------- */
+	.navigation {
+		background-color: rgb(144, 194, 70); /* @lime */
+		background-color: rgb(249, 192, 88); /* @canteloupe */
+		color: white;
+	}
+	.navigation a {
+		color: inherit;
+	}
+	.navigation ul,
+	.navigation li {
+		list-style: none;
+		marign-left: 0;
+		padding-left: 0;
+	}
+	.navigation ul {
+		min-height: calc(100vh - 15em);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+	}
+	.navigation li {
+		margin: 0.375em;
+		width: 15em;
+		max-width: 100%;
+		text-align: center;
+	}
+	.navigation li a {
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		text-decoration: none;
+		background: rgba(255, 255, 255, 0.9);
+		color: rgba(0, 0, 0, 0.75);
+		display: block;
+		padding: 0.75em 1.5em;
+		border-radius: 0.25em;
+		display: block;
+	}
+	@media (min-width: 30em) {
+		.navigation li {
+			font-size: 1.5em;
+		}
+	}
+
+
