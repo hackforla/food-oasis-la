@@ -28,20 +28,6 @@
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 	</script>
-
-	<style>
-		form {
-			background: white;
-			background: rgba(255, 255, 255, 0.5);
-			position: absolute;
-			z-index: 1;
-			left: -9999px;
-		}
-		nav {
-			position: absolute;
-			z-index: 1;
-		}
-	</style>
 </head>
 <body class="map">
 	<div class="header">
@@ -58,14 +44,16 @@
 	</nav>
 
 	<form action="/map" method="get">
-		<h1>Find food near you</h1>
-		<p>
-			<label>
-				<span>Enter your address</span><br />
-				<input type="text" name="address" placeholder="525 South Hewitt Street, Los Angeles" />
-			</label>
-			<button type="submit">Search</button>
-		</p>
+		<div>
+			<h1>Find food near you</h1>
+			<p>
+				<label>
+					<span>Address, Neighborhood, or Zip</span><br />
+					<input type="text" name="address" placeholder="125 Fruitland Avenue" />
+				</label>
+				<button type="submit">Go</button>
+			</p>
+		</div>
 	</form>
 	<script>
 		var addressField = document.querySelector('input[name="address"]');
@@ -131,6 +119,9 @@
 
 		// Add Search Functionality
 		//map.addControl(new mapboxgl.Geocoder());	
+
+		var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
+		map.addControl(nav);
 
 		// Add 'Current Location' Functionality
 		map.addControl(new mapboxgl.Geolocate());
