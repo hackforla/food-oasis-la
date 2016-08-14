@@ -227,10 +227,52 @@
 	footer {
 		background: rgb(144, 194, 70); /* @lime */
 		color: white;
+		margin-top: 5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
 		margin-bottom: -1.5em;
 		padding: 1.5em 1.5em 3em;
+		position: relative;
+	}
+	footer .link-list::before,
+	footer .link-list::after,
+	footer::before,
+	footer::after {
+		content: "";
+		background-image: url(/assets/images/palm-tree.svg);
+		display: block;
+		position: absolute;
+		width: 4.5em;
+		height: 4.5em;
+		margin-top: -4.5em;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		top: 0;
+		left: 50%;
+		margin-left: -5em;
+		opacity: 0.75;
+	}
+	footer::after {
+		margin-left: 0;
+		width: 4.25em;
+		height: 4.25em;
+		margin-top: -4.25em;
+		opacity: 0.7;
+	}
+	footer .link-list::before {
+		margin-left: -8.5em;
+		width: 5em;
+		height: 5em;
+		margin-top: -5em;
+		opacity: 1;
+	}
+	footer .link-list::after {
+		margin-left: 2.5em;
+		width: 4.75em;
+		height: 4.75em;
+		margin-top: -4.75em;
+		opacity: 1;
 	}
 	@media (min-width: 30em) {
 		footer {
