@@ -248,7 +248,7 @@
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center;
-		top: 0;
+		top: 0.25em;
 		left: 50%;
 		margin-left: -5em;
 		opacity: 0.75;
