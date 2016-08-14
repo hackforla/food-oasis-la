@@ -45,12 +45,14 @@
 		width: 4.25em;
 		height: 4.25em;
 		background-image: url(/assets/images/sun.svg);
+		background-size: 15em 15em;
+		background-position: bottom left;
 		position: absolute;
-		top: -5em;
-		right: -5em;
 		z-index: -1;
-		width: 15em;
-		height: 15em;
+		top: 0;
+		right: 0;
+		width: 10em;
+		height: 10em;
 		/*
 		transform: rotate(0.65turn);
 		*/
