@@ -40,6 +40,21 @@
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
+	body::before {
+		content: "";
+		width: 4.25em;
+		height: 4.25em;
+		background-image: url(/assets/images/sun.svg);
+		position: absolute;
+		top: -5em;
+		right: -5em;
+		z-index: -1;
+		width: 15em;
+		height: 15em;
+		/*
+		transform: rotate(0.65turn);
+		*/
+	}
 
 	/* OPTIONAL: Increase the font size on big screens. */
 	@media screen and (min-width: 600px) and (min-height: 600px) {
@@ -77,8 +92,8 @@
 
 	a {
 		color: rgb(144, 194, 70); /* @lime */
-		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(241, 95, 91); /* @strawberry */
 	}
 	/*
 	a[href]:hover,
@@ -218,6 +233,7 @@
 		border-top: 0.25em solid rgb(249, 192, 88); /* @canteloupe */
 		border-top-color: rgb(144, 194, 70); /* @lime */
 		border-top-color: rgb(159, 197, 239); /* @ocean */
+		border-top-color: transparent;
 	}
 	.header h1 a,
 	.header h2 a {
@@ -402,6 +418,7 @@
 		background: rgb(249, 192, 88); /* @canteloupe */
 		background: rgb(144, 194, 70); /* @lime */
 		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(241, 95, 91); /* @strawberry */
 		color: black;
 		color: rgba(0, 0, 0, 0.8);
 		color: white;
@@ -410,12 +427,15 @@
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: transparent;
+		text-decoration: none;
 	}
+	/*
 	nav a {
 		background: transparent;
 		text-decoration: none;
 		border-color: white;
 	}
+	*/
 	button:hover,
 	button:active,
 	button:focus,
@@ -454,6 +474,9 @@
 		border-color: rgb(144, 194, 70); /* @lime */
 		border-color: rgb(77, 85, 148); /* @blueberry */
 		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
+		border-color: rgb(241, 95, 91); /* @strawberry */
+		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
+		border-color: rgba(0, 0, 0, 0.25);
 		width: 20em;
 		max-width: 100%;
 		box-sizing: border-box;
@@ -636,7 +659,7 @@
 			margin-right: -3em;
 		}
 	}
-	.disabled body.find main h1 {
+	body.find main h1 {
 		margin-top: 0;
 	}
 	.disabled body.find section h2 {
@@ -647,14 +670,15 @@
 		margin-top: 3em;
 		margin-bottom: 3em;
 	}
+	*/
 	body.find form {
 		min-height: 33vh;
 		display: flex;
 		align-items: center;
 	}
-	*/
 	body.find form {
 		min-height: 50vh;
+		min-height: calc(100vh - 15rem);
 	}
 	.disabled body.find {
 		margin-bottom: 0;
@@ -705,11 +729,12 @@
 			width: 50%;
 			margin: 0;
 			position: absolute;
-			top: 0.375rem;
+			top: 5.75rem;
+			top: 0;
 			right: 0;
 			height: 500px;
+			height: calc(100vh - 5.75rem); /* header height */
 			height: 100vh;
-			height: calc(100vh - 0.375rem); /* header height */
 		}
 		.food-source h1,
 		.food-source .page-contents {
