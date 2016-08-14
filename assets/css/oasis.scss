@@ -40,7 +40,7 @@
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
-	.disabled body::before {
+	body::before {
 		content: "";
 		width: 4.25em;
 		height: 4.25em;
