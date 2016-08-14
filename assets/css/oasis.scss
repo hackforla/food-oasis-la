@@ -22,9 +22,14 @@
 
 	/* =Elements
 	----------------------------------------------- */
+	html, body {
+		min-height: 100%;
+	}
 	body {
 		background: white;
+		background: rgb(159, 197, 239); /* @ocean */
 		background: rgb(255, 255, 246);
+    	background-image: linear-gradient(to bottom, rgb(159, 197, 239), rgb(255, 255, 246) 25em, rgb(255, 255, 246)); /* @ocean */
 		/*
 		background: rgb(252, 255, 245);
 		*/
@@ -72,15 +77,16 @@
 
 	a {
 		color: rgb(144, 194, 70); /* @lime */
-		color: #4D5594; /* @blueberry */
-		color: #F15F5B; /* @strawberry */
-		text-decoration: none;
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @blueberry */
 	}
+	/*
 	a[href]:hover,
 	a[href]:active,
 	a[href]:focus {
 		text-decoration: underline;
 	}
+	*/
 	a:not([href]) {
 		color: inherit;
 		opacity: 0.5;
@@ -142,6 +148,7 @@
 		display: block;
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
+		text-decoration: none;
 	}
 	.link-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -150,6 +157,7 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		color: inherit;
+		text-decoration: underline;
 	}
 	.link-list p {
 		margin-top: 0;
@@ -209,6 +217,7 @@
 		border-top-color: transparent;
 		border-top: 0.25em solid rgb(249, 192, 88); /* @canteloupe */
 		border-top-color: rgb(144, 194, 70); /* @lime */
+		border-top-color: rgb(159, 197, 239); /* @ocean */
 	}
 	.header h1 a,
 	.header h2 a {
@@ -258,6 +267,7 @@
 		background: rgb(144, 194, 70); /* @lime */
 		background: rgb(249, 192, 88); /* @canteloupe */
 		background: rgba(249, 192, 88, 0.75);
+    	background-image: linear-gradient(to bottom, rgb(249, 192, 88), rgb(255, 222, 118) 33%, rgb(255, 222, 118)); /* @ocean */
 		margin-top: 5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
@@ -348,6 +358,10 @@
 	*/
 	footer section h2:first-child {
 		margin-top: 0;
+		margin-bottom: 0;
+	}
+	footer section h2 + p {
+		margin-top: 0;
 	}
 	footer section p:last-child {
 		margin-bottom: 0;
@@ -387,6 +401,7 @@
 		background: rgb(209, 43, 43); /* @apple */
 		background: rgb(249, 192, 88); /* @canteloupe */
 		background: rgb(144, 194, 70); /* @lime */
+		background: rgb(77, 85, 148); /* @blueberry */
 		color: black;
 		color: rgba(0, 0, 0, 0.8);
 		color: white;
@@ -397,6 +412,16 @@
 		border-color: transparent;
 	}
 	nav a {
+		background: transparent;
+		text-decoration: none;
+		border-color: white;
+	}
+	button:hover,
+	button:active,
+	button:focus,
+	nav a:hover,
+	nav a:active,
+	nav a:focus {
 		text-decoration: none;
 	}
 	button {
@@ -427,6 +452,8 @@
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: rgb(249, 192, 88); /* @canteloupe */
 		border-color: rgb(144, 194, 70); /* @lime */
+		border-color: rgb(77, 85, 148); /* @blueberry */
+		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
 		width: 20em;
 		max-width: 100%;
 		box-sizing: border-box;
@@ -626,6 +653,9 @@
 		align-items: center;
 	}
 	*/
+	body.find form {
+		min-height: 50vh;
+	}
 	.disabled body.find {
 		margin-bottom: 0;
 	}
