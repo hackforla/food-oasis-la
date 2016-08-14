@@ -136,7 +136,11 @@
 
 	.header h1,
 	.header h2 {
-		background: rgb(249, 192, 88); /* @canteloupe */
+		border-top: 0.25em solid rgb(249, 192, 88); /* @canteloupe */
+	}
+	.header h1 a,
+	.header h2 a {
+		padding-top: 0.875em;
 	}
 
 
@@ -166,8 +170,8 @@
 		display: inline-block;
 		background: rgb(243, 117, 104); /* @salmon */
 		background: rgb(209, 43, 43); /* @apple */
-		background: rgb(144, 194, 70); /* @lime */
 		background: rgb(249, 192, 88); /* @canteloupe */
+		background: rgb(144, 194, 70); /* @lime */
 		color: black;
 		color: rgba(0, 0, 0, 0.8);
 		padding: 0.375em 1.5em;
@@ -206,6 +210,8 @@
 		border-radius: 0.25em;
 		border: 1px solid black;
 		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: rgb(249, 192, 88); /* @canteloupe */
+		border-color: rgb(144, 194, 70); /* @lime */
 		width: 20em;
 		max-width: 100%;
 		box-sizing: border-box;
@@ -326,7 +332,7 @@
 
 	/* =Find
 	----------------------------------------------- */
-	body.find {
+	.disabled body.find {
 		background-color: rgb(144, 194, 70); /* @lime */
 		background-color: rgb(249, 192, 88); /* @canteloupe */
 		/*
@@ -337,26 +343,26 @@
 		*/
 		color: white;
 	}
-	body.find form a {
+	.disabled body.find form a {
 		color: inherit;
 	}
-	body.find section h1,
-	body.find section h2 {
+	.disabled body.find section h1,
+	.disabled body.find section h2 {
 		color: inherit;
 	}
-	body.find form h1,
-	body.find form h2 {
+	.disabled body.find form h1,
+	.disabled body.find form h2 {
 		color: inherit;
 	}
-	body.find input[type="text"],
-	body.find button {
+	.disabled body.find input[type="text"],
+	.disabled body.find button {
 		border-color: transparent;
 	}
-	body.find button {
+	.disabled body.find button {
 		background: white;
 		background: rgba(255, 255, 255, 0.8);
 	}
-	body.find section {
+	.disabled body.find section {
 		background: white;
 		color: black;
 		padding: 1.5em;
@@ -364,32 +370,30 @@
 		margin-right: -1.5em;
 	}
 	@media (min-width: 30em) {
-		body.find section {
+		.disabled body.find section {
 			padding: 3em;
 			margin-left: -3em;
 			margin-right: -3em;
 		}
 	}
-	body.find main h1 {
+	.disabled body.find main h1 {
 		margin-top: 0;
 	}
-	body.find section h2 {
+	.disabled body.find section h2 {
 		margin-top: 0;
 	}
 	body.find section h3 {
-		margin-top: 3em;
+		margin-top: 4.5em;
 	}
 	body.find form {
 		min-height: 50vh;
 		display: flex;
-		align-content: center;
-		justify-content: center;
 		align-items: center;
 	}
-	body.find {
+	.disabled body.find {
 		margin-bottom: 0;
 	}
-	body.find main {
+	.disabled body.find main {
 		padding-bottom: 0;
 	}
 
