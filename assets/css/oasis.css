@@ -366,10 +366,20 @@
 		position: relative;
 		font-size: 1rem;
 		line-height: 1.5;
+		border: 1px solid blue;
+	}
+	.marker img {
+		position: absolute;
+		bottom: 0;
+		left: -1em;
+		width: 2em;
+		height: 2em;
+		marign-left: 0;
+		margin-right: 0;
 	}
 	.marker .label {
 		position: absolute;
-		top: 1.875em;
+		top: 0.25em;
 		width: 15em;
 		left: 50%;
 		text-align: center;
