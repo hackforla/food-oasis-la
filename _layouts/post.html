@@ -1,34 +1,17 @@
-<!doctype html>
-<html lang="en" dir="ltr">
-<head>
-	<meta charset="utf-8" >
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+---
+layout: default
+---
+<h1><a href="/news">News</a></h1>
 
-	<title>News about Food Oasis Los Angeles</title>
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
-	<link rel="stylesheet" href="/assets/css/oasis.css" />
-</head>
-<body class="find">
-	{% include header.html %}
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-	<main>
-		<h1><a href="/news">News</a></h1>
+	<header class="post-header">
+		<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+		<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+	</header>
 
-		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="post-content" itemprop="articleBody">
+		{{ content }}
+	</div>
 
-		  <header class="post-header">
-		    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-		    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-		  </header>
-
-		  <div class="post-content" itemprop="articleBody">
-		    {{ content }}
-		  </div>
-
-		</article>
-	</main>
-
-	{% include footer.html %}
-</body>
-</html>
+</article>
