@@ -4,7 +4,7 @@
 	 viewBox="0 0 983.6 123.7" style="enable-background:new 0 0 983.6 123.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:rgb(254, 254, 254);}
-	.st1{fill:rgba(0, 0, 0, 0.9);}
+	.st1{fill: rgb(77, 85, 148); /* @blueberry */}
 	.st2{fill:none;}
 	.st3{clip-path:url(#SVGID_2_);fill:rgb(254, 254, 254);}
 	.st4{clip-path:url(#SVGID_6_);fill:rgb(254, 254, 254);}
