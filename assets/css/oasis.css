@@ -100,6 +100,7 @@
 
 	.icon {
 		vertical-align: text-top;
+		width: 1.5em;
 		height: 1.5em;
 		margin-right: 0.25em;
 	}
@@ -113,10 +114,13 @@
 		padding-left: 0;
 		margin-left: 0;
 	}
-	.link-list li {
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	.link-list a {
+		display: block;
 		padding-top: 0.75em;
-		margin-top: 0.75em;
+		padding-bottom: 0.75em;
+	}
+	.link-list li + li a {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
 
 
@@ -218,6 +222,34 @@
 	}
 
 
+	/* =Footer
+	----------------------------------------------- */
+	footer {
+		background: rgb(144, 194, 70); /* @lime */
+		color: white;
+		margin-left: -1.5em;
+		margin-right: -1.5em;
+		margin-bottom: -1.5em;
+		padding: 1.5em 1.5em 3em;
+	}
+	@media (min-width: 30em) {
+		footer {
+			margin-left: -3em;
+			margin-right: -3em;
+			margin-bottom: -3em;
+			padding: 1.5em 3em 3em;
+		}
+	}
+	footer .link-list {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer a {
+		color: inherit;
+	}
+
+
 	/* =Navigation
 	----------------------------------------------- */
 	nav ul,
@@ -299,7 +331,7 @@
 	/* =Main
 	----------------------------------------------- */
 	main {
-		padding-bottom: 6em;
+		padding-bottom: 3em;
 		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
@@ -469,11 +501,12 @@
 	.disabled body.find section h2 {
 		margin-top: 0;
 	}
-	body.find section h3 {
-		margin-top: 4.5em;
+	body.find section {
+		margin-top: 3em;
+		margin-bottom: 3em;
 	}
 	body.find form {
-		min-height: 50vh;
+		min-height: 33vh;
 		display: flex;
 		align-items: center;
 	}
