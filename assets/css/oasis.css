@@ -34,6 +34,28 @@
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
 
+	/* OPTIONAL: Increase the font size on big screens. */
+	@media screen and (min-width: 600px) and (min-height: 600px) {
+		html {
+			font-size: 112.5%;
+		}
+	}
+	@media screen and (min-width: 800px) and (min-height: 800px) {
+		html {
+			font-size: 125%;
+		}
+	}
+	@media screen and (min-width: 1000px) and (min-height: 1000px) {
+		html {
+			font-size: 137.5%;
+		}
+	}
+	@media screen and (min-width: 1200px) and (min-height: 1200px) {
+		html {
+			font-size: 150%;
+		}
+	}
+
 	@media (min-width: 30em) {
 		body {
 			padding-left: 3em; /* @page-margin-widescreen */
@@ -150,6 +172,7 @@
 	.header h2 img {
 		display: block;
 		opacity: 0.85;
+		width: 18.75rem; /* 300px / 16px */
 	}
 	@media (max-width: 29.99999em) {
 		.header h1 img,
@@ -211,11 +234,12 @@
 			top: 1em;
 		}
 	}
-	@media (max-width: 40em) {
+	@media (max-width: 50em) {
 		.header + nav .icon {
 			margin-right: -0.75em;
 		}
 		.header + nav .icon + span {
+			/* @hidden-accessible */
 			position: absolute;
 			left: -9999px;
 		}
@@ -289,6 +313,10 @@
 	}
 	footer a {
 		color: inherit;
+	}
+	footer .link-list a .icon {
+		position: absolute;
+		margin-left: -2em;
 	}
 
 
@@ -596,7 +624,7 @@
 	}
 
 	/* OPTIONAL: Position the map on the right side, on really big screens. */
-	@media (min-width: 60em) {
+	@media (min-width: 70em) {
 		.food-source .mapbox {
 			width: 50%;
 			margin: 0;
