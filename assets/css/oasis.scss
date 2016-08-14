@@ -617,62 +617,9 @@
 
 	/* =Find
 	----------------------------------------------- */
-	.disabled body.find {
-		background-color: rgb(144, 194, 70); /* @lime */
-		background-color: rgb(249, 192, 88); /* @canteloupe */
-		/*
-		background-image: url(https://dollyskettle.com/wp-content/uploads/2016/07/usedgreen-peppers.jpg);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		*/
-		color: white;
-	}
-	.disabled body.find form a {
-		color: inherit;
-	}
-	.disabled body.find section h1,
-	.disabled body.find section h2 {
-		color: inherit;
-	}
-	.disabled body.find form h1,
-	.disabled body.find form h2 {
-		color: inherit;
-	}
-	.disabled body.find input[type="text"],
-	.disabled body.find button {
-		border-color: transparent;
-	}
-	.disabled body.find button {
-		background: white;
-		background: rgba(255, 255, 255, 0.8);
-	}
-	.disabled body.find section {
-		background: white;
-		color: black;
-		padding: 1.5em;
-		margin-left: -1.5em;
-		margin-right: -1.5em;
-	}
-	@media (min-width: 30em) {
-		.disabled body.find section {
-			padding: 3em;
-			margin-left: -3em;
-			margin-right: -3em;
-		}
-	}
 	body.find main h1 {
 		margin-top: 0;
 	}
-	.disabled body.find section h2 {
-		margin-top: 0;
-	}
-	/*
-	body.find section {
-		margin-top: 3em;
-		margin-bottom: 3em;
-	}
-	*/
 	body.find form {
 		min-height: 33vh;
 		display: flex;
@@ -681,12 +628,6 @@
 	body.find form {
 		min-height: 50vh;
 		min-height: calc(100vh - 15rem);
-	}
-	.disabled body.find {
-		margin-bottom: 0;
-	}
-	.disabled body.find main {
-		padding-bottom: 0;
 	}
 
 
