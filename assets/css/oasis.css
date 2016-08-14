@@ -324,6 +324,15 @@
 		}
 	}
 
+	body.map .marker {
+		font-size: 2rem;
+	}
+	@media (min-width: 30em) {
+		body.map .marker {
+			font-size: 3rem;
+		}
+	}
+
 
 	/* =Map
 	----------------------------------------------- */
