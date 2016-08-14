@@ -22,7 +22,7 @@
 	----------------------------------------------- */
 	body {
 		background: white;
-		background: rgb(255, 255, 245);
+		background: rgb(255, 255, 246);
 		/*
 		background: rgb(252, 255, 245);
 		*/
@@ -43,7 +43,7 @@
 	}
 
 	p {
-		max-width: 33em;
+		max-width: 40em;
 	}
 
 	a {
@@ -300,7 +300,7 @@
 	----------------------------------------------- */
 	main {
 		padding-bottom: 6em;
-		max-width: 33em;
+		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
 	}
