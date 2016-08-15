@@ -1,3 +1,4 @@
+
 	@charset "utf-8";
 
 	/*
@@ -17,7 +18,6 @@
 	*/
 
 
-
 	/* =Elements
 	----------------------------------------------- */
 	html, body {
@@ -25,12 +25,10 @@
 	}
 	body {
 		background: white;
+		background: rgb(252, 255, 245);
 		background: rgb(159, 197, 239); /* @ocean */
 		background: rgb(255, 255, 246);
     	background-image: linear-gradient(to bottom, rgb(159, 197, 239), rgb(255, 255, 246) 25em, rgb(255, 255, 246)); /* @ocean */
-		/*
-		background: rgb(252, 255, 245);
-		*/
 		color: black;
 		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
@@ -95,22 +93,10 @@
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
-	/*
-	a[href]:hover,
-	a[href]:active,
-	a[href]:focus {
-		text-decoration: underline;
-	}
-	*/
 	a:not([href]) {
 		color: inherit;
 		opacity: 0.5;
 	}
-	/*
-	a:visited {
-		color: #562949;
-	}
-	*/
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
@@ -186,10 +172,6 @@
 		font-weight: inherit;
 		margin: -1.5rem -1.5rem 0;
 		text-align: center;
-		/*
-		background-color: rgb(144, 194, 70);
-		color: white;
-		*/
 	}
 	.header h1 a,
 	.header h2 a {
@@ -235,12 +217,6 @@
 	.header h2 a {
 		padding-top: 0.875em;
 	}
-
-
-/* EXPERIMENTAL */
-.header + nav {
-	display: none;
-}
 
 	/* Position the nav on top of the map */
 	.header + nav {
@@ -345,30 +321,13 @@
 	footer a {
 		color: inherit;
 	}
-	.navigation .link-list a,
 	footer .link-list a {
 		padding-left: 2.25em;
 	}
-	.navigation .link-list a .icon,
 	footer .link-list a .icon {
 		position: absolute;
 		margin-left: -2em;
 	}
-	/*
-	.navigation section,
-	footer section {
-		color: black;
-		color: rgba(0, 0, 0, 0.75);
-	}
-	*/
-	/*
-	footer .contact {
-		background: rgba(0, 0, 0, 0.1);
-		background: rgba(255, 255, 255, 0.1);
-		background: transparent;
-		padding: 1.5em;
-	}
-	*/
 	footer section h2:first-child {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -379,16 +338,13 @@
 	footer section p:last-child {
 		margin-bottom: 0;
 	}
-	.navigation section h2,
 	footer section h2,
-	.navigation section h3,
 	footer section h3 {
 		color: rgb(229, 152, 48);
 		color: rgb(206, 149, 56);
 		color: rgba(0, 0, 0, 0.333);
 		color: inherit;
 	}
-	.navigation section a,
 	footer section a {
 		color: inherit;
 		text-decoration: underline;
@@ -429,13 +385,6 @@
 		border-color: transparent;
 		text-decoration: none;
 	}
-	/*
-	nav a {
-		background: transparent;
-		text-decoration: none;
-		border-color: white;
-	}
-	*/
 	button:hover,
 	button:active,
 	button:focus,
@@ -505,11 +454,6 @@
 	}
 	section {
 		margin-top: 3em;
-	}	
-	.map form {
-		position: absolute;
-		z-index: 1;
-		left: -9999px;
 	}
 
 
@@ -594,17 +538,8 @@
 		}
 	}
 
-	body.map .marker {
-		font-size: 2rem;
-	}
-	@media (min-width: 30em) {
-		body.map .marker {
-			font-size: 3rem;
-		}
-	}
 
-
-	/* =Map
+	/* =Map Page
 	----------------------------------------------- */
 	body.map {
 		padding-bottom: 0;
@@ -614,6 +549,15 @@
 		height: 100vh;
 		height: calc(100vh - 25rem); /* header height */
 		height: calc(100vh - 5.75rem); /* header height */
+	}
+
+	body.map .marker {
+		font-size: 2rem;
+	}
+	@media (min-width: 30em) {
+		body.map .marker {
+			font-size: 3rem;
+		}
 	}
 
 
@@ -687,64 +631,3 @@
 		}
 	}
 
-
-	/* =Navigation
-	----------------------------------------------- */
-	body.navigation {
-		background-color: rgb(249, 192, 88); /* @canteloupe */
-		background-color: rgb(144, 194, 70); /* @lime */
-		color: white;
-	}
-	body.navigation .header h1,
-	body.navigation .header h2 {
-		border-top-color: white;
-		border-top-color: rgba(255, 255, 255, 0.8);
-		border-top-color: transparent;
-	}
-	body.navigation a {
-		color: inherit;
-	}
-	/*
-	body.navigation > ul,
-	body.navigation > ul li {
-		list-style: none;
-		margin-left: 0;
-		padding-left: 0;
-	}
-	body.navigation > ul li {
-		margin: 0.375em;
-		width: 15em;
-		max-width: 100%;
-		text-align: center;
-	}
-	body.navigation > ul li a {
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		text-decoration: none;
-		background: rgba(255, 255, 255, 0.9);
-		color: rgba(0, 0, 0, 0.75);
-		display: block;
-		padding: 0.75em 1.5em;
-		border-radius: 0.25em;
-		display: block;
-	}
-	*/
-	body.navigation > ul {
-		min-height: calc(100vh - 15em);
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	body.navigation > section,
-	body.navigation > ul {
-		max-width: 40em;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	/*
-	@media (min-width: 30em) {
-		body.navigation > ul li {
-			font-size: 1.5em;
-		}
-	}
-	*/
