@@ -29,6 +29,7 @@
 		background: rgb(159, 197, 239); /* @ocean */
 		background: rgb(255, 255, 246);
     	background-image: linear-gradient(to bottom, rgb(159, 197, 239), rgb(255, 255, 246) 25em, rgb(255, 255, 246)); /* @ocean */
+    	background: white;
 		color: black;
 		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
@@ -36,7 +37,7 @@
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
-	body::before {
+	.disabled body::before {
 		content: "";
 		width: 4.25em;
 		height: 4.25em;
@@ -223,7 +224,7 @@
 		display: block;
 		position: absolute;
 		z-index: 1;
-		top: 0.75em;
+		top: 1.5em;
 		right: 1.5em;
 	}
 	.header + nav .icon {
@@ -234,7 +235,7 @@
 	}
 	@media (max-width: 30em) {
 		.header + nav {
-			top: 0.375em;
+			top: 1.25em;
 		}
 	}
 	@media (max-width: 50em) {
@@ -252,11 +253,12 @@
 	/* =Footer
 	----------------------------------------------- */
 	footer {
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgb(249, 192, 88); /* @canteloupe */
 		background: rgba(249, 192, 88, 0.75);
 		background-image: linear-gradient(to bottom, rgb(249, 192, 88), #F9A41C);
 		background-image: linear-gradient(to bottom, rgb(249, 192, 88), rgb(255, 222, 118) 33%, rgb(255, 222, 118)); /* @canteloupe */
+		background: rgb(249, 192, 88); /* @canteloupe */
+		background: rgb(144, 194, 70); /* @lime */
+		color: white;
 		margin-top: 5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
@@ -354,14 +356,8 @@
 
 	/* =Navigation
 	----------------------------------------------- */
-	nav ul,
-	nav li {
-		list-style: none;
-		margin-left: 0;
-		padding-left: 0;
-	}
-	nav li {
-		display: inline;
+	nav p {
+		margin: 0;
 	}
 
 
