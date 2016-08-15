@@ -114,11 +114,16 @@
 				nameElement.innerHTML = data.name;
 			}
 
+			// Type
+			var typeElement = element.querySelector('.type');
+			typeElement.innerHTML = data.type;
+			// typeElement.className += ' ' + type;
+
 			// Address
 			if (data.address) element.querySelector('.address').innerHTML = data.address;
 
 			// Phone
-			if (data.phone) element.querySelector('.phone'  ).innerHTML = data.phone;
+			if (data.phone) element.querySelector('.phone').innerHTML = data.phone;
 
 			// Hours
 			var hoursElement = element.querySelector('.hours');
@@ -143,6 +148,7 @@
 					feature.properties["NAME"] ||
 					feature.properties["NAME:"] ||
 					feature.properties["MarketName"],
+			type:   getFeatureType(feature),
 			hours: 	feature.properties["times"] ||
 					feature.properties["Times"] ||
 					feature.properties["TIMES"] ||
@@ -162,6 +168,13 @@
 					.replace(/\-\-/g, '-');
 
 		return data;
+	}
+
+	function getFeatureType(feature) {
+		if (feature.layer.id.indexOf('Food Bank') >= 0) return 'Food Bank';
+		if (feature.layer.id.indexOf('Farmers Market') >= 0) return 'Farmers Market';
+		if (feature.layer.id.indexOf('Groceries') >= 0) return 'Grocery Store';
+		if (feature.layer.id.indexOf('CG-UF-N') >= 0) return 'Garden';
 	}
 
 	function getFeatureAddress(feature) {

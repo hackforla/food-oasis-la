@@ -482,12 +482,16 @@
 	}
 	.map-point-details h3 {
 		margin-top: 0;
-		margin-bottom: 0.6em;
+		margin-bottom: 0;
 		font-size: 1.25em;
 		line-height: 1.2;
 	}
 	.map-point-details h3 + p {
 		margin-top: 0;
+	}
+	.map-point-details .type {
+		font-style: italic;
+		opacity: 0.5;
 	}
 	.map-point-details h4 {
 		margin-top: 0;
