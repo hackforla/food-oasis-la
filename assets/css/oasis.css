@@ -348,6 +348,7 @@
 	footer section a {
 		color: inherit;
 		text-decoration: underline;
+		display: inline-block; /* @avoid-break */
 	}
 
 
@@ -595,7 +596,7 @@
 		margin-bottom: 0;
 	}
 	.food-source h1 span {
-		display: inline-block; /* Keep the last two words on the same line */
+		display: inline-block; /* @avoid-break */
 	}
 	.food-source h1 + p {
 		margin-bottom: 1.5em;
