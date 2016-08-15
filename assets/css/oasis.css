@@ -576,6 +576,7 @@
 		margin-right: 0;
 	}
 	.marker .label {
+		margin: 0;
 		position: absolute;
 		top: 0.25em;
 		width: 15em;
@@ -584,7 +585,8 @@
 		margin-left: -7.5em;
 		padding: 0.375em;
 		background: white;
-		background: rgba(255, 255, 255, 0.5)
+		background: rgba(255, 255, 255, 0.5);
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 	}
 	@media (min-width: 30em) {
 		.marker {
