@@ -24,12 +24,14 @@
 		min-height: 100%;
 	}
 	body {
-		background: white;
 		background: rgb(252, 255, 245);
 		background: rgb(159, 197, 239); /* @ocean */
 		background: rgb(255, 255, 246);
     	background-image: linear-gradient(to bottom, rgb(159, 197, 239), rgb(255, 255, 246) 25em, rgb(255, 255, 246)); /* @ocean */
+    	background: rgb(245, 250, 255);
+    	background-image: linear-gradient(to bottom, rgb(249, 252, 255), white 25em, white);
     	background: white;
+    	background: rgb(253, 254, 255);
 		color: black;
 		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
@@ -472,6 +474,7 @@
 	.map-point-details {
 		max-width: 80vw;
 		font-size: 1rem;
+		line-height: 1.5;
 	}
 	.map-point-details p {
 		margin-top: 1.5em;
