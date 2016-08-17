@@ -64,52 +64,86 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v9',
-    zoom: 15,
-    center: [-71.97722138410576, -13.517379300798098]
+    style: 'mapbox://styles/mapbox/light-v9',
+    zoom: 9,
+    center: [-118.243683, 34.052235]
 });
 
 map.on('load', function () {
-    map.addSource('museums', {
+    map.addSource('Farmers Markets', {
         type: 'vector',
-        url: 'mapbox://mapbox.2opop9hr'
+        url: 'mapbox://fooddesertsla.2ppvk6wg'
     });
     map.addLayer({
-        'id': 'museums',
+        'id': 'Farmers Markets',
         'type': 'circle',
-        'source': 'museums',
+        'source': 'Farmers Markets',
         'layout': {
             'visibility': 'visible'
         },
         'paint': {
-            'circle-radius': 8,
+            'circle-radius': 3,
             'circle-color': 'rgba(55,148,179,1)'
         },
-        'source-layer': 'museum-cusco'
+        'source-layer': 'Farmers_Markets_-_MASTER'
     });
 
-    map.addSource('contours', {
+    map.addSource('Grocery Stores', {
         type: 'vector',
-        url: 'mapbox://mapbox.mapbox-terrain-v2'
+        url: 'mapbox://fooddesertsla.3ow9v9cf'
     });
     map.addLayer({
-        'id': 'contours',
-        'type': 'line',
-        'source': 'contours',
-        'source-layer': 'contour',
+        'id': 'Grocery Stores',
+        'type': 'circle',
+        'source': 'Grocery Stores',
         'layout': {
-            'visibility': 'visible',
-            'line-join': 'round',
-            'line-cap': 'round'
+            'visibility': 'visible'
         },
         'paint': {
-            'line-color': '#877b59',
-            'line-width': 1
-        }
+            'circle-radius': 3,
+            'circle-color': 'rgba(55,148,179,1)'
+        },
+        'source-layer': 'Grocery_Stores_and_Supermarkets_'
+    });
+
+    map.addSource('Food Banks', {
+        type: 'vector',
+        url: 'mapbox://fooddesertsla.c1nwj97w'
+    });
+    map.addLayer({
+        'id': 'Food Banks',
+        'type': 'circle',
+        'source': 'Food Banks',
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            'circle-radius': 3,
+            'circle-color': 'rgba(55,148,179,1)'
+        },
+        'source-layer': 'Food_Banks_-_Andrew'
+    });
+
+    map.addSource('Community Gardens', {
+        type: 'vector',
+        url: 'mapbox://fooddesertsla.5x93lfi1'
+    });
+    map.addLayer({
+        'id': 'Community Gardens',
+        'type': 'circle',
+        'source': 'Community Gardens',
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            'circle-radius': 3,
+            'circle-color': 'rgba(55,148,179,1)'
+        },
+        'source-layer': 'CG-UF-Nursery_-_Andrew'
     });
 });
 
-var toggleableLayerIds = [ 'contours', 'museums' ];
+var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
