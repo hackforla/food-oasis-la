@@ -251,6 +251,21 @@
 		}
 	}
 
+	/* =Search Box Options
+	----------------------------------------------- */
+	#searchCheckBoxList {
+		list-style-type: none;
+	}
+
+	.locationTypeOptions {
+		display: inline;
+		padding-left: 20px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
 
 	/* =Footer
 	----------------------------------------------- */

@@ -78,6 +78,7 @@
 
 
 	var popup;
+	
 	function showPopup(event) {
 		var features = map.queryRenderedFeatures(event.point, { 
 			layers: layersArray
@@ -171,6 +172,7 @@
 					feature.properties["CONTACT:"],
 			address: getFeatureAddress(feature)
 		};
+
 		data.uri = data.name.toLowerCase()
 					.replace(/\s/g, '-')
 					.replace(/\//g, '-')
