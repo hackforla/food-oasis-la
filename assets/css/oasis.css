@@ -95,11 +95,17 @@
 		color: rgb(144, 194, 70); /* @lime */
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgb(241, 95, 91); /* @strawberry */
+		text-decoration: underline;
 	}
+	abbr {
+		text-decoration: inherit;
+	}
+	/*
 	a:not([href]) {
 		color: inherit;
 		opacity: 0.5;
 	}
+	*/
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
@@ -149,6 +155,11 @@
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
 		text-decoration: none;
+	}
+	.link-list a:hover,
+	.link-list a:active,
+	.link-list a:focus {
+		text-decoration: underline;
 	}
 	.link-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -383,6 +394,7 @@
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: transparent;
 		text-decoration: none;
+		transition: background-color 0.2s;
 	}
 	button:hover,
 	button:active,
@@ -390,6 +402,7 @@
 	nav a:hover,
 	nav a:active,
 	nav a:focus {
+		background: rgb(221, 75, 71); /* @strawberry */
 		text-decoration: none;
 	}
 	button {
@@ -567,17 +580,21 @@
 
 	/* =Find
 	----------------------------------------------- */
+	/*
 	body.find main h1 {
 		margin-top: 0;
 	}
 	body.find form {
-		min-height: 33vh;
 		display: flex;
 		align-items: center;
-	}
-	body.find form {
 		min-height: 50vh;
 		min-height: calc(100vh - 15rem);
+	}
+	*/
+	body.find .categories h2 {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
 	}
 
 
