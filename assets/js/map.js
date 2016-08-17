@@ -67,9 +67,23 @@
 		}
 	}
 
+	var urlTag = getParameterByName('type');
+
+	console.log(urlTag);
+
+	var layersArray = ['Food Banks (Solution)',
+	'CG-UF-N (Solution)',
+	'Farmers Markets (Solution)',
+	'Groceries (Problem)'];
+
+
 	var popup;
 	function showPopup(event) {
-		var features = map.queryRenderedFeatures(event.point, { layers: ['Food Banks (Solution)','CG-UF-N (Solution)','Farmers Markets (Solution)','Groceries (Problem)'] });
+		var features = map.queryRenderedFeatures(event.point, { 
+			layers: ['Food Banks (Solution)',
+	'CG-UF-N (Solution)']
+			//urlTag ? [urlTag] : layersArray
+		});
 
 		if (!popup) {
 			popup = new mapboxgl.Popup({
