@@ -23,5 +23,4 @@
 			.setLngLat([FOOD_SOURCE.longitude, FOOD_SOURCE.latitude])
 			.addTo(map);
 	}
-
 })();

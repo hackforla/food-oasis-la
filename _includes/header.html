@@ -3,5 +3,20 @@
 		<a href="/">
 			<img src="/assets/images/food-oasis-la-horizontal-lime.svg" width="300" alt="Food Oasis Los Angeles" />
 		</a>
+		<div class="dropdown"> 
+			<button onclick="dropDownFunction()" class="dropbtn">Menu</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="/map">Map</a>
+				<a href="/source">Food banks</a>
+				<a href="/faqs"><abbr title="Frequently Asked Questions">FAQs</abbr></a>
+				<a href="/resources">Resources</a>
+				<a href="/news">News</a>
+			</div>
+		</div>
 	</h2>
+	<script type="text/javascript">
+		function dropDownFunction() {
+	    	document.getElementById("myDropdown").classList.toggle("show");
+		}
+	</script>
 </div>
