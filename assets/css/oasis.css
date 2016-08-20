@@ -24,37 +24,11 @@
 		min-height: 100%;
 	}
 	body {
-		background: rgb(252, 255, 245);
-		background: rgb(159, 197, 239); /* @ocean */
-		background: rgb(255, 255, 246);
-    	background-image: linear-gradient(to bottom, rgb(159, 197, 239), rgb(255, 255, 246) 25em, rgb(255, 255, 246)); /* @ocean */
-    	background: rgb(245, 250, 255);
-    	background-image: linear-gradient(to bottom, rgb(249, 252, 255), white 25em, white);
-    	background: white;
     	background: rgb(253, 254, 255);
-		color: black;
-		color: rgb(27, 30, 23);
 		color: rgba(0, 0, 0, 0.9);
 		margin: 0;
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
-	}
-	.disabled body::before {
-		content: "";
-		width: 4.25em;
-		height: 4.25em;
-		background-image: url(/assets/images/sun.svg);
-		background-size: 15em 15em;
-		background-position: bottom left;
-		position: absolute;
-		z-index: -1;
-		top: 0;
-		right: 0;
-		width: 10em;
-		height: 10em;
-		/*
-		transform: rotate(0.65turn);
-		*/
 	}
 
 	/* OPTIONAL: Increase the font size on big screens. */
