@@ -17,14 +17,12 @@ layout: null
 
     <style>
         #menu {
-            background: #fff;
             position: absolute;
             z-index: 1;
             bottom: 10px;
-            left: 10px;
+            left: 50px;
             border-radius: 3px;
-            width: 120px;
-            border: 1px solid rgba(0,0,0,0.4);
+            width: 160px;
             font-family: 'Open Sans', sans-serif;
         }
 
@@ -32,7 +30,7 @@ layout: null
             font-size: 13px;
             color: #404040;
             display: block;
-            margin: 0;
+            margin: 0.375em 0 0 0;
             padding: 0;
             padding: 10px;
             text-decoration: none;
@@ -56,6 +54,19 @@ layout: null
 
         #menu a.active:hover {
             background: #3074a4;
+        }
+
+        #menu a.food-banks {
+            background-color: rgb(249, 192, 88); /* @banana */
+        }
+        #menu a.community-gardens {
+            background-color: rgb(144, 194, 70); /* @lime */
+        }
+        #menu a.farmers-markets {
+            background-color: rgb(77, 85, 148); /* @blueberry */
+        }
+        #menu a.grocery-stores {
+            background-color: rgb(241, 95, 91); /* @strawberry */
         }
     </style>
 </head>
@@ -167,6 +178,149 @@ function moveMapToPosition(position) {
     }
 }
 
+var urlTag = getParameterByName('type');
+
+console.log(urlTag);
+
+var layersArray = [
+'Food Banks',
+'Community Gardens',
+'Farmers Markets',
+'Grocery Stores'
+];
+
+var popup;
+
+function showPopup(event) {
+    var features = map.queryRenderedFeatures(event.point, { 
+        layers: layersArray
+    });
+
+    if (!popup) {
+        popup = new mapboxgl.Popup({
+            closeButton: false,
+            closeOnClick: false
+        });
+    }
+
+    // Change the cursor style as a UI indicator.
+    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+    if (!features.length) {
+        popup.remove();
+        return;
+    }
+
+    var feature = features[0];
+
+    // TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
+    var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
+
+    var element = createPopupElement(feature, showLink);
+
+    popup.setLngLat(feature.geometry.coordinates).setDOMContent(element).addTo(map);
+}
+
+function createPopupElement(feature, showLink) {
+
+    var template = document.getElementById('popup-template');
+    if (template) {
+        var element = document.createElement('div');
+        element.innerHTML = template.innerHTML;
+
+        var data = getFeatureData(feature);
+
+        // Name
+        var nameElement = element.querySelector('h3');
+        if (showLink) {
+            var link = nameElement.querySelector('a');
+            link.setAttribute('href', link.getAttribute('href') + '/' + data.uri);
+            link.innerHTML = data.name;
+        } else {
+            nameElement.innerHTML = data.name;
+        }
+
+        // Type
+        var typeElement = element.querySelector('.type');
+        typeElement.innerHTML = data.type;
+        // typeElement.className += ' ' + type;
+
+        // Address
+        if (data.address) element.querySelector('.address').innerHTML = data.address;
+
+        // Phone
+        if (data.phone) element.querySelector('.phone').innerHTML = data.phone;
+
+        // Hours
+        var hoursElement = element.querySelector('.hours');
+        if (data.hours) {
+            hoursElement.innerHTML = data.hours;
+        } else {
+            var h4 = element.querySelector('h4');
+            h4.parentNode.removeChild(h4);
+
+            hoursElement.parentNode.removeChild(hoursElement);
+        }
+
+        return element;
+    }
+}
+
+function getFeatureData(feature) {
+
+    var data = {
+        name:   feature.properties["name"] || 
+                feature.properties["Name"] ||
+                feature.properties["NAME"] ||
+                feature.properties["NAME:"] ||
+                feature.properties["MarketName"],
+        type:   feature.layer.id,
+        hours:  feature.properties["times"] ||
+                feature.properties["Times"] ||
+                feature.properties["TIMES"] ||
+                feature.properties["TIMES:"],
+        phone:  feature.properties["telephone"] ||
+                feature.properties["Telephone"] ||
+                feature.properties["CONTACT"] ||
+                feature.properties["CONTACT:"],
+        address: getFeatureAddress(feature)
+    };
+
+    data.uri = data.name.toLowerCase()
+                .replace(/\s/g, '-')
+                .replace(/\//g, '-')
+                .replace(/\&/g, '-')
+                .replace(/\./g, '-')
+                .replace(/\'/g, '')
+                .replace(/\-\-/g, '-');
+
+    return data;
+}
+
+function getFeatureAddress(feature) {
+    var address = "";
+
+    var street = 
+                feature.properties["address"] ||
+                feature.properties["Address"] ||
+                feature.properties["ADDRESS"] ||
+                feature.properties["ADDRESS:"];
+    var city = 
+                feature.properties["city"] ||
+                feature.properties["City"];
+    var state = 
+                feature.properties["state"] ||
+                feature.properties["State"];
+
+    if (street) 
+            address += street;
+    if (city)
+            address += (street ? '<br />' : '') + city;
+    if (state)
+            address += (city ? ', ' : (street ? '<br />' : '')) + state;
+
+    return address;
+}
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 var map = new mapboxgl.Map({
     container: 'map',
@@ -175,6 +329,14 @@ var map = new mapboxgl.Map({
     center: MAP_START_POSITION, // starting position
     maxBounds: MAP_BOUNDS
 });
+
+var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
+map.addControl(nav);
+
+// Add 'Current Location' Functionality
+map.addControl(new mapboxgl.Geolocate());
+
+map.on('click', showPopup); 
 
 map.on('load', function () {
     map.addSource('Farmers Markets', {
@@ -189,8 +351,8 @@ map.on('load', function () {
             'visibility': 'visible'
         },
         'paint': {
-            'circle-radius': 3,
-            'circle-color': 'rgba(55,148,179,1)'
+            'circle-radius': 10,
+            'circle-color': 'rgb(77, 85, 148)' /* @blueberry */
         },
         'source-layer': 'Farmers_Markets_-_MASTER'
     });
@@ -207,8 +369,8 @@ map.on('load', function () {
             'visibility': 'visible'
         },
         'paint': {
-            'circle-radius': 3,
-            'circle-color': 'rgba(55,148,179,1)'
+            'circle-radius': 10,
+            'circle-color': 'rgb(241, 95, 91)' /* @strawberry */
         },
         'source-layer': 'Grocery_Stores_and_Supermarkets_'
     });
@@ -225,8 +387,8 @@ map.on('load', function () {
             'visibility': 'visible'
         },
         'paint': {
-            'circle-radius': 3,
-            'circle-color': 'rgba(55,148,179,1)'
+            'circle-radius': 10,
+            'circle-color': 'rgb(249, 192, 88)' /* @banana */
         },
         'source-layer': 'Food_Banks_-_Andrew'
     });
@@ -243,8 +405,8 @@ map.on('load', function () {
             'visibility': 'visible'
         },
         'paint': {
-            'circle-radius': 3,
-            'circle-color': 'rgba(55,148,179,1)'
+            'circle-radius': 10,
+            'circle-color': 'rgb(144, 194, 70)' /* @lime */
         },
         'source-layer': 'CG-UF-Nursery_-_Andrew'
     });
@@ -293,14 +455,14 @@ map.on('load', function () {
 });
 
 //var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens', 'Census Tracts', 'Food Deserts'];
-var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens'];
+//var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens'];
 
-for (var i = 0; i < toggleableLayerIds.length; i++) {
-    var id = toggleableLayerIds[i];
+for (var i = 0; i < layersArray.length; i++) {
+    var id = layersArray[i];
 
     var link = document.createElement('a');
     link.href = '#';
-    link.className = 'active';
+    link.className = 'active ' + layersArray[i].toLowerCase().replace(/\s/, '-');
     link.textContent = id;
 
     link.onclick = function (e) {

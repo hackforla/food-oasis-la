@@ -11,9 +11,6 @@
 			maxBounds: MAP_BOUNDS
 		});
 
-		// Add Search Functionality
-		//map.addControl(new mapboxgl.Geocoder());	
-
 		var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
 		map.addControl(nav);
 
