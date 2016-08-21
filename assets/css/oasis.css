@@ -637,7 +637,7 @@
 	.food-source h1 + p {
 		margin-bottom: 1.5em;
 	}
-	.food-source h2 {
+	.food-source .page-contents h2 {
 		font-size: inherit;
 		margin-top: 1.5em;
 		display: block;
