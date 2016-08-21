@@ -29,29 +29,23 @@ layout: null
 	
 	<div class="page-contents">
 
+		<h2>
+			<img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> Address
+		</h2>
 		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> <span>Address</span></span><br />
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">{{ page.food_source['address'] | escape }}</a>
-		</p>
-
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> <span>Phone</span></span><br />
-			{{ page.food_source['phone'] | escape }}
-		</p>
-		<!--
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/website.svg" width="30" alt="Website" /> <span>Website</span></span><br />
-			<a href="http://www.yelp.com/biz/montrose-candy-co-la-crescenta-montrose">
-				PLACEHOLDER: {{ page.food_source['name'] }} on Yelp
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">
+				{{ page.food_source['address'] | escape }}
 			</a>
 		</p>
-		-->
 
-		<p>
-			<span class="title"><img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> <span>Hours</span></span><br />
-			
-		</p>
+		<h2>
+			<img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> Phone
+		</h2>
+		<p>{{ page.food_source['phone'] | escape }}</p>
 
+		<h2>
+			<img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> Hours
+		</h2>
 		<p>{{ page.food_source['hours'] | escape }}</p>
 		<!--
 		<dl>
