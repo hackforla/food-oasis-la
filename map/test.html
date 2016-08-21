@@ -16,57 +16,31 @@ layout: null
     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" />
 
     <style>
-        #menu {
+        .map-filters {
             position: absolute;
             z-index: 1;
             bottom: 10px;
             left: 50px;
-            border-radius: 3px;
-            width: 160px;
-            font-family: 'Open Sans', sans-serif;
+            width: 15em;
         }
 
-        #menu a {
-            font-size: 13px;
-            color: #404040;
-            display: block;
-            margin: 0.375em 0 0 0;
-            padding: 0;
-            padding: 10px;
-            text-decoration: none;
-            border-bottom: 1px solid rgba(0,0,0,0.25);
-            text-align: center;
-        }
-
-        #menu a:last-child {
-            border: none;
-        }
-
-        #menu a:hover {
-            background-color: #f8f8f8;
-            color: #404040;
-        }
-
-        #menu a.active {
-            background-color: #3887be;
-            color: #ffffff;
-        }
-
-        #menu a.active:hover {
-            background: #3074a4;
-        }
-
-        #menu a.food-banks {
+        .map-filters .food-banks {
             background-color: rgb(249, 192, 88); /* @banana */
         }
-        #menu a.community-gardens {
+        .map-filters .community-gardens {
             background-color: rgb(144, 194, 70); /* @lime */
         }
-        #menu a.farmers-markets {
+        .map-filters .farmers-markets {
+            background-color: rgb(241, 95, 91); /* @strawberry */
+        }
+        .map-filters .grocery-stores {
             background-color: rgb(77, 85, 148); /* @blueberry */
         }
-        #menu a.grocery-stores {
-            background-color: rgb(241, 95, 91); /* @strawberry */
+
+        @media (max-width: 35em) and (max-height: 35em) {
+            .map-filters {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -75,7 +49,7 @@ layout: null
     {% include header.html %}
     {% include find-food-link.html %}
 
-    <nav id="menu"></nav>
+    <nav class="map-filters"></nav>
     <div id="map" class="mapbox"></div>
 
     <!-- For map.js -->
@@ -102,11 +76,43 @@ layout: null
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js"></script>
 <script>
 
+var MAP_START_POSITION = [-118.243683, 34.052235];
+
 var MAP_BOUNDS = [
     [-119.9442369,32.7089729], // Southwest coordinates
     [-116.63282912,35.8275538]  // Northeast coordinates
 ];
-var MAP_START_POSITION = [-118.243683, 34.052235];
+
+var MAP_LAYERS = [
+    {
+        name: 'food-banks',
+        label: 'Food Banks',
+        sourceLayer: 'Food_Banks_-_Andrew',
+        sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
+        color: 'rgba(249, 192, 88, 0.5)' /* @banana */
+    },
+    {
+        name: 'community-gardens',
+        label: 'Community Gardens',
+        sourceLayer: 'CG-UF-Nursery_-_Andrew',
+        sourceURL: 'mapbox://fooddesertsla.5x93lfi1',
+        color: 'rgba(144, 194, 70, 0.5)' /* @lime */
+    },
+    {
+        name: 'farmers-markets',
+        label: 'Farmers Markets',
+        sourceLayer: 'Farmers_Markets_-_MASTER',
+        sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
+        color: 'rgba(241, 95, 91, 0.5)' /* @strawberry */
+    },
+    {
+        name: 'grocery-stores',
+        label: 'Grocery Stores',
+        sourceLayer: 'Grocery_Stores_and_Supermarkets_',
+        sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
+        color: 'rgba(77, 85, 148, 0.5)' /* @blueberry */
+    }
+];
 
 function geocodeAddress(address, callback) {
     var geocoder = new google.maps.Geocoder();
@@ -182,18 +188,14 @@ var urlTag = getParameterByName('type');
 
 console.log(urlTag);
 
-var layersArray = [
-'Food Banks',
-'Community Gardens',
-'Farmers Markets',
-'Grocery Stores'
-];
-
 var popup;
-
 function showPopup(event) {
+    var layerNames = [];
+    for (var i = 0; i < MAP_LAYERS.length; i++) {
+        layerNames.push(MAP_LAYERS[i].name);
+    }
     var features = map.queryRenderedFeatures(event.point, { 
-        layers: layersArray
+        layers: layerNames
     });
 
     if (!popup) {
@@ -213,7 +215,7 @@ function showPopup(event) {
     var feature = features[0];
 
     // TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-    var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
+    var showLink = (feature.layer.id === 'Food Banks') ? true : false;
 
     var element = createPopupElement(feature, showLink);
 
@@ -338,78 +340,37 @@ map.addControl(new mapboxgl.Geolocate());
 
 map.on('click', showPopup); 
 
+function addLayer(data, markerSize, minzoom, maxzoom) {
+    var name = data.name + (!minzoom ? '-far' : (!maxzoom ? '-near' : ''));
+    console.log('id: ' + name);
+    map.addSource(name, {
+        type: 'vector',
+        url: data.sourceURL
+    });
+    var layerData = {
+        'id': name,
+        'type': 'circle',
+        'source': name,
+        'layout': {
+            'visibility': 'visible'
+        },
+        'paint': {
+            'circle-radius': markerSize,
+            'circle-color': data.color
+        },
+        'source-layer': data.sourceLayer
+    };
+    if (minzoom) layerData.minzoom = minzoom;
+    if (maxzoom) layerData.maxzoom = maxzoom;
+    map.addLayer(layerData);
+}
+
 map.on('load', function () {
-    map.addSource('Farmers Markets', {
-        type: 'vector',
-        url: 'mapbox://fooddesertsla.2ppvk6wg'
-    });
-    map.addLayer({
-        'id': 'Farmers Markets',
-        'type': 'circle',
-        'source': 'Farmers Markets',
-        'layout': {
-            'visibility': 'visible'
-        },
-        'paint': {
-            'circle-radius': 10,
-            'circle-color': 'rgb(77, 85, 148)' /* @blueberry */
-        },
-        'source-layer': 'Farmers_Markets_-_MASTER'
-    });
-
-    map.addSource('Grocery Stores', {
-        type: 'vector',
-        url: 'mapbox://fooddesertsla.3ow9v9cf'
-    });
-    map.addLayer({
-        'id': 'Grocery Stores',
-        'type': 'circle',
-        'source': 'Grocery Stores',
-        'layout': {
-            'visibility': 'visible'
-        },
-        'paint': {
-            'circle-radius': 10,
-            'circle-color': 'rgb(241, 95, 91)' /* @strawberry */
-        },
-        'source-layer': 'Grocery_Stores_and_Supermarkets_'
-    });
-
-    map.addSource('Food Banks', {
-        type: 'vector',
-        url: 'mapbox://fooddesertsla.c1nwj97w'
-    });
-    map.addLayer({
-        'id': 'Food Banks',
-        'type': 'circle',
-        'source': 'Food Banks',
-        'layout': {
-            'visibility': 'visible'
-        },
-        'paint': {
-            'circle-radius': 10,
-            'circle-color': 'rgb(249, 192, 88)' /* @banana */
-        },
-        'source-layer': 'Food_Banks_-_Andrew'
-    });
-
-    map.addSource('Community Gardens', {
-        type: 'vector',
-        url: 'mapbox://fooddesertsla.5x93lfi1'
-    });
-    map.addLayer({
-        'id': 'Community Gardens',
-        'type': 'circle',
-        'source': 'Community Gardens',
-        'layout': {
-            'visibility': 'visible'
-        },
-        'paint': {
-            'circle-radius': 10,
-            'circle-color': 'rgb(144, 194, 70)' /* @lime */
-        },
-        'source-layer': 'CG-UF-Nursery_-_Andrew'
-    });
+    for (var index = 0; index < MAP_LAYERS.length; index++) {
+        addLayer(MAP_LAYERS[index], 9, 14, null); // Zoomed in
+        addLayer(MAP_LAYERS[index], 6, 12, 14);
+        addLayer(MAP_LAYERS[index], 3, null, 12); // Zoomed out
+    }
 
     /*
     map.addSource('Census Tracts', {
@@ -452,38 +413,42 @@ map.on('load', function () {
     */
 
     findUserLocation();
+
+    //var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens', 'Census Tracts', 'Food Deserts'];
+
+    var layers = document.querySelector('.map-filters');
+    function createButton(data) {
+
+        var button = document.createElement('button');
+        button.type = "button";
+        button.className = data.name;
+        button.textContent = data.label;
+
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            var visibility = map.getLayoutProperty(data.name, 'visibility');
+
+            if (visibility === 'visible') {
+                map.setLayoutProperty(data.name, 'visibility', 'none');
+                map.setLayoutProperty(data.name + '-near', 'visibility', 'none');
+                map.setLayoutProperty(data.name + '-far', 'visibility', 'none');
+                this.className += ' inactive';
+            } else {
+                map.setLayoutProperty(data.name, 'visibility', 'visible');
+                map.setLayoutProperty(data.name + '-near', 'visibility', 'visible');
+                map.setLayoutProperty(data.name + '-far', 'visibility', 'visible');
+                this.className = this.className.replace(/inactive/g, '');
+            }
+        }, false);
+
+        layers.appendChild(button);
+    }
+
+    for (var i = 0; i < MAP_LAYERS.length; i++) {
+        createButton(MAP_LAYERS[i]);
+    }
 });
-
-//var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens', 'Census Tracts', 'Food Deserts'];
-//var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens'];
-
-for (var i = 0; i < layersArray.length; i++) {
-    var id = layersArray[i];
-
-    var link = document.createElement('a');
-    link.href = '#';
-    link.className = 'active ' + layersArray[i].toLowerCase().replace(/\s/, '-');
-    link.textContent = id;
-
-    link.onclick = function (e) {
-        var clickedLayer = this.textContent;
-        e.preventDefault();
-        e.stopPropagation();
-
-        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
-
-        if (visibility === 'visible') {
-            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-            this.className = '';
-        } else {
-            this.className = 'active';
-            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
-        }
-    };
-
-    var layers = document.getElementById('menu');
-    layers.appendChild(link);
-}
 
 </script>
 
