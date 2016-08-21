@@ -147,40 +147,58 @@
 
 	/* =Header
 	----------------------------------------------- */
-	.header h1,
 	.header h2 {
 		font-size: 1.5em;
 		font-weight: inherit;
 		margin: -1.5rem -1.5rem 0;
 		text-align: center;
 	}
-	.header h1 a,
 	.header h2 a {
 		display: block;
 		padding: 1.125em 0.75rem;
 		text-align: right;
 		margin-left: 0.75rem;
 		margin-right: 0.75rem;
+		color: inherit;
 	}
-	.header h1 img,
-	.header h2 img {
+	.header h2 svg {
 		display: block;
 		opacity: 0.85;
 		width: 18.75rem; /* 300px / 16px */
+		height: 2.375rem;
 	}
+	.header h2 svg .food-oasis path,
+	.header h2 svg .food-oasis polygon,
+	.header h2 svg .food-oasis rect {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+	.header h2 a:hover svg .food-oasis path,
+	.header h2 a:hover svg .food-oasis polygon,
+	.header h2 a:hover svg .food-oasis rect,
+	.header h2 a:active svg .food-oasis path,
+	.header h2 a:active svg .food-oasis polygon,
+	.header h2 a:active svg .food-oasis rect,
+	.header h2 a:focus svg .food-oasis path,
+	.header h2 a:focus svg .food-oasis polygon,
+	.header h2 a:focus svg .food-oasis rect {
+		fill: rgb(124, 174, 50); /* @dark-lime */
+	}
+	.header h2 svg .los-angeles path {
+		fill: currentColor;
+	}
+	/*
 	@media (max-width: 29.99999em) {
-		.header h1 img,
-		.header h2 img {
+		.header h1 svg,
+		.header h2 svg {
 			width: 70%;
 		}
 	}
+	*/
 	@media (min-width: 30em) {
-		.header h1,
 		.header h2 {
 			margin-left: -3rem;
 			margin-right: -3rem
 		}
-		.header h1 a,
 		.header h2 a {
 			margin-left: 2.25rem;
 		}
