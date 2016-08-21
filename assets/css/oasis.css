@@ -66,6 +66,7 @@
 	}
 
 	a {
+		color: rgb(249, 192, 88); /* @canteloupe */
 		color: rgb(144, 194, 70); /* @lime */
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgb(241, 95, 91); /* @strawberry */
@@ -84,17 +85,9 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
-		color: rgb(249, 192, 88); /* @canteloupe */
-		color: rgb(144, 194, 70); /* @lime */
-		color: rgba(0, 0, 0, 0.8);
-		color: rgb(77, 85, 148); /* @blueberry */
-		color: inherit;
 	}
 	h1 {
 		margin-top: 1.5em;
-	}
-	h2 {
-		/*border-bottom: 2px solid rgba(144, 194, 70, 0.9);*/ /* @lime */
 	}
 
  	/* Shrink images to fit the available space */
@@ -191,19 +184,6 @@
 		.header h2 a {
 			margin-left: 2.25rem;
 		}
-	}
-
-	.header h1,
-	.header h2 {
-		border-top-color: transparent;
-		border-top: 0.25em solid rgb(249, 192, 88); /* @canteloupe */
-		border-top-color: rgb(144, 194, 70); /* @lime */
-		border-top-color: rgb(159, 197, 239); /* @ocean */
-		border-top-color: transparent;
-	}
-	.header h1 a,
-	.header h2 a {
-		padding-top: 0.875em;
 	}
 
 	/* Position the nav on top of the map */
@@ -444,6 +424,8 @@
 	button {
 		cursor: pointer;
 		font-size: inherit;
+	}
+	body.find button {
 		text-transform: uppercase;
 	}
 	label span {
@@ -524,6 +506,7 @@
 		max-width: 80vw;
 		font-size: 1rem;
 		line-height: 1.5;
+		padding: 0.75em;
 	}
 	.map-point-details p {
 		margin-top: 1.5em;
@@ -561,15 +544,15 @@
 		position: relative;
 		font-size: 1rem;
 		line-height: 1.5;
-		border: 1px solid blue;
 	}
 	.marker img {
 		position: absolute;
 		bottom: 0;
 		left: -1em;
 		width: 2em;
+		max-width: none;
 		height: 2em;
-		marign-left: 0;
+		margin-left: 0;
 		margin-right: 0;
 	}
 	.marker .label {
@@ -604,15 +587,6 @@
 		height: calc(100vh - 5.75rem); /* header height */
 	}
 
-	body.map .marker {
-		font-size: 2rem;
-	}
-	@media (min-width: 30em) {
-		body.map .marker {
-			font-size: 3rem;
-		}
-	}
-
 
 	/* =Find
 	----------------------------------------------- */
@@ -636,18 +610,6 @@
 
 	/* =Food Source
 	----------------------------------------------- */
-	.food-source .title {
-		margin-top: 1.5em;
-		display: block;
-		margin-bottom: 0.5em;
-	}
-	.food-source .title + br {
-		display: none;
-	}
-	.food-source .icon + span {
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-	}
-
 	.food-source h1 {
 		margin-bottom: 0;
 	}
@@ -656,6 +618,15 @@
 	}
 	.food-source h1 + p {
 		margin-bottom: 1.5em;
+	}
+	.food-source h2 {
+		font-size: inherit;
+		margin-top: 1.5em;
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.food-source h2 + p {
+		margin-top: 0;
 	}
 
 	.food-source .mapbox {
