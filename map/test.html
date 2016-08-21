@@ -212,6 +212,8 @@ function showPopup(event) {
     var layerNames = [];
     for (var i = 0; i < MAP_LAYERS.length; i++) {
         layerNames.push(MAP_LAYERS[i].name);
+        layerNames.push(MAP_LAYERS[i].name + '-near');
+        layerNames.push(MAP_LAYERS[i].name + '-far');
     }
     var features = map.queryRenderedFeatures(event.point, { 
         layers: layerNames
@@ -294,7 +296,7 @@ function getFeatureData(feature) {
                 feature.properties["NAME"] ||
                 feature.properties["NAME:"] ||
                 feature.properties["MarketName"],
-        type:   getLayerLabel(feature.layer.id),
+        type:   getLayerLabel(feature.layer.id.replace('-near', '').replace('-far', '')),
         hours:  feature.properties["times"] ||
                 feature.properties["Times"] ||
                 feature.properties["TIMES"] ||
