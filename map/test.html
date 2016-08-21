@@ -24,16 +24,16 @@ layout: null
             width: 15em;
         }
 
-        .map-filters .food-banks {
+        .map-filters .food-bank {
             background-color: rgb(249, 192, 88); /* @banana */
         }
-        .map-filters .community-gardens {
+        .map-filters .community-garden {
             background-color: rgb(144, 194, 70); /* @lime */
         }
-        .map-filters .farmers-markets {
+        .map-filters .farmers-market {
             background-color: rgb(241, 95, 91); /* @strawberry */
         }
-        .map-filters .grocery-stores {
+        .map-filters .grocery-store {
             background-color: rgb(77, 85, 148); /* @blueberry */
         }
 
@@ -85,34 +85,42 @@ var MAP_BOUNDS = [
 
 var MAP_LAYERS = [
     {
-        name: 'food-banks',
-        label: 'Food Banks',
+        name: 'food-bank',
+        label: 'Food Bank',
         sourceLayer: 'Food_Banks_-_Andrew',
         sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
         color: 'rgba(249, 192, 88, 0.5)' /* @banana */
     },
     {
-        name: 'community-gardens',
-        label: 'Community Gardens',
+        name: 'community-garden',
+        label: 'Community Garden',
         sourceLayer: 'CG-UF-Nursery_-_Andrew',
         sourceURL: 'mapbox://fooddesertsla.5x93lfi1',
         color: 'rgba(144, 194, 70, 0.5)' /* @lime */
     },
     {
-        name: 'farmers-markets',
-        label: 'Farmers Markets',
+        name: 'farmers-market',
+        label: 'Farmers’ Market',
         sourceLayer: 'Farmers_Markets_-_MASTER',
         sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
         color: 'rgba(241, 95, 91, 0.5)' /* @strawberry */
     },
     {
-        name: 'grocery-stores',
-        label: 'Grocery Stores',
+        name: 'grocery-store',
+        label: 'Grocery Store',
         sourceLayer: 'Grocery_Stores_and_Supermarkets_',
         sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
         color: 'rgba(77, 85, 148, 0.5)' /* @blueberry */
     }
 ];
+
+function getLayerLabel(name) {
+    for (var index = 0; index < MAP_LAYERS.length; index++) {
+        if (MAP_LAYERS[index].name === name) {
+            return MAP_LAYERS[index].label;
+        }
+    }
+}
 
 function geocodeAddress(address, callback) {
     var geocoder = new google.maps.Geocoder();
@@ -215,7 +223,7 @@ function showPopup(event) {
     var feature = features[0];
 
     // TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-    var showLink = (feature.layer.id === 'Food Banks') ? true : false;
+    var showLink = (feature.layer.id === 'food-bank') ? true : false;
 
     var element = createPopupElement(feature, showLink);
 
@@ -275,7 +283,7 @@ function getFeatureData(feature) {
                 feature.properties["NAME"] ||
                 feature.properties["NAME:"] ||
                 feature.properties["MarketName"],
-        type:   feature.layer.id,
+        type:   getLayerLabel(feature.layer.id),
         hours:  feature.properties["times"] ||
                 feature.properties["Times"] ||
                 feature.properties["TIMES"] ||
@@ -422,7 +430,7 @@ map.on('load', function () {
         var button = document.createElement('button');
         button.type = "button";
         button.className = data.name;
-        button.textContent = data.label;
+        button.textContent = data.label + 's'; // SHIM: Pluralize
 
         button.addEventListener('click', function(e) {
             e.preventDefault();
