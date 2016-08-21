@@ -19,9 +19,16 @@ layout: null
         .map-filters {
             position: absolute;
             z-index: 1;
-            bottom: 10px;
-            left: 50px;
+            top: 7.25rem; /* header height + 1.5rem */
+            left: 1.5rem;
             width: 15em;
+        }
+
+        @media (min-width: 30em) {
+            .map-filters {
+                top: 8.75rem; /* header height + 3rem */
+                left: 3rem;
+            }
         }
 
         .map-filters .food-bank {
@@ -35,6 +42,10 @@ layout: null
         }
         .map-filters .grocery-store {
             background-color: rgb(77, 85, 148); /* @blueberry */
+        }
+
+        .map-filters .inactive {
+            opacity: 0.5;
         }
 
         @media (max-width: 35em) and (max-height: 35em) {
@@ -89,28 +100,28 @@ var MAP_LAYERS = [
         label: 'Food Bank',
         sourceLayer: 'Food_Banks_-_Andrew',
         sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
-        color: 'rgba(249, 192, 88, 0.5)' /* @banana */
+        color: 'rgba(249, 192, 88, 0.75)' /* @banana */
     },
     {
         name: 'community-garden',
         label: 'Community Garden',
         sourceLayer: 'CG-UF-Nursery_-_Andrew',
         sourceURL: 'mapbox://fooddesertsla.5x93lfi1',
-        color: 'rgba(144, 194, 70, 0.5)' /* @lime */
+        color: 'rgba(144, 194, 70, 0.75)' /* @lime */
     },
     {
         name: 'farmers-market',
         label: 'Farmers’ Market',
         sourceLayer: 'Farmers_Markets_-_MASTER',
         sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
-        color: 'rgba(241, 95, 91, 0.5)' /* @strawberry */
+        color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
     },
     {
         name: 'grocery-store',
         label: 'Grocery Store',
         sourceLayer: 'Grocery_Stores_and_Supermarkets_',
         sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
-        color: 'rgba(77, 85, 148, 0.5)' /* @blueberry */
+        color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
     }
 ];
 
