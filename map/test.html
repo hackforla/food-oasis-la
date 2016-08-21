@@ -66,7 +66,7 @@ layout: null
 	<!-- For map.js -->
 	<script type="text/template" id="marker-template">
 	<div class="marker">
-		<img src="/assets/images/markers/purple.svg" alt="" />
+		<img src="/assets/images/markers/dot.png" alt="" />
 	</div>
 	</script>
 
@@ -100,13 +100,15 @@ layout: null
 			label: 'Food Bank',
 			sourceLayer: 'Food_Banks_-_Andrew',
 			sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
-			color: 'rgba(249, 192, 88, 1)' /* @banana */
+            // iconImage: '/assets/images/map/food-bank.svg',
+			color: 'rgba(249, 192, 88, 0.75)' /* @banana */
 		},
 		{
 			name: 'community-garden',
 			label: 'Community Garden',
 			sourceLayer: 'CG-UF-Nursery_-_Andrew',
 			sourceURL: 'mapbox://fooddesertsla.5x93lfi1',
+            // iconImage: '/assets/images/map/urban-farm.svg',
 			color: 'rgba(144, 194, 70, 0.75)' /* @lime */
 		},
 		{
@@ -114,6 +116,7 @@ layout: null
 			label: 'Farmers’ Market',
 			sourceLayer: 'Farmers_Markets_-_MASTER',
 			sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
+            // iconImage: '/assets/images/map/farmers-market.svg',
 			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
 		},
 		{
@@ -121,7 +124,8 @@ layout: null
 			label: 'Grocery Store',
 			sourceLayer: 'Grocery_Stores_and_Supermarkets_',
 			sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
-			color: 'rgba(77, 85, 148, 0.375)' /* @blueberry */
+            // iconImage: '/assets/images/map/grocery-store.svg',
+			color: 'rgba(77, 85, 148, 0.35)' /* @blueberry */
 		}
 	];
 
@@ -347,7 +351,7 @@ layout: null
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 	var map = new mapboxgl.Map({
 		container: 'map',
-		style: 'mapbox://styles/mapbox/light-v9',
+		style: 'mapbox://styles/fooddesertsla/cirso6vli0009gam85y4z56xz',
 		zoom: 13, // starting zoom
 		center: MAP_START_POSITION, // starting position
 		maxBounds: MAP_BOUNDS
@@ -374,6 +378,7 @@ layout: null
 			'source': name,
 			'layout': {
 				'visibility': 'visible'
+                // 'icon-image': data.iconImage
 			},
 			'paint': {
 				'circle-radius': markerSize,
