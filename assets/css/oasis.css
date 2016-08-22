@@ -243,9 +243,6 @@
 	.blueberry .header h2 svg .food-oasis * {
 		fill: rgb(77, 85, 148); /* @blueberry */
 	}
-	.banana .header h2 svg .food-oasis * {
-        fill: rgb(249, 192, 88); /* @banana */
-	}
 
 	/*
 	@media (max-width: 29.99999em) {
@@ -412,9 +409,6 @@
 	}
 	.blueberry footer {
 		background-color: rgb(77, 85, 148); /* @blueberry */
-	}
-	.banana footer {
-        background-color: rgb(249, 192, 88); /* @banana */
 	}
 
 	.canteloupe footer .link-list::before,

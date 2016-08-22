@@ -60,5 +60,25 @@ layout: null
 	<!-- footer.html found in _includes/footer.html -->
 	{% include footer.html %}
 
+	<script>
+	(function() {
+		// KUDOS: http://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range#answer-1527820
+		/**
+		 * Returns a random integer between min (inclusive) and max (inclusive)
+		 * Using Math.round() will give you a non-uniform distribution!
+		 */
+		function getRandomInt(min, max) {
+		    return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		var colors = ['strawberry', 'lime', 'canteloupe', 'blueberry'];
+
+		var randomNumber = getRandomInt(0, colors.length);
+		console.log('randomNumber: ' + randomNumber);
+		document.body.classList.add(colors[randomNumber]);
+
+	})();
+	</script>
+
 </body>
 </html>
