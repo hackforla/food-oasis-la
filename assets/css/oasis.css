@@ -109,7 +109,7 @@
 	}
 
 
-	/* =List
+	/* =Link List
 	----------------------------------------------- */
 	.link-list,
 	.link-list li {
@@ -131,16 +131,54 @@
 	.link-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	.link-list h3 {
+
+
+	/* =Food Source List
+	----------------------------------------------- */
+	.food-source-list,
+	.food-source-list li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.food-source-list a {
+		display: block;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		text-decoration: none;
+		color: inherit;
+	}
+	.food-source-list h2 {
 		margin-top: 0;
 		margin-bottom: 0;
-		color: inherit;
+		color: rgb(241, 95, 91); /* @strawberry */
 		text-decoration: underline;
 	}
-	.link-list p {
-		margin-top: 0;
+	.food-source-list a:hover h2,
+	.food-source-list a:active h2,
+	.food-source-list a:focus h2 {
+	}
+	.food-source-list li + li a {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.food-source-list h3 {
 		margin-bottom: 0;
-		color: rgb(51, 51, 51);
+	}
+	.food-source-list h2 + p,
+	.food-source-list h3 + p {
+		margin-top: 0;
+	}
+	.food-source-list p:last-child {
+		margin-bottom: 0;
+	}
+
+	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
+	.food-source-list.sorting li {
+		visibility: hidden;
+	}
+	.food-source-list.sorting::before {
+		content: "Searching…";
+		display: block;
 	}
 
 
@@ -164,14 +202,19 @@
 	.header h2 svg {
 		display: block;
 		opacity: 0.85;
-		width: 18.75rem; /* 300px / 16px */
-		height: 2.375rem;
+		width: 12.5rem; /* 300px * 2/3 / 16px */
+		height:1.625rem; /* 38px * 2/3 / 16px */
 	}
-	.header h2 svg .food-oasis path,
-	.header h2 svg .food-oasis polygon,
-	.header h2 svg .food-oasis rect {
+	@media (min-width: 30em) {
+		.header h2 svg {
+			width: 18.75rem; /* 300px / 16px */
+			height: 2.375rem; /* 38px / 16px */
+		}
+	}
+	.header h2 svg .food-oasis * {
 		fill: rgb(144, 194, 70); /* @lime */
 	}
+	/*
 	.header h2 a:hover svg .food-oasis path,
 	.header h2 a:hover svg .food-oasis polygon,
 	.header h2 a:hover svg .food-oasis rect,
@@ -181,11 +224,29 @@
 	.header h2 a:focus svg .food-oasis path,
 	.header h2 a:focus svg .food-oasis polygon,
 	.header h2 a:focus svg .food-oasis rect {
-		fill: rgb(124, 174, 50); /* @dark-lime */
+		fill: rgb(124, 174, 50);
 	}
+	*/
 	.header h2 svg .los-angeles path {
 		fill: currentColor;
 	}
+
+	.canteloupe .header h2 svg .food-oasis * {
+		fill: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime .header h2 svg .food-oasis * {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+	.strawberry .header h2 svg .food-oasis * {
+		fill: rgb(241, 95, 91); /* @strawberry */
+	}
+	.blueberry .header h2 svg .food-oasis * {
+		fill: rgb(77, 85, 148); /* @blueberry */
+	}
+	.banana .header h2 svg .food-oasis * {
+        fill: rgb(249, 192, 88); /* @banana */
+	}
+
 	/*
 	@media (max-width: 29.99999em) {
 		.header h1 svg,
@@ -297,14 +358,35 @@
 	}
 
 
+	/* =Search Navigation
+	----------------------------------------------- */
+	nav.search h1 {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
+	nav.search a:not([href]) {
+		opacity: 0.5;
+		background-color: #ccc;
+	}
+	nav.search ul,
+	nav.search li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	nav.search ul {
+		margin-top: 0;
+	}
+	nav.search li {
+		display: inline;
+	}
+
+
 	/* =Footer
 	----------------------------------------------- */
 	footer {
-		background: rgba(249, 192, 88, 0.75);
-		background-image: linear-gradient(to bottom, rgb(249, 192, 88), #F9A41C);
-		background-image: linear-gradient(to bottom, rgb(249, 192, 88), rgb(255, 222, 118) 33%, rgb(255, 222, 118)); /* @canteloupe */
-		background: rgb(249, 192, 88); /* @canteloupe */
-		background: rgb(144, 194, 70); /* @lime */
+		background-color: rgb(144, 194, 70); /* @lime */
 		color: white;
 		margin-top: 5em;
 		margin-left: -1.5em;
@@ -313,6 +395,23 @@
 		padding: 1.5em 1.5em 4.5em;
 		position: relative;
 	}
+
+	.canteloupe footer {
+		background-color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer {
+		background-color: rgb(144, 194, 70); /* @lime */
+	}
+	.strawberry footer {
+		background-color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.blueberry footer {
+		background-color: rgb(77, 85, 148); /* @blueberry */
+	}
+	.banana footer {
+        background-color: rgb(249, 192, 88); /* @banana */
+	}
+
 	footer .link-list::before,
 	footer .link-list::after,
 	footer::before,
@@ -602,8 +701,13 @@
 	body.map .mapbox {
 		height: 500px;
 		height: 100vh;
-		height: calc(100vh - 25rem); /* header height */
 		height: calc(100vh - 5.75rem); /* header height */
+		height: calc(100vh - 8.5rem); /* header height */
+	}
+	@media (min-width: 30em) {
+		body.map .mapbox {
+			height: calc(100vh - 9.125rem); /* header height */
+		}
 	}
 
 

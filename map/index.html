@@ -7,7 +7,7 @@ layout: null
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>Map, Food Oasis Los Angeles</title>
+	<title>Map of food near you in Los Angeles</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
@@ -20,6 +20,21 @@ layout: null
 
 	{% include header.html %}
 	{% include find-food-link.html %}
+
+	<nav class="search">
+		<h1>Map of food near you</h1>
+		<ul>
+			<li class="map"><a>Map</a></li>
+			<li class="list"><a href="/list">List</a></li>
+		</ul>
+	</nav>
+	<script>
+	(function() {
+		// SHIM: Make the address persistent
+		var searchLink = document.querySelector('.search a[href]');
+		searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
+	})();
+	</script>
 
 	<div id="menu"></div>
 	<div id="map" class="mapbox"></div>
