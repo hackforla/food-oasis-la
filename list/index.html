@@ -57,6 +57,23 @@ title: List of food near you in Los Angeles
 		</a>
 	</li>
 {% endfor %}
+{% for food_source in site.data['farmers_markets_andrew'] %}
+	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+		<a href="/farmers-market/{{ food_source['uri'] }}">
+			<h2>{{ food_source['name'] }}</h2>
+			<p class="type">Farmers Market</p>
+			<p>{{ food_source['address'] | escape }}</p>
+			{% if food_source['hours'] %}
+			<h3>Hours</h3>
+			<p>{{ food_source['hours'] | escape }}</p>
+			{% endif %}
+			<!--
+			<h3>Distance</h3>
+			<p>0.2 miles</p>
+			-->
+		</a>
+	</li>
+{% endfor %}
 </ul>
 
 <script>

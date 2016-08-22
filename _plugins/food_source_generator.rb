@@ -1,31 +1,24 @@
 # KUDOS: https://github.com/bighairydave/jekyll-datalist/blob/master/_plugins/generator.rb
 module Jekyll
   class SourceListGenerator < Generator
+    def generate_one(site, data_name, type, type_uri)
+      site.data[data_name].each do | food_source |
+        food_source['type']     = type
+        food_source['type_uri'] = type_uri
+        food_source['uri'] = food_source['name'].downcase
+                                                .gsub(" ", "-")
+                                                .gsub("/", "-")
+                                                .gsub("&", "-")
+                                                .gsub(".", "-")
+                                                .gsub("'", "")
+                                                .gsub("--", "-")
+        site.pages << SourcePage.new(site, "/", "#{ type_uri }/#{ food_source['uri'] }", food_source)
+      end
+    end
     def generate(site)
-      site.data['food_banks_andrew'].each do | food_source |
-        food_source['type']     = 'Food Bank'
-        food_source['type_uri'] = 'food-bank'
-        food_source['uri'] = food_source['name'].downcase
-                                                .gsub(" ", "-")
-                                                .gsub("/", "-")
-                                                .gsub("&", "-")
-                                                .gsub(".", "-")
-                                                .gsub("'", "")
-                                                .gsub("--", "-")
-        site.pages << SourcePage.new(site, "/", "food-bank/#{ food_source['uri'] }", food_source)
-      end
-      site.data['community_gardens_andrew'].each do | food_source |
-        #food_source['type']     = 'Community Garden'
-        food_source['type_uri'] = 'community-garden'
-        food_source['uri'] = food_source['name'].downcase
-                                                .gsub(" ", "-")
-                                                .gsub("/", "-")
-                                                .gsub("&", "-")
-                                                .gsub(".", "-")
-                                                .gsub("'", "")
-                                                .gsub("--", "-")
-        site.pages << SourcePage.new(site, "/", "community-garden/#{ food_source['uri'] }", food_source)
-      end
+      generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
+      generate_one(site, 'community_gardens_andrew', 'Community Garden', 'community-garden')
+      generate_one(site, 'farmers_markets_andrew',   'Farmers Market',   'farmers-market')
     end
   end
 
