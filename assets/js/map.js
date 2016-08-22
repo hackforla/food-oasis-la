@@ -119,21 +119,26 @@
 			if (showLink) {
 				var link = nameElement.querySelector('a');
 				link.setAttribute('href', link.getAttribute('href') + '/' + data.uri);
-				link.innerHTML = data.name;
+				link.innerText = data.name;
 			} else {
-				nameElement.innerHTML = data.name;
+				nameElement.innerText = data.name;
 			}
 
 			// Type
 			var typeElement = element.querySelector('.type');
-			typeElement.innerHTML = data.type;
+			typeElement.innerText = data.type;
 			// typeElement.className += ' ' + type;
 
 			// Address
 			if (data.address) element.querySelector('.address').innerHTML = data.address;
 
 			// Phone
-			if (data.phone) element.querySelector('.phone').innerHTML = data.phone;
+			var phoneElement = element.querySelector('.phone');
+			if (data.phone) phoneElement.innerText = data.phone;
+			else {
+				var phoneElement = element.querySelector('.phone');
+				phoneElement.parentNode.removeChild(phoneElement)
+			}
 
 			// Hours
 			var hoursElement = element.querySelector('.hours');
@@ -206,9 +211,9 @@
 		if (street) 
 				address += street;
 		if (city)
-				address += (street ? '<br />' : '') + city;
-		if (state)
-				address += (city ? ', ' : (street ? '<br />' : '')) + state;
+				address += (street ? ', ' : '') + city;
+		if (city && state)
+				address += (city ? ', ' : (street ? ', ' : '')) + state;
 
 		return address;
 	}
