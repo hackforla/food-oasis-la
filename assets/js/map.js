@@ -97,8 +97,8 @@
 
 		var feature = features[0];
 
-		// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-		var showLink = (feature.layer.id === 'Food Banks (Solution)') ? true : false;
+		// TEMPORARY: Only show links to food banks and community gardens (since we only have food source pages for those two types at present).
+		var showLink = (feature.layer.id.indexOf('Food Bank') >= 0 || feature.layer.id.indexOf('CG-UF-N') >= 0) ? true : false;
 
 		var element = createPopupElement(feature, showLink);
 
@@ -118,7 +118,7 @@
 			var nameElement = element.querySelector('h3');
 			if (showLink) {
 				var link = nameElement.querySelector('a');
-				link.setAttribute('href', link.getAttribute('href') + '/' + data.uri);
+				link.setAttribute('href', data.uri);
 				link.innerText = data.name;
 			} else {
 				nameElement.innerText = data.name;
@@ -175,7 +175,7 @@
 			address: getFeatureAddress(feature)
 		};
 
-		data.uri = data.name.toLowerCase()
+		data.uri = '/' + data.type.toLowerCase().replace(/\s/g, '-') + '/' + data.name.toLowerCase()
 					.replace(/\s/g, '-')
 					.replace(/\//g, '-')
 					.replace(/\&/g, '-')
@@ -190,7 +190,7 @@
 		if (feature.layer.id.indexOf('Food Bank') >= 0) return 'Food Bank';
 		if (feature.layer.id.indexOf('Farmers Market') >= 0) return 'Farmers Market';
 		if (feature.layer.id.indexOf('Groceries') >= 0) return 'Grocery Store';
-		if (feature.layer.id.indexOf('CG-UF-N') >= 0) return 'Garden';
+		if (feature.layer.id.indexOf('CG-UF-N') >= 0) return 'Community Garden';
 	}
 
 	function getFeatureAddress(feature) {

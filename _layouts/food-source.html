@@ -24,7 +24,7 @@ layout: null
 	<h1>{{ page.name_html }}</h1>
 
 	<p>
-		<a href="/source" title="List of Food Banks in Los Angeles">Food Bank</a>
+		<a href="/{{ page.food_source['type_uri'] }}" title="List of {{ page.food_source['type'] }}s in Los Angeles">{{ page.food_source['type'] }}</a>
 	</p>
 	
 	<div class="page-contents">
@@ -38,10 +38,12 @@ layout: null
 			</a>
 		</p>
 
+		{% if page.food_source['phone'] %}
 		<h2>
 			<img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> Phone
 		</h2>
 		<p>{{ page.food_source['phone'] | escape }}</p>
+		{% endif %}
 
 		{% if page.food_source['hours'] %}
 		<h2>

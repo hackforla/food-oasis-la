@@ -1,0 +1,22 @@
+---
+layout: default
+
+title: Community Gardens in Los Angeles
+---
+
+<h1>Community Gardens in Los&nbsp;Angeles</h1>
+
+<ul class="food-source-list">
+{% for food_source in site.data['community_gardens_andrew'] %}
+	<li>
+		<a href="/community-garden/{{ food_source['uri'] }}">
+			<h2>{{ food_source['name'] }}</h2>
+			<p>{{ food_source['address'] | escape }}</p>
+			{% if food_source['hours'] %}
+			<h3>Hours</h3>
+			<p>{{ food_source['hours'] | escape }}</p>
+			{% endif %}
+		</a>
+	</li>
+{% endfor %}
+</ul>

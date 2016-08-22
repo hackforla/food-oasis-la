@@ -3,6 +3,8 @@ module Jekyll
   class SourceListGenerator < Generator
     def generate(site)
       site.data['food_banks_andrew'].each do | food_source |
+        food_source['type']     = 'Food Bank'
+        food_source['type_uri'] = 'food-bank'
         food_source['uri'] = food_source['name'].downcase
                                                 .gsub(" ", "-")
                                                 .gsub("/", "-")
@@ -10,7 +12,19 @@ module Jekyll
                                                 .gsub(".", "-")
                                                 .gsub("'", "")
                                                 .gsub("--", "-")
-        site.pages << SourcePage.new(site, "/", "source/#{ food_source['uri'] }", food_source)
+        site.pages << SourcePage.new(site, "/", "food-bank/#{ food_source['uri'] }", food_source)
+      end
+      site.data['community_gardens_andrew'].each do | food_source |
+        #food_source['type']     = 'Community Garden'
+        food_source['type_uri'] = 'community-garden'
+        food_source['uri'] = food_source['name'].downcase
+                                                .gsub(" ", "-")
+                                                .gsub("/", "-")
+                                                .gsub("&", "-")
+                                                .gsub(".", "-")
+                                                .gsub("'", "")
+                                                .gsub("--", "-")
+        site.pages << SourcePage.new(site, "/", "community-garden/#{ food_source['uri'] }", food_source)
       end
     end
   end
