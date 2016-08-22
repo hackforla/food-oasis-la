@@ -98,7 +98,7 @@
 		var feature = features[0];
 
 		// TEMPORARY: Only show links to food banks and community gardens (since we only have food source pages for those two types at present).
-		var showLink = (feature.layer.id.indexOf('Food Bank') >= 0 || feature.layer.id.indexOf('CG-UF-N') >= 0) ? true : false;
+		var showLink = (feature.layer.id.indexOf('Food Bank') >= 0 || feature.layer.id.indexOf('CG-UF-N') >= 0 || feature.layer.id.indexOf('Farmer') >= 0) ? true : false;
 
 		var element = createPopupElement(feature, showLink);
 

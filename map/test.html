@@ -113,7 +113,7 @@ layout: null
 		},
 		{
 			name: 'farmers-market',
-			label: 'Farmers’ Market',
+			label: 'Farmers Market',
 			sourceLayer: 'Farmers_Markets_-_MASTER',
 			sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
             // iconImage: '/assets/images/map/farmers-market.svg',
@@ -240,7 +240,7 @@ layout: null
 		var feature = features[0];
 
 		// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-		var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0) ? true : false;
+		var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0 || feature.layer.id.indexOf('farmers-market') >= 0) ? true : false;
 
 		var element = createPopupElement(feature, showLink);
 
