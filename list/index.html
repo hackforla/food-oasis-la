@@ -28,8 +28,10 @@ title: List of food near you in Los Angeles
 		<a href="/source/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p>{{ food_source['address'] | escape }}</p>
+			{% if food_source['hours'] %}
 			<h3>Hours</h3>
 			<p>{{ food_source['hours'] | escape }}</p>
+			{% endif %}
 			<!--
 			<h3>Distance</h3>
 			<p>0.2 miles</p>

@@ -43,10 +43,12 @@ layout: null
 		</h2>
 		<p>{{ page.food_source['phone'] | escape }}</p>
 
+		{% if page.food_source['hours'] %}
 		<h2>
 			<img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> Hours
 		</h2>
 		<p>{{ page.food_source['hours'] | escape }}</p>
+		{% endif %}
 		<!--
 		<dl>
 			<dt>Monday</dt>
