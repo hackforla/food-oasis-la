@@ -25,9 +25,26 @@ title: List of food near you in Los Angeles
 <ul class="food-source-list">
 {% for food_source in site.data['food_banks_andrew'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
-		<a href="/source/{{ food_source['uri'] }}">
+		<a href="/food-bank/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p class="type">Food Bank</p>
+			<p>{{ food_source['address'] | escape }}</p>
+			{% if food_source['hours'] %}
+			<h3>Hours</h3>
+			<p>{{ food_source['hours'] | escape }}</p>
+			{% endif %}
+			<!--
+			<h3>Distance</h3>
+			<p>0.2 miles</p>
+			-->
+		</a>
+	</li>
+{% endfor %}
+{% for food_source in site.data['community_gardens_andrew'] %}
+	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+		<a href="/community-garden/{{ food_source['uri'] }}">
+			<h2>{{ food_source['name'] }}</h2>
+			<p class="type">Community Garden</p>
 			<p>{{ food_source['address'] | escape }}</p>
 			{% if food_source['hours'] %}
 			<h3>Hours</h3>
