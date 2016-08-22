@@ -360,6 +360,11 @@
 
 	/* =Search Navigation
 	----------------------------------------------- */
+	@media (min-width: 40em) {
+		nav.search {
+			text-align: center;
+		}
+	}
 	nav.search h1 {
 		/* @hidden-accessible */
 		position: absolute;
