@@ -171,6 +171,10 @@
 	.food-source-list p:last-child {
 		margin-bottom: 0;
 	}
+	.food-source-list .type {
+		font-style: italic;
+		opacity: 0.5;
+	}
 
 	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
 	.food-source-list.sorting li {

@@ -27,6 +27,7 @@ title: List of food near you in Los Angeles
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/source/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
+			<p class="type">Food Bank</p>
 			<p>{{ food_source['address'] | escape }}</p>
 			{% if food_source['hours'] %}
 			<h3>Hours</h3>
