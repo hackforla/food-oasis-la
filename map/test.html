@@ -65,9 +65,9 @@ layout: null
 
 	<!-- For map.js -->
 	<script type="text/template" id="marker-template">
-	<div class="marker">
-		<img src="/assets/images/markers/dot.png" alt="" />
-	</div>
+		<div class="marker">
+			<img src="/assets/images/markers/dot.png" alt="My Location" />
+		</div>
 	</script>
 
 	<script type="text/template" id="popup-template">
@@ -192,10 +192,34 @@ layout: null
 	}
 
 	function moveMapToPosition(position) {
-		 map.setZoom(14);
+		 map.setZoom(17);
 		 map.panTo(position);
 
 		// Add a marker at the user’s location
+		// map.addSource('single-point', {
+	 //        "type": "geojson",
+	 //        "data": {
+	 //            "type": "FeatureCollection",
+	 //            "features": [{
+		//             "type": "Feature",
+	 //                "geometry": {
+	 //                    "type": "Point",
+	 //                    "coordinates": [position.coords.longitude, position.coords.latitude],
+	 //                	}
+	 //            }]
+	 //        }
+	 //    });
+
+	 //    map.addLayer({
+	 //        "id": "point",
+	 //        "source": "single-point",
+	 //        "type": "circle",
+	 //        "paint": {
+	 //            "circle-radius": 10,
+	 //            "circle-color": "#007cbf"
+	 //        }
+	 //    });
+
 		var template = document.getElementById('marker-template');
 		if (template) {
 			var marker = document.createElement('div');
@@ -359,7 +383,7 @@ layout: null
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
 	var map = new mapboxgl.Map({
 		container: 'map',
-		style: 'mapbox://styles/fooddesertsla/cirso6vli0009gam85y4z56xz',
+		style: 'mapbox://styles/mapbox/light-v9',
 		zoom: 13, // starting zoom
 		center: MAP_START_POSITION, // starting position
 		maxBounds: MAP_BOUNDS
