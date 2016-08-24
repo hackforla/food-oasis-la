@@ -187,7 +187,7 @@ layout: null
 		  border-bottom-color: #91c949;
 		}
 
-		.marker {
+		.farmers-market-marker {
 		  border: none;
 		  cursor: pointer;
 		  height: 56px;
@@ -196,6 +196,27 @@ layout: null
 		  background-color: rgba(0, 0, 0, 0);
 		  transform: translate(28px, 56px, 0);
 		}
+
+		.community-garden-marker {
+			border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 43px;
+		  background-image: url(/assets/images/map/community-garden.svg);
+		  background-color: rgba(0, 0, 0, 0);
+		  transform: translate(28px, 56px, 0);
+		}
+
+		.food-bank-marker {
+			border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 43px;
+		  background-image: url(/assets/images/map/food-bank.svg);
+		  background-color: rgba(0, 0, 0, 0);
+		  transform: translate(28px, 56px, 0);
+		}
+
 
 	</style>
 
@@ -220,24 +241,6 @@ layout: null
 
 		var stores =
 
-
-// 			<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
-// 				<a href="/food-bank/{{ food_source['uri'] }}">
-// 			<h2>{{ food_source['name'] }}</h2>
-// 			<p class="type">Food Bank</p>
-// 			<p>{{ food_source['address'] | escape }}</p>
-// 			{% if food_source['hours'] %}
-// 			<h3>Hours</h3>
-// 			<p>{{ food_source['hours'] | escape }}</p>
-// 			{% endif %}
-// 			<!--
-// 			<h3>Distance</h3>
-// 			<p>0.2 miles</p>
-// 			-->
-// 		</a>
-// 	</li>
-
-
 		{
 			"type": "FeatureCollection",
 			"features": [
@@ -261,7 +264,7 @@ layout: null
 			      // "postalCode": "",
 			      "state": "CA",
 						"hours": "{{ food_source['hours'] }}",
-						"type": "foodbank"
+						"type": "Food Bank"
 			    }
 			  },
 				{% endfor %}
@@ -282,7 +285,28 @@ layout: null
 			     "address": "{{ food_source['address'] }}",
 			      "country": "United States",
 			      "state": "CA",
-						"type": "{{ food_source['type'] }}"
+						"type": "Community Garden"
+			    }
+			  },
+				{% endfor %}
+			
+			{% for food_source in site.data['farmers_markets_andrew'] %}
+			  {
+			    "type": "Feature",
+			    "geometry": {
+			      "type": "Point",
+			      "coordinates": [
+			       	{{ food_source['longitude'] }},
+							 {{ food_source['latitude'] }}
+			      ]
+			    },
+
+			    "properties": {
+						"name": "{{ food_source['name'] }}",
+			     "address": "{{ food_source['address'] }}",
+			      "country": "United States",
+			      "state": "CA",
+						"type": "Farmers Market"
 			    }
 			  },
 				{% endfor %}
@@ -415,11 +439,19 @@ layout: null
 		});
 
 		stores.features.forEach(function(marker) {
+			console.log('marker', marker);
 			// Create a div element for the marker
 			var el = document.createElement('div');
 
 			// Add a class called 'marker' to each div
-			el.className = 'marker';
+			if(marker.properties.type === "Food Bank") {
+				el.className = 'food-bank-marker'
+			} else if (marker.properties.type === "Farmers Market") {
+				el.className = 'farmers-market-marker'
+			} else if (marker.properties.type === "Community Garden") {
+				el.className = 'community-garden-marker'
+			}
+			
 
 			// By default the image for your custom marker will be anchored
 			// by its top left corner. Adjust the position accordingly
