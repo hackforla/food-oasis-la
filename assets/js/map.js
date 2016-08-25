@@ -53,7 +53,7 @@
 		 map.panTo(position);
 
 		// Add a marker at the user’s location
-		var template = document.getElementById('marker-template');
+		var template = document.getElementById('you-are-here-template');
 		if (template) {
 			var marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;

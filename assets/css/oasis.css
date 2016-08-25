@@ -647,6 +647,9 @@
 		}
 	}
 
+
+	/* =Map Point Popup
+	----------------------------------------------- */
 	.map-point-details {
 		max-width: 80vw;
 		font-size: 1rem;
@@ -686,6 +689,9 @@
 		margin-bottom: 0;
 	}
 
+
+	/* =You are here
+	----------------------------------------------- */
 	@keyframes sonar {
 		0% {
 			transform: scale(1);
@@ -714,7 +720,7 @@
 	}
 
 
-	.marker::before {
+	.you-are-here::before {
 		content: "";
 		display: block;
 		border-radius: 50%;
@@ -729,7 +735,7 @@
 
 		animation: sonar 3s infinite ease-out;
 	}
-	.marker::after {
+	.you-are-here::after {
 		content: "";
 		display: block;
 		border-radius: 50%;
@@ -743,7 +749,7 @@
 		background-size: contain;
 	}
 
-	.marker {
+	.you-are-here {
 		position: relative;
 		font-size: 1rem;
 		margin-top: -1.25em;
@@ -753,7 +759,7 @@
 		border-radius: 50%;
 		display: inline-block;
 	}
-	.marker span {
+	.you-are-here span {
 		display: block;
 		width: 1.05em;
 		height: 1.05em;
@@ -765,13 +771,43 @@
 		text-indent: -9999px;
 		overflow: hidden;
 	}
-	/*
+
+
+	/* =Marker
+	----------------------------------------------- */
+	.marker {
+		position: relative;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.marker img {
+		position: absolute;
+		bottom: 0;
+		left: -1em;
+		width: 2em;
+		max-width: none;
+		height: 2em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.marker .label {
+		margin: 0;
+		position: absolute;
+		top: 0.25em;
+		width: 15em;
+		left: 50%;
+		text-align: center;
+		margin-left: -7.5em;
+		padding: 0.375em;
+		background: white;
+		background: rgba(255, 255, 255, 0.5);
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+	}
 	@media (min-width: 30em) {
 		.marker {
 			font-size: 1.5rem;
 		}
 	}
-	*/
 
 
 	/* =Map Page

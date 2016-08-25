@@ -80,8 +80,8 @@ layout: null
 	<div id="map" class="mapbox"></div>
 
 	<!-- For map.js -->
-	<script type="text/template" id="marker-template">
-		<div class="marker"><span>You are here</span></div>
+	<script type="text/template" id="you-are-here-template">
+		<div class="you-are-here"><span>You are here</span></div>
 	</script>
 
 	<script type="text/template" id="popup-template">
@@ -235,7 +235,7 @@ layout: null
 	 //        }
 	 //    });
 
-		var template = document.getElementById('marker-template');
+		var template = document.getElementById('you-are-here-template');
 		if (template) {
 			var marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;
