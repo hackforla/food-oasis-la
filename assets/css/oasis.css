@@ -685,40 +685,93 @@
 	.map-point-details p:last-child {
 		margin-bottom: 0;
 	}
+
+	@keyframes sonar {
+		0% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		50% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(3);
+			opacity: 0;
+		}
+	}
+
+	@keyframes shrink {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.875);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
+
+	.marker::before {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		background-color: rgb(0, 128, 255);
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+
+		animation: sonar 3s infinite ease-out;
+	}
+	.marker::after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		position: absolute;
+		top: -20%;
+		left: -20%;
+		z-index: -1;
+		width: 140%;
+		height: 140%;
+		background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 40%, transparent 60%, transparent 100%);
+		background-size: contain;
+	}
+
 	.marker {
 		position: relative;
 		font-size: 1rem;
-		line-height: 1.5;
-	}
-	.marker img {
-		position: absolute;
-		bottom: 0;
-		left: -1em;
-		width: 1em;
-		max-width: none;
-		height: 1em;
-		margin-left: auto;
-		margin-right: auto;
-		vertical-align: middle;
-	}
-	.marker .label {
-		margin: 0;
-		position: absolute;
-		top: 0.25em;
-		width: 15em;
-		left: 50%;
-		text-align: center;
-		margin-left: -7.5em;
-		padding: 0.375em;
+		margin-top: -1.25em;
+		margin-right: -1.25em;
 		background: white;
-		background: rgba(255, 255, 255, 0.5);
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		padding: 0.2em;
+		border-radius: 50%;
+		display: inline-block;
 	}
+	.marker span {
+		display: block;
+		width: 1.05em;
+		height: 1.05em;
+		background-color: rgb(0, 128, 255);
+		border-radius: 50%;
+		animation: shrink 3s 1.5s infinite both;
+
+		/* @hidden-accessible-text */
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	/*
 	@media (min-width: 30em) {
 		.marker {
 			font-size: 1.5rem;
 		}
 	}
+	*/
 
 
 	/* =Map Page
