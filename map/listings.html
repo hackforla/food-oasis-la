@@ -249,7 +249,7 @@ layout: null
 		  background-color: rgba(0, 0, 0, 0);
 		  transform: translate(28px, 56px, 0);
 		}
-		
+
 		#farmersMarket {
 			background-color: #F37568;
 		}
@@ -422,7 +422,9 @@ layout: null
 
 			var popup = new mapboxgl.Popup()
 				.setLngLat(currentFeature.geometry.coordinates)
-				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + '<h4>' + currentFeature.properties.address + '</h4>')
+				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + 
+					'<h4>' + "Address: " + currentFeature.properties.address + "\n" + "Phone: " + currentFeature.properties.phone 
+					+ "\n" + "Hours: " + currentFeature.properties.hours + '</h4>')
 				.addTo(map);
 		}
 
