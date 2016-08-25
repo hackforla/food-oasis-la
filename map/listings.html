@@ -171,6 +171,39 @@ layout: null
 		  margin: 0;
 		}
 
+		/*.mapboxgl-popup-farmers-market h3 {
+			background:#91c949;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}
+
+		.mapboxgl-popup-community-garden h3 {
+			background:#F9C058;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}
+
+		.mapboxgl-popup-food-bank h3 {
+			background:#F37568;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}*/
+
 		.mapboxgl-popup-content div {
 		  padding:10px;
 		}
@@ -216,7 +249,14 @@ layout: null
 		  background-color: rgba(0, 0, 0, 0);
 		  transform: translate(28px, 56px, 0);
 		}
+		
+		#farmersMarket {
+			background-color: #F37568;
+		}
 
+		#foodBank {
+			background-color: #F9C058;
+		}
 
 	</style>
 
@@ -264,7 +304,7 @@ layout: null
 			      // "postalCode": "",
 			      "state": "CA",
 						"hours": "{{ food_source['hours'] }}",
-						"type": "Food Bank"
+						"type": "foodBank"
 			    }
 			  },
 				{% endfor %}
@@ -285,7 +325,7 @@ layout: null
 			     "address": "{{ food_source['address'] }}",
 			      "country": "United States",
 			      "state": "CA",
-						"type": "Community Garden"
+						"type": "communityGarden"
 			    }
 			  },
 				{% endfor %}
@@ -306,7 +346,7 @@ layout: null
 			     "address": "{{ food_source['address'] }}",
 			      "country": "United States",
 			      "state": "CA",
-						"type": "Farmers Market"
+						"type": "farmersMarket"
 			    }
 			  },
 				{% endfor %}
@@ -373,14 +413,16 @@ layout: null
 		}
 
 		function createPopUp(currentFeature) {
-			console.dir(currentFeature);
+			console.log('currently clicked', currentFeature);
 			var popUps = document.getElementsByClassName('mapboxgl-popup');
 			// Check if there is already a popup on the map and if so, remove it
 			if (popUps[0]) popUps[0].remove();
+			var markerType = currentFeature.properties.type;
+			console.log('marker type', markerType);
 
 			var popup = new mapboxgl.Popup()
 				.setLngLat(currentFeature.geometry.coordinates)
-				.setHTML('<h3>' + currentFeature.properties.name + '</h3>' + '<h4>' + currentFeature.properties.address + '</h4>')
+				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + '<h4>' + currentFeature.properties.address + '</h4>')
 				.addTo(map);
 		}
 
@@ -444,11 +486,11 @@ layout: null
 			var el = document.createElement('div');
 
 			// Add a class called 'marker' to each div
-			if(marker.properties.type === "Food Bank") {
+			if(marker.properties.type === "foodBank") {
 				el.className = 'food-bank-marker'
-			} else if (marker.properties.type === "Farmers Market") {
+			} else if (marker.properties.type === "farmersMarket") {
 				el.className = 'farmers-market-marker'
-			} else if (marker.properties.type === "Community Garden") {
+			} else if (marker.properties.type === "communityGarden") {
 				el.className = 'community-garden-marker'
 			}
 			
