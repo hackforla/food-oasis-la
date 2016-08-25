@@ -322,7 +322,7 @@ layout: null
 
 			    "properties": {
 						"name": "{{ food_source['name'] }}",
-			     "address": "{{ food_source['address'] }}",
+			     "address": "{{ food_source['address'] | remove_line_returns }}",
 			      "country": "United States",
 			      "state": "CA",
 						"type": "communityGarden"
