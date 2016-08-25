@@ -155,6 +155,7 @@ layout: null
 	}
 
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+	
 	function getParameterByName(name, url) {
 		if (!url) url = window.location.href;
 		name = name.replace(/[\[\]]/g, "\\$&");
@@ -183,7 +184,8 @@ layout: null
 
 				// Set new starting location
 				var myCoords = [position.coords.longitude, position.coords.latitude];
-				moveMapToPosition(myCoords)
+				moveMapToPosition(myCoords);
+				console.log('current coords', myCoords);
 
 			}, function() {
 				console.error("Unable to retrieve your location");

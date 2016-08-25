@@ -19,7 +19,7 @@ layout: null
 <body>
 	<div class='sidebar'>
 		<div class='heading'>
-			<h1>Our locations</h1>
+			<h1>All Locations</h1>
 		</div>
 
 		<div id='listings' class='listings'></div>
@@ -391,12 +391,12 @@ layout: null
 				// if (prop.phone) {
 			  // 		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
 				// }
-			}
+			
 
 			// Add an event listener for the links in the sidebar listing
 			link.addEventListener('click', function(e){
 				// Update the currentFeature to the store associated with the clicked link
-				var currentFeature = data.features[this.dataPosition];
+				var clickedListing = data.features[this.dataPosition];
 				// 1. Fly to the point associated with the clicked link
 				flyToStore(clickedListing);
 				// 2. Close all other popups and display popup for clicked store
@@ -409,9 +409,11 @@ layout: null
 
 				this.parentNode.classList.add('active');
 			});
+			}
 		}
 
 		function flyToStore(currentFeature) {
+			console.log('map', map);
 			map.flyTo({
 				center: currentFeature.geometry.coordinates,
 				zoom: 15
@@ -419,12 +421,10 @@ layout: null
 		}
 
 		function createPopUp(currentFeature) {
-			console.log('currently clicked', currentFeature);
 			var popUps = document.getElementsByClassName('mapboxgl-popup');
 			// Check if there is already a popup on the map and if so, remove it
 			if (popUps[0]) popUps[0].remove();
 			var markerType = currentFeature.properties.type;
-			console.log('marker type', markerType);
 
 			var popup = new mapboxgl.Popup()
 				.setLngLat(currentFeature.geometry.coordinates)
@@ -489,7 +489,6 @@ layout: null
 		});
 
 		stores.features.forEach(function(marker) {
-			console.log('marker', marker);
 			// Create a div element for the marker
 			var el = document.createElement('div');
 
