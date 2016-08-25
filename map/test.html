@@ -60,14 +60,28 @@ layout: null
 	{% include header.html %}
 	{% include find-food-link.html %}
 
+	<nav class="search">
+		<h1>Map of food near you</h1>
+		<ul>
+			<li class="map"><a>Map</a></li>
+			<li class="list"><a href="/list">List</a></li>
+		</ul>
+	</nav>
+	<script>
+	(function() {
+		// SHIM: Make the address persistent
+		var searchLink = document.querySelector('.search a[href]');
+		searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
+	})();
+	</script>
+
 	<nav class="map-filters"></nav>
+
 	<div id="map" class="mapbox"></div>
 
 	<!-- For map.js -->
-	<script type="text/template" id="marker-template">
-		<div class="marker">
-			<img src="/assets/images/markers/dot.png" alt="My Location" />
-		</div>
+	<script type="text/template" id="you-are-here-template">
+		<div class="you-are-here"><span>You are here</span></div>
 	</script>
 
 	<script type="text/template" id="popup-template">
@@ -118,15 +132,16 @@ layout: null
 			sourceURL: 'mapbox://fooddesertsla.2ppvk6wg',
             // iconImage: '/assets/images/map/farmers-market.svg',
 			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-		},
-		{
-			name: 'grocery-store',
-			label: 'Grocery Store',
-			sourceLayer: 'Grocery_Stores_and_Supermarkets_',
-			sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
-            // iconImage: '/assets/images/map/grocery-store.svg',
-			color: 'rgba(77, 85, 148, 0.35)' /* @blueberry */
 		}
+		// ,
+		// {
+		// 	name: 'grocery-store',
+		// 	label: 'Grocery Store',
+		// 	sourceLayer: 'Grocery_Stores_and_Supermarkets_',
+		// 	sourceURL: 'mapbox://fooddesertsla.3ow9v9cf',
+		// 	// iconImage: '/assets/images/map/grocery-store.svg',
+		// 	color: 'rgba(77, 85, 148, 0.35)' /* @blueberry */
+		// }
 	];
 
 	function getLayerLabel(name) {
@@ -222,7 +237,7 @@ layout: null
 	 //        }
 	 //    });
 
-		var template = document.getElementById('marker-template');
+		var template = document.getElementById('you-are-here-template');
 		if (template) {
 			var marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;

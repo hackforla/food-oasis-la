@@ -647,6 +647,9 @@
 		}
 	}
 
+
+	/* =Map Point Popup
+	----------------------------------------------- */
 	.map-point-details {
 		max-width: 80vw;
 		font-size: 1rem;
@@ -685,6 +688,93 @@
 	.map-point-details p:last-child {
 		margin-bottom: 0;
 	}
+
+
+	/* =You are here
+	----------------------------------------------- */
+	@keyframes sonar {
+		0% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		50% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(3);
+			opacity: 0;
+		}
+	}
+
+	@keyframes shrink {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.875);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
+
+	.you-are-here::before {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		background-color: rgb(0, 128, 255);
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+
+		animation: sonar 3s infinite ease-out;
+	}
+	.you-are-here::after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		position: absolute;
+		top: -20%;
+		left: -20%;
+		z-index: -1;
+		width: 140%;
+		height: 140%;
+		background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 40%, transparent 60%, transparent 100%);
+		background-size: contain;
+	}
+
+	.you-are-here {
+		position: relative;
+		font-size: 1rem;
+		margin-top: -1.25em;
+		margin-right: -1.25em;
+		background: white;
+		padding: 0.2em;
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.you-are-here span {
+		display: block;
+		width: 1.05em;
+		height: 1.05em;
+		background-color: rgb(0, 128, 255);
+		border-radius: 50%;
+		animation: shrink 3s 1.5s infinite both;
+
+		/* @hidden-accessible-text */
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+
+
+	/* =Marker
+	----------------------------------------------- */
 	.marker {
 		position: relative;
 		font-size: 1rem;
@@ -694,12 +784,11 @@
 		position: absolute;
 		bottom: 0;
 		left: -1em;
-		width: 1em;
+		width: 2em;
 		max-width: none;
-		height: 1em;
-		margin-left: auto;
-		margin-right: auto;
-		vertical-align: middle;
+		height: 2em;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.marker .label {
 		margin: 0;
