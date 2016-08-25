@@ -372,19 +372,25 @@ layout: null
 				// Create a new link with the class 'title' for each store
 				// and fill it with the store address
 				var link = listing.appendChild(document.createElement('a'));
-				link.href = '#';
-				link.className = 'title';
-				link.dataPosition = i;
-				link.innerHTML = prop.address;
+					link.href = '#';
+					link.className = 'title';
+					link.dataPosition = i;
+					link.innerHTML = prop.name;
+				
+				// Create a new div with the class 'details' for each store
+				// and fill it with the city and phone number
+
+				var locationAddress = listing.appendChild(document.createElement('div'));
+				locationAddress.innerHTML = prop.address;
 
 				// Create a new div with the class 'details' for each store
 				// and fill it with the city and phone number
 				var details = listing.appendChild(document.createElement('div'));
-				details.innerHTML = prop.city;
+				details.innerHTML = "Phone: " + prop.phone + ' &middot ' + "Hours: " + prop.hours;
 				
-				if (prop.phone) {
-			  		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-				}
+				// if (prop.phone) {
+			  // 		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
+				// }
 			}
 
 			// Add an event listener for the links in the sidebar listing
