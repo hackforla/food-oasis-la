@@ -1,0 +1,229 @@
+        body {
+		  color:#404040;
+		  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+		  margin:0;
+		  padding:0;
+		  -webkit-font-smoothing:antialiased;
+		}
+
+		* {
+		  -webkit-box-sizing:border-box;
+		  -moz-box-sizing:border-box;
+		  box-sizing:border-box;
+		}
+
+		h1 {
+		  font-size:22px;
+		  margin:0;
+		  font-weight:400;
+		}
+
+		a {
+		  color:#404040;
+		  text-decoration:none;
+		}
+
+		a:hover {
+		  color:#101010;
+		}
+
+		.sidebar {
+		  position:absolute;
+		  width:33.3333%;
+		  height:100%;
+		  top:0;left:0;
+		  overflow:hidden;
+		  border-right:1px solid rgba(0,0,0,0.25);
+		}
+		.pad2 {
+		  padding:20px;
+		}
+
+		.map {
+		  position:absolute;
+		  left:33.3333%;
+		  width:66.6666%;
+		  top:0;bottom:0;
+		}
+
+		.heading {
+		  background:#fff;
+		  border-bottom:1px solid #eee;
+		  height:60px;
+		  line-height:60px;
+		  padding:0 10px;
+		}
+
+		.listings {
+		  height:100%;
+		  overflow:auto;
+		  padding-bottom:60px;
+		}
+
+		.listings .item {
+		  display:block;
+		  border-bottom:1px solid #eee;
+		  padding:10px;
+		  text-decoration:none;
+		}
+
+		.listings .item:last-child { border-bottom:none; }
+		.listings .item .title {
+		  display:block;
+		  color:#00853e;
+		  font-weight:700;
+		}
+
+		.listings .item .title small { font-weight:400; }
+		.listings .item.active .title,
+		.listings .item .title:hover { color:#8cc63f; }
+		.listings .item.active {
+		  background-color:#f8f8f8;
+		}
+		::-webkit-scrollbar {
+		  width:3px;
+		  height:3px;
+		  border-left:0;
+		  background:rgba(0,0,0,0.1);
+		}
+		::-webkit-scrollbar-track {
+		  background:none;
+		}
+		::-webkit-scrollbar-thumb {
+		  background:#00853e;
+		  border-radius:0;
+		}
+
+		.clearfix { display:block; }
+		.clearfix:after {
+		  content:'.';
+		  display:block;
+		  height:0;
+		  clear:both;
+		  visibility:hidden;
+		}
+
+		/* Marker tweaks */
+		.mapboxgl-popup {
+		  padding-bottom: 50px;
+		}
+
+		.mapboxgl-popup-close-button {
+		  display:none;
+		}
+
+		.mapboxgl-popup-content {
+		  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+		  padding:0;
+		  width:200px;
+		}
+
+		.mapboxgl-popup-content-wrapper {
+		  padding:1%;
+		}
+
+		.mapboxgl-popup-content h3 {
+		  background:#91c949;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}
+
+		.mapboxgl-popup-content h4 {
+		  margin:0;
+		  display:block;
+		  padding: 10px 10px 10px 10px;
+		  font-weight:400;
+		  margin: 0;
+		}
+
+		/*.mapboxgl-popup-farmers-market h3 {
+			background:#91c949;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}
+
+		.mapboxgl-popup-community-garden h3 {
+			background:#F9C058;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}
+
+		.mapboxgl-popup-food-bank h3 {
+			background:#F37568;
+		  color:#fff;
+		  margin:0;
+		  display:block;
+		  padding:10px;
+		  border-radius:3px 3px 0 0;
+		  font-weight:700;
+		  margin-top:-15px;
+		}*/
+
+		.mapboxgl-popup-content div {
+		  padding:10px;
+		}
+
+		.mapboxgl-container .leaflet-marker-icon { 
+		  cursor:pointer; 
+		}
+
+		.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+		  margin-top: 15px;
+		}
+
+		.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+		  border-bottom-color: #91c949;
+		}
+
+		.farmers-market-marker {
+		  border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 43px;
+		  background-image: url(/assets/images/map/farmers-market.svg);
+		  background-color: rgba(0, 0, 0, 0);
+		  transform: translate(28px, 56px, 0);
+		}
+
+		.community-garden-marker {
+		border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 43px;
+		  background-image: url(/assets/images/map/community-garden.svg);
+		  background-color: rgba(0, 0, 0, 0);
+		  transform: translate(28px, 56px, 0);
+		}
+
+		.food-bank-marker {
+			border: none;
+		  cursor: pointer;
+		  height: 56px;
+		  width: 43px;
+		  background-image: url(/assets/images/map/food-bank.svg);
+		  background-color: rgba(0, 0, 0, 0);
+		  transform: translate(28px, 56px, 0);
+		}
+
+		#farmersMarket {
+			background-color: #F37568;
+		}
+
+		#foodBank {
+			background-color: #F9C058;
+		}

@@ -6,17 +6,23 @@ layout: null
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	
 
 	<title>Map, Food Oasis Los Angeles</title>
 	
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
+	
 
 	<!-- For Mapbox -->
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel="stylesheet" href="map-listings.css" />
 </head>
 <body>
+	{% include header.html %}
+
 	<div class='sidebar'>
 		<div class='heading'>
 			<h1>All Locations</h1>
@@ -26,239 +32,6 @@ layout: null
 	</div>
 
 	<div id='map' class='map'></div>
-
-	<style>
-		body {
-		  color:#404040;
-		  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
-		  margin:0;
-		  padding:0;
-		  -webkit-font-smoothing:antialiased;
-		}
-
-		* {
-		  -webkit-box-sizing:border-box;
-		  -moz-box-sizing:border-box;
-		  box-sizing:border-box;
-		}
-
-		h1 {
-		  font-size:22px;
-		  margin:0;
-		  font-weight:400;
-		}
-
-		a {
-		  color:#404040;
-		  text-decoration:none;
-		}
-
-		a:hover {
-		  color:#101010;
-		}
-
-		.sidebar {
-		  position:absolute;
-		  width:33.3333%;
-		  height:100%;
-		  top:0;left:0;
-		  overflow:hidden;
-		  border-right:1px solid rgba(0,0,0,0.25);
-		}
-		.pad2 {
-		  padding:20px;
-		}
-
-		.map {
-		  position:absolute;
-		  left:33.3333%;
-		  width:66.6666%;
-		  top:0;bottom:0;
-		}
-
-		.heading {
-		  background:#fff;
-		  border-bottom:1px solid #eee;
-		  height:60px;
-		  line-height:60px;
-		  padding:0 10px;
-		}
-
-		.listings {
-		  height:100%;
-		  overflow:auto;
-		  padding-bottom:60px;
-		}
-
-		.listings .item {
-		  display:block;
-		  border-bottom:1px solid #eee;
-		  padding:10px;
-		  text-decoration:none;
-		}
-
-		.listings .item:last-child { border-bottom:none; }
-		.listings .item .title {
-		  display:block;
-		  color:#00853e;
-		  font-weight:700;
-		}
-
-		.listings .item .title small { font-weight:400; }
-		.listings .item.active .title,
-		.listings .item .title:hover { color:#8cc63f; }
-		.listings .item.active {
-		  background-color:#f8f8f8;
-		}
-		::-webkit-scrollbar {
-		  width:3px;
-		  height:3px;
-		  border-left:0;
-		  background:rgba(0,0,0,0.1);
-		}
-		::-webkit-scrollbar-track {
-		  background:none;
-		}
-		::-webkit-scrollbar-thumb {
-		  background:#00853e;
-		  border-radius:0;
-		}
-
-		.clearfix { display:block; }
-		.clearfix:after {
-		  content:'.';
-		  display:block;
-		  height:0;
-		  clear:both;
-		  visibility:hidden;
-		}
-
-		/* Marker tweaks */
-		.mapboxgl-popup {
-		  padding-bottom: 50px;
-		}
-
-		.mapboxgl-popup-close-button {
-		  display:none;
-		}
-
-		.mapboxgl-popup-content {
-		  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
-		  padding:0;
-		  width:200px;
-		}
-
-		.mapboxgl-popup-content-wrapper {
-		  padding:1%;
-		}
-
-		.mapboxgl-popup-content h3 {
-		  background:#91c949;
-		  color:#fff;
-		  margin:0;
-		  display:block;
-		  padding:10px;
-		  border-radius:3px 3px 0 0;
-		  font-weight:700;
-		  margin-top:-15px;
-		}
-
-		.mapboxgl-popup-content h4 {
-		  margin:0;
-		  display:block;
-		  padding: 10px 10px 10px 10px;
-		  font-weight:400;
-		  margin: 0;
-		}
-
-		/*.mapboxgl-popup-farmers-market h3 {
-			background:#91c949;
-		  color:#fff;
-		  margin:0;
-		  display:block;
-		  padding:10px;
-		  border-radius:3px 3px 0 0;
-		  font-weight:700;
-		  margin-top:-15px;
-		}
-
-		.mapboxgl-popup-community-garden h3 {
-			background:#F9C058;
-		  color:#fff;
-		  margin:0;
-		  display:block;
-		  padding:10px;
-		  border-radius:3px 3px 0 0;
-		  font-weight:700;
-		  margin-top:-15px;
-		}
-
-		.mapboxgl-popup-food-bank h3 {
-			background:#F37568;
-		  color:#fff;
-		  margin:0;
-		  display:block;
-		  padding:10px;
-		  border-radius:3px 3px 0 0;
-		  font-weight:700;
-		  margin-top:-15px;
-		}*/
-
-		.mapboxgl-popup-content div {
-		  padding:10px;
-		}
-
-		.mapboxgl-container .leaflet-marker-icon { 
-		  cursor:pointer; 
-		}
-
-		.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
-		  margin-top: 15px;
-		}
-
-		.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
-		  border-bottom-color: #91c949;
-		}
-
-		.farmers-market-marker {
-		  border: none;
-		  cursor: pointer;
-		  height: 56px;
-		  width: 43px;
-		  background-image: url(/assets/images/map/farmers-market.svg);
-		  background-color: rgba(0, 0, 0, 0);
-		  transform: translate(28px, 56px, 0);
-		}
-
-		.community-garden-marker {
-			border: none;
-		  cursor: pointer;
-		  height: 56px;
-		  width: 43px;
-		  background-image: url(/assets/images/map/community-garden.svg);
-		  background-color: rgba(0, 0, 0, 0);
-		  transform: translate(28px, 56px, 0);
-		}
-
-		.food-bank-marker {
-			border: none;
-		  cursor: pointer;
-		  height: 56px;
-		  width: 43px;
-		  background-image: url(/assets/images/map/food-bank.svg);
-		  background-color: rgba(0, 0, 0, 0);
-		  transform: translate(28px, 56px, 0);
-		}
-
-		#farmersMarket {
-			background-color: #F37568;
-		}
-
-		#foodBank {
-			background-color: #F9C058;
-		}
-
-	</style>
 
 	<script>
 		// This will let you use the .remove() function later on
@@ -278,6 +51,34 @@ layout: null
 		  center: [-118.243683, 34.052235],
 		  zoom: 14
 		});
+
+		var dataLocations = ['food_banks_andrew', 'community_gardens_andrew', 'farmers_markets_andrew'];
+
+		var storedData = dataLocations.forEach(function(location) {
+			var arr = [
+				{% for food_source in site.data['location'] %}
+					{     "type": "Feature",
+								"geometry": {
+								"type": "Point",
+								// "coordinates": [
+								// 	{{ food_source['longitude'] }},
+								// 	{{ food_source['latitude'] }}
+								// ]
+							},
+							"properties": {
+								"name": "{{ food_source['name'] }}",
+								"phone": "{{ food_source['phone'] }}",
+								"address": "{{ food_source['address'] }}",
+								"hours": "{{ food_source['hours'] }}",
+								"type": 'location'
+							}
+					}
+				{% endfor %}
+			]
+			console.log('arr', arr);
+		});
+
+		console.log('stored data', storedData);
 
 		var stores =
 
@@ -299,10 +100,6 @@ layout: null
 						"name": "{{ food_source['name'] }}",
 			      "phone": "{{ food_source['phone'] }}",
 			      "address": "{{ food_source['address'] }}",
-			      "country": "United States",
-			      // "crossStreet": "",
-			      // "postalCode": "",
-			      "state": "CA",
 						"hours": "{{ food_source['hours'] }}",
 						"type": "foodBank"
 			    }
@@ -323,8 +120,6 @@ layout: null
 			    "properties": {
 						"name": "{{ food_source['name'] }}",
 			     "address": "{{ food_source['address'] | line_returns_to_html }}",
-			      "country": "United States",
-			      "state": "CA",
 						"type": "communityGarden"
 			    }
 			  },
@@ -344,8 +139,6 @@ layout: null
 			    "properties": {
 						"name": "{{ food_source['name'] }}",
 			     "address": "{{ food_source['address'] }}",
-			      "country": "United States",
-			      "state": "CA",
 						"type": "farmersMarket"
 			    }
 			  },
@@ -387,30 +180,7 @@ layout: null
 				// and fill it with the city and phone number
 				var details = listing.appendChild(document.createElement('div'));
 				details.innerHTML = "Phone: " + prop.phone + ' &middot ' + "Hours: " + prop.hours;
-				
-<<<<<<< HEAD
-				// if (prop.phone) {
-			  // 		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-				// }
-			
 
-			// Add an event listener for the links in the sidebar listing
-			link.addEventListener('click', function(e){
-				// Update the currentFeature to the store associated with the clicked link
-				var clickedListing = data.features[this.dataPosition];
-				// 1. Fly to the point associated with the clicked link
-				flyToStore(clickedListing);
-				// 2. Close all other popups and display popup for clicked store
-				createPopUp(clickedListing);
-				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				var activeItem = document.getElementsByClassName('active');
-					if (activeItem[0]) {
-					 activeItem[0].classList.remove('active');
-				}
-
-				this.parentNode.classList.add('active');
-			});
-=======
 				if (prop.phone) {
 			  		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
 				}
@@ -431,7 +201,6 @@ layout: null
 
 					this.parentNode.classList.add('active');
 				});
->>>>>>> a388ce95ebc51ed63c0fffe321b0d7a78c5d5248
 			}
 		}
 
