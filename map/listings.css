@@ -277,8 +277,16 @@
 			opacity: 0.5;
 		}
 
-		@media (max-width: 35em) and (max-height: 35em) {
+		@media (max-width: 45em) and (max-height: 45em) {
 			.filters {
 				display: none;
 			}
+			.listings {
+				display: none;
+			}
+			.map {
+				width: 100%;
+				left: 0;
+			}
 		}
+
