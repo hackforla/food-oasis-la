@@ -36,7 +36,7 @@ layout: null
 		<script type="text/template" id="you-are-here-template">
 			<div class="you-are-here"><span>You are here</span></div>
 		</script>
-		
+
 	<script>
 		// This will let you use the .remove() function later on
 		if (!('remove' in Element.prototype)) {
@@ -194,7 +194,7 @@ layout: null
 			}
 		}
 
-//USER'S GEOLOCATION
+								// USER'S GEOLOCATION //
 
 	function geocodeAddress(address, callback) {
 		var geocoder = new google.maps.Geocoder();
@@ -226,7 +226,6 @@ layout: null
 	}
 
 	function findUserLocation() {
-		console.log('inside find user location');
 		var address = getParameterByName('address');
 
 		if (address) {
@@ -292,7 +291,8 @@ layout: null
 		}
 	}
 
-//
+    					// END USER'S GEOLOCATION //
+
 		function flyToStore(currentFeature) {
 			map.flyTo({
 				center: currentFeature.geometry.coordinates,
