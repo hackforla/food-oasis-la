@@ -34,17 +34,23 @@ layout: null
 	</div>
 
 	<ul class="filters">
-		<li><a href="?type=food-banks">Food Banks</a></li>
-		<li><a href="?type=community-gardens">Community Gardens</a></li>
-		<li><a href="?type=farmers-markets">Farmers’ Markets</a></li>
+		<li><button onclick="foodBankFilter()" id="fb-filter">Food Banks</button></li>
+		<li><button onclick="communityGardenFilter()" id="cg-filter">Community Gardens</button></li>
+		<li><button onclick="farmersMarketFilter()" id="fm-filter">Farmers’ Markets</button></li>
 	</ul>
+
+	<!--<ul class="filters">
+		<button onclick="foodBankFilter()"><li id="fb-filter"><a href="?type=food-banks">Food Banks</a></li></button>
+		<li id="cg-filter"><a href="?type=community-gardens">Community Gardens</a></li>
+		<li id="fm-filter"><a href="?type=farmers-markets">Farmers’ Markets</a></li>
+	</ul>-->
 
 	<div id='map' class='map'></div>
 
 		<script type="text/template" id="you-are-here-template">
 			<div class="you-are-here"><span>You are here</span></div>
 		</script>
-		
+
 	<script>
 		// This will let you use the .remove() function later on
 		if (!('remove' in Element.prototype)) {
@@ -201,106 +207,126 @@ layout: null
 				});
 			}
 		}
+							//FILTERING FUNCTIONALITY //
 
-//USER'S GEOLOCATION
-
-	function geocodeAddress(address, callback) {
-		var geocoder = new google.maps.Geocoder();
-
-		geocoder.geocode({'address': address}, function(results, status) {
-			if (status === google.maps.GeocoderStatus.OK) {
-
-				var longitude = results[0].geometry.location.lng();
-				var latitude  = results[0].geometry.location.lat();
-
-				callback([longitude, latitude]);
-
-			} else {
-				console.error('Geocode was not successful for the following reason: ' + status);
-			}
-		});
+	function foodBankFilter() {
+		console.log('inside food bank filter');
+		var fb = document.getElementsByClassName("food-bank-marker");
+		fb.style.visibility = "hidden";
 	}
 
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+	function farmersMarketFilter() {
+		console.log('inside farmers market filter');
+		document.getElementsByClassName("farmers-market-marker").style.visibility = "hidden";
+	}
+
+	function communityGardenFilter() {
+		console.log('inside community garden filter');
+		document.getElementsByClassName("community-garden-marker").style.visibility = "hidden";
+	}
+
+							// END FILTERING FUNCTIONALITY //
+
+
+								// USER'S GEOLOCATION //
+
+	// function geocodeAddress(address, callback) {
+	// 	var geocoder = new google.maps.Geocoder();
+
+	// 	geocoder.geocode({'address': address}, function(results, status) {
+	// 		if (status === google.maps.GeocoderStatus.OK) {
+
+	// 			var longitude = results[0].geometry.location.lng();
+	// 			var latitude  = results[0].geometry.location.lat();
+
+	// 			callback([longitude, latitude]);
+
+	// 		} else {
+	// 			console.error('Geocode was not successful for the following reason: ' + status);
+	// 		}
+	// 	});
+	// }
+
+	// // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
 	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
+	// function getParameterByName(name, url) {
+	// 	if (!url) url = window.location.href;
+	// 	name = name.replace(/[\[\]]/g, "\\$&");
+	// 	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+	// 			results = regex.exec(url);
+	// 	if (!results) return null;
+	// 	if (!results[2]) return '';
+	// 	return decodeURIComponent(results[2].replace(/\+/g, " "));
+	// }
 
-	function findUserLocation() {
-		console.log('inside find user location');
-		var address = getParameterByName('address');
+	// function findUserLocation() {
+	// 	var address = getParameterByName('address');
 
-		if (address) {
+	// 	if (address) {
 
-			// Add Los Angeles to the address
-			if (address.indexOf('Los Angeles') < 0) {
-				address += ' Los Angeles';
-			}
+	// 		// Add Los Angeles to the address
+	// 		if (address.indexOf('Los Angeles') < 0) {
+	// 			address += ' Los Angeles';
+	// 		}
 
-			geocodeAddress(address, moveMapToPosition);
+	// 		geocodeAddress(address, moveMapToPosition);
 
-		// Grab user's location on page-load
-		} else if ("geolocation" in navigator) {
-			navigator.geolocation.getCurrentPosition(function(position) {
+	// 	// Grab user's location on page-load
+	// 	} else if ("geolocation" in navigator) {
+	// 		navigator.geolocation.getCurrentPosition(function(position) {
 
-				// Set new starting location
-				var myCoords = [position.coords.longitude, position.coords.latitude];
-				moveMapToPosition(myCoords);
+	// 			// Set new starting location
+	// 			var myCoords = [position.coords.longitude, position.coords.latitude];
+	// 			moveMapToPosition(myCoords);
 
-			}, function() {
-				console.error("Unable to retrieve your location");
-			});
-		}
-	}
+	// 		}, function() {
+	// 			console.error("Unable to retrieve your location");
+	// 		});
+	// 	}
+	// }
 
-	function moveMapToPosition(position) {
-		 map.setZoom(17);
-		 map.panTo(position);
+	// function moveMapToPosition(position) {
+	// 	 map.setZoom(20);
+	// 	 map.panTo(position);
 
-		// Add a marker at the user’s location
-		// map.addSource('single-point', {
-	 //        "type": "geojson",
-	 //        "data": {
-	 //            "type": "FeatureCollection",
-	 //            "features": [{
-		//             "type": "Feature",
-	 //                "geometry": {
-	 //                    "type": "Point",
-	 //                    "coordinates": [position.coords.longitude, position.coords.latitude],
-	 //                	}
-	 //            }]
-	 //        }
-	 //    });
+	// 	// Add a marker at the user’s location
+	// 	// map.addSource('single-point', {
+	//  //        "type": "geojson",
+	//  //        "data": {
+	//  //            "type": "FeatureCollection",
+	//  //            "features": [{
+	// 	//             "type": "Feature",
+	//  //                "geometry": {
+	//  //                    "type": "Point",
+	//  //                    "coordinates": [position.coords.longitude, position.coords.latitude],
+	//  //                	}
+	//  //            }]
+	//  //        }
+	//  //    });
 
-	 //    map.addLayer({
-	 //        "id": "point",
-	 //        "source": "single-point",
-	 //        "type": "circle",
-	 //        "paint": {
-	 //            "circle-radius": 10,
-	 //            "circle-color": "#007cbf"
-	 //        }
-	 //    });
+	//  //    map.addLayer({
+	//  //        "id": "point",
+	//  //        "source": "single-point",
+	//  //        "type": "circle",
+	//  //        "paint": {
+	//  //            "circle-radius": 10,
+	//  //            "circle-color": "#007cbf"
+	//  //        }
+	//  //    });
 
-	var template = document.getElementById('you-are-here-template');
-		if (template) {
-			var marker = document.createElement('div');
-			marker.innerHTML = template.innerHTML;
+	// var template = document.getElementById('you-are-here-template');
+	// 	if (template) {
+	// 		var marker = document.createElement('div');
+	// 		marker.innerHTML = template.innerHTML;
 
-			new mapboxgl.Marker(marker)
-				.setLngLat(position)
-				.addTo(map);
-		}
-	}
+	// 		new mapboxgl.Marker(marker)
+	// 			.setLngLat(position)
+	// 			.addTo(map);
+	// 	}
+	// }
 
-//
+    					// END USER'S GEOLOCATION //
+
 		function flyToStore(currentFeature) {
 			map.flyTo({
 				center: currentFeature.geometry.coordinates,
@@ -387,7 +413,6 @@ layout: null
 			} else if (marker.properties.type === "communityGarden") {
 				el.className = 'community-garden-marker'
 			}
-			
 
 			// By default the image for your custom marker will be anchored
 			// by its top left corner. Adjust the position accordingly
@@ -417,7 +442,7 @@ layout: null
 	
 				listing.classList.add('active');
 			});
-	findUserLocation();
+	// findUserLocation();
 		});
 
 	</script>
