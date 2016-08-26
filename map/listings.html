@@ -279,6 +279,23 @@ layout: null
 		  zoom: 14
 		});
 
+		// Add 'Current Location' functionality
+		map.addControl(new mapboxgl.Geolocate());
+		
+		// Add map navigational functionality
+		map.addControl(new mapboxgl.Navigation({position: 'bottom-left'}));
+
+
+		// Link to mapbox tilesets
+		// map.addSource('Food Bank', {
+		// 	type: 'vector',
+		// 	url: 'mapbox://fooddesertsla.c1nwj97w'
+		// });
+
+//		var foodbanks = 
+
+
+
 		var stores =
 
 		{
