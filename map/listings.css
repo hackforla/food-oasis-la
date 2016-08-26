@@ -257,14 +257,17 @@
 			text-decoration: underline;
 		}
 
+		.filters li:nth-child(1) button,
 		.filters li:nth-child(1) a,
 		.filters .food-bank {
 			background-color: rgb(249, 192, 88); /* @banana */
 		}
+		.filters li:nth-child(2) button,
 		.filters li:nth-child(2) a,
 		.filters .community-garden {
 			background-color: rgb(144, 194, 70); /* @lime */
 		}
+		.filters li:nth-child(3) button,
 		.filters li:nth-child(3) a,
 		.filters .farmers-market {
 			background-color: rgb(241, 95, 91); /* @strawberry */
