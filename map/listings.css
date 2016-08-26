@@ -1,49 +1,31 @@
-    body {
-		  color:#404040;
-		  font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
-		  margin:0;
-		  padding:0;
-		  -webkit-font-smoothing:antialiased;
-		}
-
-		* {
-		  -webkit-box-sizing:border-box;
-		  -moz-box-sizing:border-box;
-		  box-sizing:border-box;
-		}
-
-		h1 {
-		  font-size:22px;
-		  margin:0;
-		  font-weight:400;
-		}
-
-		a {
-		  color:#404040;
-		  text-decoration:none;
-		}
-
-		a:hover {
-		  color:#101010;
-		}
 
 		.sidebar {
 		  position:absolute;
 		  width:33.3333%;
-		  height:100%;
-		  top:0;left:0;
+		  top:0;
+		  left:0;
 		  overflow:hidden;
 		  border-right:1px solid rgba(0,0,0,0.25);
+		  top: 5.125rem;
+			height: calc(100vh - 5.125rem); /* header height */
 		}
 		.pad2 {
 		  padding:20px;
+		}
+		.sidebar h1 {
+			margin: 0;
+			font-size: inherit;
 		}
 
 		.map {
 		  position:absolute;
 		  left:33.3333%;
 		  width:66.6666%;
-		  top:0;bottom:0;
+		  bottom:0;
+		  top: 5.125rem;
+		height: 500px;
+		height: 100vh;
+		height: calc(100vh - 5.125rem); /* header height */
 		}
 
 		.heading {
@@ -227,3 +209,84 @@
 		#foodBank {
 			background-color: #F9C058;
 		}
+
+
+		.filters {
+			position: absolute;
+			z-index: 9999;
+			top: 6.625rem;
+			left: 35%;
+			left: calc(33% + 1.5rem);
+		}
+		.filters,
+		.filters li {
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		.filters {
+			margin-top: 0;
+		}
+		.filters li + li {
+			margin-top: 0.375em;
+		}
+
+		.filters a {
+			display: inline-block;
+			background: rgb(243, 117, 104); /* @salmon */
+			background: rgb(209, 43, 43); /* @apple */
+			background: rgb(249, 192, 88); /* @canteloupe */
+			background: rgb(144, 194, 70); /* @lime */
+			background: rgb(77, 85, 148); /* @blueberry */
+			background: rgb(241, 95, 91); /* @strawberry */
+			color: black;
+			color: rgba(0, 0, 0, 0.8);
+			color: white;
+			padding: 0.375em 1.5em;
+			border-radius: 0.25em;
+			font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+			border: 1px solid rgba(0, 0, 0, 0.1);
+			border-color: transparent;
+			text-decoration: none;
+			transition: background-color 0.2s;
+		}
+		.filters a:hover,
+		.filters a:active,
+		.filters a:focus {
+			text-decoration: underline;
+		}
+
+		.filters li:nth-child(1) a,
+		.filters .food-bank {
+			background-color: rgb(249, 192, 88); /* @banana */
+		}
+		.filters li:nth-child(2) a,
+		.filters .community-garden {
+			background-color: rgb(144, 194, 70); /* @lime */
+		}
+		.filters li:nth-child(3) a,
+		.filters .farmers-market {
+			background-color: rgb(241, 95, 91); /* @strawberry */
+		}
+		.filters .grocery-store {
+			background-color: rgb(77, 85, 148); /* @blueberry */
+		}
+
+		.filters .inactive {
+			opacity: 0.5;
+		}
+
+		@media (max-width: 45em) and (max-height: 45em) {
+			.filters {
+				display: none;
+			}
+			.listings {
+				display: none;
+			}
+			.map {
+				width: 100%;
+				left: 0;
+			}
+		}
+
