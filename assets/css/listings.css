@@ -52,28 +52,15 @@
 		.listings .item:last-child { border-bottom:none; }
 		.listings .item .title {
 		  display:block;
-		  color:#00853e;
 		  font-weight:700;
 		}
 
+
 		.listings .item .title small { font-weight:400; }
 		.listings .item.active .title,
-		.listings .item .title:hover { color:#8cc63f; }
+		.listings .item .title:hover { color: rgb(144, 194, 70); /* @lime */ }
 		.listings .item.active {
 		  background-color:#f8f8f8;
-		}
-		::-webkit-scrollbar {
-		  width:3px;
-		  height:3px;
-		  border-left:0;
-		  background:rgba(0,0,0,0.1);
-		}
-		::-webkit-scrollbar-track {
-		  background:none;
-		}
-		::-webkit-scrollbar-thumb {
-		  background:#00853e;
-		  border-radius:0;
 		}
 
 		.clearfix { display:block; }
@@ -257,14 +244,17 @@
 			text-decoration: underline;
 		}
 
+		.filters li:nth-child(1) button,
 		.filters li:nth-child(1) a,
 		.filters .food-bank {
 			background-color: rgb(249, 192, 88); /* @banana */
 		}
+		.filters li:nth-child(2) button,
 		.filters li:nth-child(2) a,
 		.filters .community-garden {
 			background-color: rgb(144, 194, 70); /* @lime */
 		}
+		.filters li:nth-child(3) button,
 		.filters li:nth-child(3) a,
 		.filters .farmers-market {
 			background-color: rgb(241, 95, 91); /* @strawberry */
