@@ -52,33 +52,20 @@ layout: null
 		  zoom: 14
 		});
 
-		var dataLocations = ['food_banks_andrew', 'community_gardens_andrew', 'farmers_markets_andrew'];
+		// Add 'Current Location' functionality
+		map.addControl(new mapboxgl.Geolocate());
+		
+		// Add map navigational functionality
+		map.addControl(new mapboxgl.Navigation({position: 'bottom-left'}));
 
-		var storedData = dataLocations.forEach(function(location) {
-			var arr = [
-				{% for food_source in site.data['location'] %}
-					{     "type": "Feature",
-								"geometry": {
-								"type": "Point",
-								// "coordinates": [
-								// 	{{ food_source['longitude'] }},
-								// 	{{ food_source['latitude'] }}
-								// ]
-							},
-							"properties": {
-								"name": "{{ food_source['name'] }}",
-								"phone": "{{ food_source['phone'] }}",
-								"address": "{{ food_source['address'] }}",
-								"hours": "{{ food_source['hours'] }}",
-								"type": 'location'
-							}
-					}
-				{% endfor %}
-			]
-			console.log('arr', arr);
-		});
 
-		console.log('stored data', storedData);
+		// Link to mapbox tilesets
+		// map.addSource('Food Bank', {
+		// 	type: 'vector',
+		// 	url: 'mapbox://fooddesertsla.c1nwj97w'
+		// });
+
+//		var foodbanks = 
 
 		var stores =
 
