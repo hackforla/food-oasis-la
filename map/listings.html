@@ -210,18 +210,27 @@ layout: null
 							//FILTERING FUNCTIONALITY //
 
 	function foodBankFilter() {
-		console.log('inside food bank filter');
-		document.getElementsByClassName("food-bank-marker").style.visibility = "hidden";
+		console.log("inside food bank filter");
+		var fb = document.getElementsByClassName("food-bank-marker")
+		for(var i = 0; i < fb.length; i++) {
+			fb[i].style.visibility = "hidden";
+		}
 	}
 
 	function farmersMarketFilter() {
 		console.log('inside farmers market filter');
-		document.getElementsByClassName("farmers-market-marker").style.visibility = "hidden";
+		var fm = document.getElementsByClassName("farmers-market-marker");
+		for(var i = 0; i < fm.length; i++) {
+			fm[i].style.visibility = "hidden";
+		}
 	}
 
 	function communityGardenFilter() {
 		console.log('inside community garden filter');
-		document.getElementsByClassName("community-garden-marker").style.visibility = "hidden";
+		var cm = document.getElementsByClassName("community-garden-marker");
+		for(var i = 0; i < cm.length; i++) {
+			cm[i].style.visibility = "hidden";
+		}
 	}
 
 							// END FILTERING FUNCTIONALITY //
