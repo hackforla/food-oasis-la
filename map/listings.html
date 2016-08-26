@@ -19,6 +19,16 @@ layout: null
 	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
 	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
 	<link rel="stylesheet" href="listings.css" />
+
+	<style>
+		.filters {
+			position: absolute;
+			z-index: 9999;
+			top: 1.5em;
+			right: 3em;
+		}
+	</style>
+
 </head>
 <body>
 	{% include header.html %}
@@ -30,6 +40,12 @@ layout: null
 
 		<div id='listings' class='listings'></div>
 	</div>
+
+	<ul class="filters">
+		<li><a href="?type=food-banks">Food Banks</a></li>
+		<li><a href="?type=community-gardens">Community Gardens</a></li>
+		<li><a href="?type=farmers-markets">Farmers’ Markets</a></li>
+	</ul>
 
 	<div id='map' class='map'></div>
 
