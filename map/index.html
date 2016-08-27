@@ -195,7 +195,10 @@ layout: null
 				// Create a new div with the class 'details' for each store
 				// and fill it with the city and phone number
 				var details = listing.appendChild(document.createElement('div'));
-				details.innerHTML = "Phone: " + prop.phone + ' &middot ' + "Hours: " + prop.hours;
+				var detailsHTML = "";
+				if (prop.phone) detailsHTML += "Phone: " + prop.phone;
+				if (prop.hours) detailsHTML += (prop.phone ? ' &middot ' : '') + "Hours: " + prop.hours;
+				details.innerHTML = detailsHTML;
 
 				// Add an event listener for the links in the sidebar listing
 				link.addEventListener('click', function(e){
