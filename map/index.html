@@ -6,8 +6,6 @@ layout: null
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	
 
 	<title>Map, Food Oasis Los Angeles</title>
 	
@@ -51,6 +49,20 @@ layout: null
 			<div class="you-are-here"><span>You are here</span></div>
 		</script>
 
+	<script type="text/template" id="popup-template">
+	<div class="map-point-details">
+		<h3><a href=""></a></h3>
+		<p class="type"></p>
+		<p class="address"></p>
+		<p class="phone"></p>
+		<h4>Hours</h4>
+		<p class="hours"></p>
+	</div>
+	</script>
+
+
+	<!-- Jim’s Google Maps API key -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 	<script>
 		// This will let you use the .remove() function later on
 		if (!('remove' in Element.prototype)) {
@@ -185,10 +197,6 @@ layout: null
 				var details = listing.appendChild(document.createElement('div'));
 				details.innerHTML = "Phone: " + prop.phone + ' &middot ' + "Hours: " + prop.hours;
 
-				if (prop.phone) {
-			  		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-				}
-
 				// Add an event listener for the links in the sidebar listing
 				link.addEventListener('click', function(e){
 					// Update the currentFeature to the store associated with the clicked link
@@ -198,12 +206,12 @@ layout: null
 					// 2. Close all other popups and display popup for clicked store
 					createPopUp(clickedListing);
 					// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-					var activeItem = document.getElementsByClassName('active');
+					var activeItem = document.getElementsByClassName('active-listing-item');
 						if (activeItem[0]) {
-						 activeItem[0].classList.remove('active');
+						 activeItem[0].classList.remove('active-listing-item');
 					}
 
-					this.parentNode.classList.add('active');
+					this.parentNode.classList.add('active-listing-item');
 				});
 			}
 		}
@@ -261,100 +269,75 @@ layout: null
 
 								// USER'S GEOLOCATION //
 
-	// function geocodeAddress(address, callback) {
-	// 	var geocoder = new google.maps.Geocoder();
+		function geocodeAddress(address, callback) {
+			var geocoder = new google.maps.Geocoder();
 
-	// 	geocoder.geocode({'address': address}, function(results, status) {
-	// 		if (status === google.maps.GeocoderStatus.OK) {
+			geocoder.geocode({'address': address}, function(results, status) {
+				if (status === google.maps.GeocoderStatus.OK) {
 
-	// 			var longitude = results[0].geometry.location.lng();
-	// 			var latitude  = results[0].geometry.location.lat();
+					var longitude = results[0].geometry.location.lng();
+					var latitude  = results[0].geometry.location.lat();
 
-	// 			callback([longitude, latitude]);
+					callback([longitude, latitude]);
 
-	// 		} else {
-	// 			console.error('Geocode was not successful for the following reason: ' + status);
-	// 		}
-	// 	});
-	// }
+				} else {
+					console.error('Geocode was not successful for the following reason: ' + status);
+				}
+			});
+		}
 
-	// // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
-	
-	// function getParameterByName(name, url) {
-	// 	if (!url) url = window.location.href;
-	// 	name = name.replace(/[\[\]]/g, "\\$&");
-	// 	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-	// 			results = regex.exec(url);
-	// 	if (!results) return null;
-	// 	if (!results[2]) return '';
-	// 	return decodeURIComponent(results[2].replace(/\+/g, " "));
-	// }
+		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
+		
+		function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+					results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
 
-	// function findUserLocation() {
-	// 	var address = getParameterByName('address');
+		function findUserLocation() {
+			var address = getParameterByName('address');
 
-	// 	if (address) {
+			if (address) {
 
-	// 		// Add Los Angeles to the address
-	// 		if (address.indexOf('Los Angeles') < 0) {
-	// 			address += ' Los Angeles';
-	// 		}
+				// Add Los Angeles to the address
+				if (address.indexOf('Los Angeles') < 0) {
+					address += ' Los Angeles';
+				}
 
-	// 		geocodeAddress(address, moveMapToPosition);
+				geocodeAddress(address, moveMapToPosition);
 
-	// 	// Grab user's location on page-load
-	// 	} else if ("geolocation" in navigator) {
-	// 		navigator.geolocation.getCurrentPosition(function(position) {
+			// Grab user's location on page-load
+			} else if ("geolocation" in navigator) {
+				navigator.geolocation.getCurrentPosition(function(position) {
 
-	// 			// Set new starting location
-	// 			var myCoords = [position.coords.longitude, position.coords.latitude];
-	// 			moveMapToPosition(myCoords);
+					// Set new starting location
+					var myCoords = [position.coords.longitude, position.coords.latitude];
+					moveMapToPosition(myCoords);
 
-	// 		}, function() {
-	// 			console.error("Unable to retrieve your location");
-	// 		});
-	// 	}
-	// }
+				}, function() {
+					console.error("Unable to retrieve your location");
+				});
+			}
+		}
 
-	// function moveMapToPosition(position) {
-	// 	 map.setZoom(20);
-	// 	 map.panTo(position);
+		function moveMapToPosition(position) {
+			 map.setZoom(20);
+			 map.panTo(position);
 
-	// 	// Add a marker at the user’s location
-	// 	// map.addSource('single-point', {
-	//  //        "type": "geojson",
-	//  //        "data": {
-	//  //            "type": "FeatureCollection",
-	//  //            "features": [{
-	// 	//             "type": "Feature",
-	//  //                "geometry": {
-	//  //                    "type": "Point",
-	//  //                    "coordinates": [position.coords.longitude, position.coords.latitude],
-	//  //                	}
-	//  //            }]
-	//  //        }
-	//  //    });
+			var template = document.getElementById('you-are-here-template');
+			if (template) {
+				var marker = document.createElement('div');
+				marker.innerHTML = template.innerHTML;
 
-	//  //    map.addLayer({
-	//  //        "id": "point",
-	//  //        "source": "single-point",
-	//  //        "type": "circle",
-	//  //        "paint": {
-	//  //            "circle-radius": 10,
-	//  //            "circle-color": "#007cbf"
-	//  //        }
-	//  //    });
-
-	// var template = document.getElementById('you-are-here-template');
-	// 	if (template) {
-	// 		var marker = document.createElement('div');
-	// 		marker.innerHTML = template.innerHTML;
-
-	// 		new mapboxgl.Marker(marker)
-	// 			.setLngLat(position)
-	// 			.addTo(map);
-	// 	}
-	// }
+				new mapboxgl.Marker(marker)
+					.setLngLat(position)
+					.addTo(map);
+			}
+		}
 
     					// END USER'S GEOLOCATION //
 
@@ -375,8 +358,84 @@ layout: null
 				.setLngLat(currentFeature.geometry.coordinates)
 				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + 
 					'<h4>' + "Address: " + currentFeature.properties.address + '<br />' + "Phone: " + currentFeature.properties.phone 
-					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + "Open Now!" + '</h4>')
+					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + /*"Open Now!" +*/ '</h4>')
 				.addTo(map);
+		}
+
+		// Copied from the “original.html” map
+		function createPopUp__TODO(feature) {
+
+			var template = document.getElementById('popup-template');
+			if (template) {
+				var element = document.createElement('div');
+				element.innerHTML = template.innerHTML;
+
+				var data = getFeatureData(feature);
+
+				// Name
+				var nameElement = element.querySelector('h3');
+				var link = nameElement.querySelector('a');
+				link.setAttribute('href', data.uri);
+				link.innerText = data.name;
+
+				// Type
+				var typeElement = element.querySelector('.type');
+				typeElement.innerText = data.type;
+				// typeElement.className += ' ' + type;
+
+				// Address
+				if (data.address) element.querySelector('.address').innerHTML = data.address;
+
+				// Phone
+				var phoneElement = element.querySelector('.phone');
+				if (data.phone) phoneElement.innerText = data.phone;
+				else {
+					var phoneElement = element.querySelector('.phone');
+					phoneElement.parentNode.removeChild(phoneElement)
+				}
+
+				// Hours
+				var hoursElement = element.querySelector('.hours');
+				if (data.hours) {
+					hoursElement.innerHTML = data.hours;
+				} else {
+					var h4 = element.querySelector('h4');
+					h4.parentNode.removeChild(h4);
+
+					hoursElement.parentNode.removeChild(hoursElement);
+				}
+
+				return element;
+			}
+		}
+
+		function getFeatureData(feature) {
+			var data = feature.properties;
+			data.address = getFeatureAddress(feature);
+
+			data.uri = '/' + data.type.toLowerCase().replace(/\s/g, '-') + '/' + data.name.toLowerCase()
+						.replace(/\s/g, '-')
+						.replace(/\//g, '-')
+						.replace(/\&/g, '-')
+						.replace(/\./g, '-')
+						.replace(/\'/g, '')
+						.replace(/\-\-/g, '-');
+
+			return data;
+		}
+
+		function getFeatureAddress(feature) {
+			var address = "";
+
+			var street = feature.properties["address"];
+			var city   = feature.properties["city"];
+			var state  = feature.properties["state"];
+
+			if (street)        address += street;
+			if (city)          address += (street ? ', ' : '') + city;
+			if (city && state) address += (city ? ', ' : (street ? ', ' : '')) + state;
+
+			return address;
 		}
 
 		map.on('load', function (e) {
@@ -413,23 +472,21 @@ layout: null
 				// 2. Close all other popups and display popup for clicked store
 				createPopUp(clickedPoint);
 				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				var activeItem = document.getElementsByClassName('active');
+				var activeItem = document.getElementsByClassName('active-listing-item');
 				
 				if (activeItem[0]) {
-					activeItem[0].classList.remove('active');
+					activeItem[0].classList.remove('active-listing-item');
 				}
 				
 				// Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
-				var selectedFeature = clickedPoint.properties.address;
-				  
 				for (var i = 0; i < stores.features.length; i++ ) {
-					if (stores.features[i].properties.address === selectedFeature) {
+					if (stores.features[i].properties.name === clickedPoint.properties.name) {
 					    selectedFeatureIndex = i;
 					}
 				}
 				// Select the correct list item using the found index and add the active class
 				var listing = document.getElementById('listing-' + selectedFeatureIndex);
-				listing.classList.add('active');
+				listing.classList.add('active-listing-item');
 			}
 		});
 
@@ -456,7 +513,7 @@ layout: null
 				.addTo(map);
 
 			el.addEventListener('click', function(e) {
-				var activeItem = document.getElementsByClassName('active');
+				var activeItem = document.getElementsByClassName('active-listing-item');
 
 				// 1. Fly to the point
 				flyToStore(marker);
@@ -466,16 +523,16 @@ layout: null
 				e.stopPropagation();
 
 				if (activeItem[0]) {
-					activeItem[0].classList.remove('active');
+					activeItem[0].classList.remove('active-listing-item');
 				}
 
-				var listing = document.getElementById('listing-' + i);
+				//var listing = document.getElementById('listing-' + i);
 	
-				listing.classList.add('active');
+				//listing.classList.add('active-listing-item');
 			});
-	// findUserLocation();
 		});
 
+		findUserLocation();
 	</script>
 
 </body>
