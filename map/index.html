@@ -105,59 +105,59 @@ layout: null
 
 			{% for food_source in site.data['food_banks_andrew'] %}
 			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
+				"type": "Feature",
+				"geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					{{ food_source['longitude'] }},
 							 {{ food_source['latitude'] }}
-			      ]
-			    },
-			    "properties": {
+				  ]
+				},
+				"properties": {
 						"name": "{{ food_source['name'] }}",
-			      "phone": "{{ food_source['phone'] }}",
-			      "address": "{{ food_source['address'] }}",
+				  "phone": "{{ food_source['phone'] }}",
+				  "address": "{{ food_source['address'] }}",
 						"hours": "{{ food_source['hours'] }}",
 						"type": "food-bank"
-			    }
+				}
 			  },
 				{% endfor %}
 			
 			{% for food_source in site.data['community_gardens_andrew'] %}
 			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
+				"type": "Feature",
+				"geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					{{ food_source['longitude'] }},
 							 {{ food_source['latitude'] }}
-			      ]
-			    },
+				  ]
+				},
 
-			    "properties": {
+				"properties": {
 						"name": "{{ food_source['name'] }}",
-			     "address": "{{ food_source['address'] | line_returns_to_html }}",
+				 "address": "{{ food_source['address'] | line_returns_to_html }}",
 						"type": "community-garden"
-			    }
+				}
 			  },
 				{% endfor %}
 			
 			{% for food_source in site.data['farmers_markets_andrew'] %}
 			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
+				"type": "Feature",
+				"geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					{{ food_source['longitude'] }},
 							 {{ food_source['latitude'] }}
-			      ]
-			    },
+				  ]
+				},
 
-			    "properties": {
+				"properties": {
 						"name": "{{ food_source['name'] }}",
-			     "address": "{{ food_source['address'] }}",
+				 "address": "{{ food_source['address'] }}",
 						"type": "farmers-market"
-			    }
+				}
 			  },
 				{% endfor %}
 			],
@@ -339,7 +339,7 @@ layout: null
 			}
 		}
 
-    					// END USER'S GEOLOCATION //
+						// END USER'S GEOLOCATION //
 
 		function flyToStore(currentFeature) {
 			map.flyTo({
@@ -398,11 +398,11 @@ layout: null
 
 				// Type
 				var typeElement = element.querySelector('.type');
-				typeElement.innerText = data.type;
+				typeElement.innerText = data.formattedType;
 				// typeElement.className += ' ' + type;
 
 				// Address
-				if (data.address) element.querySelector('.address').innerHTML = data.address;
+				if (data.address) element.querySelector('.address').innerHTML = data.formattedAddress;
 
 				// Phone
 				var phoneElement = element.querySelector('.phone');
@@ -429,7 +429,8 @@ layout: null
 
 		function getFeatureData(feature) {
 			var data = feature.properties;
-			data.address = getFeatureAddress(feature);
+			data.formattedAddress = getFormattedAddress(feature);
+			data.formattedType = getFormattedType(feature);
 
 			data.uri = '/' + data.type.toLowerCase().replace(/\s/g, '-') + '/' + data.name.toLowerCase()
 						.replace(/\s/g, '-')
@@ -442,7 +443,18 @@ layout: null
 			return data;
 		}
 
-		function getFeatureAddress(feature) {
+		// KUDOS: http://alvinalexander.com/javascript/how-to-capitalize-each-word-javascript-string
+		function capitalizeEachWord(str) {
+			return str.replace(/\w\S*/g, function(txt) {
+				return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+			});
+		}
+
+		function getFormattedType(feature) {
+			return capitalizeEachWord(feature.properties.type.replace('-', ' '));
+		}
+
+		function getFormattedAddress(feature) {
 			var address = "";
 
 			var street = feature.properties["address"];
@@ -499,7 +511,7 @@ layout: null
 				// Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
 				for (var i = 0; i < stores.features.length; i++ ) {
 					if (stores.features[i].properties.name === clickedPoint.properties.name) {
-					    selectedFeatureIndex = i;
+						selectedFeatureIndex = i;
 					}
 				}
 				// Select the correct list item using the found index and add the active class
