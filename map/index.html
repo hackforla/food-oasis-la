@@ -24,7 +24,7 @@ layout: null
 	{% include find-food-link.html %}
 
 	<div class='sidebar'>
-		<div class='heading'>
+		<div class='heading' style="position: absolute; left: -9999px">
 			<h1>All Locations</h1>
 		</div>
 
@@ -118,7 +118,7 @@ layout: null
 			      "phone": "{{ food_source['phone'] }}",
 			      "address": "{{ food_source['address'] }}",
 						"hours": "{{ food_source['hours'] }}",
-						"type": "foodBank"
+						"type": "food-bank"
 			    }
 			  },
 				{% endfor %}
@@ -137,7 +137,7 @@ layout: null
 			    "properties": {
 						"name": "{{ food_source['name'] }}",
 			     "address": "{{ food_source['address'] | line_returns_to_html }}",
-						"type": "communityGarden"
+						"type": "community-garden"
 			    }
 			  },
 				{% endfor %}
@@ -156,7 +156,7 @@ layout: null
 			    "properties": {
 						"name": "{{ food_source['name'] }}",
 			     "address": "{{ food_source['address'] }}",
-						"type": "farmersMarket"
+						"type": "farmers-market"
 			    }
 			  },
 				{% endfor %}
@@ -204,7 +204,7 @@ layout: null
 					// 1. Fly to the point associated with the clicked link
 					flyToStore(clickedListing);
 					// 2. Close all other popups and display popup for clicked store
-					createPopUp(clickedListing);
+					showPopup(clickedListing);
 					// 3. Highlight listing in sidebar (and remove highlight for all other listings)
 					var activeItem = document.getElementsByClassName('active-listing-item');
 						if (activeItem[0]) {
@@ -325,7 +325,7 @@ layout: null
 		}
 
 		function moveMapToPosition(position) {
-			 map.setZoom(20);
+			 map.setZoom(14);
 			 map.panTo(position);
 
 			var template = document.getElementById('you-are-here-template');
@@ -348,22 +348,36 @@ layout: null
 			});
 		}
 
-		function createPopUp(currentFeature) {
-			var popUps = document.getElementsByClassName('mapboxgl-popup');
+		var popup;
+		function showPopup(feature) {
+			//var popUps = document.getElementsByClassName('mapboxgl-popup');
 			// Check if there is already a popup on the map and if so, remove it
-			if (popUps[0]) popUps[0].remove();
-			var markerType = currentFeature.properties.type;
+			//if (popUps[0]) popUps[0].remove();
 
+			if (!popup) {
+				popup = new mapboxgl.Popup({
+					closeButton: false,
+					closeOnClick: false
+				});
+			}
+
+			//var markerType = currentFeature.properties.type;
+
+			/*
 			var popup = new mapboxgl.Popup()
 				.setLngLat(currentFeature.geometry.coordinates)
 				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + 
 					'<h4>' + "Address: " + currentFeature.properties.address + '<br />' + "Phone: " + currentFeature.properties.phone 
-					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + /*"Open Now!" +*/ '</h4>')
+					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + "Open Now!" + '</h4>')
 				.addTo(map);
+			*/
+
+			var element = createPopupElement(feature);
+
+			popup.setLngLat(feature.geometry.coordinates).setDOMContent(element).addTo(map);
 		}
 
-		// Copied from the “original.html” map
-		function createPopUp__TODO(feature) {
+		function createPopupElement(feature) {
 
 			var template = document.getElementById('popup-template');
 			if (template) {
@@ -371,6 +385,10 @@ layout: null
 				element.innerHTML = template.innerHTML;
 
 				var data = getFeatureData(feature);
+
+				// Container
+				var container = element.querySelector('.map-point-details');
+				container.className += ' ' + feature.properties.type; 
 
 				// Name
 				var nameElement = element.querySelector('h3');
@@ -470,7 +488,7 @@ layout: null
 				// 1. Fly to the point
 				flyToStore(clickedPoint);
 				// 2. Close all other popups and display popup for clicked store
-				createPopUp(clickedPoint);
+				showPopup(clickedPoint);
 				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
 				var activeItem = document.getElementsByClassName('active-listing-item');
 				
@@ -494,11 +512,11 @@ layout: null
 			// Create a div element for the marker
 			var el = document.createElement('div');
 			// Add a class called 'marker' to each div
-			if(marker.properties.type === "foodBank") {
+			if(marker.properties.type === "food-bank") {
 				el.className = 'food-bank-marker'
-			} else if (marker.properties.type === "farmersMarket") {
+			} else if (marker.properties.type === "farmers-market") {
 				el.className = 'farmers-market-marker'
-			} else if (marker.properties.type === "communityGarden") {
+			} else if (marker.properties.type === "community-garden") {
 				el.className = 'community-garden-marker'
 			}
 
@@ -518,7 +536,7 @@ layout: null
 				// 1. Fly to the point
 				flyToStore(marker);
 				// 2. Close all other popups and display popup for clicked store
-				createPopUp(marker);
+				showPopup(marker);
 				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
 				e.stopPropagation();
 
