@@ -6,8 +6,8 @@
 			left:0;
 			overflow:hidden;
 			border-right:1px solid rgba(0,0,0,0.25);
-			top: 5.125rem;
-			height: calc(100vh - 5.125rem); /* header height */
+			top: 5.375rem;
+			height: calc(100vh - 5.375rem); /* header height */
 		}
 		.pad2 {
 			padding:20px;
@@ -22,10 +22,10 @@
 			left:33.3333%;
 			width:66.6666%;
 			bottom:0;
-			top: 5.125rem;
+			top: 5.375rem;
 			height: 500px;
 			height: 100vh;
-			height: calc(100vh - 5.125rem); /* header height */
+			height: calc(100vh - 5.375rem); /* header height */
 		}
 
 		.heading {
