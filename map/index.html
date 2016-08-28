@@ -539,8 +539,8 @@ layout: null
 
 			// By default the image for your custom marker will be anchored
 			// by its top left corner. Adjust the position accordingly
-			el.style.left='-28px';
-			el.style.top='-46px';
+			el.style.left='-21px';  // Marker width / 2
+			el.style.top='-56px'; // Marker height
 
 			// Create the custom markers, set their position, and add to map
 			new mapboxgl.Marker(el)
@@ -551,11 +551,11 @@ layout: null
 				var activeItem = document.getElementsByClassName('active-listing-item');
 
 				// 1. Fly to the point
-				flyToStore(marker);
+				// flyToStore(marker);
 				// 2. Close all other popups and display popup for clicked store
 				showPopup(marker);
 				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				e.stopPropagation();
+				//e.stopPropagation();
 
 				if (activeItem[0]) {
 					activeItem[0].classList.remove('active-listing-item');

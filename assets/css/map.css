@@ -17,7 +17,7 @@
 			font-size: inherit;
 		}
 
-		.map {
+		div.map {
 			position:absolute;
 			left:33.3333%;
 			width:66.6666%;
@@ -73,30 +73,32 @@
 		}
 
 		/* Marker tweaks */
-		.mapboxgl-popup {
+		/*
+		div.mapboxgl-popup {
 			padding-bottom: 50px;
 		}
+		*/
 
-		.mapboxgl-popup-close-button {
+		div.mapboxgl-popup-close-button {
 			display:none;
 		}
 
-		.mapboxgl-popup-content {
+		div.mapboxgl-popup-content {
 			padding: 0;
 			overflow: hidden; /* For rounded corners */
 		}
 		/*
-		.mapboxgl-popup-content {
+		div.mapboxgl-popup-content {
 			font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
 			padding:0;
 			max-width: 80vw;
 		}
 
-		.mapboxgl-popup-content-wrapper {
+		div.mapboxgl-popup-content-wrapper {
 			padding:1%;
 		}
 
-		.mapboxgl-popup-content h3 {
+		div.mapboxgl-popup-content h3 {
 			background:#91c949;
 			color:#fff;
 			margin:0;
@@ -107,7 +109,7 @@
 			margin-top:-15px;
 		}
 
-		.mapboxgl-popup-content h4 {
+		div.mapboxgl-popup-content h4 {
 			margin:0;
 			display:block;
 			padding: 10px 10px 10px 10px;
@@ -116,7 +118,7 @@
 		}
 		*/
 
-		/*.mapboxgl-popup-farmers-market h3 {
+		/*div.mapboxgl-popup-farmers-market h3 {
 			background:#91c949;
 			color:#fff;
 			margin:0;
@@ -127,7 +129,7 @@
 			margin-top:-15px;
 		}
 
-		.mapboxgl-popup-community-garden h3 {
+		div.mapboxgl-popup-community-garden h3 {
 			background:#F9C058;
 			color:#fff;
 			margin:0;
@@ -138,7 +140,7 @@
 			margin-top:-15px;
 		}
 
-		.mapboxgl-popup-food-bank h3 {
+		div.mapboxgl-popup-food-bank h3 {
 			background:#F37568;
 			color:#fff;
 			margin:0;
@@ -149,22 +151,24 @@
 			margin-top:-15px;
 		}
 
-		.mapboxgl-popup-content div {
+		div.mapboxgl-popup-content div {
 			padding:10px;
 		}
 		*/
 
-		.mapboxgl-container .leaflet-marker-icon { 
+		div.mapboxgl-container .leaflet-marker-icon { 
 			cursor:pointer; 
 		}
 
-		.mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
+		/*
+		div.mapboxgl-popup-anchor-top > div.mapboxgl-popup-content {
 			margin-top: 15px;
 		}
 
-		.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
+		div.mapboxgl-popup-anchor-top > div.mapboxgl-popup-tip {
 			border-bottom-color: #91c949;
 		}
+		*/
 
 		.farmers-market-marker {
 			border: none;
@@ -196,23 +200,23 @@
 			transform: translate(28px, 56px, 0);
 		}
 
-		.map-point-details h3 {
+		div.map-point-details h3 {
 			font-size: inherit;
 			margin: -0.75em -0.75em 0.375em -0.75em;
 			padding: 0.75em;
 		}
-		.map-point-details h3 a {
+		div.map-point-details h3 a {
 			color: inherit;
 		}
-		.map-point-details.food-bank h3 {
+		div.map-point-details.food-bank h3 {
 			background: rgb(249, 192, 88); /* @canteloupe */
 			color: white;
 		}
-		.map-point-details.community-garden h3 {
+		div.map-point-details.community-garden h3 {
 			background: rgb(144, 194, 70); /* @lime */
 			color: white;
 		}
-		.map-point-details.farmers-market h3 {
+		div.map-point-details.farmers-market h3 {
 			background: rgb(241, 95, 91); /* @strawberry */
 			color: white;
 		}
@@ -292,7 +296,7 @@
 			.listings {
 				display: none;
 			}
-			.map {
+			div.map {
 				width: 100%;
 				left: 0;
 			}
