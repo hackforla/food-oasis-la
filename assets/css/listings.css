@@ -197,6 +197,28 @@
 			background-color: #F9C058;
 		}
 
+		.foodBank {
+			background-color: #F9C058;
+			color: white;
+		}
+
+		.communityGarden {
+			background-color: #91c949;
+			color: white;
+		}
+
+		.farmersMarket {
+			background-color: #F37568;
+			color: white;
+		}
+
+			/*side bar listings link*/
+		a {
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
 		.filters {
 			position: absolute;
 			z-index: 9999;
@@ -277,5 +299,10 @@
 				width: 100%;
 				left: 0;
 			}
+		}
+
+		#all-locations {
+			font-weight: bold;
+			font-size: 35px;
 		}
 
