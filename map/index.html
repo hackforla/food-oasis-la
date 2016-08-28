@@ -163,14 +163,13 @@ layout: null
 			// with the class 'item' for each store
 				var listings = document.getElementById('listings');
 				var listing = listings.appendChild(document.createElement('div'));
-				listing.className = 'item';
+				listing.className = 'item ' + prop.type;
 				listing.id = "listing-" + i;
 
 				// Create a new link with the class 'title' for each store
 				// and fill it with the store address
 				var link = listing.appendChild(document.createElement('a'));
 					link.href = '#';
-					link.className = 'title';
 					link.dataPosition = i;
 					link.innerHTML = prop.name;
 				
@@ -210,15 +209,18 @@ layout: null
 							//FILTERING FUNCTIONALITY //
 	var fbClicked = true; 
 	function foodBankFilter() {
-		var fb = document.getElementsByClassName("food-bank-marker")
+		var fbMarker = document.getElementsByClassName("food-bank-marker");
+		var fbListing = document.getElementsByClassName("foodBank");
 		if(fbClicked === true) {
-			for(var i = 0; i < fb.length; i++) {
-				fb[i].style.visibility = "hidden";
+			for(var i = 0, j = 0; i < fbMarker.length, j < fbListing.length; i++, j++) {
+				fbMarker[i].style.visibility = "hidden";
+				fbListing[i].style.display = "none";
 			}
 			fbClicked = false; 
 		} else {
-			for(var i = 0; i < fb.length; i++) {
-				fb[i].style.visibility = "visible";
+			for(var i = 0, j = 0; i < fbMarker.length, j < fbListing.length; i++, j++) {
+				fbMarker[i].style.visibility = "visible";
+				fbListing[i].style.display = "block";
 			fbClicked = true;
 			}
 		}
@@ -226,35 +228,43 @@ layout: null
 
 	var fmClicked = true; 
 	function farmersMarketFilter() {
-		var fm = document.getElementsByClassName("farmers-market-marker");
+		var fmMarker = document.getElementsByClassName("farmers-market-marker");
+		var fmListing = document.getElementsByClassName("farmersMarket");
 		if(fmClicked === true) {
-			for(var i = 0; i < fm.length; i++) {
-				fm[i].style.visibility = "hidden";
+			for(var i = 0, j = 0; i < fmMarker.length, j < fmListing.length; i++, j++) {
+				fmMarker[i].style.visibility = "hidden";
+				fmListing[i].style.display = "none";
 			}
-			fmClicked = false;
+			fmClicked = false; 
 		} else {
-			for(var i = 0; i < fm.length; i++) {
-				fm[i].style.visibility = "visible";
-			}
+			for(var i = 0, j = 0; i < fmMarker.length, j < fmListing.length; i++, j++) {
+				fmMarker[i].style.visibility = "visible";
+				fmListing[i].style.display = "block";
 			fmClicked = true;
+			}
 		}
 	}
 
+
 	var cgClicked = true; 
 	function communityGardenFilter() {
-		var cm = document.getElementsByClassName("community-garden-marker");
-		if(cgClicked === true){
-			for(var i = 0; i < cm.length; i++) {
-				cm[i].style.visibility = "hidden";
+		var cgMarker = document.getElementsByClassName("community-garden-marker");
+		var cgListing = document.getElementsByClassName("communityGarden");
+		if(cgClicked === true) {
+			for(var i = 0, j = 0; i < cgMarker.length, j < cgListing.length; i++, j++) {
+				cgMarker[i].style.visibility = "hidden";
+				cgListing[i].style.display = "none";
 			}
-			cgClicked = false;
+			cgClicked = false; 
 		} else {
-			for(var i = 0; i < cm.length; i++) {
-				cm[i].style.visibility = "visible";
-			}
+			for(var i = 0, j = 0; i < cgMarker.length, j < cgListing.length; i++, j++) {
+				cgMarker[i].style.visibility = "visible";
+				cgListing[i].style.display = "block";
 			cgClicked = true;
+			}
 		}
 	}
+
 
 							// END FILTERING FUNCTIONALITY //
 
