@@ -21,7 +21,9 @@ layout: null
 	<link rel="stylesheet" href="/assets/css/listings.css" />
 
 	<!--Google Matrix Distance API-->
-	<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCqaBjT21WaTaS_h-S5y89rDfNBdnqR4qM'></script>
+	<!--<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCqaBjT21WaTaS_h-S5y89rDfNBdnqR4qM'></script>-->
+  <!--Google Maps Geometry Library-->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YAIzaSyCqaBjT21WaTaS_h-S5y89rDfNBdnqR4qM&libraries=geometry"></script>
 
 </head>
 <body>
@@ -272,23 +274,19 @@ layout: null
 
 								// USER'S GEOLOCATION //
 
-	// function geocodeAddress(address, callback) {
-	// 	console.log('inside geocodeAddress');
-	// 	var geocoder = new google.maps.Geocoder();
+	function geocodeAddress(address, callback) {
+		var geocoder = new google.maps.Geocoder();
 
-	// 	geocoder.geocode({'address': address}, function(results, status) {
-	// 		if (status === google.maps.GeocoderStatus.OK) {
-	// 			console.log('googlemaps', google.maps);
-	// 			var longitude = results[0].geometry.location.lng();
-	// 			var latitude  = results[0].geometry.location.lat();
+		geocoder.geocode({'address': address}, function(results, status) {
+			if (status === google.maps.GeocoderStatus.OK) {
+				var longitude = results[0].geometry.location.lng();
+				var latitude  = results[0].geometry.location.lat();
 
-	// 			callback([longitude, latitude]);
-
-	// 		} else {
-	// 			console.error('Geocode was not successful for the following reason: ' + status);
-	// 		}
-	// 	});
-	// }
+			} else {
+				console.error('Geocode was not successful for the following reason: ' + status);
+			}
+		});
+	}
 
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
 	
@@ -376,18 +374,33 @@ layout: null
 	// 	var mapsMatrixQuery = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=";
 	// 	var mapsKey = "&key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4";
 	// 	// EXAMPLE: https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=40.6655101,-73.89188969999998&destinations=40.6905615%2C-73.9976592&key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4
-		
+  
+  var coordinatesObj = {};
+  function getCurrentCoords() {
+    if(navigator.geolocation) {
+      console.log('navigator.geolocation');
+      return navigator.geolocation.getCurrentPosition(
+        function (position) {
+          coordinatesObj.lat = position.coords.latitude;
+          coordinatesObj.lng = position.coords.longitude;
+        });
+    } else {
+      console.log('cannot get coordinates');
+    }
+  }
+
     function getDistanceFromOrigin() {
-      
-			var origin1 = new google.maps.LatLng(55.930385, -3.118425);
+			var origin1 = {lat: 55.93, lng: -3.118};
 			var origin2 = 'Greenwich, England';
 			var destinationA = 'Stockholm, Sweden';
 			var destinationB = new google.maps.LatLng(50.087692, 14.421150);
 
+			//var userOrigin = new google.maps.LatLng(userCoords[0], userCoords[1]);
+
 			var service = new google.maps.DistanceMatrixService;
 			service.getDistanceMatrix(
 			{
-				origins: [origin1, origin2],
+				origins: [coordinatesObj, 'Los Angeles, CA'],
 				destinations: [destinationA, destinationB],
 				travelMode: 'DRIVING',
 				unitSystem: google.maps.UnitSystem.IMPERIAL,
@@ -404,7 +417,7 @@ layout: null
 			}
 	}
 
-					// ENDING GOOGLE MAPS MATRIX API //
+					// END GOOGLE MAPS MATRIX API //
 
 		function flyToStore(currentFeature) {
 			map.flyTo({
@@ -522,6 +535,7 @@ layout: null
 				listing.classList.add('active');
 			});
 	findUserLocation();
+  getCurrentCoords();
 	getDistanceFromOrigin();
 
 		});
