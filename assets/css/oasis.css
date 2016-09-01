@@ -540,6 +540,7 @@
 
 	/* =Button
 	----------------------------------------------- */
+	body.find form button,
 	header button,
 	.map-filters button,
 	nav a {
@@ -561,6 +562,9 @@
 		border-color: transparent;
 		text-decoration: none;
 	}
+	body.find form button:hover,
+	body.find form button:active,
+	body.find form button:focus,
 	header button:hover,
 	header button:active,
 	header button:focus,
@@ -573,6 +577,7 @@
 		background: rgb(221, 75, 71); /* @strawberry */
 		text-decoration: none;
 	}
+	body.find form button,
 	header button,
 	.map-filters button {
 		cursor: pointer;
