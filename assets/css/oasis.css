@@ -190,29 +190,33 @@
 	/* =Header
 	----------------------------------------------- */
 	.header h2 {
-		font-size: 1.5em;
+		font-size: inherit;
 		font-weight: inherit;
-		margin: -1.5rem -1.5rem 0;
-		text-align: center;
+		margin: -1.5em -1.5em 0;
 	}
 	.header h2 a {
-		display: block;
-		padding: 1.125em 0.75rem;
-		text-align: right;
-		margin-left: 0.75rem;
-		margin-right: 0.75rem;
-		color: inherit;
+		display: inline-block;
+		padding: 1.125em 0.75em;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+		color: rgb(102, 102, 102);
+		text-decoration: none;
+		text-transform: lowercase;
 	}
 	.header h2 svg {
-		display: block;
 		opacity: 0.85;
-		width: 12.5rem; /* 300px * 2/3 / 16px */
-		height:1.625rem; /* 38px * 2/3 / 16px */
+		width: 4.6875em; /* 225px / 16px */
+		height: 2.5em; /* 40px / 16px */
+		margin-right: 0.375em;
+	}
+	.header h2 span {
+		display: inline-block;
+		line-height: 1;
 	}
 	@media (min-width: 30em) {
 		.header h2 svg {
-			width: 18.75rem; /* 300px / 16px */
-			height: 2.375rem; /* 38px / 16px */
+			width: 4.6875em; /* 225px / 16px */
+			height: 2.5em; /* 40px / 16px */
 		}
 	}
 	.header h2 svg .food-oasis * {
