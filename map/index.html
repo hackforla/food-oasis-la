@@ -256,7 +256,7 @@ layout: null
 	}
 
 	function moveMapToPosition(position) {
-		 map.setZoom(16); // TBD: Should we adjust this based on screen size?
+		 map.setZoom(15); // TBD: Should we adjust this based on screen size? (Can we zoom until at least one store is visible?)
 		 map.panTo(position);
 
 		// Add a marker at the user’s location
