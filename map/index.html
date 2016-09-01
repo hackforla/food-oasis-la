@@ -70,7 +70,7 @@ layout: null
 		opacity: 0.35;
 	}
 
-	@media (max-width: 35em) and (max-height: 35em) {
+	@media (max-width: 45em) and (max-height: 55em) {
 		.map-filters {
 			display: none;
 		}
@@ -256,7 +256,7 @@ layout: null
 	}
 
 	function moveMapToPosition(position) {
-		 map.setZoom(17);
+		 map.setZoom(16); // TBD: Should we adjust this based on screen size?
 		 map.panTo(position);
 
 		// Add a marker at the user’s location
