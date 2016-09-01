@@ -37,7 +37,7 @@ body {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 768px;
   }
 }
 .container-narrow > hr {
@@ -54,7 +54,7 @@ body {
   background-image: url("/bootstrap/images/banner.jpg");
 }
 .jumbotron h1 {
-  font-size: 56px;
+  font-size: 50px;
   text-shadow: 2px 2px #777777;
   color: white;
 }
