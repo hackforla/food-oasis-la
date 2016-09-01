@@ -620,10 +620,12 @@
 	}
 	@media (max-width: 35em) {
 		input[type="text"],
+		body.find form button,
 		header button,
 		.map-filters button {
 			width: 100%;
 		}
+		body.find form button,
 		header button,
 		.map-filters button {
 			margin-top: 0.375em;
