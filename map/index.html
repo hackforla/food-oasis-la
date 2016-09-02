@@ -50,13 +50,13 @@ layout: null
 	.map-filters .community-garden:hover,
 	.map-filters .community-garden:active,
 	.map-filters .community-garden:focus {
-		background-color: rgb(161, 167, 72); /* @asparagus */
+		background-color: rgb(77, 85, 148); /* @blueberry */
 	}
 	.map-filters .grocery-supermarkets,
 	.map-filters .grocery-supermarkets:hover,
 	.map-filters .grocery-supermarkets:active,
 	.map-filters .grocery-supermarkets:focus {
-		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgb(161, 167, 72); /* @asparagus */
 	}
 	.map-filters .grocery-stores,
 	.map-filters .grocery-stores:hover,
@@ -154,7 +154,7 @@ layout: null
 			sourceLayer: 'Community-Gardens_08-30-9i6uw2',
 			sourceURL: 'mapbox://fooddesertsla.49jm12ce',
             // iconImage: '/assets/images/map/urban-farm.svg',
-			color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
+			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
 		},
 		{
 			name: 'grocery-stores',
@@ -171,7 +171,7 @@ layout: null
 			sourceLayer: 'Supermarkets_08-30-auwrik',
 			sourceURL: 'mapbox://fooddesertsla.aaxhcodx',
             // iconImage: '/assets/images/map/urban-farm.svg',
-			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
+			color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
 		},
 		// {
 		// 	name: 'grocery-other',
@@ -387,12 +387,16 @@ layout: null
 
 	function getFeatureData(feature) {
 
+		console.log('feature.properties')
+		console.dir(feature.properties);
+
 		var data = {
 			name:   feature.properties["name"] || 
 					feature.properties["Name"] ||
 					feature.properties["NAME"] ||
 					feature.properties["NAME:"] ||
-					feature.properties["MarketName"],
+					feature.properties["MarketName"] ||
+					feature.properties["GardenName"],
 			type:   getLayerLabel(feature.layer.id.replace('-near', '').replace('-far', '')),
 			hours:  feature.properties["times"] ||
 					feature.properties["Times"] ||
