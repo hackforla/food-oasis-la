@@ -30,7 +30,7 @@ layout: null
 	<div class="page-contents">
 
 		<h2>
-			<img class="icon" src="../../assets/images/icons/address.svg" width="30" alt="Address" /> Address
+			<img class="icon" src="/assets/images/icons/address.svg" width="30" alt="Address" /> Address
 		</h2>
 		<p>
 			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">
@@ -40,14 +40,14 @@ layout: null
 
 		{% if page.food_source['phone'] %}
 		<h2>
-			<img class="icon" src="../../assets/images/icons/phone.svg" width="30" alt="Phone" /> Phone
+			<img class="icon" src="/assets/images/icons/phone.svg" width="30" alt="Phone" /> Phone
 		</h2>
 		<p>{{ page.food_source['phone'] | escape }}</p>
 		{% endif %}
 
 		{% if page.food_source['hours'] %}
 		<h2>
-			<img class="icon" src="../../assets/images/icons/hours.svg" width="30" alt="" /> Hours
+			<img class="icon" src="/assets/images/icons/hours.svg" width="30" alt="" /> Hours
 		</h2>
 		<p>{{ page.food_source['hours'] | escape }}</p>
 		{% endif %}

@@ -328,14 +328,15 @@ layout: null
 		var feature = features[0];
 
 		// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-		var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0 || feature.layer.id.indexOf('farmers-market') >= 0) ? true : false;
+		// var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0 || feature.layer.id.indexOf('farmers-market') >= 0) ? true : false;
 
-		var element = createPopupElement(feature, showLink);
+		var element = createPopupElement(feature);
 
 		popup.setLngLat(feature.geometry.coordinates).setDOMContent(element).addTo(map);
 	}
 
-	function createPopupElement(feature, showLink) {
+	function createPopupElement(feature) {
+		var showLink = true;
 
 		var template = document.getElementById('popup-template');
 		if (template) {
@@ -387,9 +388,6 @@ layout: null
 
 	function getFeatureData(feature) {
 
-		console.log('feature.properties')
-		console.dir(feature.properties);
-
 		var data = {
 			name:   feature.properties["name"] || 
 					feature.properties["Name"] ||
@@ -409,10 +407,24 @@ layout: null
 			address: getFeatureAddress(feature)
 		};
 
+		// SHIM: Use the address as part of the URI (see _plugins/food_source_generator.rb for details)
+		var address = 
+					feature.properties["address"] ||
+					feature.properties["Address"] ||
+					feature.properties["ADDRESS"] ||
+					feature.properties["ADDRESS:"] ||
+					feature.properties["StreetAddress"];
 		data.uri = '/' + 
 					data.type.toLowerCase()
 					.replace(/\s/g, '-') + '/' + 
 					data.name.toLowerCase()
+					.replace(/\s/g, '-')
+					.replace(/\//g, '-')
+					.replace(/\&/g, '-')
+					.replace(/\./g, '-')
+					.replace(/\'/g, '')
+					.replace(/\-\-/g, '-') + '/' + 
+					address.toLowerCase()
 					.replace(/\s/g, '-')
 					.replace(/\//g, '-')
 					.replace(/\&/g, '-')
@@ -430,7 +442,8 @@ layout: null
 					feature.properties["address"] ||
 					feature.properties["Address"] ||
 					feature.properties["ADDRESS"] ||
-					feature.properties["ADDRESS:"];
+					feature.properties["ADDRESS:"] ||
+					feature.properties["StreetAddress"];
 		var city = 
 					feature.properties["city"] ||
 					feature.properties["City"];
