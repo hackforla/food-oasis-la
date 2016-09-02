@@ -7,15 +7,6 @@ color: strawberry
 ---
 
 <style>
-	a img {
-		opacity: 0.5;
-		transition: all 0.2s;
-	}
-
-	a img:hover {
-		opacity:1;
-	}
-
 	h1 {
 		color: red;
 	}
@@ -43,11 +34,3 @@ Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the
 ## Our Mission
 
 To create an interactive digital hub that helps Angelenos navigate the abundance of healthy food resources available in the city.
-
-<br />
-
-## Our Sponsors
-<div style="display:flex; justify-content:space-around; align-items:center;">
-	<a href="http://www.hackforla.org/"><img src="/assets/images/hackforla.png" style="width:150px; padding-right:10px; " /></a>
-	<a href="http://www.codeforamerica.org"><img src="/assets/images/codeforamerica.png" style="width:150px; padding-left:10px; " /></a>
-</div>
