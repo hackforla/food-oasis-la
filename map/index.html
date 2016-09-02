@@ -1,3 +1,4 @@
+
 ---
 layout: null
 ---
@@ -6,281 +7,209 @@ layout: null
 <head>
 	<meta charset="utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	
 
 	<title>Map, Food Oasis Los Angeles</title>
 	
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
-	
 
 	<!-- For Mapbox -->
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js'></script>
-	<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.css' rel='stylesheet' />
-	<link rel="stylesheet" href="/assets/css/listings.css" />
+	<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" />
 
-	<!--Google Matrix Distance API-->
-	<!--<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCqaBjT21WaTaS_h-S5y89rDfNBdnqR4qM'></script>-->
-  <!--Google Maps Geometry Library-->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YAIzaSyCqaBjT21WaTaS_h-S5y89rDfNBdnqR4qM&libraries=geometry"></script>
+	<style>
+	.map-filters {
+		position: absolute;
+		z-index: 1;
+		top: 12.125rem; /* header height + 1.5rem */
+		left: 1.5rem;
+		width: 15em;
+	}
 
+	@media (min-width: 30em) {
+		.map-filters {
+			top: 12.125rem; /* header height + 3rem */
+			left: 3rem;
+		}
+	}
+
+	.map-filters button {
+		background-image: none;
+	}
+	.map-filters .food-bank,
+	.map-filters .food-bank:hover,
+	.map-filters .food-bank:active,
+	.map-filters .food-bank:focus {
+		background-color: rgb(249, 192, 88); /* @banana */
+	}
+	.map-filters .farmers-market,
+	.map-filters .farmers-market:hover,
+	.map-filters .farmers-market:active,
+	.map-filters .farmers-market:focus {
+		background-color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.map-filters .community-garden,
+	.map-filters .community-garden:hover,
+	.map-filters .community-garden:active,
+	.map-filters .community-garden:focus {
+		background-color: rgb(161, 167, 72); /* @asparagus */
+	}
+	.map-filters .grocery-supermarkets,
+	.map-filters .grocery-supermarkets:hover,
+	.map-filters .grocery-supermarkets:active,
+	.map-filters .grocery-supermarkets:focus {
+		background-color: rgb(77, 85, 148); /* @blueberry */
+	}
+	.map-filters .grocery-stores,
+	.map-filters .grocery-stores:hover,
+	.map-filters .grocery-stores:active,
+	.map-filters .grocery-stores:focus {
+		background-color: rgb(209, 43, 43); /* @apple */
+		background-color: rgb(144, 194, 70); /* @lime */
+	}
+
+	.map-filters .inactive {
+		opacity: 0.35;
+	}
+
+	@media (max-width: 45em) and (max-height: 55em) {
+		.map-filters {
+			display: none;
+		}
+	}
+	</style>
 </head>
-<body>
+<body class="map">
+
 	{% include header.html %}
 	{% include find-food-link.html %}
 
-	<div class='sidebar'>
-		<div class='heading'>
-			<h1 id="all-locations">All Locations</h1>
-		</div>
-
-		<div id='listings' class='listings'></div>
-	</div>
-
-	<ul class="filters">
-		<li><button onclick="foodBankFilter()" id="fb-filter">Food Banks</button></li>
-		<li><button onclick="communityGardenFilter()" id="cg-filter">Community Gardens</button></li>
-		<li><button onclick="farmersMarketFilter()" id="fm-filter">Farmers’ Markets</button></li>
-	</ul>
-
-	<!--<ul class="filters">
-		<button onclick="foodBankFilter()"><li id="fb-filter"><a href="?type=food-banks">Food Banks</a></li></button>
-		<li id="cg-filter"><a href="?type=community-gardens">Community Gardens</a></li>
-		<li id="fm-filter"><a href="?type=farmers-markets">Farmers’ Markets</a></li>
-	</ul>-->
-
-	<div id='map' class='map'></div>
-
-		<script type="text/template" id="you-are-here-template">
-			<div class="you-are-here"><span>You are here</span></div>
-		</script>
-
+	<nav class="search">
+		<h1>Map of food near you</h1>
+		<ul>
+			<li class="map"><a>Map</a></li>
+			<li class="list"><a href="/list">List</a></li>
+		</ul>
+	</nav>
+	
 	<script>
-		// This will let you use the .remove() function later on
-		if (!('remove' in Element.prototype)) {
-			Element.prototype.remove = function() {
-				if (this.parentNode) {
-					this.parentNode.removeChild(this);
-				}
-			};
-		}
+		(function() {
+			// SHIM: Make the address persistent
+			var searchLink = document.querySelector('.search a[href]');
+			searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
+		})();
+	</script>
 
-		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
-		// This adds the map to your page
-		var map = new mapboxgl.Map({
-		  container: 'map',
-		  style: 'mapbox://styles/mapbox/light-v9',
-		  center: [-118.243683, 34.052235],
-		  zoom: 14
-		});
+	<nav class="map-filters"></nav>
 
-		// Add 'Current Location' functionality
-		map.addControl(new mapboxgl.Geolocate());
-		
-		// Add map navigational functionality
-		map.addControl(new mapboxgl.Navigation({position: 'bottom-left'}));
+	<div id="map" class="mapbox"></div>
 
+	<!-- For map.js -->
+	<script type="text/template" id="you-are-here-template">
+		<div class="you-are-here"><span>You are here</span></div>
+	</script>
 
-		// Link to mapbox tilesets
-		// map.addSource('Food Bank', {
-		// 	type: 'vector',
-		// 	url: 'mapbox://fooddesertsla.c1nwj97w'
-		// });
+	<script type="text/template" id="popup-template">
+	<div class="map-point-details">
+		<h3><a href=""></a></h3>
+		<p class="type"></p>
+		<p class="address"></p>
+		<p class="phone"></p>
+		<h4>Hours</h4>
+		<p class="hours"></p>
+	</div>
+	</script>
 
-//		var foodbanks = 
+	<!-- Jim’s Google Maps API key -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
-		var stores =
+	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js"></script>
+	<script>
 
+	var MAP_START_POSITION = [-118.243683, 34.052235];
+
+	var MAP_BOUNDS = [
+		[-119.9442369,32.7089729], // Southwest coordinates
+		[-116.63282912,35.8275538]  // Northeast coordinates
+	];
+
+	var MAP_LAYERS = [
 		{
-			"type": "FeatureCollection",
-			"features": [
+			name: 'food-bank',
+			label: 'Food Bank',
+			sourceLayer: 'Food_Banks_-_Andrew',
+			sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
+            // iconImage: '/assets/images/map/food-bank.svg',
+			color: 'rgba(249, 192, 88, 0.75)' /* @banana */
+		},
+		{
+			name: 'farmers-market',
+			label: 'Farmers Market',
+			sourceLayer: 'Live_Farmers_Markets_-_MASTER-1x3wlp',
+			sourceURL: 'mapbox://fooddesertsla.b7p0hpya',
+            // iconImage: '/assets/images/map/farmers-market.svg',
+			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
+		},
+		{
+			name: 'community-garden',
+			label: 'Community Garden',
+			sourceLayer: 'Community-Gardens_08-30-9i6uw2',
+			sourceURL: 'mapbox://fooddesertsla.49jm12ce',
+            // iconImage: '/assets/images/map/urban-farm.svg',
+			color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
+		},
+		{
+			name: 'grocery-stores',
+			label: 'Grocery Store',
+			sourceLayer: 'Grocery_08-30-71pjm3',
+			sourceURL: 'mapbox://fooddesertsla.3ywcv3cs',
+            // iconImage: '/assets/images/map/urban-farm.svg',
+			// color: 'rgba(209, 43, 43, 0.75)' /* @apple */
+			color: 'rgba(144, 194, 70, 0.75)' /* @lime */
+		},
+		{
+			name: 'grocery-supermarkets',
+			label: 'Supermarket',
+			sourceLayer: 'Supermarkets_08-30-auwrik',
+			sourceURL: 'mapbox://fooddesertsla.aaxhcodx',
+            // iconImage: '/assets/images/map/urban-farm.svg',
+			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
+		},
+		// {
+		// 	name: 'grocery-other',
+		// 	label: 'Others',
+		// 	sourceLayer: 'Other_08-30-40tdgs',
+		// 	sourceURL: 'mapbox://fooddesertsla.08w505ms',
+  //           // iconImage: '/assets/images/map/farmers-market.svg',
+		// 	color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
+		// },
+		// {
+		// 	name: 'food-deserts',
+		// 	label: 'Food Deserts',
+		// 	sourceLayer: 'LI_LA_Desert_Map_-_USDA_-_Tracts',
+		// 	sourceURL: 'mapbox://fooddesertsla.26tf3nay',
+  //           // iconImage: '/assets/images/map/farmers-market.svg',
+		// 	color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
+		// }
+	];
 
-			{% for food_source in site.data['food_banks_andrew'] %}
-			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-			      ]
-			    },
-			    "properties": {
-						"name": "{{ food_source['name'] }}",
-			      "phone": "{{ food_source['phone'] }}",
-			      "address": "{{ food_source['address'] }}",
-						"hours": "{{ food_source['hours'] }}",
-						"type": "foodBank"
-			    }
-			  },
-				{% endfor %}
-			
-			{% for food_source in site.data['community_gardens_andrew'] %}
-			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-			      ]
-			    },
-
-			    "properties": {
-						"name": "{{ food_source['name'] }}",
-			     "address": "{{ food_source['address'] | line_returns_to_html }}",
-						"type": "communityGarden"
-			    }
-			  },
-				{% endfor %}
-			
-			{% for food_source in site.data['farmers_markets_andrew'] %}
-			  {
-			    "type": "Feature",
-			    "geometry": {
-			      "type": "Point",
-			      "coordinates": [
-			       	{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-			      ]
-			    },
-
-			    "properties": {
-						"name": "{{ food_source['name'] }}",
-			     "address": "{{ food_source['address'] }}",
-						"type": "farmersMarket"
-			    }
-			  },
-				{% endfor %}
-			],
-
-		}
-
-		function buildLocationList(data) {
-			// Iterate through the list of stores
-			for (i = 0; i < data.features.length; i++) {
-				var currentFeature = data.features[i];
-				// Shorten data.feature.properties to just `prop` so we're not
-			// writing this long form over and over again.
-				var prop = currentFeature.properties;
-				// Select the listing container in the HTML and append a div
-			// with the class 'item' for each store
-				var listings = document.getElementById('listings');
-				var listing = listings.appendChild(document.createElement('div'));
-				listing.className = 'item ' + prop.type;
-				listing.id = "listing-" + i;
-
-				// Create a new link with the class 'title' for each store
-				// and fill it with the store address
-				var link = listing.appendChild(document.createElement('a'));
-					link.href = '#';
-					link.dataPosition = i;
-					link.innerHTML = prop.name;
-				
-				// Create a new div with the class 'details' for each store
-				// and fill it with the city and phone number
-
-				var locationAddress = listing.appendChild(document.createElement('div'));
-				locationAddress.innerHTML = prop.address;
-
-				// Create a new div with the class 'details' for each store
-				// and fill it with the city and phone number
-				var details = listing.appendChild(document.createElement('div'));
-				details.innerHTML = "Phone: " + prop.phone + ' &middot ' + "Hours: " + prop.hours;
-
-				if (prop.phone) {
-			  		details.innerHTML += ' &middot; ' + prop.phoneFormatted;
-				}
-
-				// Add an event listener for the links in the sidebar listing
-				link.addEventListener('click', function(e){
-					// Update the currentFeature to the store associated with the clicked link
-					var clickedListing = data.features[this.dataPosition];
-					// 1. Fly to the point associated with the clicked link
-					flyToStore(clickedListing);
-					// 2. Close all other popups and display popup for clicked store
-					createPopUp(clickedListing);
-					// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-					var activeItem = document.getElementsByClassName('active');
-						if (activeItem[0]) {
-						 activeItem[0].classList.remove('active');
-					}
-
-					this.parentNode.classList.add('active');
-				});
-			}
-		}
-							//FILTERING FUNCTIONALITY //
-	var fbClicked = true; 
-	function foodBankFilter() {
-		var fbMarker = document.getElementsByClassName("food-bank-marker");
-		var fbListing = document.getElementsByClassName("foodBank");
-		if(fbClicked === true) {
-			for(var i = 0, j = 0; i < fbMarker.length, j < fbListing.length; i++, j++) {
-				fbMarker[i].style.visibility = "hidden";
-				fbListing[i].style.display = "none";
-			}
-			fbClicked = false; 
-		} else {
-			for(var i = 0, j = 0; i < fbMarker.length, j < fbListing.length; i++, j++) {
-				fbMarker[i].style.visibility = "visible";
-				fbListing[i].style.display = "block";
-			fbClicked = true;
+	function getLayerLabel(name) {
+		for (var index = 0; index < MAP_LAYERS.length; index++) {
+			if (MAP_LAYERS[index].name === name) {
+				return MAP_LAYERS[index].label;
 			}
 		}
 	}
-
-	var fmClicked = true; 
-	function farmersMarketFilter() {
-		var fmMarker = document.getElementsByClassName("farmers-market-marker");
-		var fmListing = document.getElementsByClassName("farmersMarket");
-		if(fmClicked === true) {
-			for(var i = 0, j = 0; i < fmMarker.length, j < fmListing.length; i++, j++) {
-				fmMarker[i].style.visibility = "hidden";
-				fmListing[i].style.display = "none";
-			}
-			fmClicked = false; 
-		} else {
-			for(var i = 0, j = 0; i < fmMarker.length, j < fmListing.length; i++, j++) {
-				fmMarker[i].style.visibility = "visible";
-				fmListing[i].style.display = "block";
-			fmClicked = true;
-			}
-		}
-	}
-
-
-	var cgClicked = true; 
-	function communityGardenFilter() {
-		var cgMarker = document.getElementsByClassName("community-garden-marker");
-		var cgListing = document.getElementsByClassName("communityGarden");
-		if(cgClicked === true) {
-			for(var i = 0, j = 0; i < cgMarker.length, j < cgListing.length; i++, j++) {
-				cgMarker[i].style.visibility = "hidden";
-				cgListing[i].style.display = "none";
-			}
-			cgClicked = false; 
-		} else {
-			for(var i = 0, j = 0; i < cgMarker.length, j < cgListing.length; i++, j++) {
-				cgMarker[i].style.visibility = "visible";
-				cgListing[i].style.display = "block";
-			cgClicked = true;
-			}
-		}
-	}
-							// END FILTERING FUNCTIONALITY //
-
-
-								// USER'S GEOLOCATION //
 
 	function geocodeAddress(address, callback) {
 		var geocoder = new google.maps.Geocoder();
 
 		geocoder.geocode({'address': address}, function(results, status) {
 			if (status === google.maps.GeocoderStatus.OK) {
+
 				var longitude = results[0].geometry.location.lng();
 				var latitude  = results[0].geometry.location.lat();
+
+				callback([longitude, latitude]);
 
 			} else {
 				console.error('Geocode was not successful for the following reason: ' + status);
@@ -300,7 +229,6 @@ layout: null
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
-	var myCoords;
 	function findUserLocation() {
 		var address = getParameterByName('address');
 
@@ -311,15 +239,16 @@ layout: null
 				address += ' Los Angeles';
 			}
 
-			//geocodeAddress(address, moveMapToPosition);
+			geocodeAddress(address, moveMapToPosition);
 
 		// Grab user's location on page-load
 		} else if ("geolocation" in navigator) {
 			navigator.geolocation.getCurrentPosition(function(position) {
+
 				// Set new starting location
-				myCoords = [position.coords.longitude, position.coords.latitude];
+				var myCoords = [position.coords.longitude, position.coords.latitude];
 				moveMapToPosition(myCoords);
-				//console.log(myCoords);
+				console.log('current coords', myCoords);
 
 			}, function() {
 				console.error("Unable to retrieve your location");
@@ -328,7 +257,7 @@ layout: null
 	}
 
 	function moveMapToPosition(position) {
-		 map.setZoom(10);
+		 map.setZoom(15); // TBD: Should we adjust this based on screen size? (Can we zoom until at least one store is visible?)
 		 map.panTo(position);
 
 		// Add a marker at the user’s location
@@ -356,7 +285,7 @@ layout: null
 	 //        }
 	 //    });
 
-	var template = document.getElementById('you-are-here-template');
+		var template = document.getElementById('you-are-here-template');
 		if (template) {
 			var marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;
@@ -367,180 +296,288 @@ layout: null
 		}
 	}
 
-    					// END USER'S GEOLOCATION //
+	var urlTag = getParameterByName('type');
 
-					// USING GOOGLE MAPS API FOR DISTANCE //
+	console.log(urlTag);
 
-	// 	var mapsMatrixQuery = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=";
-	// 	var mapsKey = "&key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4";
-	// 	// EXAMPLE: https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=40.6655101,-73.89188969999998&destinations=40.6905615%2C-73.9976592&key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4
-  
-  var coordinatesObj = {};
-  function getCurrentCoords() {
-    if(navigator.geolocation) {
-      console.log('navigator.geolocation');
-      return navigator.geolocation.getCurrentPosition(
-        function (position) {
-          coordinatesObj.lat = position.coords.latitude;
-          coordinatesObj.lng = position.coords.longitude;
-        });
-    } else {
-      console.log('cannot get coordinates');
-    }
-  }
+	var popup;
+	function showPopup(event) {
+		var layerNames = [];
+		for (var i = 0; i < MAP_LAYERS.length; i++) {
+			layerNames.push(MAP_LAYERS[i].name);
+			layerNames.push(MAP_LAYERS[i].name + '-near');
+			layerNames.push(MAP_LAYERS[i].name + '-far');
+		}
+		var features = map.queryRenderedFeatures(event.point, { 
+			layers: layerNames
+		});
 
-    function getDistanceFromOrigin() {
-			var origin1 = {lat: 55.93, lng: -3.118};
-			var origin2 = 'Greenwich, England';
-			var destinationA = 'Stockholm, Sweden';
-			var destinationB = new google.maps.LatLng(50.087692, 14.421150);
+		if (!popup) {
+			popup = new mapboxgl.Popup({
+				closeButton: false,
+				closeOnClick: false
+			});
+		}
 
-			//var userOrigin = new google.maps.LatLng(userCoords[0], userCoords[1]);
+		// Change the cursor style as a UI indicator.
+		map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+		if (!features.length) {
+			popup.remove();
+			return;
+		}
 
-			var service = new google.maps.DistanceMatrixService;
-			service.getDistanceMatrix(
-			{
-				origins: [coordinatesObj, 'Los Angeles, CA'],
-				destinations: [destinationA, destinationB],
-				travelMode: 'DRIVING',
-				unitSystem: google.maps.UnitSystem.IMPERIAL,
-				avoidHighways: false,
-				avoidTolls: true
-			}, callback);
+		var feature = features[0];
 
-			function callback(response, status) {
-				if(status === 'OK') {
-					console.log('response', response);
-				} else {
-					console.log('error', status);
-				}
-			}
+		// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
+		var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0 || feature.layer.id.indexOf('farmers-market') >= 0) ? true : false;
+
+		var element = createPopupElement(feature, showLink);
+
+		popup.setLngLat(feature.geometry.coordinates).setDOMContent(element).addTo(map);
 	}
 
-					// END GOOGLE MAPS MATRIX API //
+	function createPopupElement(feature, showLink) {
 
-		function flyToStore(currentFeature) {
-			map.flyTo({
-				center: currentFeature.geometry.coordinates,
-				zoom: 15
-			});
-		}
+		var template = document.getElementById('popup-template');
+		if (template) {
+			var element = document.createElement('div');
+			element.innerHTML = template.innerHTML;
 
-		function createPopUp(currentFeature) {
-			var popUps = document.getElementsByClassName('mapboxgl-popup');
-			// Check if there is already a popup on the map and if so, remove it
-			if (popUps[0]) popUps[0].remove();
-			var markerType = currentFeature.properties.type;
+			var data = getFeatureData(feature);
 
-			var popup = new mapboxgl.Popup()
-				.setLngLat(currentFeature.geometry.coordinates)
-				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + 
-					'<h4>' + "Address: " + currentFeature.properties.address + '<br />' + "Phone: " + currentFeature.properties.phone 
-					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + "Open Now!" + '</h4>')
-				.addTo(map);
-		}
-
-		map.on('load', function (e) {
-			// Add the stores data as a source
-			map.addSource("places", {
-				"type": "geojson",
-				"data": stores
-			});
-
-			// Add a layer to the map with styling rules to render the source
-			// map.addLayer({
-			// 	"id": "locations",
-			// 	"type": "symbol",
-			// 	"source": "places",
-			// 	"layout": {
-			// 		"icon-image": "restaurant-15",
-			// 		"icon-allow-overlap": true,
-			// 	}
-			// });
-
-			// Initialize the list
-			buildLocationList(stores);
-
-		});
-
-		// Add an event listener for when a user clicks on the map
-		map.on('click', function (e) {
-			// Query all the rendered points in the view
-			var features = map.queryRenderedFeatures(e.point, { layers: ['locations'] });
-			if (features.length) {
-				var clickedPoint = features[0];
-				// 1. Fly to the point
-				flyToStore(clickedPoint);
-				// 2. Close all other popups and display popup for clicked store
-				createPopUp(clickedPoint);
-				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				var activeItem = document.getElementsByClassName('active');
-				
-				if (activeItem[0]) {
-					activeItem[0].classList.remove('active');
-				}
-				
-				// Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
-				var selectedFeature = clickedPoint.properties.address;
-				  
-				for (var i = 0; i < stores.features.length; i++ ) {
-					if (stores.features[i].properties.address === selectedFeature) {
-					    selectedFeatureIndex = i;
-					}
-				}
-				// Select the correct list item using the found index and add the active class
-				var listing = document.getElementById('listing-' + selectedFeatureIndex);
-				listing.classList.add('active');
-			}
-		});
-
-		stores.features.forEach(function(marker) {
-			// Create a div element for the marker
-			var el = document.createElement('div');
-			// Add a class called 'marker' to each div
-			if(marker.properties.type === "foodBank") {
-				el.className = 'food-bank-marker'
-			} else if (marker.properties.type === "farmersMarket") {
-				el.className = 'farmers-market-marker'
-			} else if (marker.properties.type === "communityGarden") {
-				el.className = 'community-garden-marker'
+			// Name
+			var nameElement = element.querySelector('h3');
+			if (showLink) {
+				var link = nameElement.querySelector('a');
+				link.setAttribute('href', data.uri);
+				link.innerText = data.name;
+			} else {
+				nameElement.innerText = data.name;
 			}
 
-			// By default the image for your custom marker will be anchored
-			// by its top left corner. Adjust the position accordingly
-			el.style.left='-28px';
-			el.style.top='-46px';
+			// Type
+			var typeElement = element.querySelector('.type');
+			typeElement.innerText = data.type;
+			// typeElement.className += ' ' + type;
 
-			// Create the custom markers, set their position, and add to map
-			new mapboxgl.Marker(el)
-				.setLngLat(marker.geometry.coordinates)
-				.addTo(map);
+			// Address
+			if (data.address) element.querySelector('.address').innerHTML = data.address;
 
-			el.addEventListener('click', function(e) {
-				var activeItem = document.getElementsByClassName('active');
+			// Phone
+			var phoneElement = element.querySelector('.phone');
+			if (data.phone) phoneElement.innerText = data.phone;
+			else {
+				var phoneElement = element.querySelector('.phone');
+				phoneElement.parentNode.removeChild(phoneElement)
+			}
 
-				// 1. Fly to the point
-				flyToStore(marker);
-				// 2. Close all other popups and display popup for clicked store
-				createPopUp(marker);
-				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				e.stopPropagation();
+			// Hours
+			var hoursElement = element.querySelector('.hours');
+			if (data.hours) {
+				hoursElement.innerHTML = data.hours;
+			} else {
+				var h4 = element.querySelector('h4');
+				h4.parentNode.removeChild(h4);
 
-				if (activeItem[0]) {
-					activeItem[0].classList.remove('active');
-				}
+				hoursElement.parentNode.removeChild(hoursElement);
+			}
 
-				var listing = document.getElementById('listing-' + i);
-	
-				listing.classList.add('active');
-			});
-	findUserLocation();
-  getCurrentCoords();
-	getDistanceFromOrigin();
+			return element;
+		}
+	}
 
+	function getFeatureData(feature) {
+
+		var data = {
+			name:   feature.properties["name"] || 
+					feature.properties["Name"] ||
+					feature.properties["NAME"] ||
+					feature.properties["NAME:"] ||
+					feature.properties["MarketName"],
+			type:   getLayerLabel(feature.layer.id.replace('-near', '').replace('-far', '')),
+			hours:  feature.properties["times"] ||
+					feature.properties["Times"] ||
+					feature.properties["TIMES"] ||
+					feature.properties["TIMES:"],
+			phone:  feature.properties["telephone"] ||
+					feature.properties["Telephone"] ||
+					feature.properties["CONTACT"] ||
+					feature.properties["CONTACT:"],
+			address: getFeatureAddress(feature)
+		};
+
+		data.uri = '/' + 
+					data.type.toLowerCase()
+					.replace(/\s/g, '-') + '/' + 
+					data.name.toLowerCase()
+					.replace(/\s/g, '-')
+					.replace(/\//g, '-')
+					.replace(/\&/g, '-')
+					.replace(/\./g, '-')
+					.replace(/\'/g, '')
+					.replace(/\-\-/g, '-');
+
+		return data;
+	}
+
+	function getFeatureAddress(feature) {
+		var address = "";
+
+		var street = 
+					feature.properties["address"] ||
+					feature.properties["Address"] ||
+					feature.properties["ADDRESS"] ||
+					feature.properties["ADDRESS:"];
+		var city = 
+					feature.properties["city"] ||
+					feature.properties["City"];
+		var state = 
+					feature.properties["state"] ||
+					feature.properties["State"];
+
+		if (street) 
+				address += street;
+		if (city)
+				address += (street ? ', ' : '') + city;
+		if (city && state)
+				address += (city ? ', ' : (street ? ', ' : '')) + state;
+
+		return address;
+	}
+
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+	var map = new mapboxgl.Map({
+		container: 'map',
+		style: 'mapbox://styles/mapbox/light-v9',
+		zoom: 13, // starting zoom
+		center: MAP_START_POSITION, // starting position
+		maxBounds: MAP_BOUNDS
+	});
+
+	var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
+	map.addControl(nav);
+
+	// Add 'Current Location' Functionality
+	map.addControl(new mapboxgl.Geolocate());
+
+	map.on('click', showPopup); 
+
+	function addLayer(data, markerSize, minzoom, maxzoom) {
+		var name = data.name + (!minzoom ? '-far' : (!maxzoom ? '-near' : ''));
+		console.log('id: ' + name);
+		map.addSource(name, {
+			type: 'vector',
+			url: data.sourceURL
 		});
+		var layerData = {
+			'id': name,
+			'type': 'circle',
+			'source': name,
+			'layout': {
+				'visibility': 'visible'
+                // 'icon-image': data.iconImage
+			},
+			'paint': {
+				'circle-radius': markerSize,
+				'circle-color': data.color
+			},
+			'source-layer': data.sourceLayer
+		};
+		if (minzoom) layerData.minzoom = minzoom;
+		if (maxzoom) layerData.maxzoom = maxzoom;
+		map.addLayer(layerData);
+	}
+
+	map.on('load', function () {
+		for (var index = 0; index < MAP_LAYERS.length; index++) {
+			addLayer(MAP_LAYERS[index], 9, 14, null); // Zoomed in
+			addLayer(MAP_LAYERS[index], 6, 12, 14);
+			addLayer(MAP_LAYERS[index], 3, null, 12); // Zoomed out
+		}
+
+		/*
+		map.addSource('Census Tracts', {
+			type: 'vector',
+			url: 'mapbox://fooddesertsla.26tf3nay'
+		});
+		map.addLayer({
+			'id': 'Census Tracts',
+			'type': 'line',
+			'source': 'Census Tracts',
+			'layout': {
+				'visibility': 'visible',
+				'line-join': 'round',
+				'line-cap': 'round'
+			},
+			'paint': {
+				'line-color': '#877b59',
+				'line-width': 1
+			},
+			'source-layer': 'LI_LA_Desert_Map_-_USDA_-_Tracts'
+		});
+
+		*/
+
+		findUserLocation();
+
+		//var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens', 'Census Tracts', 'Food Deserts'];
+
+		var layers = document.querySelector('.map-filters');
+		function createButton(data) {
+
+			var button = document.createElement('button');
+			button.type = "button";
+			button.className = data.name;
+			button.textContent = data.label + 's'; // SHIM: Pluralize
+
+			button.addEventListener('click', function(e) {
+				e.preventDefault();
+
+				var visibility = map.getLayoutProperty(data.name, 'visibility');
+
+				if (visibility === 'visible') {
+					map.setLayoutProperty(data.name, 'visibility', 'none');
+					map.setLayoutProperty(data.name + '-near', 'visibility', 'none');
+					map.setLayoutProperty(data.name + '-far', 'visibility', 'none');
+					this.className += ' inactive';
+				} else {
+					map.setLayoutProperty(data.name, 'visibility', 'visible');
+					map.setLayoutProperty(data.name + '-near', 'visibility', 'visible');
+					map.setLayoutProperty(data.name + '-far', 'visibility', 'visible');
+					this.className = this.className.replace(/inactive/g, '');
+				}
+			}, false);
+
+			layers.appendChild(button);
+		}
+
+		for (var i = 0; i < MAP_LAYERS.length; i++) {
+			createButton(MAP_LAYERS[i]);
+		}
+
+		// Draw food desert census tracts
+		map.addSource('Food Deserts', {
+			type: 'vector',
+			url: 'mapbox://fooddesertsla.26tf3nay'
+		});
+		map.addLayer({
+			'id': 'Food Deserts',
+			'type': 'fill',
+			'source': 'Food Deserts',
+			'layout': {
+				'visibility': 'visible'
+			},
+			'paint': {
+				'fill-color': '#FF0000',
+				'fill-opacity': 0.1
+			},
+			'filter': ["==", "LI LA De_4", "1"],
+			'source-layer': 'LI_LA_Desert_Map_-_USDA_-_Tracts'
+		});
+	});
 
 	</script>
 
 </body>
 </html>
+
