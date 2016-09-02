@@ -25,13 +25,11 @@ module Jekyll
       end
     end
     def generate(site)
-      # These take a long time to build, so they’re commented out until we need them.
-      # 
-      # generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
-      # generate_one(site, 'community_gardens_andrew', 'Community Garden', 'community-garden')
-      # generate_one(site, 'farmers_markets_andrew',   'Farmers Market',   'farmers-market')
-      # generate_one(site, 'grocery_08-30',            'Grocery Store',    'grocery-store')
-      # generate_one(site, 'supermarkets_08-30',       'Supermarket',      'supermarket')
+      generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
+      generate_one(site, 'community_gardens_andrew', 'Community Garden', 'community-garden')
+      generate_one(site, 'farmers_markets_andrew',   'Farmers Market',   'farmers-market')
+      generate_one(site, 'grocery_08-30',            'Grocery Store',    'grocery-store')
+      generate_one(site, 'supermarkets_08-30',       'Supermarket',      'supermarket')
     end
   end
 
