@@ -1,7 +1,7 @@
 ---
 layout: default
 
-title: Frequently Asked Questions, Food Oasis Los Angeles
+title: Frequently Asked Questions, Food Oasis LA
 
 color: strawberry
 ---
