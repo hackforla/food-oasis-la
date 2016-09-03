@@ -81,7 +81,7 @@ layout: null
 <body class="map">
 
 	{% include header.html %}
-	{% include find-food-link.html %}
+	{% include link-to-find-food.html %}
 
 	<nav class="search">
 		<h1>Map of food near you</h1>
@@ -292,7 +292,7 @@ layout: null
 			var data = getFeatureData(feature);
 
 			// TEMPORARY: Hide links to grocery stores (since we don’t have food source pages for those).
-			var showLink = data.type != 'Grocery Store';
+			var showLink = true; //data.type != 'Grocery Store';
 
 			// Name
 			var nameElement = element.querySelector('h3');

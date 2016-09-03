@@ -4,42 +4,13 @@ layout: default
 title: Grocery Stores in Los Angeles
 ---
 
-<nav class="search">
-	<h1>Grocery Stores</h1>
-	<ul>
-		<li><a href="/map">Map</a></li>
-		<li><a>List</a></li>
-	</ul>
-</nav>
-<script>
-(function() {
-	// SHIM: Make the address persistent
-	var searchLink = document.querySelector('.search a[href]');
-	searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
-})();
-</script>
+{% include link-to-map.html %}
+
+<ul class="food-source-list">
+{% include list/grocery-store.html %}
+</ul>
 
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
-
-<ul class="food-source-list">
-{% for food_source in site.data['grocery_08-30'] %}
-	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
-		<a href="/grocery-store/{{ food_source['uri'] }}">
-			<h2>{{ food_source['name'] }}</h2>
-			<p class="type">Grocery Store</p>
-			<p>{{ food_source['address'] | escape }}</p>
-			{% if food_source['hours'] %}
-			<h3>Hours</h3>
-			<p>{{ food_source['hours'] | escape }}</p>
-			{% endif %}
-			<!--
-			<h3>Distance</h3>
-			<p>0.2 miles</p>
-			-->
-		</a>
-	</li>
-{% endfor %}
-</ul>
 
 <script src="/assets/js/list.js"></script>

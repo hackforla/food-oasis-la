@@ -1,0 +1,14 @@
+<nav class="search">
+	<h1>Food Banks</h1>
+	<ul>
+		<li><a href="/map">Map</a></li>
+		<li><a>List</a></li>
+	</ul>
+</nav>
+<script>
+(function() {
+	// SHIM: Make the address persistent
+	var searchLink = document.querySelector('.search a[href]');
+	searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
+})();
+</script>
