@@ -23,7 +23,7 @@ title: Farmers Markets in Los Angeles
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
 <ul class="food-source-list">
-{% for food_source in site.data['farmers_markets_andrew'] %}
+{% for food_source in site.data['farmers_markets_master'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/farmers-market/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>

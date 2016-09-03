@@ -40,7 +40,7 @@ title: Food near you in Los Angeles
 		</a>
 	</li>
 {% endfor %}
-{% for food_source in site.data['community_gardens_andrew'] %}
+{% for food_source in site.data['community-gardens_08-30'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/community-garden/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
@@ -57,7 +57,7 @@ title: Food near you in Los Angeles
 		</a>
 	</li>
 {% endfor %}
-{% for food_source in site.data['farmers_markets_andrew'] %}
+{% for food_source in site.data['farmers_markets_master'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/farmers-market/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>

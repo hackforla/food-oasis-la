@@ -137,7 +137,6 @@ layout: null
 			label: 'Food Bank',
 			sourceLayer: 'Food_Banks_-_Andrew',
 			sourceURL: 'mapbox://fooddesertsla.c1nwj97w',
-            // iconImage: '/assets/images/map/food-bank.svg',
 			color: 'rgba(249, 192, 88, 0.75)' /* @banana */
 		},
 		{
@@ -145,7 +144,6 @@ layout: null
 			label: 'Farmers Market',
 			sourceLayer: 'Live_Farmers_Markets_-_MASTER-1x3wlp',
 			sourceURL: 'mapbox://fooddesertsla.b7p0hpya',
-            // iconImage: '/assets/images/map/farmers-market.svg',
 			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
 		},
 		{
@@ -153,7 +151,6 @@ layout: null
 			label: 'Community Garden',
 			sourceLayer: 'Community-Gardens_08-30-9i6uw2',
 			sourceURL: 'mapbox://fooddesertsla.49jm12ce',
-            // iconImage: '/assets/images/map/urban-farm.svg',
 			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
 		},
 		{
@@ -161,8 +158,6 @@ layout: null
 			label: 'Grocery Store',
 			sourceLayer: 'Grocery_08-30-71pjm3',
 			sourceURL: 'mapbox://fooddesertsla.3ywcv3cs',
-            // iconImage: '/assets/images/map/urban-farm.svg',
-			// color: 'rgba(209, 43, 43, 0.75)' /* @apple */
 			color: 'rgba(144, 194, 70, 0.75)' /* @lime */
 		},
 		{
@@ -170,25 +165,8 @@ layout: null
 			label: 'Supermarket',
 			sourceLayer: 'Supermarkets_08-30-auwrik',
 			sourceURL: 'mapbox://fooddesertsla.aaxhcodx',
-            // iconImage: '/assets/images/map/urban-farm.svg',
 			color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
-		},
-		// {
-		// 	name: 'grocery-other',
-		// 	label: 'Others',
-		// 	sourceLayer: 'Other_08-30-40tdgs',
-		// 	sourceURL: 'mapbox://fooddesertsla.08w505ms',
-  //           // iconImage: '/assets/images/map/farmers-market.svg',
-		// 	color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-		// },
-		// {
-		// 	name: 'food-deserts',
-		// 	label: 'Food Deserts',
-		// 	sourceLayer: 'LI_LA_Desert_Map_-_USDA_-_Tracts',
-		// 	sourceURL: 'mapbox://fooddesertsla.26tf3nay',
-  //           // iconImage: '/assets/images/map/farmers-market.svg',
-		// 	color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-		// }
+		}
 	];
 
 	function getLayerLabel(name) {
@@ -259,31 +237,6 @@ layout: null
 		 map.setZoom(15); // TBD: Should we adjust this based on screen size? (Can we zoom until at least one store is visible?)
 		 map.panTo(position);
 
-		// Add a marker at the user’s location
-		// map.addSource('single-point', {
-	 //        "type": "geojson",
-	 //        "data": {
-	 //            "type": "FeatureCollection",
-	 //            "features": [{
-		//             "type": "Feature",
-	 //                "geometry": {
-	 //                    "type": "Point",
-	 //                    "coordinates": [position.coords.longitude, position.coords.latitude],
-	 //                	}
-	 //            }]
-	 //        }
-	 //    });
-
-	 //    map.addLayer({
-	 //        "id": "point",
-	 //        "source": "single-point",
-	 //        "type": "circle",
-	 //        "paint": {
-	 //            "circle-radius": 10,
-	 //            "circle-color": "#007cbf"
-	 //        }
-	 //    });
-
 		var template = document.getElementById('you-are-here-template');
 		if (template) {
 			var marker = document.createElement('div');
@@ -294,10 +247,6 @@ layout: null
 				.addTo(map);
 		}
 	}
-
-	var urlTag = getParameterByName('type');
-
-	console.log(urlTag);
 
 	var popup;
 	function showPopup(event) {
@@ -327,9 +276,6 @@ layout: null
 
 		var feature = features[0];
 
-		// TEMPORARY: Only show links to food banks (since the /source/ pages are only generated for food banks presently).
-		// var showLink = (feature.layer.id.indexOf('food-bank') >= 0 || feature.layer.id.indexOf('community-garden') >= 0 || feature.layer.id.indexOf('farmers-market') >= 0) ? true : false;
-
 		var element = createPopupElement(feature);
 
 		popup.setLngLat(feature.geometry.coordinates).setDOMContent(element).addTo(map);
@@ -358,7 +304,6 @@ layout: null
 			// Type
 			var typeElement = element.querySelector('.type');
 			typeElement.innerText = data.type;
-			// typeElement.className += ' ' + type;
 
 			// Address
 			if (data.address) element.querySelector('.address').innerHTML = data.address;
@@ -386,6 +331,24 @@ layout: null
 		}
 	}
 
+	// This is duplicated in _plugins/food_source_generator.rb
+	function stringToURI(str) {
+		return String(str).toLowerCase()
+			.replace(/\s/g, '-')
+			.replace(/\//g, '-')
+			.replace(/\&/g, '-')
+			.replace(/\./g, '-')
+			.replace(/\,/g, "-")
+			.replace(/\+/g, "-")
+			.replace(/\r\n?/, '-')
+			.replace(/\'/g, '')
+			.replace(/\(/g, '')
+			.replace(/\)/g, '')
+			.replace(/\-\-\-\-/g, '-')
+			.replace(/\-\-\-/g, '-')
+			.replace(/\-\-/g, '-')
+	}
+
 	function getFeatureData(feature) {
 
 		var data = {
@@ -396,41 +359,34 @@ layout: null
 					feature.properties["MarketName"] ||
 					feature.properties["GardenName"],
 			type:   getLayerLabel(feature.layer.id.replace('-near', '').replace('-far', '')),
-			hours:  feature.properties["times"] ||
+			hours:  feature.properties["hours"] ||
+					feature.properties["times"] ||
 					feature.properties["Times"] ||
 					feature.properties["TIMES"] ||
 					feature.properties["TIMES:"],
-			phone:  feature.properties["telephone"] ||
+			phone:  feature.properties["phone"] ||
+					feature.properties["telephone"] ||
 					feature.properties["Telephone"] ||
 					feature.properties["CONTACT"] ||
 					feature.properties["CONTACT:"],
+			latitude: 
+					feature.properties["latitude"] ||
+					feature.properties["Latitude"],
+			longitude:
+					feature.properties["longitude"] ||
+					feature.properties["Longitude"],
 			address: getFeatureAddress(feature)
 		};
 
-		// SHIM: Use the address as part of the URI (see _plugins/food_source_generator.rb for details)
-		var address = 
-					feature.properties["address"] ||
-					feature.properties["Address"] ||
-					feature.properties["ADDRESS"] ||
-					feature.properties["ADDRESS:"] ||
-					feature.properties["StreetAddress"];
+		// This is duplicated in _plugins/food_source_generator.rb
 		data.uri = '/' + 
-					data.type.toLowerCase()
-					.replace(/\s/g, '-') + '/' + 
-					data.name.toLowerCase()
-					.replace(/\s/g, '-')
-					.replace(/\//g, '-')
-					.replace(/\&/g, '-')
-					.replace(/\./g, '-')
-					.replace(/\'/g, '')
-					.replace(/\-\-/g, '-') + '/' + 
-					address.toLowerCase()
-					.replace(/\s/g, '-')
-					.replace(/\//g, '-')
-					.replace(/\&/g, '-')
-					.replace(/\./g, '-')
-					.replace(/\'/g, '')
-					.replace(/\-\-/g, '-');
+					data.type.toLowerCase().replace(/\s/g, '-')
+					+ '/' + 
+					stringToURI(data.name)
+					+ '/' + 
+					data.latitude
+					+ '/' + 
+					data.longitude;
 
 		return data;
 	}
@@ -491,7 +447,6 @@ layout: null
 			'source': name,
 			'layout': {
 				'visibility': 'visible'
-                // 'icon-image': data.iconImage
 			},
 			'paint': {
 				'circle-radius': markerSize,
@@ -511,32 +466,7 @@ layout: null
 			addLayer(MAP_LAYERS[index], 3, null, 12); // Zoomed out
 		}
 
-		/*
-		map.addSource('Census Tracts', {
-			type: 'vector',
-			url: 'mapbox://fooddesertsla.26tf3nay'
-		});
-		map.addLayer({
-			'id': 'Census Tracts',
-			'type': 'line',
-			'source': 'Census Tracts',
-			'layout': {
-				'visibility': 'visible',
-				'line-join': 'round',
-				'line-cap': 'round'
-			},
-			'paint': {
-				'line-color': '#877b59',
-				'line-width': 1
-			},
-			'source-layer': 'LI_LA_Desert_Map_-_USDA_-_Tracts'
-		});
-
-		*/
-
 		findUserLocation();
-
-		//var toggleableLayerIds = [ 'Grocery Stores', 'Farmers Markets', 'Food Banks', 'Community Gardens', 'Census Tracts', 'Food Deserts'];
 
 		var layers = document.querySelector('.map-filters');
 		function createButton(data) {

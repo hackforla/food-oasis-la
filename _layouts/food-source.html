@@ -33,8 +33,11 @@ layout: null
 			<img class="icon" src="/assets/images/icons/address.svg" width="30" alt="Address" /> Address
 		</h2>
 		<p>
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }}">
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }} {{ page.food_source['city'] | escape }} {{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}">
 				{{ page.food_source['address'] | escape }}
+				{% if page.food_source['city'] || page.food_source['state'] || page.food_source['zip'] %}<br />{% endif %}
+				{{ page.food_source['city'] | escape }}{% if page.food_source['city'] && (page.food_source['state'] || page.food_source['zip']) %}, {% endif %}
+				{{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}
 			</a>
 		</p>
 
