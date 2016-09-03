@@ -35,9 +35,10 @@ layout: null
 		<p>
 			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }} {{ page.food_source['city'] | escape }} {{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}">
 				{{ page.food_source['address'] | escape }}
-				{% if page.food_source['city'] || page.food_source['state'] || page.food_source['zip'] %}<br />{% endif %}
-				{{ page.food_source['city'] | escape }}{% if page.food_source['city'] && (page.food_source['state'] || page.food_source['zip']) %}, {% endif %}
-				{{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}
+				{% if page.food_source['city'] %}
+					<br />
+					{{ page.food_source['city'] | escape }}, {{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}
+				{% endif %}
 			</a>
 		</p>
 
