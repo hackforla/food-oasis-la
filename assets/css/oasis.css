@@ -560,16 +560,16 @@
 	footer .action {
 		font-size: 1.25em;
 	}
-	.canteloupe footer .action a {
+.disabled	.canteloupe footer .action a {
 		color: rgb(249, 192, 88); /* @canteloupe */
 	}
-	.lime footer .action a {
+.disabled	.lime footer .action a {
 		color: rgb(144, 194, 70); /* @lime */
 	}
-	.strawberry footer .action a {
+.disabled	.strawberry footer .action a {
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
-	.blueberry footer .action a {
+.disabled	.blueberry footer .action a {
 		color: rgb(77, 85, 148); /* @blueberry */
 	}
 
@@ -646,7 +646,7 @@
 
 	footer .action a,
 	footer .sponsors a,
-	footer .contact a svg {
+	footer .contact a svg path {
 		transition: all 0.2s;
 	}
 	footer .contact div a {
@@ -663,6 +663,35 @@
 	footer .contact a:active svg,
 	footer .contact a:focus  svg {
 		color: black;
+	}
+
+	footer a:hover  .facebook .icon,
+	footer a:active .facebook .icon,
+	footer a:focus  .facebook .icon {
+		fill: #3B5998;
+	}
+	footer a:hover  .twitter .icon,
+	footer a:active .twitter .icon,
+	footer a:focus  .twitter .icon {
+		fill: #55ACEE;
+	}
+
+	/*
+	footer .sponsors a:hover,
+	footer .sponsors a:active,
+	footer .sponsors a:focus {
+		opacity: 0.8;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	*/
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		text-decoration: underline;
 	}
 
 	footer a .icon {
