@@ -546,105 +546,155 @@
 		display: inline-block; /* @avoid-break */
 	}
 
+	footer .action {
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	footer .action a,
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		background: white;
+		color: black;
+	}
+	footer .action {
+		font-size: 1.25em;
+	}
+	.canteloupe footer .action a {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer .action a {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.strawberry footer .action a {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.blueberry footer .action a {
+		color: rgb(77, 85, 148); /* @blueberry */
+	}
 
-	footer .sponsors img {
-		opacity: 0.5;
-		transition: all 0.2s;
+
+	footer .sponsors h2 {
+		margin-bottom: 0;
+	}
+	footer .sponsors div {
+		text-align: center;
+	}
+	footer .sponsors a {
+		margin: 0.75em;
 		width: 10em;
+		height: 10em;
+		max-width: 80%;
+		max-width: calc(100% - 1.5em);
+		vertical-align: middle;
+		display: inline-flex;
+		align-items: center;
+		align-content: center;
+		justify-content: center;
+		box-sizing: border-box;
+		border-radius: 50%;
 	}
-	footer .sponsors img:hover,
-	footer .sponsors img:active,
-	footer .sponsors img:focus {
-		opacity: 1;
+	footer .sponsors a.hack-for-la {
+		background-color: rgb(75, 153, 204);
+		color: white;
+		padding: 1.5em;
 	}
-	footer .sponsors a:first-child img {
-		margin-right: 1.5em;
-	}
-	footer .sponsors a:last-child img {
-		margin-left: 1.5em;
+	footer .sponsors a.code-for-america {
+		background: white;
+		color: black;
+		padding: 1.5em;
 	}
 	footer .sponsors h2,
 	footer .contact h2 {
 		text-align: center;
 	}
-	footer .sponsors div {
-		display: flex;
-		justify-content: center;
-		align-items: center;
+
+	footer .contact div {
+		text-align: center;
+	}
+
+	footer .contact svg {
+		overflow: visible;
+		display: inline-block;
+		width: 2.5em;
+		height: 2.5em;
+		border-radius: 50%;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+	}
+
+	footer .circle {
+		fill: white;
+	}
+	footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+
+	.canteloupe footer .icon {
+		fill: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+	.blueberry footer .icon {
+		fill: rgb(77, 85, 148); /* @blueberry */
+	}
+	.strawberry footer .icon {
+		fill: rgb(241, 95, 91); /* @strawberry */
 	}
 
 
-	footer .email {
+	footer .action a,
+	footer .sponsors a,
+	footer .contact a svg {
 		transition: all 0.2s;
-		width: 40px;
-		height: 40px;
-		padding-left: 5px;
-		padding-right: 5px;
+	}
+	footer .contact div a {
+		margin-top: -0.5em;
+		padding-top: 0.5em;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus,
+	footer .sponsors a:hover,
+	footer .sponsors a:active,
+	footer .sponsors a:focus,
+	footer .contact a:hover  svg,
+	footer .contact a:active svg,
+	footer .contact a:focus  svg {
+		color: black;
 	}
 
-	footer .email .outer {
-		fill: #FFFFFF;
+	footer a .icon {
+		transition: all 0.2s;
 	}
+	footer a:hover  .icon,
+	footer a:active .icon,
+	footer a:focus  .icon {
+		fill: black;
+	} 
 
-	footer .email:hover .outer {
+	/*
+
+	footer a:hover  .email .icon,
+	footer a:active .email .icon,
+	footer a:focus  .email .icon {
 		fill: #DC4E41;
 	}
 
-	footer .email .inner {
-		fill: rgb(144, 194, 70);
-	}
-
-	footer .email:hover .inner {
-		fill: #FFFFFF;
-	}
-
-	footer .facebook {
-		transition: all 0.2s;
-		width: 40px;
-		height: 40px;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-
-	footer .facebook .outer {
-		fill: #FFFFFF;
-	}
-
-	footer .facebook:hover .outer {
+	footer a:hover  .facebook .icon,
+	footer a:active .facebook .icon,
+	footer a:focus  .facebook .icon {
 		fill: #3B5998;
 	}
 
-	footer .facebook .inner {
-		fill: rgb(144, 194, 70);
-	}
-
-	footer .facebook:hover .inner {
-		fill: #FFFFFF;
-	}
-
-	footer .twitter {
-		transition: all 0.2s;
-		width: 40px;
-		height: 40px;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-
-	footer .twitter .outer {
-		fill: #FFFFFF;
-	}
-
-	footer .twitter:hover .outer {
+	footer a:hover  .twitter .icon,
+	footer a:active .twitter .icon,
+	footer a:focus  .twitter .icon {
 		fill: #55ACEE;
 	}
+	*/
 
-	footer .twitter .inner {
-		fill: rgb(144, 194, 70);
-	}
-
-	footer .twitter:hover .inner {
-		fill: #FFFFFF;
-	}
 
 
 	/* =Navigation
@@ -656,6 +706,7 @@
 
 	/* =Button
 	----------------------------------------------- */
+	.action a,
 	body.find form button,
 	header button,
 	.map-filters button,
@@ -677,7 +728,12 @@
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: transparent;
 		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
 	}
+	.action a:hover,
+	.action a:active,
+	.action a:focus,
 	body.find form button:hover,
 	body.find form button:active,
 	body.find form button:focus,
@@ -692,12 +748,6 @@
 	nav a:focus {
 		background: rgb(221, 75, 71); /* @strawberry */
 		text-decoration: none;
-	}
-	body.find form button,
-	header button,
-	.map-filters button {
-		cursor: pointer;
-		font-size: inherit;
 	}
 	body.find button {
 		text-transform: uppercase;
