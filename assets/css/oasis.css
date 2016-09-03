@@ -101,6 +101,36 @@
 		display: block;
 	}
 
+	p.slow-page-note {
+		margin-top: 3em;
+		background: rgba(0, 0, 0, 0.025);
+		padding: 0.75em 1.5em;
+		font-size: 0.75em;
+	}
+	p.slow-page-note span {
+		display: block;
+		margin-bottom: 0.75em;
+	}
+	/*
+	p.slow-page-note small {
+		font-size: inherit;
+		color: rgb(153, 153, 153);
+	}
+	*/
+	p.slow-page-note small {
+		margin-left: 0.75em;
+	}
+
+	.link-list small.slow-page-note {
+		color: black;
+		color: rgba(0, 0, 0, 0.9);
+		font-size: 0.675em;
+		margin-left: 0.75em;
+		display: inline-block;
+		background: rgba(0, 0, 0, 0.025);
+		padding: 0.75em 1.5em;
+	}
+
 	.icon {
 		vertical-align: text-top;
 		width: 1.5em;
