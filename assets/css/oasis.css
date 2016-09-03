@@ -24,7 +24,7 @@
 		min-height: 100%;
 	}
 	body {
-    	background: rgb(253, 254, 255);
+		background: rgb(253, 254, 255);
 		color: rgba(0, 0, 0, 0.9);
 		margin: 0;
 		padding: 1.5em;
@@ -86,11 +86,11 @@
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
 	}
-	h1 {
+	h1, h2 {
 		margin-top: 1.5em;
 	}
 
- 	/* Shrink images to fit the available space */
+	/* Shrink images to fit the available space */
 	img {
 		max-width: 100%;
 		height: auto;
@@ -252,6 +252,19 @@
 		fill: rgb(77, 85, 148); /* @blueberry */
 	}
 
+	.canteloupe h1 {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime h1 {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.strawberry h1 {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.blueberry h1 {
+		color: rgb(77, 85, 148); /* @blueberry */
+	}
+
 	/*
 	@media (max-width: 29.99999em) {
 		.header h1 svg,
@@ -304,41 +317,41 @@
 	----------------------------------------------- */
 
 	.dropbtn {
-	    background-color: #A1CB62;
-	    color: white;
-	    padding: 16px;
-	    font-size: 16px;
-	    border: none;
-	    cursor: pointer;
-	    padding: 8px;
-	    position: relative;
-	    top: -50px;
-	    left: 500px;
+		background-color: #A1CB62;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+		padding: 8px;
+		position: relative;
+		top: -50px;
+		left: 500px;
 	}
 
 	.dropbtn:hover, .dropbtn:focus {
-    	background-color: #F15F5B;
+		background-color: #F15F5B;
 	}
 
 	.dropdown {
-	    position: relative;
-	    display: inline-block;
+		position: relative;
+		display: inline-block;
 	}
 
 	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 160px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	}
 
 	/*links inside the dropdown*/
 	.dropdown-content a {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
 	}
 
 	/*changes color of link in dropdown on hover*/
@@ -513,7 +526,6 @@
 	}
 	footer section h2:first-child {
 		margin-top: 0;
-		margin-bottom: 0;
 	}
 	footer section h2 + p {
 		margin-top: 0;
@@ -532,6 +544,106 @@
 		color: inherit;
 		text-decoration: underline;
 		display: inline-block; /* @avoid-break */
+	}
+
+
+	footer .sponsors img {
+		opacity: 0.5;
+		transition: all 0.2s;
+		width: 10em;
+	}
+	footer .sponsors img:hover,
+	footer .sponsors img:active,
+	footer .sponsors img:focus {
+		opacity: 1;
+	}
+	footer .sponsors a:first-child img {
+		margin-right: 1.5em;
+	}
+	footer .sponsors a:last-child img {
+		margin-left: 1.5em;
+	}
+	footer .sponsors h2,
+	footer .contact h2 {
+		text-align: center;
+	}
+	footer .sponsors div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	footer .email {
+		transition: all 0.2s;
+		width: 40px;
+		height: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	footer .email .outer {
+		fill: #FFFFFF;
+	}
+
+	footer .email:hover .outer {
+		fill: #DC4E41;
+	}
+
+	footer .email .inner {
+		fill: rgb(144, 194, 70);
+	}
+
+	footer .email:hover .inner {
+		fill: #FFFFFF;
+	}
+
+	footer .facebook {
+		transition: all 0.2s;
+		width: 40px;
+		height: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	footer .facebook .outer {
+		fill: #FFFFFF;
+	}
+
+	footer .facebook:hover .outer {
+		fill: #3B5998;
+	}
+
+	footer .facebook .inner {
+		fill: rgb(144, 194, 70);
+	}
+
+	footer .facebook:hover .inner {
+		fill: #FFFFFF;
+	}
+
+	footer .twitter {
+		transition: all 0.2s;
+		width: 40px;
+		height: 40px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	footer .twitter .outer {
+		fill: #FFFFFF;
+	}
+
+	footer .twitter:hover .outer {
+		fill: #55ACEE;
+	}
+
+	footer .twitter .inner {
+		fill: rgb(144, 194, 70);
+	}
+
+	footer .twitter:hover .inner {
+		fill: #FFFFFF;
 	}
 
 
