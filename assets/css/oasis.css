@@ -582,18 +582,12 @@
 	}
 	footer .sponsors a {
 		margin: 0.75em;
+	}
+	footer .sponsors a img {
 		width: 10em;
-		height: 10em;
-		max-width: 80%;
-		max-width: calc(100% - 1.5em);
-		vertical-align: middle;
-		display: inline-flex;
-		align-items: center;
-		align-content: center;
-		justify-content: center;
-		box-sizing: border-box;
 		border-radius: 50%;
 	}
+	/*
 	footer .sponsors a.hack-for-la {
 		background-color: rgb(75, 153, 204);
 		color: white;
@@ -604,6 +598,7 @@
 		color: black;
 		padding: 1.5em;
 	}
+	*/
 	footer .sponsors h2,
 	footer .contact h2 {
 		text-align: center;
@@ -1028,6 +1023,7 @@
 		padding-bottom: 0;
 	}
 	body.map .mapbox {
+		border-top: 1px solid rgba(0, 0, 0, 0.25);
 		height: 500px;
 		height: 100vh;
 		height: calc(100vh - 5.75rem); /* header height */
@@ -1082,6 +1078,7 @@
 	}
 
 	.food-source .mapbox {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		height: 150px;
 		height: 50vh;
 		margin-bottom: -1.5em;
@@ -1095,6 +1092,8 @@
 	/* OPTIONAL: Position the map on the right side, on really big screens. */
 	@media (min-width: 70em) {
 		.food-source .mapbox {
+			border-top-width: 0;
+			border-left: 1px solid rgba(0, 0, 0, 0.1);
 			width: 50%;
 			margin: 0;
 			position: absolute;
