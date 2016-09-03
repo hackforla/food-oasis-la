@@ -74,6 +74,10 @@ title: Food near you in Los Angeles
 		</a>
 	</li>
 {% endfor %}
+
+<!-- There are too many grocery stores to list here -->
+{% if false %}
+
 {% for food_source in site.data['grocery_08-30'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/grocery-store/{{ food_source['uri'] }}">
@@ -91,6 +95,9 @@ title: Food near you in Los Angeles
 		</a>
 	</li>
 {% endfor %}
+
+{% endif %}
+
 {% for food_source in site.data['supermarkets_08-30'] %}
 	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/supermarket/{{ food_source['uri'] }}">
