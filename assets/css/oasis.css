@@ -855,6 +855,70 @@
 	}
 
 
+	/* =Map Filters
+	----------------------------------------------- */
+	.map-filters {
+		position: absolute;
+		z-index: 1;
+		top: 12.125rem; /* header height + 1.5rem */
+		left: 1.5rem;
+		width: 15em;
+	}
+
+	@media (min-width: 30em) {
+		.map-filters {
+			top: 12.125rem; /* header height + 3rem */
+			left: 3rem;
+		}
+	}
+
+	.map-filters button {
+		background-image: none;
+		min-width: 12em;
+	}
+	.map-filters .food-bank,
+	.map-filters .food-bank:hover,
+	.map-filters .food-bank:active,
+	.map-filters .food-bank:focus {
+		background-color: rgb(249, 192, 88); /* @banana */
+	}
+	.map-filters .farmers-market,
+	.map-filters .farmers-market:hover,
+	.map-filters .farmers-market:active,
+	.map-filters .farmers-market:focus {
+		background-color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.map-filters .community-garden,
+	.map-filters .community-garden:hover,
+	.map-filters .community-garden:active,
+	.map-filters .community-garden:focus {
+		background-color: rgb(77, 85, 148); /* @blueberry */
+	}
+	.map-filters .grocery-supermarkets,
+	.map-filters .grocery-supermarkets:hover,
+	.map-filters .grocery-supermarkets:active,
+	.map-filters .grocery-supermarkets:focus {
+		background-color: rgb(161, 167, 72); /* @asparagus */
+	}
+	.map-filters .grocery-stores,
+	.map-filters .grocery-stores:hover,
+	.map-filters .grocery-stores:active,
+	.map-filters .grocery-stores:focus {
+		background-color: rgb(209, 43, 43); /* @apple */
+		background-color: rgb(144, 194, 70); /* @lime */
+	}
+
+	.map-filters .inactive {
+		opacity: 0.35;
+	}
+
+	@media (max-width: 45em) and (max-height: 55em) {
+		.map-filters {
+			display: none;
+		}
+	}
+
+
 	/* =Map Point Popup
 	----------------------------------------------- */
 	.map-point-details {
