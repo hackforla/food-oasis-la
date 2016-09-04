@@ -34,7 +34,7 @@ jekyll serve
 
 And then visit… [http://localhost:4000](http://localhost:4000)
 
-HINT: Building the files may be a slow process. If you’re not working on the list and detail pages, you can speed things up by running `rake build` or `rake serve` instead of `jekyll build` and `jekyll serve`. This will skip the list and detail pages, but builds all of the other files. (See the `rakefile` for more details.)
+HINT: Building the files may be a slow process. If you’re not working on the list and detail pages, you can speed things up by running `rake build` or `rake serve` instead of `jekyll build` and `jekyll serve`. This will skip the list and detail pages, but builds all of the other files. (See the [rakefile](https://github.com/foodoasisla/site/blob/master/rakefile) for more details.)
 
 ### Step 3: Publish
 
