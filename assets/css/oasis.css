@@ -440,33 +440,35 @@
 	.canteloupe footer .link-list::after,
 	.canteloupe footer::before,
 	.canteloupe footer::after {
-		background-image: url(/assets/images/palm-tree-canteloupe.svg);
+		background-image: url(/assets/images/footer/pear.svg);
 	}
 	.strawberry footer .link-list::before,
 	.strawberry footer .link-list::after,
 	.strawberry footer::before,
 	.strawberry footer::after {
-		background-image: url(/assets/images/palm-tree-strawberry.svg);
+		background-image: url(/assets/images/footer/carrot.svg);
 	}
 	.blueberry footer .link-list::before,
 	.blueberry footer .link-list::after,
 	.blueberry footer::before,
 	.blueberry footer::after {
-		background-image: url(/assets/images/palm-tree-blueberry.svg);
+		background-image: url(/assets/images/footer/pumpkin.svg);
 	}
-	.banana footer .link-list::before,
-	.banana footer .link-list::after,
-	.banana footer::before,
-	.banana footer::after {
-		background-image: url(/assets/images/palm-tree-banana.svg);
+	/*
+	.apple footer .link-list::before,
+	.apple footer .link-list::after,
+	.apple footer::before,
+	.apple footer::after {
+		background-image: url(/assets/images/footer/watermelon.svg);
 	}
+	*/
 
 	footer .link-list::before,
 	footer .link-list::after,
 	footer::before,
 	footer::after {
 		content: "";
-		background-image: url(/assets/images/palm-tree.svg);
+		background-image: url(/assets/images/footer/palm-tree.svg);
 		display: block;
 		position: absolute;
 		width: 4.5em;
@@ -501,6 +503,27 @@
 		margin-top: -4.75em;
 		opacity: 1;
 	}
+
+	.canteloupe footer .link-list::before,
+	.canteloupe footer::before,
+	.canteloupe footer::after,
+	.blueberry footer .link-list::before,
+	.blueberry footer::before,
+	.blueberry footer::after,
+	.strawberry footer .link-list::before,
+	.strawberry footer::before,
+	.strawberry footer::after {
+		display: none;
+	}
+	.canteloupe footer .link-list::after,
+	.blueberry footer .link-list::after,
+	.strawberry footer .link-list::after {
+		margin: 0;
+		margin-top: -4.75em;
+		width: 15em;
+		margin-left: -7.5em;
+	}
+
 	@media (min-width: 30em) {
 		footer {
 			margin-left: -3em;
@@ -886,7 +909,7 @@
 	.map-filters .food-bank:hover,
 	.map-filters .food-bank:active,
 	.map-filters .food-bank:focus {
-		background-color: rgb(249, 192, 88); /* @banana */
+		background-color: rgb(249, 192, 88); /* @canteloupe */
 	}
 	.map-filters .farmers-market,
 	.map-filters .farmers-market:hover,
