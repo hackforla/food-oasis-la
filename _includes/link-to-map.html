@@ -1,5 +1,9 @@
 <nav class="search">
-	<h1>Food Banks</h1>
+	{% if link_to_map_type %}
+		<h1>{{ link_to_map_title }}</h1>
+	{% else %}
+		<h1>Food near you in Los Angeles</h1>
+	{% endif %}
 	<ul>
 		<li><a href="/map">Map</a></li>
 		<li><a>List</a></li>
@@ -7,8 +11,14 @@
 </nav>
 <script>
 (function() {
-	// SHIM: Make the address persistent
+	// SHIM: Make the type and address persistent
 	var searchLink = document.querySelector('.search a[href]');
-	searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
+	var queryString = window.location.search;
+	{% if link_to_map_type %}
+		if (window.location.search.indexOf('type') < 0) {
+			queryString += (window.location.search.length > 0 ? '&' : '?') + 'type={{ link_to_map_type }}';
+		}
+	{% endif %}
+	searchLink.setAttribute('href', searchLink.getAttribute('href') + queryString);
 })();
 </script>

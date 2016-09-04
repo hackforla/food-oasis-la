@@ -14,6 +14,19 @@ layout: null
 
 	<!-- For Mapbox -->
 	<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" />
+
+	<script>
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+	</script>
 </head>
 <body class="map">
 
@@ -27,13 +40,17 @@ layout: null
 			<li class="list"><a href="/list">List</a></li>
 		</ul>
 	</nav>
-	
 	<script>
-		(function() {
-			// SHIM: Make the address persistent
-			var searchLink = document.querySelector('.search a[href]');
-			searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
-		})();
+	(function() {
+		// SHIM: Make the address and type persistent
+		var searchLink = document.querySelector('.search a[href]');
+		var address = getParameterByName('address');
+		var type = getParameterByName('type');
+		var href = searchLink.getAttribute('href');
+		if (type) href = '/' + type;
+		if (address) href += '?address=' + address;
+		searchLink.setAttribute('href', href);
+	})();
 	</script>
 
 	<nav class="map-filters"></nav>
@@ -83,28 +100,28 @@ layout: null
 			color: 'rgba(249, 192, 88, 0.75)' /* @banana */
 		},
 		{
-			name: 'farmers-market',
-			label: 'Farmers Market',
-			sourceLayer: 'Live_Farmers_Markets_-_MASTER-1x3wlp',
-			sourceURL: 'mapbox://fooddesertsla.b7p0hpya',
-			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-		},
-		{
 			name: 'community-garden',
 			label: 'Community Garden',
 			sourceLayer: 'Community-Gardens_08-30-9i6uw2',
 			sourceURL: 'mapbox://fooddesertsla.49jm12ce',
+			color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
+		},
+		{
+			name: 'farmers-market',
+			label: 'Farmers Market',
+			sourceLayer: 'Live_Farmers_Markets_-_MASTER-1x3wlp',
+			sourceURL: 'mapbox://fooddesertsla.b7p0hpya',
 			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
 		},
 		{
-			name: 'grocery-stores',
+			name: 'grocery-store',
 			label: 'Grocery Store',
 			sourceLayer: 'Grocery_08-30-71pjm3',
 			sourceURL: 'mapbox://fooddesertsla.3ywcv3cs',
 			color: 'rgba(144, 194, 70, 0.75)' /* @lime */
 		},
 		{
-			name: 'grocery-supermarkets',
+			name: 'supermarket',
 			label: 'Supermarket',
 			sourceLayer: 'Supermarkets_08-30-auwrik',
 			sourceURL: 'mapbox://fooddesertsla.aaxhcodx',
@@ -135,18 +152,6 @@ layout: null
 				console.error('Geocode was not successful for the following reason: ' + status);
 			}
 		});
-	}
-
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
-	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
 	function findUserLocation() {
@@ -460,6 +465,11 @@ layout: null
 					this.className = this.className.replace(/inactive/g, '');
 				}
 			}, false);
+
+			var type = getParameterByName('type');
+			if (type && data.name != type) {
+				button.click();
+			}
 
 			layers.appendChild(button);
 		}
