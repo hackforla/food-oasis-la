@@ -1208,6 +1208,18 @@
 		position: absolute;
 		left: -9999px;
 	}
+	/*
+	body.find .categories .link-list a {
+		border-width: 0;
+	}
+	*/
+	body.find .categories .link-list .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
 
 
 	/* =Food Source
