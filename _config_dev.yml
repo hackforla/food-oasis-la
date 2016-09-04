@@ -2,6 +2,7 @@
 # Exclude list and detail pages, since they rarely change and take a long time to build.
 
 exclude:
+    - .nojekyll
     - .git
     - rakefile
     - list
@@ -13,6 +14,7 @@ exclude:
     - supermarket
 
 keep_files:
+    - .nojekyll
     - .git
     - rakefile
     - list
