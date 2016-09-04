@@ -1,0 +1,21 @@
+
+# Exclude list and detail pages, since they rarely change and take a long time to build.
+
+exclude:
+    - .git
+    - list
+    - community-garden
+    - community-garden
+    - farmers-market
+    - food-bank
+    - grocery-store
+    - supermarket
+
+keep_files:
+    - .git
+    - list
+    - community-garden
+    - farmers-market
+    - food-bank
+    - grocery-store
+    - supermarket

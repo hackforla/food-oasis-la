@@ -37,11 +37,13 @@ module Jekyll
       end
     end
     def generate(site)
-      # generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
-      # generate_one(site, 'community-gardens_08-30',  'Community Garden', 'community-garden')
-      # generate_one(site, 'farmers_markets_master',   'Farmers Market',   'farmers-market')
-      # generate_one(site, 'grocery_08-30',            'Grocery Store',    'grocery-store')
-      # generate_one(site, 'supermarkets_08-30',       'Supermarket',      'supermarket')
+      if ENV['JEKYLL_ENV'] != 'development'
+        generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
+        generate_one(site, 'community-gardens_08-30',  'Community Garden', 'community-garden')
+        generate_one(site, 'farmers_markets_master',   'Farmers Market',   'farmers-market')
+        generate_one(site, 'grocery_08-30',            'Grocery Store',    'grocery-store')
+        generate_one(site, 'supermarkets_08-30',       'Supermarket',      'supermarket')
+      end
     end
   end
 
