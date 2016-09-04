@@ -25,7 +25,7 @@
 	}
 	body {
 		background: rgb(253, 254, 255);
-		color: rgba(0, 0, 0, 0.9);
+		color: rgb(102, 102, 102);
 		margin: 0;
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -1251,7 +1251,7 @@
 		min-height: calc(100vh - 15rem);
 	}
 	*/
-	body.find .categories h2 {
+.disabled	body.find .categories h2 {
 		/* @hidden-accessible */
 		position: absolute;
 		left: -9999px;
@@ -1261,12 +1261,82 @@
 		border-width: 0;
 	}
 	*/
-	body.find .categories .link-list .icon {
+	body.find main {
+		max-width: none;
+		padding-bottom: 6em;
+	}
+	body.find main:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	body.find main form {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3em;
+	}
+	/*
+	body.find main section {
+		box-sizing: border-box;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 1.5em;
+	}
+	*/
+	@media (min-width: 40em) {
+		body.find main section {
+			float: left;
+			width: 50%;
+			/*
+			width: calc(50% - 1.5em);
+			margin: calc(0.75em);
+			*/
+		}
+	}
+	@media (min-width: 60em) {
+		body.find main section {
+			width: 33.333%;
+			/*
+			width: calc(33.333% - 1.5em);
+			margin: calc(0.75em);
+			*/
+		}
+	}
+	body.find main section h2 {
+		margin-top: 0;
+	}
+	body.find main section ul {
+		margin-bottom: 0;
+	}
+	body.find main .categories .link-list a {
+		color: rgb(102, 102, 102);
+		border-width: 0;
+	}
+	body.find main .categories .link-list .icon {
 		background: rgba(144, 194, 70, 1); /* @lime */
 		background: rgb(241, 95, 91); /* @strawberry */
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
+	}
+.disabled	body.find .categories .link-list a[href*="food-bank"] .icon {
+		background: rgb(249, 192, 88); /* @canteloupe */
+	}
+.disabled	body.find .categories .link-list a[href*="community-garden"] .icon {
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+	}
+.disabled	body.find .categories .link-list a[href*="farmers-market"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+	}
+.disabled	body.find .categories .link-list a[href*="grocery-store"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(144, 194, 70); /* @lime */
+	}
+.disabled	body.find .categories .link-list a[href*="supermarket"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(161, 167, 72); /* @asparagus */
 	}
 
 
