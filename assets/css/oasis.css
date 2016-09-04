@@ -109,6 +109,114 @@
 	}
 
 
+	/* =Button
+	----------------------------------------------- */
+	.action a,
+	form.find button,
+	body.find form button,
+	header button,
+	.map-filters button,
+	nav a {
+		display: inline-block;
+		background: rgb(243, 117, 104); /* @salmon */
+		background: rgb(209, 43, 43); /* @apple */
+		background: rgb(249, 192, 88); /* @canteloupe */
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background-image: linear-gradient(to top, rgb(221, 75, 71), rgba(221, 75, 71, 0));
+		color: black;
+		color: rgba(0, 0, 0, 0.8);
+		color: white;
+		padding: 0.375em 1.5em;
+		border-radius: 0.25em;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: transparent;
+		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
+	}
+	.action a:hover,
+	.action a:active,
+	.action a:focus,
+	form.find button:hover,
+	form.find button:active,
+	form.find button:focus,
+	body.find form button:hover,
+	body.find form button:active,
+	body.find form button:focus,
+	header button:hover,
+	header button:active,
+	header button:focus,
+	.map-filters button:hover,
+	.map-filters button:active,
+	.map-filters button:focus,
+	nav a:hover,
+	nav a:active,
+	nav a:focus {
+		background: rgb(221, 75, 71); /* @strawberry */
+		text-decoration: none;
+	}
+	form.find button,
+	body.find button {
+		text-transform: uppercase;
+	}
+	label span {
+		display: block;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 1.25em;
+		margin-bottom: 0.375em;
+	}
+	label br {
+		display: none;
+	}
+
+	nav form label span {
+		position: absolute;
+		left: -9999px;
+	}
+	nav form label br {
+		display: none;
+	}
+
+
+	/* =Field
+	----------------------------------------------- */
+	input[type="text"] {
+		line-height: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.375em 0.75em;
+		border-radius: 0.25em;
+		border: 1px solid black;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: rgb(249, 192, 88); /* @canteloupe */
+		border-color: rgb(144, 194, 70); /* @lime */
+		border-color: rgb(77, 85, 148); /* @blueberry */
+		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
+		border-color: rgb(241, 95, 91); /* @strawberry */
+		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
+		border-color: rgba(0, 0, 0, 0.25);
+		width: 20em;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	@media (max-width: 35em) {
+		input[type="text"],
+		body.find form button,
+		header button,
+		.map-filters button {
+			width: 100%;
+		}
+		body.find form button,
+		header button,
+		.map-filters button {
+			margin-top: 0.375em;
+		}
+	}
+
+
 	/* =Link List
 	----------------------------------------------- */
 	.link-list,
@@ -184,7 +292,6 @@
 		content: "Searching…";
 		display: block;
 	}
-
 
 
 	/* =Header
@@ -313,6 +420,39 @@
 		}
 	}
 
+	form.find {
+		position: absolute;
+		z-index: 1;
+		top: 1.5em;
+		right: 1.5em;
+	}
+	form.find p {
+		margin: 0;
+	}
+	form.find label span {
+		position: absolute;
+		left: -9999px;
+	}
+	form.find label br {
+		display: none
+	}
+	form.find button svg {
+		margin-left: -0.75em;
+		margin-right: -0.75em;
+	}
+	form.find {
+		display: none;
+	}
+	@media (min-width: 40em) {
+		form.find {
+			display: block;
+		}
+		.header + nav {
+			display: none;
+		}
+	}
+
+
 	/* Drop-down Menu in Header
 	----------------------------------------------- */
 
@@ -406,6 +546,10 @@
 	}
 	nav.search li {
 		display: inline;
+	}
+
+	nav.search form {
+
 	}
 
 
@@ -749,106 +893,10 @@
 	*/
 
 
-
 	/* =Navigation
 	----------------------------------------------- */
 	nav p {
 		margin: 0;
-	}
-
-
-	/* =Button
-	----------------------------------------------- */
-	.action a,
-	body.find form button,
-	header button,
-	.map-filters button,
-	nav a {
-		display: inline-block;
-		background: rgb(243, 117, 104); /* @salmon */
-		background: rgb(209, 43, 43); /* @apple */
-		background: rgb(249, 192, 88); /* @canteloupe */
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgb(77, 85, 148); /* @blueberry */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background-image: linear-gradient(to top, rgb(221, 75, 71), rgba(221, 75, 71, 0));
-		color: black;
-		color: rgba(0, 0, 0, 0.8);
-		color: white;
-		padding: 0.375em 1.5em;
-		border-radius: 0.25em;
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		border-color: transparent;
-		text-decoration: none;
-		cursor: pointer;
-		font-size: inherit;
-	}
-	.action a:hover,
-	.action a:active,
-	.action a:focus,
-	body.find form button:hover,
-	body.find form button:active,
-	body.find form button:focus,
-	header button:hover,
-	header button:active,
-	header button:focus,
-	.map-filters button:hover,
-	.map-filters button:active,
-	.map-filters button:focus,
-	nav a:hover,
-	nav a:active,
-	nav a:focus {
-		background: rgb(221, 75, 71); /* @strawberry */
-		text-decoration: none;
-	}
-	body.find button {
-		text-transform: uppercase;
-	}
-	label span {
-		display: block;
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		font-size: 1.25em;
-		margin-bottom: 0.375em;
-	}
-	label br {
-		display: none;
-	}
-
-
-	/* =Field
-	----------------------------------------------- */
-	input[type="text"] {
-		line-height: inherit;
-		font-family: inherit;
-		font-size: inherit;
-		padding: 0.375em 0.75em;
-		border-radius: 0.25em;
-		border: 1px solid black;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		border-color: rgb(249, 192, 88); /* @canteloupe */
-		border-color: rgb(144, 194, 70); /* @lime */
-		border-color: rgb(77, 85, 148); /* @blueberry */
-		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
-		border-color: rgb(241, 95, 91); /* @strawberry */
-		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
-		border-color: rgba(0, 0, 0, 0.25);
-		width: 20em;
-		max-width: 100%;
-		box-sizing: border-box;
-	}
-	@media (max-width: 35em) {
-		input[type="text"],
-		body.find form button,
-		header button,
-		.map-filters button {
-			width: 100%;
-		}
-		body.find form button,
-		header button,
-		.map-filters button {
-			margin-top: 0.375em;
-		}
 	}
 
 
