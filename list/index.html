@@ -9,6 +9,14 @@ title: Food near you in Los Angeles
 <p class="slow-page-note">
 	<span>Grocery stores aren’t included in this list.</span>
 	<a href="/list/with-grocery-stores/">Show grocery stores</a>&nbsp;&nbsp;
+	<script>
+	(function() {
+		// SHIM: Make the type and address persistent
+		var slowPageLink = document.querySelector('.slow-page-note a[href]');
+		var queryString = window.location.search;
+		slowPageLink.setAttribute('href', slowPageLink.getAttribute('href') + queryString);
+	})();
+	</script>
 	<small>
 		<!-- 
 			Wildlife Observation
