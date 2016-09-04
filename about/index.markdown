@@ -12,6 +12,6 @@ In 2015, Feeding America reported that 1.5 million people in Los Angeles County 
 
 Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the complex landscape of these often disparate solutions on one map.
 
-## Mission
+## Our Mission
 
 To create an interactive digital hub that helps Angelenos navigate the abundance of healthy food resources available in the city.
