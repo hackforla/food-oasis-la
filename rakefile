@@ -1,3 +1,6 @@
+# KUDOS: https://alligator.io/jekyll/development-mode/
+#        https://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time
+
 def execute(command)
   system "#{command}"
 end
