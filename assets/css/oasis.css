@@ -101,54 +101,6 @@
 		display: block;
 	}
 
-	p.slow-page-note {
-		margin-top: 3em;
-		max-width: none;
-		background: rgba(0, 0, 0, 0.025);
-		padding: 0.75em 1.5em;
-		font-size: 0.75em;
-	}
-	p.slow-page-note span {
-		display: block;
-		margin-bottom: 0.75em;
-	}
-	/*
-	p.slow-page-note small {
-		font-size: inherit;
-		color: rgb(153, 153, 153);
-	}
-	*/
-	p.slow-page-note small {
-		display: inline-block;
-		opacity: 0.5;
-	}
-	p.slow-page-note small svg {
-		vertical-align: middle;
-		height: 1em;
-		width: 2em;
-	}
-	p.slow-page-note small svg path {
-		fill: currentColor;
-	}
-
-	.link-list small.slow-page-note {
-		color: black;
-		color: rgba(0, 0, 0, 0.9);
-		font-size: 0.675em;
-		display: inline-block;
-		background: rgba(0, 0, 0, 0.025);
-		padding: 0.75em 1.5em;
-		opacity: 0.5;
-	}
-	.link-list small.slow-page-note svg {
-		vertical-align: middle;
-		height: 1em;
-		width: 2em;
-	}
-	.link-list small.slow-page-note svg path {
-		fill: currentColor;
-	}
-
 	.icon {
 		vertical-align: text-top;
 		width: 1.5em;
@@ -1062,6 +1014,60 @@
 		.marker {
 			font-size: 1.5rem;
 		}
+	}
+
+
+	/* =Slow Page Note
+	----------------------------------------------- */
+
+	/* For the list page */
+	p.slow-page-note {
+		margin-top: 3em;
+		max-width: none;
+		background: rgba(0, 0, 0, 0.025);
+		padding: 0.75em 1.5em;
+		font-size: 0.75em;
+	}
+	p.slow-page-note span {
+		display: block;
+		margin-bottom: 0.75em;
+	}
+	/*
+	p.slow-page-note small {
+		font-size: inherit;
+		color: rgb(153, 153, 153);
+	}
+	*/
+	p.slow-page-note small {
+		display: inline-block;
+		opacity: 0.5;
+	}
+	p.slow-page-note small svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+	}
+	p.slow-page-note small svg path {
+		fill: currentColor;
+	}
+
+	/* For the home page and detail page */
+	small.slow-page-note {
+		color: black;
+		color: rgba(0, 0, 0, 0.9);
+		font-size: 0.675em;
+		display: inline-block;
+		background: rgba(0, 0, 0, 0.025);
+		padding: 0.75em 1.5em;
+		opacity: 0.5;
+	}
+	small.slow-page-note svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+	}
+	small.slow-page-note svg path {
+		fill: currentColor;
 	}
 
 
