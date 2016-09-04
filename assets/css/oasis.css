@@ -252,16 +252,16 @@
 		fill: rgb(77, 85, 148); /* @blueberry */
 	}
 
-	.canteloupe h1 {
-		color: rgb(249, 192, 88); /* @canteloupe */
-	}
-	.lime h1 {
+	main h1 {
 		color: rgb(144, 194, 70); /* @lime */
 	}
-	.strawberry h1 {
+	.canteloupe main h1 {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.strawberry main h1 {
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
-	.blueberry h1 {
+	.blueberry main h1 {
 		color: rgb(77, 85, 148); /* @blueberry */
 	}
 
@@ -420,6 +420,7 @@
 		margin-bottom: -1.5em;
 		padding: 1.5em 1.5em 4.5em;
 		position: relative;
+		text-align: center;
 	}
 
 	.canteloupe footer {
@@ -514,9 +515,13 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+	footer section {
+		margin-top: 4.5em;
+	}
 	footer a {
 		color: inherit;
 	}
+	/*
 	footer .link-list a {
 		padding-left: 2.25em;
 	}
@@ -524,6 +529,7 @@
 		position: absolute;
 		margin-left: -2em;
 	}
+	*/
 	footer section h2:first-child {
 		margin-top: 0;
 	}
@@ -1089,6 +1095,10 @@
 		margin-top: 3em;
 		max-width: none;
 		background: rgba(0, 0, 0, 0.025);
+		background-color: rgba(249, 192, 88, 0.05); /* @canteloupe */
+		background-color: rgba(144, 194, 70, 0.05); /* @lime */
+		color: rgb(249, 192, 88); /* @canteloupe */
+		color: rgba(0, 0, 0, 0.5);
 		padding: 0.75em 1.5em;
 		font-size: 0.75em;
 	}
@@ -1104,12 +1114,12 @@
 	*/
 	p.slow-page-note small {
 		display: inline-block;
-		opacity: 0.5;
 	}
 	p.slow-page-note small svg {
 		vertical-align: middle;
 		height: 1em;
 		width: 2em;
+		color: rgb(144, 194, 70); /* @lime */
 	}
 	p.slow-page-note small svg path {
 		fill: currentColor;
@@ -1119,16 +1129,19 @@
 	small.slow-page-note {
 		color: black;
 		color: rgba(0, 0, 0, 0.9);
+		color: rgba(0, 0, 0, 0.5);
 		font-size: 0.675em;
 		display: inline-block;
 		background: rgba(0, 0, 0, 0.025);
+		background-color: rgba(249, 192, 88, 0.05); /* @canteloupe */
+		background-color: rgba(144, 194, 70, 0.05); /* @lime */
 		padding: 0.75em 1.5em;
-		opacity: 0.5;
 	}
 	small.slow-page-note svg {
 		vertical-align: middle;
 		height: 1em;
 		width: 2em;
+		color: rgb(144, 194, 70); /* @lime */
 	}
 	small.slow-page-note svg path {
 		fill: currentColor;
