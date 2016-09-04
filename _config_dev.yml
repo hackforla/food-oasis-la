@@ -3,6 +3,7 @@
 
 exclude:
     - .git
+    - rakefile
     - list
     - community-garden
     - community-garden
@@ -13,7 +14,9 @@ exclude:
 
 keep_files:
     - .git
+    - rakefile
     - list
+    - community-garden
     - community-garden
     - farmers-market
     - food-bank
