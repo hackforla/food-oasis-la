@@ -103,6 +103,7 @@
 
 	p.slow-page-note {
 		margin-top: 3em;
+		max-width: none;
 		background: rgba(0, 0, 0, 0.025);
 		padding: 0.75em 1.5em;
 		font-size: 0.75em;
@@ -118,17 +119,34 @@
 	}
 	*/
 	p.slow-page-note small {
-		margin-left: 0.75em;
+		display: inline-block;
+		opacity: 0.5;
+	}
+	p.slow-page-note small svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+	}
+	p.slow-page-note small svg path {
+		fill: currentColor;
 	}
 
 	.link-list small.slow-page-note {
 		color: black;
 		color: rgba(0, 0, 0, 0.9);
 		font-size: 0.675em;
-		margin-left: 0.75em;
 		display: inline-block;
 		background: rgba(0, 0, 0, 0.025);
 		padding: 0.75em 1.5em;
+		opacity: 0.5;
+	}
+	.link-list small.slow-page-note svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+	}
+	.link-list small.slow-page-note svg path {
+		fill: currentColor;
 	}
 
 	.icon {
