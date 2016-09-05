@@ -83,12 +83,18 @@ layout: null
 		color: white;
 		max-width: none;
 		display: block;
-		margin: -1.5em -3em 0;
+		margin: -1.5em -1.5em 0;
 		min-height: 95vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		position: relative;
+	}
+	@media (min-width: 30em) {
+		body.find main form {
+			margin-left: -3em;
+			margin-right: -3em;
+		}
 	}
 	body.find .photo-credit {
 		position: absolute;
