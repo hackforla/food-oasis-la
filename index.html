@@ -92,7 +92,6 @@ layout: null
 	body.find main form {
 		box-sizing: border-box;
 		background-color: black;
-		background-image: url(/assets/images/home/projecto-jardin.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -115,9 +114,14 @@ layout: null
 	body.find .photo-credit {
 		position: absolute;
 		bottom: 1.5em;
-		left: 3rem;
+		left: 1.5rem;
 		margin: 0;
 		font-size: 0.75em;
+	}
+	@media (min-width: 30em) {
+		body.find .photo-credit {
+			left: 3rem;
+		}
 	}
 	body.find .photo-credit a {
 		color: inherit;
@@ -138,6 +142,20 @@ layout: null
 	body.find .header h2 span {
 		color: white;
 	}
+	body.find .header svg path {
+		fill: white;
+		fill: rgba(255, 255, 255, 0.5);
+	}
+	
+	body.find .header svg path[fill="#F7BF58"] {
+		fill: white;
+	}
+	body.find .header svg path[fill="#D22B2B"] {
+		fill: rgba(255, 255, 255, 0.85);
+	}
+	body.find .header svg path[fill="#90C146"] {
+		fill: rgba(255, 255, 255, 0.95);
+	}
 	</style>
 
 </head>
@@ -145,7 +163,10 @@ layout: null
 	{% include header.html %}
 
 	<main>
-		<form action="/map" method="get">
+		<!--
+		<form action="/map" method="get" style="background-image: url(/assets/images/photos/projecto-jardin.jpg)">
+		-->
+		<form action="/map" method="get" style="background-image: url(/assets/images/photos/6060629012_d9dc1f7642_o.jpg)">
 			<div>
 				<h1>Find healthy food near&nbsp;you</h1>
 				<p>
@@ -156,7 +177,11 @@ layout: null
 					<button type="submit">Go</button>
 				</p>
 			</div>
+
+			<p class="photo-credit">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+			<!--
 			<p class="photo-credit">Photo by <a href="http://www.proyectojardin.org">Projecto Jardin</a></p>
+			-->
 		</form>
 
 
