@@ -11,6 +11,8 @@
 </head>
 <body{% if page.color %} class="{{ page.color }}"{% endif %}>
 	{% include header.html %}
+
+	{% assign has_navigation=true %}
 	{% include link-to-find-food.html %}
 
 	<main>

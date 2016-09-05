@@ -1,5 +1,5 @@
 {% for food_source in site.data['food_banks_andrew'] %}
-	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+	<li class="food-bank" data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/food-bank/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p class="type">Food Bank</p>

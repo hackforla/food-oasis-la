@@ -181,6 +181,9 @@ layout: null
 <body class="find">
 	{% include header.html %}
 
+	{% assign has_navigation=true %}
+	{% include link-to-find-food.html %}
+
 	<main>
 		<!--
 		<form action="/map" method="get" style="background-image: url(/assets/images/photos/projecto-jardin.jpg)">
@@ -217,7 +220,7 @@ layout: null
 		<h1>Navigate the abundance of healthy food sources in Los&nbsp;Angeles</h1>
 		<section class="categories">
 			<h2>Free food</h2>
-			<ul class="link-list">
+			<ul class="link-list has-icons">
 				<li>
 					<a href="/food-bank">
 						<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
@@ -226,7 +229,7 @@ layout: null
 				</li>
 			</ul>
 			<h2>Grow food</h2>
-			<ul class="link-list">
+			<ul class="link-list has-icons">
 				<li>
 					<a href="/community-garden">
 						<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
@@ -245,7 +248,7 @@ layout: null
 		</section>
 		<section class="categories">
 			<h2>Food for sale</h2>
-			<ul class="link-list">
+			<ul class="link-list has-icons">
 				<li>
 					<a href="/farmers-market">
 						<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />

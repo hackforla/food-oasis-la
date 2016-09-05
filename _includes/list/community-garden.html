@@ -1,5 +1,5 @@
 {% for food_source in site.data['community-gardens_08-30'] %}
-	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+	<li class="community-garden" data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/community-garden/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p class="type">Community Garden</p>
