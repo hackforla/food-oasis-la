@@ -82,12 +82,55 @@
 	}
 	*/
 
+
+	/* =Type
+	----------------------------------------------- */
+	h1, h2, h3, h4, h5, h6, p, dl, ul, ol, table {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
 	}
-	h1, h2 {
+
+	/* http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family='Libre%20Baskerville',%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
+.disabled	h1 {
+		font-size: 2.5em; /* 40px / 16px */
+		line-height: 1.2; /* 48px / 40px */
+		margin-top: 1.2em;
+		margin-bottom: 0.6em;
+	}
+	h1 {
+		font-size: 2em; /* 32px / 16px */
+		line-height: 1.5; /* 48px / 32px */
 		margin-top: 1.5em;
+		margin-bottom: 0.75em;
+	}
+	h2 {
+		font-size: 1.5em; /* 24px / 16px */
+		line-height: 1.3333333333; /* 32px / 24px */
+		margin-top: 1.3333333333em;
+		margin-bottom: 0.6666666667em;
+	}
+	h3 {
+		font-size: 1.25em; /* 20px / 16px */
+		line-height: 1.6; /* 32px / 20px */
+		margin-top: 1.6em;
+		margin-bottom: 0.8em;
+	}
+	h4 {
+		font-size: 1.125em; /* 18px / 16px */
+		line-height: 1.3333333333; /* 24px / 18px */
+		margin-top: 1.3333333333em;
+		margin-bottom: 0.6666666667em;
+	}
+	h5, h6 {
+		font-size: inherit;
+		line-height: inherit;
+		margin-top: 1.5em;
+		margin-bottom: 0.75em;
 	}
 
 	/* Shrink images to fit the available space */
@@ -1202,21 +1245,27 @@
 
 	/* For the home page and detail page */
 	small.slow-page-note {
+		margin-top: 1em;
+		margin-bottom: 1em;
 		color: black;
 		color: rgba(0, 0, 0, 0.9);
 		color: rgba(0, 0, 0, 0.5);
-		font-size: 0.675em;
-		display: inline-block;
-		background: rgba(0, 0, 0, 0.025);
+		display: table;
 		background-color: rgba(249, 192, 88, 0.05); /* @canteloupe */
 		background-color: rgba(144, 194, 70, 0.05); /* @lime */
-		padding: 0.75em 1.5em;
+		background-color: rgba(241, 95, 91, 0.05); /* @strawberry */
+		background: rgba(0, 0, 0, 0.025);
+		font-size: 0.75em; /* 12px / 16px */
+		line-height: 1; /* 12px / 12px */
+		padding: 1em;
 	}
 	small.slow-page-note svg {
 		vertical-align: middle;
 		height: 1em;
 		width: 2em;
 		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(153, 153, 153)
 	}
 	small.slow-page-note svg path {
 		fill: currentColor;
@@ -1320,7 +1369,7 @@
 	}
 	body.find main .categories .link-list a {
 		color: rgb(102, 102, 102);
-		border-width: 0;
+		border-color: transparent;
 	}
 	body.find main .categories .link-list .icon {
 		background: rgba(144, 194, 70, 1); /* @lime */
