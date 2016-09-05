@@ -33,6 +33,7 @@ layout: null
 		margin-left: auto;
 		margin-right: auto;
 		box-sizing: border-box;
+		padding-top: 1.5em;
 		padding-bottom: 4.5em;
 		/*
 		min-height: 80vh;
@@ -42,17 +43,26 @@ layout: null
 		justify-content: space-around;
 		*/
 	}
+	body.find .shim-sections section {
+		margin-top: 1.5em;
+	}
+	body.find .shim-sections section h2 {
+		margin-bottom: 0;
+	}
 	/*
+	body.find .shim-sections section ul {
+		margin-top: 0.75em;
+	}
 	@media (min-width: 35em) {
 		body.find .shim-sections h1 {
 			text-align: center;
 		}
 	}
 	*/
+	body.find .shim-sections h1 {
+		margin-top: 0;
+	}
 	@media (min-width: 80em) and (min-height: 50em) {
-		body.find .shim-sections h1 {
-			margin-top: 0;
-		}
 		body.find .shim-sections {
 			padding-top: 10vh;
 			min-height: 70vh;
@@ -84,7 +94,7 @@ layout: null
 		max-width: none;
 		display: block;
 		margin: -1.5em -1.5em 0;
-		min-height: 95vh;
+		min-height: 80vh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -131,7 +141,7 @@ layout: null
 	<main>
 		<form action="/map" method="get">
 			<div>
-				<h1>Find healthy food near you</h1>
+				<h1>Find healthy food near&nbsp;you</h1>
 				<p>
 					<label>
 						<span>Enter your location</span><br />
