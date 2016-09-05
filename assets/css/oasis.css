@@ -112,9 +112,9 @@
 	}
 	h1 {
 		font-size: 2em; /* 32px / 16px */
-		line-height: 1.5; /* 48px / 32px */
-		margin-top: 1.5em;
-		margin-bottom: 0.75em;
+		line-height: 1.3125; /* 42px / 32px */
+		margin-top: 1.3125em;
+		margin-bottom: 0.65625em;
 	}
 	h2 {
 		font-size: 1.5em; /* 24px / 16px */
