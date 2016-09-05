@@ -46,6 +46,12 @@ layout: null
 	body.find .shim-sections section {
 		margin-top: 2.25em;
 	}
+	body.find .shim-sections section ul {
+		margin-bottom: 2.25em;
+	}
+	body.find .shim-sections section ul:last-child {
+		margin-bottom: 0;
+	}
 	body.find .shim-sections section h2 {
 		margin-bottom: 0;
 	}
@@ -170,13 +176,16 @@ layout: null
 			<ul class="link-list">
 				<li>
 					<a href="/food-bank">
-						<img class="icon" src="/assets/images/home/food-bank.svg" alt="" />
+						<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
 						<span>Food Banks</span>
 					</a>
 				</li>
+			</ul>
+			<h2>Grow food</h2>
+			<ul class="link-list">
 				<li>
 					<a href="/community-garden">
-						<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
+						<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
 						<span>Community Gardens</span>
 					</a>
 				</li>
