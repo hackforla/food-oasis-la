@@ -1262,19 +1262,13 @@
 	}
 	*/
 	body.find main {
-		max-width: none;
+		max-width: 60em;
 		padding-bottom: 6em;
 	}
 	body.find main:after {
 		content: "";
 		display: table;
 		clear: both;
-	}
-	body.find main form {
-		display: table;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 3em;
 	}
 	/*
 	body.find main section {
@@ -1283,6 +1277,14 @@
 		padding: 1.5em;
 	}
 	*/
+	@media (min-width: 35em) {
+		body.find main form {
+			display: table;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3em;
+		}
+	}
 	@media (min-width: 40em) {
 		body.find main section {
 			float: left;
@@ -1292,9 +1294,13 @@
 			margin: calc(0.75em);
 			*/
 		}
+		body.find main section:last-child {
+			width: 100%;
+		}
 	}
-	@media (min-width: 60em) {
-		body.find main section {
+	@media (min-width: 70em) {
+		body.find main section,
+		body.find main section:last-child {
 			width: 33.333%;
 			/*
 			width: calc(33.333% - 1.5em);
