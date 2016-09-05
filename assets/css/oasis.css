@@ -70,7 +70,14 @@
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(77, 85, 148); /* @blueberry */
 		text-decoration: underline;
+		transition: color 0.2s;
+	}
+	a:hover,
+	a:active,
+	a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
 	}
 
 	abbr {
@@ -203,6 +210,7 @@
 		background: rgb(221, 75, 71); /* @dark-strawberry */
 		background: rgb(124, 174, 50); /* @dark-lime */
 		text-decoration: none;
+		color: white;
 	}
 	form.find button,
 	body.find button {
@@ -275,6 +283,12 @@
 		display: block;
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
+		color: inherit;
+	}
+	.link-list a:hover,
+	.link-list a:active,
+	.link-list a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
 	}
 	.link-list.has-icons a {
 		text-decoration: none;
@@ -760,8 +774,23 @@
 	footer section {
 		margin-top: 4.5em;
 	}
-	footer a {
+	footer a,
+	footer a:hover,
+	footer a:active,
+	footer a:focus,
+	footer .link-list a,
+	footer .link-list a:hover,
+	footer .link-list a:active,
+	footer .link-list a:focus {
 		color: inherit;
+	}
+	footer a {
+		text-decoration: none;
+	}
+	footer a:hover,
+	footer a:active,
+	footer a:focus {
+		text-decoration: underline;
 	}
 	/*
 	footer .link-list a {
@@ -1399,10 +1428,12 @@
 	body.find main section ul {
 		margin-bottom: 0;
 	}
+	/*
 	body.find main .categories .link-list a {
 		color: rgb(102, 102, 102);
 		border-color: transparent;
 	}
+	*/
 	body.find main .categories .link-list .icon {
 		background: rgba(144, 194, 70, 1); /* @lime */
 		background: rgb(241, 95, 91); /* @strawberry */
