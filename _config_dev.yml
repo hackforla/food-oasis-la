@@ -2,6 +2,7 @@
 # Exclude list and detail pages, since they rarely change and take a long time to build.
 
 exclude:
+    - CNAME
     - .nojekyll
     - .git
     - rakefile
@@ -14,6 +15,7 @@ exclude:
     - supermarket
 
 keep_files:
+    - CNAME
     - .nojekyll
     - .git
     - rakefile
