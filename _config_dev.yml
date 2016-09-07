@@ -2,9 +2,6 @@
 # Exclude list and detail pages, since they rarely change and take a long time to build.
 
 exclude:
-    - CNAME
-    - .nojekyll
-    - .git
     - rakefile
     - list
     - community-garden

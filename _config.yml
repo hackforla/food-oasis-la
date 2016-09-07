@@ -15,9 +15,6 @@ url: "http://foodoasisla.github.io" # the base hostname & protocol for your site
 github_username: foodoasisla
 
 exclude:
-    - CNAME
-    - .nojekyll
-    - .git
     - rakefile
 
 keep_files:
