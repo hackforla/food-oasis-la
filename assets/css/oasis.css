@@ -1056,6 +1056,7 @@
 	.map-filters button {
 		background-image: none;
 		min-width: 12em;
+		margin: 2px;
 	}
 	.map-filters .food-bank,
 	.map-filters .food-bank:hover,
