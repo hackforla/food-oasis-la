@@ -24,8 +24,8 @@
 		min-height: 100%;
 	}
 	body {
-    	background: rgb(253, 254, 255);
-		color: rgba(0, 0, 0, 0.9);
+		background: rgb(253, 254, 255);
+		color: rgb(49, 50, 51);
 		margin: 0;
 		padding: 1.5em;
 		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
@@ -67,11 +67,19 @@
 
 	a {
 		color: rgb(249, 192, 88); /* @canteloupe */
-		color: rgb(144, 194, 70); /* @lime */
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(77, 85, 148); /* @blueberry */
 		text-decoration: underline;
+		transition: color 0.2s;
 	}
+	a:hover,
+	a:active,
+	a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+
 	abbr {
 		text-decoration: inherit;
 	}
@@ -82,15 +90,58 @@
 	}
 	*/
 
+
+	/* =Type
+	----------------------------------------------- */
+	h1, h2, h3, h4, h5, h6, p, dl, ul, ol, table {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
 	}
+
+	/* http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family='Libre%20Baskerville',%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
+.disabled	h1 {
+		font-size: 2.5em; /* 40px / 16px */
+		line-height: 1.2; /* 48px / 40px */
+		margin-top: 1.2em;
+		margin-bottom: 0.6em;
+	}
 	h1 {
+		font-size: 2em; /* 32px / 16px */
+		line-height: 1.3125; /* 42px / 32px */
+		margin-top: 1.3125em;
+		margin-bottom: 0.65625em;
+	}
+	h2 {
+		font-size: 1.5em; /* 24px / 16px */
+		line-height: 1.3333333333; /* 32px / 24px */
+		margin-top: 1.3333333333em;
+		margin-bottom: 0.6666666667em;
+	}
+	h3 {
+		font-size: 1.25em; /* 20px / 16px */
+		line-height: 1.6; /* 32px / 20px */
+		margin-top: 1.6em;
+		margin-bottom: 0.8em;
+	}
+	h4 {
+		font-size: 1.125em; /* 18px / 16px */
+		line-height: 1.3333333333; /* 24px / 18px */
+		margin-top: 1.3333333333em;
+		margin-bottom: 0.6666666667em;
+	}
+	h5, h6 {
+		font-size: inherit;
+		line-height: inherit;
 		margin-top: 1.5em;
+		margin-bottom: 0.75em;
 	}
 
- 	/* Shrink images to fit the available space */
+	/* Shrink images to fit the available space */
 	img {
 		max-width: 100%;
 		height: auto;
@@ -109,6 +160,117 @@
 	}
 
 
+	/* =Button
+	----------------------------------------------- */
+	.action a,
+	form.find button,
+	body.find form button,
+	header button,
+	.map-filters button,
+	nav a {
+		display: inline-block;
+		background: rgb(243, 117, 104); /* @salmon */
+		background: rgb(209, 43, 43); /* @apple */
+		background: rgb(249, 192, 88); /* @canteloupe */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(144, 194, 70); /* @lime */
+		background-image: linear-gradient(to top, rgb(221, 75, 71), rgba(221, 75, 71, 0)); /* @dark-strawberry */
+		background-image: linear-gradient(to top, rgb(124, 174, 50), rgba(124, 174, 50, 0)); /* @dark-lime */
+		color: black;
+		color: rgba(0, 0, 0, 0.8);
+		color: white;
+		padding: 0.375em 1.5em;
+		border-radius: 0.25em;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: transparent;
+		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
+	}
+	.action a:hover,
+	.action a:active,
+	.action a:focus,
+	form.find button:hover,
+	form.find button:active,
+	form.find button:focus,
+	body.find form button:hover,
+	body.find form button:active,
+	body.find form button:focus,
+	header button:hover,
+	header button:active,
+	header button:focus,
+	.map-filters button:hover,
+	.map-filters button:active,
+	.map-filters button:focus,
+	nav a:hover,
+	nav a:active,
+	nav a:focus {
+		background: rgb(221, 75, 71); /* @dark-strawberry */
+		background: rgb(124, 174, 50); /* @dark-lime */
+		text-decoration: none;
+		color: white;
+	}
+	form.find button,
+	body.find button {
+		text-transform: uppercase;
+	}
+	label span {
+		display: block;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 1.25em;
+		margin-bottom: 0.375em;
+	}
+	label br {
+		display: none;
+	}
+
+	nav form label span {
+		position: absolute;
+		left: -9999px;
+	}
+	nav form label br {
+		display: none;
+	}
+
+
+	/* =Field
+	----------------------------------------------- */
+	input[type="text"] {
+		line-height: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.375em 0.75em;
+		border-radius: 0.25em;
+		border: 1px solid black;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: rgb(249, 192, 88); /* @canteloupe */
+		border-color: rgb(144, 194, 70); /* @lime */
+		border-color: rgb(77, 85, 148); /* @blueberry */
+		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
+		border-color: rgb(241, 95, 91); /* @strawberry */
+		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
+		border-color: rgba(0, 0, 0, 0.25);
+		width: 20em;
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+	@media (max-width: 35em) {
+		input[type="text"],
+		body.find form button,
+		header button,
+		.map-filters button {
+			width: 100%;
+		}
+		body.find form button,
+		header button,
+		.map-filters button {
+			margin-top: 0.375em;
+		}
+	}
+
+
 	/* =Link List
 	----------------------------------------------- */
 	.link-list,
@@ -121,16 +283,31 @@
 		display: block;
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
+		color: inherit;
+	}
+	.link-list a:hover,
+	.link-list a:active,
+	.link-list a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.link-list.has-icons a {
 		text-decoration: none;
 	}
+	.link-list.has-icons a span {
+		text-decoration: underline;
+	}
+	/*
 	.link-list a:hover,
 	.link-list a:active,
 	.link-list a:focus {
 		text-decoration: underline;
 	}
+	*/
+	/*
 	.link-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
+	*/
 
 
 	/* =Food Source List
@@ -152,8 +329,32 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(144, 194, 70); /* @lime */
 		text-decoration: underline;
 	}
+
+	.food-source-list .food-bank h2 {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.food-source-list .community-garden h2 {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.food-source-list .grocery-store h2 {
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgba(1, 147, 223, 1); /* @berryblue */
+	}
+	.food-source-list .farmers-market h2 {
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgba(161, 167, 72, 0.75); /* @asparagus */
+		color: rgb(211, 16, 134); /* @dragonfruit */
+	}
+	.food-source-list .supermarket h2 {
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @blueberry */
+	}
+
 	.food-source-list a:hover h2,
 	.food-source-list a:active h2,
 	.food-source-list a:focus h2 {
@@ -181,10 +382,9 @@
 		visibility: hidden;
 	}
 	.food-source-list.sorting::before {
-		content: "Searching…";
+		content: "Finding nearest locations…";
 		display: block;
 	}
-
 
 
 	/* =Header
@@ -252,6 +452,19 @@
 		fill: rgb(77, 85, 148); /* @blueberry */
 	}
 
+	main h1 {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.canteloupe main h1 {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.strawberry main h1 {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.blueberry main h1 {
+		color: rgb(77, 85, 148); /* @blueberry */
+	}
+
 	/*
 	@media (max-width: 29.99999em) {
 		.header h1 svg,
@@ -289,56 +502,91 @@
 			top: 1.25em;
 		}
 	}
-	@media (max-width: 50em) {
+	@media (max-width: 25em) {
 		.header + nav .icon {
 			margin-right: -0.75em;
 		}
+		.header + nav .icon {
+			display: block !important;
+		}
 		.header + nav .icon + span {
-			/* @hidden-accessible */
-			position: absolute;
-			left: -9999px;
+			display: none;
 		}
 	}
+
+	form.find {
+		position: absolute;
+		z-index: 1;
+		top: 1.5em;
+		right: 1.5em;
+	}
+	form.find p {
+		margin: 0;
+	}
+	form.find label span {
+		position: absolute;
+		left: -9999px;
+	}
+	form.find label br {
+		display: none
+	}
+	form.find button svg {
+		margin-left: -0.75em;
+		margin-right: -0.75em;
+	}
+	body.map form.find {
+		display: none;
+		position: absolute;
+		top: auto;
+		bottom: 3em;
+		right: 3em;
+	}
+	@media (min-width: 40em) {
+		body.map form.find {
+			display: block;
+		}
+	}
+
 
 	/* Drop-down Menu in Header
 	----------------------------------------------- */
 
 	.dropbtn {
-	    background-color: #A1CB62;
-	    color: white;
-	    padding: 16px;
-	    font-size: 16px;
-	    border: none;
-	    cursor: pointer;
-	    padding: 8px;
-	    position: relative;
-	    top: -50px;
-	    left: 500px;
+		background-color: #A1CB62;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+		padding: 8px;
+		position: relative;
+		top: -50px;
+		left: 500px;
 	}
 
 	.dropbtn:hover, .dropbtn:focus {
-    	background-color: #F15F5B;
+		background-color: #F15F5B;
 	}
 
 	.dropdown {
-	    position: relative;
-	    display: inline-block;
+		position: relative;
+		display: inline-block;
 	}
 
 	.dropdown-content {
-	    display: none;
-	    position: absolute;
-	    background-color: #f9f9f9;
-	    min-width: 160px;
-	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	}
 
 	/*links inside the dropdown*/
 	.dropdown-content a {
-	    color: black;
-	    padding: 12px 16px;
-	    text-decoration: none;
-	    display: block;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
 	}
 
 	/*changes color of link in dropdown on hover*/
@@ -395,6 +643,10 @@
 		display: inline;
 	}
 
+	nav.search form {
+
+	}
+
 
 	/* =Footer
 	----------------------------------------------- */
@@ -407,6 +659,7 @@
 		margin-bottom: -1.5em;
 		padding: 1.5em 1.5em 4.5em;
 		position: relative;
+		text-align: center;
 	}
 
 	.canteloupe footer {
@@ -426,33 +679,35 @@
 	.canteloupe footer .link-list::after,
 	.canteloupe footer::before,
 	.canteloupe footer::after {
-		background-image: url(/assets/images/palm-tree-canteloupe.svg);
+		background-image: url(/assets/images/footer/pear.svg);
 	}
 	.strawberry footer .link-list::before,
 	.strawberry footer .link-list::after,
 	.strawberry footer::before,
 	.strawberry footer::after {
-		background-image: url(/assets/images/palm-tree-strawberry.svg);
+		background-image: url(/assets/images/footer/carrot.svg);
 	}
 	.blueberry footer .link-list::before,
 	.blueberry footer .link-list::after,
 	.blueberry footer::before,
 	.blueberry footer::after {
-		background-image: url(/assets/images/palm-tree-blueberry.svg);
+		background-image: url(/assets/images/footer/pumpkin.svg);
 	}
-	.banana footer .link-list::before,
-	.banana footer .link-list::after,
-	.banana footer::before,
-	.banana footer::after {
-		background-image: url(/assets/images/palm-tree-banana.svg);
+	/*
+	.apple footer .link-list::before,
+	.apple footer .link-list::after,
+	.apple footer::before,
+	.apple footer::after {
+		background-image: url(/assets/images/footer/watermelon.svg);
 	}
+	*/
 
 	footer .link-list::before,
 	footer .link-list::after,
 	footer::before,
 	footer::after {
 		content: "";
-		background-image: url(/assets/images/palm-tree.svg);
+		background-image: url(/assets/images/footer/palm-tree.svg);
 		display: block;
 		position: absolute;
 		width: 4.5em;
@@ -487,6 +742,27 @@
 		margin-top: -4.75em;
 		opacity: 1;
 	}
+
+	.canteloupe footer .link-list::before,
+	.canteloupe footer::before,
+	.canteloupe footer::after,
+	.blueberry footer .link-list::before,
+	.blueberry footer::before,
+	.blueberry footer::after,
+	.strawberry footer .link-list::before,
+	.strawberry footer::before,
+	.strawberry footer::after {
+		display: none;
+	}
+	.canteloupe footer .link-list::after,
+	.blueberry footer .link-list::after,
+	.strawberry footer .link-list::after {
+		margin: 0;
+		margin-top: -4.75em;
+		width: 15em;
+		margin-left: -7.5em;
+	}
+
 	@media (min-width: 30em) {
 		footer {
 			margin-left: -3em;
@@ -501,9 +777,28 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	footer a {
+	footer section {
+		margin-top: 4.5em;
+	}
+	footer a,
+	footer a:hover,
+	footer a:active,
+	footer a:focus,
+	footer .link-list a,
+	footer .link-list a:hover,
+	footer .link-list a:active,
+	footer .link-list a:focus {
 		color: inherit;
 	}
+	footer a {
+		text-decoration: none;
+	}
+	footer a:hover,
+	footer a:active,
+	footer a:focus {
+		text-decoration: underline;
+	}
+	/*
 	footer .link-list a {
 		padding-left: 2.25em;
 	}
@@ -511,9 +806,9 @@
 		position: absolute;
 		margin-left: -2em;
 	}
+	*/
 	footer section h2:first-child {
 		margin-top: 0;
-		margin-bottom: 0;
 	}
 	footer section h2 + p {
 		margin-top: 0;
@@ -534,106 +829,184 @@
 		display: inline-block; /* @avoid-break */
 	}
 
+	footer .action {
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	footer .action a,
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		background: white;
+		color: black;
+	}
+	footer .action {
+		font-size: 1.25em;
+	}
+.disabled	.canteloupe footer .action a {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+.disabled	.lime footer .action a {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+.disabled	.strawberry footer .action a {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+.disabled	.blueberry footer .action a {
+		color: rgb(77, 85, 148); /* @blueberry */
+	}
+
+
+	footer .sponsors h2 {
+		margin-bottom: 0;
+	}
+	footer .sponsors div {
+		text-align: center;
+	}
+	footer .sponsors a {
+		margin: 0.75em;
+	}
+	footer .sponsors a img {
+		width: 10em;
+		border-radius: 50%;
+	}
+	/*
+	footer .sponsors a.hack-for-la {
+		background-color: rgb(75, 153, 204);
+		color: white;
+		padding: 1.5em;
+	}
+	footer .sponsors a.code-for-america {
+		background: white;
+		color: black;
+		padding: 1.5em;
+	}
+	*/
+	footer .sponsors h2,
+	footer .contact h2 {
+		text-align: center;
+	}
+
+	footer .contact div {
+		text-align: center;
+	}
+
+	footer .contact svg {
+		overflow: visible;
+		display: inline-block;
+		width: 2.5em;
+		height: 2.5em;
+		border-radius: 50%;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+	}
+
+	footer .circle {
+		fill: white;
+	}
+	footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+
+	.canteloupe footer .icon {
+		fill: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+	.blueberry footer .icon {
+		fill: rgb(77, 85, 148); /* @blueberry */
+	}
+	.strawberry footer .icon {
+		fill: rgb(241, 95, 91); /* @strawberry */
+	}
+
+
+	footer .action a,
+	footer .sponsors a,
+	footer .contact a svg path {
+		transition: all 0.2s;
+	}
+	footer .contact div a {
+		margin-top: -0.5em;
+		padding-top: 0.5em;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus,
+	footer .sponsors a:hover,
+	footer .sponsors a:active,
+	footer .sponsors a:focus,
+	footer .contact a:hover  svg,
+	footer .contact a:active svg,
+	footer .contact a:focus  svg {
+		color: black;
+	}
+
+	footer a:hover  .facebook .icon,
+	footer a:active .facebook .icon,
+	footer a:focus  .facebook .icon {
+		fill: #3B5998;
+	}
+	footer a:hover  .twitter .icon,
+	footer a:active .twitter .icon,
+	footer a:focus  .twitter .icon {
+		fill: #55ACEE;
+	}
+
+	/*
+	footer .sponsors a:hover,
+	footer .sponsors a:active,
+	footer .sponsors a:focus {
+		opacity: 0.8;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	*/
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		text-decoration: underline;
+	}
+
+	footer a .icon {
+		transition: all 0.2s;
+	}
+	footer a:hover  .icon,
+	footer a:active .icon,
+	footer a:focus  .icon {
+		fill: black;
+	} 
+
+	/*
+
+	footer a:hover  .email .icon,
+	footer a:active .email .icon,
+	footer a:focus  .email .icon {
+		fill: #DC4E41;
+	}
+
+	footer a:hover  .facebook .icon,
+	footer a:active .facebook .icon,
+	footer a:focus  .facebook .icon {
+		fill: #3B5998;
+	}
+
+	footer a:hover  .twitter .icon,
+	footer a:active .twitter .icon,
+	footer a:focus  .twitter .icon {
+		fill: #55ACEE;
+	}
+	*/
+
 
 	/* =Navigation
 	----------------------------------------------- */
 	nav p {
 		margin: 0;
-	}
-
-
-	/* =Button
-	----------------------------------------------- */
-	body.find form button,
-	header button,
-	.map-filters button,
-	nav a {
-		display: inline-block;
-		background: rgb(243, 117, 104); /* @salmon */
-		background: rgb(209, 43, 43); /* @apple */
-		background: rgb(249, 192, 88); /* @canteloupe */
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgb(77, 85, 148); /* @blueberry */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background-image: linear-gradient(to top, rgb(221, 75, 71), rgba(221, 75, 71, 0));
-		color: black;
-		color: rgba(0, 0, 0, 0.8);
-		color: white;
-		padding: 0.375em 1.5em;
-		border-radius: 0.25em;
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		border-color: transparent;
-		text-decoration: none;
-	}
-	body.find form button:hover,
-	body.find form button:active,
-	body.find form button:focus,
-	header button:hover,
-	header button:active,
-	header button:focus,
-	.map-filters button:hover,
-	.map-filters button:active,
-	.map-filters button:focus,
-	nav a:hover,
-	nav a:active,
-	nav a:focus {
-		background: rgb(221, 75, 71); /* @strawberry */
-		text-decoration: none;
-	}
-	body.find form button,
-	header button,
-	.map-filters button {
-		cursor: pointer;
-		font-size: inherit;
-	}
-	body.find button {
-		text-transform: uppercase;
-	}
-	label span {
-		display: block;
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		font-size: 1.25em;
-		margin-bottom: 0.375em;
-	}
-	label br {
-		display: none;
-	}
-
-
-	/* =Field
-	----------------------------------------------- */
-	input[type="text"] {
-		line-height: inherit;
-		font-family: inherit;
-		font-size: inherit;
-		padding: 0.375em 0.75em;
-		border-radius: 0.25em;
-		border: 1px solid black;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		border-color: rgb(249, 192, 88); /* @canteloupe */
-		border-color: rgb(144, 194, 70); /* @lime */
-		border-color: rgb(77, 85, 148); /* @blueberry */
-		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
-		border-color: rgb(241, 95, 91); /* @strawberry */
-		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
-		border-color: rgba(0, 0, 0, 0.25);
-		width: 20em;
-		max-width: 100%;
-		box-sizing: border-box;
-	}
-	@media (max-width: 35em) {
-		input[type="text"],
-		body.find form button,
-		header button,
-		.map-filters button {
-			width: 100%;
-		}
-		body.find form button,
-		header button,
-		.map-filters button {
-			margin-top: 0.375em;
-		}
 	}
 
 
@@ -665,6 +1038,79 @@
 		.mapbox {
 			margin-left: -3rem; /* @page-margin-widescreen */
 			margin-right: -3rem;
+		}
+	}
+
+
+	/* =Map Filters
+	----------------------------------------------- */
+	.map-filters {
+		position: absolute;
+		z-index: 1;
+		top: 12.125rem; /* header height + 1.5rem */
+		left: 1.5rem;
+		width: 15em;
+	}
+
+	@media (min-width: 30em) {
+		.map-filters {
+			top: 12.125rem; /* header height + 3rem */
+			left: 3rem;
+		}
+	}
+
+	.map-filters button {
+		background-image: none;
+		min-width: 12em;
+		margin: 2px;
+	}
+	.map-filters .food-bank,
+	.map-filters .food-bank:hover,
+	.map-filters .food-bank:active,
+	.map-filters .food-bank:focus {
+		background-color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.map-filters .community-garden,
+	.map-filters .community-garden:hover,
+	.map-filters .community-garden:active,
+	.map-filters .community-garden:focus {
+		background-color: rgb(241, 95, 91); /* @strawberry */
+		background-color: rgb(144, 194, 70); /* @lime */
+	}
+	.map-filters .farmers-market,
+	.map-filters .farmers-market:hover,
+	.map-filters .farmers-market:active,
+	.map-filters .farmers-market:focus {
+		background-color: rgb(77, 85, 148); /* @blueberry */
+		/*background-color: rgb(241, 95, 91); /* @strawberry */
+		background-color: rgb(211, 16, 134); /* @dragonfruit */
+	}
+	.map-filters .grocery-store,
+	.map-filters .grocery-store:hover,
+	.map-filters .grocery-store:active,
+	.map-filters .grocery-store:focus {
+		background-color: rgb(209, 43, 43); /* @apple */
+		background-color: rgb(144, 194, 70); /* @lime */
+		background-color: rgb(241, 95, 91); /* @strawberry */
+		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgba(40, 137, 187, 1); /* @berryblue */
+	}
+	.map-filters .supermarket,
+	.map-filters .supermarket:hover,
+	.map-filters .supermarket:active,
+	.map-filters .supermarket:focus {
+		background-color: rgb(161, 167, 72); /* @asparagus */
+		background-color: rgb(241, 95, 91); /* @strawberry */
+		background-color: rgb(77, 85, 148); /* @blueberry */
+	}
+
+	.map-filters .inactive {
+		opacity: 0.35;
+	}
+
+	@media (max-width: 45em) and (max-height: 55em) {
+		.map-filters {
+			display: none;
 		}
 	}
 
@@ -831,12 +1277,80 @@
 	}
 
 
+	/* =Slow Page Note
+	----------------------------------------------- */
+
+	/* For the list page */
+	p.slow-page-note {
+		margin-top: 3em;
+		max-width: none;
+		background: rgba(0, 0, 0, 0.025);
+		background-color: rgba(249, 192, 88, 0.05); /* @canteloupe */
+		background-color: rgba(144, 194, 70, 0.05); /* @lime */
+		color: rgb(249, 192, 88); /* @canteloupe */
+		color: rgba(0, 0, 0, 0.5);
+		padding: 0.75em 1.5em;
+		font-size: 0.75em;
+	}
+	p.slow-page-note span {
+		display: block;
+		margin-bottom: 0.75em;
+	}
+	/*
+	p.slow-page-note small {
+		font-size: inherit;
+		color: rgb(153, 153, 153);
+	}
+	*/
+	p.slow-page-note small {
+		display: inline-block;
+	}
+	p.slow-page-note small svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	p.slow-page-note small svg path {
+		fill: currentColor;
+	}
+
+	/* For the home page and detail page */
+	small.slow-page-note {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		color: black;
+		color: rgba(0, 0, 0, 0.9);
+		color: rgba(0, 0, 0, 0.5);
+		display: table;
+		background-color: rgba(249, 192, 88, 0.05); /* @canteloupe */
+		background-color: rgba(144, 194, 70, 0.05); /* @lime */
+		background-color: rgba(241, 95, 91, 0.05); /* @strawberry */
+		background: rgba(0, 0, 0, 0.025);
+		font-size: 0.75em; /* 12px / 16px */
+		line-height: 1; /* 12px / 12px */
+		padding: 1em;
+	}
+	small.slow-page-note svg {
+		vertical-align: middle;
+		height: 1em;
+		width: 2em;
+		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(153, 153, 153)
+	}
+	small.slow-page-note svg path {
+		fill: currentColor;
+	}
+
+
 	/* =Map Page
 	----------------------------------------------- */
 	body.map {
 		padding-bottom: 0;
 	}
 	body.map .mapbox {
+		border-top: 1px solid rgba(0, 0, 0, 0.25);
 		height: 500px;
 		height: 100vh;
 		height: calc(100vh - 5.75rem); /* header height */
@@ -844,7 +1358,7 @@
 	}
 	@media (min-width: 30em) {
 		body.map .mapbox {
-			height: calc(100vh - 9.125rem); /* header height */
+			height: calc(100vh - 8.25rem); /* header height */
 		}
 	}
 
@@ -862,10 +1376,132 @@
 		min-height: calc(100vh - 15rem);
 	}
 	*/
-	body.find .categories h2 {
+.disabled	body.find .categories h2 {
 		/* @hidden-accessible */
 		position: absolute;
 		left: -9999px;
+	}
+	/*
+	body.find .categories .link-list a {
+		border-width: 0;
+	}
+	*/
+	body.find main {
+		max-width: 60em;
+		padding-bottom: 6em;
+	}
+	body.find main:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	/*
+	body.find main section {
+		box-sizing: border-box;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 1.5em;
+	}
+	*/
+	@media (min-width: 35em) {
+		body.find main form {
+			display: table;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 3em;
+		}
+	}
+	@media (min-width: 40em) {
+		body.find main section {
+			float: left;
+			width: 50%;
+			/*
+			width: calc(50% - 1.5em);
+			margin: calc(0.75em);
+			*/
+		}
+		body.find main section:last-child {
+			width: 100%;
+		}
+	}
+	@media (min-width: 70em) {
+		body.find main section,
+		body.find main section:last-child {
+			width: 33.333%;
+			/*
+			width: calc(33.333% - 1.5em);
+			margin: calc(0.75em);
+			*/
+		}
+	}
+	body.find main section h2 {
+		margin-top: 0;
+	}
+	body.find main section ul {
+		margin-bottom: 0;
+	}
+	/*
+	body.find main .categories .link-list a {
+		color: rgb(102, 102, 102);
+		border-color: transparent;
+	}
+	*/
+		body.find main .categories .link-list  .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(211, 16, 134); /* @dragonfruit */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+
+	body.find main .categories .link-list .farmers-market .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(211, 16, 134); /* @dragonfruit */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+		body.find main .categories .link-list .grocery-store .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgba(40, 137, 187, 1); /* @berryblue */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+		body.find main .categories .link-list .supermarket .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
+.disabled	body.find .categories .link-list a[href*="food-bank"] .icon {
+		background: rgb(249, 192, 88); /* @canteloupe */
+	}
+.disabled	body.find .categories .link-list a[href*="community-garden"] .icon {
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+	}
+.disabled	body.find .categories .link-list a[href*="farmers-market"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(211, 16, 134); /* @dragonfruit */
+	}
+.disabled	body.find .categories .link-list a[href*="grocery-store"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgba(40, 137, 187, 1); /* @berryblue */
+	}
+.disabled	body.find .categories .link-list a[href*="supermarket"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(161, 167, 72); /* @asparagus */
+		background: rgb(77, 85, 148); /* @blueberry */
 	}
 
 
@@ -891,6 +1527,7 @@
 	}
 
 	.food-source .mapbox {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		height: 150px;
 		height: 50vh;
 		margin-bottom: -1.5em;
@@ -904,6 +1541,8 @@
 	/* OPTIONAL: Position the map on the right side, on really big screens. */
 	@media (min-width: 70em) {
 		.food-source .mapbox {
+			border-top-width: 0;
+			border-left: 1px solid rgba(0, 0, 0, 0.1);
 			width: 50%;
 			margin: 0;
 			position: absolute;

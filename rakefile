@@ -1,0 +1,16 @@
+# KUDOS: https://alligator.io/jekyll/development-mode/
+#        https://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time
+
+def execute(command)
+  system "#{command}"
+end
+
+desc 'Jekyll Build'
+task :build do
+  execute("JEKYLL_ENV=development jekyll build --config _config.yml,_config_dev.yml")
+end
+
+desc 'Jekyll Serve'
+task :serve do
+  execute("JEKYLL_ENV=development jekyll serve --config _config.yml,_config_dev.yml")
+end

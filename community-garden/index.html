@@ -2,44 +2,22 @@
 layout: default
 
 title: Community Gardens in Los Angeles
+
+color: lime
 ---
 
-<nav class="search">
-	<h1>Community Gardens</h1>
-	<ul>
-		<li><a href="/map">Map</a></li>
-		<li><a>List</a></li>
-	</ul>
-</nav>
-<script>
-(function() {
-	// SHIM: Make the address persistent
-	var searchLink = document.querySelector('.search a[href]');
-	searchLink.setAttribute('href', searchLink.getAttribute('href') + window.location.search);
-})();
-</script>
+{% assign link_to_map_title="Community Gardens" %}
+{% assign link_to_map_type="community-garden" %}
+
+{% include link-to-map.html %}
+
+<h1>Community Gardens</h1>
+
+<ul class="food-source-list">
+{% include list/community-garden.html %}
+</ul>
 
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
-
-<ul class="food-source-list">
-{% for food_source in site.data['community_gardens_andrew'] %}
-	<li data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
-		<a href="/community-garden/{{ food_source['uri'] }}">
-			<h2>{{ food_source['name'] }}</h2>
-			<p class="type">Community Garden</p>
-			<p>{{ food_source['address'] | escape }}</p>
-			{% if food_source['hours'] %}
-			<h3>Hours</h3>
-			<p>{{ food_source['hours'] | escape }}</p>
-			{% endif %}
-			<!--
-			<h3>Distance</h3>
-			<p>0.2 miles</p>
-			-->
-		</a>
-	</li>
-{% endfor %}
-</ul>
 
 <script src="/assets/js/list.js"></script>

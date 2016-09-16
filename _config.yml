@@ -14,5 +14,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://foodoasisla.github.io" # the base hostname & protocol for your site
 github_username: foodoasisla
 
-# Build settings
-markdown: kramdown
+exclude:
+    - rakefile
+
+keep_files:
+    - CNAME
+    - .nojekyll
+    - .git
+    - rakefile

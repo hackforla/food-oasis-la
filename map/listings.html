@@ -21,7 +21,7 @@ layout: null
 </head>
 <body>
 	{% include header.html %}
-	{% include find-food-link.html %}
+	{% include link-to-find-food.html %}
 
 	<div class='sidebar'>
 		<div class='heading' style="position: absolute; left: -9999px">
@@ -122,8 +122,10 @@ layout: null
 				}
 			  },
 				{% endfor %}
-			
-			{% for food_source in site.data['community_gardens_andrew'] %}
+
+// TBD: These are throwing errors so disable for now
+{% if false %}
+			{% for food_source in site.data['community-gardens_08-30'] %}
 			  {
 				"type": "Feature",
 				"geometry": {
@@ -142,7 +144,7 @@ layout: null
 			  },
 				{% endfor %}
 			
-			{% for food_source in site.data['farmers_markets_andrew'] %}
+			{% for food_source in site.data['farmers_markets_master'] %}
 			  {
 				"type": "Feature",
 				"geometry": {
@@ -160,6 +162,8 @@ layout: null
 				}
 			  },
 				{% endfor %}
+{% endif %}
+
 			],
 
 		}
