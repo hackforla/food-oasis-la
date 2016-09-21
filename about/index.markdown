@@ -80,7 +80,7 @@ To build a unified hub for Angelenos to easily find healthy food.
 
 ##Our Team
 
-Food Oasis Los Angeles was born at a Hack for LA as a collaboration between volunteers from all walks of life.
+Food Oasis Los Angeles was born at a Hack for LA as a collaboration between volunteers from all walks of life.[More about our team](/team)
 
 ##About Hack for LA
 
