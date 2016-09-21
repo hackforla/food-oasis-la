@@ -15,7 +15,7 @@ Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the
 FOLA’s platform is intended for use by: 
 
 
-###Food seekers
+### Food seekers
 <svg width="200" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 97.6 96.9" style="enable-background:new 0 0 97.6 96.9;" xml:space="preserve">
 <path id="XMLID_259_" d="M0,75.9c0.2-0.2,0.5-0.3,0.8-0.5c6-5.9,12.1-11.9,18.1-17.8c4.5-4.4,9.9-6.2,16.2-5.7
@@ -37,7 +37,7 @@ FOLA’s platform is intended for use by:
 LA community members affected by food Insecurity.
 FOLA is working to unify, process and create datasets that map the range of available Food resources. Customize which datasets are shown so you can see solutions that align with your personal preferences and needs.
 
-###Policy-makers
+### Policy-makers
 <svg width="200" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 77.7 119.1" style="enable-background:new 0 0 77.7 119.1;" xml:space="preserve">
 <path id="XMLID_14_" d="M2.5,28.8c2.8,5.1,5.8,10.2,8.6,15.2c0.5,0.9,0.9,1.8,1,2.8c0.2,2.3,0.3,4.6,0.3,6.9
@@ -57,7 +57,7 @@ Policy-makers including politicians, non-profit organizations and community memb
 Find existing solutions along with “Food Deserts” and outcomes like health metrics and poverty rates. Take advantage of the visual information to
 fight Food Insecurity in your communities.
 
-###Volunteers
+### Volunteers
 <svg width="200" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 109.7 116.7" style="enable-background:new 0 0 109.7 116.7;" xml:space="preserve">
 <path id="XMLID_293_" d="M46.7,95.2c0.4-2.1,0.9-4.2,1.3-6.3c0.6-3.2,1.2-6.3,1.6-9.5c0.1-0.7-0.1-1.4-0.4-2c-0.5-1.1-1.4-2-1.9-3.1
@@ -78,12 +78,10 @@ Many Angelinos – those affected by Food Insecurity and those not – are askin
 
 To build a unified hub for Angelenos to easily find healthy food.
 
-##Our Team
+## Our Team
 
 Food Oasis Los Angeles was born at a Hack for LA as a collaboration between volunteers from all walks of life. [More about our team](/team)
 
-##About Hack for LA
+## About Hack for LA
 
 Hack for LA is the official Los Angeles chapter of Code for America, a national nonprofit that believes government can work for the people, by the people, in the 21st century. At our weekly Civic Hack Nights, we organize groups of volunteers to build technology addressing the LA region's biggest civic issues. We welcome technologists, government officials, designers, students, activists, entrepreneurs and community members to join us and collaboratively create a better Los Angeles.
-
-

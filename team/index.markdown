@@ -6,11 +6,11 @@ title: Team – Food Oasis Los Angeles
 color: strawberry
 ---
 
-#Our Team and Project Challenges
+# Our Team and Project Challenges
 
 The volunteers that participate at Hack for LA come with different backgrounds and interests, brought together with the single objective of creating a platform that facilitates the fight against the Food Deserts issue. Below is more information about each of the three working groups and their project challenges.
 
-##Front/Back End Development Team
+## Front/Back End Development Team
 
 It is the responsibility of the Front/Back End Development team to create FOLA’s website, which centers around a list of food sources in Los Angeles presented on a map. We're aiming to have an experience that's similar to what you might see on Yelp (yelp.com), where you can enter your location and find food banks, community gardens, and farmer's markets near you.
  
@@ -20,20 +20,20 @@ It took some time to learn each of these tools and services, and how to use them
 
 The tools and services we’re using are very good, and provide most of what we need. But we’d definitely benefit from having a sponsor if the site started to get a lot of traffic, since that would mean we’d have to start paying for these tools (they’re generally free up to a limit like 2,500 views per day).
  
-###Challenges:
+### Challenges:
 
 Developing back end skills
 Developing mapping online skills
 Funding for hosting
 
 
-##The Mapping Team
+## The Mapping Team
 
 The mapping team brings together datasets that are relevant to Food Security issues. This involves data aggregation, cleaning and creation. A variety of file types are used including shapefiles, CSVs and spreadsheets. To edit, style and create polygon-type geospatial geometries, the team uses QGIS. 
 
 Data comes from a variety of sources including the Los Angeles County Data Portal, the Los Angeles City Data Portal and governmental agencies. We have also received custom datasets from local activists and organizations. Finally, FOLA has begun to create it’s own datasets to capture information when none are available. 
 
-###Challenges: 
+### Challenges: 
 
 Figuring out what data to collect
 Finding up-to-date datasets
@@ -45,13 +45,13 @@ Creating analysis layers
 Manual data entry
 
 
-##The User Interface, User Experience and Graphics Team
+## The User Interface, User Experience and Graphics Team
 
 The UI/UX and Graphics Team develops the overall look and feel of the website with the goal of creating a unified visual identity. We began by brainstorming about how branding would reinforce the overall mission of FOLA. This included finding a name for the project, creating mood boards, considering the user experience of FOLA, determining FOLA’s user groups and how they will navigate the site as well as graphics required for the website. 
 
 Graphics were created using Adobe Illustrator & InDesign and The Noun Project. Wireframing was done using Wix. 
 
-###Challenges
+### Challenges
 
 Maintaining clarity, simplicity and consistency, so navigation becomes intuitive
 Effectively harnessing the graphic capabilities of online mapping platforms
