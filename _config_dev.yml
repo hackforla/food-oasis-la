@@ -1,8 +1,7 @@
 
-# Exclude list and detail pages, since they rarely change and take a long time to build.
-
 exclude:
-    - rakefile
+
+    # Exclude list and detail pages, since they rarely change and take a long time to build.
     - list
     - community-garden
     - community-garden
@@ -10,12 +9,13 @@ exclude:
     - food-bank
     - grocery-store
     - supermarket
+
+    # These files are unique to the “site” repository.
+    - rakefile
 
 keep_files:
-    - CNAME
-    - .nojekyll
-    - .git
-    - rakefile
+
+    # Keep the list and detail pages, if they exist.
     - list
     - community-garden
     - community-garden
@@ -23,3 +23,8 @@ keep_files:
     - food-bank
     - grocery-store
     - supermarket
+
+    # These files are unique to the “foodoasisla.github.io” repository.
+    - .nojekyll
+    - .gitignore
+    - .git

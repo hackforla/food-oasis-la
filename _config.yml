@@ -8,17 +8,17 @@
 # Site settings
 title: Food Oasis Los Angeles
 email: fooddesertsla@gmail.com
-description: >
-  This website was put together during the Civic Hack Nights at hackforla.org, a part of http://codeforamerica.org
+description: This website was put together during the Civic Hack Nights at hackforla.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://foodoasisla.github.io" # the base hostname & protocol for your site
+url: "http://foodoasis.la" # the base hostname & protocol for your site
 github_username: foodoasisla
 
+# These files are unique to the “site” repository.
 exclude:
     - rakefile
 
+# These files are unique to the “foodoasisla.github.io” repository.
 keep_files:
-    - CNAME
     - .nojekyll
+    - .gitignore
     - .git
-    - rakefile
