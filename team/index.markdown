@@ -1,3 +1,11 @@
+---
+layout: default
+
+title: Team – Food Oasis Los Angeles
+
+color: strawberry
+---
+
 #Our Team and Project Challenges
 
 The volunteers that participate at Hack for LA come with different backgrounds and interests, brought together with the single objective of creating a platform that facilitates the fight against the Food Deserts issue. Below is more information about each of the three working groups and their project challenges.
