@@ -2,7 +2,7 @@
 # Food Oasis
 
 This is a website with a map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
-https://foodoasisla.github.io
+https://foodoasis.la
 
 ## How to make changes
 
