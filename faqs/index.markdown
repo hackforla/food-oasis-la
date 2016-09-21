@@ -15,7 +15,7 @@ Supermarket greater than 1 mile (½ mile in LA)
 ## What is food insecurity?
 Access to nutritionally adequate food is limited or uncertain
 
-## What is a food deserts?
+## What is a food desert?
 While there are many ways to define a food desert, the Healthy Food Financing Initiative (HFFI) Working Group considers a food desert as a low-income census tract where a substantial number or share of residents has low access to a supermarket or large grocery store. To qualify as low-income, census tracts must meet the Treasury Department's New Markets Tax Credit (NMTC) program eligibility criteria. Furthermore, to qualify as a food desert tract, at least 33 percent of the tract's population or a minimum of 500 people in the tract must have low access to a supermarket or large grocery store. 
 
 ## What does a food desert look like in Los Angeles?
