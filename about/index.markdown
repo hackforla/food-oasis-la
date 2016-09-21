@@ -15,7 +15,7 @@ Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the
 FOLA’s platform is intended for use by: 
 
 
-###FOOD SEEKERS
+###Food seekers
 <svg width="200" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 97.6 96.9" style="enable-background:new 0 0 97.6 96.9;" xml:space="preserve">
 <path id="XMLID_259_" d="M0,75.9c0.2-0.2,0.5-0.3,0.8-0.5c6-5.9,12.1-11.9,18.1-17.8c4.5-4.4,9.9-6.2,16.2-5.7
@@ -37,12 +37,12 @@ FOLA’s platform is intended for use by:
 LA community members affected by food Insecurity.
 FOLA is working to unify, process and create datasets that map the range of available Food resources. Customize which datasets are shown so you can see solutions that align with your personal preferences and needs.
 
-###POLICY-MAKERS
+###Policy-makers
 Policy-makers including politicians, non-profit organizations and community members. 
 Find existing solutions along with “Food Deserts” and outcomes like health metrics and poverty rates. Take advantage of the visual information to
 fight Food Insecurity in your communities.
 
-###VOLUNTEERS
+###Volunteers
 Concerned citizens who want to get involved. 
 Many Angelinos – those affected by Food Insecurity and those not – are asking: How can I help? FOLA’s platform aims to connect concerned individuals with opportunities to volunteer, donate and get involved in Food Security activism.
 
