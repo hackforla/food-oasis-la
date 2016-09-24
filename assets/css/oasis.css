@@ -648,10 +648,6 @@
 		display: inline;
 	}
 
-	nav.search form {
-
-	}
-
 
 	/* =Footer
 	----------------------------------------------- */
@@ -1064,6 +1060,15 @@
 		}
 	}
 
+	.map-filters ul {
+		margin-top: 0;
+	}
+	.map-filters ul,
+	.map-filters li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
 	.map-filters button {
 		background-image: none;
 		min-width: 12em;
