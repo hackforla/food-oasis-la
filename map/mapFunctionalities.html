@@ -3,12 +3,13 @@ layout: default
 ---
 
 <script src="mapJsonData.js"></script>
+
 <script> 
 
 var latitude = 34.0394605;
 var longitude = -118.4428459;
 
-function sortByClosest(latitude, longitude) {
+	function sortByClosest(latitude, longitude) {
 		var list = [];
 		for (index = 0; index < locations.length; ++index) {
 			var dif = PythagorasEquirectangular(latitude, longitude, locations[index].latitude, locations[index].longitude);

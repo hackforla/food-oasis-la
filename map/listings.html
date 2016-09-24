@@ -64,7 +64,8 @@ layout: null
 	<!-- Jim’s Google Maps API key -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 	
-	<script src="mapFunctionalities.js"></script>
+	<script src="mapFunctionalities.html"></script>
+	<script src="mapJsonData.js"></script> 
 	
 	<script>
 		// This will let you use the .remove() function later on
@@ -333,6 +334,7 @@ layout: null
 					console.error("Unable to retrieve your location");
 				});
 			}
+			console.log('current coords ' + myCoords);
 		}
 
 		function moveMapToPosition(position) {
@@ -498,7 +500,7 @@ layout: null
 			// });
 
 			// Initialize the list
-			buildLocationList(stores);
+			buildLocationList(locations);
 
 		});
 
