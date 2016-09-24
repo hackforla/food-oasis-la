@@ -35,6 +35,7 @@ layout: null
 		<li><button onclick="foodBankFilter()" id="fb-filter">Food Banks</button></li>
 		<li><button onclick="communityGardenFilter()" id="cg-filter">Community Gardens</button></li>
 		<li><button onclick="farmersMarketFilter()" id="fm-filter">Farmers’ Markets</button></li>
+		<li><button onclick="supermarketFilter()" id="fm-filter">Supermarkets</button></li>
 	</ul>
 
 	<!--<ul class="filters">
@@ -77,7 +78,7 @@ layout: null
 			};
 		}
 
-		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZGRlc2VydHNsYSIsImEiOiJjaXByOXRscnMwNzY1Zm5ub3YwYTd5Z3dsIn0.DWgUhgW32pVkybKx7cWWiw';
+		mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 		// This adds the map to your page
 		var map = new mapboxgl.Map({
 		  container: 'map',
@@ -107,7 +108,7 @@ layout: null
 			"type": "FeatureCollection",
 			"features": [
 
-			{% for food_source in site.data['food_banks_andrew'] %}
+			{% for food_source in site.data['food-banks'] %}
 			  {
 				"type": "Feature",
 				"geometry": {
@@ -119,9 +120,9 @@ layout: null
 				},
 				"properties": {
 						"name": "{{ food_source['name'] }}",
-				  "phone": "{{ food_source['phone'] }}",
+				  //"phone": "{{ food_source['phone'] }}",
 				  "address": "{{ food_source['address'] }}",
-						"hours": "{{ food_source['hours'] }}",
+						//"hours": "{{ food_source['hours'] }}",
 						"type": "food-bank"
 				}
 			  },
@@ -129,7 +130,7 @@ layout: null
 
 // TBD: These are throwing errors so disable for now
 {% if false %}
-			{% for food_source in site.data['community-gardens_08-30'] %}
+			{% for food_source in site.data['community-gardens'] %}
 			  {
 				"type": "Feature",
 				"geometry": {
@@ -148,7 +149,7 @@ layout: null
 			  },
 				{% endfor %}
 			
-			{% for food_source in site.data['farmers_markets_master'] %}
+			{% for food_source in site.data['farmers-markets'] %}
 			  {
 				"type": "Feature",
 				"geometry": {
@@ -163,6 +164,25 @@ layout: null
 						"name": "{{ food_source['name'] }}",
 				 "address": "{{ food_source['address'] }}",
 						"type": "farmers-market"
+				}
+			  },
+				{% endfor %}
+			
+			{% for food_source in site.data['supermarkets'] %}
+			  {
+				"type": "Feature",
+				"geometry": {
+				  "type": "Point",
+				  "coordinates": [
+					{{ food_source['longitude'] }},
+							 {{ food_source['latitude'] }}
+				  ]
+				},
+
+				"properties": {
+						"name": "{{ food_source['name'] }}",
+				 "address": "{{ food_source['StreetAddress'] }}",
+						"type": "supermarket"
 				}
 			  },
 				{% endfor %}
@@ -273,6 +293,22 @@ layout: null
 				cm[i].style.visibility = "visible";
 			}
 			cgClicked = true;
+		}
+	}
+
+	var smClicked = true; 
+	function supermarketFilter() {
+		var sm = document.getElementsByClassName("supermarket-marker");
+		if(sgClicked === true){
+			for(var i = 0; i < sm.length; i++) {
+				sm[i].style.visibility = "hidden";
+			}
+			sgClicked = false;
+		} else {
+			for(var i = 0; i < sm.length; i++) {
+				sm[i].style.visibility = "visible";
+			}
+			sgClicked = true;
 		}
 	}
 
@@ -545,6 +581,8 @@ layout: null
 				el.className = 'farmers-market-marker'
 			} else if (marker.properties.type === "community-garden") {
 				el.className = 'community-garden-marker'
+			} else if (marker.properties.type === "supermarket") {
+				el.className = 'supermarket-marker'
 			}
 
 			// By default the image for your custom marker will be anchored

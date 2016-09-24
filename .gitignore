@@ -7,4 +7,5 @@
 ######################
 .sass-cache
 _site/
+_data/old/
 /.jekyll-metadata
