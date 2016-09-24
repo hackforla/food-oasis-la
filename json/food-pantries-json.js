@@ -1,0 +1,22 @@
+---
+layout: null
+---
+
+var locations = [
+
+    {% for food_source in site.data['food-pantries'] %}
+
+        {
+            name: "{{ food_source['GardenName'] }}",
+            type: "Community Garden",
+            address: "{{ food_source['StreetAddress'] }}, {{ food_source['City'] }}, {{ food_source['State'] }} {{ food_source['Zipcode'] }}",
+            phone: "{{ food_source['phone'] }}",
+            hours: "{{ food_source['hours'] }}",
+            latitude: {{ food_source['Latitude'] }},
+            longitude: {{ food_source['Longitude'] }},
+            distance: null
+
+        },
+
+    {% endfor %}
+];
