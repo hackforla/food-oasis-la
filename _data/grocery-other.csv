@@ -1,0 +1,2390 @@
+UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
+,Pinchers Liquor,5121 W Pico Blvd,Los Angeles,CA,90019,34.048077,-118.35003
+,Grace Liquor,4700 Marine Ave,Lawndale,CA,90260,33.894611,-118.35979
+,Golden Liquor,2895 E Colorado Blvd,Pasadena,CA,91107,34.146233,-118.09061
+,Helen's Liquor,12512 Atlantic Ave,Lynwood,CA,90262,33.908669,-118.19251
+,Rite Aid,446 E Washington Blvd,Los Angeles,CA,90015,34.028896,-118.26023
+,Rite Aid,5490 Whittier Blvd,Commerce,CA,90022,34.019257,-118.15211
+,Rite Aid,3230 W Slauson Ave,Los Angeles,CA,90043,33.988983,-118.32942
+,Rite Aid,11750 Wilmington Ave,Los Angeles,CA,90059,33.926739,-118.23901
+,Rite Aid,3550 S la Brea Ave,Los Angeles,CA,90016,34.022045,-118.35556
+,Rite Aid,6959 Eastern Ave,Bell Gardens,CA,90201,33.969555,-118.16468
+,Rite Aid,7859 Firestone Blvd,Downey,CA,90241,33.944275,-118.14072
+,Rite Aid,6360 Pacific Blvd,Huntington Park,CA,90255,33.98196,-118.22517
+,Rite Aid,11325 Long Beach Blvd,Lynwood,CA,90262,33.928127,-118.211
+,Rite Aid,4410 Slauson Ave,Maywood,CA,90270,33.987221,-118.18687
+,Rite Aid,11340 Crenshaw Blvd,Inglewood,CA,90303,33.931572,-118.32635
+,Rite Aid,7860 Norwalk Blvd,Whittier,CA,90606,33.973789,-118.07449
+,Rite Aid,802 W Beverly Blvd,Montebello,CA,90640,34.017239,-118.106
+,Rite Aid,15924 Bellflower Blvd,Bellflower,CA,90706,33.888866,-118.12525
+,Rite Aid,5520 Woodruff Ave,Lakewood,CA,90713,33.857174,-118.117
+,Rite Aid,8447 Alondra Blvd,Paramount,CA,90723,33.889343,-118.15252
+,Rite Aid,2150 S Atlantic Blvd,Monterey Park,CA,91754,34.038574,-118.14468
+,Rite Aid,8914 Valley Blvd,Rosemead,CA,91770,34.080753,-118.0749
+,Rite Aid,1001 N Central Ave,Compton,CA,90222,33.906586,-118.25458
+,Rite Aid,959 Crenshaw Blvd,Los Angeles,CA,90019,34.055092,-118.32283
+,Rite Aid,1535 E Florence Ave,Los Angeles,CA,90001,33.974808,-118.24643
+,Rite Aid,500 S Broadway,Los Angeles,CA,90013,34.047932,-118.25075
+,Rite Aid,1433 Glendale Blvd,Los Angeles,CA,90026,34.080933,-118.26025
+,Rite Aid,111 E Avenue 26,Los Angeles,CA,90031,34.076527,-118.21527
+,Rite Aid,4322 S Figueroa St,Los Angeles,CA,90037,34.004871,-118.2827
+,Rite Aid,1130 N la Brea Ave,West Hollywood,CA,90038,34.091511,-118.34405
+,Rite Aid,4044 Eagle Rock Blvd,Los Angeles,CA,90065,34.120735,-118.22722
+,Rite Aid,6305 York Blvd,Highland Park,CA,90042,34.114708,-118.18217
+,Rite Aid,39 Las Tunas Dr,Arcadia,CA,91007,34.107567,-118.03287
+,Rite Aid,1335 Huntington Dr,Duarte,CA,91010,34.139717,-117.97655
+,Rite Aid,304 W Huntington Dr,Monrovia,CA,91016,34.140263,-118.00536
+,Rite Aid,153 E Gladstone St,Azusa,CA,91702,34.114277,-117.90668
+,Rite Aid,139 N Grand Ave,Covina,CA,91724,34.08717,-117.87264
+,Rite Aid,3570 Santa Anita Ave,El Monte,CA,91731,34.074261,-118.04151
+,Rite Aid,13905 Amar Rd,La Puente,CA,91746,34.053265,-117.97391
+,Rite Aid,1480 Foothill Blvd,La Verne,CA,91750,34.116558,-117.77522
+,Rite Aid,611 E Holt Ave,Pomona,CA,91767,34.062687,-117.73861
+,Rite Aid,933 W Arrow Hwy,San Dimas,CA,91773,34.1068,-117.82541
+,Rite Aid,9450 Las Tunas Dr,Temple City,CA,91780,34.106113,-118.06483
+,Rite Aid,1528 E Amar Rd,West Covina,CA,91792,34.030869,-117.91417
+,Rite Aid,920 E Valley Blvd,Alhambra,CA,91801,34.079033,-118.1137
+,Rite Aid,69 E Main St,Alhambra,CA,91801,34.095795,-118.12567
+,Rite Aid,165 E Foothill Blvd,Arcadia,CA,91006,34.151112,-118.02637
+,Rite Aid,2059 S Garey Ave,Pomona,CA,91766,34.03389,-117.74937
+,Rite Aid,4200 Chino Hills Pkwy,Chino Hills,CA,91709,33.982738,-117.71253
+,Rite Aid,12059 Central Ave,Chino,CA,91710,34.034161,-117.68937
+,Rite Aid,18993 Colima Rd,Rowland Heights,CA,91748,33.987595,-117.8894
+,Rite Aid,2060 S Hacienda Blvd,Hacienda Heights,CA,91745,33.99593,-117.96806
+,Rite Aid,2797 S Diamond Bar Blvd,Diamond Bar,CA,91765,33.974751,-117.83725
+,Service Liquor Store,3803 W 3rd St,Los Angeles,CA,90020,34.069088,-118.29796
+,Ramona Liquor and Deli Market,13750 Ramona Blvd,Baldwin Park,CA,91706,34.083351,-117.97275
+,Rite Aid,44226 10th St W,Lancaster,CA,93534,34.686501,-118.14796
+,Rite Aid,37950 47th St E,Palmdale,CA,93552,34.571705,-118.04494
+,Rite Aid,600 W 7th St,Los Angeles,CA,90017,34.047466,-118.25696
+,Rite Aid,2547 W Rosamond Blvd,Rosamond,CA,93560,34.864243,-118.177
+,Rite Aid,2419 E Avenue S,Palmdale,CA,93550,34.558167,-118.08525
+,Rite Aid,3105 Rancho Vista Blvd,Palmdale,CA,93551,34.602264,-118.18589
+,ANATEL LIQUORS,9414 Telegraph Rd,Downey,CA,90240,33.955547,-118.1023
+,Rite Aid,735 E Altadena Dr,Altadena,CA,91001,34.190094,-118.13297
+,Rite Aid,914 Fair Oaks Ave,South Pasadena,CA,91030,34.115631,-118.15029
+,Rite Aid,10465 Sunland Blvd,Sunland,CA,91040,34.259823,-118.32645
+,Rite Aid,3745 E Foothill Blvd,Pasadena,CA,91107,34.150303,-118.07213
+,Rite Aid,531 N Glendale Ave,Glendale,CA,91206,34.153908,-118.24347
+,Rite Aid,2647 Foothill Blvd,La Crescenta,CA,91214,34.221909,-118.23621
+,Rite Aid,6310 PLATT AVE,WEST HILLS,CA,91307,34.186649,-118.64278
+,Rite Aid,18444 Plummer St,Northridge,CA,91325,34.242722,-118.53531
+,Rite Aid,12739 Van Nuys Blvd,Pacoima,CA,91331,34.274761,-118.41032
+,Rite Aid,14727 Rinaldi St,San Fernando,CA,91340,34.280186,-118.45423
+,Rite Aid,13237 Gladstone Ave,Sylmar,CA,91342,34.311539,-118.42934
+,Rite Aid,10811 Zelzah Ave,Granada Hills,CA,91344,34.266445,-118.5235
+,Rite Aid,8400 Van Nuys Blvd,Panorama City,CA,91402,34.222771,-118.44868
+,Rite Aid,7239 Woodman Ave,Van Nuys,CA,91405,34.202431,-118.4313
+,Rite Aid,17266 Saticoy St,Van Nuys,CA,91406,34.208366,-118.50908
+,Rite Aid,13333 Riverside Dr,Sherman Oaks,CA,91423,34.157669,-118.4235
+,Rite Aid,935 N Hollywood Way,Burbank,CA,91505,34.167248,-118.34674
+,Rite Aid,10989 Ventura Blvd,Studio City,CA,91604,34.140408,-118.36993
+,Rite Aid,11350 Victory Blvd,North Hollywood,CA,91606,34.186653,-118.37885
+,Rite Aid,12511 Magnolia Blvd,Valley Village,CA,91607,34.164909,-118.40596
+,Rite Aid,1035 E Colorado Blvd,Pasadena,CA,91106,34.145985,-118.12902
+,Rite Aid,1421 E Washington Blvd,Pasadena,CA,91104,34.169098,-118.12111
+,Rite Aid,5747 Kanan Rd,Agoura Hills,CA,91301,34.155296,-118.7566
+,Rite Aid,8230 Topanga Canyon Blvd,Canoga Park,CA,91304,34.219471,-118.60596
+,Rite Aid,20141 Sherman Way,Canoga Park,CA,91306,34.201168,-118.57244
+,Rite Aid,10120 Mason Ave,Chatsworth,CA,91311,34.254059,-118.57977
+,Rite Aid,17864 Ventura Blvd,Encino,CA,91316,34.163425,-118.52186
+,Rite Aid,10349 Sepulveda Blvd,Mission Hills,CA,91345,34.258438,-118.46753
+,Rite Aid,26825 Bouquet Canyon Rd,Saugus,CA,91350,34.433548,-118.53058
+,Rite Aid,16642 Soledad Canyon Rd,Canyon Country,CA,91387,34.426575,-118.42661
+,Rite Aid,23335 Lyons Ave,Santa Clarita,CA,91355,34.379826,-118.54198
+,Rite Aid,3825 E Thousand Oaks Blvd,THOUSAND OAKS,CA,91362,34.162956,-118.82645
+,Rite Aid,21949 Ventura Blvd,Woodland Hills,CA,91364,34.168537,-118.60484
+,Rite Aid,27716 McBean Pkwy,Valencia,CA,91354,34.444653,-118.55328
+,Rite Aid,16930 Parthenia St,Northridge,CA,91343,34.228462,-118.50107
+,Rite Aid,4710 Commons Way,Calabasas,CA,91302,34.153786,-118.64452
+,Rite Aid,8508 Painter Ave,Whittier,CA,90602,33.96117,-118.03474
+,Rite Aid,4037 Ball Rd,Cypress,CA,90630,33.817688,-118.06239
+,Rite Aid,951 N Harbor Blvd,La Habra,CA,90631,33.94054,-117.93311
+,Rite Aid,12319 Norwalk Blvd,Norwalk,CA,90650,33.919121,-118.0727
+,Rite Aid,405 W Imperial Hwy,Brea,CA,92821,33.917557,-117.90347
+,Rite Aid,6512 Comstock Ave,Whittier,CA,90601,33.982262,-118.03854
+,Rite Aid,15800 Imperial Hwy,La Mirada,CA,90638,33.917229,-117.99433
+,Rite Aid,220 E Grand Ave,El Segundo,CA,90245,33.919346,-118.41403
+,Rite Aid,1208 W Redondo Beach Blvd,Gardena,CA,90247,33.892292,-118.29637
+,Rite Aid,23 Peninsula Ctr,Rolling Hills Estates,CA,90274,33.775253,-118.37566
+,Rite Aid,401 N Pacific Coast Hwy,Redondo Beach,CA,90277,33.836369,-118.38533
+,Rite Aid,1720 Aviation Blvd,Redondo Beach,CA,90278,33.871113,-118.38233
+,Rite Aid,2240 Sepulveda Blvd,Torrance,CA,90501,33.820347,-118.32117
+,Rite Aid,1237 W Carson St,Torrance,CA,90502,33.831612,-118.29785
+,Rite Aid,501 S Gaffey St,San Pedro,CA,90731,33.73938,-118.29237
+,Rite Aid,28100 S Western Ave,San Pedro,CA,90732,33.76432,-118.31114
+,Rite Aid,108 W Anaheim St,Wilmington,CA,90744,33.779896,-118.26308
+,Rite Aid,601 Pine Ave,Long Beach,CA,90802,33.774372,-118.19241
+,Rite Aid,5670 E 2nd St,Long Beach,CA,90803,33.756813,-118.12311
+,Rite Aid,3300 E Anaheim St,Long Beach,CA,90804,33.782574,-118.15339
+,Rite Aid,4402 Atlantic Ave,Long Beach,CA,90807,33.83762,-118.18469
+,Rite Aid,6400 E Spring St,Long Beach,CA,90815,33.810394,-118.10641
+,Rite Aid,5545 E Stearns St,Long Beach,CA,90815,33.796127,-118.12367
+,Rite Aid,1890 Ximeno Ave,Long Beach,CA,90815,33.790581,-118.13881
+,Rite Aid,5128 E 2nd St,Long Beach,CA,90803,33.760406,-118.13537
+,Rite Aid,3860 Sepulveda Blvd,Torrance,CA,90505,33.825657,-118.3532
+,Rite Aid,211 Cherry Ave,Long Beach,CA,90802,33.766968,-118.16798
+,Rite Aid,300 E Willow St,Long Beach,CA,90806,33.804314,-118.18854
+,Rite Aid,1207 Pacific Coast Hwy,Harbor City,CA,90710,33.789787,-118.29802
+,Rite Aid,226 N Larchmont Blvd,Los Angeles,CA,90004,34.07547,-118.3236
+,Rite Aid,334 S Vermont Ave,Los Angeles,CA,90020,34.068447,-118.29159
+,Rite Aid,1815 S Vermont Ave,Los Angeles,CA,90006,34.0411,-118.29164
+,Rite Aid,1001 S Glendon Ave,Los Angeles,CA,90024,34.062504,-118.44408
+,Rite Aid,1637 N Vermont Ave,Los Angeles,CA,90027,34.100727,-118.29183
+,Rite Aid,1841 N Western Ave,Los Angeles,CA,90027,34.104252,-118.30933
+,Rite Aid,6130 W Sunset Blvd,Hollywood,CA,90028,34.097958,-118.32275
+,Rite Aid,4633 Santa Monica Blvd,Los Angeles,CA,90029,34.090927,-118.29033
+,Rite Aid,9864 National Blvd,Los Angeles,CA,90034,34.031124,-118.40117
+,Rite Aid,7900 W Sunset Blvd,Los Angeles,CA,90046,34.098022,-118.36201
+,Rite Aid,1744 W 6th St,Los Angeles,CA,90017,34.057869,-118.27126
+,Rite Aid,11321 National Blvd,Los Angeles,CA,90064,34.025845,-118.4323
+,Rite Aid,4046 S Centinela Ave,Los Angeles,CA,90066,33.998547,-118.42958
+,Rite Aid,463 N Bedford Dr,Beverly Hills,CA,90210,34.06868,-118.40588
+,Rite Aid,300 N Canon Dr,Beverly Hills,CA,90210,34.069279,-118.39951
+,Rite Aid,3802 Culver Ctr,Culver City,CA,90232,34.017769,-118.40771
+,Rite Aid,11096 Jefferson Blvd,Culver City,CA,90230,33.996769,-118.39529
+,Rite Aid,888 Lincoln Blvd,Venice,CA,90291,33.99868,-118.46221
+,Rite Aid,1331 Wilshire Blvd,Santa Monica,CA,90403,34.026543,-118.48928
+,Rite Aid,1808 Wilshire Blvd,Santa Monica,CA,90403,34.029987,-118.48488
+,Rite Aid,2412 Pico Blvd,Santa Monica,CA,90405,34.022102,-118.46442
+,Rite Aid,5575 Wilshire Blvd,Los Angeles,CA,90036,34.062366,-118.35017
+,Chevron,1209 S Sunset Ave,West Covina,CA,91790,34.061024,-117.9465
+,Bud Liquor Market,1298 E 4th St,Long Beach,CA,90802,33.771683,-118.17462
+,YOUNGS LIQUOR,3800 W El Segundo Blvd,Hawthorne,CA,90250,33.916367,-118.33962
+,Ed's Liquor,6616 Rosemead Blvd,Pico Rivera,CA,90660,33.985172,-118.09521
+,7-Eleven,1201 Centinela Ave,Inglewood,CA,90302,33.976395,-118.35976
+,RED'S LIQUOR #2,1201 W Century Blvd,Los Angeles,CA,90044,33.945518,-118.29625
+,PLAZA LIQUOR,10530 Garvey Ave,El Monte,CA,91733,34.062691,-118.04321
+,Lucky Liquor Market,1045 E South St,Long Beach,CA,90805,33.860138,-118.17991
+,7 & 7 Liquor,13654 Victory Blvd,Van Nuys,CA,91401,34.186653,-118.43065
+,GRAND PRIZE LIQUOR MARKET,4555 W Washington Blvd,Los Angeles,CA,90016,34.039894,-118.33899
+,7-Eleven,1075 N Grand Ave,Covina,CA,91724,34.099098,-117.87273
+,Vista Liquor,625 S Gaffey St,San Pedro,CA,90731,33.738251,-118.29238
+,DALE'S LIQUOR,8717 Woodman Ave,Arleta,CA,91331,34.228428,-118.43494
+,Walgreens,4009 Lincoln Blvd,Marina del Rey,CA,90292,33.990211,-118.44766
+,Walgreens,1344 W Redondo Beach Blvd,Gardena,CA,90247,33.891457,-118.29994
+,Walgreens,1800 W Slauson Ave,Los Angeles,CA,90047,33.989124,-118.30925
+,Al's Liquor,10751 S Figueroa St,Los Angeles,CA,90061,33.938412,-118.28265
+,Walgreens,1501 W Whittier Blvd,Montebello,CA,90640,34.011944,-118.11749
+,RIVERA MARKET & LIQUOR,8320 Rosemead Blvd,Pico Rivera,CA,90660,33.964874,-118.10797
+,SD LIQUOR MARKET INC,14233 Leffingwell Rd,Whittier,CA,90604,33.923218,-118.02789
+,TOWNE SHOPPE LIQUORS,1201 S Garey Ave,Pomona,CA,91766,34.04858,-117.74992
+,JOHN'S LIQUOR,9551 1/2 Telegraph Rd,Pico Rivera,CA,90660,33.953873,-118.09939
+,JIM'S LIQUOR,630 E Mission Blvd,Pomona,CA,91766,34.055222,-117.74414
+,7-Eleven,10011 Mills Ave,Whittier,CA,90604,33.942688,-118.02809
+,7-Eleven,5536 E Washington Blvd,Commerce,CA,90040,34.00037,-118.1601
+,Walgreens,1625 W Sunset Blvd,Los Angeles,CA,90026,34.077106,-118.25808
+,7-Eleven,512 S Chapel Ave,Alhambra,CA,91801,34.091316,-118.1199
+,Walgreens,7155 Van Nuys Blvd,Van Nuys,CA,91405,34.200684,-118.44878
+,Walgreens,17010 Chatsworth St,Granada Hills,CA,91344,34.264744,-118.50259
+,Walgreens,831 E Avenue K,Lancaster,CA,93535,34.67503,-118.11278
+,Walgreens,9750 Woodman Ave,Arleta,CA,91331,34.248386,-118.44897
+,Walgreens,13231 Victory Blvd,Van Nuys,CA,91401,34.186707,-118.42167
+,Walgreens,20505 Sherman Way,Canoga Park,CA,91306,34.201157,-118.58017
+,Walgreens,1028 S San Fernando Blvd,Burbank,CA,91502,34.174137,-118.29938
+,Walgreens,18430 Sherman Way,Reseda,CA,91335,34.201054,-118.53419
+,Walgreens,37160 47th St E,Palmdale,CA,93552,34.557301,-118.04529
+,Walgreens,5451 W Sunset Blvd,Los Angeles,CA,90027,34.098137,-118.30843
+,TY'S LIQUOR,16024 Pioneer Blvd,Norwalk,CA,90650,33.885521,-118.08239
+,Rite Aid,1700 W Whittier Blvd,La Habra,CA,90631,33.939514,-117.96499
+,FRIENDLY LIQUOR,1261 E Florence Ave,Los Angeles,CA,90001,33.974777,-118.25222
+,JOHNNY'S LIQUOR,2615 Fair Oaks Ave,Altadena,CA,91001,34.190475,-118.14932
+,TED'S LIQUOR,10145 Atlantic Ave,South Gate,CA,90280,33.939026,-118.18186
+,BOTTOM UP LIQUOR,6424 S Vermont Ave,Los Angeles,CA,90044,33.980381,-118.2914
+,"THE HOUSE OF SPIRITS LIQUOR, INC",1314 Echo Park Ave,Los Angeles,CA,90026,34.077278,-118.25698
+,Walgreens,22930 S Western Ave,Torrance,CA,90501,33.817142,-118.30884
+,PAT'S LIQUOR JR MARKET,2769 Sierra Hwy,Rosamond,CA,93560,34.861069,-118.16286
+,Walgreens,7560 Topanga Canyon Blvd,Canoga Park,CA,91303,34.207836,-118.6059
+,Walgreens,18515 Devonshire St,Northridge,CA,91324,34.257317,-118.53743
+,Walgreens,5224 Coldwater Canyon Ave,Van Nuys,CA,91401,34.16568,-118.41376
+,Walgreens,20901 Devonshire St,Chatsworth,CA,91311,34.257278,-118.58887
+,Walgreens,2840 W Avenue L,Lancaster,CA,93536,34.660252,-118.18225
+,FREEWAY LIQUOR,130 N Vincent Ave,West Covina,CA,91790,34.074089,-117.92631
+,KWIK STOP LIQUOR 3,39553 Sierra Hwy,Palmdale,CA,93550,34.601414,-118.12128
+,LIQUORLAND 7,944 N Azusa Ave,Azusa,CA,91702,34.138035,-117.90743
+,Gary's Liquor,5067 Melrose Ave,Los Angeles,CA,90038,34.083549,-118.31071
+,Walgreens,3339 E Anaheim St,Long Beach,CA,90804,33.782627,-118.15263
+,STAN'S LIQUOR,842 W Manchester Blvd,Inglewood,CA,90301,33.961403,-118.3715
+,All Star Liquor,2421 Lincoln Ave,Altadena,CA,91001,34.187321,-118.15977
+,HI WAY LIQUOR,11312 Garvey Ave,El Monte,CA,91732,34.062832,-118.0299
+,BOB'S FOOD MART & LIQUOR,10000 National Blvd,Los Angeles,CA,90034,34.029064,-118.40361
+,7-Eleven,1200 S Garfield Ave,Alhambra,CA,91801,34.080421,-118.12301
+,S & H LIQUOR,3006 W Manchester Blvd,Inglewood,CA,90305,33.959927,-118.32586
+,7-Eleven,10707 Lower Azusa Rd,El Monte,CA,91731,34.09277,-118.03497
+,LONG BEACH DELI AND LIQUOR,725 E 4th St,Long Beach,CA,90802,33.771748,-118.18297
+,7-Eleven,3100 Beverly Blvd,Los Angeles,CA,90057,34.071957,-118.2826
+,7-Eleven,1325 N Grand Ave,Walnut,CA,91789,34.046047,-117.84941
+,CVS,915 E Arrow Hwy,Azusa,CA,91702,34.106861,-117.89218
+,JIFFY MARKET & LIQUOR STORE,4057 Slauson Ave,Maywood,CA,90270,33.987976,-118.19319
+,Old L.A. Certified Farmers Market,N Figueroa and Ave 58,Los Angeles,CA,90042,34.109985,-118.19201
+,6TH AVENUE LIQUOR STORE,3526 W Washington Blvd,Los Angeles,CA,90018,34.039841,-118.32281
+,CENTURY DISCOUNT LIQUOR,4082 W Century Blvd,Inglewood,CA,90304,33.9454,-118.34674
+,Walgreens,27983 Sloan Canyon Rd,Castaic,CA,91384,34.494427,-118.62656
+,PARTY TIME LIQUOR,6031 Atlantic Ave,Long Beach,CA,90805,33.864281,-118.18514
+,Circle A Liquor Mini Market,172 S Glendora Ave,West Covina,CA,91790,34.087269,-117.86377
+,Buddy's Liquor,3231 S Central Ave,Los Angeles,CA,90011,34.014393,-118.25658
+,Circle H Markets and Liquor,2511 W Sunset Blvd,Los Angeles,CA,90026,34.079735,-118.26933
+,7-Eleven,18845 Sherman Way,Reseda,CA,91335,34.201199,-118.54434
+,CORK-N-BOTTLE LIQUOR,1302 E Artesia Blvd,Long Beach,CA,90805,33.874512,-118.17601
+,Pico Liquor,4621 Rosemead Blvd,Pico Rivera,CA,90660,34.00708,-118.08206
+,FRANKS LIQUOR STORE,5742 E Beverly Blvd,Los Angeles,CA,90022,34.026627,-118.14462
+,Dukes Liquor Store & Jr Market,818 S San Pedro St,Los Angeles,CA,90014,34.037998,-118.24957
+,DICK'S LIQUOR MARKET,9228 S Broadway,Los Angeles,CA,90003,33.952103,-118.27815
+,John's Liquor & Market,1667 N Avalon Blvd,Wilmington,CA,90744,33.797306,-118.26385
+,Sans Liquor,7911 S Van Ness Ave,Inglewood,CA,90305,33.96666,-118.31777
+,A&N LIQUOR,7831 S Alameda St,Los Angeles,CA,90001,33.967972,-118.23341
+,BIG BOB LIQUOR STORE & MARKET,1413 W Puente Ave,West Covina,CA,91790,34.082867,-117.93522
+,7 Day Liquor Mart,6100 Bellflower Blvd,Lakewood,CA,90713,33.865723,-118.12505
+,"D & D Liquor, Inc",9039 Somerset Blvd,Bellflower,CA,90706,33.89658,-118.14101
+,BILL'S LIQUOR,1544 Pacific Coast Hwy,Harbor City,CA,90710,33.789433,-118.30409
+,Walgreens,4142 Pacific Coast Hwy,Torrance,CA,90505,33.807392,-118.35716
+,Walgreens,14250 Prairie Ave,Hawthorne,CA,90250,33.90221,-118.34384
+,GAGE LIQUOR,6220 S San Pedro St,Los Angeles,CA,90003,33.982731,-118.26955
+,Jalco Liquor,2556 Durfee Ave,El Monte,CA,91732,34.053089,-118.02082
+,Joseph Liquor,11304 W Pico Blvd,Los Angeles,CA,90064,34.034866,-118.43925
+,ARCO,1927 E 1st St,Los Angeles,CA,90033,34.046139,-118.21647
+,7-Eleven,730 E Foothill Blvd,Pomona,CA,91767,34.107014,-117.73728
+,Amigos Liquor,3010 W 7th St,Los Angeles,CA,90005,34.0597,-118.28942
+,CVS,2103 S Atlantic Blvd,Monterey Park,CA,91754,34.038834,-118.14439
+,CVS,11940 Garvey Ave,El Monte,CA,91732,34.062744,-118.02061
+,CVS,2505 Santa Monica Blvd,Santa Monica,CA,90404,34.032822,-118.47495
+,CVS,9089 Woodman Ave,Arleta,CA,91331,34.235073,-118.44028
+,CVS,775 E Foothill Blvd,Pomona,CA,91767,34.107243,-117.73717
+,CVS,2521 E Avenue S,Palmdale,CA,93550,34.558147,-118.0841
+,CVS,14503 Ramona Blvd,Baldwin Park,CA,91706,34.086956,-117.959
+,CVS,4105 W Avenue L,Lancaster,CA,93536,34.660229,-118.2042
+,CVS,14735 Ventura Blvd,Sherman Oaks,CA,91403,34.151821,-118.45383
+,CVS,1485 E Valley Blvd,Alhambra,CA,91801,34.079323,-118.10952
+,CVS,2006 W J AVENUE,LANCASTER,CA,93536,34.689396,-118.16652
+,CVS,222 N Market St,Inglewood,CA,90301,33.96529,-118.35194
+,CVS,8491 Santa Monica Blvd,West Hollywood,CA,90069,34.089767,-118.37598
+,CVS,12717 Glenoaks Blvd,Sylmar,CA,91342,34.301182,-118.44151
+,CVS,1050 W Sunset Blvd,Los Angeles,CA,90012,34.064629,-118.2487
+,CVS,8225 Garvey Ave,Rosemead,CA,91770,34.062679,-118.08972
+,CVS,9045 Wilshire Blvd,Beverly Hills,CA,90211,34.067078,-118.38916
+,STANLEY'S LIQUOR JR. MARKET,1803 S Pacific Ave,San Pedro,CA,90731,33.727699,-118.288
+,CVS,313 S Garfield Ave,Monterey Park,CA,91754,34.059525,-118.12288
+,CVS,2532 W Valley Blvd,Alhambra,CA,91803,34.076885,-118.15116
+,CVS,13525 Beach Blvd,La Mirada,CA,90638,33.90876,-117.97784
+,CVS,9256 Slauson Ave,Pico Rivera,CA,90660,33.96928,-118.09984
+,CVS,20 E Orange Grove Blvd,Pasadena,CA,91103,34.157764,-118.15033
+,CVS,650 E El Segundo Blvd,Los Angeles,CA,90059,33.916325,-118.26348
+,CVS,900 N Lake Ave,Pasadena,CA,91104,34.16116,-118.13247
+,CVS,21051 Sherman Way,Canoga Park,CA,91303,34.201107,-118.59232
+,CVS,9920 Garvey Ave,El Monte,CA,91733,34.062721,-118.05206
+,CVS,311 W Pacific Coast Hwy,Wilmington,CA,90744,33.79108,-118.26592
+,CVS,6510 South St,Lakewood,CA,90713,33.858238,-118.10766
+,CVS,8985 Venice Blvd,Los Angeles,CA,90034,34.027946,-118.39107
+,CVS,861 N Hacienda Blvd,La Puente,CA,91744,34.035206,-117.95023
+,CVS,2530 Glendale Blvd,Los Angeles,CA,90039,34.103344,-118.25916
+,CVS,367 N Citrus Ave,Azusa,CA,91702,34.127922,-117.89017
+,CVS,219 Lincoln Blvd,Venice,CA,90291,34.00161,-118.46849
+,CVS,1122 E Broadway,Glendale,CA,91205,34.146194,-118.24003
+,CVS,4320 Redondo Beach Blvd,Torrance,CA,90504,33.874954,-118.35101
+,CVS,1747 N Cahuenga Blvd,Los Angeles,CA,90028,34.103458,-118.32958
+,CVS,13181 Peyton Dr,Chino Hills,CA,91709,34.014484,-117.74493
+,CVS,3880 W Rosecrans Ave,Hawthorne,CA,90250,33.901882,-118.34172
+,CVS,2001 Pacific Coast Hwy,Lomita,CA,90717,33.789539,-118.3147
+,CVS,44430 Challenger Way,Lancaster,CA,93535,34.690582,-118.11262
+,CVS,101 W Foothill Blvd,Azusa,CA,91702,34.133636,-117.90813
+,B&K LIQUOR,16210 Inglewood Ave,Lawndale,CA,90260,33.883282,-118.36131
+,LADD LIQUOR,11336 Vanowen St,North Hollywood,CA,91605,34.193897,-118.37766
+,Walgreens,3724 Crenshaw Blvd,Los Angeles,CA,90016,34.019039,-118.33504
+,Walgreens,5913 Carson St,Lakewood,CA,90713,33.832359,-118.11572
+,Walgreens,8201 Greenleaf Ave,Whittier,CA,90602,33.964764,-118.03805
+,Walgreens,2000 W Whittier Blvd,La Habra,CA,90631,33.939774,-117.96876
+,Walgreens,11604 Whittier Blvd,Whittier,CA,90601,33.982548,-118.05325
+,Del's Liquor,4935 Long Beach Blvd,Long Beach,CA,90805,33.845371,-118.19341
+,Midway Liquor Market,3186 W Pico Blvd,Los Angeles,CA,90019,34.047146,-118.31123
+,Ken's Liquor & Deli,8400 S 8th Ave,Inglewood,CA,90305,33.962162,-118.32648
+,Walgreens,2551 W Main St,Alhambra,CA,91801,34.095337,-118.15165
+,Walgreens,2750 San Gabriel Blvd,Rosemead,CA,91770,34.06179,-118.09047
+,7-Eleven,6598 Atlantic Ave,Long Beach,CA,90805,33.874359,-118.18611
+,7 Days Liquor & Mart,2482 S Atlantic Blvd,Commerce,CA,90040,34.00211,-118.16898
+,BANK LIQUOR STORE,1740 E Florence Ave,Los Angeles,CA,90001,33.974705,-118.24169
+,BENGAL LIQUORS,3600 W 3rd St,Los Angeles,CA,90020,34.069023,-118.29454
+,JULIENS LIQUOR,12109 Long Beach Blvd,Lynwood,CA,90262,33.917927,-118.20955
+,S&K LIQUOR STORE,8240 Tampa Ave,Reseda,CA,91335,34.220062,-118.55344
+,Jack's Liquor,3720 W Olympic Blvd,Los Angeles,CA,90019,34.053101,-118.31888
+,Ace Liquor,6015 E Olympic Blvd,Los Angeles,CA,90022,34.013386,-118.14336
+,"US Liquor, Inc.",2002 E Pacific Coast Hwy,Long Beach,CA,90804,33.789833,-118.16731
+,7-Eleven,3018 W Manchester Blvd,Inglewood,CA,90305,33.959953,-118.32612
+,BOURBON STREET LIQUOR,1360 E 7th St,Long Beach,CA,90813,33.775314,-118.17381
+,Walgreens,3201 W 6th St,Los Angeles,CA,90020,34.06366,-118.29222
+,PACIFIC LIQUOR,4228 Beverly Blvd,Los Angeles,CA,90004,34.076237,-118.30125
+,EDDIE JR MARKET LIQUOR,2943 Santa Fe Ave,Long Beach,CA,90810,33.81089,-118.21555
+,Don's Liquor Market,411 W Pacific Coast Hwy,Wilmington,CA,90744,33.790958,-118.26771
+,"Young's Liquor, Inc.",7414 State St,Huntington Park,CA,90255,33.970737,-118.20975
+,JUHN'S MARKET LIQUOR,2706 Peck Rd,El Monte,CA,91733,34.060432,-118.03047
+,Y&K Liquor Market,1820 E Carson St,Carson,CA,90745,33.831619,-118.24014
+,RIO LIQUOR,543 E Anaheim St,Long Beach,CA,90813,33.782639,-118.18569
+,United Beer and Wine,6203 Orange Ave,Long Beach,CA,90805,33.867397,-118.17741
+,MIKES LIQUOR,1673 Indian Hill Blvd,Pomona,CA,91767,34.075226,-117.71931
+,Country Liquor & Market,8109 Garfield Ave,Bell Gardens,CA,90201,33.957577,-118.15923
+,Gourmet Liquors,714 W Gage Ave,Los Angeles,CA,90044,33.982311,-118.28653
+,A & CHERRY LIQUOR MARKET,1934 E Anaheim St,Long Beach,CA,90813,33.782581,-118.16825
+,Orange Liquor,7010 Somerset Blvd,Paramount,CA,90723,33.896252,-118.1772
+,Handy's Deli Liquor Store,1550 N Wilmington Ave,Compton,CA,90222,33.906891,-118.23888
+,DEE'S LIQUOR & MARKET,12313 S Wilmington Ave,Compton,CA,90222,33.920403,-118.23918
+,7-Eleven,19666 Ventura Blvd,Tarzana,CA,91356,34.172596,-118.56148
+,Johns Liquor & Jr. Market,1428 Atlantic Ave,Long Beach,CA,90813,33.784206,-118.18497
+,Walgreens,9830 Long Beach Blvd,South Gate,CA,90280,33.945862,-118.21628
+,Royal Liquor,2501 Pasadena Ave,Los Angeles,CA,90031,34.076324,-118.21635
+,Irenes Liquor,8825 S Figueroa St,Los Angeles,CA,90003,33.957058,-118.28278
+,Minit Mart Liquor,1012 Alamitos Ave,Long Beach,CA,90813,33.779217,-118.17894
+,7-Eleven,4930 W Pico Blvd,Los Angeles,CA,90019,34.047935,-118.34401
+,Alondra Liquor,10400 Alondra Blvd,Bellflower,CA,90706,33.888496,-118.11343
+,Jet Food and Liquor,43535 Gadsden Ave,Lancaster,CA,93534,34.6744,-118.14352
+,A & A Liquor Market,111 1/2 S Vermont Ave,Los Angeles,CA,90004,34.072475,-118.29175
+,Garfield Liquor,2433 W Whittier Blvd,Montebello,CA,90640,34.014244,-118.12846
+,Walgreens,600 Long Beach Blvd,Long Beach,CA,90802,33.774269,-118.18928
+,Walgreens,1932 Wilshire Blvd,Santa Monica,CA,90403,34.031277,-118.4833
+,Eastern Liquor & Junior Market,8100 Eastern Ave,Bell Gardens,CA,90201,33.958141,-118.16468
+,Walgreens,1086 W Arrow Hwy,San Dimas,CA,91773,34.106583,-117.82813
+,Walgreens,6325 Rosemead Blvd,San Gabriel,CA,91775,34.114471,-118.07362
+,Walgreens,550 S Grand Ave,Glendora,CA,91741,34.12973,-117.87253
+,Walgreens,150 S Grand Ave,Covina,CA,91724,34.085159,-117.87241
+,Walgreens,2453 S Azusa Ave,West Covina,CA,91792,34.031906,-117.9146
+,S M & B Liquors  Inc,9467 S Normandie Ave,Los Angeles,CA,90044,33.949841,-118.3003
+,7-Eleven,705 E 5th St,Azusa,CA,91702,34.129845,-117.89606
+,Red's Liquor,10001 S Main St,Los Angeles,CA,90003,33.945358,-118.27393
+,Chalet Liquor and Junior Market,14040 Hubbard St,Sylmar,CA,91342,34.299599,-118.43907
+,Holiday Liquor,13438 S Normandie Ave,Gardena,CA,90249,33.910156,-118.30034
+,Walgreens,11800 Artesia Blvd,Artesia,CA,90701,33.872944,-118.08126
+,Vitos Liquors,2125 San Gabriel Blvd,Rosemead,CA,91770,34.052929,-118.09056
+,VANCE'S LIQUOR & JR. MARKET,4741 Maine Ave,Baldwin Park,CA,91706,34.098961,-117.96056
+,Cactus Liquor,1345 W Avenue J,Lancaster,CA,93534,34.689487,-118.15609
+,Town Deli &  Liquor,5946 S Main St,Los Angeles,CA,90003,33.986107,-118.27386
+,A & B Liquor Market,1069 E Wardlow Rd,Long Beach,CA,90807,33.818939,-118.17916
+,Santa Fe Liquor,6020 Santa Fe Ave,Huntington Park,CA,90255,33.987,-118.23029
+,Walgreens,18568 Ventura Blvd,Tarzana,CA,91356,34.169384,-118.5377
+,Liquorama,4979 W Washington Blvd,Los Angeles,CA,90016,34.040569,-118.34827
+,State Liquor and Market,7701 State St,Huntington Park,CA,90255,33.967457,-118.21034
+,Liquorette,1400 Centinela Ave,Inglewood,CA,90302,33.976837,-118.36433
+,Quick Stop Liquor,5102 Hollywood Blvd,Los Angeles,CA,90027,34.101723,-118.30075
+,ARCO,11148 Atlantic Ave,Lynwood,CA,90262,33.926189,-118.18531
+,Walgreens,401 N Azusa Ave,Covina,CA,91722,34.08865,-117.90791
+,C & W Liquor,12903 S Willowbrook Ave,Compton,CA,90222,33.914989,-118.23112
+,7-Eleven,16020 Main St,La Puente,CA,91744,34.020103,-117.9483
+,Cask & Keg Liquor,2585 N Garey Ave,Pomona,CA,91767,34.092506,-117.74866
+,Mr B's Liquor,12624 Bellflower Blvd,Downey,CA,90242,33.916775,-118.12534
+,Lee's Liquor,1152 W Valley Blvd,Alhambra,CA,91803,34.077763,-118.13567
+,Starlite Liquor,1029 N Azusa Ave,Covina,CA,91722,34.098152,-117.90787
+,Walgreens,10995 Magnolia Blvd,North Hollywood,CA,91601,34.164928,-118.37022
+,Walgreens,2331 S Atlantic Blvd,Monterey Park,CA,91754,34.037136,-118.14713
+,Central Liquor Bank,959 E 92nd St,Los Angeles,CA,90002,33.952988,-118.25681
+,F & M Market & Liquor,8725 Whittier Blvd,Pico Rivera,CA,90660,34.00251,-118.08624
+,Golden Jug Liquor & Deli,14305 Amar Rd,La Puente,CA,91744,34.048763,-117.96768
+,Barney's Liquor,5001 Monte Vista St,Los Angeles,CA,90042,34.107277,-118.20358
+,7-Eleven,10437 Whittier Blvd,Whittier,CA,90606,33.992119,-118.06714
+,7-Eleven,2205 Sepulveda Blvd,Torrance,CA,90501,33.82021,-118.32014
+,God Provides Food Bank,2453 Troy Ave,South El Monte,CA,91733,34.056969,-118.06587
+,7-Eleven,8807 Mission Dr,Rosemead,CA,91770,34.085964,-118.07744
+,7-Eleven,4010 Lincoln Blvd,Marina del Rey,CA,90292,33.990253,-118.44754
+,Louise Liquor,908 E Jefferson Blvd,Los Angeles,CA,90011,34.013409,-118.2608
+,7-Eleven,1874 S Western Ave,Los Angeles,CA,90006,34.040192,-118.30893
+,7-Eleven,4965 Florence Ave,Bell,CA,90201,33.969299,-118.17814
+,Mina Liquor & Market,315 S McDonnell Ave,Los Angeles,CA,90022,34.03286,-118.16702
+,El Toro Liquor,5501 Atlantic Blvd,Maywood,CA,90270,33.990807,-118.18504
+,7-Eleven,861 N Sunset Ave,La Puente,CA,91744,34.045101,-117.96344
+,Walgreens,310 S Lake Ave,Pasadena,CA,91101,34.140381,-118.13223
+,Walgreens,331 N Sepulveda Blvd,El Segundo,CA,90245,33.920555,-118.39639
+,Walgreens,934 N Hacienda Blvd,La Puente,CA,91744,34.036346,-117.94993
+,Walgreens,140 E Live Oak Ave,Arcadia,CA,91006,34.107964,-118.02582
+,Walgreens,1131 S Glendora Ave,West Covina,CA,91790,34.055931,-117.93814
+,Century Liquor,2301 W 54th St,Los Angeles,CA,90043,33.993229,-118.31835
+,Jake's Liquor 2,5902 Atlantic Blvd,Maywood,CA,90270,33.986996,-118.18554
+,ARCO,8300 Santa Fe Ave,Huntington Park,CA,90255,33.962669,-118.23012
+,Bonanza Liquor Market Inc,24301 San Fernando Rd,Santa Clarita,CA,91321,34.379681,-118.52863
+,Rite Aid,9333 Whittier Blvd,Pico Rivera,CA,90660,33.999252,-118.07874
+,A-1 Liquor,2040 N Los Robles Ave,Pasadena,CA,91104,34.180882,-118.14169
+,Brooklyn Liquor,2101 E Cesar E Chavez Ave,Los Angeles,CA,90033,34.048416,-118.21129
+,Captain Don's Liquor,12818 Paramount Blvd,Downey,CA,90242,33.920826,-118.15429
+,Chevron,3760 W Imperial Hwy,Inglewood,CA,90303,33.931011,-118.33862
+,Wyman's Liquor,9300 Firestone Blvd,Downey,CA,90241,33.932316,-118.11769
+,7-Eleven,14240 Hawthorne Blvd,Hawthorne,CA,90250,33.90213,-118.35238
+,7-Eleven,500 W 7th St,Los Angeles,CA,90014,34.046757,-118.25583
+,Trojan Liquor,3000 S Vermont Ave,Los Angeles,CA,90007,34.027252,-118.29151
+,Tony's Liquor,5707 Santa Monica Blvd,Los Angeles,CA,90038,34.090778,-118.31388
+,Plaza Liquor,11601 Inglewood Ave,Hawthorne,CA,90250,33.928989,-118.36137
+,Sunrise Liquor,11202 S Central Ave,Los Angeles,CA,90059,33.932961,-118.25421
+,7-Eleven,105 N Vincent Ave,Covina,CA,91722,34.08691,-117.92554
+,Walgreens,11983 Hawthorne Blvd,Hawthorne,CA,90250,33.924252,-118.35271
+,7-Eleven,3111 W Temple Ave,Pomona,CA,91768,34.045181,-117.80269
+,Visa  Liquor,14900 Burbank Blvd Ste 105,Sherman Oaks,CA,91411,34.172085,-118.45777
+,Good Luck Liquor & Mini Market,481 Washington Blvd,Montebello,CA,90640,33.992645,-118.1134
+,VELA Farmers Market,4620 E 3rd St,Los Angeles,CA,90022,34.033295,-118.16613
+,Mr C's Liquor,1925 S Pacific Ave,San Pedro,CA,90731,33.726192,-118.28802
+,7-Eleven,3300 W 135th St,Hawthorne,CA,90250,33.909126,-118.33092
+,7-Eleven,1600 Santa Monica Blvd,Santa Monica,CA,90404,34.025837,-118.48349
+,Pound Penny Liquor,13353 Prairie Ave,Hawthorne,CA,90250,33.911091,-118.3439
+,7-Eleven,1865 Lincoln Blvd,Santa Monica,CA,90404,34.012665,-118.48328
+,Sunrise Liquor,20504 E Arrow Hwy,Covina,CA,91724,34.106567,-117.85486
+,Fox Liquor,5402 Orange Ave,Long Beach,CA,90805,33.854622,-118.17723
+,CVS,1015 N San Fernando Blvd,Burbank,CA,91504,34.187675,-118.31808
+,CVS,8425 Laurel Canyon Blvd,Sun Valley,CA,91352,34.223183,-118.39651
+,CVS,101 E Alameda Ave,Burbank,CA,91502,34.174175,-118.3002
+,CVS,1820 W Verdugo Ave,Burbank,CA,91506,34.167355,-118.32465
+,CVS,2500 W Victory Blvd,Burbank,CA,91505,34.184582,-118.33881
+,CVS,511 N Hollywood Way,Burbank,CA,91505,34.159878,-118.34314
+,Jack's Liquor,4700 W Imperial Hwy,Inglewood,CA,90304,33.930923,-118.35934
+,Walgreens,23925 Newhall Ranch Rd,Santa Clarita,CA,91355,34.430153,-118.5554
+,7-Eleven,14968 Mulberry Dr,Whittier,CA,90604,33.935123,-118.01209
+,P & J Liquor,6170 Santa Monica Blvd,Los Angeles,CA,90038,34.090714,-118.32409
+,Sunset Ave Liquor,853 N Sunset Ave,La Puente,CA,91744,34.044861,-117.96373
+,Walgreens,253 E Foothill Blvd,Arcadia,CA,91006,34.151108,-118.02322
+,7-Eleven,7600 W Sunset Blvd,Los Angeles,CA,90046,34.098015,-118.35524
+,7-Eleven,11400 Atlantic Ave,Lynwood,CA,90262,33.920559,-118.18764
+,7-Eleven,16800 Lakewood Blvd,Bellflower,CA,90706,33.881741,-118.14261
+,Louies Liquor 2,13360 Sherman Way,North Hollywood,CA,91605,34.201172,-118.42436
+,ARCO,15407 Crenshaw Blvd,Gardena,CA,90249,33.890732,-118.32658
+,Wabash Liquor,3025 Wabash Ave,Los Angeles,CA,90063,34.049629,-118.19583
+,K Liquor,2466 W Whittier Blvd,Montebello,CA,90640,34.014637,-118.12946
+,Walgreens,3643 Peck Rd,El Monte,CA,91731,34.072861,-118.02412
+,Blue Bird Liquor Store,13746 Hawthorne Blvd,Hawthorne,CA,90250,33.907505,-118.35236
+,Webbs Liquor,4762 S Central Ave,Los Angeles,CA,90011,34.000061,-118.25645
+,Unique Liquor And Market,1020 E Broadway,Glendale,CA,91205,34.146233,-118.24199
+,Eddie's Liquor Jr Market,15105 Clark Ave,Bellflower,CA,90706,33.896309,-118.13409
+,7-Eleven,4535 Riverside Dr,Chino,CA,91710,34.018925,-117.70593
+,Lucky Liquor Market,5469 Alhambra Ave,Los Angeles,CA,90032,34.078426,-118.16628
+,MARKET ONE LIQUOR,16052 Gale Ave,Hacienda Heights,CA,91745,34.009212,-117.95781
+,Walgreens,11930 Studebaker Rd,Norwalk,CA,90650,33.923225,-118.09912
+,Quick Stop Liquor Store,8743 E Palmdale Blvd,Palmdale,CA,93552,34.579758,-117.97232
+,Anchor Liquor,23315 Main St,Carson,CA,90745,33.813889,-118.2757
+,7-Eleven,18205 Prairie Ave,Torrance,CA,90504,33.865219,-118.34383
+,Walgreens,13331 Telegraph Rd,Whittier,CA,90605,33.941418,-118.0479
+,Leon's Liquor Store,10971 Glenoaks Blvd,Pacoima,CA,91331,34.267792,-118.40532
+,Union Liquor Market,1703 Beverly Blvd,Los Angeles,CA,90026,34.064751,-118.26592
+,Haigs Liquor,1230 W Francisquito Ave,West Covina,CA,91790,34.052395,-117.95215
+,Harbor Liquor,1417 Pacific Coast Hwy,Harbor City,CA,90710,33.789467,-118.3019
+,CVS,846 W Avenue K,Lancaster,CA,93534,34.674843,-118.1475
+,CVS,3883 E Foothill Blvd,Pasadena,CA,91107,34.150307,-118.06834
+,CVS,3151 Baldwin Park Blvd,Baldwin Park,CA,91706,34.070599,-117.97882
+,7-Eleven,11340 Magnolia Blvd,North Hollywood,CA,91601,34.164886,-118.37814
+,CVS,11574 Lower Azusa Rd,El Monte,CA,91732,34.090984,-118.01515
+,CVS,15718 Hawthorne Blvd,Lawndale,CA,90260,33.88802,-118.35235
+,CVS,3710 Tweedy Blvd,South Gate,CA,90280,33.944134,-118.20523
+,CVS,150 W Carson St,Carson,CA,90745,33.831505,-118.27903
+,CVS,11623 Rosecrans Ave,Norwalk,CA,90650,33.902267,-118.08517
+,CVS,3010 S Sepulveda Blvd,Los Angeles,CA,90034,34.02718,-118.42849
+,CVS,1645 E 103rd St,Los Angeles,CA,90002,33.943237,-118.245
+,CVS,7101 Atlantic Ave,Bell,CA,90201,33.971058,-118.18813
+,CVS,11831 Hawthorne Blvd,Hawthorne,CA,90250,33.926731,-118.35278
+,CVS,11011 Alondra Blvd,Norwalk,CA,90650,33.887665,-118.0994
+,CVS,8859 Alondra Blvd,Paramount,CA,90723,33.889359,-118.14291
+,CVS,3644 E Olympic Blvd,Los Angeles,CA,90023,34.018768,-118.19828
+,CVS,233 E Willow St,Long Beach,CA,90806,33.804478,-118.19143
+,CVS,12618 Studebaker Rd,Norwalk,CA,90650,33.916927,-118.09911
+,CVS,43839 15th St W,Lancaster,CA,93534,34.678581,-118.15685
+,CVS,1485 S Garey Ave,Pomona,CA,91766,34.044708,-117.74979
+,Sammy's Liquor & Market,2833 W Jefferson Blvd,Los Angeles,CA,90018,34.025654,-118.32639
+,7-Eleven,13019 Imperial Hwy,Whittier,CA,90605,33.917137,-118.05488
+,KT LIQUOR MARKET,6226 Holmes Ave,Los Angeles,CA,90001,33.98307,-118.24119
+,Walgreens,5843 W Pico Blvd,Los Angeles,CA,90019,34.05143,-118.36613
+,7-Eleven,5401 E Beverly Blvd,Los Angeles,CA,90022,34.029713,-118.14932
+,Sunrise Liquor,8509 Imperial Hwy,Downey,CA,90242,33.919678,-118.14348
+,7-Eleven,12403 Venice Blvd,Los Angeles,CA,90066,34.003586,-118.43399
+,G & M Liquor Market,2608 S Normandie Ave,Los Angeles,CA,90007,34.032433,-118.30017
+,Walgreens,5961 La Palma Ave,La Palma,CA,90623,33.846508,-118.02901
+,CVS,700 S Gaffey St,San Pedro,CA,90731,33.73756,-118.29232
+,CVS,5969 Lankershim Blvd,North Hollywood,CA,91601,34.179325,-118.38338
+,CVS,9900 Sepulveda Blvd,Mission Hills,CA,91345,34.250202,-118.4673
+,CVS,2315 Huntington Dr,Duarte,CA,91010,34.139877,-117.95478
+,CVS,3943 San Fernando Rd,Glendale,CA,91204,34.127972,-118.25902
+,CVS,6588 Foothill Blvd,Tujunga,CA,91042,34.245895,-118.27503
+,CVS,1030 Colorado Blvd,Los Angeles,CA,90041,34.137733,-118.18834
+,CVS,5985 W Pico Blvd,Los Angeles,CA,90035,34.052219,-118.37016
+,CVS,12160 Central Ave,Chino,CA,91710,34.032681,-117.68958
+,CVS,864 Swarthmore Ave,Pacific Palisades,CA,90272,34.046452,-118.52602
+,CVS,2655 Santa Ana St,South Gate,CA,90280,33.964638,-118.22369
+,CVS,4501 W Slauson Ave,Los Angeles,CA,90043,33.988918,-118.35472
+,CVS,1250 E Pacific Coast Hwy,Long Beach,CA,90806,33.789833,-118.1756
+,CVS,596 Long Beach Blvd,Long Beach,CA,90802,33.773731,-118.18928
+,CVS,6299 S Bristol Pkwy,Culver City,CA,90230,33.982292,-118.39151
+,CVS,10889 Wellworth Ave,Los Angeles,CA,90024,34.057106,-118.44249
+,CVS,2834 W Imperial Hwy,Inglewood,CA,90303,33.930847,-118.32446
+,CVS,5101 W Rodeo Rd,Los Angeles,CA,90016,34.021557,-118.3565
+,CVS,3741 Crenshaw Blvd,Los Angeles,CA,90016,34.018349,-118.33514
+,CVS,4345 W Century Blvd,Inglewood,CA,90304,33.945469,-118.35158
+,CVS,15103 Hawthorne Blvd,Lawndale,CA,90260,33.894432,-118.35278
+,CVS,12221 Carson St,Hawaiian Gardens,CA,90716,33.83157,-118.07112
+,CVS,6000 Atlantic Ave,Long Beach,CA,90805,33.864391,-118.18493
+,CVS,201 N Los Angeles St,Los Angeles,CA,90012,34.052475,-118.24169
+,CVS,10181 Reseda Blvd,Northridge,CA,91324,34.255852,-118.53613
+,CVS,19424 Soledad Canyon Rd,Canyon Country,CA,91351,34.415565,-118.47561
+,CVS,23357 Mulholland Dr,Woodland Hills,CA,91364,34.157509,-118.63522
+,CVS,19353 Victory Blvd,Tarzana,CA,91335,34.186626,-118.55488
+,CVS,18247 Sherman Way,Reseda,CA,91335,34.201187,-118.53109
+,CVS,1701 S Western Ave,Los Angeles,CA,90006,34.042641,-118.30907
+,CVS,22050 Ventura Blvd,Woodland Hills,CA,91364,34.168533,-118.60766
+,CVS,6201 Sepulveda Blvd,Van Nuys,CA,91411,34.183392,-118.46622
+,CVS,24840 Orchard Village Rd,Valencia,CA,91355,34.380516,-118.54095
+,CVS,20839 Roscoe Blvd,Winnetka,CA,91306,34.220028,-118.58765
+,CVS,206 N Azusa Ave,Covina,CA,91722,34.087311,-117.90768
+,CVS,8530 Reseda Blvd,Northridge,CA,91324,34.225368,-118.53605
+,CVS,2037 Verdugo Blvd,Montrose,CA,91020,34.204773,-118.22167
+,CVS,10208 Balboa Blvd,Granada Hills,CA,91344,34.25592,-118.50232
+,CVS,3751 Wilshire Blvd,Los Angeles,CA,90010,34.061729,-118.30801
+,CVS,6360 W 3rd St,Los Angeles,CA,90036,34.071365,-118.36056
+,CVS,5944 N Figueroa St,Los Angeles,CA,90042,34.111164,-118.18951
+,CVS,2419 Workman St,Los Angeles,CA,90031,34.07431,-118.2144
+,CVS,300 S Diamond Bar Blvd,Diamond Bar,CA,91765,34.020191,-117.80928
+,CVS,727 S Arroyo Pkwy,Pasadena,CA,91105,34.133091,-118.14742
+,CVS,1550 Puente Ave,Baldwin Park,CA,91706,34.063877,-117.96862
+,CVS,12143 Ventura Blvd,Studio City,CA,91604,34.143478,-118.39663
+,CVS,17320 Ventura Blvd,Encino,CA,91316,34.160843,-118.51022
+,CVS,188 Las Tunas Dr,Arcadia,CA,91007,34.107681,-118.03771
+,CVS,22968 Victory Blvd,Woodland Hills,CA,91367,34.186413,-118.62727
+,CVS,2240 Fair Park Ave,Los Angeles,CA,90041,34.136436,-118.21648
+,CVS,4707 Venice Blvd,Los Angeles,CA,90019,34.047066,-118.33855
+,CVS,702 N Azusa Ave,West Covina,CA,91791,34.083332,-117.90765
+,CVS,451 S Sierra Madre Blvd,Pasadena,CA,91107,34.138222,-118.10172
+,CVS,950 W Foothill Blvd,Monrovia,CA,91016,34.151085,-118.02054
+,CVS,23805 Malibu Rd,Malibu,CA,90265,34.033642,-118.69293
+,CVS,27983 Seco Canyon Rd,Santa Clarita,CA,91350,34.45924,-118.53443
+,CVS,9038 Balboa Blvd,Northridge,CA,91325,34.235245,-118.50245
+,CVS,150 W Willow St,Pomona,CA,91768,34.078617,-117.75277
+,CVS,1479 Foothill Blvd,La Verne,CA,91750,34.117008,-117.7758
+,CVS,26861 Sierra Hwy,Santa Clarita,CA,91321,34.404484,-118.46667
+,CVS,2791 Agoura Rd,Thousand Oaks,CA,91361,34.150646,-118.82538
+,CVS,5585 Rosemead Blvd,Temple City,CA,91780,34.100658,-118.07362
+,CVS,13021 Victory Blvd,North Hollywood,CA,91606,34.186737,-118.41618
+,CVS,1401 S Baldwin Ave,Arcadia,CA,91006,34.155712,-118.05323
+,CVS,26550 Bouquet Canyon Rd,Saugus,CA,91350,34.428448,-118.53602
+,7-Eleven,27680 Lake Hughes Rd,Castaic,CA,91384,34.496655,-118.62224
+,CVS,1411 Lincoln Blvd,Santa Monica,CA,90401,34.019173,-118.49094
+,CVS,2141 S Hacienda Blvd,Hacienda Heights,CA,91745,33.994793,-117.96869
+,CVS,861 Vine St,Los Angeles,CA,90038,34.086739,-118.32665
+,CVS,435 E Arrow Hwy,Glendora,CA,91740,34.10677,-117.85542
+,CVS,3670 S Nogales St,West Covina,CA,91792,34.011032,-117.88667
+,7-Eleven,27602 Newhall Ranch Rd,Valencia,CA,91355,34.436577,-118.56425
+,CVS,5623 Kanan Rd,Agoura Hills,CA,91301,34.152775,-118.75775
+,CVS,12015 Wilshire Blvd,Los Angeles,CA,90025,34.045139,-118.46628
+,Wons Liquor & Market,2001 Riverside Dr,Los Angeles,CA,90039,34.099125,-118.24925
+,Arcade Liquor,4431 1/2 W Slauson Ave,Los Angeles,CA,90043,33.988934,-118.35236
+,Gold Key Liquor & Market,10302 Garvey Ave,El Monte,CA,91733,34.062706,-118.04677
+,CVS,8900 Sepulveda Westway,Los Angeles,CA,90045,33.955799,-118.39815
+,CVS,3458 S Sepulveda Blvd,Los Angeles,CA,90034,34.019939,-118.4227
+,CVS,1843 S la Cienega Blvd,Los Angeles,CA,90035,34.043327,-118.3766
+,CVS,18020 Chatsworth St,Granada Hills,CA,91344,34.264488,-118.52646
+,CVS,901 Silver Spur Rd,Rolling Hills Estates,CA,90274,33.770042,-118.36652
+,ACE LIQUOR,2525 Griffith Ave,Los Angeles,CA,90011,34.020168,-118.25734
+,CVS,650 N Bellflower Blvd,Long Beach,CA,90814,33.773666,-118.12093
+,Beverly Hills Farmers Market,9300 Civic Center Dr,Beverly Hills,CA,90210,34.076283,-118.39615
+,CVS,130 N Grand Ave,Glendora,CA,91741,34.13615,-117.87254
+,CVS,7021 HOLLYWOOD BLVD,LOS ANGELES,CA,90028,34.101566,-118.34253
+,CVS,19783 Rinaldi St,Porter Ranch,CA,91326,34.274879,-118.56523
+,CVS,575 S Citrus St,West Covina,CA,91791,34.079361,-117.89014
+,CVS,225 Main St,Venice,CA,90291,33.997292,-118.47895
+,CVS,1880 S Pacific Coast Hwy,Redondo Beach,CA,90277,33.816177,-118.37764
+,Shell,500 W Anaheim St,Long Beach,CA,90813,33.782574,-118.19839
+,Walgreens,14102 Ramona Blvd,Baldwin Park,CA,91706,34.085064,-117.96613
+,Walgreens,6100 Pacific Blvd,Huntington Park,CA,90255,33.985352,-118.22514
+,CVS,1570 S ROSECRANS AVE,MANHATTAN BEACH,CA,90266,33.901768,-118.38647
+,CVS,4414 York Blvd,Los Angeles,CA,90041,34.123955,-118.21999
+,CVS,1387 W Whittier Blvd,La Habra,CA,90631,33.939346,-117.96167
+,Rosas Liquor,550 W Anaheim St,Long Beach,CA,90813,33.782581,-118.18541
+,CVS,8490 Beverly Blvd,Los Angeles,CA,90048,34.076008,-118.3763
+,CVS,12100 Ventura Blvd,Studio City,CA,91604,34.143513,-118.39555
+,CVS,727 S Glendora Ave,West Covina,CA,91790,34.062393,-117.931
+,Liquorama Market,12806 S San Pedro St,Los Angeles,CA,90061,33.91634,-118.26955
+,7-Eleven,11767 Carson St,Lakewood,CA,90715,33.831577,-118.08223
+,ARCO,13550 Beach Blvd,La Mirada,CA,90638,33.90947,-117.97676
+,Ben's Liquor,17761 Saticoy St,Reseda,CA,91335,34.208427,-118.52073
+,CVS,3202 Wilshire Blvd,Santa Monica,CA,90403,34.040775,-118.47152
+,CVS,18441 Ventura Blvd,Tarzana,CA,91356,34.168221,-118.53452
+,Liquor Bank,16925 Vanowen St,Van Nuys,CA,91406,34.193935,-118.50199
+,Pee Wee Liquor Market,5323 S Broadway,Los Angeles,CA,90037,33.993786,-118.2784
+,Lim Fung Liquor & Deli,3563 E Cesar E Chavez Ave,Los Angeles,CA,90063,34.040573,-118.18774
+,7-Eleven,15450 Fairfield Ranch Rd,Chino Hills,CA,91709,33.971233,-117.68762
+,Als Liquor,5550 Melrose Ave,Los Angeles,CA,90038,34.083454,-118.32152
+,Kim's Market & Liquor,16024 Amar Rd,City of Industry,CA,91744,34.03616,-117.93593
+,7-Eleven,4003 E Ocean Blvd,Long Beach,CA,90803,33.759853,-118.14587
+,7-Eleven,6598 Cherry Ave,Long Beach,CA,90805,33.874302,-118.16862
+,7-Eleven,5315 Paramount Blvd,Lakewood,CA,90712,33.853928,-118.15993
+,7-Eleven,3410 Long Beach Blvd,Long Beach,CA,90807,33.819145,-118.18928
+,7-Eleven,17620 Bellflower Blvd,Bellflower,CA,90706,33.872421,-118.1251
+,7-Eleven,17920 Avalon Blvd,Carson,CA,90746,33.867371,-118.26599
+,7-Eleven,3311 W Century Blvd,Inglewood,CA,90303,33.945499,-118.32936
+,7-Eleven,1221 Artesia Blvd,Manhattan Beach,CA,90266,33.872868,-118.39326
+,7-Eleven,630 Wilshire Blvd,Santa Monica,CA,90401,34.021042,-118.49583
+,7-Eleven,3975 Wilshire Blvd,Los Angeles,CA,90010,34.061752,-118.31358
+,7-Eleven,100 W Imperial Ave,El Segundo,CA,90245,33.930786,-118.416
+,M & M Mini Mart Liquor,9530 Whittier Blvd,Pico Rivera,CA,90660,33.997623,-118.07552
+,7-Eleven,20301 Hawthorne Blvd,Torrance,CA,90503,33.84811,-118.35388
+,7-Eleven,2900 Hyperion Ave,Los Angeles,CA,90027,34.109493,-118.2711
+,7-Eleven,454 Pacific Coast Hwy,Hermosa Beach,CA,90254,33.858242,-118.39107
+,7-Eleven,16711 S Vermont Ave,Gardena,CA,90247,33.879356,-118.29124
+,7-Eleven,265 S Kingsley Dr,Los Angeles,CA,90004,34.069351,-118.30294
+,7-Eleven,1800 W Olympic Blvd,Los Angeles,CA,90006,34.050365,-118.27689
+,7-Eleven,4956 W Century Blvd,Inglewood,CA,90304,33.945404,-118.3655
+,7-Eleven,1535 Aviation Blvd,Redondo Beach,CA,90278,33.868439,-118.38287
+,7-Eleven,20207 Anza Ave,Torrance,CA,90503,33.849075,-118.36235
+,7-Eleven,8500 W Olympic Blvd,Los Angeles,CA,90035,34.059402,-118.37636
+,7-Eleven,22601 Hawthorne Blvd,Torrance,CA,90505,33.822983,-118.35123
+,Omega Liquor & Groceries,4346 Lincoln Ave,Cypress,CA,90630,33.831581,-118.05689
+,7-Eleven,1275 W San Bernardino Rd,Covina,CA,91722,34.08849,-117.91617
+,CVS,25829 Narbonne Ave,Lomita,CA,90717,33.789242,-118.32002
+,CVS,21590 Valley Blvd,Walnut,CA,91789,34.026886,-117.83589
+,CVS,316 S Pacific Coast Hwy,Redondo Beach,CA,90277,33.83791,-118.38534
+,CVS,13171 Mindanao Way,Marina del Rey,CA,90292,33.984737,-118.43763
+,CVS,5505 Carson St,Lakewood,CA,90713,33.832378,-118.12468
+,CVS,8601 S Sepulveda Blvd,Los Angeles,CA,90045,33.959572,-118.39626
+,CVS,5822 S Vermont Ave,Los Angeles,CA,90044,33.98877,-118.2914
+,CVS,3800 Martin Luther King Jr Blvd,Lynwood,CA,90262,33.927975,-118.19901
+,CVS,711 Hermosa Ave,Hermosa Beach,CA,90254,33.858723,-118.39922
+,CVS,3020 Sepulveda Blvd,Torrance,CA,90505,33.824253,-118.34034
+,CVS,11851 Artesia Blvd,Artesia,CA,90701,33.873165,-118.08086
+,CVS,13303 South St,Cerritos,CA,90703,33.858803,-118.04841
+,CVS,12315 Venice Blvd,Los Angeles,CA,90066,34.003986,-118.4332
+,CVS,2900 N Sepulveda Blvd,Manhattan Beach,CA,90266,33.896576,-118.3959
+,CVS,8008 Firestone Blvd,Downey,CA,90241,33.942436,-118.13747
+,CVS,1928 N Lakewood Blvd,Long Beach,CA,90815,33.791851,-118.14259
+,CVS,4400 E Los Coyotes Diagonal,Long Beach,CA,90815,33.79034,-118.14158
+,CVS,15466 Whittier Blvd,Whittier,CA,90603,33.945576,-117.99688
+,CVS,15700 S Western Ave,Gardena,CA,90247,33.887791,-118.30913
+,CVS,4625 Torrance Blvd,Torrance,CA,90503,33.837627,-118.36274
+,CVS,950 N Western Ave,San Pedro,CA,90732,33.751629,-118.30894
+,CVS,5501 Ball Rd,Cypress,CA,90630,33.817089,-118.03646
+,CVS,5960 Pacific Blvd,Huntington Park,CA,90255,33.987865,-118.22515
+,CVS,10048 Mills Ave,Whittier,CA,90604,33.942295,-118.02885
+,CVS,15120 Rosecrans Ave,La Mirada,CA,90638,33.89846,-118.00916
+,CVS,2525 Via Campo,Montebello,CA,90640,34.032768,-118.12338
+,CVS,15743 Imperial Hwy,La Mirada,CA,90638,33.917408,-117.99545
+,CVS,11426 Washington Blvd,Whittier,CA,90601,33.971092,-118.06785
+,7-Eleven,11348 Sunburst St,Sylmar,CA,91342,34.277847,-118.37859
+,7-Eleven,8960 Woodman Ave,Arleta,CA,91331,34.232632,-118.43839
+,7-Eleven,1100 N la Cienega Blvd,West Hollywood,CA,90069,34.09082,-118.37627
+,7-Eleven,1516 Lincoln Blvd,Venice,CA,90291,33.997257,-118.45933
+,7-Eleven,473 N Western Ave,Los Angeles,CA,90004,34.080151,-118.30918
+,7-Eleven,1519 S Bundy Dr,Los Angeles,CA,90025,34.039948,-118.46267
+,7-Eleven,3470 W Sixth St,Los Angeles,CA,90020,34.063583,-118.29736
+,7-Eleven,7353 Melrose Ave,Los Angeles,CA,90046,34.083618,-118.34994
+,7-Eleven,4901 Santa Monica Blvd,Los Angeles,CA,90029,34.090889,-118.29649
+,CVS,9618 W Pico Blvd,Los Angeles,CA,90035,34.055092,-118.39834
+,7-Eleven,152 Pine Ave,Long Beach,CA,90802,33.781132,-118.19234
+,7-Eleven,1202 Anaheim St,Harbor City,CA,90710,33.782246,-118.29785
+,7-Eleven,28041 Hawthorne Blvd,Rancho Palos Verdes,CA,90275,33.77943,-118.38931
+,7-Eleven,6625 Lankershim Blvd,North Hollywood,CA,91606,34.191071,-118.38783
+,7-Eleven,1611 W Olive Ave,Burbank,CA,91506,34.167782,-118.32261
+,7-Eleven,6000 Laurel Canyon Blvd,North Hollywood,CA,91606,34.17944,-118.39646
+,7-Eleven,2055 W Glenoaks Blvd,Glendale,CA,91201,34.17625,-118.29649
+,CVS,25880 McBean Pkwy,Valencia,CA,91355,34.403049,-118.55177
+,CVS,1822 E Avenida de Los Arboles,Thousand Oaks,CA,91362,34.211197,-118.84438
+,7-Eleven,4200 Long Beach Blvd,Long Beach,CA,90807,33.8349,-118.18944
+,7-Eleven,2512 S Figueroa St,Los Angeles,CA,90007,34.028496,-118.27577
+,7-Eleven,2377 W Pico Blvd,Los Angeles,CA,90006,34.047318,-118.28875
+,7-Eleven,22401 Ventura Blvd,Woodland Hills,CA,91364,34.168686,-118.61494
+,CVS,11941 San Vicente Blvd,Los Angeles,CA,90049,34.052727,-118.47079
+,7-Eleven,265 W Olive Ave,Burbank,CA,91502,34.174648,-118.31543
+,7-Eleven,3523 W Burbank Blvd,Burbank,CA,91505,34.175198,-118.3488
+,7-Eleven,10565 Riverside Dr,Toluca Lake,CA,91602,34.152218,-118.36092
+,7-Eleven,5432 Orangethorpe Ave,La Palma,CA,90623,33.858654,-118.03836
+,7-Eleven,24137 Lyons Ave,Newhall,CA,91321,34.37888,-118.55773
+,7-Eleven,7625 Eastern Ave,Bell Gardens,CA,90201,33.963959,-118.16539
+,7-Eleven,11351 Moorpark St,North Hollywood,CA,91602,34.150414,-118.37863
+,Royal Liquor & Grocery,13103 Lakewood Blvd,Downey,CA,90242,33.910461,-118.14265
+,7-Eleven,3227 N Glenoaks Blvd,Burbank,CA,91504,34.205776,-118.33961
+,7-Eleven,16520 Crenshaw Blvd,Torrance,CA,90504,33.880432,-118.32647
+,7-Eleven,2200 Marine Ave,Gardena,CA,90249,33.894634,-118.31807
+,7-Eleven,23525 Crenshaw Blvd,Torrance,CA,90505,33.81216,-118.3281
+,7-Eleven,17720 Burbank Blvd,Encino,CA,91316,34.172173,-118.5193
+,Walgreens,5005 Ball Rd,Cypress,CA,90630,33.817017,-118.04468
+,Walgreens,2690 Pacific Coast Hwy,Torrance,CA,90505,33.791595,-118.33284
+,Walgreens,2976 Sepulveda Blvd,Torrance,CA,90505,33.823986,-118.33916
+,Walgreens,535 S Pacific Coast Hwy,Redondo Beach,CA,90277,33.833973,-118.38516
+,Walgreens,10407 Santa Monica Blvd,Los Angeles,CA,90025,34.057365,-118.42447
+,La Fortune Liquor,400 Washington Blvd,Montebello,CA,90640,33.992416,-118.11264
+,Walgreens,5400 Cherry Ave,Long Beach,CA,90805,33.854492,-118.16776
+,7-Eleven,1190 N. Studebaker Road,Long Beach,CA,90815,33.781441,-118.10256
+,7-Eleven,1785 Palo Verde Ave,Long Beach,CA,90815,33.788506,-118.10798
+,7-Eleven,21925 Devonshire St,Chatsworth,CA,91311,34.257236,-118.60575
+,Fire Bird Liquor,810 N Glendora Ave,Covina,CA,91724,34.094582,-117.86377
+,7-Eleven,8724 Foothill Blvd,Sunland,CA,91040,34.259941,-118.32292
+,Pico Liquor Market,8143 Telegraph Rd,Pico Rivera,CA,90660,33.967846,-118.11615
+,Walgreens,6416 Tampa Blvd,Reseda,CA,91335,34.187393,-118.55342
+,Walgreens,670 N Lake Ave,Pasadena,CA,91101,34.157612,-118.13239
+,Mc Cowans Liquor Store,22802 S Western Ave,Torrance,CA,90501,33.818783,-118.30886
+,7-Eleven,14835 Pioneer Blvd,Norwalk,CA,90650,33.896046,-118.0826
+,7-Eleven,13700 Vanowen St,Van Nuys,CA,91405,34.193913,-118.43167
+,7-Eleven,3735 Emerald St,Torrance,CA,90503,33.841389,-118.35272
+,7-Eleven,3737 W 230th St,Torrance,CA,90505,33.818367,-118.35027
+,Astro Liquor,10000 Avalon Blvd,Los Angeles,CA,90003,33.945122,-118.26514
+,2 M Liquor Inc,2809 E Slauson Ave,Huntington Park,CA,90255,33.989227,-118.21954
+,Modern Mini Mart & Liquor,3000 E Florence Ave,Huntington Park,CA,90255,33.973145,-118.21529
+,Jacks Jug Liquor,6852 Rosecrans Ave,Paramount,CA,90723,33.903538,-118.17802
+,Walgreens,9018 Firestone Blvd,Downey,CA,90241,33.935219,-118.12353
+,7-Eleven,803 W Arrow Hwy,Azusa,CA,91702,34.107117,-117.91662
+,7-Eleven,20521 S Western Ave,Torrance,CA,90501,33.844528,-118.30934
+,7-Eleven,11666 W Olympic Blvd,Los Angeles,CA,90064,34.034485,-118.44732
+,7-Eleven,2759 Montrose Ave,Montrose,CA,91020,34.215885,-118.23975
+,7-Eleven,13701 Hawthorne Blvd,Hawthorne,CA,90250,33.907799,-118.35278
+,Hanks Liquor Market Inc,2026 Firestone Blvd,Los Angeles,CA,90001,33.960094,-118.23523
+,Shelis Liquor,4470 Firestone Blvd,South Gate,CA,90280,33.952702,-118.19158
+,7-Eleven,3201 N Broadway,Los Angeles,CA,90031,34.073788,-118.20741
+,7-Eleven,7040 W Sunset Blvd,Los Angeles,CA,90028,34.097942,-118.34311
+,7-Eleven,2251 W. Rosecrans Ave.,Compton,CA,90222,33.903648,-118.19982
+,Mundo Liquor & Market,510 E Sepulveda Blvd,Carson,CA,90745,33.808113,-118.26602
+,Walgreens,3320 Chino Hills Pkwy,Chino Hills,CA,91709,33.982536,-117.73156
+,La Haina Liquor,15034 S Avalon Blvd,Gardena,CA,90248,33.895748,-118.26543
+,Walgreens,15316 Nordhoff St,North Hills,CA,91343,34.235481,-118.46553
+,7-Eleven,10834 Santa Monica Blvd,Los Angeles,CA,90025,34.049843,-118.43565
+,Lynwood Liquor Mini Mart Corp,11625 Long Beach Blvd,Lynwood,CA,90262,33.922421,-118.20982
+,LOUIS LIQUOR,9558 Firestone Blvd,Downey,CA,90241,33.929714,-118.11246
+,7-Eleven,501 S Broadway,Los Angeles,CA,90013,34.048065,-118.25075
+,Sam's Liquor,301 W Whittier Blvd,Montebello,CA,90640,34.008953,-118.10306
+,Eagle Rock Market & Liquor,4731 Eagle Rock Blvd,Los Angeles,CA,90041,34.131142,-118.21656
+,Olympia Liquor,2571 W Olympic Blvd,Los Angeles,CA,90006,34.052486,-118.28688
+,Prime Liquor & Jr Market,101 N Victory Blvd,Burbank,CA,91502,34.173649,-118.31661
+,Carl's Liquor,933 N Avalon Blvd,Wilmington,CA,90744,33.781784,-118.26266
+,Jean's Liquor,4708 S Normandie Ave,Los Angeles,CA,90037,34.000362,-118.30013
+,S & S Liquor,16201 Hawthorne Blvd,Lawndale,CA,90260,33.88343,-118.35275
+,7-Eleven,4502 Lincoln Ave,Cypress,CA,90630,33.831593,-118.05403
+,ARCO,2510 N Towne Ave,Pomona,CA,91767,34.090462,-117.73677
+,Walgreens,2222 Colorado Blvd,Los Angeles,CA,90041,34.139263,-118.21516
+,Walgreens,19266 Soledad Canyon Rd,Santa Clarita,CA,91351,34.415668,-118.47189
+,Walgreens,28460 Haskell Canyon Rd,Saugus,CA,91390,34.460514,-118.51164
+,7-Eleven,1345 S Diamond Bar Blvd,Diamond Bar,CA,91765,33.997395,-117.81332
+,Bottle House Liquor,6018 Norwalk Blvd,Whittier,CA,90606,33.989429,-118.06445
+,WC's Liquor,9125 Telegraph Rd,Pico Rivera,CA,90660,33.959435,-118.1078
+,Walgreens,16100 Ventura Blvd,Encino,CA,91436,34.156322,-118.48375
+,Walgreens,5001 W Avenue N,Lancaster,CA,93536,34.630806,-118.219
+,Downey Liquor,7616 Firestone Blvd,Downey,CA,90241,33.946388,-118.14494
+,Shell,1518 N Garey Ave,Pomona,CA,91767,34.073341,-117.75223
+,Sams Liquor,3984 Whittier Blvd,Los Angeles,CA,90023,34.023903,-118.18639
+,7-Eleven,10454 Artesia Blvd.,Bellflower,CA,90706,33.872852,-118.1112
+,7-Eleven,837 S Gaffey St,San Pedro,CA,90731,33.736629,-118.29241
+,Rite Aid,6726 W Sunset Blvd,Los Angeles,CA,90028,34.097942,-118.33745
+,Rite Aid,15890 Soquel Canyon Pkwy,Chino Hills,CA,91709,33.96307,-117.69348
+,7-Eleven,11853 Downey Ave,Downey,CA,90241,33.932339,-118.13853
+,PM Andy's Liquor Inc,440 W Manchester Blvd,Inglewood,CA,90301,33.961536,-118.36298
+,Corner Store Liquor 1,16 S Fremont Ave,Alhambra,CA,91801,34.094597,-118.15201
+,CVS,102 N San Gabriel Blvd,San Gabriel,CA,91775,34.103771,-118.09099
+,Hilo's Grocery & Liquor,2340 W Pico Blvd,Los Angeles,CA,90006,34.047276,-118.28724
+,A & S Liquor Market,3088 W Pico Blvd,Los Angeles,CA,90006,34.047173,-118.30883
+,7-Eleven,2611 Carson St,Lakewood,CA,90712,33.832539,-118.16087
+,7-Eleven,14300 Bellflower Blvd,Bellflower,CA,90706,33.9016,-118.1253
+,3 Kings Liquor,5126 W 190th St,Torrance,CA,90503,33.858215,-118.3662
+,7-Eleven,5900 Washington Blvd,Culver City,CA,90232,34.032455,-118.37431
+,Pacific Liquor,6408 Eastern Ave,Bell Gardens,CA,90201,33.975185,-118.16361
+,L A Market & Liquor,1403 W 54th St,Los Angeles,CA,90062,33.99329,-118.30038
+,DBWSJ Ash Liquor,17719 Saticoy St,Reseda,CA,91335,34.208439,-118.51973
+,7-Eleven,22215 Sherman Way,Canoga Park,CA,91303,34.201099,-118.61046
+,7-Eleven,23701 Vanowen St,West Hills,CA,91307,34.19331,-118.64252
+,7-Eleven,22821 Saticoy St,Canoga Park,CA,91304,34.208298,-118.6239
+,7-Eleven,96801/2 Sunland Blvd.,Sunland,CA,91040,34.243061,-118.36646
+,MS Liquor Market,19430 Pioneer Blvd,Cerritos,CA,90703,33.853642,-118.08197
+,Walgreens,1834 W Avenue J,Lancaster,CA,93534,34.689365,-118.16466
+,ROCKET LIQUOR,21413 Vanowen St,Canoga Park,CA,91303,34.193779,-118.59834
+,Wellington Square Farmers Market,4394 W Washington Blvd,Los Angeles,CA,90016,34.039814,-118.335
+,HMC Liquor,9435 Washington Blvd,Pico Rivera,CA,90660,33.97897,-118.08904
+,Clark Liquor,13770 Clark Ave,Bellflower,CA,90706,33.904968,-118.13403
+,LONDON LIQUOR,6350 Long Beach Blvd,Long Beach,CA,90805,33.87009,-118.20145
+,CVS,7915 Florence Ave,Downey,CA,90240,33.954182,-118.13114
+,CVS,7300 Alameda St,Huntington Park,CA,90255,33.973827,-118.23451
+,CVS,220 E Compton Blvd,Compton,CA,90220,33.895943,-118.22195
+,CVS,901 S Central Ave,Compton,CA,90220,33.887764,-118.24995
+,7-Eleven,1730 Sepulveda Blvd,Torrance,CA,90501,33.817104,-118.30935
+,7-Eleven,10910 Rush St.,South El Monte,CA,91733,34.051464,-118.03676
+,7-Eleven,18514 Plummer St,Northridge,CA,91324,34.242722,-118.53678
+,International Liquor,2515 W Carson St,Torrance,CA,90503,33.831329,-118.32909
+,7-Eleven,3243 Santa Anita Ave,El Monte,CA,91733,34.067177,-118.04245
+,Danny's Liquor,6830 La Tijera Blvd,Los Angeles,CA,90045,33.976707,-118.37247
+,Hacienda Liquor,2047 S Hacienda Blvd,Hacienda Heights,CA,91745,33.996616,-117.9681
+,Walgreens,3001 Foothill Blvd,La Crescenta,CA,91214,34.227306,-118.24496
+,7-Eleven,8462 Moody St,La Palma,CA,90623,33.839405,-118.04578
+,Hys Liquor,10693 Lower Azusa Rd,Temple City,CA,91780,34.092587,-118.03613
+,7-Eleven,805 E Ocean Blvd,Long Beach,CA,90802,33.766449,-118.18296
+,BOTTEL BIN LIQUOR,20915 Vanowen St,Canoga Park,CA,91303,34.193817,-118.58902
+,7-Eleven,7604 Vineland Ave,Sun Valley,CA,91352,34.208538,-118.37026
+,Walgreens,490 W Huntington Dr,Monrovia,CA,91016,34.140224,-118.00935
+,Red Carpet Liquor,225 E Rowland St,Covina,CA,91723,34.079075,-117.88734
+,Walgreens,11795 W Olympic Blvd,Los Angeles,CA,90064,34.033268,-118.44975
+,7-Eleven,10690 Laurel Canyon Blvd.,Pacoima,CA,91331,34.264355,-118.43795
+,Greenbird Liquor,22429 Bloomfield Ave,Cypress,CA,90630,33.825489,-118.06333
+,7-Eleven,1519 N Gaffey St,San Pedro,CA,90731,33.758026,-118.29246
+,7-Eleven,16860 Sherman Way,Van Nuys,CA,91406,34.201069,-118.50075
+,C & C LIQUOR.,511 N Avalon Blvd,Wilmington,CA,90744,33.775978,-118.26216
+,7-Eleven,5138 N Figueroa St,Los Angeles,CA,90042,34.10606,-118.19984
+,7-Eleven,5076 W Sunset Blvd,Los Angeles,CA,90027,34.098064,-118.30011
+,7-Eleven,4051 Leimert Blvd,Los Angeles,CA,90008,34.010395,-118.32366
+,J & J Grocery & Liquor,5100 Santa Monica Blvd,Los Angeles,CA,90029,34.090801,-118.30087
+,JAN-ETT'S LIQUOR,4028 W Jefferson Blvd,Los Angeles,CA,90016,34.025543,-118.34031
+,Rays Liquor & Jr Mkt,9024 Slauson Ave,Pico Rivera,CA,90660,33.970573,-118.10398
+,7-Eleven,235 N Azusa Ave,West Covina,CA,91791,34.074841,-117.90784
+,CVS,1954 Durfee Ave,South El Monte,CA,91733,34.045036,-118.03069
+,CVS,2130 N Bellflower Blvd,Long Beach,CA,90815,33.794518,-118.12518
+,CVS,4235 Pacific Coast Hwy,Torrance,CA,90505,33.807968,-118.3585
+,CVS,3575 Atlantic Ave,Long Beach,CA,90807,33.821388,-118.18507
+,CVS,5020 W 190th St,Torrance,CA,90503,33.858212,-118.36452
+,CVS,155 Pacific Coast Hwy,Hermosa Beach,CA,90254,33.856323,-118.39063
+,CVS,5399 W Centinela Ave,Los Angeles,CA,90045,33.977478,-118.37454
+,CVS,5117 Lakewood Blvd,Lakewood,CA,90712,33.851509,-118.14286
+,CVS,4570 Atlantic Ave,Long Beach,CA,90807,33.841831,-118.18468
+,CVS,11735 Whittier Blvd,Whittier,CA,90601,33.981514,-118.05139
+,CVS,8580 Whittier Blvd,Pico Rivera,CA,90660,34.003487,-118.0891
+,CVS,3290 Chino Hills Pkwy,Chino Hills,CA,91709,33.982552,-117.73277
+,CVS,800 W Whittier Blvd,Montebello,CA,90640,34.010178,-118.10857
+,7-Eleven,19660 Vanowen St,Reseda,CA,91335,34.193771,-118.56133
+,7-Eleven,452 E Rowland St,Covina,CA,91723,34.078842,-117.88207
+,St Andrews Liquor,5566 Hollywood Blvd,Los Angeles,CA,90028,34.101673,-118.31107
+,Chevron,421 E Avenue L,Lancaster,CA,93535,34.660427,-118.1226
+,Two & One Liquor,4829 S Normandie Ave,Los Angeles,CA,90037,33.999298,-118.30022
+,7-Eleven,7153 Lindley Ave,Reseda,CA,91335,34.200584,-118.52737
+,Ace Liquor Store 1,12211 Long Beach Blvd,Lynwood,CA,90262,33.916508,-118.20943
+,The Oaks Liquor,5148 Sepulveda Blvd,Sherman Oaks,CA,91403,34.164082,-118.46612
+,Hody Lane Liquor Store N/A,5201 E Pacific Coast Hwy,Long Beach,CA,90804,33.850601,-118.19851
+,Walgreens,2400 N Sepulveda Blvd,Manhattan Beach,CA,90266,33.89386,-118.39592
+,7-Eleven,1410 S Grand Ave,Glendora,CA,91740,34.113571,-117.8725
+,7-Eleven,5495 Sepulveda Blvd,Culver City,CA,90230,33.993248,-118.39536
+,CVS,5500 Hollywood Blvd,Los Angeles,CA,90027,34.101723,-118.30962
+,Sierra Gas & Scale,43859 Sierra Hwy,Lancaster,CA,93534,34.679638,-118.13367
+,Ca Gas & Mini Market,950 N Avalon Blvd,Wilmington,CA,90744,33.782593,-118.26262
+,Bargain Liquor,3300 E 7th St,Long Beach,CA,90804,33.775322,-118.15331
+,Walgreens,617 W 7th St,Los Angeles,CA,90017,34.047794,-118.25732
+,Park's Liquor,907 7th Ave,Hacienda Heights,CA,91745,34.023098,-117.98607
+,66 Bell Gardens Gas,8000 Eastern Ave,Bell Gardens,CA,90201,33.959908,-118.16535
+,7-Eleven,5583 Reseda Blvd,Tarzana,CA,91356,34.172058,-118.53606
+,Moby Liquor,8201 S San Pedro St,Los Angeles,CA,90003,33.96526,-118.26957
+,7-Eleven,6224 Pacific Blvd,Huntington Park,CA,90255,33.983669,-118.22516
+,Liquor Plus,11740 Central Ave,Chino,CA,91710,34.040058,-117.68964
+,Raymond Liquor Market,501 S del Mar Ave,San Gabriel,CA,91776,34.09581,-118.09962
+,Melody Liquor,20716 Normandie Ave,Torrance,CA,90502,33.842686,-118.29916
+,Shell,1955 Rosemead Blvd,South El Monte,CA,91733,34.05146,-118.06443
+,San Gabriel Liquor,1018 S San Gabriel Blvd,San Gabriel,CA,91776,34.089516,-118.09077
+,Liberty Liquor,11667 Glenoaks Blvd,Pacoima,CA,91331,34.28186,-118.42037
+,7-Eleven,2410 Fullerton Rd,Rowland Heights,CA,91748,33.976189,-117.90966
+,Cerritos Market & Liquor,12606 South St,Cerritos,CA,90703,33.858471,-118.06331
+,One Stop Liquor Mart,22540 S Western Ave,Torrance,CA,90501,33.821461,-118.30888
+,Don's Liquor,5215 N Clydebank Ave,Azusa,CA,91702,34.107502,-117.92046
+,Atlantic Liquor,1010 S Atlantic Blvd,Los Angeles,CA,90022,34.01786,-118.15803
+,LA Liquor,4816 W Washington Blvd,Los Angeles,CA,90016,34.039783,-118.34417
+,10th & I Smog & Gas Station,1007 W Avenue I,Lancaster,CA,93534,34.703979,-118.14852
+,Bixby Knoll Liquor,4507 Orange Ave,Long Beach,CA,90807,33.840591,-118.17638
+,Valley Liquor,11723 Saticoy St,North Hollywood,CA,91605,34.208508,-118.38835
+,7-Eleven,9327 Garvey Ave,South El Monte,CA,91733,34.062748,-118.06633
+,7-Eleven,6033 Whittier Blvd,Los Angeles,CA,90022,34.016975,-118.14097
+,7-Eleven,5609 W Sunset Blvd,Los Angeles,CA,90028,34.098129,-118.31178
+,7-Eleven,1400 Westwood Blvd,Los Angeles,CA,90024,34.055168,-118.4416
+,7-Eleven,13307 Moorpark St,Sherman Oaks,CA,91423,34.150398,-118.4227
+,Silver Skate Liquor & Mart,23814 Western Ave,Harbor City,CA,90710,33.80827,-118.30786
+,Ken's Liquor,4572 Durfee Ave,Pico Rivera,CA,90660,34.006241,-118.07721
+,World Gas Station 33,478 W Arrow Hwy,Covina,CA,91722,34.106743,-117.89854
+,Shell Gas Station 45,8250 Sepulveda Blvd,Panorama City,CA,91402,34.220814,-118.46765
+,7-Eleven,4460 Santa Monica Blvd,Los Angeles,CA,90029,34.090843,-118.28647
+,7th Market & Liquor,14630 Valley Blvd,La Puente,CA,91746,34.034317,-117.97398
+,Tallyho Liquor,8356 Topanga Canyon Blvd,Canoga Park,CA,91304,34.221138,-118.60593
+,Walgreens,24790 Valley St,Newhall,CA,91321,34.379509,-118.54059
+,7-Eleven,11656 Wilshire Blvd,Los Angeles,CA,90025,34.049816,-118.46042
+,ARCO,1411 E del Amo Blvd,Carson,CA,90746,33.846889,-118.24807
+,7-Eleven,5905 South St,Lakewood,CA,90713,33.858337,-118.11659
+,P&l Liquor n/a,4301 Peck Rd,El Monte,CA,91732,34.082237,-118.01889
+,PCH Liquor & Market,729 W Pacific Coast Hwy,Long Beach,CA,90806,33.789898,-118.20139
+,7-Eleven,8243 Sepulveda Blvd,Panorama City,CA,91402,34.221035,-118.46775
+,Amigos Liquor Store,5611 N Figueroa St,Los Angeles,CA,90042,34.109158,-118.19376
+,7-Eleven,11249 Tampa Ave,Porter Ranch,CA,91326,34.274147,-118.55647
+,7-Eleven,10711 Glenoaks Blvd,Pacoima,CA,91331,34.264359,-118.40162
+,7-Eleven,21301 Sherman Way,Canoga Park,CA,91303,34.201107,-118.59584
+,Mar Vista Farmers' Market,3826 Grand View Blvd,Los Angeles,CA,90066,34.00412,-118.4306
+,7-Eleven,2 E Duarte Rd,Arcadia,CA,91006,34.129524,-118.03084
+,ARCO,362 N Azusa Ave,La Puente,CA,91744,34.024498,-117.91755
+,J & L Wine & Spirit 1,14144 Lambert Rd,Whittier,CA,90605,33.949726,-118.02578
+,Walgreens,2376 E Colorado Blvd,Pasadena,CA,91107,34.146038,-118.10126
+,Walgreens,18308 Colima Rd,Rowland Heights,CA,91748,33.988312,-117.90527
+,ARCO,12201 Mountain Ave,Chino,CA,91710,34.031853,-117.66769
+,Pit Stop Liquor,17811 Lakewood Blvd,Bellflower,CA,90706,33.870701,-118.1426
+,Princessa Liquor,3043 E Gage Ave,Huntington Park,CA,90255,33.980949,-118.21425
+,7-Eleven,12345 Mountain Ave,Chino,CA,91710,34.0285,-117.66759
+,Jans Liquor,12300 W Pico Blvd,Los Angeles,CA,90064,34.028397,-118.45212
+,Liquor Hut,15454 Amar Rd,La Puente,CA,91744,34.036919,-117.94826
+,Walgreens,1500 E Gage Ave,Los Angeles,CA,90001,33.982021,-118.2473
+,Columbia Liquor,5901 Compton Ave,Los Angeles,CA,90001,33.9869,-118.24779
+,Koffs Liquor,3259 W Rosecrans Ave,Hawthorne,CA,90250,33.901958,-118.33053
+,Central Liquor,7727 S Central Ave,Los Angeles,CA,90001,33.96883,-118.25649
+,Joes Liquor,16151 Nordhoff St,North Hills,CA,91343,34.235687,-118.48438
+,7-Eleven,4400 Maine Ave,Baldwin Park,CA,91706,34.09301,-117.96046
+,7-Eleven,6262 Rosemead Blvd,Temple City,CA,91780,34.113029,-118.07363
+,7-Eleven,2299 190th Street,Redondo Beach,CA,90278,33.858288,-118.37016
+,Pleasure Liquor,8422 Telegraph Rd,Downey,CA,90240,33.96307,-118.11221
+,7-Eleven,5498 1/2 Centinela,Los Angeles,CA,90045,33.977013,-118.37677
+,7-Eleven,13260 Sherman Way,North Hollywood,CA,91605,34.201172,-118.42214
+,Chevron,100 W Foothill Blvd,Pomona,CA,91767,34.107883,-117.74904
+,South Pasadena Farmers' Market,913 Meridian Ave,South Pasadena,CA,91030,34.115162,-118.15739
+,Gaffey Liquor & Deli,1623 S Gaffey St,San Pedro,CA,90731,33.7295,-118.29245
+,Stone Liquor & Market,1211 S Glendora Ave,West Covina,CA,91790,34.055435,-117.9387
+,Victoria Plaza Liquor Inc,4226 W Pico Blvd,Los Angeles,CA,90019,34.047848,-118.32746
+,CVS,3335 S Figueroa St,Los Angeles,CA,90007,34.022099,-118.27995
+,Shell,702 E Huntington Dr,Monrovia,CA,91016,34.140404,-117.98988
+,Lawrence Liquor Market,2301 James M Wood Blvd,Los Angeles,CA,90006,34.054405,-118.28094
+,7-Eleven,1916 S San Pedro St,Los Angeles,CA,90011,34.027168,-118.25765
+,"Jr's Liquor, Inc.",7633 Wilcox Ave,Cudahy,CA,90201,33.965004,-118.17855
+,Larrys Liquor Store,3904 Tweedy Blvd,South Gate,CA,90280,33.943882,-118.20295
+,7-Eleven,5103 E Pacific Coast Hwy,Long Beach,CA,90804,33.783787,-118.13397
+,Village Liquor,4117 Riverside Dr,Chino,CA,91710,34.018871,-117.71426
+,Ted's Liquor,825 E Garvey Ave,Monterey Park,CA,91754,34.06263,-118.11134
+,Chevron,22222 Wilmington Ave,Carson,CA,90745,33.825039,-118.24186
+,CVS,19701 Vanowen St,Winnetka,CA,91306,34.193848,-118.56265
+,7-Eleven,16207 Parthenia St,North Hills,CA,91343,34.228409,-118.48554
+,Jacks Liquor & Deli,1605 E Mission Blvd,Pomona,CA,91766,34.05582,-117.72366
+,Jj Liquor,5442 E Del Amo Blvd,Long Beach,CA,90808,33.846985,-118.12623
+,Rilley Gas And Food 82846,7667 E Slauson Ave,Commerce,CA,90040,33.975861,-118.1267
+,7-Eleven,1831 S Pacific Ave,San Pedro,CA,90731,33.727352,-118.288
+,CENTURY LIQUOR,2115 W Jefferson Blvd,Los Angeles,CA,90018,34.025558,-118.3181
+,ARCO,1605 W Carson St,Torrance,CA,90501,33.831516,-118.3068
+,Liquor Plus,431 E Garvey Ave,Monterey Park,CA,91755,34.062618,-118.11599
+,7-Eleven,733 Washington Blvd,Montebello,CA,90640,33.993652,-118.11575
+,Super Star Liquor Market,1436 W Beverly Blvd,Montebello,CA,90640,34.018867,-118.11359
+,Shell,43620 Challenger Way,Lancaster,CA,93535,34.675819,-118.11237
+,7-Eleven,12902 Foothill Blvd,Sylmar,CA,91342,34.293728,-118.41548
+,Starlite Liquor,3510 W Victory Blvd,Burbank,CA,91505,34.184704,-118.34961
+,7-Eleven,20250 Sherman Way,Winnetka,CA,91306,34.200993,-118.57497
+,7-Eleven,9703 State St,South Gate,CA,90280,33.947269,-118.21339
+,7-Eleven,660 E Foothill Blvd,San Dimas,CA,91773,34.122433,-117.79452
+,Studio City Farmers Market,Ventura Place,Studio City,CA,91604,34.143654,-118.39284
+,ARCO,13411 Imperial Hwy,Whittier,CA,90605,33.917076,-118.04628
+,Chevron,650 E Washington Blvd,Los Angeles,CA,90015,34.027817,-118.25794
+,7-Eleven,1647 Silver Lake Blvd,Los Angeles,CA,90026,34.089039,-118.26877
+,Bob's Liquor,17315 Saticoy St,Northridge,CA,91325,34.208439,-118.5106
+,Warners Corner Liquor,539 S Euclid St,La Habra,CA,90631,33.925892,-117.94612
+,Shell,705 W Huntington Dr,Monrovia,CA,91016,34.140339,-118.01457
+,Bouquet Plaza Liquor,28200 Bouquet Canyon Rd,Santa Clarita,CA,91350,34.453114,-118.49593
+,ARCO,20940 Norwalk Blvd,Lakewood,CA,90715,33.83905,-118.07204
+,ARCO,111 W Avenue K,Lancaster,CA,93534,34.675018,-118.13077
+,7-Eleven,4800 N Temple City,Temple City,CA,91780,34.089516,-118.05727
+,CVS,8252 Van Nuys Blvd,Panorama City,CA,91402,34.221001,-118.44875
+,7-Eleven,2000 N Hollywood Way,Burbank,CA,91505,34.185242,-118.34911
+,7-Eleven,12100 Garfield Ave,South Gate,CA,90280,33.916573,-118.16891
+,Atlantic Wine & Spirits,504 S Atlantic Blvd,Monterey Park,CA,91754,34.056225,-118.13483
+,7-Eleven,23406 Lyons Ave,Newhall,CA,91321,34.379547,-118.54269
+,7-Eleven,381 E Whittier Blvd,La Habra,CA,90631,33.939178,-117.94229
+,ARCO,14053 Sherman Way,Van Nuys,CA,91405,34.201248,-118.43965
+,Topper Liquor,3061 W 8th St,Los Angeles,CA,90005,34.057793,-118.29334
+,Shell,4804 Coldwater Canyon Ave,Sherman Oaks,CA,91423,34.157909,-118.41376
+,Matts Liquor Store,10431 Rush St,South El Monte,CA,91733,34.05191,-118.04372
+,Wine Barrel Liquor,4250 S Hoover St,Los Angeles,CA,90037,34.006012,-118.28719
+,Shell,4590 Huntington Dr N,Los Angeles,CA,90032,34.086082,-118.18784
+,Windsor Liquor,801 S Glendale Ave,Glendale,CA,91205,34.136707,-118.2515
+,ARCO,241 E Albertoni St,Carson,CA,90746,33.871387,-118.2735
+,7-Eleven,1133 E Broadway,Glendale,CA,91205,34.146248,-118.24022
+,Casa De Liquor,2525 San Gabriel Blvd,Rosemead,CA,91770,34.058331,-118.09061
+,Cork N Bib Liquor,16261 San Fernando Mission Blvd,Granada Hills,CA,91344,34.27198,-118.48627
+,Supreme Liquor Mart,658 Magnolia Ave,Long Beach,CA,90802,33.775047,-118.19797
+,Candlewood Liquor,4111 Candlewood St,Lakewood,CA,90712,33.853863,-118.14425
+,7-Eleven,818 W 7th St,Los Angeles,CA,90017,34.048908,-118.25917
+,Arrow Liquor Mart,700 Arrow Hwy,La Verne,CA,91750,34.101753,-117.7935
+,Eleven Union Liquor,1605 W 11th St,Los Angeles,CA,90015,34.047855,-118.27538
+,ARCO,9600 Avalon Blvd,Los Angeles,CA,90003,33.949081,-118.26513
+,7-Eleven,13702 Oxnard St,Van Nuys,CA,91401,34.179348,-118.43134
+,7-Eleven,12361 Imperial Hwy,Norwalk,CA,90650,33.917259,-118.06946
+,Georges Liquor,1758 New Ave,San Gabriel,CA,91776,34.07687,-118.10822
+,7-Eleven,111 W Pacific Coast Hwy,Wilmington,CA,90744,33.791168,-118.26373
+,Country Liquor,18922 Soledad Canyon Rd,Canyon Country,CA,91351,34.415668,-118.46532
+,Prime Liquor Mart,11036 E Washington Blvd,Whittier,CA,90606,33.972683,-118.075
+,Happy Liquor & Grocery Store,2201 Magnolia Ave,Long Beach,CA,90806,33.797279,-118.19817
+,Ocean Liquor Mart,233 N Harbor Blvd,San Pedro,CA,90731,33.744537,-118.27979
+,7-Eleven,400 W Foothill Blvd,Monrovia,CA,91016,34.151215,-118.00768
+,Kwik Stop Liquor,19663 Sherman Way,Reseda,CA,91335,34.20118,-118.56202
+,Lucky Liquor Store,16310 Whittier Blvd,Whittier,CA,90603,33.940231,-117.98262
+,Beverly Hills Liquor And Wine Inc,8318 Wilshire Blvd,Beverly Hills,CA,90211,34.064323,-118.37291
+,Country Store Liquor,550 S Garfield Ave,Monterey Park,CA,91754,34.055439,-118.12558
+,Jerrys Liquor Market,4279 S Vermont Ave,Los Angeles,CA,90037,34.00565,-118.29158
+,7-Eleven,2801 James M Wood Blvd,Los Angeles,CA,90006,34.055946,-118.28936
+,ARCO,3834 E 3rd St,Los Angeles,CA,90063,34.033283,-118.18503
+,Super Market & Liquor,4820 Santa Monica Blvd,Los Angeles,CA,90029,34.090832,-118.29463
+,Imperial Liquor Land,11401 S Vermont Ave,Los Angeles,CA,90044,33.930958,-118.29198
+,H & H Liquor Store,360 E Route 66,Glendora,CA,91740,34.128635,-117.86066
+,Chevron,428 W Florence Ave,Los Angeles,CA,90003,33.974625,-118.28148
+,Daves Liquor,9317 S Vermont Ave,Los Angeles,CA,90044,33.951927,-118.29196
+,Corner Store Liquor 2,3000 N Main St,Los Angeles,CA,90031,34.066013,-118.21
+,Stonewall Liquor,4550 N Grand Ave,Covina,CA,91724,34.0952,-117.87246
+,HS Market South Liquor,494 E South St,Long Beach,CA,90805,33.860054,-118.18627
+,A & J Wine & Spirits,471 E San Bernardino Rd,Covina,CA,91723,34.09079,-117.88176
+,Aero Liquor and Jr Market,2527 W Burbank Blvd,Burbank,CA,91505,34.178326,-118.33943
+,Chevron,16725 Pioneer Blvd,Artesia,CA,90701,33.878368,-118.08244
+,Stardustliquor,17503 Chatsworth St,Granada Hills,CA,91344,34.264889,-118.51576
+,Cliff's Liquor,4128 Florence Ave,Cudahy,CA,90201,33.970982,-118.19466
+,Vercher Liquor,12020 S Central Ave,Los Angeles,CA,90059,33.92321,-118.25433
+,BIXEL LIQUOR STORE,467 S Bixel St,Los Angeles,CA,90017,34.055218,-118.2613
+,ARCO,2354 E Palmdale Blvd,Palmdale,CA,93550,34.580112,-118.08532
+,Walgreens,8030 Imperial Hwy,Downey,CA,90242,33.923595,-118.15115
+,Navizadeh Mini Mart & Gas 81427,1501 Washington Blvd,Montebello,CA,90640,33.997055,-118.1241
+,La Tienda Liquor,608 W Route 66,Glendora,CA,91740,34.128643,-117.87463
+,Steve's Liquor,1232 Sepulveda Blvd,Harbor City,CA,90710,33.813232,-118.29837
+,Ruska Liquor,1805 W 7th St,Los Angeles,CA,90057,34.055046,-118.27357
+,CVS,4744 Lankershim Blvd,North Hollywood,CA,91602,34.156738,-118.36964
+,Vallejo Mini Market & Gas Station Inc. 82318,12525 Hadley St,Whittier,CA,90601,33.98275,-118.04255
+,Go Go Liquor,914 W Duarte Rd,Arcadia,CA,91007,34.125175,-118.06087
+,Smittys Liquor,13409 Avalon Blvd,Los Angeles,CA,90061,33.910309,-118.26537
+,7-Eleven,10656 Rosecrans Ave,Norwalk,CA,90650,33.901985,-118.10623
+,Pour House Liquor,7448 Reseda Blvd,Reseda,CA,91335,34.206131,-118.53602
+,7-Eleven,3791 Martin Luther King Jr Blvd,Lynwood,CA,90262,33.928318,-118.19997
+,Dorose Liquor,13560 Roscoe Blvd,Panorama City,CA,91402,34.221626,-118.42817
+,Van Horn Liquor,6900 N Paramount Blvd,Long Beach,CA,90805,33.880196,-118.1599
+,Mels Liquor & Check Cashing,4673 Riverside Dr,Chino,CA,91710,34.018951,-117.70254
+,Chevron,3900 Rosemead Blvd,Pico Rivera,CA,90660,34.020287,-118.07504
+,7-Eleven,1430 Mountain Ave,Duarte,CA,91010,34.137173,-117.98628
+,Ks Liquor Mart,21725 Figueroa St,Carson,CA,90745,33.830952,-118.28616
+,Cherry Liquor,3601 Cherry Ave,Long Beach,CA,90807,33.822323,-118.16779
+,ARCO,17000 Devonshire St,Northridge,CA,91325,34.257515,-118.50277
+,Florence Liquor,1534 W Florence Ave,Los Angeles,CA,90047,33.974545,-118.30374
+,Chevron,3817 W 3rd St,Los Angeles,CA,90020,34.06905,-118.29872
+,Vallejo Mini Market & Gas Station Inc. 05061,12606 Rosecrans Ave,Santa Fe Springs,CA,90670,33.90221,-118.06387
+,Falcon Liquor,1501 E Broadway,Long Beach,CA,90802,33.767986,-118.17305
+,7-Eleven,10965 Firestone Blvd,Norwalk,CA,90650,33.922466,-118.09975
+,Shell,701 Torrance Blvd,Torrance,CA,90502,33.842068,-118.2873
+,Sal'S Liquor,7552 Laurel Canyon Blvd,North Hollywood,CA,91605,34.207954,-118.39645
+,One Stop Liquor,2315 S Central Ave,Los Angeles,CA,90011,34.020863,-118.25388
+,7-Eleven,7371 Florence Ave,Downey,CA,90240,33.959023,-118.14075
+,7-Eleven,15544 San Fernando Mission Blvd,Mission Hills,CA,91345,34.271793,-118.47098
+,Guru Gas Mini Mart,910 E Route 66,Glendora,CA,91740,34.128693,-117.85053
+,SK Liquor,13201 Inglewood Ave,Hawthorne,CA,90250,33.912731,-118.36131
+,Sals Liquor,8035 Vineland Ave,Sun Valley,CA,91352,34.216427,-118.3704
+,PM Liquor Market,1976 S La Cienega Blvd,Los Angeles,CA,90034,34.040661,-118.37687
+,Canyon Liquor,16507 Soledad Canyon Rd,Canyon Country,CA,91387,34.426991,-118.4239
+,Wally's Liquor Market,1955 S San Pedro St,Los Angeles,CA,90011,34.027027,-118.25788
+,ARCO,20455 Devonshire St,Chatsworth,CA,91311,34.25729,-118.5796
+,Catalina Liquor,3130 W 8th St,Los Angeles,CA,90005,34.057713,-118.29574
+,7-Eleven,1699 W Carson St,Torrance,CA,90501,33.831558,-118.30877
+,ARCO,1333 W Merced Ave,West Covina,CA,91790,34.061043,-117.94569
+,ARCO,15380 Fairfield Ranch Rd,Chino Hills,CA,91709,33.971817,-117.68983
+,7-Eleven,5827 Bellflower Blvd,Lakewood,CA,90713,33.861092,-118.12524
+,Vista Liquor,2415 N San Fernando Blvd,Burbank,CA,91504,34.19709,-118.33682
+,Deeps Liquor & Mini Market,6326 Lincoln Ave,Cypress,CA,90630,33.831734,-118.02181
+,CVS,16461 Ventura Blvd,Encino,CA,91436,34.157528,-118.49194
+,Green Mill Liquor,3812 Whittier Blvd,Los Angeles,CA,90023,34.023891,-118.1918
+,Famous Eds Liquor and Market,4203 Tyler Ave,El Monte,CA,91731,34.083122,-118.03145
+,Kev's Liquor,9442 Valley Blvd,Rosemead,CA,91770,34.081161,-118.06316
+,Tonys Liquor,4485 W Pico Blvd,Los Angeles,CA,90019,34.048439,-118.33294
+,7-Eleven,8147 Arroyo Dr,Rosemead,CA,91770,34.042416,-118.09301
+,Oro Liquor & Market,4376 W 3rd St,Los Angeles,CA,90020,34.068916,-118.30983
+,7-Eleven,4221 Beverly Blvd,Los Angeles,CA,90004,34.076347,-118.30074
+,My Liquor Bank,7420 S Central Ave,Los Angeles,CA,90001,33.972431,-118.2564
+,King Jr Gas & Super,1515 W Martin Luther King Jr Blvd,Los Angeles,CA,90062,34.01088,-118.30419
+,7-Eleven,1212 N White Ave,Pomona,CA,91768,34.070042,-117.75931
+,7-Eleven,14219 S Western Ave,Gardena,CA,90249,33.90239,-118.30917
+,7-Eleven,8650 Beverly Blvd,Pico Rivera,CA,90660,34.012184,-118.0862
+,Gourmet Wine & Spirits,4803 Whitsett Ave,Valley Village,CA,91607,34.1577,-118.40533
+,Star Liquor,201 W Arbor Vitae St,Inglewood,CA,90301,33.952728,-118.35788
+,Walgreens,1050 N Highland Ave,Los Angeles,CA,90038,34.089813,-118.33853
+,7-Eleven,4111 Venice Blvd,Los Angeles,CA,90019,34.044147,-118.32668
+,7-Eleven,601 N Sepulveda Blvd,El Segundo,CA,90245,33.923882,-118.39645
+,7-Eleven,7858 Van Nuys Blvd,Panorama City,CA,91402,34.213303,-118.44872
+,"J&y Liquor, Inc.",1553 W 8th St,Los Angeles,CA,90017,34.052071,-118.27148
+,J & J Liquor,14554 Polk St,Sylmar,CA,91342,34.307343,-118.4499
+,Sierra Liquor & Jr. Market,17800 Sierra Hwy,Canyon Country,CA,91351,34.426949,-118.44712
+,Dales Liquor Market,14900 Victory Blvd,Van Nuys,CA,91411,34.186634,-118.45784
+,CVS,47th St at Avenue R,Palmdale,CA,93550,34.572811,-118.045
+,Liquor Stop N Go Super Market Inc,20001 Roscoe Blvd,Winnetka,CA,91306,34.22028,-118.56913
+,North Hollywood Liquor,11228 Burbank Blvd,North Hollywood,CA,91601,34.172123,-118.37614
+,Quick Stop Liquor,14411 Victory Blvd,Van Nuys,CA,91401,34.186699,-118.44704
+,H & H Liquor,736 N Glendora Ave.,La Puente,CA,91744,34.031906,-117.95039
+,Franks Liquor,4023 W 3rd St,Los Angeles,CA,90020,34.069065,-118.30097
+,North American Petroleum LLC,1875 W Holt Ave,Pomona,CA,91768,34.0616,-117.78283
+,South West Petroleum LLC,5038 W El Segundo Blvd,Hawthorne,CA,90250,33.916374,-118.36661
+,Bills Liquor & Junior Market,5332 W Sunset Blvd,Los Angeles,CA,90027,34.098068,-118.30611
+,Pioneer Liquor Store,16310 Pioneer Blvd,Norwalk,CA,90650,33.88319,-118.08236
+,Walgreens,2321 Hawthorne Blvd,Redondo Beach,CA,90278,33.873623,-118.35274
+,ARCO,11846 Downey Ave,Downey,CA,90241,33.932281,-118.1385
+,ARCO,4169 Venice Blvd,Los Angeles,CA,90019,34.044598,-118.32802
+,7-Eleven,1241 W Washington Blvd,Los Angeles,CA,90007,34.039818,-118.28396
+,Olympic Parks Liquor,3533 W Olympic Blvd,Los Angeles,CA,90019,34.052559,-118.31557
+,M & W LIQUOR NO. 1,2801 Fletcher Dr,Los Angeles,CA,90039,34.111893,-118.24963
+,7-Eleven,2875 E Avenue R,Palmdale,CA,93550,34.572796,-118.07848
+,ARCO,810 Sepulveda Blvd,Harbor City,CA,90710,33.809326,-118.28859
+,Oasis Liquor,4800 Whitsett Ave,Valley Village,CA,91607,34.157879,-118.40523
+,Carson Liquor,11954 Carson St,Hawaiian Gardens,CA,90716,33.831383,-118.07715
+,East Hollywood Farmer's Market,5448 Hollywood Blvd,Los Angeles,CA,90027,34.101723,-118.30868
+,Bubbles Liquor,15608 E. Gale Ave,Haciend Heights,CA,91745,34.011932,-117.96674
+,7-Eleven,295 W Central,Brea,CA,92821,33.932121,-117.89906
+,ARCO,14903 Victory Blvd,Van Nuys,CA,91411,34.186687,-118.45781
+,Chevron,21324 Pathfinder Rd,Diamond Bar,CA,91765,33.984222,-117.84055
+,Farmers Tran Seafood And Poultry Market,12920 S Figueroa St,Los Angeles,CA,90061,33.914661,-118.28268
+,Speedy Spot Liquor,1190 S la Brea Ave,Inglewood,CA,90301,33.947571,-118.35252
+,76 Gas Station,16505 Victory Blvd,Van Nuys,CA,91406,34.186638,-118.49266
+,Lakewood Gas,17013 Lakewood Blvd,Bellflower,CA,90706,33.879669,-118.14266
+,Lynwood Petroleum Inc,11401 Atlantic Ave,Lynwood,CA,90262,33.920822,-118.18771
+,7-Eleven,12200 Artesia Blvd,Artesia,CA,90701,33.873024,-118.07213
+,Valero Gas,6357 So Eastern Ave,Bell Gardens,CA,90201,33.975998,-118.16374
+,Famous Ed's Liquor & Jr Market,2720 Whittier Blvd,Los Angeles,CA,90023,34.032413,-118.2114
+,Metrose Liquor Inc,6400 Tujunga Ave,North Hollywood,CA,91606,34.186695,-118.37899
+,Lucky Liquor,2800 W 9th St,Los Angeles,CA,90006,33.737682,-118.31855
+,JT Corner Liquor & Market,9716 S Main St,Los Angeles,CA,90003,33.947651,-118.27386
+,Walgreens,1399 Roxbury Dr,Los Angeles,CA,90035,34.054134,-118.40232
+,7-Eleven,20006 E Arrow Hwy,Covina,CA,91724,34.106567,-117.86356
+,Desoto Plaza Liquor & Jr. Market,8935 De Soto Ave,Canoga Park,CA,91304,34.232792,-118.58861
+,7-Eleven,109 W Lambert Rd,Brea,CA,92821,33.924896,-117.89643
+,Happy Beer Wine Market,1220 E Anaheim St,Long Beach,CA,90813,33.782558,-118.1759
+,Oil Patch Liquor,2799 E Willow St,Signal Hill,CA,90755,33.804546,-118.15895
+,The Greener Good Farmers Markets,2125 Santa Fe Ave,Long Beach,CA,90810,33.836723,-118.21518
+,Chevron,500 N Santa Anita Ave,Arcadia,CA,91006,34.145851,-118.03145
+,Hasley Liquor & Deli,27305 Live Oak Rd,Castaic,CA,91384,34.453289,-118.61624
+,Ladds Liquor,4217 W 3rd St,Los Angeles,CA,90020,34.069019,-118.30649
+,Village Liquor,1823 E Carson St,Carson,CA,90745,33.831837,-118.24022
+,7-Eleven,15008 Leffingwell Rd,La Mirada,CA,90638,33.926792,-118.01163
+,7-Eleven,14350 Victory Blvd,Van Nuys,CA,91401,34.186642,-118.44601
+,7-Eleven,15105 Lakewood Blvd,Paramount,CA,90723,33.896339,-118.14285
+,7-Eleven,4919 Las Virgenes Rd,Calabasas,CA,91302,34.146496,-118.69795
+,Michael's Market & Liquor,37935 47th St E,Palmdale,CA,93552,34.571381,-118.04505
+,Roderos Liquor,14637 Hubbard St,Sylmar,CA,91342,34.290005,-118.45005
+,Garvey Market & Liquor,9463 Garvey Ave,South El Monte,CA,91733,34.06279,-118.0638
+,Super Stop Liquor,3440 Falcon St,Pomona,CA,91767,34.108688,-117.75407
+,M & S Liquor Inc,490 N Allen Ave,Pasadena,CA,91106,34.15448,-118.11314
+,Chevron,13129 Valley Blvd,La Puente,CA,91746,34.051353,-117.99933
+,7-Eleven,2321 E Florence Ave,Huntington Park,CA,90255,33.974758,-118.23068
+,VN Liquor Mini Market,15920 S Vermont Ave,Gardena,CA,90247,33.886494,-118.29143
+,Lawndale Chamber Of Commerce Farmers Market,14717 Burin Ave,Lawndale,CA,90260,33.898067,-118.35391
+,Country Club Liquor,11067 Balboa Blvd,Granada Hills,CA,91344,34.271652,-118.50224
+,Twilight Liquors,16625 S Normandie Ave,Gardena,CA,90247,33.879089,-118.29993
+,Hyde Park Liquor Market,622 Centinela Ave,Inglewood,CA,90302,33.974354,-118.35099
+,Metro Gas Company 1,2925 E Cesar E Chavez Ave,Los Angeles,CA,90033,34.043705,-118.20067
+,Wrightwood Certified Farmers Market,1275 State Rte. 2,Wrightwood,CA,92397,34.361279,-117.63395
+,Monterey Park Certified Farmers' Market,318 S Ramona Ave,Monterey Park,CA,91754,34.059269,-118.12543
+,Lucky 9 Liquor,2201 W Pico Blvd,Los Angeles,CA,90006,34.047318,-118.28456
+,BMW Liquor,4533 W Imperial Hwy,Lennox,CA,90304,33.930965,-118.35598
+,LUCKY LIQUOR & JR MARKET,20948 Bloomfield Ave,Lakewood,CA,90715,33.839256,-118.06326
+,Cheap Corner Liquor,14312 Bellflower Blvd,Bellflower,CA,90706,33.901489,-118.1253
+,Canoga Park Certified Farmers' Market,7248 Owensmouth Ave,Canoga Park,CA,91303,34.202522,-118.60154
+,7-Eleven,3101 Overland Ave,Los Angeles,CA,90034,34.030411,-118.41607
+,"Sunset Liquor & Market, Inc",300 N Sunset Ave,La Puente,CA,91744,34.036922,-117.97195
+,Steves Liquor & Market,1501 E 22nd St,Los Angeles,CA,90011,34.018833,-118.24791
+,Ken's Liquor & Wine,901 Inglewood Ave,Redondo Beach,CA,90278,33.862202,-118.36124
+,7-Eleven,1707 Indian Hill Blvd,Pomona,CA,91767,34.076199,-117.71928
+,7-Eleven,1100 Redondo Ave,Long Beach,CA,90804,33.780922,-118.1524
+,Historic Los Angeles Farmers' Market,Fifth Street Between Spring Street And,Los Angeles,CA,90013,34.041431,-118.23824
+,Woodland Hills Gas Mart,22455 Ventura Blvd,Woodland Hills,CA,91364,34.168278,-118.61626
+,ARCO,4009 W Rosecrans Ave,Hawthorne,CA,90250,33.901939,-118.34408
+,ARCO,33488 Crown Valley Rd,Acton,CA,93510,34.490601,-118.19822
+,ARCO,2101 W Rosamond Blvd,Rosamond,CA,93560,34.864399,-118.16721
+,ARCO,42420 60th St W,Lancaster,CA,93536,34.65324,-118.2362
+,Spirits World Liquor,18523 Burbank Blvd,Tarzana,CA,91356,34.172398,-118.53687
+,Safeway Liquor,17702 Chatsworth St,Granada Hills,CA,91344,34.264843,-118.51996
+,Pipeline Wine And Spirits,14584 Pipeline Ave,Chino,CA,91710,33.989288,-117.71558
+,K S  Beer Wine Market,3403 Farnsworth Ave,Los Angeles,CA,90032,34.085327,-118.16631
+,Walgreens,305 N Breed St,Los Angeles,CA,90033,34.047428,-118.20885
+,Liquor Land,928 E Covina Blvd,Covina,CA,91724,34.099396,-117.87219
+,Happys Liquor,12554 Rosecrans Ave,Norwalk,CA,90650,33.902199,-118.06469
+,Reads Liquor,308 S Alvarado St,Los Angeles,CA,90057,34.06279,-118.27274
+,7-Eleven,1800 E Olympic Blvd,Los Angeles,CA,90021,34.027504,-118.23878
+,Stewarts Liquor Store,11112 Paramount Blvd,Downey,CA,90241,33.94326,-118.13754
+,PB Liquor Store,44549 10th St W,Lancaster,CA,93534,34.69294,-118.14809
+,Dorose Liquor,9857 Mason Ave,Chatsworth,CA,91311,34.249088,-118.57983
+,7-Eleven,8438 Santa Fe Springs Rd,Whittier,CA,90606,33.963879,-118.04558
+,Avenue Q Liquor Inc,2010 E Avenue Q,Palmdale,CA,93550,34.587402,-118.09376
+,Pacoima Gas,13570 Van Nuys Blvd,Pacoima,CA,91331,34.261307,-118.42863
+,Guillens Central Liquor,13115 Central Ave,Chino,CA,91710,34.015091,-117.68916
+,CVS,5176 E Whittier Blvd,Los Angeles,CA,90022,34.020489,-118.15791
+,7-Eleven,1800 E Slauson Ave,Vernon,CA,90058,33.989174,-118.2404
+,Space Liquor Inc,13501 S Alameda St,Compton,CA,90222,33.909576,-118.22256
+,Walgreens,11000 W Ventura Blvd,Studio City,CA,91604,34.140453,-118.37028
+,7-Eleven,8600 S Central Ave,Los Angeles,CA,90002,33.95974,-118.25638
+,7-Eleven,5401 S Figueroa St,Los Angeles,CA,90037,33.993111,-118.28271
+,Valley View Management Inc( Ampm Arco Gas Station) 5881,9511 Valley View St,Cypress,CA,90630,33.824059,-118.02841
+,Sunshine Liquor Market,16416 Delone St,Santa Clarita,CA,91387,34.423817,-118.42292
+,Gold 7 Liquor,545 W Whittier Blvd,La Habra,CA,90631,33.939175,-117.95134
+,7-Eleven,6701 Santa Monica Blvd,Los Angeles,CA,90038,34.090775,-118.3363
+,7-Eleven,9850 Mason Ave,Chatsworth,CA,91311,34.249401,-118.57977
+,7-Eleven,13901 Ventura Blvd,Sherman Oaks,CA,91423,34.148678,-118.43488
+,Chevron,700 Redondo Ave,Long Beach,CA,90804,33.77536,-118.15235
+,Vic's Liquor,1415 S Atlantic Blvd,Los Angeles,CA,90022,34.011631,-118.15926
+,A.N.S. Liquor,4625 Hooper Ave,Los Angeles,CA,90011,34.001251,-118.25218
+,Santa Clarita Certified Farmers' Market,26455 Rockwell Canyon Road,Santa Clarita,CA,91355,34.402649,-118.56652
+,Chevron,101 W Compton Blvd,Compton,CA,90220,33.896046,-118.2244
+,Drive in Liquor,10 E Huntington Dr,Arcadia,CA,91006,34.139996,-118.03095
+,7-Eleven,200 N Hollywood Way,Burbank,CA,91505,34.154297,-118.34035
+,7-Eleven,8416 Lankershim Blvd,Sun Valley,CA,91352,34.222931,-118.38776
+,Country Club Liquor,300 E Las Tunas Dr,San Gabriel,CA,91776,34.103092,-118.09682
+,Atwater Village Farmers' Market,3250 Glendale Blvd,Los Angeles,CA,90039,34.118446,-118.26018
+,Los Angeles Medical Center Farmers' Market,4800 Hollywood Blvd,Los Angeles,CA,90027,34.101734,-118.29507
+,Echo Park Farmers' Market,1220 Logan St,Los Angeles,CA,90026,34.076466,-118.25883
+,Central Avenue Farmers' Market,4301 S Central Ave,Los Angeles,CA,90011,34.005489,-118.25652
+,Watts Healthy Farmers' Market,1335 E 103rd St,Los Angeles,CA,90002,33.94331,-118.25051
+,Crenshaw Farmers' Market,3650 W. Martin Luther King Blvd,Los Angeles,CA,90008,34.011547,-118.33643
+,S & J Liquor,925 Cypress Ave,Los Angeles,CA,90065,34.092892,-118.22501
+,Santa Monica Farmers Market - Sat,Arizona Avenue,Santa Monica,CA,90401,34.015434,-118.49966
+,Santa Monica Farmers Market - Sun,2640 Main St,Santa Monica,CA,90405,34.001701,-118.48338
+,Santa Monica Farmers Market - Pico,2200 Virginia Ave,Santa Monica,CA,90404,34.022026,-118.46874
+,Daves Liquor,2704 S Robertson Blvd,Los Angeles,CA,90034,34.037231,-118.38867
+,Avalon Liquor & Market,345 N Avalon Blvd,Wilmington,CA,90744,33.774036,-118.26202
+,Kenny's Liquor & Jr. Market,3100 W 48th St,Los Angeles,CA,90043,33.999962,-118.32727
+,7-Eleven,3310 E Imperial Hwy,Brea,CA,92823,33.908909,-117.85152
+,Dk Liquor,5860 Imperial Hwy,South Gate,CA,90280,33.929501,-118.16509
+,Certified Growing Experience Farmers Market 1,750 E Via Carmelitos,Long Beach,CA,90805,33.847584,-118.18375
+,7-Eleven,26815 Seco Canyon Rd,Santa Clarita,CA,91350,34.433922,-118.53166
+,7-Eleven,27761 Bouquet Canyon Rd,Santa Clarita,CA,91350,34.445484,-118.50644
+,7-Eleven,27588 Sierra Hwy,Canyon Country,CA,91351,34.416203,-118.45594
+,Barranca Mobil Gas Station,504 N Barranca Ave,Covina,CA,91723,34.091122,-117.88132
+,Covina Liquor Mart Inc,827 W Covina Blvd,Covina,CA,91722,34.099438,-117.90649
+,Rite Liquor,14000 Inglewood Ave,Hawthorne,CA,90250,33.90432,-118.36126
+,Patty's Liquor,5151 Whittier Blvd,Los Angeles,CA,90022,34.020733,-118.15851
+,Firestone Petroleum Inc,5731 Firestone Blvd,South Gate,CA,90280,33.949257,-118.16566
+,Plaza Liquor,1546 W Carson St,Torrance,CA,90501,33.831486,-118.30551
+,Chevron,575 W Pacific Coast Hwy,Wilmington,CA,90744,33.79089,-118.26909
+,Eddie's Liquor 18,200 W Pacific Coast Hwy,Long Beach,CA,90806,33.789845,-118.19384
+,7-Eleven,6810 E Slauson Ave,Commerce,CA,90040,33.982079,-118.14119
+,7-Eleven,3689 E Colorado Blvd,Pasadena,CA,91107,34.146355,-118.07368
+,Jones Liquor,2435 Broadway,Long Beach,CA,90803,33.766396,-118.1631
+,CVS,5601 Van Nuys Blvd,Sherman Oaks,CA,91401,34.172451,-118.44878
+,Chevron,2761 Cabrillo Ave,Torrance,CA,90501,33.819935,-118.3158
+,Walgreens,1501 Vine St,Los Angeles,CA,90028,34.098034,-118.3267
+,Chevron,12801 Inglewood Ave,Hawthorne,CA,90250,33.91621,-118.36132
+,7-Eleven,10133 San Fernando Rd,Pacoima,CA,91331,34.254318,-118.4097
+,7-Eleven,11140 Del Amo Blvd,Lakewood,CA,90715,33.845795,-118.09592
+,Scotty's Gas & Food Mart,3601 E 4th St,Long Beach,CA,90814,33.771729,-118.14993
+,Discount Liquor Mart,18248 Soledad Canyon Rd,Canyon Country,CA,91387,34.416351,-118.45149
+,China Town Gas America,900 N Hill St,Los Angeles,CA,90012,34.064667,-118.23856
+,7-Eleven,728 W Vernon Ave,Los Angeles,CA,90037,34.003693,-118.28651
+,7-Eleven,4323 E Anaheim St,Long Beach,CA,90804,33.782658,-118.14238
+,Bennys Market & Liquor,208 N Azusa Ave,Azusa,CA,91702,34.124702,-117.90755
+,Cameo Liquor & Market,6507 S Western Ave,Los Angeles,CA,90047,33.9804,-118.30901
+,ACE LIQUOR JR MARKET,1740 Victory Blvd,Glendale,CA,91201,34.162064,-118.30159
+,Winepress Liquor,20651 Golden Springs Dr,Walnut,CA,91789,33.997147,-117.85424
+,Variety Liquor,4669 W Imperial Hwy,Inglewood,CA,90304,33.930977,-118.35868
+,ARCO,1001 Redondo Ave,Long Beach,CA,90804,33.779392,-118.15247
+,7-Eleven,1550 Glendale Blvd,Los Angeles,CA,90026,34.083118,-118.25993
+,7-Eleven,3555 W Temple St,Los Angeles,CA,90004,34.076759,-118.28596
+,ABC Liquor,3709 W 190th St,Torrance,CA,90504,33.858337,-118.33707
+,7-Eleven,3201 Wilshire Blvd,Los Angeles,CA,90010,34.061829,-118.29188
+,7-Eleven,9716 1/2 Woodman Ave,Arleta,CA,91331,34.246403,-118.44765
+,7-Eleven,13203 Telegraph Rd,Santa Fe Springs,CA,90670,33.941978,-118.05101
+,Nelsons Liquor & Jr Market,1435 N La Brea Ave,Inglewood,CA,90302,33.980335,-118.35826
+,7-Eleven,2005 E 4th St,Los Angeles,CA,90033,34.042706,-118.21637
+,7-Eleven,4401 Redondo Beach Blvd,Lawndale,CA,90260,33.87426,-118.3528
+,Kings Delight Liquor and Deli,21925 Saticoy St,Canoga Park,CA,91304,34.208366,-118.60522
+,Los Feliz Village Certified Farmer's Market,1825 N Vermont Ave,Los Angeles,CA,90027,34.104309,-118.29182
+,7-Eleven,33186 Hawthorne Blvd,Rancho Palos Verdes,CA,90275,33.763012,-118.392
+,7-Eleven,14158 Paramount Blvd,Paramount,CA,90723,33.904354,-118.16006
+,7-Eleven,1878 Pacific Coast Hwy,Lomita,CA,90717,33.789425,-118.31152
+,Charter Oak Liquor,20040 E Arrow Hwy,Covina,CA,91724,34.106567,-117.86228
+,7-Eleven,8661 Sepulveda Blvd,North Hills,CA,91343,34.22802,-118.46769
+,Bookers Liquor,5879 S Figueroa St,Los Angeles,CA,90003,33.98748,-118.28273
+,Georges Liquor,1931 E la Habra Blvd,La Habra,CA,90631,33.931896,-117.92508
+,7-Eleven,28088 Bouquet Canyon Rd,Santa Clarita,CA,91350,34.451054,-118.4973
+,Louies Liquor,596 E Foothill Blvd,Azusa,CA,91702,34.133389,-117.90011
+,Bellflower Liquor,16704 Lakewood Blvd,Bellflower,CA,90706,33.88287,-118.14257
+,CVS,303 S la Brea Ave,Los Angeles,CA,90036,34.06847,-118.34406
+,Town & Country Liquor,23638 Newhall Ave,Newhall,CA,91321,34.369804,-118.51311
+,7-Eleven,504 W Olympic Blvd,Los Angeles,CA,90015,34.043198,-118.26091
+,ARCO,1115 W Arrow Hwy,San Dimas,CA,91773,34.106777,-117.82942
+,Citrus Liquor,484 S Citrus Ave,Azusa,CA,91702,34.114639,-117.89017
+,Shell,2741 S Towne Ave,Pomona,CA,91766,34.022606,-117.74473
+,Super 8 Gas,10802 Whittier Blvd,Whittier,CA,90606,33.989677,-118.06374
+,7-Eleven,1101 S Glendale Ave,Glendale,CA,91205,34.133511,-118.25206
+,Spot Not Auto Wash & Gas,15612 Arrow Hwy,Baldwin Park,CA,91706,34.106907,-117.94034
+,Kaiserpermanentedowney Farmers Market,9353 E Imperial Hwy,Downey,CA,90242,33.917084,-118.12898
+,C & S Liquor,13711 Central Ave,Chino,CA,91710,34.004227,-117.68911
+,Jnj Liquor & Market,3216 Baldwin Park Blvd,Baldwin Park,CA,91706,34.071728,-117.97732
+,Thousand Oaks Liquor,2809 E Thousand Oaks Blvd,Thousand Oaks,CA,91362,34.171394,-118.83887
+,John's Avalon Liquor Market,12003 S Avalon Blvd,Los Angeles,CA,90061,33.92355,-118.26527
+,Mr J's Liquor Mart,15814 Hawthorne Blvd,Lawndale,CA,90260,33.886921,-118.35236
+,Penny Pincher's Liquor 1,6430 West Blvd,Los Angeles,CA,90043,33.980911,-118.33516
+,Carson Pioneer Liquor Market,11801 Carson St,Hawaiian Gardens,CA,90716,33.831577,-118.08176
+,Thrifty Shopper Liquor,18925 Soledad Canyon Rd,Canyon Country,CA,91351,34.415874,-118.46577
+,Don's Liquor,6176 1/2 Long Beach Blvd,Long Beach,CA,90805,33.866886,-118.20047
+,ARCO,9454 Corbin Ave,Northridge,CA,91324,34.242371,-118.56227
+,JJ & S Imperial Liquor Inc.,13324 Vanowen St,Van Nuys,CA,91405,34.19389,-118.42348
+,ARCO,15900 Paramount Blvd,Paramount,CA,90723,33.888981,-118.15999
+,Joe's Liquor Mart,509 W Anaheim St,Wilmington,CA,90744,33.779709,-118.26792
+,Corona Beer & Wine,1630 E Gage Ave,Los Angeles,CA,90001,33.981972,-118.24456
+,Big Lots,20808 E Arrow Hwy,Covina,CA,91724,34.106602,-117.84762
+,Big Lots,1730 Nogales St,Rowland Heights,CA,91748,33.986893,-117.88924
+,Big Lots,12550 Central Ave,Chino,CA,91710,34.025501,-117.68951
+,Big Lots,4022 Chino Hills Pkwy,Chino Hills,CA,91709,33.98267,-117.71725
+,Big Lots,1955 Foothill Blvd,La Verne,CA,91750,34.114262,-117.76748
+,Big Lots,635 N Azusa Ave,West Covina,CA,91791,34.08215,-117.90786
+,USA Gasoline,4925 Torrance Blvd,Torrance,CA,90503,33.837597,-118.36633
+,USA Gasoline,302 S Pacific Ave,San Pedro,CA,90731,33.741192,-118.28786
+,Rosecrans Spirit Shop,14221 S Figueroa St,Los Angeles,CA,90061,33.902073,-118.28281
+,Chevron,12881 Encinitas Ave,Sylmar,CA,91342,34.303448,-118.47843
+,ARCO,13883 Foothill Blvd,Sylmar,CA,91342,34.311863,-118.43597
+,7-Eleven,14156 Rosecrans Ave,Santa Fe Springs,CA,90670,33.902473,-118.02955
+,ARCO,101 E Avenue J,Lancaster,CA,93535,34.689537,-118.13033
+,Happy's Liquor 1,13759 Leffingwell Rd,Whittier,CA,90605,33.920795,-118.03843
+,Marina Del Rey Farmers' Market,"#10 Parking Lot, Mother's Beach",Marina Del Rey,CA,90292,33.979893,-118.43829
+,P & B Liquor & Jr. Market,857 Pacific Ave,Long Beach,CA,90813,33.777374,-118.19379
+,Happy's Liquor,12 W Sierra Madre Blvd,Sierra Madre,CA,91024,34.161873,-118.05302
+,Chevron,11203 Glenoaks Blvd,Pacoima,CA,91331,34.27396,-118.41201
+,Samy's Liquor 1,10074 Mills Ave,Whittier,CA,90604,33.942158,-118.02909
+,Mission Valley Liquor Mart,9341 Valley Blvd,Rosemead,CA,91770,34.081139,-118.06572
+,Bernaeds Liquor & Deli Inc,5824 Riverside Dr,Chino,CA,91710,34.019211,-117.67787
+,7-Eleven,22225 Avalon Blvd,Carson,CA,90745,33.824581,-118.26374
+,7-Eleven,150 S Citrus St,West Covina,CA,91791,34.070061,-117.8901
+,Circle Liquor,1851 W la Habra Blvd,La Habra,CA,90631,33.931877,-117.9669
+,I & A Liquor,701 N Normandie Ave,Los Angeles,CA,90029,34.083775,-118.30051
+,A & D Liquor,11960 Foothill Blvd,Sylmar,CA,91342,34.276527,-118.39731
+,Walgreens,14885 Telegraph Rd,La Mirada,CA,90638,33.918797,-118.01466
+,Newbury Park Certified Farmer's Market,2331 Borchard Rd.,Newbury Park,CA,90020,34.181423,-118.92796
+,Del Rey Certified Farmer's Market,4610 Alla Rd,Marina del Rey,CA,90292,33.985764,-118.43179
+,ARCO,1326 W Avenue K,Lancaster,CA,93534,34.674885,-118.15477
+,Orange Liquor & Jr. Market,14272 Nelson Ave,City of Industry,CA,91746,34.040699,-117.9773
+,Silver Liquor Market,2717 W 3rd St,Los Angeles,CA,90057,34.066696,-118.27957
+,ARCO,6804 Vineland Ave,North Hollywood,CA,91605,34.194099,-118.37027
+,Eddie's Liquor,5024 Whittier Blvd,Los Angeles,CA,90022,34.021152,-118.1609
+,Sunset Plaza Liquors,7365 W Sunset Blvd,Los Angeles,CA,90046,34.098038,-118.35041
+,Shell,801 W Olympic Blvd,Montebello,CA,90640,34.006443,-118.10946
+,Chevron,901 N Alameda St,Los Angeles,CA,90012,34.058559,-118.23702
+,Chevron,2321 S Hacienda Blvd,Hacienda Heights,CA,91745,33.9925,-117.96875
+,Mickey's Liquor,4904 Huntington Dr S,Los Angeles,CA,90032,34.086796,-118.17653
+,Uncle Nick's Liquor & Market,2401 Artesia Blvd,Redondo Beach,CA,90278,33.872929,-118.36835
+,Adam Liquor,255 E Adams Blvd,Los Angeles,CA,90011,34.023605,-118.2658
+,Old Pasadena Farmers' Market,Holly Street Btw Raymond & Fair Oaks,Pasadena,CA,91105,34.139992,-118.16739
+,Shell,604 W Holt Ave,Pomona,CA,91768,34.062134,-117.75963
+,"Tori Liquor, Inc.",7300 Sepulveda Blvd,Van Nuys,CA,91405,34.203133,-118.46616
+,7-Eleven,9318 Washington Blvd,Pico Rivera,CA,90660,33.979778,-118.09094
+,Rosevan Liquor,14306 Van Ness Ave,Gardena,CA,90249,33.901409,-118.31784
+,Moe's Liquor,21180 Golden Springs Dr,Walnut,CA,91789,34.000652,-117.84232
+,7-Eleven,12411 Sheldon St,Sun Valley,CA,91352,34.232475,-118.40312
+,Big Lots,13005 Sherman Way,North Hollywood,CA,91605,34.201256,-118.41668
+,Chevron,246 N Citrus St,West Covina,CA,91791,34.074989,-117.89
+,Jack's Liquor Market,5101 Gage Ave,Bell Gardens,CA,90201,33.9767,-118.17432
+,Delrey Liquor,4549 W Rosecrans Ave,Hawthorne,CA,90250,33.901958,-118.35649
+,Chantry's Pantry Liquor,1005 E Amar Rd,West Covina,CA,91792,34.03574,-117.92603
+,7-Eleven,6012 Florence Ave,Bell Gardens,CA,90201,33.966995,-118.15753
+,Big Lots,11130 Washington Blvd,Whittier,CA,90606,33.972282,-118.07313
+,Big Lots,13241 Whittier Blvd,Whittier,CA,90602,33.963978,-118.03402
+,Big Lots,1815 W Slauson Ave,Los Angeles,CA,90047,33.989166,-118.30993
+,Myungs Liquor,8210 San Fernando Rd,Sun Valley,CA,91352,34.219624,-118.36904
+,US Farmers Market,12301 Atlantic Ave,Lynwood,CA,90262,33.910774,-118.19187
+,Tic Tac Liquor,10703 La Mirada Blvd,Whittier,CA,90604,33.935677,-118.01192
+,Big 6 Liquor,16519 Leffingwell Rd,Whittier,CA,90603,33.931934,-117.97822
+,Arleta Liquor Market,14015 Van Nuys Blvd,Arleta,CA,91331,34.254234,-118.43842
+,Happy Liquor,11829 Alondra Blvd,Norwalk,CA,90650,33.887772,-118.08136
+,Three Jays Liquor,2333 W Washington Blvd,Los Angeles,CA,90018,34.03994,-118.31274
+,Vermont Gas,1010 W Martin Luther King Jr Blvd,Los Angeles,CA,90037,34.010841,-118.29195
+,ARCO,10159 Alondra Blvd,Bellflower,CA,90706,33.889385,-118.1179
+,7-Eleven,3720 Towne Central,La Verne,CA,91750,34.132256,-117.75949
+,Happy's Liquor,3192 Verdugo Rd,Los Angeles,CA,90065,34.109524,-118.23678
+,California Liquor,20500 Sherman Way,Winnetka,CA,91306,34.200981,-118.58011
+,Whaley's Liquor,9624 Las Tunas Dr,Temple City,CA,91780,34.106773,-118.06006
+,Country Liquor,12744 Ramona Blvd,Baldwin Park,CA,91706,34.078465,-117.99419
+,Esteban Liquor,3109 Century Blvd,South Gate,CA,90280,33.937309,-118.21783
+,Empire Liquor,1100 E 22nd St,Los Angeles,CA,90011,34.023106,-118.25521
+,Rocky Liquor & Mart,1925 W Badillo St,West Covina,CA,91790,34.08728,-117.94337
+,ARCO,8505 Pioneer Blvd,Whittier,CA,90606,33.966824,-118.08238
+,JS Liquor & Market,1005 W Century Blvd,Los Angeles,CA,90044,33.945522,-118.29216
+,Sunny Liquor & Market,12815 Venice Blvd,Los Angeles,CA,90066,33.999966,-118.44119
+,JRS Liquor,10025 S Inglewood Ave,Inglewood,CA,90304,33.944942,-118.36142
+,Happy House Liquor,9218 Alondra Blvd,Bellflower,CA,90706,33.889233,-118.13791
+,ARCO,9522 Firestone Blvd,Downey,CA,90241,33.930286,-118.11356
+,7-Eleven,8543 Rosemead Blvd,Pico Rivera,CA,90660,33.961456,-118.10998
+,Phil's Liquor,12470 Central Ave,Chino,CA,91710,34.026833,-117.68954
+,7-Eleven,420 S Glendale Ave,Glendale,CA,91205,34.141148,-118.24992
+,ARCO,11243 San Fernando Rd,San Fernando,CA,91340,34.274109,-118.43064
+,7-Eleven,9800 Rush St,South El Monte,CA,91733,34.051804,-118.05535
+,Holiday Liquor,9150 S Western Ave,Los Angeles,CA,90047,33.953022,-118.30898
+,La Brea Liquor,707 S La Brea Ave,Inglewood,CA,90301,33.954639,-118.3526
+,Sam's Liquor,4832 Lankershim Blvd,North Hollywood,CA,91601,34.158756,-118.37091
+,Pomona Wine Cellar 2,1146 W Mission Blvd,Pomona,CA,91766,34.054733,-117.76435
+,My Vermont Liquor,10537 S Vermont Ave,Los Angeles,CA,90044,33.940201,-118.29195
+,8th Liquor & Market,6007 8th Ave,Los Angeles,CA,90043,33.985291,-118.32649
+,Mustang Liquor,21121 Sherman Way,Canoga Park,CA,91303,34.201107,-118.59359
+,Spirit Liquor,2341 S Garfield Ave,Monterey Park,CA,91754,34.035427,-118.13039
+,Discount Liquor,5362 Lincoln Ave,Cypress,CA,90630,33.831642,-118.03896
+,Cerritos Farmers Market,17870 Park Plaza Dr,Cerritos,CA,90703,33.868877,-118.06285
+,Southeast Long Beach Farmers' Market,6530 Marina Dr,Long Beach,CA,90803,33.753662,-118.10908
+,South Gate Farmers Market,4855 Tweedy Blvd,South Gate,CA,90280,33.942081,-118.18565
+,Huntington Park Farmers Market,3401 E Florence Ave,Huntington Park,CA,90255,33.972218,-118.20557
+,Uptown Long Beach Farmers Market,4600 Atlantic Ave,Long Beach,CA,90807,33.842709,-118.18468
+,Liquor Zone,424 S Central Ave,Glendale,CA,91204,34.140846,-118.25778
+,Trade Wind Liquor,17901 S Vermont Ave,Gardena,CA,90248,33.86787,-118.29066
+,ARCO,110 Longden Ave,Baldwin Park,CA,91706,34.113804,-118.00371
+,Shell,14562 Valley Blvd,La Puente,CA,91746,34.035187,-117.97523
+,Blue Line Farmers' Market,101 E Palmer St,Compton,CA,90220,33.897938,-118.22396
+,Tonis Liquor,5955 West Blvd,Los Angeles,CA,90043,33.986156,-118.33524
+,Liquor Time Liquor,7873 Santa Monica Blvd,West Hollywood,CA,90046,34.090889,-118.36092
+,Albert's Liquor,5565 Sepulveda Blvd,Culver City,CA,90230,33.991219,-118.39531
+,CVS,1303 W Sepulveda Blvd,Torrance,CA,90502,33.813602,-118.29919
+,Lomita Liquor,1810 Lomita Blvd,Lomita,CA,90717,33.798016,-118.3102
+,7-Eleven,3845 E 3rd St,Los Angeles,CA,90063,34.033337,-118.18494
+,Del Liquor Market,611 E University Dr,Carson,CA,90746,33.858311,-118.26529
+,7-Eleven,12225 Santa Monica Blvd,Los Angeles,CA,90025,34.039986,-118.46472
+,7-Eleven,803 W Alondra Blvd,Compton,CA,90220,33.888599,-118.23727
+,Continental Liquor And Market,9114 Balboa Blvd,Northridge,CA,91325,34.236328,-118.50246
+,Paco's Liquor,5048 E 3rd St,Los Angeles,CA,90022,34.033382,-118.15711
+,Village Liquor,1848 Puente Ave,Baldwin Park,CA,91706,34.067905,-117.96441
+,Garu's Liquor Market,4879 W Washington Blvd,Los Angeles,CA,90016,34.040169,-118.34622
+,A-4 Liquor,8842 Walker St,Cypress,CA,90630,33.83371,-118.03699
+,76 Gas Station,14059 Oxnard St,Van Nuys,CA,91401,34.179428,-118.43951
+,Westside Petroleum & Carwash Inc,1752 W Avenue K,Lancaster,CA,93534,34.674965,-118.16262
+,Ross Liquor,12643 San Fernando Rd,Sylmar,CA,91342,34.299026,-118.45906
+,Shell Gas Station,9010 Broadway,Temple City,CA,91780,34.098988,-118.07304
+,Lancaster Deli And Liquor,42212 N 10th St W,Lancaster,CA,93534,34.649445,-118.14767
+,Liquor Warehouse,10025 S Prairie Ave,Inglewood,CA,90303,33.945183,-118.34398
+,Starway Liquor 1,6405 Eastern Ave,Bell Gardens,CA,90201,33.975197,-118.16383
+,"Hi Ho Liquor, Inc.",14914 Pacific Ave.,Baldwin Park,CA,91706,34.078938,-117.95195
+,Cheyenne Liquor,1611 S Vermont Ave,Los Angeles,CA,90006,34.043808,-118.29163
+,ARCO,600 S Indiana St,Los Angeles,CA,90023,34.028141,-118.19231
+,Jug & Jigger Liquor & Mini Market,5235 Tyler Ave,Temple City,CA,91780,34.100517,-118.02515
+,7-Eleven,15942 E San Bernardino Rd,Covina,CA,91722,34.089745,-117.93406
+,7-Eleven,8254 White Oak Ave,Northridge,CA,91325,34.22049,-118.51859
+,"Genuine Petroleum Company, Inc",13605 Roscoe Blvd,Panorama City,CA,91402,34.221699,-118.42918
+,"P & J Gas Inc,",4773 W El Segundo Blvd,Hawthorne,CA,90250,33.916439,-118.3609
+,7-Eleven,401 Atlantic Ave,Long Beach,CA,90802,33.77195,-118.18508
+,7-Eleven,5870 Del Amo Blvd,Lakewood,CA,90713,33.846962,-118.11682
+,Annex Liquor,1607 W 6th St,Los Angeles,CA,90017,34.05706,-118.26922
+,7-Eleven,6660 W Sunset Blvd,Los Angeles,CA,90028,34.097961,-118.33572
+,7-Eleven,14102 Sherman Way,Van Nuys,CA,91405,34.201195,-118.44033
+,7-Eleven,16929 Roscoe Blvd,Northridge,CA,91343,34.221237,-118.50199
+,7-Eleven,1665 S Robertson Blvd,Los Angeles,CA,90035,34.049137,-118.38537
+,7-Eleven,146 N Hubbard Ave,San Fernando,CA,91340,34.292568,-118.44693
+,Sunny Liquor,1083 E Mission Blvd,Pomona,CA,91766,34.055519,-117.73498
+,7-Eleven,4436 Sepulveda Blvd,Culver City,CA,90230,34.002705,-118.40644
+,7-Eleven,13606 Roscoe Blvd,Panorama City,CA,91402,34.221645,-118.42918
+,7-Eleven,2161 E El Segundo Blvd,El Segundo,CA,90245,33.916496,-118.38796
+,"Sandy's Liquor, Inc",248 W Carson St,Carson,CA,90745,33.831535,-118.28092
+,No Ho Beer And Wine Market,10915 Magnolia Blvd,North Hollywood,CA,91601,34.164917,-118.36829
+,7-Eleven,2902 E Florence Ave,Huntington Park,CA,90255,33.973362,-118.21735
+,7-Eleven,1661 E Colorado Blvd,Pasadena,CA,91106,34.14603,-118.11609
+,Sam's Liquor,5610 Pacific Blvd,Huntington Park,CA,90255,33.991886,-118.2252
+,Macks Liquor,13248 Valley Blvd,La Puente,CA,91746,34.049675,-117.99682
+,Gold Liquor,7803 Santa Fe Ave,Huntington Park,CA,90255,33.968578,-118.2303
+,7-Eleven,12861 Vanowen St,North Hollywood,CA,91605,34.19397,-118.4133
+,American Royal Petroleum Inc,11025 Washington Blvd,Whittier,CA,90606,33.972687,-118.07465
+,Party Snack Liquor,12814 Whittier Blvd,Whittier,CA,90602,33.966419,-118.03873
+,7-Eleven,4343 W Slauson Ave,Los Angeles,CA,90043,33.988907,-118.35134
+,Sunshine Liquor,3360 E Colorado Blvd,Pasadena,CA,91107,34.146194,-118.08212
+,Super Salud Liquor & Market 03,625 N Mednik Ave,Los Angeles,CA,90022,34.043541,-118.16195
+,Walgreens,460 S Broadway,Los Angeles,CA,90013,34.048466,-118.25031
+,Shell,1808 N White Ave,La Verne,CA,91750,34.09441,-117.76429
+,Island Liquor,15632 Leffingwell Rd,Whittier,CA,90604,33.930603,-117.99554
+,7-Eleven,3210 W Avenue L,Lancaster,CA,93536,34.660213,-118.18835
+,Springlake Liquor,10945 Norwalk Blvd,Santa Fe Springs,CA,90670,33.932426,-118.07274
+,Country Liquor 1,15415 Chatsworth St,Mission Hills,CA,91345,34.264599,-118.46907
+,CVS,6265 E 2nd St,Long Beach,CA,90803,33.757908,-118.1123
+,CVS,5837 S Central Ave,Los Angeles,CA,90011,33.98843,-118.25649
+,CVS,4030 South Western Ave,Los Angeles,CA,90062,34.010391,-118.3089
+,Di Carlos Liquor,1247 N White Ave,Pomona,CA,91768,34.069962,-117.7594
+,A & J Liquor,953 W Mission Blvd,Pomona,CA,91766,34.054901,-117.75998
+,Kokos Liquor,5029 S Figueroa St,Los Angeles,CA,90037,33.997093,-118.28275
+,Melrose Liquor & Market,4803 Melrose Ave,Los Angeles,CA,90029,34.083569,-118.30525
+,Mikhail's Liquor,14930 Leffingwell Rd,La Mirada,CA,90638,33.926563,-118.01262
+,Danny's Liquor Jr. Market,17846 Clark Ave,Bellflower,CA,90706,33.870415,-118.13385
+,Big Lots,5227 Lakewood Blvd,Lakewood,CA,90712,33.852859,-118.14285
+,Big Lots,9020 Firestone Blvd,Downey,CA,90241,33.935085,-118.12319
+,Big Lots,2238 N Bellflower Blvd,Long Beach,CA,90815,33.797199,-118.1252
+,7-Eleven,5376 Huntington Dr S,Los Angeles,CA,90032,34.090546,-118.16448
+,Big Lots,610 Las Tunas Dr,Arcadia,CA,91007,34.107452,-118.05161
+,Big Lots,1207 Aviation Blvd,Redondo Beach,CA,90278,33.865574,-118.38655
+,Big Lots,1020 W Imperial Hwy,La Habra,CA,90631,33.917286,-117.95699
+,Pomona Valley Certified Farmers' Market,701 N Garey Ave,Pomona,CA,91767,34.064594,-117.75049
+,7-Eleven,1117 W Manchester Blvd,Inglewood,CA,90301,33.959927,-118.37582
+,ARCO,1255 N Highland Ave,Los Angeles,CA,90038,34.094219,-118.33868
+,Big Lots,21910 Sherman Way,Canoga Park,CA,91303,34.200981,-118.60464
+,Big Lots,8960 Tampa Ave,Northridge,CA,91324,34.233154,-118.55351
+,Big Lots,600 E Valley Blvd,Alhambra,CA,91801,34.078842,-118.11632
+,Valero Gas Station,10808 Beverly Blvd,Whittier,CA,90601,33.998379,-118.05527
+,7-Eleven,600 N Glenoaks Blvd,Burbank,CA,91502,34.186913,-118.31127
+,Big Lots,2900 W Rosecrans Ave,Gardena,CA,90249,33.901901,-118.32549
+,7-Eleven,5570 Cahuenga Blvd,North Hollywood,CA,91601,34.17186,-118.36156
+,Big Lots,2155 Pacific Coast Hwy,Lomita,CA,90717,33.789551,-118.31827
+,Big Lots,5587 Sepulveda Blvd,Culver City,CA,90230,33.99065,-118.39527
+,Big Lots,1401 Huntington Dr,South Pasadena,CA,91030,34.103985,-118.15211
+,Big Lots,12716 Glenoaks Blvd,Sylmar,CA,91342,34.301243,-118.44144
+,The Maria's Market 99 Cents & Up Beer & Wine,1346 Firestone Blvd,Los Angeles,CA,90001,33.960133,-118.25042
+,7-Eleven,4041 Peck Rd,El Monte,CA,91732,34.078117,-118.02091
+,Grand View Liquor,12203 Venice Blvd,Los Angeles,CA,90066,34.004906,-118.43145
+,Sundown Liquor Market,12614 Lambert Rd,Whittier,CA,90602,33.963356,-118.04541
+,CVS,4621 Firestone Blvd,South Gate,CA,90280,33.952461,-118.18841
+,Hub Liquor,1542 San Fernando Rd,San Fernando,CA,91340,34.288589,-118.44772
+,Lindys Liquor,11720 Aviation Blvd,Inglewood,CA,90304,33.927563,-118.37841
+,Big Lots,13942 Imperial Hwy,La Mirada,CA,90638,33.916973,-118.03488
+,Big Lots,3003 W Manchester Blvd,Inglewood,CA,90305,33.960007,-118.32544
+,Big Lots,1260 N Lake Ave,Pasadena,CA,91104,34.167709,-118.13228
+,Big Lots,3115 S Sepulveda Blvd,Los Angeles,CA,90034,34.026131,-118.42773
+,7-Eleven,1802 Huntington Dr,Duarte,CA,91010,34.139626,-117.96648
+,Glassell Park Farmers' Market,3150 N San Fernando Rd,Los Angeles,CA,90065,34.116051,-118.24706
+,Norwalk Certified Farmers Market,11700 Alondra Blvd,Norwalk,CA,90650,33.887543,-118.08437
+,Marty's Liquorama,13510 Crenshaw Blvd,Gardena,CA,90249,33.908489,-118.32642
+,Azteca Liquor And Grocery,6748 Lankershim Blvd,North Hollywood,CA,91606,34.193481,-118.38776
+,Big Lots,19331 Soledad Canyon Rd,Canyon Country,CA,91351,34.415806,-118.47291
+,Big Lots,1325 Huntington Dr,Duarte,CA,91010,34.139721,-117.97685
+,Big Lots,955 Sepulveda Blvd,Torrance,CA,90502,33.810856,-118.29181
+,R & R Liquor,10509 Compton Ave,Los Angeles,CA,90002,33.940262,-118.24629
+,Big Lots,7241 Sepulveda Blvd,Van Nuys,CA,91405,34.202263,-118.46623
+,Big Lots,1070 W Avenue K St,Lancaster,CA,93534,34.674854,-118.15003
+,Big Lots,1139 S Diamond Bar Blvd,Diamond Bar,CA,91765,34.002186,-117.81057
+,Big Lots,5321 Vineland Ave,North Hollywood,CA,91601,34.16711,-118.37049
+,CVS,1151 S Harbor Blvd,La Habra,CA,90631,33.9179,-117.93307
+,Chevron,25800 Western Ave,Harbor City,CA,90710,33.789268,-118.30751
+,Sharzad Petroleum Enteroprises Corp,1355 W Martin Luther King Jr Blvd,Los Angeles,CA,90037,34.010899,-118.29975
+,Big Lots,24339 Clark Ave,Bellflower,CA,90706,33.868973,-118.13389
+,A&A Liquor Jr. Market,17311 Roscoe Blvd,Northridge,CA,91325,34.221153,-118.51034
+,Arrow Liquor N/a,2177 S Atlantic Blvd,Commerce,CA,90040,34.006603,-118.16251
+,One Stop Liquor Whole Mart,5028 S Normandie Ave,Los Angeles,CA,90037,33.997475,-118.30014
+,7-Eleven,100 W la Habra Blvd,La Habra,CA,90631,33.931835,-117.94624
+,ARCO,4625 E Olympic Blvd,Los Angeles,CA,90022,34.018806,-118.17036
+,Forum Liquor,801 S Prairie Ave,Inglewood,CA,90301,33.953922,-118.34399
+,7-Eleven,901 N Central Ave,Glendale,CA,91203,34.158901,-118.25798
+,Melody Beer & Wine Market,10717 S Vermont Ave,Los Angeles,CA,90044,33.938251,-118.29196
+,7-Eleven,226 S Prospect Ave,Redondo Beach,CA,90277,33.840221,-118.3761
+,Rainbow Liquor Inc,18033 Saticoy St,Reseda,CA,91335,34.20842,-118.52641
+,Imperial Liquor 1,1602 W Pico Blvd,Los Angeles,CA,90015,34.044689,-118.27709
+,Ms Liquor,4461 Cerritos Ave,Cypress,CA,90630,33.810341,-118.05508
+,SVR Liquor,900 N Diamond Bar Blvd,Diamond Bar,CA,91765,34.03603,-117.80592
+,VINELAND WINE CELLAR,6012 Vineland Ave,North Hollywood,CA,91606,34.17963,-118.37027
+,Oregon Liquor,734 W Willow St,Long Beach,CA,90806,33.804314,-118.20106
+,Lucky Liquor,2109 W Martin Luther King Jr Blvd,Los Angeles,CA,90008,34.010841,-118.31728
+,J & I Liquor And Market,2700 W Pico Blvd,Los Angeles,CA,90006,34.047222,-118.29778
+,Liquor Bank Meat & Market,3753 W Slauson Ave,Los Angeles,CA,90043,33.988998,-118.33969
+,San Dimas Liquor,1427 W Arrow Hwy,San Dimas,CA,91773,34.106766,-117.83658
+,7-Eleven,20871 Lassen St,Chatsworth,CA,91311,34.250008,-118.58818
+,7-Eleven,1773 E Thousand Oaks Blvd,Thousand Oaks,CA,91362,34.177074,-118.85043
+,Joe's Liquor,1710 E Artesia Blvd,Long Beach,CA,90805,33.874546,-118.17177
+,J's Liquor Deli,22332 Normandie Ave,Torrance,CA,90502,33.823349,-118.29918
+,Liquor Deli,595 S Azusa Way,La Puente,CA,91744,34.011509,-117.92421
+,J&M Liquor,8940 Beverly Blvd,Pico Rivera,CA,90660,34.010838,-118.08192
+,7-Eleven,5600 San Vicente Blvd,Los Angeles,CA,90019,34.054073,-118.35526
+,Dick's Liquor,2530 Tyler Ave,El Monte,CA,91733,34.057739,-118.03561
+,Party Time Liquor 2,27125 Sierra Hwy,Canyon Country,CA,91351,34.408432,-118.46095
+,Chevron,11529 Carson St,Lakewood,CA,90715,33.831539,-118.08771
+,7-Eleven,5105 E Olympic Blvd,Los Angeles,CA,90022,34.016788,-118.16073
+,Mapledale Liquor,14527 Pioneer Blvd,Norwalk,CA,90650,33.898636,-118.08259
+,Corona Liquor,20043 Vanowen St,Winnetka,CA,91306,34.193817,-118.5703
+,Mark's Liquor,1259 W 6th St,Los Angeles,CA,90017,34.05537,-118.26517
+,Walgreens,1911 Lincoln Blvd,Santa Monica,CA,90405,34.011864,-118.48237
+,UM Liquor,401 N Victory Blvd,Burbank,CA,91502,34.177708,-118.31857
+,Sohan Liquor & Market,938 E South St,Long Beach,CA,90805,33.860073,-118.18121
+,Sr Liquor,1601 E Anaheim St,Long Beach,CA,90813,33.782639,-118.17152
+,7-Eleven,5800 Atlantic Blvd,Maywood,CA,90270,33.987896,-118.18544
+,ARCO,2011 Del Amo Blvd,Lakewood,CA,90712,33.84705,-118.16726
+,Inglewood Certified Farmers' Market,Market St,Inglewood,CA,90301,33.958836,-118.35201
+,Del Amo Corner Liquor Store,2702 Del Amo Blvd,Lakewood,CA,90712,33.846985,-118.15975
+,Bana Liquor,2800 E Anaheim St,Long Beach,CA,90804,33.782574,-118.15874
+,7-Eleven,2600 Pellissier Pl,City Of Industry,CA,90601,34.02692,-118.03561
+,Rancho Liquor,75 S Rancho Rd,Thousand Oaks,CA,91362,34.178204,-118.85796
+,CVS,210 W 7th St,Los Angeles,CA,90014,34.044708,-118.25262
+,ARCO,9824 Flair Dr,El Monte,CA,91731,34.071575,-118.05402
+,ARCO,3278 E Slauson Ave,Vernon,CA,90058,33.989162,-118.20911
+,Odyssey Liquor,3434 E Pacific Coast Hwy,Long Beach,CA,90804,33.789833,-118.15154
+,Venice Liquor,2171 Venice Blvd,Los Angeles,CA,90006,34.043636,-118.30518
+,7-Eleven,738 E Holt Ave,Pomona,CA,91767,34.062698,-117.73621
+,7-Eleven,4531 Philadelphia St,Chino,CA,91710,34.033443,-117.70588
+,Dick's Liquor,11317 Avalon Blvd,Los Angeles,CA,90061,33.931561,-118.26522
+,Firestone Liquor,2724 Firestone Blvd,South Gate,CA,90280,33.955956,-118.22388
+,Motor Ave Farmers Market,10426 National Blvd,Los Angeles,CA,90034,34.02879,-118.41151
+,MV Petroleum,5301 W Olympic Blvd,Los Angeles,CA,90036,34.057297,-118.34629
+,Littlerock Gas & Mart,7225 Pearblossom Hwy,Littlerock,CA,93543,34.521049,-118.00067
+,Happy's Liquor,405 S Indiana St,Los Angeles,CA,90063,34.03162,-118.19241
+,7-Eleven,13003 Van Nuys Blvd,Pacoima,CA,91331,34.270313,-118.41637
+,Broadway Market & Liquor,4018 Broadway Pl,Los Angeles,CA,90037,34.010544,-118.27773
+,Cypress Liquor,4490 Lincoln Ave,Cypress,CA,90630,33.831593,-118.05486
+,Golden Liquor,4811 Azusa Canyon Rd,Baldwin Park,CA,91706,34.100021,-117.94305
+,Walgreens,2050 Glenoaks Blvd,San Fernando,CA,91340,34.299236,-118.43898
+,4th Ave Liquor,2527 W 54th St,Los Angeles,CA,90043,33.993225,-118.32071
+,Discount Beer And Wine Market,1233 Torrance Blvd,Torrance,CA,90502,33.841999,-118.29827
+,Fat Boy Liquor And Market,3580 W Temple Ave,Pomona,CA,91768,34.048306,-117.81151
+,Dale's Liquor & Market 1,12500 Oxnard St,North Hollywood,CA,91606,34.179382,-118.40559
+,Dorose Liquors,20930 Lassen St,Chatsworth,CA,91311,34.249954,-118.58962
+,Chevron,267 S Indian Hill Blvd,Claremont,CA,91711,34.090771,-117.71932
+,Mikes Liquor,100 E Pacific Coast Hwy,Long Beach,CA,90806,33.789845,-118.19228
+,Star Liquor,10801 Garvey Ave,El Monte,CA,91733,34.062862,-118.03918
+,S K Liquor,16822 Hawthorne Blvd,Lawndale,CA,90260,33.877789,-118.35237
+,MK Beer & Wine,810 E Anaheim St,Long Beach,CA,90813,33.782585,-118.18262
+,Sams Jr Liquor,1574 Santa Fe Ave,Long Beach,CA,90813,33.786919,-118.21545
+,Glenoaks Liquor Store,9748 Glenoaks Blvd,Sun Valley,CA,91352,34.246933,-118.38441
+,7-Eleven,800 S Greenwood Ave,Montebello,CA,90640,33.999195,-118.11691
+,Shop N Go Food & Liquor,2990 E Artesia Blvd,Long Beach,CA,90805,33.874615,-118.158
+,Hampshire Liquor,11 Hampshire Rd,Thousand Oaks,CA,91362,34.169182,-118.83624
+,Garden Liquor,1479 W Washington Blvd,Los Angeles,CA,90007,34.040047,-118.28859
+,7-Eleven,1868 E Palmdale Blvd,Palmdale,CA,93550,34.579678,-118.09484
+,Porche Liquor,7528 S Figueroa St,Los Angeles,CA,90003,33.970921,-118.28268
+,Pomona Wine Cellar 3,870 W Holt Ave,Pomona,CA,91768,34.061993,-117.7646
+,KC Liquor,4128 Orange Ave,Long Beach,CA,90807,33.833447,-118.17628
+,7-Eleven,6419 Del Amo Blvd,Lakewood,CA,90713,33.847088,-118.10681
+,Marty's Liquor,6912 S San Pedro St,Los Angeles,CA,90003,33.976482,-118.26954
+,El Caribe Liquor Market,10201 Valley Blvd,El Monte,CA,91731,34.077099,-118.04797
+,Walgreens,105 E Glenoaks Blvd,Glendale,CA,91207,34.159214,-118.25483
+,7-Eleven,10801 Hawthorne Blvd,Inglewood,CA,90304,33.937881,-118.35275
+,Big Lots,7925 Atlantic Ave,Bell,CA,90201,33.962883,-118.18638
+,888 Liquor,8606 Garvey Ave,Rosemead,CA,91770,34.062653,-118.08164
+,2am Liquor,16904 Parthenia St,Northridge,CA,91343,34.228455,-118.50046
+,7-Eleven,11666 Burbank Blvd,North Hollywood,CA,91601,34.172123,-118.38694
+,Happy Liquor,753 E Whittier Blvd,La Habra,CA,90631,33.939144,-117.93848
+,El Porto Liquor And Market,4103 Highland Ave,Manhattan Beach,CA,90266,33.903667,-118.41912
+,Ok Liquor,301 E South St,Long Beach,CA,90805,33.860088,-118.18974
+,Jay's Liquor 1,15144 Gale Ave,Hacienda Heights,CA,91745,34.015099,-117.97626
+,ARCO,12345 Central Ave,Chino,CA,91710,34.028801,-117.68929
+,Glendora Liquor,223 W Foothill Blvd,Glendora,CA,91741,34.136044,-117.86715
+,Garfield Liquor,8045 Garfield Ave,Bell Gardens,CA,90201,33.957851,-118.15886
+,7-Eleven,4299 Crenshaw Blvd,Los Angeles,CA,90008,34.005604,-118.33398
+,ARCO,918 W Lancaster Blvd,Lancaster,CA,93534,34.697102,-118.14775
+,ARCO,8007 W Manchester Ave,Playa Del Rey,CA,90293,33.959297,-118.43661
+,ARCO,332 Pico Blvd,Santa Monica,CA,90405,34.009438,-118.48751
+,7-Eleven,1165 E Anaheim St,Long Beach,CA,90813,33.782639,-118.17765
+,P&B Liquor,1953 E 4th St,Long Beach,CA,90802,33.771744,-118.16814
+,Holmes Liquor & Market 1,6401 Holmes Ave,Los Angeles,CA,90001,33.981102,-118.24123
+,Valley Liquor And Fine Wines,511 N 1st Ave,Arcadia,CA,91006,34.145828,-118.02848
+,ARCO,17175 Colima Rd,Hacienda Heights,CA,91745,33.990929,-117.9325
+,ARCO,465 W Foothill Blvd,Glendora,CA,91741,34.136066,-117.87236
+,United Liquor,5306 Atlantic Blvd,Maywood,CA,90270,33.991711,-118.18439
+,Cordial Liquor Markert,13330 Meyer Rd,Whittier,CA,90605,33.926079,-118.04721
+,Plaza Liquor,13902 Francisquito Ave,Baldwin Park,CA,91706,34.067654,-117.97288
+,A & D Liquor Mart,12650 Sherman Way,North Hollywood,CA,91605,34.201172,-118.40879
+,Shell,747 S Indian Hill Blvd,Claremont,CA,91711,34.08242,-117.71941
+,Chevron,8556 Foothill Blvd,Sunland,CA,91040,34.259682,-118.31955
+,Bellflower Certified Farmers Market N/A,16614 Clark Ave,Bellflower,CA,90706,33.883167,-118.13393
+,E-Z Stop Liquor & Market,24879 Railroad Ave,Newhall,CA,91321,34.387703,-118.53365
+,Oak Tree Liquor Mini Mart,19965 Soledad Canyon Rd,Canyon Country,CA,91351,34.420666,-118.48448
+,Carson Liquor & Market,1345 E Carson St,Carson,CA,90745,33.831802,-118.24988
+,7-Eleven,9403 Artesia Blvd,Bellflower,CA,90706,33.874878,-118.13354
+,7-Eleven,301 E Florence Ave,Los Angeles,CA,90003,33.974716,-118.26904
+,Overland Liquor Inc.,3585 Overland Ave,Los Angeles,CA,90034,34.022663,-118.41006
+,Hero's Liquor And Market,8035 Imperial Hwy,Downey,CA,90242,33.923527,-118.15087
+,Lax Liquor,5014 W Century Blvd,Inglewood,CA,90304,33.945404,-118.366
+,Shell,3100 W Manchester Blvd,Inglewood,CA,90305,33.959953,-118.32683
+,South Liquor Bank,12726 Crenshaw Blvd,Hawthorne,CA,90250,33.917248,-118.32642
+,Bargain Liquor 2,3036 E 4th St,Long Beach,CA,90814,33.771664,-118.15597
+,Azusa Liquor 1,861 S Lark Ellen Ave,Azusa,CA,91702,34.107735,-117.9166
+,Love Liquor & Groceries,823 W Anaheim St,Wilmington,CA,90744,33.779488,-118.27191
+,7-Eleven,247 S Pacific Coast Hwy,Redondo Beach,CA,90277,33.838764,-118.3855
+,Westchester Farmers' Market,7000 W Manchester Ave,Los Angeles,CA,90045,33.959702,-118.41445
+,7-Eleven,437 N la Brea Ave,Inglewood,CA,90302,33.968147,-118.35515
+,Ski's Liquor,12615 Pioneer Blvd,Norwalk,CA,90650,33.916622,-118.08192
+,Irene's Liquor Market,6824 S Main St,Los Angeles,CA,90003,33.97715,-118.27391
+,Rosecrans Spirit Shop,10231 Rosecrans Ave,Bellflower,CA,90706,33.902061,-118.11534
+,7-Eleven,4323 E Live Oak Ave,Arcadia,CA,91006,34.110546,-118.00872
+,Cheap Liquor,14329 Garfield Ave,Paramount,CA,90723,33.903111,-118.1689
+,Shell,12080 Central Ave,Chino,CA,91710,34.033951,-117.68961
+,Bufkin Liquor,2063 W Florence Ave,Los Angeles,CA,90047,33.974621,-118.31548
+,7-Eleven,11255 S Normandie Ave,Los Angeles,CA,90044,33.931278,-118.30035
+,United Oil,7900 Beverly Blvd,Los Angeles,CA,90048,34.076073,-118.36164
+,United Oil,1467 W Sunset Blvd,Los Angeles,CA,90026,34.075306,-118.25395
+,United Oil,305 W Anaheim St,Wilmington,CA,90744,33.779839,-118.26518
+,United Oil,2450 S Azusa Ave,West Covina,CA,91792,34.031487,-117.91457
+,United Oil,5502 Orangethorpe Ave,La Palma,CA,90623,33.858654,-118.0371
+,United Oil,15712 Nordhoff St,North Hills,CA,91343,34.235542,-118.47453
+,United Oil,21924 Devonshire St,Chatsworth,CA,91311,34.257172,-118.6058
+,United Oil,7208 Reseda Blvd,Reseda,CA,91335,34.201344,-118.536
+,Andy Liquor,10466 S Vermont Ave,Los Angeles,CA,90044,33.94104,-118.29156
+,Main Street Gas And Foodmart,11321 S Main St,Los Angeles,CA,90061,33.93119,-118.27393
+,Jug Liquor,14427 Telegraph Rd,Whittier,CA,90604,33.924572,-118.02375
+,T & T Liquor Market,6271 Ball Rd,Cypress,CA,90630,33.817226,-118.02259
+,Jubilee Liquor,4212 W 3rd St,Los Angeles,CA,90020,34.068962,-118.30556
+,Cheer's Liquor & Deli,14230 Ventura Blvd,Sherman Oaks,CA,91423,34.149944,-118.44305
+,Portofino Liquor,19756 Sherman Way,Winnetka,CA,91306,34.200996,-118.56393
+,Shell,2500 S Garey Ave,Pomona,CA,91766,34.025852,-117.74891
+,Pit Stop Liquor Mart,1712 Durfee Ave,South El Monte,CA,91733,34.042606,-118.03365
+,ARCO,12157 Artesia Blvd,Artesia,CA,90701,33.873199,-118.07296
+,J & J Liquor,9402 Alondra Blvd,Bellflower,CA,90706,33.889275,-118.13382
+,Eagle Rock Certified Farmers Market,2035 Colorado Blvd,Los Angeles,CA,90041,34.139301,-118.21091
+,Aloha Liquor,11835 Lakewood Blvd,Downey,CA,90241,33.928234,-118.12946
+,7-Eleven,2001 E South St,Long Beach,CA,90805,33.86018,-118.16811
+,Terry's Liquor,12135 South St,Artesia,CA,90701,33.858547,-118.07352
+,M & J Liquor 1,5351 Long Beach Blvd,Long Beach,CA,90805,33.853371,-118.1963
+,Shell,1130 Peck Rd,South El Monte,CA,91733,34.035873,-118.03838
+,EZ Day Liquor & Market,2051 W Whittier Blvd,La Habra,CA,90631,33.93993,-117.96886
+,CVS,12746 Jefferson Blvd,Playa Vista,CA,90094,33.97411,-118.42556
+,Rosewood Liquor Store,9138 Telegraph Rd,Downey,CA,90240,33.959175,-118.10751
+,Harbor Mart Liquor,320 N Harbor Blvd,La Habra,CA,90631,33.934032,-117.93302
+,Old Town Newhall Farmers Market,22520 Lyons Ave,Newhall,CA,91321,34.381725,-118.5293
+,Roy's Liquor,5954 Maywood Ave,Huntington Park,CA,90255,33.98777,-118.20261
+,Candlewood Liquor & Market,13676 Telegraph Rd,Whittier,CA,90604,33.935631,-118.03998
+,Shell,1947 D St,La Verne,CA,91750,34.097469,-117.7714
+,P & G Liquor,2409 Marine Ave,Gardena,CA,90249,33.894695,-118.32013
+,Lakewood Liquor,11455 Carson St,Lakewood,CA,90715,33.831539,-118.08898
+,7-Eleven,3500 W Rosecrans Ave,Hawthorne,CA,90250,33.901905,-118.33315
+,7-Eleven,2001 E La Habra Blvd,La Habra,CA,90631,33.9319,-117.9243
+,7-Eleven,11807 Valley View Ave,Whittier,CA,90604,33.92255,-118.02925
+,Chevron,27549 The Old Rd,Valencia,CA,91355,34.421082,-118.58447
+,Chevron,300 S Atlantic Blvd,Alhambra,CA,91801,34.087379,-118.13457
+,Chevron,700 E Imperial Hwy,Brea,CA,92821,33.913906,-117.89363
+,Acw/ Charles Drew University Farmers Market CDU 2,1147 S Alvarado St,Los Angeles,CA,90006,34.049126,-118.28155
+,Best Price Beer And Wine Market,404 W Anaheim St,Long Beach,CA,90813,33.782578,-118.19601
+,Royal Liquor & Wine,15827 Imperial Hwy,La Mirada,CA,90638,33.91732,-117.99328
+,Empire Liquor,8710 Imperial Hwy,Downey,CA,90242,33.918034,-118.14066
+,Alcon Liquor,21315 Saticoy St,Canoga Park,CA,91304,34.20834,-118.59607
+,Romans Liquor,1529 N La Brea Ave,Los Angeles,CA,90028,34.098732,-118.34439
+,7-Eleven,1401 W Pacific Coast Hwy,Wilmington,CA,90744,33.790707,-118.28316
+,Grand Liquor,4669 Melrose Ave,Los Angeles,CA,90029,34.083572,-118.30216
+,Big Johns Liquor Store 1,949 Daisy Ave,Long Beach,CA,90813,33.778641,-118.19939
+,Batz Liquor,1448 W Avenue I,Lancaster,CA,93534,34.703968,-118.15656
+,Barton's Liquor,4146 Paramount Blvd,Lakewood,CA,90712,33.833431,-118.15992
+,Lake L.a. Liquor,40187 170th St E,Palmdale,CA,93591,34.61198,-117.82693
+,Robs Liquor,2615 E Carson St,Long Beach,CA,90810,33.831768,-118.22101
+,Farmers Liquor,1353 W Rosecrans Ave,Gardena,CA,90247,33.901928,-118.30007
+,Chevron,17400 S Western Ave,Gardena,CA,90248,33.872379,-118.30913
+,Dave's Liquor,1601 E 4th St,Long Beach,CA,90802,33.771736,-118.17193
+,Claremont Farmers & Artisan's Market,203 Yale Ave,Claremont,CA,91711,34.095718,-117.71791
+,Nate's Friendly Liquor,4412 Huntington Dr S,Los Angeles,CA,90032,34.081799,-118.19018
+,Champs Liquor 5,8007 Florence Ave,Downey,CA,90240,33.953403,-118.12968
+,ARCO,7600 S Western Ave,Los Angeles,CA,90047,33.970772,-118.30897
+,7-Eleven,2500 W Burbank Blvd,Burbank,CA,91505,34.178696,-118.33813
+,7-Eleven,23060 Soledad Canyon Rd,Santa Clarita,CA,91350,34.422474,-118.54059
+,Peacock Liquor,419 S 1st Ave,Arcadia,CA,91006,34.134869,-118.02827
+,Gage Liquor,4801 Gage Ave,Bell Gardens,CA,90201,33.977299,-118.18005
+,Johnson's Liquor,4345 Long Beach Ave,Los Angeles,CA,90058,34.00425,-118.24336
+,Chevron,2471 N Bellflower Blvd,Long Beach,CA,90815,33.801502,-118.1254
+,Chevron,13361 Crossroads Pkwy N,La Puente,CA,91746,34.031315,-118.01004
+,Ricky's Liquor,18520 Soledad Canyon Rd,Canyon Country,CA,91351,34.416302,-118.45667
+,Downtown Gas & Smog 1,44358 10th St W,Lancaster,CA,93534,34.689079,-118.14799
+,Rosecrans Spirit Shop,11016 Rosecrans Ave,Norwalk,CA,90650,33.902008,-118.0994
+,Ace Liquor Market,3615 Artesia Blvd,Torrance,CA,90504,33.872929,-118.33577
+,Sunny's Liquor Jr Market,2400 W Whittier Blvd,La Habra,CA,90631,33.939816,-117.97298
+,Shell,9069 Grapevine Rd W,Lebec,CA,93243,34.941822,-118.93292
+,United Oil,1118 N Glendale Ave,Glendale,CA,91206,34.160877,-118.23688
+,7-Eleven,2811 Firestone Blvd,South Gate,CA,90280,33.955719,-118.22092
+,7-Eleven,610 S Rampart Blvd,Los Angeles,CA,90057,34.062012,-118.28157
+,Centennial Market & Gas Station,22847 W Avenue D,Lancaster,CA,93536,34.774609,-118.53528
+,Ones Liquor,1662 Colorado Blvd,Los Angeles,CA,90041,34.139324,-118.20308
+,United Oil,3565 N Los Coyotes Diagonal,Long Beach,CA,90808,33.821301,-118.10715
+,United Oil,4700 W Slauson Ave,Los Angeles,CA,90056,33.988495,-118.35897
+,United Oil,11353 Imperial Hwy,Norwalk,CA,90650,33.91713,-118.09102
+,United Oil,601 W Imperial Hwy,La Habra,CA,90631,33.917366,-117.95209
+,United Oil,14400 Telegraph Rd,Whittier,CA,90604,33.924946,-118.02443
+,Plaza Liquor,12542 Centralia St,Lakewood,CA,90715,33.838722,-118.06448
+,7-Eleven,206 S Diamond Bar Blvd,Diamond Bar,CA,91765,34.021809,-117.81055
+,7-Eleven,1317 E Washington Blvd,Los Angeles,CA,90021,34.024342,-118.25002
+,7-Eleven,3044 Foothill Blvd,La Crescenta,CA,91214,34.228027,-118.24624
+,Nold's Liquor,10801 S Broadway,Los Angeles,CA,90061,33.938129,-118.27841
+,7-Eleven,11075 W Olympic Blvd,Los Angeles,CA,90064,34.040417,-118.43764
+,National Pacific Petroleum,5137 N Figueroa St,Los Angeles,CA,90042,34.106205,-118.19972
+,T And D Liquor Store,3858 W Slauson Ave,Los Angeles,CA,90043,33.988937,-118.34139
+,7-Eleven,5683 Lake Lindero Dr,Agoura Hills,CA,91301,34.154549,-118.78915
+,Lynwood 76 Gas Station,11000 Atlantic Ave,Lynwood,CA,90262,33.930359,-118.1836
+,Martino's Liquor' 1,706 E Manchester Blvd,Inglewood,CA,90301,33.959908,-118.34629
+,Pacific Liquor,2017 W Pacific Ave,West Covina,CA,91790,34.074581,-117.94606
+,Gi Liquor,9319 S Alameda St,Los Angeles,CA,90002,33.951614,-118.22976
+,Kaiser Permanente Downey Farmers' Market,9333 Imperial Hwy,Downey,CA,90242,33.917057,-118.12926
+,7-Eleven,1151 W Redondo Beach Blvd,Gardena,CA,90247,33.892395,-118.29568
+,ARCO,19304 Saticoy St,Reseda,CA,91335,34.208324,-118.55401
+,Shell,11944 W Olympic Blvd,Los Angeles,CA,90064,34.032452,-118.45309
+,La Habra Liquor,607 W la Habra Blvd,La Habra,CA,90631,33.931892,-117.95238
+,Pico Liquor 1,2801 W Pico Blvd,Los Angeles,CA,90006,34.04726,-118.30058
+,Agoura Liquor & Deli,5003 Kanan Rd,Agoura Hills,CA,91301,34.143959,-118.76175
+,American Gas,3605 E 7th St,Long Beach,CA,90804,33.775368,-118.15009
+,Rush St. Liquor 1,9837 Rush St,South El Monte,CA,91733,34.051868,-118.0544
+,Glory Liquor,835 W Pacific Coast Hwy,Wilmington,CA,90744,33.790668,-118.27319
+,Food Mart Liquor,11756 166th St,Artesia,CA,90701,33.880344,-118.0828
+,Quick Stop Liquor,6670 Foothill Blvd,Tujunga,CA,91042,34.247074,-118.278
+,Eddie's Jr Market & Liquor,2045 20th St,Santa Monica,CA,90404,34.020157,-118.46999
+,Cypress Craft Beer & Liquor,9175 Valley View St,Cypress,CA,90630,33.829021,-118.02849
+,Bell Farmers' Market,6250 Pine Ave,Bell,CA,90201,33.98,-118.18877
+,Martinos Liquor,706 E Manchester Blvd,Inglewood,CA,90301,33.959908,-118.34629
+,Lincoln Heights Certified Farmers Market,lot N. Broadway,Lincoln Heights,CA,90031,34.073715,-118.21067
+,Five O'clock Liquor And Deli,5121 Gage Ave,Bell,CA,90201,33.976627,-118.17368
+,Circus Liquor & Market,7561 Laurel Canyon Blvd,North Hollywood,CA,91605,34.208202,-118.39655
+,Unlce Fossil Wine & Spirits,300 E Las Tunas Dr,San Gabriel,CA,91776,34.103092,-118.09682
+,Little Farmers Market,619 S Atlantic Blvd,Los Angeles,CA,90022,34.024281,-118.15615
+,S&P Liquor,13007 Prairie Ave,Hawthorne,CA,90250,33.913979,-118.34393
+,Chevron,10867 Santa Monica Blvd,Los Angeles,CA,90025,34.049698,-118.4375
+,Chevron,4000 S Figueroa St,Los Angeles,CA,90037,34.010849,-118.28271
+,Chevron,2301 N Aviation Blvd,Manhattan Beach,CA,90266,33.894814,-118.37875
+,Chevron,8101 W Sunset Blvd,Los Angeles,CA,90046,34.098019,-118.36533
+,Chevron,101 S Sepulveda Blvd,El Segundo,CA,90245,33.91629,-118.39614
+,Chevron,601 Vista Del Mar,El Segundo,CA,90245,33.909851,-118.42313
+,Serv Rite Liquor & Market,9420 Slauson Ave,Pico Rivera,CA,90660,33.968117,-118.09589
+,Chevron,7368 N Figueroa St,Los Angeles,CA,90041,34.137814,-118.18751
+,Chevron,14021 Valley View Ave,La Mirada,CA,90638,33.903694,-118.02928
+,Chevron,11453 Valley Blvd,El Monte,CA,91731,34.069252,-118.0285
+,Chevron,12345 Ramona Ave,Chino,CA,91710,34.02898,-117.70679
+,Chevron,15255 Sherman Way,Van Nuys,CA,91405,34.201279,-118.46544
+,Chevron,3610 Grand Ave,Chino Hills,CA,91709,34.002296,-117.72873
+,Chevron,1950 W Imperial Hwy,La Habra,CA,90631,33.917244,-117.96731
+,Chevron,3033 25th St W,Rosamond,CA,93560,34.864597,-118.17599
+,Chevron,11426 Telegraph Rd,Santa Fe Springs,CA,90670,33.949017,-118.09039
+,Chevron,1655 Victory Blvd,Glendale,CA,91201,34.161003,-118.29996
+,Chevron,2599 Cherry Ave,Signal Hill,CA,90755,33.80386,-118.16772
+,Chevron,10967 Alondra Blvd,Norwalk,CA,90650,33.887627,-118.10038
+,Chevron,37217 47th St E,Palmdale,CA,93552,34.558563,-118.04524
+,Chevron,3160 Baldwin Park Blvd,Baldwin Park,CA,91706,34.070148,-117.97901
+,7-Eleven,2504 Torrance Blvd,Torrance,CA,90503,33.836311,-118.32903
+,Frontier Liquor,655 E Arrow Hwy,Azusa,CA,91702,34.106808,-117.89719
+,Turnbull Cyn Liquor,15229 Gale Ave,City Of Industry,CA,91745,34.011971,-117.96676
+,Shell,4107 Edison Ave,Chino,CA,91710,33.997044,-117.71471
+,Rose Liquor,1201 E South Street,Long Beach,CA,90803,33.860149,-118.1767
+,Party Time Liquor 3,7143 Balboa Blvd,Van Nuys,CA,91406,34.20055,-118.50115
+,Zip N Liquor,11432 Old River School Rd,Downey,CA,90241,33.946133,-118.14977
+,7-Eleven,1752 W Slauson Ave,Los Angeles,CA,90047,33.989113,-118.30832
+,Chevron,1630 S Elena Ave,Redondo Beach,CA,90277,33.81971,-118.38525
+,Chevron,3633 N Sepulveda Blvd,Manhattan Beach,CA,90266,33.901402,-118.3963
+,Chevron,5156 W Century Blvd,Inglewood,CA,90304,33.945381,-118.36956
+,Bell Gas,5151 Florence Ave,Bell,CA,90201,33.968876,-118.17429
+,7-Eleven,15228 S Avalon Blvd,Compton,CA,90220,33.891048,-118.26541
+,Fresh Liquor & Market,3428 Martin Luther King Jr Blvd,Lynwood,CA,90262,33.936394,-118.20948
+,Chevron,5600 Sepulveda Blvd,Van Nuys,CA,91411,34.17244,-118.46612
+,Commerce Liquor,9936 Commerce Ave,Tujunga,CA,91042,34.249649,-118.2886
+,Rosecrans Spirit Shop,10466 Artesia Blvd,Bellflower,CA,90706,33.872864,-118.11061
+,7-Eleven,4000 E 7th St,Long Beach,CA,90804,33.775322,-118.14554
+,7-Eleven,3523 E 1st St,Los Angeles,CA,90063,34.036018,-118.19151
+,7-Eleven,6586 Van Nuys Blvd,Van Nuys,CA,91401,34.190491,-118.4487
+,Downtown Glendale Farmers Market,227 N Brand Blvd,Glendale,CA,91203,34.149082,-118.25513
+,Farmers Big 7 Market,25513 Normandie Ave,Harbor City,CA,90710,33.792549,-118.29752
+,Liquor Land,11440 Santa Gertrudes Ave,Whittier,CA,90604,33.930145,-117.99357
+,F And J Liquor Inc.,5360 Crenshaw Blvd,Los Angeles,CA,90043,33.99345,-118.33057
+,Party Time Liquor Store,269 E Beverly Blvd,Montebello,CA,90640,34.014744,-118.09457
+,Liquor Us 0,2401 S San Pedro St,Los Angeles,CA,90011,34.02322,-118.26031
+,7-Eleven,19648 Sherman Way,Reseda,CA,91335,34.201015,-118.56108
+,Imperial King Liquor,10630 Imperial Hwy,Norwalk,CA,90650,33.917011,-118.10721
+,Casa De Liquor Deli,16432 Norwalk Blvd,Cerritos,CA,90703,33.881443,-118.07272
+,Cande's Liquor,416 E Anaheim St,Wilmington,CA,90744,33.780193,-118.25795
+,Grand Creek Liquor,100 N Grand Ave,West Covina,CA,91791,34.073433,-117.87237
+,New Compton Liquor Market,625 W Compton Blvd,Compton,CA,90220,33.895927,-118.23461
+,Genova Liquor,742 E 7th St,Long Beach,CA,90813,33.775314,-118.18283
+,Liquor & Joy,1013-15 W. El Seguendo Blvd,Gardena,CA,90247,33.916451,-118.29241
+,7-Eleven,240 W Adams Blvd,Los Angeles,CA,90007,34.02631,-118.27197
+,Lucky Pomona Liquor,588 E la Verne Ave,Pomona,CA,91767,34.080513,-117.74131
+,Grande Vista Liquor & Market 1,3124 E 4th St,Los Angeles,CA,90063,34.035629,-118.20069
+,Sunshine Market N Liquor Ownership,8830 Rosecrans Ave,Downey,CA,90242,33.903744,-118.14494
+,Mission Gas N Go Inc,295 E Mission Blvd,Pomona,CA,91766,34.055187,-117.74819
+,Jalisco Liquor And Market,16015 Amar Rd,La Puente,CA,91744,34.036251,-117.93609
+,Central Liquor Market,5000 S Central Ave,Los Angeles,CA,90011,33.99786,-118.25645
+,Adams Liquor,4620 W Adams Blvd,Los Angeles,CA,90016,34.032532,-118.34143
+,7-Eleven,9472 Valley View St,Cypress,CA,90630,33.824821,-118.02819
+,Rite Aid,9715 Otis St,South Gate,CA,90280,33.945225,-118.19743
+,Fashion Heights Liquor,1180 S Idaho St,La Habra,CA,90631,33.918682,-117.95916
+,Shell,3241 S Brea Canyon Rd,Diamond Bar,CA,91765,33.968216,-117.84708
+,Laguna Petroleum,16518 Hawthorne Blvd,Lawndale,CA,90260,33.88036,-118.35235
+,Bills Liquor,11843 Washington Blvd,Whittier,CA,90606,33.969131,-118.05882
+,Youngs Liquor 1,8303 S Main St,Los Angeles,CA,90003,33.963879,-118.27392
+,Glenrose Liquor,1307 W Glenoaks Blvd,Glendale,CA,91201,34.166492,-118.28313
+,A Liquor,687 S Hoover St,Los Angeles,CA,90005,34.060127,-118.28424
+,New Liquor,5602 Long Beach Blvd,Long Beach,CA,90805,33.857628,-118.19772
+,7-Eleven,10356 Venice Blvd,Culver City,CA,90232,34.020573,-118.40344
+,Joes Liquor & Mini Mart Inc,18248 Soledad Canyon Rd,Canyon Country,CA,91387,34.416393,-118.45148
+,7-Eleven,7400 Garvey Ave,Rosemead,CA,91770,34.062485,-118.1079
+,Squire Liquor,2218 E 7th St,Long Beach,CA,90804,33.775322,-118.16523
+,Chevron,250 S Atlantic Blvd,Los Angeles,CA,90022,34.033775,-118.15198
+,Jug & Jigger Liquor,5235 Tyler Ave,Temple City,CA,91780,34.100517,-118.02515
+,Happy's Liquor 1,22203 Norwalk Blvd,Hawaiian Gardens,CA,90716,33.826721,-118.07198
+,7-Eleven,861 W Rosecrans Ave,Gardena,CA,90247,33.901917,-118.29124
+,Echo Park Liquor,1300 W Temple St,Los Angeles,CA,90026,34.066727,-118.25474
+,7-Eleven,5530 Valley Blvd,Los Angeles,CA,90032,34.074448,-118.16229
+,Lucky Star Liquor Market,4829 S Normandie Ave,Los Angeles,CA,90037,33.999302,-118.30022
+,Cat's Liquor,7217 S Broadway,Los Angeles,CA,90003,33.97406,-118.27835
+,Del Rey Liquor 2,8503 S Vermont Ave,Los Angeles,CA,90044,33.960861,-118.29189
+,7-Eleven,20103 Saticoy St,Canoga Park,CA,91306,34.208397,-118.5717
+,Ace Hi Liquor,11508 Wilmington Ave,Los Angeles,CA,90059,33.93021,-118.23906
+,Diana Liquor & Market,200 W Foothill Blvd,Azusa,CA,91702,34.133472,-117.90921
+,"El Monte Gas-N-Save, Inc.",1100 Santa Anita Ave,South El Monte,CA,91733,34.040936,-118.04995
+,Dhaka Liquor 1,10944 Imperial Hwy,Norwalk,CA,90650,33.917004,-118.10005
+,Party Time Liquor  4,6026 Reseda Blvd,Tarzana,CA,91356,34.17944,-118.53599
+,7-Eleven,3079 N San Fernando Rd,Los Angeles,CA,90065,34.114513,-118.24545
+,7-Eleven,945 W Pacific Coast Hwy,Wilmington,CA,90744,33.790604,-118.27454
+,King Beer & Wine Inc,13901 Van Ness Ave,Gardena,CA,90249,33.905312,-118.31789
+,ARCO,5304 Paramount Blvd,Lakewood,CA,90712,33.85413,-118.15983
+,Fred's Liquor,6301 S Broadway,Los Angeles,CA,90003,33.982109,-118.27834
+,El Sereno Liquor 4,3327 N Eastern Ave,Los Angeles,CA,90032,34.084412,-118.17809
+,Paramount Farmers' Market,15500 Downey Ave,Paramount,CA,90723,33.891663,-118.15132
+,Lakewood Farmers' Market,500 Lakewood Blvd.,Lakewood,CA,90712,33.85416,-118.14256
+,Kozanyan Meat & Liquor,1244 S Glendale Ave,Glendale,CA,91205,34.131409,-118.25229
+,7-Eleven,7117 S Vermont Ave,Los Angeles,CA,90044,33.974918,-118.2919
+,South Bay Liquor & Market,1014 N Wilmington Blvd,Wilmington,CA,90744,33.782562,-118.27443
+,Shell,25808 Narbonne Ave,Lomita,CA,90717,33.78912,-118.31995
+,One Stop Liquor,300 W Whittier Blvd,La Habra,CA,90631,33.939095,-117.94857
+,Red Carpet Liquor,85 Alamitos Ave,Long Beach,CA,90802,33.767864,-118.18252
+,Mega Liquor,2022 Pacific Coast Hwy,Lomita,CA,90717,33.789482,-118.31536
+,7-Eleven,2614 N Wilmington Ave,Compton,CA,90222,33.915649,-118.239
+,South Bay Kaiser Farmers Market,25825 Vermont Ave,Harbor City,CA,90710,33.789261,-118.29373
+,7-Eleven,15780 Tetley St,Hacienda Heights,CA,91745,33.993153,-117.96947
+,May Vern Liquor,3931 E 52nd St,Maywood,CA,90270,33.994759,-118.19364
+,Elbys Liquor,3337 E South St,Long Beach,CA,90805,33.860241,-118.15177
+,K H Liquor Store,13100 Sherman Way,North Hollywood,CA,91605,34.201172,-118.41826
+,Torrance Certified Farmers' Market 1,2200 Crenshaw Blvd,Torrance,CA,90501,33.824379,-118.3285
+,St Andrews Place Liquor,1894 W Jefferson Blvd,Los Angeles,CA,90018,34.025517,-118.31168
+,7-Eleven,5700 Santa Monica Blvd,Los Angeles,CA,90038,34.090721,-118.31378
+,7-Eleven,15006 Alondra Blvd,La Mirada,CA,90638,33.888027,-118.01109
+,7-Eleven,8307 S la Cienega Blvd,Inglewood,CA,90301,33.963097,-118.37045
+,My Liquor,8910 S Central Ave,Los Angeles,CA,90002,33.955231,-118.2564
+,Cheap Liquor,6241 Cherry Ave,Long Beach,CA,90805,33.868069,-118.16864
+,ARCO,3011 Wabash Ave,Los Angeles,CA,90063,34.049934,-118.19665
+,7-Eleven,3724 N Mission Rd,Los Angeles,CA,90031,34.068821,-118.20049
+,WESTERNER LIQUOR,4500 W Century Blvd,Inglewood,CA,90304,33.945385,-118.35499
+,Amigo Liquor,2601 W 7th St,Los Angeles,CA,90057,34.059086,-118.28257
+,Ok Liquor,20915 Pioneer Blvd,Lakewood,CA,90715,33.83902,-118.082
+,Harbor Liquor & Market,1532 Anaheim St,Harbor City,CA,90710,33.784946,-118.3032
+,Happy Time Liquor,12210 Foothill Blvd,Sylmar,CA,91342,34.28109,-118.40216
+,Sean's Liquor,1683 W 11th St,Los Angeles,CA,90015,34.048695,-118.2772
+,ANS Market & Liquor,1196 S Lorena St,Los Angeles,CA,90023,34.021671,-118.20474
+,Veer Liquor 9512581841,3271 W Pico Blvd,Los Angeles,CA,90019,34.047207,-118.31485
+,Liquor Mill,5440 Long Beach Blvd,Long Beach,CA,90805,33.855198,-118.19691
+,Austin Liquor Jr Market,5237 Paramount Blvd,Lakewood,CA,90712,33.851238,-118.1599
+,Hollywood Liquors,7040 Hollywood Blvd,Los Angeles,CA,90028,34.101509,-118.34303
+,Century Liquor & Market,5431 W Pico Blvd,Los Angeles,CA,90019,34.048656,-118.35665
+,CVS,6201 Hollywood Blvd,Los Angeles,CA,90028,34.101681,-118.32467
+,CVS,3627 E Cesar E Chavez Ave,Los Angeles,CA,90063,34.040546,-118.18621
+,Diaz Liquor,15814 Arrow Hwy,Baldwin Park,CA,91706,34.106903,-117.93598
+,My Liquor,6900 Long Beach Blvd,Long Beach,CA,90805,33.879387,-118.20425
+,Altadena Farmers' Market,600 W Palm St,Altadena,CA,91001,34.200268,-118.15785
+,Hughies Liquor No,12121 Magnolia Blvd,Valley Village,CA,91607,34.164909,-118.39734
+,Mr. B's Liquor Market,2433 190th St,Redondo Beach,CA,90278,33.858299,-118.3669
+,Mission Hills Liquor,15426 Chatsworth St,Mission Hills,CA,91345,34.264545,-118.46856
+,Major Liquor,2335 E 1st St,Los Angeles,CA,90033,34.043922,-118.21011
+,7-Eleven,102 E Huntington Dr,Arcadia,CA,91006,34.140064,-118.02797
+,Liquor & Joy,15631 S Avalon Blvd,Gardena,CA,90248,33.889732,-118.26546
+,Sh Liquor Market,4002 Avalon Blvd,Los Angeles,CA,90011,34.010929,-118.26523
+,Mexim Liquor,18061 E Valley Blvd,City Of Industry,CA,91744,34.006439,-117.90836
+,Frank's Liquor,919 E Broadway,Long Beach,CA,90802,33.769119,-118.18153
+,S & B Market & Liquor,20028 Saticoy St,Winnetka,CA,91306,34.208294,-118.56951
+,Pacific Liquor & Jr Market,5280 Atlantic Ave,Long Beach,CA,90805,33.852104,-118.18485
+,Valley Market And Liquor,20311 Valley Blvd,Walnut,CA,91789,34.008987,-117.86035
+,7-Eleven,3994 S Figueroa St,Los Angeles,CA,90037,34.011421,-118.28271
+,Moran's Liquor Market,2354 Pacific Coast Hwy,Lomita,CA,90717,33.789501,-118.32463
+,R-f Liquor,6026 S Broadway,Los Angeles,CA,90003,33.984818,-118.27826
+,Pararose Liquor,8020 Rosecrans Ave,Paramount,CA,90723,33.903614,-118.15914
+,Quigley's Liquor,14015 S Vermont Ave,Gardena,CA,90247,33.90416,-118.29198
+,The Boyle Heights Farmers Market,100 Bailey St,Los Angeles,CA,90033,34.04718,-118.21859
+,Salazar Park Farmers Market,386 Whittier Blvd,Los Angeles,CA,90023,34.028152,-118.2018
+,Northridge Farmers Market And Family Festival,9301 Tampa Boulevard,Northridge,CA,91324,34.240688,-118.55363
+,Rosemead Certified Farmers Market,8838 Valley Blvd,Rosemead,CA,91770,34.080704,-118.07631
+,Santa Fe Springs Certified Farmers Market,11740 Telegraph Rd,Santa Fe Springs,CA,90670,33.946014,-118.08308
+,Baldwin Park Certified Farmers Market,4100 Baldwin Park Blvd,Baldwin Park,CA,91706,34.08569,-117.96479
+,Monvrovia Certified Farmers Market,500 S Myrtle Ave,Monrovia,CA,91016,34.146893,-118.00092
+,Hermosa Beach Farmers Market,1 Pier Ave,Hermosa Beach,CA,90254,33.861973,-118.40165
+,Farm To Beach Farmers Market,91 S Pine Ave,Long Beach,CA,90802,33.76469,-118.19241
+,Playa Vista Farmers Market,6400 Seabluff Dr,Playa Vista,CA,90094,33.972126,-118.42188
+,Culver City Farmers Market,3800 Main St,Culver City,CA,90232,34.025341,-118.39497
+,West La Farmers Market,1600 Purdue Ave,Los Angeles,CA,90025,34.045776,-118.45065
+,Toluca Lake Certified Farmers Market,10225 Riverside Dr,Toluca Lake,CA,91602,34.152241,-118.35368
+,7-Eleven,3708 W Slauson Ave,Los Angeles,CA,90043,33.988953,-118.3381
+,Harry's Liquor,11315 S Main St,Los Angeles,CA,90061,33.931461,-118.27393
+,Arts Liquor Market Inc.,5626 E Beverly Blvd,Los Angeles,CA,90022,34.027775,-118.14649
+,La Mesa Liquor And Mini Market,13127 San Fernando Rd,Sylmar,CA,91342,34.309128,-118.47214
+,Tonys Liquor,1016 W Compton Blvd,Compton,CA,90220,33.895844,-118.24212
+,7-Eleven,601 S Fremont Ave,Alhambra,CA,91803,34.087601,-118.15202
+,Lakewood Liquor Mart,12205 Centralia St,Lakewood,CA,90715,33.838768,-118.07153
+,A & S Liquor,5745 Tujunga Ave,North Hollywood,CA,91601,34.175251,-118.37907
+,Ted's Liquor,18303 S Western Ave,Gardena,CA,90248,33.86451,-118.30919
+,Liquor & Joy,10940 Wilmington Ave,Los Angeles,CA,90059,33.93602,-118.23901
+,Canada Liquor,2523 Canada Blvd,Glendale,CA,91208,34.183891,-118.22908
+,Rick's Liquor,1231 N Hacienda Blvd,La Puente,CA,91744,34.043068,-117.94949
+,Belwood Liquor,12045 Roscoe Blvd,Sun Valley,CA,91352,34.221691,-118.39555
+,Ace Liquor,3333 Tyler Ave,El Monte,CA,91731,34.069462,-118.03603
+,Chevron,12155 Imperial Hwy,Norwalk,CA,90650,33.917217,-118.07304
+,Sundays - Westchester Farmers' Market N/a,6200 W 87th St,Los Angeles,CA,90045,33.958565,-118.39364
+,Athens Liquor,12000 S Figueroa St,Los Angeles,CA,90061,33.923515,-118.28259
+,Shell,2600 N Figueroa St,Los Angeles,CA,90065,34.083893,-118.22234
+,Commerce Liquor 1,5901 E Washington Blvd,Commerce,CA,90040,33.997578,-118.15158
+,AZT Liquor,16210 Nordhoff St,North Hills,CA,91343,34.235615,-118.48552
+,Liquor Station,800 Nogales Ave,Walnut,CA,91789,34.025188,-117.89462
+,Express Liquor,4489 Riverside Dr,Chino,CA,91710,34.018913,-117.707
+,Arts District Certified Farmers' Market,700 East Third Street,Los Angeles,CA,90039,34.045483,-118.23777
+,Selam Liquor,12720 Atlantic Ave,Lynwood,CA,90262,33.906731,-118.19335
+,J.B. Liquor,1185 N Vermont Ave,Los Angeles,CA,90029,34.093189,-118.29179
+,Richard's Liquor,3128 Martin Luther King Jr Blvd,Lynwood,CA,90262,33.937195,-118.21719
+,7-Eleven,3601 Slauson Ave,Maywood,CA,90270,33.988697,-118.20058
+,7-Eleven,11143 Venice Blvd,Los Angeles,CA,90034,34.013165,-118.41698
+,7-Eleven,11285 Santa Monica Blvd,Los Angeles,CA,90025,34.046516,-118.44844
+,7-Eleven,6151 Atlantic Ave,Long Beach,CA,90805,33.866405,-118.18525
+,HOPE'S MARKET & LIQUOR,1216 W 7th St,Los Angeles,CA,90017,34.051754,-118.26649
+,7-Eleven,14060 Oxnard St,Van Nuys,CA,91401,34.179375,-118.43958
+,7-Eleven,8363 Foothill Blvd,Sunland,CA,91040,34.25972,-118.3154
+,7-Eleven,904 Vine St,Los Angeles,CA,90038,34.087391,-118.32658
+,7-Eleven,4383 Tweedy Blvd,South Gate,CA,90280,33.943077,-118.19498
+,7-Eleven,2140 S Fremont Ave,Alhambra,CA,91803,34.067982,-118.1495
+,7-Eleven,13919 Hubbard St,Sylmar,CA,91342,34.302284,-118.43613
+,7-Eleven,5345 Laurel Canyon Blvd,Valley Village,CA,91607,34.16806,-118.39654
+,7-Eleven,18461 Roscoe Blvd,Northridge,CA,91325,34.220791,-118.53557
+,7-Eleven,3545 Artesia Blvd,Torrance,CA,90504,33.872955,-118.33418
+,A-1 LIQUOR & JR MARKET,1145 E Colorado St,Glendale,CA,91205,34.142696,-118.2401
+,SAM'S CORNER LIQUOR,2001 W 6th St,Los Angeles,CA,90057,34.059189,-118.27402
+,JO'S LIQUOR,333 W Pico Blvd,Los Angeles,CA,90015,34.038689,-118.26385
+,CITY OF ALHAMBRA FARMERS MARKET,100 S 2nd St,Alhambra,CA,91801,34.09309,-118.12817
+,7-Eleven,13450 Osborne St,Arleta,CA,91331,34.24181,-118.42643
+,7-Eleven,11007 Ventura Blvd,Studio City,CA,91604,34.140636,-118.37059
+,7-Eleven,16450 Vanowen St,Van Nuys,CA,91406,34.193874,-118.49219
+,7-Eleven,12463 Victory Blvd,North Hollywood,CA,91606,34.186707,-118.40503
+,7-Eleven,3450 Overland Ave,Los Angeles,CA,90034,34.024979,-118.41177
+,J&E LIQUOR INC,7911 S Figueroa St,Los Angeles,CA,90003,33.967411,-118.28275
+,7-Eleven,11401 Ventura Blvd,Studio City,CA,91604,34.139889,-118.37912
+,7-Eleven,776 N Maclay Ave,San Fernando,CA,91340,34.291107,-118.4306
+,Sportsman Liquor,17803 Clark Ave,Bellflower,CA,90706,33.870972,-118.13393
+,7-Eleven,10660 Sepulveda Blvd,Mission Hills,CA,91345,34.26437,-118.46722
+,7-Eleven,10008 Valley Blvd,El Monte,CA,91731,34.078785,-118.05233
+,7-Eleven,11001 Washington Blvd,Culver City,CA,90232,34.011387,-118.41068
+,7-Eleven,4800 W 120th St,Hawthorne,CA,90250,33.923595,-118.36144
+,7-Eleven,1533 Peck Rd,El Monte,CA,91733,34.040424,-118.03641
+,7-Eleven,281 E Pomona Blvd,Monterey Park,CA,91755,34.033638,-118.1253
+,FRANK'S LIQUOR,12329 Prairie Ave,Hawthorne,CA,90250,33.920502,-118.34391
+,7-Eleven,2601 Artesia Blvd,Redondo Beach,CA,90278,33.872936,-118.36381
+,FAST FREDDY'S LIQUOR,10558 Whittier Blvd,Whittier,CA,90606,33.991085,-118.06573
+,Teddy's Liquor Store and Market Inc,2112 S la Brea Ave,Los Angeles,CA,90016,34.038048,-118.3486
+,GEORGE'S LIQUOR,3061 Lincoln Ave,Altadena,CA,91001,34.198059,-118.15903
+,7-Eleven,12450 BURBANK BLVD,NORTH HOLLYWOOD,CA,91607,34.172104,-118.40465
+,SAKI LIQUOR STORE,3300 W Jefferson Blvd,Los Angeles,CA,90018,34.025562,-118.33218
+,7-Eleven,16107 Gale Ave,City of Industry,CA,91745,34.008629,-117.9557
+,LYNWOOD FARMERS MARKET,12301 Atlantic Ave,Lynwood,CA,90262,33.910774,-118.19187
+,7-Eleven,922 W Duarte Rd,Monrovia,CA,91016,34.131306,-118.01865
+,7-Eleven,15805 Prairie Ave,Lawndale,CA,90260,33.88718,-118.34389
+,7-Eleven,17262 Vanowen St,Van Nuys,CA,91406,34.193851,-118.50964
+,C & C LIQUOR & MARKET,4606 S Broadway,Los Angeles,CA,90037,34.001801,-118.27832
+,Crenshaw Market & Liquor,6226 Crenshaw Blvd,Los Angeles,CA,90043,33.983559,-118.33081
+,TUPACK'S LIQUOR,2802 E Avenue I,Lancaster,CA,93535,34.704353,-118.0792
+,7-Eleven,17710 Saticoy St,Reseda,CA,91335,34.208382,-118.51887
+,AMBASSADOR LIQUOR STORE,1642 E 4th St,Long Beach,CA,90802,33.771694,-118.17098
+,"BRUCE'S LIQUOR STORE, INC.",12623 E. IMPERIAL HWY,Santa Fe Springs,CA,90670,33.917198,-118.06313
+,7-Eleven,11373 Riverside Dr,North Hollywood,CA,91602,34.157219,-118.37847
+,A & B LIQUOR,2406 Mountain View Rd,El Monte,CA,91733,34.056,-118.02966
+,7-Eleven,8708 Atlantic Ave,South Gate,CA,90280,33.95203,-118.18315
+,7-Eleven,7555 Reseda Blvd,Reseda,CA,91335,34.208111,-118.53609
+,7-Eleven,21618 Roscoe Blvd,Canoga Park,CA,91304,34.219692,-118.60057
+,7-Eleven,9526 Sepulveda Blvd,North Hills,CA,91343,34.243362,-118.46738
+,B & C LIQUOR,3215 E Imperial Hwy,Lynwood,CA,90262,33.930408,-118.21219
+,LADIN'S LIQUOR,20857 Sherman Way,Canoga Park,CA,91306,34.201149,-118.58817
+,7-Eleven,7950 Santa Monica Blvd,West Hollywood,CA,90046,34.090794,-118.36291
+,7-Eleven,703 E Palmdale Blvd,Palmdale,CA,93550,34.579548,-118.11605
+,7-Eleven,425 E Broadway,Glendale,CA,91205,34.146358,-118.25043
+,7-Eleven,8707 Lindley Ave,Northridge,CA,91325,34.228989,-118.52738
+,7-Eleven,4650 Franklin Ave,Los Angeles,CA,90027,34.105385,-118.29137
+,7-Eleven,7609 Santa Monica Blvd,West Hollywood,CA,90046,34.090847,-118.35534
+,A & A MARKET & LIQUOR,6709 S Normandie Ave,Los Angeles,CA,90044,33.978371,-118.30032
+,7-Eleven,5763 Hollywood Blvd,Hollywood,CA,90028,34.101738,-118.31488
+,M & I Liquor,14511 Pacific Ave,Baldwin Park,CA,91706,34.084053,-117.9588
+,7-Eleven,1550 Murchison Ave,Pomona,CA,91768,34.071148,-117.77844
+,7-Eleven,4092 Chino Hills Pkwy,Chino Hills,CA,91709,33.982677,-117.71528
+,CIRCUS LIQUORS,13130 Foothill Blvd,Sylmar,CA,91342,34.298309,-118.42038
+,7-Eleven,861 W ALOSTA AVE,GLENDORA,CA,91740,34.128845,-117.8809
+,J.B. LIQUOR,8474 Sunland Blvd,Sun Valley,CA,91352,34.223988,-118.36554
+,ADAMS/VERMONT CERT FARMERS MARKET,1432 W Adams Blvd,Los Angeles,CA,90007,34.032734,-118.29261
+,7-Eleven,345 W Manchester Blvd,Inglewood,CA,90301,33.961769,-118.36144
+,ROY'S LIQUOR,1627 N San Fernando Blvd,Burbank,CA,91504,34.191532,-118.32466
+,G & H Liquor,606 E San Bernardino Rd,Covina,CA,91723,34.090897,-117.87888
+,7-Eleven,16159 Devonshire St,Granada Hills,CA,91344,34.257439,-118.48464
+,M & P LIQUOR MARKET,2200 S Pacific Ave,San Pedro,CA,90731,33.72406,-118.28796
+,7-Eleven,17001 Nordhoff St,Northridge,CA,91325,34.235748,-118.50291
+,7-Eleven,5880 W Manchester Ave,Los Angeles,CA,90045,33.959782,-118.38529
+,7-Eleven,500 W COLORADO ST,GLENDALE,CA,91204,34.142494,-118.26461
+,ALLAN'S LIQUOR & JR. MARKET,16060 Vanowen St,Van Nuys,CA,91406,34.193882,-118.48332
+,7-Eleven,2541 S Barrington Ave,Los Angeles,CA,90064,34.027935,-118.44289
+,J & W LIQUOR MARKET,553 E Foothill Blvd,Pomona,CA,91767,34.107262,-117.73949
+,7-Eleven,8001 Greenleaf Ave,Whittier,CA,90602,33.968029,-118.03742
+,CHALLENGER LIQUOR,1004 E Avenue K,Lancaster,CA,93535,34.67495,-118.11226
+,7-Eleven,843 W Glenoaks Blvd,Glendale,CA,91202,34.160847,-118.27438
+,7-Eleven,530 N Diamond Bar Blvd,Diamond Bar,CA,91765,34.029526,-117.81015
+,7-Eleven,7120 Atlantic Ave,Bell,CA,90201,33.970745,-118.18798
+,A-1 MARKET & LIQUOR,1647 W Glenoaks Blvd,Glendale,CA,91201,34.171043,-118.28938
+,CORNER LIQUOR,10336 Lower Azusa Rd,El Monte,CA,91731,34.091774,-118.04137
+,7-Eleven,6780 Vineland Ave,North Hollywood,CA,91606,34.193611,-118.37027
+,ED'S LIQUOR STORE,825 Pico Blvd,Santa Monica,CA,90405,34.012775,-118.48212
+,H & H LIQUOR MART,8808 Painter Ave,Whittier,CA,90602,33.957947,-118.03802
+,KIM'S LIQUOR,5940 Lankershim Blvd,North Hollywood,CA,91601,34.178596,-118.38287
+,7-Eleven,13253 Victory Blvd,Van Nuys,CA,91401,34.186707,-118.42212
+,OCCIDENTAL LIQUOR,2755 Beverly Blvd,Los Angeles,CA,90057,34.070446,-118.27885
+,HANDY MART LIQUOR,8012 Laurel Canyon Blvd,North Hollywood,CA,91605,34.21611,-118.39646
+,POMONA WINE CELLAR,468 E Holt Ave,Pomona,CA,91767,34.062542,-117.74218
+,BIG BEAR LIQUOR & MARKET,2600 E 1st St,Los Angeles,CA,90033,34.042526,-118.20716
+,7-Eleven,2887 E Valley Blvd,West Covina,CA,91792,34.002132,-117.88148
+,7-Eleven,455 E Foothill Blvd,Azusa,CA,91702,34.13361,-117.90271
+,7-Eleven,305 S San Gabriel Blvd,San Gabriel,CA,91776,34.098652,-118.091
+,BOB'S LIQUOR AND DELICATESSEN,44261 Sierra Hwy,Lancaster,CA,93534,34.686764,-118.1348
+,DELA LIQUOR,2721 E Carson St,Carson,CA,90810,33.831806,-118.21759
+,7-Eleven,803 E Mission Blvd,Pomona,CA,91766,34.055359,-117.74079
+,ART JR. MARKET LIQUOR,16000 Main St,La Puente,CA,91744,34.020092,-117.94868
+,DOUBLE LUCKY LIQUOR,3411 E Artesia Blvd,Long Beach,CA,90805,33.874836,-118.15238
+,JOHNNY'S LIQUOR DELI & VIDEO,1665 W San Bernardino Rd,Covina,CA,91722,34.089458,-117.9247
+,CHERRY LIQUOR,6069 Cherry Ave,Long Beach,CA,90805,33.865147,-118.16867
+,CREST JR. MARKET & LIQUOR,2541 W 3rd St,Los Angeles,CA,90057,34.065563,-118.27788
+,EAST L.A. MARKET & LIQUOR,530 N Fickett St,Los Angeles,CA,90033,34.048351,-118.20428
+,HUBERT'S LIQUOR,4307 Leimert Blvd,Los Angeles,CA,90008,34.005314,-118.32989
+,7-Eleven,1546 W Mission Blvd,Pomona,CA,91766,34.054394,-117.77311
+,7-Eleven,18519 Victory Blvd,Reseda,CA,91335,34.186619,-118.5368
+,7-Eleven,8707 Corbin Ave,Northridge,CA,91324,34.228451,-118.56236
+,7-Eleven,19259 Saticoy St,Reseda,CA,91335,34.20842,-118.55306
+,KOPPER KEG LIQUOR,3237 Glendale Blvd,Los Angeles,CA,90039,34.118279,-118.26088
+,7-Eleven,6760 Reseda Blvd,Reseda,CA,91335,34.193436,-118.53596
+,7-Eleven,1003 S Baldwin Ave,Arcadia,CA,91007,34.128716,-118.05482
+,7-Eleven,22020 Calvert St,Woodland Hills,CA,91367,34.181103,-118.60674
+,ARCO,601 N Maclay Ave,San Fernando,CA,91340,34.289165,-118.4334
+,7-Eleven,2705 Huntington Dr,Duarte,CA,91010,34.138988,-117.94652
+,Saticoy Liquor,11415 Saticoy St,North Hollywood,CA,91605,34.208496,-118.37952
+,JOE'S LIQUOR STORE,2395 Atlantic Ave,Long Beach,CA,90806,33.800632,-118.1851
+,BENSON LIQUOR & MARKET,5685 Riverside Dr # H-J,Chino,CA,91710,34.019073,-117.68095
+,CONFETTI LIQUOR MARKET,13674 Oxnard St,Van Nuys,CA,91401,34.179375,-118.43101
+,7-Eleven,1723 W Main St,Alhambra,CA,91801,34.091537,-118.14256
+,7-Eleven,1994 E 7th St,Long Beach,CA,90813,33.775295,-118.16771
+,MARENGO LIQUOR,1700 W Valley Blvd,Alhambra,CA,91803,34.077381,-118.1421
+,7-Eleven,200 E Live Oak Ave,Arcadia,CA,91006,34.108204,-118.02422
+,HALL MARKET LIQUOR,11534 Lakewood Blvd,Downey,CA,90241,33.931953,-118.12668
+,LEE'S MARKET & LIQUOR,934 W 23rd St,Los Angeles,CA,90007,34.033775,-118.28085
+,D & K Liquor & Market,15243 Saticoy St,Van Nuys,CA,91405,34.208488,-118.46552
+,7-Eleven,808 Indian Hill Blvd,Pomona,CA,91767,34.067249,-117.71915
+,7-Eleven,10610 Magnolia Blvd,North Hollywood,CA,91601,34.164848,-118.36203
+,RICHIE'S LIQUOR & MARKET,1700 Alamitos Ave,Long Beach,CA,90813,33.7882,-118.17625
+,7-Eleven,10648 Atlantic Ave,Lynwood,CA,90262,33.934177,-118.18237
+,ARROW LIQUOR AND JR MARKET,12521 Vanowen St,North Hollywood,CA,91605,34.193977,-118.40588
+,AYUTLA LIQUOR,3548 E 1st St,Los Angeles,CA,90063,34.035984,-118.19061
+,PACIFIC LIQUOR,1895 Pacific Ave,Long Beach,CA,90806,33.791573,-118.19383
+,C & J LIQUOR,10805 S Inglewood Ave,Lennox,CA,90304,33.937901,-118.36137
+,Turf Liquor,13608 Telegraph Rd,Whittier,CA,90604,33.936668,-118.04152
+,Gardena Farmer's Market,13000 Van Ness Ave,Gardena,CA,90249,33.915649,-118.31781
+,PARK'S LIQUOR,3554 Beverly Blvd,Los Angeles,CA,90004,34.075409,-118.28719
+,DANNY'S LIQUOR & MARKET,7202 Lankershim Blvd,North Hollywood,CA,91605,34.20142,-118.38775
+,7-Eleven,504 S Citrus Ave,Azusa,CA,91702,34.11404,-117.89014
+,7-Eleven,5288 Francis Ave,Chino,CA,91710,34.040882,-117.68988
+,BUDGET LIQUOR,9849 Atlantic Ave,South Gate,CA,90280,33.942177,-118.18139
+,BOTTLE 'N CORK LIQUOR,12086 Valley Blvd,El Monte,CA,91732,34.061554,-118.01688
+,BIG BOB'S LIQUOR,409 E la Habra Blvd,La Habra,CA,90631,33.931896,-117.94111
+,7-Eleven,690 N Lake Ave,Pasadena,CA,91104,34.157944,-118.13242
+,RED LIQUOR MARKET,2600 Southwest Dr,Los Angeles,CA,90043,33.981365,-118.32189
+,SILVER DOLLAR LIQUOR,1650 W Manchester Ave,Los Angeles,CA,90047,33.959927,-118.30576
+,LARRY'S LIQUOR,1391 Cherry Ave,Long Beach,CA,90813,33.784294,-118.16773
+,77 LIQUOR MARKET,3200 W 8th St,Los Angeles,CA,90005,34.057701,-118.29794
+,MIKRON LIQUOR,631 Silver Lake Blvd,Los Angeles,CA,90026,34.07877,-118.27858
+,7-Eleven,6350 San Fernando Rd,Glendale,CA,91201,34.16555,-118.28763
+,7-Eleven,5791 Rodeo Rd,Los Angeles,CA,90016,34.021751,-118.37209
+,SHORT STOP FOOD & LIQUOR,9501 Van Nuys Blvd,Panorama City,CA,91402,34.24295,-118.45026
+,7-Eleven,6915 Rosemead Blvd,San Gabriel,CA,91775,34.123356,-118.07305
+,7-Eleven,12055 Vanowen St,North Hollywood,CA,91605,34.194008,-118.39591
+,7-Eleven,2600 Pacific Ave,Long Beach,CA,90806,33.804901,-118.19363
+,YORK SQUARE LIQUOR,6312 York Blvd,Los Angeles,CA,90042,34.114624,-118.18212
+,STOP & SHOP LIQUOR,4300 Gage Ave,Bell,CA,90201,33.978455,-118.19138
+,7-Eleven,20519 Roscoe Blvd,Winnetka,CA,91306,34.220116,-118.58051
+,7-Eleven,18916 Roscoe Blvd,Northridge,CA,91324,34.220551,-118.54516
+,B-1 LIQUORS,3005 E Palmdale Blvd,Palmdale,CA,93550,34.58025,-118.07548
+,7-Eleven,805 W Las Tunas Dr,San Gabriel,CA,91776,34.102386,-118.11113
+,7-Eleven,2582 E Slauson Ave,Huntington Park,CA,90255,33.989147,-118.22549
+,7-Eleven,7400 Stewart and Gray Rd,Downey,CA,90241,33.940044,-118.15371
+,SHYREA'S LIQUOR,1753 W Century Blvd,Los Angeles,CA,90047,33.945518,-118.308
+,7-Eleven,10325 Zelzah Ave,Porter Ranch,CA,91326,34.257938,-118.5234
+,AL'S LIQUOR MARKET,412 W Duarte Rd,Monrovia,CA,91016,34.132172,-118.00768
+,7-Eleven,15211 Amar Rd,La Puente,CA,91744,34.038193,-117.95323
+,THE CORNER LIQUOR STORE,17403 Clark Ave,Bellflower,CA,90706,33.874432,-118.13391
+,Foster Gas,13400 Woodruff Ave,Bellflower,CA,90706,33.909462,-118.11665
+,7-Eleven,5000 Long Beach Blvd,Long Beach,CA,90805,33.847073,-118.19394
+,FOUR STAR LIQUOR & MARKET,13922 Nordhoff St,Arleta,CA,91331,34.235256,-118.436
+,7-Eleven,10690 Balboa Blvd,Granada Hills,CA,91344,34.26442,-118.50224
+,Model Neighborhood Programs Farmers Market,1801 S La Cienga Blvd,Los Angeles,CA,90035,34.044266,-118.37686
+,Fiesta Liquor,7215 Vineland Ave,Sun Valley,CA,91352,34.201672,-118.37035
+,WEST LIQUOR,701 E Manchester Ave,Los Angeles,CA,90001,33.960159,-118.26273
+,BRITE SPOT LIQUOR,1725 Pacific Coast Hwy,Lomita,CA,90717,33.78949,-118.30855
+,7-Eleven,17020 E Cypress St,Covina,CA,91722,34.095802,-117.91582
+,7-Eleven,600 N Hollywood Way,Burbank,CA,91505,34.161156,-118.34367
+,SNAPPY FOOD MART & LIQUOR,4172 W Imperial Hwy,Inglewood,CA,90304,33.930935,-118.3479
+,LLOYD'S LIQUOR,7219 Kester Ave,Van Nuys,CA,91405,34.201889,-118.45748
+,"ADAM'S LIQUOR DELI,WINE & JR. MKT",14556 Vanowen St,Van Nuys,CA,91405,34.193905,-118.45055
+,TOP HAT LIQUOR,565 N Dudley St,Pomona,CA,91768,34.062477,-117.77677
+,Sam's Market & Liquor,1013 E Palmdale Blvd,Palmdale,CA,93550,34.57959,-118.11125
+,LINDLEY LIQUOR,7137 Lindley Ave,Reseda,CA,91335,34.200493,-118.52734
+,COUNTRY LIQUOR 2,124 E Arrow Hwy,Covina,CA,91722,34.106743,-117.88943
+,B & H LIQUOR,10917 Alondra Blvd,Norwalk,CA,90650,33.887627,-118.10196
+,7-Eleven,225 Orange Ave,Long Beach,CA,90802,33.794041,-118.17636
+,PURITY LIQUOR MARKET,3916 Gage Ave,Bell,CA,90201,33.979084,-118.1973
+,PUEBLO LIQUOR,4600 Whittier Blvd,Los Angeles,CA,90022,34.022606,-118.16798
+,7-Eleven,14656 Francisquito Ave,La Puente,CA,91746,34.057518,-117.95914
+,Western R & L Liquor,12714 S Western Ave,Los Angeles,CA,90047,33.917236,-118.30896
+,SAMS LIQUOR & MARKET,15717 Vanowen St,Van Nuys,CA,91406,34.193939,-118.47534
+,J'S LIQUOR & JR MARKET,120 W Avenue J,Lancaster,CA,93534,34.689423,-118.13078
+,Old Green Mill Liquor,4520 San Fernando Rd,Glendale,CA,91204,34.134205,-118.26283
+,YOUNG'S LIQUOR,2762 E Gage Ave,Huntington Park,CA,90255,33.981583,-118.22105
+,MAPLE LIQUOR JR MARKET,10421 S Western Ave,Los Angeles,CA,90047,33.941132,-118.30907
+,VALLI-HO LIQUOR,16925 Sherman Way,Van Nuys,CA,91406,34.20126,-118.50206
+,LEPRECHAUN LIQUOR,334 N Azusa Ave,West Covina,CA,91791,34.076969,-117.90764
+,CHERRY BEER & WINE MARKET,232 Cherry Ave,Long Beach,CA,90802,33.767494,-118.16783
+,7-Eleven,114 N GAFFEY ST,SAN PEDRO,CA,90731,33.74358,-118.29229
+,Gigi's Liquor,14038 Victory Blvd,Van Nuys,CA,91401,34.186615,-118.43907
+,SAFETY LIQUOR,4635 Whittier Blvd,Los Angeles,CA,90022,34.022648,-118.16765
+,Okay Liquor,5500 W Pico Blvd,Los Angeles,CA,90019,34.049026,-118.35797
+,7-Eleven,6766 Tampa Ave,Reseda,CA,91335,34.193649,-118.55342
+,EDDIE'S LIQUOR & JR MARKET,3400 Orange Ave,Long Beach,CA,90807,33.819031,-118.1763
+,7-Eleven,1700 W 25th St,San Pedro,CA,90732,33.724155,-118.31527
+,7-Eleven,1108 W Imperial Hwy,Brea,CA,92821,33.917274,-117.9152
+,7-Eleven,3001 Pacific Ave,Long Beach,CA,90806,33.811958,-118.1938
+,JAY'S MEAT AND LIQUOR,14627 Crenshaw Blvd,Gardena,CA,90249,33.898533,-118.32658
+,RAY'S LIQUOR STORE,12929 S Normandie Ave,Gardena,CA,90249,33.915195,-118.30047
+,7-Eleven,1100 S la Brea Ave,Inglewood,CA,90301,33.948811,-118.35252
+,Liquor To Go Go & Market,5901 Hollywood Blvd,Los Angeles,CA,90028,34.1017,-118.3183
+,Super Save Market & Liquor Corp,1712 W Temple St,Los Angeles,CA,90026,34.068661,-118.26325
+,Whittier Uptown Association Farmers Market,13018 Philadelphia St,Whittier,CA,90601,33.979061,-118.03651
+,7-Eleven,2200 W Sunset Blvd,Los Angeles,CA,90026,34.077969,-118.26615
+,FRONTIER LIQUOR,17852 Bellflower Blvd,Bellflower,CA,90706,33.870373,-118.12505
+,DUARTE LIQUORS,1302 Duarte Rd,Duarte,CA,91010,34.132179,-117.9774
+,7-Eleven,4501 W ML King Blvd,Los Angeles,CA,90016,34.01767,-118.34577
+,J.B. LIQUOR AND JR. MARKET,8729 Washington Blvd,Pico Rivera,CA,90660,33.985073,-118.10023
+,ROYAL LIQUOR MARKET,5600 Cahuenga Blvd,North Hollywood,CA,91601,34.172451,-118.36156
+,REGGIE'S LIQUOR,4426 S Figueroa St,Los Angeles,CA,90037,34.00301,-118.2827
+,REGGIE'S LIQUOR,10004 S Central Ave,Los Angeles,CA,90002,33.94585,-118.25404
+,TWEEDY'S LIQUOR,3479 Tweedy Blvd,South Gate,CA,90280,33.944496,-118.2079
+,PAUL'S LIQUOR,9036 Long Beach Blvd,South Gate,CA,90280,33.953568,-118.21899
+,BK MARKET LIQUOR,9201 State St,South Gate,CA,90280,33.951496,-118.21275
+,"LIQUOR KING, INC",5564 Fort Tejon Rd,Palmdale,CA,93552,34.543358,-118.03123
+,Walgreens,12490 Central Ave,Chino,CA,91710,34.026485,-117.68954
+,7-Eleven,2600 N Main St,Los Angeles,CA,90031,34.065964,-118.21505
+,7-Eleven,12954 Bess Ave,Baldwin Park,CA,91706,34.067287,-117.99208
+,WEST LIQUOR,4381 S Western Ave,Los Angeles,CA,90062,34.003944,-118.30899
+,GOURMET LIQUOR,715 S CENTRAL AVE,GLENDALE,CA,91204,34.137062,-118.25788
+,7-Eleven,2055 N Towne Ave,Pomona,CA,91767,34.079292,-117.74106
+,AV Liquor,44201 20th St W,Lancaster,CA,93534,34.686043,-118.1657
+,7-Eleven,2799 E Pacific Coast Hwy,Signal Hill,CA,90755,33.78989,-118.15905
+,7-Eleven,22829 Figueroa St,Carson,CA,90745,33.818222,-118.28582
+,BAKER'S LIQUOR & MARKET,12810 Philadelphia St,Whittier,CA,90601,33.979073,-118.03921
+,REGENCY LIQUOR,1260 S Soto St,Los Angeles,CA,90023,34.026337,-118.21962
+,LIQUOR SPECIALTY,4703 Artesia Blvd,Lawndale,CA,90260,33.87299,-118.35941
+,GEORGE'S LIQUOR & MARKET,3224 E Gage Ave,Huntington Park,CA,90255,33.980381,-118.20956
+,COMPTON MARKET LIQUOR,4187 Compton Ave,Los Angeles,CA,90011,34.00671,-118.24744
+,SPORTSMEN LIQUOR,3918 City Terrace Dr,Los Angeles,CA,90063,34.055679,-118.18035
+,Dale's Jr. Liquor Market,15313 Parthenia St,North Hills,CA,91343,34.228287,-118.46558
+,EAST END LIQUOR,998 E Holt Ave,Pomona,CA,91767,34.062805,-117.73067
+,Gourmet Liquor,1476 W 3rd St,Los Angeles,CA,90017,34.059345,-118.26425
+,SUNSHINE LIQUOR,2619 W Florence Ave,Los Angeles,CA,90043,33.974609,-118.32234
+,HOME LIQUOR,502 1/2 E Live Oak Ave,Arcadia,CA,91006,34.108913,-118.0191
+,GATEWOOD LIQUOR,3881 E Imperial Hwy,Lynwood,CA,90262,33.931747,-118.19539
+,LOUIE'S LIQUOR,16461 Vanowen St,Van Nuys,CA,91406,34.193962,-118.49199
+,7-Eleven,12515 Philadelphia St,Whittier,CA,90601,33.979126,-118.04244
+,YOUNG'S LIQUOR & MARKET,4741 Florence Ave,Bell,CA,90201,33.969814,-118.18292
+,SHOW PLACE LIQUOR,3401 W Venice Blvd,Los Angeles,CA,90019,34.043598,-118.32167
+,Uptown Liquor,7301 Greenleaf Ave,Whittier,CA,90602,33.975281,-118.03741
+,CAROUSEL JR MARKET LIQUOR,801 W Gladstone St,Azusa,CA,91702,34.114338,-117.91671
+,JET STREAM LIQUOR AND JR  MARKET,10922 Vanowen St,North Hollywood,CA,91605,34.193932,-118.36896
+,FARMERS BIG 7 MARKET,25513 Normandie Ave,Harbor City,CA,90710,33.792549,-118.29752
+,P&B LIQUOR JR MARKET 3,2807 E 7th St,Long Beach,CA,90804,33.775406,-118.15887
+,SLAUSON LIQUOR,2825 W Slauson Ave,Los Angeles,CA,90043,33.989086,-118.32436
+,ONE STOP LIQUOR,9905 Sepulveda Blvd,Mission Hills,CA,91345,34.250126,-118.4676
+,HARDY'S LIQUOR,42303 50th St W,Quartz Hill,CA,93536,34.651272,-118.21861
+,7-Eleven,3366 San Gabriel Blvd,Rosemead,CA,91770,34.069771,-118.09057
+,TRIANGLE LIQUORS & JR  MARKET,8120 Sepulveda Blvd,Van Nuys,CA,91402,34.218567,-118.46661
+,LUCKY - 7 LIQUOR & DELI,13307 Paramount Blvd,South Gate,CA,90280,33.914509,-118.15903
+,PEOPLE MARKET & LIQUOR,15100 Bellflower Blvd,Bellflower,CA,90706,33.896381,-118.1253
+,G & G LIQUOR,14989 Prairie Ave,Lawndale,CA,90260,33.895927,-118.3439
+,WALT'S LIQUOR,13834 Los Angeles St,Baldwin Park,CA,91706,34.092121,-117.97228
+,7-Eleven,11111 Burbank Blvd,North Hollywood,CA,91601,34.172188,-118.37208
+,GIGI'S LIQUOR #2,12114 Vanowen St,North Hollywood,CA,91605,34.193913,-118.39721
+,SUPER LIQUOR,125 E Orange Grove Blvd,Pasadena,CA,91103,34.157879,-118.14767
+,TOWN LIQUOR,604 E Avenue K,Lancaster,CA,93535,34.674965,-118.11986
+,VICTORY LIQUOR,536 N Garfield Ave,Montebello,CA,90640,34.023689,-118.13301
+,LEN'S LIQUOR JR MARKET,11230 Laurel Canyon Blvd,San Fernando,CA,91340,34.27396,-118.44819
+,BL LIQUOR STORE,1304 W Avenue I,Lancaster,CA,93534,34.703945,-118.15372
+,7-Eleven,6610 Foothill Blvd,Tujunga,CA,91042,34.246536,-118.27636
+,Mr Spirit Liquor,6818 S Western Ave,Los Angeles,CA,90047,33.977631,-118.30891
+,"ANCHOR LIQUORS S.C., INC.",1908 Santa Fe Ave,Long Beach,CA,90810,33.79179,-118.21538
+,Alda Liquor Store,16151 Roscoe Blvd,North Hills,CA,91343,34.221382,-118.48459
+,WALNUT LIQUOR,432 W la Habra Blvd,La Habra,CA,90631,33.931808,-117.94973
+,7-Eleven,11461 Firestone Blvd,Norwalk,CA,90650,33.916725,-118.08916
+,7-Eleven,1910 Colorado Blvd,Eagle Rock,CA,90041,34.139164,-118.20884
+,CABIN LIQUOR STORE,5633 W Adams Blvd,Los Angeles,CA,90016,34.03249,-118.36597
+,EDDIE LIQUOR JR MARKET,222 W Pacific Coast Hwy,Wilmington,CA,90744,33.791023,-118.26537
+,7-Eleven,6564 E Olympic Blvd,Los Angeles,CA,90022,34.011501,-118.13113
+,SNAPE ED'S COUNTRY LIQUOR & DELI,15823 Amar Rd,La Puente,CA,91744,34.036518,-117.94005
+,TROPIC LIQUOR,210 N Huntington Dr,Alhambra,CA,91801,34.097603,-118.15527
+,ROSE LIQUOR,1201 E South St,Long Beach,CA,90805,33.860149,-118.17669
+,7-Eleven,10962 Alondra Blvd,Norwalk,CA,90650,33.887657,-118.1006
+,7-Eleven,1319 N Altadena Dr,Pasadena,CA,91107,34.16869,-118.09837
+,B & B LIQUOR,8207 S Western Ave,Los Angeles,CA,90047,33.964291,-118.30904
+,FOREMOST LIQUOR MARKET,301 Monterey Rd,South Pasadena,CA,91030,34.111755,-118.1697
+,7-Eleven,1347 S Azusa Ave,West Covina,CA,91791,34.050442,-117.90813
+,PARA LIQUOR,5660 N Paramount Blvd,Long Beach,CA,90805,33.858891,-118.15983
+,VIC'S LIQUOR,3714 Peck Rd,El Monte,CA,91731,34.073364,-118.02315
+,LIKKER LOCKER LIQUOR STORE,15529 Lakewood Blvd,Paramount,CA,90723,33.892601,-118.14285
+,ADAMS SQUARE LIQUOR,1021 E Chevy Chase Dr,Glendale,CA,91205,34.133865,-118.24261
+,PALMDALE LIQUOR JR MARKET,2270 E Palmdale Blvd,Palmdale,CA,93550,34.58007,-118.0881
+,CANYON LIQUOR,19058 La Puente Rd,West Covina,CA,91792,34.010002,-117.88489
+,7-Eleven,8502 Alondra Blvd,Paramount,CA,90723,33.889145,-118.151
+,CASINO LIQUOR,16924 S Western Ave,Gardena,CA,90247,33.877571,-118.30914
+,SUN-E-SIDE LIQUOR,9621 S Normandie Ave,Los Angeles,CA,90044,33.94788,-118.30032
+,J.J. LIQUOR,840 W Rosecrans Ave,Compton,CA,90222,33.903221,-118.23984
+,J'S LIQUOR,3133 Artesia Blvd,Torrance,CA,90504,33.872978,-118.32722
+,7-Eleven,9727 Carmenita Rd,Whittier,CA,90605,33.94912,-118.04647
+,HI-BON LIQUOR,5985 Florence Ave,Bell Gardens,CA,90201,33.967262,-118.15811
+,KING LIQUOR,2105 W Sunset Blvd,Los Angeles,CA,90026,34.077618,-118.26366
+,BEVERLY MART LIQUOR,4003 Beverly Blvd,Los Angeles,CA,90004,34.076366,-118.29625
+,AL'S DRIVE-IN LIQUOR,18444 Saticoy St,Reseda,CA,91335,34.208374,-118.53547
+,7-Eleven,5575 N Azusa Ave,Azusa,CA,91702,34.114052,-117.90778
+,BESTWAY LIQUOR,4157 S Figueroa St,Los Angeles,CA,90037,34.007973,-118.28277
+,JAY'S LIQUOR,1006 E 2nd St,Pomona,CA,91766,34.058125,-117.73678
+,U.S.A. BEER & WINE MARKET,1547 E 10th St,Long Beach,CA,90813,33.778988,-118.17216
+,B&C LIQUOR,102 W Colorado St,Glendale,CA,91204,34.142506,-118.25515
+,CLIFF'S LIQUOR,1201 W Avenue I,Lancaster,CA,93534,34.703999,-118.1515
+,"Super Liquor, Inc.",310 N Citrus Ave,Azusa,CA,91702,34.126163,-117.89006
+,GOLDEN BELL LIQUOR,3615 Florence Ave,Bell,CA,90201,33.971867,-118.20228
+,SORRENTO LIQUOR,801 W Cesar E Chavez Ave,Los Angeles,CA,90012,34.061382,-118.24475
+,CENTURY LIQUOR & MARKET,3894 S Western Ave,Los Angeles,CA,90062,34.014732,-118.30885
+,MAPLE LIQUOR MARKET,3000 SOU TH AMPLE AVE.,LOS ANGELES,CA,90011,34.007496,-118.25873
+,LAKER'S LIQUOR,1040 W Imperial Hwy,Los Angeles,CA,90044,33.930954,-118.29357
+,Walgreens,4351 E Imperial Hwy,Lynwood,CA,90262,33.930759,-118.18373
+,Walgreens,2627 Pacific Ave,Long Beach,CA,90806,33.80492,-118.19384
+,Walgreens,24930 Western Ave,Harbor City,CA,90710,33.79813,-118.30746
+,Walgreens,9031 Rosecrans Ave,Bellflower,CA,90706,33.903839,-118.14215
+,Walgreens,8770 W Pico Blvd,Los Angeles,CA,90035,34.054691,-118.38338
+,Walgreens,230 N la Brea Ave,Inglewood,CA,90301,33.965843,-118.35338
+,Walgreens,5829 Lakewood Blvd,Lakewood,CA,90712,33.861259,-118.14263
+,Walgreens,3331 W Century Blvd,Inglewood,CA,90303,33.945499,-118.33032
+,Walgreens,3570 Atlantic Ave,Long Beach,CA,90807,33.821411,-118.185
+,Walgreens,15740 Woodruff Ave,Bellflower,CA,90706,33.890202,-118.11736
+,Benny's Liquor,803 Sartori Ave,Torrance,CA,90501,33.838665,-118.3198
+,TONY'S LIQUOR,1016 W Compton Blvd,Compton,CA,90220,33.895844,-118.24207
+,7-Eleven,1319 W Merced Ave,West Covina,CA,91790,34.060974,-117.94559
+,Walgreens,495 E Holt Ave,Pomona,CA,91767,34.062599,-117.74269
+,Walgreens,8900 Washington Blvd,Pico Rivera,CA,90660,33.983566,-118.09785
+,Walgreens,11907 Valley Blvd,El Monte,CA,91732,34.063789,-118.02066
+,PHIL'S LIQUOR,11510 Burbank Blvd,North Hollywood,CA,91601,34.1721,-118.38264
+,7-Eleven,9028 Gallatin Rd,Pico Rivera,CA,90660,34.016811,-118.07828
+,7-Eleven,6077 W 3rd St,Los Angeles,CA,90036,34.070347,-118.35307
+,54TH VAN NESS LIQUOR MARKET,2201 W 54th St,Los Angeles,CA,90043,33.993267,-118.31712
+,7-Eleven,1100 W Commonwealth Ave,Alhambra,CA,91803,34.087444,-118.13462
+,7-Eleven,1111 N Garfield Ave,Alhambra,CA,91801,34.104721,-118.13396
+,CVS,816 E Main St,Alhambra,CA,91801,34.099377,-118.11792
+,CVS,5030 Long Beach Blvd,Long Beach,CA,90805,33.847664,-118.19412
+,CVS,10945 Victory Blvd,North Hollywood,CA,91606,34.186729,-118.3696
+,CVS,12560 Whittier Blvd,Whittier,CA,90602,33.968361,-118.04286
+,CVS,23806 Main St,Carson,CA,90745,33.808578,-118.27553
+,CVS,9952 Las Tunas Dr,Temple City,CA,91780,34.107628,-118.05376
+,CVS,4909 Paramount Blvd,Lakewood,CA,90713,33.847229,-118.15995
+,CVS,1001 Westwood Blvd,Los Angeles,CA,90024,34.062332,-118.44547
+,RIVERA LIQUOR,9137 Slauson Ave,Pico Rivera,CA,90660,33.970085,-118.10173
+,T & D MARKET BEER & WINE,1710 E Pacific Coast Hwy,Long Beach,CA,90806,33.789833,-118.17071
+,CVS,858 N Sunset Ave,La Puente,CA,91744,34.04472,-117.96375
+,CVS,7400 Reseda Blvd,Reseda,CA,91335,34.205242,-118.53602
+,CVS,4775 W Rosecrans Ave,Hawthorne,CA,90250,33.901848,-118.36109
+,CVS,15232 Sherman Way,Van Nuys,CA,91405,34.201092,-118.4653
+,CVS,8400 Firestone Blvd,Downey,CA,90241,33.939045,-118.1313
+,CVS,120 E Bonita Ave,San Dimas,CA,91773,34.106651,-117.80639
+,Chevron,1200 E Mission Blvd,Pomona,CA,91766,34.055523,-117.73234
+,AMBER LIQUOR,20263 Saticoy St,Canoga Park,CA,91306,34.208378,-118.57507
+,RHEE'S LIQUOR MARKET,1732 W Rosecrans Ave,Gardena,CA,90249,33.901901,-118.30791
+,7-Eleven,227 S Rosemead Blvd,Pasadena,CA,91107,34.142467,-118.07351
+,"BALDWIN HILLS LIQUOR, INC",3629 S la Brea Ave,Los Angeles,CA,90016,34.021061,-118.35567
+,SUNRISE LIQUOR,12931 Saticoy St,North Hollywood,CA,91605,34.206787,-118.41493
+,M&M LIQUOR & MARKET,1951 W Glenoaks Blvd,Glendale,CA,91201,34.175236,-118.29514
+,7-Eleven,20832 Vanowen St,Canoga Park,CA,91306,34.193752,-118.58734
+,7-Eleven,1451 S la Cienega Blvd,Los Angeles,CA,90035,34.051861,-118.37619
+,7-Eleven,2000 W la Habra Blvd,La Habra,CA,90631,33.931824,-117.96837
+,7-Eleven,1810 N Cahuenga Blvd,Los Angeles,CA,90028,34.104206,-118.3298
+,7-Eleven,5684 Riverside Dr,Chino,CA,91710,34.019157,-117.68086
+,D & R LIQUOR JR MARKET,6917 Lankershim Blvd,North Hollywood,CA,91605,34.196571,-118.38782
+,7-Eleven,8244 Norwalk Blvd,Whittier,CA,90606,33.968746,-118.07146
+,NELSONS LIQUOR,4420 W Victory Blvd,Burbank,CA,91505,34.18483,-118.35941
+,7-Eleven,541 W Imperial Hwy,La Habra,CA,90631,33.91737,-117.95148
+,7-Eleven,1600 Monterey Pass Rd,Monterey Park,CA,91754,34.044571,-118.16191
+,7-Eleven,14104 Foothill Blvd,Sylmar,CA,91342,34.315666,-118.44098
+,7 DAYS LIQUOR & JR MKT,5401 Cherry Ave,Long Beach,CA,90805,33.854675,-118.16791
+,EDDIE'S JR MARKET & LIQUOR,10805 S Western Ave,Los Angeles,CA,90047,33.938068,-118.3091
+,A & S LIQUOR,259 W Imperial Hwy,Los Angeles,CA,90061,33.931038,-118.27807
+,7-Eleven,3507 Liberty Blvd,South Gate,CA,90280,33.960007,-118.20479
+,7-Eleven,27222 Whites Canyon Rd,Canyon Country,CA,91351,34.416531,-118.47214
+,7-Eleven,381 E Garvey Ave,Monterey Park,CA,91754,34.06263,-118.11697
+,7-Eleven,5962 W Pico Blvd,Los Angeles,CA,90035,34.052067,-118.3698
+,BAMFORD LIQUOR,10575 Magnolia Blvd,North Hollywood,CA,91601,34.164928,-118.36123
+,PASADENA CERTIFIED FARMERS MARKET,Victory Park,PASADENA,CA,91101,34.146969,-118.13907
+,7-Eleven,5000 Wilshire Blvd,Los Angeles,CA,90036,34.062084,-118.33871
+,7-Eleven,1085 N Citrus Ave,Covina,CA,91722,34.099091,-117.89024
+,ARMAND'S LIQUOR,10029 Valley Blvd,El Monte,CA,91731,34.078697,-118.0519
+,VERMONT CENTER LIQUOR & MARKET,5402 S Vermont Ave,Los Angeles,CA,90037,33.993,-118.29147
+,7-Eleven,11299 Washington Blvd,Culver City,CA,90230,34.004555,-118.41449
+,7-Eleven,7407 Van Nuys Blvd,Van Nuys,CA,91405,34.205006,-118.44881
+,Burbank Farmers Market,292 E Orange Grove Ave,Burbank,CA,91502,34.182655,-118.30853
+,CANYON LIQUOR MARKET,8432 Laurel Canyon Blvd,Sun Valley,CA,91352,34.223705,-118.39634
+,OLYMPIC LIQUOR,1709 W Olympic Blvd,Montebello,CA,90640,34.009945,-118.12064
+,7-Eleven,14557 Victory Blvd,Van Nuys,CA,91411,34.186687,-118.45069
+,Jerry's Liquors,124 E Rosecrans Ave,Compton,CA,90222,33.903221,-118.22315
+,7-Eleven,1106 W Beverly Blvd,Montebello,CA,90640,34.018112,-118.11008
+,7-Eleven,2717 E Colorado Blvd,Pasadena,CA,91107,34.146202,-118.09428
+,SUNRISE MARKET & LIQUOR,7802 Seville Ave,Huntington Park,CA,90255,33.967819,-118.2224
+,7-Eleven,8475 Sunland Blvd,Sun Valley,CA,91352,34.224617,-118.36572
+,7-Eleven,9349 Slauson Ave,Pico Rivera,CA,90660,33.968975,-118.09801
+,7-Eleven,3705 Puente Ave,Baldwin Park,CA,91706,34.07954,-117.95214
+,7-Eleven,15601 Nordhoff St,Sepulveda,CA,91343,34.235588,-118.47215
+,7-Eleven,14627 Prairie Ave,Lawndale,CA,90260,33.89856,-118.34389
+,CORK N JUG LIQUOR & JR MARKET,901 Truman St,San Fernando,CA,91340,34.28204,-118.43936
+,7-Eleven,4220 Eagle Rock Blvd,Los Angeles,CA,90065,34.122036,-118.22456
+,7-Eleven,1075 S Fairfax Ave,Los Angeles,CA,90019,34.056053,-118.36487
+,7-Eleven,913 S Prairie Ave,Inglewood,CA,90301,33.952442,-118.34402
+,7-Eleven,1001 E Grand Ave,Pomona,CA,91766,34.048206,-117.73663
+,7-Eleven,1004 Long Beach Blvd,Long Beach,CA,90813,33.779076,-118.18919
+,7-Eleven,6364 Vineland Ave,North Hollywood,CA,91606,34.186489,-118.37028
+,D & H LIQUOR,15142 Paramount Blvd,Paramount,CA,90723,33.8955,-118.16001
+,7-Eleven,844 E Avenue J,Lancaster,CA,93535,34.689434,-118.11289
+,PAUL'S LIQUOR MARKET & DELI,4172 Norse Way,Long Beach,CA,90808,33.83453,-118.16926
+,COUNTRY COUSINS LIQUOR,13040 Glenoaks Blvd,Sylmar,CA,91342,34.307484,-118.44949
+,WINE & LIQUOR MARKET,750 S Indian Hill Blvd,Claremont,CA,91711,34.081379,-117.71915
+,7-Eleven,7568 Lankershim Blvd,North Hollywood,CA,91605,34.208309,-118.38776
+,MIKE'S LIQUOR,2003 Rosemead Blvd,South El Monte,CA,91733,34.051838,-118.06447
+,TOAD'S DISCOUNT LIQUOR & DELI,9001 Atlantic Ave,South Gate,CA,90280,33.949261,-118.1822
+,Valley Liquor & Fine Wines,7357 Van Nuys Blvd,Van Nuys,CA,91405,34.204632,-118.44878
+,ROYAL LIQUOR MART,5472 W Adams Blvd,Los Angeles,CA,90016,34.032444,-118.36243

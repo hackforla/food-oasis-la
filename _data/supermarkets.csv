@@ -1,0 +1,850 @@
+UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
+,Superior Grocers,5450 Cherry Ave,Long Beach,CA,90805,33.855267,-118.16811
+,Jons Marketplace,18135 Sherman Way,Reseda,CA,91335,34.201218,-118.52883
+,Ralphs,29675 The Old Rd,Castaic,CA,91384,34.457237,-118.6175
+,Smart & Final,15205 Hawthorne Blvd,Lawndale,CA,90260,33.893448,-118.35281
+,Smart & Final,10340 Mason Ave,Chatsworth,CA,91311,34.258102,-118.57978
+,Walmart,27931 Kelly Johnson Pkwy,Santa Clarita,CA,91355,34.445019,-118.57557
+,Northgate Gonzalez Market,2633 Santa Ana St,South Gate,CA,90280,33.964638,-118.22398
+,Walmart,19503 Normandie Ave,Torrance,CA,90501,33.854172,-118.29929
+,Vallarta Supermarket,3425 Whittier Blvd,Los Angeles,CA,90023,34.027386,-118.2
+,Northgate Gonzalez Market,831 N Hacienda Blvd,La Puente,CA,91744,34.034763,-117.95029
+,Circle K,4200 Chino Hills Pkwy,Chino Hills,CA,91709,33.982738,-117.71253
+,Circle K,28005 Seco Canyon Rd,Santa Clarita,CA,91390,34.460644,-118.53439
+,Circle K,8451 Slauson Ave,Pico Rivera,CA,90660,33.973736,-118.11353
+,Trader Joe's,2222 N Bellflower Blvd,Long Beach,CA,90815,33.796967,-118.12516
+,Smart & Final,28207 Newhall Ranch Rd,Valencia,CA,91355,34.442944,-118.5786
+,Superior Grocers,11202 Crenshaw Blvd,Inglewood,CA,90303,33.932938,-118.32635
+,Target,3100 Baldwin Park Blvd,Baldwin Park,CA,91706,34.069561,-117.97971
+,Target,1800 W Empire Ave,Burbank,CA,91504,34.191936,-118.32927
+,Target,11525 South St,Cerritos,CA,90703,33.858509,-118.08774
+,Target,888 W Arrow Hwy,San Dimas,CA,91773,34.10656,-117.82442
+,Target,2831 E Eastland Ctr Dr,West Covina,CA,91791,34.072868,-117.88526
+,Target,3944 Grand Ave,Chino,CA,91710,33.998215,-117.71864
+,Northgate Gonzalez Market,3828 Peck Rd,El Monte,CA,91732,34.07468,-118.02241
+,Walmart,26471 Carl Boyer Dr,Santa Clarita,CA,91350,34.415195,-118.5052
+,Food 4 Less,13413 Telegraph Rd,Whittier,CA,90605,33.939999,-118.04584
+,Northgate Gonzalez Market,307 W Pacific Coast Hwy,Wilmington,CA,90744,33.791027,-118.26636
+,Target,7100 SANTA MONICA BLVD,WEST HOLLYWOOD,CA,90046,34.090649,-118.34409
+,Vallarta Supermarket,9011 Woodman Ave,Arleta,CA,91331,34.233292,-118.43896
+,Target,10820 Jefferson Blvd,Culver City,CA,90230,34.001133,-118.39484
+,Target,1200 N Sepulveda Blvd,Manhattan Beach,CA,90266,33.887562,-118.39589
+,Target,24425 Magic Mountain Pkwy,Valencia,CA,91355,34.419567,-118.56151
+,Target,20801 Ventura Blvd,Woodland Hills,CA,91364,34.166496,-118.58587
+,Vallarta Supermarket,13051 Victory Blvd,North Hollywood,CA,91606,34.186737,-118.41653
+,Superior Grocers,12375 Central Ave,Chino,CA,91710,34.028191,-117.68928
+,Albertson's,3901 Crenshaw Blvd,Los Angeles,CA,90008,34.014122,-118.33514
+,Albertson's,2500 E Imperial Hwy,Brea,CA,92821,33.910912,-117.86513
+,Albertson's,101 E Willow St,Long Beach,CA,90806,33.804478,-118.19205
+,Albertson's,1800 W Whittier Blvd,La Habra,CA,90631,33.939583,-117.96611
+,Albertson's,7676 Firestone Blvd,Downey,CA,90241,33.946075,-118.14429
+,Albertson's,298 E Live Oak Ave,Arcadia,CA,91006,34.108345,-118.02311
+,Albertson's,38727 Tierra Subida Ave,Palmdale,CA,93551,34.585094,-118.14759
+,Albertson's,200 E Sepulveda Blvd,Carson,CA,90745,33.807922,-118.27318
+,Albertson's,133 W Route 66,Glendora,CA,91740,34.128838,-117.86468
+,Albertson's,26521 Agoura Rd,Calabasas,CA,91302,34.143967,-118.69907
+,Albertson's,23850 Copperhill Dr,Valencia,CA,91354,34.463161,-118.55654
+,Albertson's,110 E Carson St,Carson,CA,90745,33.831532,-118.27737
+,Albertson's,6235 E Spring St,Long Beach,CA,90808,33.810577,-118.10974
+,Albertson's,2630 E Workman Ave,West Covina,CA,91791,34.075302,-117.89162
+,Albertson's,15200 Rosecrans Ave,La Mirada,CA,90638,33.898582,-118.00713
+,Albertson's,6240 Foothill Blvd,Tujunga,CA,91042,34.241257,-118.26756
+,Albertson's,1235 S Diamond Bar Blvd,Diamond Bar,CA,91765,33.999935,-117.81184
+,Albertson's,2115 Artesia Blvd,Redondo Beach,CA,90278,33.872929,-118.37402
+,Albertson's,27631 Bouquet Canyon Rd,Saugus,CA,91350,34.44302,-118.51154
+,Albertson's,9022 Balboa Blvd,Northridge,CA,91325,34.235123,-118.50246
+,Albertson's,43543 20th St W,Lancaster,CA,93534,34.673946,-118.16586
+,Albertson's,5015 Del Amo Blvd,Lakewood,CA,90712,33.847198,-118.1347
+,Albertson's,12013 Central Ave,Chino,CA,91710,34.035107,-117.68934
+,Albertson's,2400 W Commonwealth Ave,Alhambra,CA,91803,34.08778,-118.15129
+,Albertson's,15970 Los Serranos Country Club Dr,Chino Hills,CA,91709,33.962589,-117.69454
+,Albertson's,1735 W Artesia Blvd,Gardena,CA,90248,33.873009,-118.30776
+,Albertson's,220 E Bonita Ave,San Dimas,CA,91773,34.106651,-117.80489
+,Albertson's,19307 Saticoy St,Reseda,CA,91335,34.208378,-118.55429
+,Albertson's,2469 Via Campo,Montebello,CA,90640,34.032776,-118.12286
+,Albertson's,2035 Hillhurst Ave,Los Angeles,CA,90027,34.108631,-118.28745
+,Albertson's,2547 Rosamond Blvd,Rosamond,CA,93560,34.864243,-118.177
+,Albertson's,3255 Grand Ave,Chino Hills,CA,91709,34.001942,-117.73431
+,Albertson's,21035 Hawthorne Blvd,Torrance,CA,90503,33.838421,-118.35387
+,Walmart,1827 Walnut Grove Ave,Rosemead,CA,91770,34.04932,-118.08189
+,Smart & Final,3123 Baldwin Park Blvd,Baldwin Park,CA,91706,34.070145,-117.97927
+,Target,6700 Topanga Canyon Blvd,Canoga Park,CA,91303,34.192539,-118.60588
+,Target,747 Grand Ave,Diamond Bar,CA,91765,34.005077,-117.82046
+,Smart & Final,1755 Ximeno Ave,Long Beach,CA,90815,33.78904,-118.13892
+,Smart & Final,10893 San Fernando Rd,Pacoima,CA,91331,34.26836,-118.42455
+,Northgate Gonzalez Market,1320 W San Francisquito Ave,West Covina,CA,91790,34.050289,-117.91928
+,Superior Grocers,133 W Avenue 45,Los Angeles,CA,90065,34.096157,-118.20786
+,Target,2462 Foothill Blvd,La Verne,CA,91750,34.111275,-117.75923
+,Target,2169 W Redondo Beach Blvd,Gardena,CA,90247,33.885838,-118.31752
+,Target,11051 Victory Blvd,North Hollywood,CA,91606,34.186718,-118.3716
+,Target,43525 10th St W,Lancaster,CA,93534,34.67308,-118.14791
+,Target,5555 Philadelphia St,Chino,CA,91710,34.033493,-117.68395
+,Target,39440 10th St W,Palmdale,CA,93551,34.599003,-118.14756
+,Target,9725 Laurel Canyon Blvd,Pacoima,CA,91331,34.246708,-118.4194
+,Target,10621 Carmenita Rd,Santa Fe Springs,CA,90670,33.93774,-118.04665
+,Target,6835 Katella Ave,Cypress,CA,90630,33.802986,-118.01312
+,Food 4 Less,5878 Hooper Ave,Los Angeles,CA,90001,33.987877,-118.25206
+,Vallarta Supermarket,23449 Lyons Ave,Valencia,CA,91355,34.384632,-118.54378
+,Northgate Gonzalez Market,3930 W Rosecrans Ave,Hawthorne,CA,90250,33.901882,-118.34296
+,Target,10600 Firestone Blvd,Norwalk,CA,90650,33.926468,-118.10714
+,Vallarta Supermarket,19725 Vanowen St,Winnetka,CA,91306,34.193848,-118.56328
+,Whole Foods,760 S Sepulveda Blvd,El Segundo,CA,90245,33.905544,-118.396
+,Sprouts Farmers Market,4230 Pacific Coast Hwy,Torrance,CA,90505,33.807915,-118.35852
+,Sprouts Farmers Market,835 W Foothill Blvd,Claremont,CA,91711,34.10714,-117.73007
+,Ralphs,645 W 9th St,Los Angeles,CA,90015,34.045494,-118.26083
+,Target,950 E 33rd St,Signal Hill,CA,90755,33.817055,-118.18079
+,Target,2195 Glendale Galleria,Glendale,CA,91210,34.144695,-118.25974
+,Target,8840 Corbin Ave,Northridge,CA,91324,34.231422,-118.56226
+,Northgate Gonzalez Market,11660 Firestone Blvd,Norwalk,CA,90650,33.914215,-118.08483
+,Target,1621 S Alameda St,Compton,CA,90220,33.880596,-118.21813
+,Target,651 W Sepulveda Blvd,Carson,CA,90745,33.808567,-118.28615
+,Target,11133 Balboa Blvd,Granada Hills,CA,91344,34.272617,-118.50226
+,Fresh & Easy,4211 Eagle Rock Blvd,Los Angeles,CA,90065,34.122055,-118.22507
+,Fresh & Easy,1000 W West Covina Pkwy,West Covina,CA,91790,34.068523,-117.93032
+,Superior Grocers,1858 N Durfee Ave,South El Monte,CA,91733,34.044197,-118.03172
+,Whole Foods,465 S Arroyo Pkwy,Pasadena,CA,91105,34.137589,-118.1475
+,Trader Joe's,21054 Clarendon St,Woodland Hills,CA,91364,34.168152,-118.59203
+,Fresh & Easy,4930 Paramount Blvd,Lakewood,CA,90712,33.848034,-118.15981
+,Fresh & Easy,7021 Hollywood Blvd Ste 110,Los Angeles,CA,90028,34.101566,-118.34253
+,Fresh & Easy,10930 Rosecrans Ave,Norwalk,CA,90650,33.902012,-118.10166
+,Superior Grocers,9100 Whittier Blvd,Pico Rivera,CA,90660,34.000713,-118.0827
+,Target,2370 S Azusa Ave,West Covina,CA,91792,34.034801,-117.91298
+,Trader Joe's,475 W Foothill Blvd,Claremont,CA,91711,34.107143,-117.72167
+,Vons,29211 Heathercliff Rd,Malibu,CA,90265,34.020718,-118.80946
+,Vons,1600 Foothill Blvd,La Verne,CA,91750,34.115845,-117.77297
+,Trader Joe's,13911 Peyton Dr,Chino Hills,CA,91709,34.000523,-117.73265
+,Fresh & Easy,1700 Rosecrans Ave,Manhattan Beach,CA,90266,33.901768,-118.3831
+,Fresh & Easy,8921 Washington Blvd,Pico Rivera,CA,90660,33.983681,-118.09789
+,Vallarta Supermarket,815 E Avenue K,Lancaster,CA,93535,34.675053,-118.11378
+,Fresh & Easy,15230 Vanowen St,Van Nuys,CA,91405,34.193893,-118.4653
+,Target,38019 47th St E,Palmdale,CA,93552,34.573063,-118.04507
+,Target,1000 W Imperial Hwy,La Habra,CA,90631,33.917294,-117.95753
+,Fresh & Easy,21580 Valley Blvd,City of Industry,CA,91789,34.026535,-117.83618
+,Whole Foods,225 Lincoln Blvd,Venice,CA,90291,34.00156,-118.46839
+,Smart & Final,1941 W Imperial Hwy,La Habra,CA,90631,33.91748,-117.96658
+,Stater Bros,6989 Schaefer Ave,Chino,CA,91710,34.004723,-117.65281
+,Smart & Final,855 N Wilcox Ave,Montebello,CA,90640,34.030739,-118.12514
+,Smart & Final,15930 Bellflower Blvd,Bellflower,CA,90706,33.888641,-118.1253
+,Fresh & Easy,205 N Grand Ave,Covina,CA,91724,34.088142,-117.87267
+,Target,2700 W 120th St,Hawthorne,CA,90250,33.923664,-118.32355
+,Target,6750 Cherry Ave,Long Beach,CA,90805,33.877369,-118.16865
+,Target,1701 N Gaffey St,San Pedro,CA,90731,33.761093,-118.29296
+,Circle K,2210 D St,La Verne,CA,91750,34.099628,-117.77047
+,Trader Joe's,1000 Glendon Ave,Los Angeles,CA,90024,34.062477,-118.44395
+,Circle K,5941 State St,Huntington Park,CA,90255,33.988365,-118.21284
+,Target,3535 S la Cienega Blvd,Los Angeles,CA,90016,34.022114,-118.37238
+,Target,3121 E Colorado Blvd,Pasadena,CA,91107,34.146236,-118.0868
+,Target,3600 Rosemead Blvd,Rosemead,CA,91770,34.074871,-118.07294
+,Target,12051 Imperial Hwy,Norwalk,CA,90650,33.917217,-118.07577
+,Target,8800 Whittier Blvd,Pico Rivera,CA,90660,34.002125,-118.08595
+,Fresh & Easy,2121 W Main St,Alhambra,CA,91801,34.091618,-118.14552
+,Fresh & Easy,2340 S Azusa Ave,West Covina,CA,91792,34.034084,-117.91315
+,Fresh & Easy,2215 Huntington Dr,Duarte,CA,91010,34.139866,-117.95678
+,Sam's Club,1390 S Beach Blvd,La Habra,CA,90631,33.913837,-117.97112
+,Sam's Club,3951 Grand Ave,Chino,CA,91710,33.99744,-117.71804
+,Sam's Club,1301 S Lone Hill Ave,Glendora,CA,91740,34.115955,-117.82908
+,Sam's Club,17835 E Gale Ave,City of Industry,CA,91745,33.99538,-117.91585
+,Sam's Club,7480 Carson Blvd,Long Beach,CA,90808,33.831272,-118.08734
+,Sam's Club,4901 Santa Anita Ave,El Monte,CA,91731,34.093548,-118.02667
+,Sam's Club,5871 Firestone Blvd,South Gate,CA,90280,33.948921,-118.16222
+,Sam's Club,39940 10th St W,Palmdale,CA,93551,34.607594,-118.14761
+,Sam's Club,26468 Carl Boyer Dr,Santa Clarita,CA,91350,34.414108,-118.50432
+,Sam's Club,1399 W Artesia Blvd,Gardena,CA,90248,33.873089,-118.29892
+,Sam's Club,12920 Foothill Blvd,Sylmar,CA,91342,34.294479,-118.41628
+,Sam's Club,2601 Skypark Dr,Torrance,CA,90505,33.802826,-118.33166
+,Target,19105 Golden Valley Rd,Canyon Country,CA,91387,34.39415,-118.46201
+,Trader Joe's,8000 W Sunset Blvd,Los Angeles,CA,90046,34.097961,-118.36514
+,Smart & Final,39212 10th St W,Palmdale,CA,93551,34.596062,-118.14759
+,Target,5711 Sepulveda Blvd,Van Nuys,CA,91411,34.17453,-118.46622
+,Target,14920 Raymer St,Van Nuys,CA,91405,34.213284,-118.45953
+,Target,3471 W Century Blvd,Inglewood,CA,90303,33.945526,-118.3325
+,Target,2626 Colorado Blvd,Los Angeles,CA,90041,34.142094,-118.22302
+,Target,141 Lakewood Center Mall,Lakewood,CA,90712,33.850506,-118.14214
+,Target,2120 W Main St,Alhambra,CA,91801,34.091694,-118.14635
+,Target,5600 Whittier Blvd,Commerce,CA,90022,34.018883,-118.15035
+,Target,5700 Firestone Blvd,South Gate,CA,90280,33.949184,-118.16548
+,Target,2270 N Bellflower Blvd,Long Beach,CA,90815,33.798225,-118.12515
+,Target,3433 Sepulveda Blvd,Torrance,CA,90505,33.825146,-118.34562
+,Target,17751 Colima Rd,ROWLAND HEIGHTS,CA,91748,33.990318,-117.91937
+,Target,6635 Fallbrook Ave,West Hills,CA,91307,34.190388,-118.62347
+,Target,20200 Bloomfield Ave,Cerritos,CA,90703,33.848022,-118.06337
+,Target,1050 Huntington Dr,Duarte,CA,91010,34.139484,-117.98298
+,Circle K,12004 Ramona Blvd,El Monte,CA,91732,34.075264,-118.01254
+,Target,777 E Colorado Blvd,Pasadena,CA,91101,34.14592,-118.13486
+,Target,1601 Kingsdale Ave,Redondo Beach,CA,90278,33.868885,-118.35635
+,Target,15614 Whittwood Ln,Whittier,CA,90603,33.944801,-117.9975
+,Target,8999 Balboa Blvd,Northridge,CA,91325,34.23428,-118.50256
+,Target,20700 S Avalon Blvd,Carson,CA,90746,33.843906,-118.26327
+,Sprouts Farmers Market,735 E Birch St,Brea,CA,92821,33.917809,-117.88874
+,Trader Joe's,11755 W Olympic Blvd,Los Angeles,CA,90064,34.033566,-118.4491
+,Trader Joe's,26517 Bouquet Canyon Rd,Santa Clarita,CA,91350,34.428154,-118.53664
+,Fresh & Easy,1340 E 7th St,Long Beach,CA,90813,33.775314,-118.17405
+,Superior Grocers,2000 S Central Ave,Los Angeles,CA,90011,34.023228,-118.2516
+,Target,855 E Birch St,Brea,CA,92821,33.917847,-117.8875
+,Target,6000 Sepulveda Blvd,Culver City,CA,90230,33.983925,-118.39513
+,Smart & Final,2511 Daly St,Los Angeles,CA,90031,34.075138,-118.21571
+,Smart & Final,1855 W Glenoaks Blvd,Glendale,CA,91201,34.173683,-118.29299
+,Costco,6100 Sepulveda Blvd,Van Nuys,CA,91411,34.180733,-118.46613
+,Costco,5700 Lindero Canyon Rd,Westlake Village,CA,91362,34.153313,-118.79861
+,Costco,2901 Los Feliz Blvd,Los Angeles,CA,90039,34.126476,-118.26289
+,Costco,2640 Lomita Blvd,Torrance,CA,90505,33.807537,-118.33176
+,Costco,12324 Hoxie Ave,Norwalk,CA,90650,33.919209,-118.10367
+,Costco,1220 W Foothill Blvd,Azusa,CA,91702,34.133533,-117.92556
+,Costco,2200 E Willow St,Signal Hill,CA,90755,33.804333,-118.16487
+,Costco,2207 W Commonwealth Ave,Alhambra,CA,91803,34.087879,-118.1487
+,Costco,8810 Tampa Ave,Northridge,CA,91324,34.230961,-118.55352
+,Costco,18649 Via Princessa,Santa Clarita,CA,91387,34.403622,-118.4618
+,Costco,1345 N Montebello Blvd,Montebello,CA,90640,34.032227,-118.09663
+,Costco,13111 Peyton Dr,Chino Hills,CA,91709,34.016453,-117.74577
+,Costco,2751 Skypark Dr,Torrance,CA,90505,33.804165,-118.33478
+,Costco,13463 Washington Blvd,Marina del Rey,CA,90292,33.991287,-118.44622
+,Costco,14501 Hindry Ave,Hawthorne,CA,90250,33.90004,-118.37223
+,Costco,1051 W Burbank Blvd,Burbank,CA,91506,34.183735,-118.32352
+,Costco,17550 Castleton St,City of Industry,CA,91748,33.995102,-117.92132
+,Costco,1141 W Avenue L,Lancaster,CA,93534,34.660397,-118.14925
+,Costco,3560 W Century Blvd,Inglewood,CA,90303,33.945442,-118.33416
+,Costco,101 N Beach Blvd,La Habra,CA,90631,33.913712,-117.97163
+,Costco,520 N Lone Hill Ave,San Dimas,CA,91773,34.11235,-117.82878
+,Costco,340 Lakewood Center Mall,Lakewood,CA,90712,33.850395,-118.14178
+,Costco,12530 Prairie Ave,Hawthorne,CA,90250,33.91861,-118.34385
+,Costco,6333 Telegraph Rd,Commerce,CA,90040,33.994789,-118.14311
+,Smart & Final,7224 Mason Ave,Winnetka,CA,91306,34.202129,-118.57969
+,Costco,13550 Paxton St,Pacoima,CA,91331,34.272511,-118.4277
+,Fresh & Easy,1615 W Verdugo Ave,Burbank,CA,91506,34.167946,-118.32305
+,Trader Joe's,31176 Hawthorne Blvd,Rancho Palos Verdes,CA,90275,33.749523,-118.40659
+,Whole Foods,18700 Ventura Blvd,Tarzana,CA,91356,34.170639,-118.54077
+,Northgate Gonzalez Market,2323 W Olympic Blvd,Los Angeles,CA,90006,34.052307,-118.28235
+,Trader Joe's,1600 Vine St,Los Angeles,CA,90028,34.09996,-118.32664
+,Sprouts Farmers Market,5660 Sepulveda Blvd,Culver City,CA,90230,33.989143,-118.39528
+,Sprouts Farmers Market,39 N Rosemead Blvd,Pasadena,CA,91107,34.14719,-118.07341
+,Sprouts Farmers Market,24285 Magic Mountain Pkwy,Valencia,CA,91355,34.418945,-118.55938
+,Trader Joe's,28941 Canwood St,Agoura Hills,CA,91301,34.145714,-118.75507
+,Vons,11030 Jefferson Blvd,Culver City,CA,90230,33.997017,-118.39532
+,Fresh & Easy,13207 Gladstone Ave,Sylmar,CA,91342,34.310841,-118.42844
+,Fresh & Easy,2475 Cherry Ave,Signal Hill,CA,90755,33.802101,-118.16776
+,Target,809 N Azusa Ave,Azusa,CA,91702,34.135799,-117.90755
+,Fresh & Easy,685 E Bonita Ave,San Dimas,CA,91773,34.106739,-117.79535
+,Circle K,12358 Central Ave,Chino,CA,91710,34.028839,-117.68954
+,Superior Grocers,38360 20th St E,Palmdale,CA,93550,34.579147,-118.09402
+,Superior Grocers,1010 E Avenue J,Lancaster,CA,93535,34.689442,-118.11169
+,Sprouts Farmers Market,1011 N San Fernando Blvd,Burbank,CA,91504,34.187496,-118.31789
+,Sprouts Farmers Market,3630 Grand Ave,Chino Hills,CA,91709,34.001686,-117.72742
+,Sprouts Farmers Market,820 N Western Ave,San Pedro,CA,90732,33.750385,-118.3091
+,Sprouts Farmers Market,21821 Ventura Blvd,Woodland Hills,CA,91364,34.168476,-118.6025
+,Sprouts Farmers Market,400 W Huntington Dr,Monrovia,CA,91016,34.140251,-118.00802
+,Sprouts Farmers Market,1515 Hawthorne Blvd,Redondo Beach,CA,90278,33.867809,-118.35275
+,Circle K,12806 Prairie Ave,Hawthorne,CA,90250,33.9161,-118.34385
+,Sprouts Farmers Market,1012 S Westlake Blvd,Westlake Village,CA,91361,34.15303,-118.82829
+,Smart & Final,4237 Woodruff Ave,Lakewood,CA,90713,33.835339,-118.11661
+,Stater Bros,20677 Amar Rd,Walnut,CA,91789,34.042248,-117.85049
+,Circle K,21216 Pacific Coast Hwy,Malibu,CA,90265,34.036972,-118.63702
+,Superior Grocers,14433 Ramona Blvd,Baldwin Park,CA,91706,34.086826,-117.95958
+,Sprouts Farmers Market,4253 Woodruff Ave,Lakewood,CA,90713,33.83551,-118.11661
+,Circle K,13750 Los Angeles St,Baldwin Park,CA,91706,34.092075,-117.97421
+,Sprouts Farmers Market,10821 Zelzah Ave,Granada Hills,CA,91344,34.266731,-118.5235
+,Fresh & Easy,450 The Promenade N,Long Beach,CA,90802,33.771832,-118.19051
+,Fresh & Easy,12811 Sherman Way,North Hollywood,CA,91605,34.201244,-118.41177
+,Fresh & Easy,1788 S la Cienega Blvd,Los Angeles,CA,90035,34.044727,-118.37678
+,Trader Joe's,2462 Honolulu Ave,Montrose,CA,91020,34.207062,-118.23256
+,Vallarta Supermarket,38118 47th Street,Palmdale,CA,93552,34.574226,-118.04495
+,Aldi,1051 W Washington Blvd,Los Angeles,CA,90015,34.038204,-118.28032
+,Circle K,765 N Sepulveda Blvd,El Segundo,CA,90245,33.926521,-118.39648
+,Circle K,520 W Rancho Vista Blvd,Palmdale,CA,93551,34.601765,-118.1211
+,Circle K,18755 Via Princessa,Canyon Country,CA,91387,34.405373,-118.46453
+,Circle K,4008 Grand Ave,Chino,CA,91710,33.997257,-117.71617
+,Circle K,15960 Los Serranos,Chino Hills,CA,91709,33.950821,-117.72491
+,Circle K,14220 Chino Hills Pkwy,Chino Hills,CA,91709,33.99511,-117.75821
+,Fresh & Easy,2484 W Victory Blvd,Burbank,CA,91506,34.184544,-118.33816
+,Fresh & Easy,21815 Hawthorne Blvd,Torrance,CA,90503,33.830151,-118.35256
+,Fresh & Easy,11900 Balboa Blvd,Granada Hills,CA,91344,34.287369,-118.50199
+,Fresh & Easy,3335 S Figueroa St,Los Angeles,CA,90007,34.022099,-118.27995
+,Circle K,6510 Butterfield Ranch Rd,Chino Hills,CA,91709,33.930038,-117.66315
+,Stater Bros,1055 W Foothill Blvd,Claremont,CA,91711,34.107208,-117.73603
+,Vons,4365 Glencoe Ave,Marina del Rey,CA,90292,33.985844,-118.43845
+,Northgate Gonzalez Market,9101 Telegraph Rd,Pico Rivera,CA,90660,33.959644,-118.10809
+,Fresh & Easy,2201 Palos Verdes Dr W,Palos Verdes Estates,CA,90274,33.775829,-118.4175
+,Vons,7789 Foothill Blvd,Tujunga,CA,91042,34.258842,-118.30238
+,Vons,350 N Lemon Ave,Walnut,CA,91789,34.019566,-117.86541
+,Ralphs,6657 Laurel Canyon Blvd,North Hollywood,CA,91606,34.19194,-118.39655
+,Vallarta Supermarket,9134 Van Nuys Blvd,Panorama City,CA,91402,34.236259,-118.45022
+,Ralphs,17840 Ventura Blvd,Encino,CA,91316,34.163254,-118.52144
+,Ralphs,10772 Jefferson Blvd,Culver City,CA,90230,34.002586,-118.3941
+,Trader Joe's,175 S Fairfax Ave,Los Angeles,CA,90036,34.073269,-118.3615
+,Vallarta Supermarket,757 S Workman St,San Fernando,CA,91340,34.282185,-118.45143
+,Target,10861 Weyburn AVe,Los Angeles,CA,90024,34.062599,-118.44437
+,Walmart,22015 Hawthorne Blvd,Torrance,CA,90503,33.827267,-118.35208
+,Walmart,14530 Nordhoff St,Panorama City,CA,91402,34.235355,-118.44886
+,Walmart,1000 E Imperial Hwy,La Habra,CA,90631,33.917294,-117.95753
+,Trader Joe's,8500 Burton Way,Los Angeles,CA,90048,34.071686,-118.3772
+,Target,735 S Figueroa St,Los Angeles,CA,90017,34.048908,-118.26041
+,Northgate Gonzalez Market,425 S Soto St,Los Angeles,CA,90033,34.039909,-118.21226
+,Walmart,2753 E Eastland Center Dr,West Covina,CA,91791,34.072857,-117.88611
+,Northgate Gonzalez Market,10801 S Prairie Ave,Inglewood,CA,90303,33.937363,-118.34396
+,Walmart,12270 Paramount Blvd,Downey,CA,90242,33.9286,-118.14845
+,Superior Grocers,3480 S La Brea Ave,Los Angeles,CA,90016,34.02338,-118.35554
+,Superior Grocers,16100 Lakewood Blvd,Bellflower,CA,90706,33.887981,-118.14265
+,Circle K,2343 W Avenue J,Lancaster,CA,93536,34.689465,-118.17331
+,Circle K,1865 Manhattan Beach Blvd,Manhattan Beach,CA,90266,33.887447,-118.37913
+,Circle K,524 W Adams Blvd,Los Angeles,CA,90007,34.027721,-118.27522
+,Circle K,392 N Lake Ave,Pasadena,CA,91101,34.152519,-118.13225
+,Circle K,5553 White Oak Ave,Encino,CA,91316,34.17186,-118.51859
+,Circle K,2010 S Hacienda Blvd,Hacienda Heights,CA,91745,33.996948,-117.96773
+,Circle K,504 N Diamond Bar Blvd,Diamond Bar,CA,91765,34.029037,-117.81039
+,Circle K,5871 E Spring St,Long Beach,CA,90808,33.81065,-118.11742
+,Circle K,27706 McBean Pkwy,Valencia,CA,91354,34.444611,-118.55331
+,Circle K,2114 Verdugo Blvd,Montrose,CA,91020,34.204803,-118.22372
+,Target,8480 Beverly Blvd,Los Angeles,CA,90048,34.076035,-118.37634
+,Circle K,12000 Paramount Blvd,Downey,CA,90242,33.933041,-118.14509
+,Circle K,1150 W Pacific Coast Hwy,Harbor City,CA,90710,33.790035,-118.29715
+,Walmart,5420 La Palma Ave,La Palma,CA,90623,33.846252,-118.03853
+,Circle K,1030 S Hacienda Blvd,Hacienda Heights,CA,91745,34.011139,-117.96268
+,Circle K,22240 Avalon Blvd,Carson,CA,90745,33.824421,-118.26356
+,Sprouts Farmers Market,1751 Westwood Blvd,Los Angeles,CA,90024,34.051281,-118.43835
+,Sprouts Farmers Market,6607 Fallbrook Ave,West Hills,CA,91307,34.189995,-118.62347
+,Walmart,19340 Hawthorne Blvd,Torrance,CA,90503,33.855511,-118.35358
+,Walmart,14441 Inglewood Ave,Hawthorne,CA,90250,33.900379,-118.36131
+,Smart & Final,845 S Figueroa St,Los Angeles,CA,90017,34.046932,-118.26219
+,Superior Grocers,12721 Valley View Ave,La Mirada,CA,90638,33.916267,-118.02941
+,Walmart,1425 N Hacienda Blvd,La Puente,CA,91744,34.046486,-117.9485
+,Target,701 Rio Rancho Rd,Pomona,CA,91765,34.027191,-117.77201
+,Smart & Final,23640B Lyons Ave,Newhall,CA,91321,34.379257,-118.54755
+,Smart & Final,2929 Crenshaw Blvd,Los Angeles,CA,90016,34.028049,-118.33514
+,Smart & Final,3708 W Burbank Blvd,Burbank,CA,91505,34.174595,-118.35045
+,Smart & Final,18204 E Gale Ave,City of Industry,CA,91748,33.995224,-117.90689
+,Smart & Final,18555 Devonshire St,Northridge,CA,91324,34.25729,-118.53822
+,Northgate Gonzalez Market,4700 Inglewood Blvd,Culver City,CA,90230,33.993114,-118.41512
+,Northgate Gonzalez Market,2038 E 10th St,Long Beach,CA,90804,33.778934,-118.1671
+,Superior Grocers,4308 Slauson Ave,Maywood,CA,90270,33.987534,-118.1897
+,Walmart,14865 Telegraph Rd,La Mirada,CA,90638,33.918991,-118.01497
+,Gelson's,6255 E 2nd St,Long Beach,CA,90803,33.75774,-118.11305
+,Smart & Final,1041 N Fuller Ave,West Hollywood,CA,90046,34.089703,-118.34992
+,Smart & Final,16847 Ventura Blvd,Encino,CA,91316,34.159088,-118.50024
+,Ralphs,14049 Ventura Blvd,Sherman Oaks,CA,91423,34.149368,-118.43915
+,Walmart,4651 Firestone Blvd,South Gate,CA,90280,33.952393,-118.18768
+,Smart & Final,1005 W Arrow Hwy,San Dimas,CA,91773,34.106777,-117.82736
+,Northgate Gonzalez Market,944 E Slauson Ave,Los Angeles,CA,90011,33.989292,-118.25826
+,Smart & Final,4550 W Pico,Los Angeles,CA,90019,34.048618,-118.33486
+,Smart & Final,15055 Mulberry Dr,Whittier,CA,90604,33.935287,-118.0109
+,Vallarta Supermarket,13715 Vanowen St,Van Nuys,CA,91405,34.19397,-118.43191
+,Vallarta Supermarket,8453 Reseda Blvd,Northridge,CA,91324,34.224369,-118.53612
+,Walmart,20226 Avalon Blvd,Carson,CA,90746,33.84808,-118.26469
+,Ralphs,4627 York Blvd,Los Angeles,CA,90041,34.123123,-118.21535
+,Smart & Final,16210 Devonshire St,Granada Hills,CA,91344,34.257381,-118.48508
+,Smart & Final,210 N Verdugo Rd,Glendale,CA,91206,34.148769,-118.23572
+,Smart & Final,1125 E El Segundo Blvd,Los Angeles,CA,90059,33.916416,-118.25543
+,Smart & Final,6601 Laurel Canyon Blvd,North Hollywood,CA,91606,34.190479,-118.39655
+,Smart & Final,160 W Willow St,Pomona,CA,91768,34.078754,-117.75304
+,Smart & Final,11110 Ramona Blvd,El Monte,CA,91731,34.07272,-118.03193
+,Smart & Final,11460 E Washington Blvd,Whittier,CA,90606,33.970997,-118.0675
+,Smart & Final,20410 S Susana Rd,Carson,CA,90810,33.846519,-118.20672
+,Smart & Final,1216 Compton Ave,Los Angeles,CA,90021,34.027538,-118.24205
+,Smart & Final,2949 W Pico Blvd,Los Angeles,CA,90006,34.047237,-118.30478
+,Smart & Final,939 N Western Ave,Los Angeles,CA,90029,34.087872,-118.3092
+,Smart & Final,15427 Amar Rd,La Puente,CA,91744,34.037136,-117.94875
+,Smart & Final,21600 S Vermont Ave,Torrance,CA,90502,33.83292,-118.29025
+,Smart & Final,12210 Santa Monica Blvd,Los Angeles,CA,90025,34.039894,-118.46471
+,Smart & Final,5029 E Florence Ave,Bell,CA,90201,33.969215,-118.17711
+,Smart & Final,725 E Main St,Alhambra,CA,91801,34.098625,-118.11967
+,Smart & Final,10935 Firestone Blvd,Norwalk,CA,90650,33.922775,-118.10033
+,Smart & Final,7815 Van Nuys Blvd,Van Nuys,CA,91402,34.212215,-118.44923
+,Smart & Final,2720 Beverly Blvd,Los Angeles,CA,90057,34.070065,-118.27818
+,Smart & Final,28500 S Western Ave,Rancho Palos Verdes,CA,90275,33.760914,-118.31215
+,Smart & Final,10113 Venice Blvd,Los Angeles,CA,90034,34.021984,-118.40143
+,Smart & Final,604 Lincoln Blvd,Venice,CA,90291,33.999996,-118.465
+,Smart & Final,10833 Long Beach Blvd,Lynwood,CA,90262,33.934868,-118.21304
+,Target,30740 Russell Ranch Rd,Westlake Village,CA,91362,34.149658,-118.79435
+,Smart & Final,8137 S Vermont Ave,Los Angeles,CA,90044,33.964573,-118.29192
+,Smart & Final,2308 E 4th St,Los Angeles,CA,90033,34.040997,-118.21272
+,Superior Grocers,3180 N Garey Ave,Pomona,CA,91767,34.10545,-117.74855
+,Smart & Final,2060 Glenoaks Blvd,San Fernando,CA,91340,34.299271,-118.43902
+,Sprouts Farmers Market,1431 W Imperial Hwy,La Habra,CA,90631,33.917412,-117.96268
+,Superior Grocers,15000 Crenshaw Blvd,Gardena,CA,90249,33.894833,-118.32651
+,Smart & Final,644 Redondo Ave,Long Beach,CA,90814,33.774399,-118.15239
+,Trader Joe's,103 E Glenoaks Blvd,Glendale,CA,91207,34.159222,-118.25486
+,Northgate Gonzalez Market,4700 Cherry Ave,Long Beach,CA,90807,33.84454,-118.16742
+,Circle K,2529 S Santa Fe Ave,Vernon,CA,90058,34.01442,-118.23038
+,Superior Grocers,12630 Hawthorne Blvd,Hawthorne,CA,90250,33.917904,-118.35242
+,Circle K,3260 Chino Ave,Chino Hills,CA,91709,34.010906,-117.73547
+,Circle K,5001 Clara St,Cudahy,CA,90201,33.96468,-118.17818
+,Stater Bros,1023 N Grand Ave,Covina,CA,91724,34.098442,-117.8727
+,Walmart,778 E Arrow Hwy,Pomona,CA,91767,34.089966,-117.73769
+,Vallarta Supermarket,18571 Soledad Canyon Rd,Canyon Country,CA,91351,34.416237,-118.45778
+,Walmart,3875 RANCHO VISTA BLVD,Palmdale,CA,93551,34.601742,-118.16836
+,Circle K,229 W 7th St,Los Angeles,CA,90014,34.044983,-118.25292
+,Walmart,3705 E South St,Long Beach,CA,90805,33.86026,-118.14895
+,Circle K,20839 Valley Blvd,Walnut,CA,91789,34.015659,-117.85003
+,Vallarta Supermarket,8510 Painter Ave,Whittier,CA,90602,33.961197,-118.03477
+,Walmart,1180 S Diamond Bar Blvd,Diamond Bar,CA,91765,34.001404,-117.81076
+,Whole Foods,12746 W Jefferson Blvd,Playa Vista,CA,90094,33.97411,-118.42556
+,Smart & Final,13003 Whittier Blvd,Whittier,CA,90602,33.965595,-118.0369
+,Circle K,21186 Hawthorne Blvd,Torrance,CA,90503,33.838154,-118.35356
+,Circle K,13041 Rosecrans Ave,Norwalk,CA,90650,33.902458,-118.05383
+,Costco,21800 Victory Blvd,Woodland Hills,CA,91367,34.18742,-118.60309
+,Smart & Final,280 E Compton Blvd,Compton,CA,90220,33.895954,-118.22095
+,Jons Marketplace,4848 W 190th St,Torrance,CA,90503,33.858257,-118.36208
+,Superior Grocers,10683 Valley Blvd,El Monte,CA,91731,34.07666,-118.0399
+,Whole Foods,788 S Grand Ave,Los Angeles,CA,90017,34.045986,-118.25776
+,Circle K,9355 Somerset Blvd,Bellflower,CA,90706,33.896568,-118.13446
+,Vallarta Supermarket,7900 Imperial Hwy,Downey,CA,90242,33.925205,-118.15431
+,Vons,3461 W 3rd St,Los Angeles,CA,90020,34.069107,-118.29078
+,Ralphs,21909 Ventura Blvd,Woodland Hills,CA,91364,34.168476,-118.60397
+,Food 4 Less,11507 S Western Ave,Los Angeles,CA,90047,33.928921,-118.30917
+,Kmart,2171 W Florence Ave,Los Angeles,CA,90047,33.974628,-118.31753
+,Sprouts Farmers Market,915 N La Brea Ave,Los Angeles,CA,90046,34.087421,-118.3441
+,Whole Foods,3301 E Imperial Hwy,Brea,CA,92823,33.909756,-117.85218
+,Sprouts Farmers Market,150 E Main St,Alhambra,CA,91801,34.095764,-118.1254
+,Smart & Final,615 N Pacific Coast Hwy,Redondo Beach,CA,90277,33.851761,-118.38938
+,Smart & Final,1516 S Pacific Coast Hwy,Redondo Beach,CA,90277,33.820343,-118.38527
+,Target,5760 E 7th St,Long Beach,CA,90803,33.775276,-118.11964
+,Gelson's,2627 Lincoln Blvd,Santa Monica,CA,90405,34.006493,-118.47565
+,Smart & Final,240 S Diamond Bar Blvd,Diamond Bar,CA,91765,34.021221,-117.81009
+,Smart & Final,3838 W Verdugo Ave,Burbank,CA,91505,34.160473,-118.34515
+,Smart & Final,21035 Hawthorne Blvd,Torrance,CA,90503,33.83844,-118.35387
+,Aldi,11530 South St,Cerritos,CA,90703,33.858353,-118.08769
+,Walmart,9001 Apollo Way,Downey,CA,90242,33.922783,-118.1412
+,Circle K,1400 Carbon Canyon Rd,Chino Hills,CA,91709,33.953636,-117.77385
+,Smart & Final,4200 Chino Hills Pkwy,Chino Hills,CA,91709,33.982746,-117.71303
+,Smart & Final,5038 W Avenue N,Palmdale,CA,93551,34.630836,-118.22115
+,Aldi,2268 Foothill Blvd,La Verne,CA,91750,34.112244,-117.76215
+,Aldi,1400 N Azusa Ave,Covina,CA,91722,34.10466,-117.90759
+,Aldi,1559 N Hacienda Blvd,La Puente,CA,91744,34.048012,-117.94678
+,Aldi,3330 W Century Blvd,Inglewood,CA,90303,33.945442,-118.32946
+,Aldi,740 W Rancho Vista Blvd,Palmdale,CA,93551,34.601845,-118.11716
+,Aldi,1403 S Baldwin Ave,Arcadia,CA,91007,34.123543,-118.05514
+,Smart & Final,5770 Lindero Canyon Rd,Westlake Village,CA,91362,34.15464,-118.79582
+,Smart & Final,1636 W 25th St,San Pedro,CA,90732,33.723164,-118.31312
+,Walmart,1301 N Victory Pl,Burbank,CA,91502,34.189297,-118.32541
+,Sprouts Farmers Market,2245 Yosemite Dr,Los Angeles,CA,90041,34.135349,-118.21623
+,Aldi,5830 Firestone Blvd,South Gate,CA,90280,33.948917,-118.16374
+,Circle K,14204 Rosecrans Ave,La Mirada,CA,90638,33.902431,-118.02878
+,Circle K,8609 Garvey Ave,Rosemead,CA,91770,34.06271,-118.08165
+,Circle K,16408 Orange Ave,Paramount,CA,90723,33.885021,-118.17744
+,Smart & Final,1193 Huntington Dr,Duarte,CA,91010,34.139709,-117.97884
+,Smart & Final,1833 S la Cienega Blvd,Los Angeles,CA,90035,34.043133,-118.37652
+,Circle K,12604 Beverly Blvd,Whittier,CA,90601,33.988098,-118.04198
+,Aldi,3840 Grand Ave,Chino,CA,91710,34.000465,-117.7219
+,Sprouts Farmers Market,8985 Venice Blvd,Los Angeles,CA,90034,34.027954,-118.39107
+,Vons,500 E Manchester Blvd,Inglewood,CA,90301,33.961006,-118.34772
+,Vons,123 METROPOLE AVE,AVALON,CA,90704,33.343876,-118.32718
+,Vons,245 Palos Verdes Blvd,Redondo Beach,CA,90277,33.815884,-118.38581
+,Vons,17380 W Sunset Blvd,Pacific Palisades,CA,90272,34.03949,-118.55466
+,Vons,410 Manhattan Beach Blvd,Manhattan Beach,CA,90266,33.885647,-118.40811
+,Stater Bros,11300 Firestone Blvd,Norwalk,CA,90650,33.918316,-118.09246
+,Stater Bros,7814 E Firestone Blvd,Downey,CA,90241,33.944546,-118.14143
+,Ralphs,4700 Admiralty Way,Marina del Rey,CA,90292,33.979801,-118.43999
+,Food 4 Less,1091 S Hoover St,Los Angeles,CA,90006,34.051132,-118.28425
+,Ralphs,1730 W Manchester Ave,Los Angeles,CA,90047,33.959942,-118.30754
+,Ralphs,11873 Hawthorne Blvd,Hawthorne,CA,90250,33.925987,-118.35277
+,Ralphs,7257 W Sunset Blvd,Los Angeles,CA,90046,34.098026,-118.34808
+,Ralphs,8825 S Sepulveda Blvd,Los Angeles,CA,90045,33.956341,-118.39629
+,Ralphs,1745 Garfield Ave,South Pasadena,CA,91030,34.105904,-118.1349
+,Ralphs,12057 Wilshire Blvd,Los Angeles,CA,90025,34.044716,-118.46675
+,Ralphs,7221-25 Woodman Ave,Van Nuys,CA,91405,34.201717,-118.43131
+,Ralphs,10455 Sunland Blvd,Sunland,CA,91040,34.259789,-118.32706
+,Ralphs,9470 Las Tunas Dr,Temple City,CA,91780,34.106201,-118.06421
+,Ralphs,3380 N Los Coyotes Diagonal,Long Beach,CA,90808,33.818333,-118.10965
+,Ralphs,12921 Magnolia Blvd,Van Nuys,CA,91423,34.164898,-118.4145
+,Ralphs,211 E Foothill Blvd,Arcadia,CA,91006,34.151089,-118.02527
+,Ralphs,1416 E Colorado St,Glendale,CA,91205,34.142723,-118.23383
+,Ralphs,3410 W 3rd St,Los Angeles,CA,90020,34.069004,-118.28962
+,Vons,19333 Victory Blvd,Tarzana,CA,91335,34.1866,-118.55444
+,Vons,13730 Foothill Blvd,Sylmar,CA,91342,34.309174,-118.43261
+,Vons,1212 Beryl St,Redondo Beach,CA,90277,33.854527,-118.38083
+,Vons,9860 National Blvd,Los Angeles,CA,90034,34.031155,-118.40112
+,Vons,2122 S Hacienda Blvd,Hacienda Heights,CA,91745,33.99535,-117.96824
+,Vons,301 N Pass Ave,Burbank,CA,91505,34.155006,-118.34555
+,Vons,9119 Reseda Blvd,Northridge,CA,91324,34.236153,-118.53613
+,Vons,431 E Arrow Hwy,Glendora,CA,91740,34.106796,-117.85646
+,Vons,1260 W Redondo Beach Blvd,Gardena,CA,90247,33.892025,-118.2982
+,Vons,1311 Wilshire Blvd,Santa Monica,CA,90403,34.026459,-118.48938
+,Vons,6571 W 80th St,Los Angeles,CA,90045,33.969025,-118.40556
+,Vons,15740 La Forge St,Whittier,CA,90603,33.941048,-117.99409
+,Food 4 Less,1717 S Western Ave,Los Angeles,CA,90006,34.04187,-118.30907
+,Gelson's,5877 Franklin Ave,Los Angeles,CA,90028,34.105278,-118.31764
+,Stater Bros,1145 E Alosta Ave,Azusa,CA,91702,34.128826,-117.88269
+,Stater Bros,1045 N Garey Ave,Pomona,CA,91767,34.06815,-117.75214
+,Stater Bros,14212 Mulberry Dr,Whittier,CA,90604,33.942268,-118.02694
+,Ralphs,12842 Ventura Blvd,Studio City,CA,91604,34.144955,-118.41285
+,Ralphs,16940 Devonshire St,Granada Hills,CA,91344,34.257504,-118.50149
+,Ralphs,15120 W Sunset Blvd,Pacific Palisades,CA,90272,34.045425,-118.52348
+,Ralphs,21431 Devonshire St,Chatsworth,CA,91311,34.257298,-118.59777
+,Ralphs,1100 N San Fernando Blvd,Burbank,CA,91504,34.188244,-118.31876
+,Ralphs,330 N Atlantic Blvd,Monterey Park,CA,91754,34.065285,-118.13425
+,Ralphs,14440 Burbank Blvd,Sherman Oaks,CA,91401,34.172058,-118.44762
+,Ralphs,30019 Hawthorne Blvd,Rancho Palos Verdes,CA,90275,33.76046,-118.39397
+,Ralphs,22333 Sherman Way,Canoga Park,CA,91303,34.201088,-118.61353
+,Ralphs,11361 National Blvd,Los Angeles,CA,90064,34.025455,-118.43308
+,Gelson's,4738 Laurel Canyon Blvd,Valley Village,CA,91607,34.15667,-118.39645
+,Gelson's,5500 Reseda Blvd,Tarzana,CA,91356,34.170132,-118.53596
+,Stater Bros,12523 Alondra Blvd,Norwalk,CA,90650,33.88781,-118.06553
+,Ralphs,910 Lincoln Blvd,Venice,CA,90291,33.998547,-118.46194
+,Gelson's,16450 Ventura Blvd,Encino,CA,91436,34.157475,-118.49197
+,Vons,550 E Baseline Rd,Claremont,CA,91711,34.121593,-117.7062
+,Gelson's,10250 Santa Monica Blvd,Los Angeles,CA,90067,34.060455,-118.41923
+,Vons,10321 Sepulveda Blvd,Mission Hills,CA,91345,34.258163,-118.46753
+,Ralphs,25930 McBean Pkwy,Valencia,CA,91355,34.403622,-118.55216
+,Vons,5671 Kanan Rd,Agoura Hills,CA,91301,34.153332,-118.75752
+,Stater Bros,11750 Whittier Blvd,Whittier,CA,90601,33.98138,-118.05161
+,Ralphs,5951 Del Amo Blvd,Lakewood,CA,90713,33.847107,-118.11603
+,Vons,3900 E Ocean Blvd,Long Beach,CA,90803,33.760174,-118.14758
+,Vons,435 W Foothill Blvd,Glendora,CA,91741,34.136059,-117.8719
+,Stater Bros,2845 W Avenue L,Lancaster,CA,93536,34.660309,-118.1824
+,Ralphs,5245 W Centinela Ave,Los Angeles,CA,90045,33.977394,-118.37104
+,Ralphs,5727 Kanan Rd,Agoura Hills,CA,91301,34.154564,-118.75693
+,Jons Marketplace,1601 N Vermont Ave,Los Angeles,CA,90027,34.100212,-118.2918
+,Vons,715 Pier Ave,Hermosa Beach,CA,90254,33.864773,-118.39481
+,Ralphs,320 W Colorado Blvd,Pasadena,CA,91105,34.145714,-118.15679
+,Vons,4705 Torrance Blvd,Torrance,CA,90503,33.837597,-118.36352
+,Vons,1129 Fair Oaks Ave,South Pasadena,CA,91030,34.112942,-118.15041
+,Vallarta Supermarket,13820 Foothill Blvd,Sylmar,CA,91342,34.310535,-118.43435
+,Stater Bros,11815 Artesia Blvd,Artesia,CA,90701,33.873161,-118.08167
+,Vons,1430 S Fairfax Ave,Los Angeles,CA,90019,34.050823,-118.36668
+,Vons,18439 Ventura Blvd,Tarzana,CA,91356,34.168266,-118.53473
+,Smart & Final,3607 S Vermont Ave,Los Angeles,CA,90007,34.022202,-118.29158
+,Food 4 Less,16530 Sherman Way,Van Nuys,CA,91406,34.201073,-118.49272
+,Vons,1820 Ximeno Ave,Long Beach,CA,90815,33.790073,-118.13881
+,Ralphs,20060 Ventura Blvd,Woodland Hills,CA,91364,34.171104,-118.57051
+,Whole Foods,239 N Crescent Dr,Beverly Hills,CA,90210,34.069046,-118.39776
+,Food 4 Less,4400 Slauson Ave,Maywood,CA,90270,33.987331,-118.18769
+,Vons,3118 S Sepulveda Blvd,Los Angeles,CA,90034,34.026203,-118.42766
+,Stater Bros,2090 Foothill Blvd,La Verne,CA,91750,34.113503,-117.76596
+,Vons,777 S Glendora Ave,West Covina,CA,91790,34.061752,-117.93171
+,Vons,16550 Soledad Canyon Rd,Santa Clarita,CA,91387,34.426769,-118.42551
+,Vons,1160 Via Verde,San Dimas,CA,91773,34.073238,-117.8298
+,Food 4 Less,12765 Van Nuys Blvd,Pacoima,CA,91331,34.274464,-118.41068
+,Vons,4520 W Sunset Blvd,Los Angeles,CA,90027,34.098122,-118.28798
+,Vons,1342 N Alvarado St,Los Angeles,CA,90026,34.080425,-118.26173
+,Vons,4030 S Centinela Ave,Los Angeles,CA,90066,33.998829,-118.42983
+,Vons,7311 N Figueroa St,Los Angeles,CA,90041,34.136333,-118.18827
+,Vons,804 W Beverly Blvd,Montebello,CA,90640,34.017242,-118.10603
+,Vons,6534 Platt Ave,West Hills,CA,91307,34.189678,-118.64261
+,Ralphs,4311 Lincoln Blvd,Marina del Rey,CA,90292,33.985382,-118.44344
+,Food 4 Less,5318 S Main St,Los Angeles,CA,90037,33.994053,-118.27393
+,Vons,727 Vine St,Los Angeles,CA,90038,34.08432,-118.32665
+,Vons,4001 Hardwick St,Lakewood,CA,90712,33.850498,-118.14526
+,Vons,8969 Santa Monica Blvd,West Hollywood,CA,90069,34.083195,-118.38672
+,Vons,14845 Ventura Blvd,Sherman Oaks,CA,91403,34.15229,-118.4567
+,Vons,7 Peninsula Ctr,Rolling Hills Estates,CA,90274,33.7752,-118.37577
+,Food 4 Less,615 N Azusa Ave,West Covina,CA,91791,34.081482,-117.90786
+,Ralphs,305 W Imperial Hwy,Brea,CA,92821,33.917377,-117.9024
+,Ralphs,5601 Wilshire Blvd,Los Angeles,CA,90036,34.062378,-118.35062
+,Ralphs,16325 Ventura Blvd,Encino,CA,91436,34.157169,-118.4893
+,Smart & Final,6555 Foothill Blvd,Tujunga,CA,91042,34.246037,-118.27515
+,Smart & Final,1575 Centinela Ave,Inglewood,CA,90302,33.976955,-118.36647
+,Ralphs,4760 W Pico Blvd,Los Angeles,CA,90019,34.048386,-118.33961
+,Vons,4550 Atlantic Ave,Long Beach,CA,90807,33.841431,-118.18394
+,Vons,710 Broadway,Santa Monica,CA,90401,34.017433,-118.49063
+,Food 4 Less,2750 E 1st St,Los Angeles,CA,90033,34.041656,-118.2052
+,Ralphs,11727 W Olympic Blvd,Los Angeles,CA,90064,34.034092,-118.4482
+,Ralphs,19340 Soledad Canyon Rd,Canyon Country,CA,91351,34.415592,-118.47317
+,Smart & Final,10100 S Crenshaw Blvd,Inglewood,CA,90303,33.944321,-118.32637
+,Food 4 Less,19200 Soledad Canyon Rd,Canyon Country,CA,91351,34.415691,-118.47147
+,Superior Grocers,1201 W Whittier Blvd,Montebello,CA,90640,34.010967,-118.113
+,Superior Grocers,7300 Atlantic Ave,Cudahy,CA,90201,33.969479,-118.18781
+,Smart & Final,6060 N Figueroa St,Highland Park,CA,90042,34.111778,-118.18826
+,Food 4 Less,6920 Santa Fe Ave,Huntington Park,CA,90255,33.97604,-118.23026
+,Circle K,1 E Hellman Ave,Alhambra,CA,91801,34.069798,-118.12226
+,Stater Bros,26900 Sierra Hwy,Santa Clarita,CA,91321,34.404957,-118.46574
+,Food 4 Less,8530 Tobias Ave,Panorama City,CA,91402,34.224899,-118.45164
+,Superior Grocers,6010 Pacific Blvd,Huntington Park,CA,90255,33.986992,-118.22515
+,Vallarta Supermarket,9136 Sepulveda Blvd,North Hills,CA,91343,34.23645,-118.46744
+,Ralphs,1233 N la Brea Ave,West Hollywood,CA,90038,34.093159,-118.34415
+,Smart & Final,114 N Azusa Ave,Covina,CA,91722,34.08704,-117.90768
+,Gelson's,22277 Mulholland Hwy,Calabasas,CA,91302,34.146713,-118.61243
+,Whole Foods,1425 Montana Ave,Santa Monica,CA,90403,34.032627,-118.49474
+,Vons,2101 W Imperial Hwy,La Habra,CA,90631,33.917458,-117.96926
+,Vons,24325 Crenshaw Blvd,Torrance,CA,90505,33.804913,-118.32803
+,Food 4 Less,1801 N Hacienda Blvd,La Puente,CA,91744,34.050667,-117.94384
+,Ralphs,9616 W Pico Blvd,Los Angeles,CA,90035,34.055134,-118.39811
+,Whole Foods,4520 Sepulveda Blvd,Sherman Oaks,CA,91403,34.152199,-118.46665
+,Ralphs,8626 Firestone Blvd,Downey,CA,90241,33.937019,-118.12721
+,Food 4 Less,44455 Valley Central Way,Lancaster,CA,93536,34.690582,-118.17236
+,Food 4 Less,8035 Webb Ave,North Hollywood,CA,91605,34.216595,-118.38864
+,Ralphs,1644 Cloverfield Blvd,Santa Monica,CA,90404,34.02737,-118.47261
+,Vons,16830 San Fernando Mission Blvd,Granada Hills,CA,91344,34.271996,-118.49845
+,Kmart,500 Carson Town Ctr,Carson,CA,90745,33.84063,-118.28381
+,Ralphs,670 S Western Ave,Los Angeles,CA,90005,34.060799,-118.30902
+,Ralphs,27760 McBean Pkwy,Valencia,CA,91354,34.445637,-118.55325
+,Ralphs,22915 Victory Blvd,West Hills,CA,91307,34.186466,-118.62634
+,Ralphs,24975 Pico Canyon Rd,Stevenson Ranch,CA,91381,34.381878,-118.57427
+,Ralphs,6290 E Pacific Coast Hwy,Long Beach,CA,90803,33.761997,-118.11465
+,Ralphs,2600 S Vermont Ave,Los Angeles,CA,90007,34.032322,-118.29152
+,Food 4 Less,18318 Vanowen St,Reseda,CA,91335,34.193825,-118.53301
+,Food 4 Less,3654 E Olympic Blvd,Los Angeles,CA,90023,34.018791,-118.1984
+,Ralphs,2130 W Century Blvd,Los Angeles,CA,90047,33.945408,-118.31717
+,Smart & Final,401 N Fair Oaks Ave,Pasadena,CA,91103,34.152451,-118.15056
+,Vallarta Supermarket,10859 Oxnard St,North Hollywood,CA,91606,34.179459,-118.36757
+,Superior Grocers,10211 S Avalon Blvd,Los Angeles,CA,90003,33.943291,-118.26521
+,Food 4 Less,3000 Baldwin Park Blvd,Baldwin Park,CA,91706,34.069229,-117.98006
+,Vons,600 E Broadway,Long Beach,CA,90802,33.769272,-118.18461
+,Circle K,301 E Bonita Ave,San Dimas,CA,91773,34.106709,-117.80261
+,Vons,1221 S Gaffey St,San Pedro,CA,90731,33.732872,-118.2924
+,Vons,311 W Los Feliz Rd,Glendale,CA,91204,34.12867,-118.25808
+,Food 4 Less,6700 Cherry Ave,Long Beach,CA,90805,33.876862,-118.16868
+,Ralphs,18010 Chatsworth St,Granada Hills,CA,91344,34.264492,-118.52641
+,Vons,25850 The Old Rd,Valencia,CA,91381,34.390121,-118.57323
+,Ralphs,500 N Sepulveda Blvd,El Segundo,CA,90245,33.92297,-118.39617
+,Vons,4001 Inglewood Ave,Redondo Beach,CA,90278,33.893631,-118.36135
+,Vons,820 Montana Ave,Santa Monica,CA,90403,34.028149,-118.50015
+,Vons,9467 W Olympic Blvd,Beverly Hills,CA,90212,34.059708,-118.39934
+,Whole Foods,11666 National Blvd,Los Angeles,CA,90064,34.022743,-118.43841
+,Vallarta Supermarket,440 E Palmdale Blvd,Palmdale,CA,93550,34.579811,-118.12242
+,Superior Grocers,8811 S Western Ave,Los Angeles,CA,90047,33.957302,-118.30904
+,Smart & Final,5555 Wilshire Blvd,Los Angeles,CA,90036,34.062347,-118.34976
+,Food 4 Less,2341 E Avenue S,Palmdale,CA,93550,34.558128,-118.08619
+,Food 4 Less,7810 Norwalk Blvd,Whittier,CA,90606,33.973972,-118.07459
+,Ralphs,2930 E 4th St,Long Beach,CA,90814,33.771664,-118.15764
+,Ralphs,8701 Lincoln Blvd,Los Angeles,CA,90045,33.959267,-118.4188
+,Vons,3027 Rancho Vista Blvd,Palmdale,CA,93551,34.601807,-118.18392
+,Ralphs,10900 Magnolia Blvd,North Hollywood,CA,91601,34.164864,-118.36819
+,Vons,655 N Fair Oaks Ave,Pasadena,CA,91103,34.157516,-118.15064
+,Jons Marketplace,600 E Colorado St,Glendale,CA,91205,34.142632,-118.24853
+,Stater Bros,2535 E Avenue S,Palmdale,CA,93550,34.558117,-118.08354
+,Food 4 Less,2090 S Garey Ave,Pomona,CA,91766,34.034401,-117.74921
+,Food 4 Less,1299 W Artesia Blvd,Gardena,CA,90248,33.873028,-118.29613
+,Whole Foods,500 Wilshire Blvd,Santa Monica,CA,90401,34.019848,-118.49731
+,Smart & Final,1320 Atlanta Blvd,Long Beach,CA,90813,33.781193,-118.20052
+,Smart & Final,11221 W Pico Blvd,Los Angeles,CA,90064,34.035854,-118.43743
+,Ralphs,4754 Commons Way,Calabasas,CA,91302,34.154411,-118.64484
+,Vons,26518 Bouquet Ln,Saugus,CA,91350,34.42844,-118.53601
+,Vons,20440 Devonshire St,Chatsworth,CA,91311,34.257233,-118.5789
+,Vallarta Supermarket,21208 Sherman Way,Canoga Park,CA,91303,34.200962,-118.59448
+,Food 4 Less,6901 Eastern Ave,Bell Gardens,CA,90201,33.970467,-118.16454
+,Food 4 Less,9635 Laurel Canyon Blvd,Arleta,CA,91331,34.244617,-118.4172
+,Ralphs,2600 W Victory Blvd,Burbank,CA,91505,34.184593,-118.33968
+,Jons Marketplace,20151 Roscoe Blvd,Winnetka,CA,91306,34.220295,-118.57215
+,Vons,4033 Laurel Canyon Blvd,Studio City,CA,91604,34.144779,-118.39574
+,Vons,8201 Topanga Canyon Blvd,Canoga Park,CA,91304,34.217606,-118.60606
+,Ralphs,2250 E Carson St,Long Beach,CA,90807,33.832413,-118.16558
+,Kmart,10400 Rosecrans Ave,Bellflower,CA,90706,33.902023,-118.11191
+,Ralphs,25 E Alameda Ave,Burbank,CA,91502,34.174213,-118.30013
+,Ralphs,2201 W Redondo Beach Blvd,Gardena,CA,90247,33.885735,-118.31793
+,Food 4 Less,1748 W Jefferson Blvd,Los Angeles,CA,90018,34.025524,-118.30721
+,Smart & Final,22631 Ventura Blvd,Woodland Hills,CA,91364,34.167294,-118.61945
+,Vallarta Supermarket,21555 Roscoe Blvd,Canoga Park,CA,91304,34.219776,-118.6003
+,Trader Joe's,3212 Pico Blvd,Santa Monica,CA,90405,34.026398,-118.45618
+,Vallarta Supermarket,16107 Victory Blvd,Van Nuys,CA,91406,34.186649,-118.4843
+,Food 4 Less,336 W Anaheim St,Wilmington,CA,90744,33.779755,-118.26582
+,Gelson's,4520 Van Nuys Blvd,Sherman Oaks,CA,91403,34.153931,-118.44867
+,Vallarta Supermarket,1801 W Avenue I,Lancaster,CA,93534,34.704098,-118.16373
+,Ralphs,19781 Rinaldi St,Northridge,CA,91326,34.274868,-118.56478
+,Jons Marketplace,6655 Van Nuys Blvd,Van Nuys,CA,91405,34.19223,-118.44878
+,Vallarta Supermarket,13940 Ramona Blvd,Baldwin Park,CA,91706,34.084194,-117.96909
+,Ralphs,10901 Ventura Blvd,Studio City,CA,91604,34.139675,-118.36813
+,Jons Marketplace,12122 Magnolia Blvd,North Hollywood,CA,91607,34.164852,-118.39737
+,Kmart,5850 S Vermont Ave,Los Angeles,CA,90044,33.987732,-118.29144
+,Kmart,13007 Sherman Way,North Hollywood,CA,91605,34.201225,-118.41713
+,Walmart,8333 Van Nuys Blvd,Panorama City,CA,91402,34.221966,-118.44884
+,Whole Foods,21347 Ventura Blvd,Woodland Hills,CA,91364,34.167839,-118.59721
+,Whole Foods,3751 E Foothill Blvd,Pasadena,CA,91107,34.150307,-118.07198
+,Whole Foods,2655 Pacific Coast Hwy,Torrance,CA,90505,33.791523,-118.33231
+,Ralphs,211 N Glendale Ave,Glendale,CA,91206,34.148399,-118.24642
+,Northgate Gonzalez Market,6801 Atlantic Ave,Bell,CA,90201,33.973846,-118.18771
+,Trader Joe's,17640 Burbank Blvd,Encino,CA,91316,34.172241,-118.51774
+,Food 4 Less,16208 Parthenia St,North Hills,CA,91343,34.228363,-118.48673
+,Food 4 Less,1600 E Willow St,Signal Hill,CA,90755,33.804283,-118.17168
+,Superior Grocers,111 E Compton Blvd,Compton,CA,90220,33.896019,-118.2236
+,Whole Foods,7871 Santa Monica Blvd,West Hollywood,CA,90046,34.090889,-118.36089
+,Northgate Gonzalez Market,2120 Pacific Ave,Long Beach,CA,90806,33.795589,-118.19363
+,Superior Grocers,9801 Laurel Canyon Blvd,Pacoima,CA,91331,34.247841,-118.4206
+,Vons,4226 Woodruff Ave,Lakewood,CA,90713,33.835121,-118.11651
+,Food 4 Less,13525 Lakewood Blvd,Downey,CA,90242,33.904709,-118.14304
+,Kmart,1000 N San Fernando Blvd,Burbank,CA,91504,34.187534,-118.31773
+,Kmart,8017 Atlantic Ave,Cudahy,CA,90201,33.961838,-118.18614
+,Kmart,23222 Valencia Blvd,Valencia,CA,91355,34.422913,-118.54391
+,Kmart,6310 W 3rd St,Los Angeles,CA,90036,34.071182,-118.35902
+,Kmart,2900 N Bellflower Blvd,Long Beach,CA,90815,33.808891,-118.12511
+,Kmart,5665 Rosemead Blvd,Temple City,CA,91780,34.102291,-118.07366
+,Kmart,730 S Orange Ave,West Covina,CA,91790,34.070927,-117.94408
+,Food 4 Less,12222 Carson St,Hawaiian Gardens,CA,90716,33.831371,-118.0715
+,Ralphs,1770 W Carson St,Torrance,CA,90501,33.831451,-118.31098
+,Aldi,4212 S Central Ave,Los Angeles,CA,90011,34.00705,-118.25647
+,Food 4 Less,3210 E Anaheim St,Long Beach,CA,90804,33.782551,-118.15446
+,Food 4 Less,5100 N Figueroa St,Los Angeles,CA,90042,34.105736,-118.20056
+,Food 4 Less,1820 W Slauson Ave,Los Angeles,CA,90047,33.989086,-118.30985
+,Superior Grocers,3600 E Cesar E Chavez Ave,Los Angeles,CA,90063,34.040493,-118.18626
+,Walmart,44665 Valley Central Way,Lancaster,CA,93536,34.694489,-118.17155
+,Walmart,17150 Gale Ave,City of Industry,CA,91745,34.000282,-117.93243
+,Walmart,1950 Auto Centre Dr,Glendora,CA,91740,34.117474,-117.82646
+,Ralphs,10861 Le Conte Ave,Westwood,CA,90024,34.063759,-118.44371
+,Walmart,14501 Lakewood Blvd,Paramount,CA,90723,33.901981,-118.14296
+,Walmart,80 Rio Rancho Rd,Pomona,CA,91766,34.027706,-117.7616
+,Walmart,1275 N Azusa Ave,Covina,CA,91722,34.10424,-117.90778
+,Walmart,25450 The Old Rd,Stevenson Ranch,CA,91381,34.382771,-118.5711
+,Walmart,1600 Mountain Ave,Duarte,CA,91010,34.13401,-117.9863
+,Walmart,2770 Carson St,Lakewood,CA,90712,33.832333,-118.1582
+,Walmart,2595 E Imperial Hwy,Brea,CA,92821,33.911182,-117.86394
+,Walmart,19821 Rinaldi St,Porter Ranch,CA,91326,34.275047,-118.56644
+,Walmart,12701 Towne Center Dr,Cerritos,CA,90703,33.870335,-118.06136
+,Walmart,40130 10th St W,Palmdale,CA,93551,34.611588,-118.14767
+,Vallarta Supermarket,15713 Downey Ave,Paramount,CA,90723,33.890846,-118.15154
+,Food 4 Less,1700 W 6th St,Los Angeles,CA,90019,33.985851,-118.30696
+,Vons,845 E California Blvd,Pasadena,CA,91106,34.135906,-118.13291
+,Trader Joe's,6451 E Pacific Coast Hwy,Long Beach,CA,90803,33.755917,-118.10909
+,Ralphs,2230 S Atlantic Blvd,Monterey Park,CA,91754,34.038147,-118.14536
+,Walmart,37140 47th St E,Palmdale,CA,93552,34.556873,-118.04529
+,Walmart,1731 E Avenue J,Lancaster,CA,93535,34.689655,-118.09845
+,Stater Bros,14250 Chino Hills Pkwy,Chino Hills,CA,91709,33.994316,-117.75743
+,Whole Foods,6550 E Pacific Coast Hwy,Long Beach,CA,90803,33.754894,-118.10833
+,Smart & Final,3299 E Colorado Blvd,Pasadena,CA,91107,34.146248,-118.08351
+,Superior Grocers,1375 N Citrus Ave,Covina,CA,91722,34.104527,-117.8903
+,Stater Bros,37218 47th St E,Palmdale,CA,93550,34.55843,-118.04516
+,Ralphs,11825 Whittier Blvd,Whittier,CA,90601,33.981182,-118.05097
+,Whole Foods,19340 Rinaldi St,Northridge,CA,91326,34.274815,-118.55575
+,Ralphs,5429 Hollywood Blvd,Los Angeles,CA,90027,34.101799,-118.30795
+,Vons,1213 Fair Oaks Ave,South Pasadena,CA,91030,34.111702,-118.15052
+,Smart & Final,12164 Central Ave,Chino,CA,91710,34.032745,-117.68961
+,Vons,2355 E Colorado Blvd,Pasadena,CA,91107,34.146145,-118.10184
+,Walmart,1340 S Beach Blvd,La Habra,CA,90631,33.916363,-117.96848
+,Smart & Final,1550 W Redondo Beach Blvd,Gardena,CA,90247,33.890274,-118.3036
+,Walmart,8500 Washington Blvd,Pico Rivera,CA,90660,33.986698,-118.10377
+,Walmart,13310 Telegraph Rd,Santa Fe Springs,CA,90670,33.941784,-118.05007
+,Walmart,7750 CARSON BLVD,LONG BEACH,CA,90808,33.831345,-118.08214
+,Whole Foods,6350 W 3rd St,Los Angeles,CA,90036,34.071331,-118.36033
+,Superior Grocers,151 S HACIENDA BLVD,City of Industry,CA,91744,34.049194,-117.94545
+,Walmart,3943 Grand Ave,Chino,CA,91710,33.997505,-117.71817
+,Trader Joe's,9290 Culver Blvd,Culver City,CA,90232,34.025219,-118.39336
+,Stater Bros,1850 E Avenue J,Lancaster,CA,93535,34.689564,-118.09581
+,Trader Joe's,7260 Rosemead Blvd,San Gabriel,CA,91775,34.128841,-118.07312
+,Trader Joe's,8611 Santa Monica Blvd,West Hollywood,CA,90069,34.088055,-118.3792
+,Vons,3233 Foothill Blvd,La Crescenta,CA,91214,34.230267,-118.24972
+,Trader Joe's,10850 National Blvd,Los Angeles,CA,90064,34.030228,-118.42154
+,Superior Grocers,5824 S Vermont Ave,Los Angeles,CA,90044,33.988735,-118.2914
+,Trader Joe's,3835 E  THOUSAND OAKS BLVD,Westlake Village,CA,91362,34.163273,-118.82699
+,Smart & Final,2775 Pacific Coast Hwy,Torrance,CA,90505,33.793522,-118.33504
+,Trader Joe's,2500 E Imperial Hwy,Brea,CA,92821,33.910912,-117.86513
+,Trader Joe's,2738 Hyperion Ave,Los Angeles,CA,90027,34.10733,-118.27209
+,Trader Joe's,856 W Arrow Hwy,San Dimas,CA,91773,34.10656,-117.82402
+,Trader Joe's,613 Mission St,South Pasadena,CA,91030,34.115685,-118.16291
+,Trader Joe's,2545 Pacific Coast Hwy,Torrance,CA,90505,33.790039,-118.33018
+,Trader Joe's,263 S la Brea Ave,Los Angeles,CA,90036,34.069672,-118.3441
+,Trader Joe's,8645 S Sepulveda Blvd,Westchester,CA,90045,33.958622,-118.39626
+,Trader Joe's,1821 Manhattan Beach Blvd,Manhattan Beach,CA,90266,33.887447,-118.37937
+,Trader Joe's,1761 S Elena Ave,Redondo Beach,CA,90277,33.818054,-118.38556
+,Trader Joe's,11114 Balboa Blvd,Granada Hills,CA,91344,34.272312,-118.50213
+,Trader Joe's,15025 Whittier Blvd,Whittier,CA,90603,33.948807,-118.00621
+,Trader Joe's,14119 Riverside Dr,Sherman Oaks,CA,91423,34.157627,-118.4407
+,Trader Joe's,6751 Fallbrook Ave,West Hills,CA,91307,34.192787,-118.62347
+,Trader Joe's,610 S Arroyo Pkwy,Pasadena,CA,91105,34.135269,-118.14724
+,Trader Joe's,10130 Riverside Dr,Toluca Lake,CA,91602,34.152184,-118.35199
+,Trader Joe's,1566 Colorado Blvd,Eagle Rock,CA,90041,34.139465,-118.20013
+,Trader Joe's,28901 S Western Ave,Rancho Palos Verdes,CA,90275,33.757481,-118.31154
+,Trader Joe's,12861 Towne Center Dr,Cerritos,CA,90703,33.86816,-118.05858
+,Trader Joe's,1800 ROSECRANS BLVD,Manhattan Beach,CA,90266,33.901749,-118.3809
+,Trader Joe's,604 W Huntington Dr,Monrovia,CA,91016,34.140186,-118.01201
+,Trader Joe's,4121 Atlantic Ave,Bixby Knolls,CA,90807,33.832325,-118.18513
+,Trader Joe's,3456 S Sepulveda Blvd,Los Angeles,CA,90034,34.01989,-118.42271
+,Trader Joe's,19720 Hawthorne Blvd,Torrance,CA,90503,33.852757,-118.35358
+,Trader Joe's,11976 Ventura Blvd,Studio City,CA,91604,34.143494,-118.39264
+,Trader Joe's,214 E Alameda Ave,Burbank,CA,91502,34.174774,-118.29942
+,Trader Joe's,467 N Rosemead Blvd,Pasadena,CA,91107,34.153961,-118.07781
+,Trader Joe's,345 S Lake Ave,Pasadena,CA,91101,34.139671,-118.13239
+,Whole Foods,2201 Wilshire Blvd,Santa Monica,CA,90403,34.032864,-118.48142
+,Whole Foods,1050 Gayley Ave,Los Angeles,CA,90024,34.061703,-118.44769
+,Trader Joe's,39507 10th St W,Palmdale,CA,93551,34.599808,-118.14787
+,Jons Marketplace,7134 Sepulveda Blvd,Van Nuys,CA,91405,34.199863,-118.46613
+,Whole Foods,11737 San Vicente Blvd,Los Angeles,CA,90049,34.05341,-118.4674
+,Gelson's,8330 Santa Monica Blvd,West Hollywood,CA,90069,34.090652,-118.37156
+,Gelson's,2725 Hyperion Ave,Los Angeles,CA,90027,34.107883,-118.27196
+,Superior Grocers,1033 Long Beach Blvd,Long Beach,CA,90813,33.779732,-118.18951
+,Vallarta Supermarket,10950 Sherman Way,Burbank,CA,91505,34.201153,-118.37008
+,Walmart,6433 Fallbrook Ave,West Hills,CA,91307,34.18745,-118.62342
+,Walmart,11729 Imperial Hwy,Norwalk,CA,90650,33.917156,-118.08304
+,Superior Grocers,6140 Lankershim Blvd,North Hollywood,CA,91606,34.182198,-118.38506
+,Walmart,3250 Big Dalton Ave,Baldwin Park,CA,91706,34.071728,-117.96457
+,Ralphs,3300 W Slauson Ave,Los Angeles,CA,90043,33.98896,-118.32943
+,Trader Joe's,10330 Mason Ave,Chatsworth,CA,91311,34.257908,-118.57977
+,Vons,561 N Glendale Ave,Glendale,CA,91206,34.154797,-118.2429
+,Vallarta Supermarket,1803 E Palmdale Blvd,Palmdale,CA,93550,34.579727,-118.09579
+,Whole Foods,24130 Valencia Blvd,Santa Clarita,CA,91355,34.412975,-118.55642
+,Whole Foods,331 N Glendale Ave,Glendale,CA,91206,34.150928,-118.24538
+,Vallarta Supermarket,10175 San Fernando Rd,Pacoima,CA,91331,34.255249,-118.41067
+,Northgate Gonzalez Market,16259 Paramount Blvd,Paramount,CA,90723,33.88665,-118.16016
+,Ralphs,2675 Foothill Blvd,La Crescenta,CA,91214,34.222305,-118.23685
+,Vons,1135 Lindero Cyn Rd,Westlake Village,CA,91362,34.183826,-118.78626
+,Jons Marketplace,1717 W Glenoaks Blvd,Glendale,CA,91201,34.17168,-118.2902
+,Stater Bros,851 N Harbor Blvd,La Habra,CA,90631,33.939838,-117.93311
+,Ralphs,4033 Ball Rd,Cypress,CA,90630,33.817688,-118.06247
+,Vons,24160 Lyons Ave,Newhall,CA,91321,34.378723,-118.55716
+,Ralphs,8325 Laurel Canyon Blvd,Sun Valley,CA,91352,34.222469,-118.39651
+,Ralphs,17500 Crenshaw Blvd,Torrance,CA,90504,33.871334,-118.32642
+,Stater Bros,10051 Valley View St,Cypress,CA,90630,33.815979,-118.02834
+,Ralphs,1930 N Lakewood Blvd,Long Beach,CA,90815,33.791859,-118.14262
+,Vons,130 W Foothill Blvd,Monrovia,CA,91016,34.151287,-118.00219
+,Superior Grocers,7316 S Compton Ave,Los Angeles,CA,90001,33.973911,-118.24765
+,Stater Bros,8640 Alondra Blvd,Paramount,CA,90723,33.889153,-118.14969
+,Vons,1390 N Allen Ave,Pasadena,CA,91104,34.170349,-118.11297
+,Vons,155 W California Blvd,Pasadena,CA,91105,34.135807,-118.15327
+,Stater Bros,12800 La Mirada Blvd,La Mirada,CA,90638,33.915531,-118.01176
+,Ralphs,2700 N Sepulveda Blvd,Manhattan Beach,CA,90266,33.896,-118.3959
+,Food 4 Less,1651 E 103rd St,Los Angeles,CA,90002,33.943256,-118.24466
+,Jons Marketplace,3667 W 3rd St,Los Angeles,CA,90020,34.069069,-118.29624
+,Vons,1110 W Alameda Ave,Burbank,CA,91506,34.162895,-118.314
+,Food 4 Less,1900 W Rosecrans Ave,Compton,CA,90220,33.903423,-118.20333
+,Vons,5500 Woodruff Ave,Lakewood,CA,90713,33.85696,-118.117
+,Whole Foods,405 N Pacific Coast Hwy,Redondo Beach,CA,90277,33.836239,-118.38532
+,Food 4 Less,12689 Glenoaks Blvd,Sylmar,CA,91342,34.300629,-118.44079
+,Ralphs,2270 Lake Ave,Altadena,CA,91001,34.185181,-118.13151
+,Ralphs,950 N la Brea Ave,Inglewood,CA,90302,33.974892,-118.35762
+,Food 4 Less,4910 Huntington Dr S,Los Angeles,CA,90032,34.087025,-118.17598
+,Ralphs,650 E Carson St,Carson,CA,90745,33.831547,-118.26473
+,Gelson's,15424 W Sunset Blvd,Pacific Palisades,CA,90272,34.048073,-118.52752
+,Food 4 Less,11950 Garvey Ave,El Monte,CA,91732,34.062717,-118.02039
+,Whole Foods,12905 Riverside Dr,Sherman Oaks,CA,91423,34.157684,-118.41396
+,Circle K,5202 Peck Rd,El Monte,CA,91732,34.09668,-118.01155
+,Circle K,6804 Garfield Ave,Bell Gardens,CA,90201,33.969933,-118.14897
+,Vons,4033 W Avenue L,Lancaster,CA,93536,34.660229,-118.20259
+,Stater Bros,19756 Colima Rd,Rowland Heights,CA,91748,33.986156,-117.87125
+,Circle K,3504 E Imperial Hwy,Lynwood,CA,90262,33.930653,-118.2086
+,Food 4 Less,8620 Whittier Blvd,Pico Rivera,CA,90660,34.00312,-118.08828
+,Ralphs,260 S la Brea Ave,Los Angeles,CA,90036,34.069412,-118.34399
+,Ralphs,2909 Rolling Hills Rd,Torrance,CA,90505,33.788597,-118.34088
+,Jons Marketplace,5311 Santa Monica Blvd,Los Angeles,CA,90029,34.090828,-118.30478
+,Food 4 Less,11245 Long Beach Blvd,Lynwood,CA,90262,33.929008,-118.21128
+,Vons,932 E Badillo St,Covina,CA,91724,34.086102,-117.87155
+,Ralphs,3455 Sepulveda Blvd,Torrance,CA,90505,33.825138,-118.34589
+,Stater Bros,1830 E Route 66,Glendora,CA,91740,34.128647,-117.83026
+,Food 4 Less,20155 Saticoy St,Canoga Park,CA,91306,34.20842,-118.57284
+,Ralphs,11922 S Vermont Ave,Los Angeles,CA,90044,33.924629,-118.29152
+,Vons,2048 E Avenida de Los Arboles,Thousand Oaks,CA,91362,34.211388,-118.84084
+,Ralphs,5080 Rodeo Rd,Los Angeles,CA,90016,34.021469,-118.35502
+,Jons Marketplace,3334 W 8th St,Los Angeles,CA,90005,34.057682,-118.30166
+,Ralphs,10309 W Olympic Blvd,Los Angeles,CA,90064,34.052784,-118.41687
+,Superior Grocers,3831 E Martin Luther King Jr Blvd,Lynwood,CA,90262,33.927795,-118.1981
+,Ralphs,23841 Malibu Rd,Malibu,CA,90265,34.0336,-118.69308
+,Ralphs,3601 E Foothill Blvd,Pasadena,CA,91107,34.150242,-118.07553
+,Ralphs,9040 Beverly Blvd,West Hollywood,CA,90048,34.077164,-118.38886
+,Ralphs,13321 South St,Cerritos,CA,90703,33.858807,-118.04809
+,Stater Bros,1025 E Amar Rd,West Covina,CA,91792,34.035667,-117.92525
+,Ralphs,16123 Bellflower Blvd,Bellflower,CA,90706,33.887981,-118.12537
+,Ralphs,14919 Whittier Blvd,Whittier,CA,90605,33.949257,-118.00759
+,Stater Bros,1425 W Arrow Hwy,San Dimas,CA,91773,34.106758,-117.83665
+,Gelson's,2734 Townsgate Rd,Westlake Village,CA,91361,34.153526,-118.82487
+,Vons,1440 W 25th St,San Pedro,CA,90732,33.72176,-118.31068
+,Ralphs,3827 Culver Ctr,Culver City,CA,90232,34.017612,-118.40765
+,Ralphs,1050 N Western Ave,San Pedro,CA,90732,33.752975,-118.30884
+,Ralphs,5035 Pacific Coast Hwy,Torrance,CA,90505,33.812084,-118.36752
+,Ralphs,9200 Lakewood Blvd,Downey,CA,90240,33.955585,-118.11284
+,Stater Bros,4721 Riverside Dr,Chino,CA,91710,34.018963,-117.70161
+,Northgate Gonzalez Market,580 W la Habra Blvd,La Habra,CA,90631,33.931831,-117.9521
+,Ralphs,160 N Lake Ave,Pasadena,CA,91101,34.148857,-118.13232
+,Ralphs,1200 N Central Ave,Glendale,CA,91202,34.164551,-118.25682
+,Vons,2725 Agoura Rd,Thousand Oaks,CA,91361,34.151154,-118.82652
+,Food 4 Less,851 Sepulveda Blvd,Torrance,CA,90502,33.809998,-118.28968
+,Ralphs,17250 Saticoy St,Van Nuys,CA,91406,34.208393,-118.50904
+,Food 4 Less,2185 E South St,Long Beach,CA,90805,33.86018,-118.16676
+,Food 4 Less,10901 Imperial Hwy,Norwalk,CA,90650,33.917198,-118.10111
+,Food 4 Less,3200 W Century Blvd,Inglewood,CA,90303,33.945442,-118.32847
+,Food 4 Less,5420 W Sunset Blvd,Los Angeles,CA,90027,34.098072,-118.30901
+,Ralphs,1413 Hawthorne Blvd,Redondo Beach,CA,90278,33.86673,-118.35275
+,Vons,745 E  NAOMI AVE,ARCADIA,CA,91007,34.123943,-118.05621
+,Stater Bros,375 N Azusa Ave,West Covina,CA,91791,34.076832,-117.90787
+,Food 4 Less,1329 N Lake Ave,Pasadena,CA,91104,34.168861,-118.13232
+,Food 4 Less,11840 Wilmington Ave,Los Angeles,CA,90059,33.925591,-118.23898
+,Gelson's,13455 Maxella Ave,Marina del Rey,CA,90292,33.986904,-118.44102
+,Vons,780 N Brea Blvd,Brea,CA,92821,33.93177,-117.89402
+,Stater Bros,6501 E Spring St,Long Beach,CA,90808,33.810604,-118.10532
+,Food 4 Less,14500 Ocean Gate Ave,Hawthorne,CA,90250,33.900181,-118.36698
+,Northgate Gonzalez Market,21423 Norwalk Blvd,Hawaiian Gardens,CA,90716,33.834877,-118.07211
+,Vons,5949 E Spring St,Long Beach,CA,90808,33.810616,-118.11568
+,Stater Bros,17220 Lakewood Blvd,Bellflower,CA,90706,33.875381,-118.14257
