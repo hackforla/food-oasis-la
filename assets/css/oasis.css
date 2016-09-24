@@ -344,6 +344,11 @@
 		color: rgb(77, 85, 148); /* @blueberry */
 		color: rgba(1, 147, 223, 1); /* @berryblue */
 	}
+	.food-source-list .grocery-misc h2 {
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgba(1, 147, 223, 1); /* @berryblue */
+	}
 	.food-source-list .farmers-market h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @blueberry */
@@ -1095,6 +1100,16 @@
 		background-color: rgb(77, 85, 148); /* @blueberry */
 		background-color: rgba(40, 137, 187, 1); /* @berryblue */
 	}
+	.map-filters .grocery-misc,
+	.map-filters .grocery-misc:hover,
+	.map-filters .grocery-misc:active,
+	.map-filters .grocery-misc:focus {
+		background-color: rgb(209, 43, 43); /* @apple */
+		background-color: rgb(144, 194, 70); /* @lime */
+		background-color: rgb(241, 95, 91); /* @strawberry */
+		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgba(40, 137, 187, 1); /* @berryblue */
+	}
 	.map-filters .supermarket,
 	.map-filters .supermarket:hover,
 	.map-filters .supermarket:active,
@@ -1473,6 +1488,15 @@
 		border-radius: 50%;
 		vertical-align: middle;
 	}
+		body.find main .categories .link-list .grocery-misc .icon {
+		background: rgba(144, 194, 70, 1); /* @lime */
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgba(40, 137, 187, 1); /* @berryblue */
+		padding: 0.375em;
+		border-radius: 50%;
+		vertical-align: middle;
+	}
 		body.find main .categories .link-list .supermarket .icon {
 		background: rgba(144, 194, 70, 1); /* @lime */
 		background: rgb(241, 95, 91); /* @strawberry */
@@ -1494,6 +1518,11 @@
 		background: rgb(211, 16, 134); /* @dragonfruit */
 	}
 .disabled	body.find .categories .link-list a[href*="grocery-store"] .icon {
+		background: rgb(241, 95, 91); /* @strawberry */
+		background: rgb(144, 194, 70); /* @lime */
+		background: rgba(40, 137, 187, 1); /* @berryblue */
+	}
+.disabled	body.find .categories .link-list a[href*="grocery-misc"] .icon {
 		background: rgb(241, 95, 91); /* @strawberry */
 		background: rgb(144, 194, 70); /* @lime */
 		background: rgba(40, 137, 187, 1); /* @berryblue */
