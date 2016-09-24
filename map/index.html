@@ -122,6 +122,7 @@ layout: null
 		<p class="phone"></p>
 		<h4>Hours</h4>
 		<p class="hours"></p>
+		<a class="flag" href="mailto:contact@foodoasis.la">Flag this Business!</a>
 	</div>
 	</script>
 
@@ -365,6 +366,12 @@ layout: null
 
 				hoursElement.parentNode.removeChild(hoursElement);
 			}
+
+			// Flag
+			// URL: https://form.jotform.com/62638504761156?businessName=[name]&address=[address]&category=[category]&longitude=[lon]&latitude=[lat]
+
+			var flagElement = element.querySelector('.flag');
+			flagElement.setAttribute("href","https://form.jotform.com/62638504761156?businessName="+data.name+"&address="+data.address+"&category="+data.type+"&longitude="+01+"&latitude="+02)
 
 			return element;
 		}
