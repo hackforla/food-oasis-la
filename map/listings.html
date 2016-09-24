@@ -65,10 +65,16 @@ layout: null
 	<!-- Jim’s Google Maps API key -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 	
-	<script src="mapFunctionalities.html"></script>
-	<script src="mapJsonData.js"></script> 
-	
+	<script src="functionalities/mapFunctionalities.js"></script>
+	<script src="functionalities/mapJsonData.js"></script> 
+	<script src="functionalities/getUserLocation.js"></script>
+	<script src="functionalities/filtering.js"></script>
+	<script src="functionalities/locationList.js"></script>
+	<script src="functionalities/storesData.js"></script>
+	<script src="../json/community-gardens-json.js"></script>
+
 	<script>
+		console.log("checking that changes worked");
 		// This will let you use the .remove() function later on
 		if (!('remove' in Element.prototype)) {
 			Element.prototype.remove = function() {
@@ -93,303 +99,6 @@ layout: null
 		// Add map navigational functionality
 		map.addControl(new mapboxgl.Navigation({position: 'bottom-left'}));
 
-
-		// Link to mapbox tilesets
-		// map.addSource('Food Bank', {
-		// 	type: 'vector',
-		// 	url: 'mapbox://fooddesertsla.c1nwj97w'
-		// });
-
-//		var foodbanks = 
-
-		var stores =
-
-		{
-			"type": "FeatureCollection",
-			"features": [
-
-			{% for food_source in site.data['food-banks'] %}
-			  {
-				"type": "Feature",
-				"geometry": {
-				  "type": "Point",
-				  "coordinates": [
-					{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-				  ]
-				},
-				"properties": {
-						"name": "{{ food_source['name'] }}",
-				  //"phone": "{{ food_source['phone'] }}",
-				  "address": "{{ food_source['address'] }}",
-						//"hours": "{{ food_source['hours'] }}",
-						"type": "food-bank"
-				}
-			  },
-				{% endfor %}
-
-// TBD: These are throwing errors so disable for now
-{% if false %}
-			{% for food_source in site.data['community-gardens'] %}
-			  {
-				"type": "Feature",
-				"geometry": {
-				  "type": "Point",
-				  "coordinates": [
-					{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-				  ]
-				},
-
-				"properties": {
-						"name": "{{ food_source['name'] }}",
-				 "address": "{{ food_source['address'] | line_returns_to_html }}",
-						"type": "community-garden"
-				}
-			  },
-				{% endfor %}
-			
-			{% for food_source in site.data['farmers-markets'] %}
-			  {
-				"type": "Feature",
-				"geometry": {
-				  "type": "Point",
-				  "coordinates": [
-					{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-				  ]
-				},
-
-				"properties": {
-						"name": "{{ food_source['name'] }}",
-				 "address": "{{ food_source['address'] }}",
-						"type": "farmers-market"
-				}
-			  },
-				{% endfor %}
-			
-			{% for food_source in site.data['supermarkets'] %}
-			  {
-				"type": "Feature",
-				"geometry": {
-				  "type": "Point",
-				  "coordinates": [
-					{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
-				  ]
-				},
-
-				"properties": {
-						"name": "{{ food_source['name'] }}",
-				 "address": "{{ food_source['StreetAddress'] }}",
-						"type": "supermarket"
-				}
-			  },
-				{% endfor %}
-{% endif %}
-
-			],
-
-		}
-
-		function buildLocationList(data) {
-			console.log('inside buildlocationlist');
-			// Iterate through the list of stores
-			for (i = 0; i < data.features.length; i++) {
-				var currentFeature = data.features[i];
-				// Shorten data.feature.properties to just `prop` so we're not
-			// writing this long form over and over again.
-				var prop = currentFeature.properties;
-				// Select the listing container in the HTML and append a div
-			// with the class 'item' for each store
-				var listings = document.getElementById('listings');
-				var listing = listings.appendChild(document.createElement('div'));
-				listing.className = 'item';
-				listing.id = "listing-" + i;
-
-				// Create a new link with the class 'title' for each store
-				// and fill it with the store address
-				var link = listing.appendChild(document.createElement('a'));
-					link.href = '#';
-					link.className = 'title';
-					link.dataPosition = i;
-					link.innerHTML = prop.name;
-				
-				// Create a new div with the class 'details' for each store
-				// and fill it with the city and phone number
-
-				var locationAddress = listing.appendChild(document.createElement('div'));
-				locationAddress.innerHTML = prop.address;
-
-				// Create a new div with the class 'details' for each store
-				// and fill it with the city and phone number
-				var details = listing.appendChild(document.createElement('div'));
-				var detailsHTML = "";
-				if (prop.phone) detailsHTML += "Phone: " + prop.phone;
-				if (prop.hours) detailsHTML += (prop.phone ? ' &middot ' : '') + "Hours: " + prop.hours;
-				details.innerHTML = detailsHTML;
-
-				// Add an event listener for the links in the sidebar listing
-				link.addEventListener('click', function(e){
-					// Update the currentFeature to the store associated with the clicked link
-					var clickedListing = data.features[this.dataPosition];
-					// 1. Fly to the point associated with the clicked link
-					flyToStore(clickedListing);
-					// 2. Close all other popups and display popup for clicked store
-					showPopup(clickedListing);
-					// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-					var activeItem = document.getElementsByClassName('active-listing-item');
-						if (activeItem[0]) {
-						 activeItem[0].classList.remove('active-listing-item');
-					}
-
-					this.parentNode.classList.add('active-listing-item');
-				});
-			}
-		}
-							//FILTERING FUNCTIONALITY //
-	var fbClicked = true; 
-	function foodBankFilter() {
-		var fb = document.getElementsByClassName("food-bank-marker")
-		if(fbClicked === true) {
-			for(var i = 0; i < fb.length; i++) {
-				fb[i].style.visibility = "hidden";
-			}
-			fbClicked = false; 
-		} else {
-			for(var i = 0; i < fb.length; i++) {
-				fb[i].style.visibility = "visible";
-			fbClicked = true;
-			}
-		}
-	}
-
-	var fmClicked = true; 
-	function farmersMarketFilter() {
-		var fm = document.getElementsByClassName("farmers-market-marker");
-		if(fmClicked === true) {
-			for(var i = 0; i < fm.length; i++) {
-				fm[i].style.visibility = "hidden";
-			}
-			fmClicked = false;
-		} else {
-			for(var i = 0; i < fm.length; i++) {
-				fm[i].style.visibility = "visible";
-			}
-			fmClicked = true;
-		}
-	}
-
-	var cgClicked = true; 
-	function communityGardenFilter() {
-		var cm = document.getElementsByClassName("community-garden-marker");
-		if(cgClicked === true){
-			for(var i = 0; i < cm.length; i++) {
-				cm[i].style.visibility = "hidden";
-			}
-			cgClicked = false;
-		} else {
-			for(var i = 0; i < cm.length; i++) {
-				cm[i].style.visibility = "visible";
-			}
-			cgClicked = true;
-		}
-	}
-
-	var smClicked = true; 
-	function supermarketFilter() {
-		var sm = document.getElementsByClassName("supermarket-marker");
-		if(sgClicked === true){
-			for(var i = 0; i < sm.length; i++) {
-				sm[i].style.visibility = "hidden";
-			}
-			sgClicked = false;
-		} else {
-			for(var i = 0; i < sm.length; i++) {
-				sm[i].style.visibility = "visible";
-			}
-			sgClicked = true;
-		}
-	}
-
-							// END FILTERING FUNCTIONALITY //
-
-
-								// USER'S GEOLOCATION //
-
-		function geocodeAddress(address, callback) {
-			var geocoder = new google.maps.Geocoder();
-
-			geocoder.geocode({'address': address}, function(results, status) {
-				if (status === google.maps.GeocoderStatus.OK) {
-
-					var longitude = results[0].geometry.location.lng();
-					var latitude  = results[0].geometry.location.lat();
-
-					callback([longitude, latitude]);
-
-				} else {
-					console.error('Geocode was not successful for the following reason: ' + status);
-				}
-			});
-		}
-
-		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
-		
-		function getParameterByName(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-					results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, " "));
-		}
-
-		function findUserLocation() {
-			var address = getParameterByName('address');
-
-			if (address) {
-
-				// Add Los Angeles to the address
-				if (address.indexOf('Los Angeles') < 0) {
-					address += ' Los Angeles';
-				}
-
-				geocodeAddress(address, moveMapToPosition);
-
-			// Grab user's location on page-load
-			} else if ("geolocation" in navigator) {
-				navigator.geolocation.getCurrentPosition(function(position) {
-
-					// Set new starting location
-					var myCoords = [position.coords.longitude, position.coords.latitude];
-					moveMapToPosition(myCoords);
-
-				}, function() {
-					console.error("Unable to retrieve your location");
-				});
-			}
-			console.log('current coords ' + myCoords);
-		}
-
-		function moveMapToPosition(position) {
-			 map.setZoom(14);
-			 map.panTo(position);
-
-			var template = document.getElementById('you-are-here-template');
-			if (template) {
-				var marker = document.createElement('div');
-				marker.innerHTML = template.innerHTML;
-
-				new mapboxgl.Marker(marker)
-					.setLngLat(position)
-					.addTo(map);
-			}
-		}
-
-						// END USER'S GEOLOCATION //
-
 		function flyToStore(currentFeature) {
 			map.flyTo({
 				center: currentFeature.geometry.coordinates,
@@ -398,10 +107,8 @@ layout: null
 		}
 
 		var popup;
+
 		function showPopup(feature) {
-			//var popUps = document.getElementsByClassName('mapboxgl-popup');
-			// Check if there is already a popup on the map and if so, remove it
-			//if (popUps[0]) popUps[0].remove();
 
 			if (!popup) {
 				popup = new mapboxgl.Popup({
@@ -409,17 +116,6 @@ layout: null
 					closeOnClick: false
 				});
 			}
-
-			//var markerType = currentFeature.properties.type;
-
-			/*
-			var popup = new mapboxgl.Popup()
-				.setLngLat(currentFeature.geometry.coordinates)
-				.setHTML('<h3 id=' + markerType + '>' + currentFeature.properties.name + '</h3>' + 
-					'<h4>' + "Address: " + currentFeature.properties.address + '<br />' + "Phone: " + currentFeature.properties.phone 
-					+ '<br />' + "Hours: " + currentFeature.properties.hours + '<br />' + "Open Now!" + '</h4>')
-				.addTo(map);
-			*/
 
 			var element = createPopupElement(feature);
 
@@ -524,52 +220,9 @@ layout: null
 				"data": stores
 			});
 
-			// Add a layer to the map with styling rules to render the source
-			// map.addLayer({
-			// 	"id": "locations",
-			// 	"type": "symbol",
-			// 	"source": "places",
-			// 	"layout": {
-			// 		"icon-image": "restaurant-15",
-			// 		"icon-allow-overlap": true,
-			// 	}
-			// });
-
-			// Initialize the list
 			buildLocationList(locations);
 
 		});
-
-		// Add an event listener for when a user clicks on the map
-		/*
-		map.on('click', function (e) {
-			// Query all the rendered points in the view
-			var features = map.queryRenderedFeatures(e.point, { layers: ['locations'] });
-			if (features.length) {
-				var clickedPoint = features[0];
-				// 1. Fly to the point
-				flyToStore(clickedPoint);
-				// 2. Close all other popups and display popup for clicked store
-				showPopup(clickedPoint);
-				// 3. Highlight listing in sidebar (and remove highlight for all other listings)
-				var activeItem = document.getElementsByClassName('active-listing-item');
-				
-				if (activeItem[0]) {
-					activeItem[0].classList.remove('active-listing-item');
-				}
-				
-				// Find the index of the store.features that corresponds to the clickedPoint that fired the event listener
-				for (var i = 0; i < stores.features.length; i++ ) {
-					if (stores.features[i].properties.name === clickedPoint.properties.name) {
-						selectedFeatureIndex = i;
-					}
-				}
-				// Select the correct list item using the found index and add the active class
-				var listing = document.getElementById('listing-' + selectedFeatureIndex);
-				listing.classList.add('active-listing-item');
-			}
-		});
-		*/
 
 		stores.features.forEach(function(marker) {
 			// Create a div element for the marker
@@ -616,6 +269,7 @@ layout: null
 		});
 
 		findUserLocation();
+		console.dir("checking for community gardens " + communityGardensLocations);
 
 	</script>
 

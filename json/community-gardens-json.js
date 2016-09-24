@@ -2,7 +2,7 @@
 layout: null
 ---
 
-var locations = [
+var communityGardensLocations = [
 
     {% for food_source in site.data['community-gardens'] %}
 
