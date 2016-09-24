@@ -63,6 +63,9 @@ layout: null
 
 	<!-- Jim’s Google Maps API key -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
+	
+	<script src="mapFunctionalities.js"></script>
+	
 	<script>
 		// This will let you use the .remove() function later on
 		if (!('remove' in Element.prototype)) {
@@ -169,6 +172,7 @@ layout: null
 		}
 
 		function buildLocationList(data) {
+			console.log('inside buildlocationlist');
 			// Iterate through the list of stores
 			for (i = 0; i < data.features.length; i++) {
 				var currentFeature = data.features[i];
@@ -572,6 +576,7 @@ layout: null
 		});
 
 		findUserLocation();
+
 	</script>
 
 </body>
