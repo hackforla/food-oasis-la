@@ -265,3 +265,19 @@
 			font-size: 35px;
 		}
 
+
+
+		/* TEMPORARY: Hide the sidebar  */
+		.sidebar {
+			display: none;
+		}
+		div.map {
+			left: 0;
+			width: 100%;
+		}
+		.map-filters {
+			left: 1.5em;
+		}
+
+
+
