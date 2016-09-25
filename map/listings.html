@@ -9,7 +9,7 @@ layout: null
 
 	<title>Map, Food Oasis Los Angeles</title>
 	
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans" />
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
 	<!-- For Mapbox -->
@@ -31,12 +31,14 @@ layout: null
 		<div id='listings' class='listings'></div>
 	</div>
 
-	<ul class="filters">
-		<li><button onclick="foodBankFilter()" id="fb-filter">Food Banks</button></li>
-		<li><button onclick="communityGardenFilter()" id="cg-filter">Community Gardens</button></li>
-		<li><button onclick="farmersMarketFilter()" id="fm-filter">Farmers’ Markets</button></li>
-		<li><button onclick="supermarketFilter()" id="fm-filter">Supermarkets</button></li>
-	</ul>
+	<nav class="map-filters">
+		<ul>
+			<li><button class="food-bank" onclick="foodBankFilter()" id="fb-filter">Food Banks</button></li>
+			<li><button class="community-garden" onclick="communityGardenFilter()" id="cg-filter">Community Gardens</button></li>
+			<li><button class="farmers-market" onclick="farmersMarketFilter()" id="fm-filter">Farmers’ Markets</button></li>
+			<li><button class="farmers-market" onclick="supermarketFilter()" id="fm-filter">Supermarkets</button></li>
+		</ul>
+	</nav>
 
 	<!--<ul class="filters">
 		<button onclick="foodBankFilter()"><li id="fb-filter"><a href="?type=food-banks">Food Banks</a></li></button>
