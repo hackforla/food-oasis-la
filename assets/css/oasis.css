@@ -333,7 +333,7 @@
 		text-decoration: underline;
 	}
 
-	.food-source-list .food-bank h2 {
+	.food-source-list .food-pantry h2 {
 		color: rgb(249, 192, 88); /* @canteloupe */
 	}
 	.food-source-list .community-garden h2 {
@@ -1074,10 +1074,10 @@
 		min-width: 12em;
 		margin: 2px;
 	}
-	.map-filters .food-bank,
-	.map-filters .food-bank:hover,
-	.map-filters .food-bank:active,
-	.map-filters .food-bank:focus {
+	.map-filters .food-pantry,
+	.map-filters .food-pantry:hover,
+	.map-filters .food-pantry:active,
+	.map-filters .food-pantry:focus {
 		background-color: rgb(249, 192, 88); /* @canteloupe */
 	}
 	.map-filters .community-garden,
@@ -1510,7 +1510,7 @@
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-.disabled	body.find .categories .link-list a[href*="food-bank"] .icon {
+.disabled	body.find .categories .link-list a[href*="food-pantry"] .icon {
 		background: rgb(249, 192, 88); /* @canteloupe */
 	}
 .disabled	body.find .categories .link-list a[href*="community-garden"] .icon {
