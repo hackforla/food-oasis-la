@@ -145,7 +145,7 @@ layout: null
 		
 		{
 			name: 'food-pantry',
-			label: 'Food Pantrie',
+			label: 'Food Pantry',
 			sourceLayer: 'Food-Pantries_09-24-50izc5',
 			sourceURL: 'mapbox://foodoasisla.47r06atm',
 			color: 'rgba(249, 192, 88, 0.75)' /* @banana */
@@ -522,7 +522,13 @@ layout: null
 			button.type = "button";
 			button.className = data.name;
 			button.setAttribute('data-type', data.name);
-			button.textContent = data.label + 's'; // SHIM: Pluralize
+			
+			if (data.label.endsWith('y')) {
+			 	button.textContent = data.label.replace('y','ies');
+			}
+			else {
+				button.textContent = data.label + 's'; // SHIM: Pluralize
+			}
 
 			button.addEventListener('click', function(e) {
 				e.preventDefault();
