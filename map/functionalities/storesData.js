@@ -14,14 +14,14 @@ var stores =
 				"geometry": {
 				  "type": "Point",
 				  "coordinates": [
-					{{ food_source['longitude'] }},
-							 {{ food_source['latitude'] }}
+					{{ food_source['Longitude'] }},
+							 {{ food_source['Latitude'] }}
 				  ]
 				},
 				"properties": {
-						"name": "{{ food_source['name'] }}",
+						"name": "{{ food_source['Name'] }}",
 				  //"phone": "{{ food_source['phone'] }}",
-				  "address": "{{ food_source['address'] }}",
+				  "address": "{{ food_source['Address'] }}",
 						//"hours": "{{ food_source['hours'] }}",
 						"type": "food-bank"
 				}
