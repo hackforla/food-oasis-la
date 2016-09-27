@@ -2388,3 +2388,638 @@ UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
 ,TOAD'S DISCOUNT LIQUOR & DELI,9001 Atlantic Ave,South Gate,CA,90280,33.949261,-118.1822
 ,Valley Liquor & Fine Wines,7357 Van Nuys Blvd,Van Nuys,CA,91405,34.204632,-118.44878
 ,ROYAL LIQUOR MART,5472 W Adams Blvd,Los Angeles,CA,90016,34.032444,-118.36243
+,Palmdale Smoke,2531 Olive Dr,Palmdale,CA,93550,34.556618,-118.08437
+,Smoke Video Plus,551 W Avenue J,Lancaster,CA,93534,34.689472,-118.13716
+,Montana Smoke Shop And Mini Market,1905 S Western Ave,Los Angeles,CA,90018,34.039623,-118.30902
+,BD Smoke Shop,626 E Manchester Ave,Los Angeles,CA,90001,33.960102,-118.26472
+,Almost Free Smoke And Gift Shop,472 S Market St,Inglewood,CA,90301,33.957355,-118.35203
+,99 Cent And Smoke Shop,10122 S Figueroa St,Los Angeles,CA,90003,33.944012,-118.2826
+,Smokeshop,38332 30th St E,Palmdale,CA,93550,34.579636,-118.07622
+,Village Smoke Shop,336 E Avenue I,Lancaster,CA,93535,34.704021,-118.1249
+,99 Cent Smoke Shop,4427 S Western Ave,Los Angeles,CA,90062,34.003124,-118.30896
+,Smoke N Mart,412 W Avenue J,Lancaster,CA,93534,34.689411,-118.13399
+,101 Mini Mart And Smoke Shop,1665 W Martin Luther King Jr Blvd,Los Angeles,CA,90062,34.01088,-118.30831
+,Circle K,4200 Chino Hills Pkwy,Chino Hills,CA,91709,33.982738,-117.71253
+,Circle K,28005 Seco Canyon Rd,Santa Clarita,CA,91390,34.460644,-118.53439
+,Circle K,8451 Slauson Ave,Pico Rivera,CA,90660,33.973736,-118.11353
+,Circle K,2210 D St,La Verne,CA,91750,34.099628,-117.77047
+,Circle K,5941 State St,Huntington Park,CA,90255,33.988365,-118.21284
+,Circle K,12004 Ramona Blvd,El Monte,CA,91732,34.075264,-118.01254
+,Circle K,12358 Central Ave,Chino,CA,91710,34.028839,-117.68954
+,Circle K,12806 Prairie Ave,Hawthorne,CA,90250,33.9161,-118.34385
+,Circle K,21216 Pacific Coast Hwy,Malibu,CA,90265,34.036972,-118.63702
+,Circle K,13750 Los Angeles St,Baldwin Park,CA,91706,34.092075,-117.97421
+,Circle K,765 N Sepulveda Blvd,El Segundo,CA,90245,33.926521,-118.39648
+,Circle K,520 W Rancho Vista Blvd,Palmdale,CA,93551,34.601765,-118.1211
+,Circle K,18755 Via Princessa,Canyon Country,CA,91387,34.405373,-118.46453
+,Circle K,4008 Grand Ave,Chino,CA,91710,33.997257,-117.71617
+,Circle K,15960 Los Serranos,Chino Hills,CA,91709,33.950821,-117.72491
+,Circle K,14220 Chino Hills Pkwy,Chino Hills,CA,91709,33.99511,-117.75821
+,Circle K,6510 Butterfield Ranch Rd,Chino Hills,CA,91709,33.930038,-117.66315
+,Circle K,2343 W Avenue J,Lancaster,CA,93536,34.689465,-118.17331
+,Circle K,1865 Manhattan Beach Blvd,Manhattan Beach,CA,90266,33.887447,-118.37913
+,Circle K,524 W Adams Blvd,Los Angeles,CA,90007,34.027721,-118.27522
+,Circle K,392 N Lake Ave,Pasadena,CA,91101,34.152519,-118.13225
+,Circle K,5553 White Oak Ave,Encino,CA,91316,34.17186,-118.51859
+,Circle K,2010 S Hacienda Blvd,Hacienda Heights,CA,91745,33.996948,-117.96773
+,Circle K,504 N Diamond Bar Blvd,Diamond Bar,CA,91765,34.029037,-117.81039
+,Circle K,5871 E Spring St,Long Beach,CA,90808,33.81065,-118.11742
+,Circle K,27706 McBean Pkwy,Valencia,CA,91354,34.444611,-118.55331
+,Circle K,2114 Verdugo Blvd,Montrose,CA,91020,34.204803,-118.22372
+,Circle K,12000 Paramount Blvd,Downey,CA,90242,33.933041,-118.14509
+,Circle K,1150 W Pacific Coast Hwy,Harbor City,CA,90710,33.790035,-118.29715
+,Circle K,1030 S Hacienda Blvd,Hacienda Heights,CA,91745,34.011139,-117.96268
+,Circle K,22240 Avalon Blvd,Carson,CA,90745,33.824421,-118.26356
+,Circle K,2529 S Santa Fe Ave,Vernon,CA,90058,34.01442,-118.23038
+,Circle K,3260 Chino Ave,Chino Hills,CA,91709,34.010906,-117.73547
+,Circle K,5001 Clara St,Cudahy,CA,90201,33.96468,-118.17818
+,Circle K,229 W 7th St,Los Angeles,CA,90014,34.044983,-118.25292
+,Circle K,20839 Valley Blvd,Walnut,CA,91789,34.015659,-117.85003
+,Circle K,21186 Hawthorne Blvd,Torrance,CA,90503,33.838154,-118.35356
+,Circle K,13041 Rosecrans Ave,Norwalk,CA,90650,33.902458,-118.05383
+,Circle K,9355 Somerset Blvd,Bellflower,CA,90706,33.896568,-118.13446
+,Circle K,1400 Carbon Canyon Rd,Chino Hills,CA,91709,33.953636,-117.77385
+,Circle K,14204 Rosecrans Ave,La Mirada,CA,90638,33.902431,-118.02878
+,Circle K,8609 Garvey Ave,Rosemead,CA,91770,34.06271,-118.08165
+,Circle K,16408 Orange Ave,Paramount,CA,90723,33.885021,-118.17744
+,Circle K,12604 Beverly Blvd,Whittier,CA,90601,33.988098,-118.04198
+,Circle K,1 E Hellman Ave,Alhambra,CA,91801,34.069798,-118.12226
+,Circle K,301 E Bonita Ave,San Dimas,CA,91773,34.106709,-117.80261
+,Circle K,5202 Peck Rd,El Monte,CA,91732,34.09668,-118.01155
+,Circle K,6804 Garfield Ave,Bell Gardens,CA,90201,33.969933,-118.14897
+,Circle K,3504 E Imperial Hwy,Lynwood,CA,90262,33.930653,-118.2086
+,1st Stop Mini Mart,420 E Florence Ave,Inglewood,CA,90301,33.96558,-118.36225
+,52 MINI MART,359 E 52nd St,Long Beach,CA,90805,33.850517,-118.18862
+,7 Kings Mini Market,17646 Lassen St,Northridge,CA,91325,34.250332,-118.51965
+,98 Cent Mini Market,5326 Avalon Blvd,Los Angeles,CA,90011,33.993591,-118.26517
+,A & D MINI MART,910 S Central Ave,Compton,CA,90220,33.887619,-118.24982
+,AA MINI MART,1601 CENTENILA AVE,INGLEWOOD,CA,90302,33.977024,-118.36729
+,Aby Mini Market,11642 Victory Blvd,North Hollywood,CA,91606,34.186653,-118.38594
+,Agnes Mini Market,6755 Agnes Ave,North Hollywood,CA,91606,34.193123,-118.39544
+,AJ MINI MARKET,4054 S Vermont Ave,Los Angeles,CA,90037,34.009731,-118.29149
+,Ajustina's Minimarket & Party Supply,6420 S Broadway,Los Angeles,CA,90003,33.981155,-118.27827
+,Albert Mini Market,5522 Hooper Ave,Los Angeles,CA,90011,33.99242,-118.2521
+,Alerik's Mini Market & Party Supply,3507 Venice Blvd,Los Angeles,CA,90019,34.043598,-118.32263
+,Ali Mini Mart,1614 W Florence Ave,Los Angeles,CA,90047,33.974545,-118.30523
+,Alondra Mini Market,3765 S Western Ave,Los Angeles,CA,90018,34.018822,-118.30895
+,Alp'z Mini Market,7512 S Hoover St,Los Angeles,CA,90044,33.971573,-118.28706
+,Am Pm Mini Mart,1210 Crenshaw Blvd,Torrance,CA,90501,33.836048,-118.32867
+,Amb Mini Market 1,369 Wall St,Los Angeles,CA,90013,34.046772,-118.24452
+,AMB Mini Market 1,437 E 7th St,Los Angeles,CA,90014,34.041664,-118.24806
+,Ana's Mini Market,5253 S Broadway,Los Angeles,CA,90037,33.994747,-118.2784
+,Angeles Mini Market,9202 S Vermont Ave,Los Angeles,CA,90044,33.952652,-118.29153
+,Angels Mini Market,1922 E 103rd St,Los Angeles,CA,90002,33.943111,-118.23804
+,Anthony's Mini Market,5600 S San Pedro St,Los Angeles,CA,90011,33.991463,-118.2701
+,AV Minimarket,8223 S Broadway,Los Angeles,CA,90003,33.964798,-118.27833
+,Avalon's Best Mini Market,11022 Avalon Blvd,Los Angeles,CA,90061,33.93491,-118.26516
+,B&B Mini Mart,4140 Crenshaw Blvd,Los Angeles,CA,90008,34.008652,-118.33507
+,Belle Porte Mini Mart,25305 Belle Porte Ave,Harbor City,CA,90710,33.794674,-118.30125
+,BEN'S MINI MARKET,14131 Vanowen St,Van Nuys,CA,91405,34.193996,-118.44067
+,BETO'S MINI MARKET,766 S Vermont Ave,Los Angeles,CA,90005,34.058262,-118.29156
+,Big T Mini Mart 1,240 W Main St,Alhambra,CA,91801,34.093765,-118.12976
+,Bunny's Mini Mart,906 S Willowbrook Ave,Compton,CA,90220,33.888271,-118.22353
+,C & J Mini Mart,11228 Wilmington Ave,Los Angeles,CA,90059,33.933117,-118.23898
+,California Deli Mini,13205 Osborne St,Arleta,CA,91331,34.246185,-118.42052
+,California Mini Mart,3109 Colima Rd,Hacienda Heights,CA,91745,33.981052,-117.97529
+,Canyon Mini Mart,18580 Via Princessa,Canyon Country,CA,91387,34.403187,-118.45956
+,Castano's Mini Market,5979 S Broadway,Los Angeles,CA,90003,33.985489,-118.27833
+,Castillos Mini Market,2195 Whittier Blvd,Los Angeles,CA,90023,34.035728,-118.21878
+,Charle's Mini Market & Party Rental,1854 W Washington Blvd,Los Angeles,CA,90007,34.039974,-118.29905
+,CIRCLE M MINI MARKET,12142 Downey Ave,Downey,CA,90242,33.928478,-118.14136
+,Courson Connection Mini Mart,1104 E Palmdale Blvd,Palmdale,CA,93550,34.579544,-118.10923
+,CRENSHAW MINI MARKET,6431 Crenshaw Blvd,Los Angeles,CA,90043,33.980988,-118.33094
+,Cris Jr's Mini Mart & 99 Cent Store,1134 E Imperial Hwy,Los Angeles,CA,90059,33.929432,-118.25517
+,Dani  Mini Market,5024 S Vermont Ave,Los Angeles,CA,90037,33.997108,-118.2915
+,Daniel Mini Market,3124 E Gage Ave,Huntington Park,CA,90255,33.980614,-118.2116
+,Day N Nite Mini Market,5101 Santa Monica Blvd,Los Angeles,CA,90029,34.090858,-118.30078
+,Desert Rose Mini Mart AV Ice Cream,106 E Avenue I,Lancaster,CA,93535,34.703964,-118.13003
+,Desoto Mini Market,9111 De Soto Ave,Chatsworth,CA,91311,34.235828,-118.58858
+,DIANA'S MINI MARKET,5509 Compton Ave,Los Angeles,CA,90011,33.992695,-118.2478
+,"Dominic Co., Inc",1995 Pacific Ave,Long Beach,CA,90806,33.793377,-118.19383
+,Don Juan Mini Market,10825 S San Pedro St,Los Angeles,CA,90061,33.93758,-118.26957
+,E J Mini Market,4600 S Central Ave,Los Angeles,CA,90011,34.001904,-118.25645
+,EDDIE'S MINI MART,11236 Whittier Blvd,Whittier,CA,90606,33.985683,-118.05787
+,EL MIGUELENO MINI MARKET,2688 W Pico Blvd,Los Angeles,CA,90006,34.047234,-118.29717
+,El Milagro Mini Market,6607 S San Pedro St,Los Angeles,CA,90003,33.979408,-118.26962
+,El Mini Discount Store,2801 Pasadena Ave,Los Angeles,CA,90031,34.079384,-118.21484
+,El Pulgarcito Mini Market,1661 W Martin Luther King Jr Blvd,Los Angeles,CA,90062,34.01088,-118.30827
+,EL TORITO MINI MARKET,3547 W Imperial Hwy,Inglewood,CA,90303,33.931026,-118.33402
+,Elisabel`s Mini Market,6027 S Hoover St,Los Angeles,CA,90044,33.984772,-118.2871
+,Epatlan Mini Market 1,4083 S Main St,Los Angeles,CA,90037,34.009434,-118.27404
+,Evelyn Mini Market,5610 S Main St,Los Angeles,CA,90037,33.991161,-118.27391
+,Express Mini Mart,1935 E Florence Ave,Los Angeles,CA,90001,33.974747,-118.23788
+,EZ Mini Mart,3648 Baldwin Park Blvd,Baldwin Park,CA,91706,34.078629,-117.97002
+,Family Mini Market,10801 Compton Ave,Los Angeles,CA,90059,33.93771,-118.2463
+,Family Mini Mart & Discount Tobacco,1410 E Pacific Coast Hwy,Long Beach,CA,90806,33.789806,-118.17406
+,Fernandos Mini Market,380 W 38th St,Los Angeles,CA,90037,34.014969,-118.27897
+,Fiesta Mini Market N/A,3657 Pomeroy St,Los Angeles,CA,90063,34.05151,-118.18598
+,FOOD PLAZA MINI MARKET,601 S Prairie Ave,Inglewood,CA,90301,33.95631,-118.34399
+,FOUNTAIN MINI MARKET,4878 Fountain Ave,Los Angeles,CA,90029,34.095348,-118.29549
+,Frank Hallak Jr Mini Market,12831 Norris Ave,Sylmar,CA,91342,34.303226,-118.45379
+,Galindo Mini Market 1,6720 S Central Ave,Los Angeles,CA,90001,33.9786,-118.2564
+,Garcia Mini Market,3207 Griffith Ave,Los Angeles,CA,90011,34.015274,-118.2605
+,GARCIA MINI MARKET 2,4050 Broadway Pl,Los Angeles,CA,90037,34.009956,-118.27808
+,Garcia Mini Market 2,2721 S Central Ave,Los Angeles,CA,90011,34.017197,-118.25564
+,Garcia's Mini Market,3803 S Main St,Los Angeles,CA,90037,34.012985,-118.27406
+,Garcia's Mini Market,450 E Vernon Ave,Los Angeles,CA,90011,34.003834,-118.26783
+,Garcia's Mini Market,1300 Firestone Blvd,Los Angeles,CA,90001,33.96014,-118.2513
+,Garcia's Mini Market  2 2,3700 S Main St,Los Angeles,CA,90007,34.014824,-118.27399
+,Genesis Mini Market,12020 Long Beach Blvd,Lynwood,CA,90262,33.918854,-118.20939
+,Gomez Mini Market,4645 Bowman Blvd,Los Angeles,CA,90032,34.08147,-118.18333
+,Goo Plus Mini Market,23433 S Western Ave,Torrance,CA,90501,33.813171,-118.30899
+,Grab N Go Mini Mart,1018 W Rosecrans Ave,Gardena,CA,90247,33.901871,-118.2925
+,GRANDE'S MINI MARKET,4350 Melrose Ave,Los Angeles,CA,90029,34.083549,-118.29542
+,Grandview Mini Market 2,1325 San Gabriel Blvd,Rosemead,CA,91770,34.044132,-118.08982
+,GTPN Mini Market,3535 W Imperial Hwy,Inglewood,CA,90303,33.931,-118.33422
+,Guadalupana Mini Market,5726 Santa Monica Blvd,Los Angeles,CA,90038,34.090721,-118.31443
+,H & K Mini Mart,829 E Vernon Ave,Los Angeles,CA,90011,34.003929,-118.26117
+,Haddad Mobil Mini Mart,18501 Soledad Canyon Rd,Canyon Country,CA,91351,34.41655,-118.45644
+,Harrys Mobil Mini Mart,110 E Palmdale Blvd,Palmdale,CA,93550,34.579811,-118.12913
+,Heidy Mini Market,8622 S Broadway,Los Angeles,CA,90003,33.959431,-118.27823
+,Hogan Postal Service /mini Market,1002 N Wilmington Ave,Compton,CA,90220,33.902782,-118.23795
+,Hollydale Mini Mart & Discount Store,5720 Imperial Hwy,South Gate,CA,90280,33.929943,-118.16911
+,Hope Mini Market,5300 S Hoover St,Los Angeles,CA,90037,33.994022,-118.28712
+,Imperial Mini Market 1,815 E Washington Blvd,Los Angeles,CA,90021,34.026264,-118.25407
+,International Mini Market,13992 Crenshaw Blvd,Gardena,CA,90249,33.90472,-118.32648
+,Ismael Mini Market,1201 S Greenwood Ave,Montebello,CA,90640,33.990795,-118.12192
+,Ivy Mini Market,663 N Heliotrope Dr,Los Angeles,CA,90004,34.083279,-118.29533
+,J & K Mini Market,6429 72nd St,Paramount,CA,90723,33.885468,-118.18469
+,J & M Mini Mart,7141 Winnetka Ave,Winnetka,CA,91306,34.200115,-118.57102
+,J & N Mini Mart,9421 Artesia Blvd,Bellflower,CA,90706,33.874882,-118.1333
+,J & S MINI MARKET,922 N ALVARADO,LOS ANGELES,CA,90026,34.052513,-118.2793
+,J.k Minimarket & Snackshop,10628 S San Pedro St,Los Angeles,CA,90003,33.939861,-118.26949
+,Jackie's Mini Market,10029 S Broadway,Los Angeles,CA,90003,33.945015,-118.27842
+,Jacobs Mini Market,8405 S Western Ave,Los Angeles,CA,90047,33.962482,-118.30904
+,Jatzel's Mini Market,14500 S Western Ave,Gardena,CA,90249,33.899952,-118.30912
+,JOE'S MINI MARKET,5200 York Blvd,Los Angeles,CA,90042,34.120605,-118.20248
+,Jose's Water Mini Market,9303 S Vermont Ave,Los Angeles,CA,90044,33.95203,-118.29192
+,JPS Mini Market,2601 W Pico Blvd,Los Angeles,CA,90006,34.047298,-118.29483
+,Julie's Mini Market,8223 S Western Ave,Los Angeles,CA,90047,33.963882,-118.30904
+,JUNIOR MINI MARKET,4310 McKinley Ave,Los Angeles,CA,90011,34.005497,-118.26083
+,K TWENTY MINI MART,1850 W Avenue K,Lancaster,CA,93534,34.674973,-118.16519
+,K'S MINI MARKET,16061 Vanowen St,Van Nuys,CA,91406,34.193966,-118.48314
+,Karen Mini Market,152 S Fresno St,Los Angeles,CA,90063,34.037769,-118.19939
+,Katcoot Mini Mart,4164 S Broadway,Los Angeles,CA,90037,34.007984,-118.27831
+,KRISTY'S MINI-MARKET,1632 E 33rd St,Los Angeles,CA,90011,34.010952,-118.245
+,La Bodeguita Mini Market,1135 N Summit Ave,Pasadena,CA,91103,34.165359,-118.14767
+,La Chelita Mini Market,13991 Prairie Ave,Hawthorne,CA,90250,33.904442,-118.34389
+,La Chiquita Mini Market,3307 E Florence Ave,Huntington Park,CA,90255,33.972469,-118.20796
+,La Especial Mini Market,3465 E 8th St,Los Angeles,CA,90023,34.02095,-118.20325
+,La Estrella Mini Market,15526 Paramount Blvd Ste K,Paramount,CA,90723,33.892078,-118.16002
+,La Guadalupana Mini Market 99 Cent,3800 Avalon Blvd,Los Angeles,CA,90011,34.011799,-118.26523
+,La Oaxaquena Mini Market,5642 Santa Monica Blvd,Los Angeles,CA,90038,34.090721,-118.31288
+,La Panchita Mini Market,5157 S Western Ave,Los Angeles,CA,90062,33.995754,-118.30897
+,La Tiendita Mini Market 1,4010 Tweedy Blvd,South Gate,CA,90280,33.943748,-118.20171
+,La Vaquita Mini Market,14539 Blythe St,Panorama City,CA,91402,34.215229,-118.45009
+,LANKERSHIM MINI MARKET,7614 Lankershim Blvd,North Hollywood,CA,91605,34.208912,-118.38776
+,LEON'S MINI MARKET,7111 S Main St,Los Angeles,CA,90003,33.975231,-118.27397
+,Leyva's Mini Market,1358 W 54th St,Los Angeles,CA,90037,33.993202,-118.29984
+,LIANA'S MINI MARKET,5171 Venice Blvd,Los Angeles,CA,90019,34.04501,-118.353
+,Liza's Mini Market,973 S Lorena St,Los Angeles,CA,90023,34.025837,-118.20223
+,Loma Mini Market,1600 Loma Ave,Long Beach,CA,90804,33.786812,-118.15023
+,Lomita Mini Market,2146 1/2 Lomita Blvd,Lomita,CA,90717,33.801876,-118.31879
+,Los 3 Hernandez Mini Market,1301 W Jefferson Blvd,Los Angeles,CA,90007,34.025547,-118.29494
+,LUCY'S MINI MARKET,2420 E Pacific Coast Hwy,Long Beach,CA,90804,33.789833,-118.16272
+,Lupita's Mini Market,9420 S Figueroa St,Los Angeles,CA,90003,33.950333,-118.28268
+,Lupitas Mini Market,2300 Whittier Blvd,Los Angeles,CA,90023,34.034836,-118.2168
+,M & K Mini Market,4117 S Central Ave,Los Angeles,CA,90011,34.008659,-118.25655
+,M S Mini Mart 1,17531 Central Ave,Carson,CA,90746,33.871979,-118.24879
+,M.A.C.7 MINI SUPER MART,3859 Broadway Pl,Los Angeles,CA,90037,34.012226,-118.27673
+,Magic Buzz Mini Market & Tobacco,304 E Holt Ave,Pomona,CA,91767,34.062473,-117.7456
+,Majers Mini Market,1648 San Fernando Rd,San Fernando,CA,91340,34.289368,-118.44854
+,Manriquez Mini-Market,7614 S San Pedro St,Los Angeles,CA,90003,33.970901,-118.26953
+,Manuel Mini Market 1,206 W Adams Blvd,Los Angeles,CA,90007,34.025856,-118.27099
+,MARCE'S MINI MARKET,4162 Avalon Blvd,Los Angeles,CA,90011,34.007771,-118.26525
+,Maria Aranda Mini Market,4703 Compton Ave,Los Angeles,CA,90011,34.00098,-118.24785
+,Maria's Mini Market,4730 S Normandie Ave,Los Angeles,CA,90037,33.999947,-118.30016
+,Marisela Mini Marker,2146 Venice Blvd,Los Angeles,CA,90006,34.04356,-118.30413
+,Martha's Mini Market,4122 Hooper Ave,Los Angeles,CA,90011,34.008484,-118.25208
+,Mary Mini Market,5025 S Broadway,Los Angeles,CA,90037,33.997135,-118.27836
+,Mateo's Mini Market,758 E 79th St,Los Angeles,CA,90001,33.967422,-118.26093
+,Maya Mini Market,1481 W Adams Blvd,Los Angeles,CA,90007,34.032795,-118.29382
+,Mayas Mini Market,1563 Venice Blvd,Los Angeles,CA,90006,34.044319,-118.28773
+,Mayra's Drive-Thru Mini Market,1990 Martin Luther King Jr Ave,Long Beach,CA,90806,33.793011,-118.18064
+,Maywood Mini Market,5720 Maywood Ave,Maywood,CA,90270,33.990681,-118.20327
+,MC Veronica's Mini Market,7914 S Vermont Ave,Los Angeles,CA,90044,33.967628,-118.29142
+,Mel Mars Mini Mart,44645 Sierra Hwy,Lancaster,CA,93534,34.693947,-118.13626
+,Melany Mini Market,6512 S Hoover St,Los Angeles,CA,90044,33.980129,-118.28703
+,Metro Mini Market,1262 Long Beach Blvd,Long Beach,CA,90813,33.782253,-118.1892
+,MF Mini Market 2,4509 W Pico Blvd,Los Angeles,CA,90019,34.048569,-118.33408
+,Mi Changarito Mini Market,7680 S Central Ave,Los Angeles,CA,90001,33.96994,-118.25639
+,Mi Chapita Mini Market,5724 S Broadway,Los Angeles,CA,90037,33.990063,-118.27827
+,Mi Ranchito Mini Market 1,1060 E Palmdale Blvd,Palmdale,CA,93550,34.57951,-118.11047
+,Mi Rey Mini Market,9420 State St,South Gate,CA,90280,33.949883,-118.21288
+,MIA'S MINI MARKET,8750 S Broadway,Los Angeles,CA,90003,33.957905,-118.27817
+,Mia's Mini Market,3900 Denker Ave,Los Angeles,CA,90062,34.015308,-118.3045
+,Mina Mini Market,7626 S Vermont Ave,Los Angeles,CA,90044,33.96991,-118.29137
+,MINI A-1 MART,11550 Colima Rd,Whittier,CA,90604,33.925365,-118.02415
+,Mini Food Mart,4189 S Figueroa St,Los Angeles,CA,90037,34.007221,-118.28278
+,Mini Market,647 W Florence Ave,Los Angeles,CA,90044,33.974689,-118.28504
+,Mini Market,8070 Wilcox Ave,Bell Gardens,CA,90201,33.960285,-118.1792
+,Mini Market 1,9101 S Western Ave,Los Angeles,CA,90047,33.95435,-118.30905
+,Mini Market Acosta,2805 S Vermont Ave,Los Angeles,CA,90007,34.029343,-118.29158
+,Mini Market Chiquis & Mocha,11552 Vanowen St,North Hollywood,CA,91605,34.193916,-118.38357
+,Mini Market El Primo,7850 Seville Ave,Huntington Park,CA,90255,33.967186,-118.22237
+,Mini Market Huetamo,2555 W Olympic Blvd,Los Angeles,CA,90006,34.052483,-118.28637
+,Mini Market Jurema,852 E Manchester Ave,Los Angeles,CA,90001,33.960133,-118.25891
+,Mini Market Martha's  99 1,508 S Rowan Ave,Los Angeles,CA,90063,34.030121,-118.18737
+,Mini Market on Main St,9103 S Main St,Los Angeles,CA,90003,33.953461,-118.27391
+,Mini Market Rosita,8400 California Ave,South Gate,CA,90280,33.959805,-118.20509
+,Mini Market Tobacco,852 W Holt Ave,Pomona,CA,91768,34.062,-117.76432
+,Mini Max Market,4051 Gage Ave,Bell,CA,90201,33.978828,-118.19447
+,Mini Mercadito In E.l.a.,3425 E 1st St,Los Angeles,CA,90063,34.036667,-118.19387
+,Mini Super Market,2405 E Slauson Ave,Huntington Park,CA,90255,33.989239,-118.22987
+,Miranda Mini Market,136 E Martin Luther King Jr Blvd,Los Angeles,CA,90011,34.011124,-118.27251
+,Mirandas Mini Market,4122 Whittier Blvd,Los Angeles,CA,90023,34.023914,-118.18177
+,Mjb Video & Mini Market,4459 Beverly Blvd,Los Angeles,CA,90004,34.076283,-118.30585
+,"Mjm Vallejo Mini-mart,inc. 82379",16804 Downey Ave,Paramount,CA,90723,33.88168,-118.15128
+,"Mjm Vallejo Mini-mart,inc. 82638",10717 Carmenita Rd,Whittier,CA,90605,33.936123,-118.04638
+,Moises Mini Market,1401 E Vernon Ave,Los Angeles,CA,90011,34.003948,-118.24996
+,Mom And Dad Mini Mart 0,601 E Manchester Ave,Los Angeles,CA,90001,33.960155,-118.26502
+,Monarca's Mini Market,3601 S San Pedro St,Los Angeles,CA,90011,34.013618,-118.26642
+,MONTOYA'S MINI  MARKET,6726 S San Pedro St,Los Angeles,CA,90003,33.978043,-118.26954
+,New Downtown Cafe & Mini Market,241 E 7th St,Los Angeles,CA,90014,33.969879,-118.27757
+,Nina's Mini Market,7313 Seville Ave,Huntington Park,CA,90255,33.972462,-118.2225
+,North Hollywood Mini Mart,12050 Roscoe Blvd,North Hollywood,CA,91605,34.221622,-118.39629
+,Olympic Mini Market,2801 E Olympic Blvd,Los Angeles,CA,90023,34.023296,-118.21748
+,Oscars Mini Market 99 cents,4314 Ascot Ave,Los Angeles,CA,90011,34.005375,-118.24979
+,Osh Mini Mart,45024 10th St W,Lancaster,CA,93534,34.70155,-118.14808
+,Overland Mini Market,4273 Overland Ave,Culver City,CA,90230,34.011761,-118.4006
+,OXFORD MINI MART,3502 W 8th St,Los Angeles,CA,90005,34.057636,-118.30666
+,PAEK MINIT MARKET,2700 E Anaheim St,Long Beach,CA,90804,33.782581,-118.1597
+,Panfilos Mini Market,8719 Long Beach Blvd,South Gate,CA,90280,33.957592,-118.22156
+,Pastor's Mini Market,2063 W Jefferson Blvd,Los Angeles,CA,90018,34.025558,-118.31704
+,Paz Mini Market,9228 S Vermont Ave,Los Angeles,CA,90044,33.952129,-118.2915
+,PBI Mini Market,7910 Atlantic Ave,Cudahy,CA,90201,33.963032,-118.18619
+,PENNY MINI MARKET,8911 S Vermont Ave,Los Angeles,CA,90044,33.956711,-118.29192
+,PENNY MINI MARKET,308 E 5th St,Los Angeles,CA,90013,34.044735,-118.24545
+,PEREZ MINI MARKET,4355 AVALON BLVD,LOS ANGELES,CA,90011,34.004559,-118.2653
+,Piccadilly Circle 7 Mini Mart,42124 50th St W,Quartz Hill,CA,93536,34.648212,-118.21844
+,Prados 98 Cents & Mini Market,7344 Van Nuys Blvd,Van Nuys,CA,91405,34.204262,-118.44872
+,Prosperidad Mini Market,1909 7th Ave,Los Angeles,CA,90018,34.03973,-118.32486
+,Provideo 99 Cents & Up Minimart,10401 Tabor St,Los Angeles,CA,90034,34.024746,-118.40771
+,Purple Function Mini Market,3945 S Vermont Ave,Los Angeles,CA,90037,34.013149,-118.29157
+,Quetzal Produce & Mini Market,4101 S Broadway,Los Angeles,CA,90037,34.009052,-118.2784
+,Quickie Mini Mart No,15700 Vanowen St,Van Nuys,CA,91406,34.193882,-118.4754
+,Quix Top Mini Mart,18039 E Valley Blvd,City Of Industry,CA,91744,34.006577,-117.90925
+,RANDY'S MINI MARKET,1958 E 103rd St,Los Angeles,CA,90002,33.943111,-118.23757
+,Raquelito's Mini Market,5710 S Central Ave,Los Angeles,CA,90011,33.990627,-118.25639
+,Reyes Mini Market,3101 S San Pedro St,Los Angeles,CA,90011,34.018059,-118.26366
+,Rios Mini Market,9130 S Vermont Ave,Los Angeles,CA,90044,33.95327,-118.29153
+,"Rjm Vallejo Mini Mart,inc 83004",5472 Orangethorpe Ave,La Palma,CA,90623,33.858654,-118.03799
+,Rjm Vallejo Mini-mart Inc 83748,13340 Rosecrans Ave,Norwalk,CA,90650,33.902332,-118.04702
+,Rocky Mini Mart,13705 Inglewood Ave,Hawthorne,CA,90250,33.907635,-118.36135
+,Rodolfo Mini Market And Party Supply,2013 W Jefferson Blvd,Los Angeles,CA,90018,34.025578,-118.31559
+,Rodriguez Mini Market,819 Euclid Ave,Los Angeles,CA,90023,34.030918,-118.20724
+,Rodriguez Mini Market 99 Cents,8252 S Main St,Los Angeles,CA,90003,33.964432,-118.27383
+,Ron Mini Market,4709 S Broadway,Los Angeles,CA,90037,34.000813,-118.27838
+,Rosa's Mini Market,1246 W 7th St,Los Angeles,CA,90017,34.052067,-118.26719
+,Rosita's Mini Market,7521 State St,Huntington Park,CA,90255,33.969463,-118.21004
+,Royal Mini Market,910 N Vermont Ave,Los Angeles,CA,90029,34.087952,-118.2917
+,Ruiz Mini Market,4824 1/2 Avalon Blvd,Los Angeles,CA,90011,33.998959,-118.26517
+,S K Mini Mart,605 E Francisquito Ave,West Covina,CA,91790,34.050358,-117.93271
+,SALO'S MINI MARKET,4225 Hooper Ave,Los Angeles,CA,90011,34.007099,-118.2522
+,Sams Mini Market,411 W Palmdale Blvd,Palmdale,CA,93551,34.582947,-118.13716
+,SAMS MINI MARKET,20909 Lassen St,Chatsworth,CA,91311,34.250038,-118.58929
+,SAN JUDAS MINI MARKET,10404 Long Beach Blvd,Lynwood,CA,90262,33.939709,-118.21432
+,San Luis Mini Mart,3926 Ardmore Ave,South Gate,CA,90280,33.956715,-118.19998
+,San Pedro Mini Market,4151 San Pedro Pl,Los Angeles,CA,90011,34.008007,-118.27005
+,Santa Barbara Mini Market,5037 Compton Ave,Los Angeles,CA,90011,33.997204,-118.24785
+,Serrano's Mini Market,6111 S San Pedro St,Los Angeles,CA,90003,33.98386,-118.26962
+,Seven Day Mini Mart,11150 Burbank Blvd,North Hollywood,CA,91601,34.172123,-118.37436
+,Sheepey Minimarket,1200 S Centre St,San Pedro,CA,90731,33.733028,-118.28356
+,Shorty Minimarket,5504 S Central Ave,Los Angeles,CA,90011,33.992741,-118.25642
+,SILVANA'S MINI MARKET,5413 S Main St,Los Angeles,CA,90037,33.993198,-118.27403
+,Simon's Mini Market,501 E Manchester Blvd,Inglewood,CA,90301,33.961636,-118.34841
+,Sinai Mini Market,1820 W 54th St,Los Angeles,CA,90062,33.993195,-118.30943
+,Sofi Mini Market,4074 Avalon Blvd,Los Angeles,CA,90011,34.00948,-118.26524
+,St. George Mini Market,3121 W Rosecrans Ave,Hawthorne,CA,90250,33.901958,-118.32727
+,Star Mini Mart,9601 Venice Blvd,Culver City,CA,90232,34.024982,-118.39616
+,Stephanie Mini Market,2961 E 4th St,Los Angeles,CA,90033,34.037167,-118.20393
+,Sunset Oil And Mini Mart,8906 W Sunset Blvd,West Hollywood,CA,90069,34.090641,-118.38584
+,Super Mini Market,1621 E Florence Ave,Los Angeles,CA,90001,33.97477,-118.24452
+,Super Mini Market 1,1575 E Florence Ave,Los Angeles,CA,90001,33.974777,-118.24563
+,Susanas Mini Market,5421 Denker Ave,Los Angeles,CA,90062,33.993023,-118.30461
+,Susys Mini Market,8910 1/2 S Broadway,Los Angeles,CA,90003,33.955151,-118.27814
+,T & H  Mini Market,8009 S Broadway,Los Angeles,CA,90003,33.966633,-118.27834
+,Terrys Mini Market,11100 S Figueroa St,Los Angeles,CA,90061,33.93462,-118.28258
+,The Garcias Lala's Mini Market,14150 Van Nuys Blvd,Arleta,CA,91331,34.251747,-118.44173
+,Tip Mini Market,7300 Topanga Canyon Blvd,Canoga Park,CA,91303,34.202961,-118.60593
+,Tito's Mini Market,3238 E 5th St,Los Angeles,CA,90063,34.033688,-118.20076
+,Tobacco Palace Mini Mart,11122 Long Beach Blvd,Lynwood,CA,90262,33.931332,-118.21175
+,Tobacco Zone and Mini Mart,2107 W Manchester Ave,Los Angeles,CA,90047,33.959988,-118.31586
+,Tony's Mini Market 99 Cents,425 E Vernon Ave,Los Angeles,CA,90011,34.003887,-118.26867
+,Val's Mini Market 99 cent Store,1131 E 108th St,Los Angeles,CA,90059,33.93829,-118.2555
+,Van Ness Mini Market,6130 S Van Ness Ave,Los Angeles,CA,90047,33.983459,-118.31766
+,Velazquez Mini Market,8504 S Broadway,Los Angeles,CA,90003,33.96138,-118.27826
+,Vermont Mini Market,6205 S Vermont Ave,Los Angeles,CA,90044,33.982971,-118.29153
+,Video 94 Mini Mart,2407 Valley Blvd,Pomona,CA,91768,34.061268,-117.79605
+,Village Mini Mart,113 E 5th St,Los Angeles,CA,90013,34.04649,-118.24815
+,Virgilio D Canche Mini Market,4114 S Hoover St,Los Angeles,CA,90037,34.008972,-118.28721
+,VS Mini Mart,3686 Riverside Dr,Chino,CA,91710,34.018887,-117.72439
+,WESTERN MINI MARKET,11034 S Western Ave,Los Angeles,CA,90047,33.934071,-118.30903
+,What It Dew Mini Market 1,44245 10th St W,Lancaster,CA,93534,34.686623,-118.14803
+,Z Mini Market,4657 W El Segundo Blvd,Hawthorne,CA,90250,33.916451,-118.35828
+,Zacapa Mini Market,4810 Hooper Ave,Los Angeles,CA,90011,33.99995,-118.25212
+,Zamora Mini Market,2627 Saturn Ave,Huntington Park,CA,90255,33.976967,-118.22446
+,ZARAGOZA'S MINI MARKET,8103 Alix Ave,Los Angeles,CA,90001,33.965012,-118.23592
+,Zubeda Mini Market,1253 Sepulveda Blvd,Torrance,CA,90502,33.813026,-118.29772
+,Cheers Liqour,16205 Devonshire St,Granada Hills,CA,91344,34.257446,-118.48524
+,Ci Liqour And Market,1658 W Carson St,Torrance,CA,90501,33.83147,-118.30816
+,In & Go Liqour,7650 Woodman Ave,Panorama City,CA,91402,34.20961,-118.43089
+,J & D LIQ & JR. MKT,4503 Maine Ave,Baldwin Park,CA,91706,34.094028,-117.96051
+,JOSHUA LIQ & JR MKT.,8714 E Avenue T,Littlerock,CA,93543,34.542858,-117.97458
+,Liqour Bank And Deli,3600 Stocker St,Los Angeles,CA,90008,34.008286,-118.3355
+,Little Rock Liqour & Jr Market,8062 Pearblossom Hwy,Littlerock,CA,93543,34.521065,-117.98599
+,Ocean Liqour,760 S Alvarado St,Los Angeles,CA,90057,34.055023,-118.27772
+,Ravi's Liqour 2,1125 S Hacienda Blvd,Hacienda Heights,CA,91745,34.010098,-117.96333
+,RIVERTON LIQ JR  MARKET,10800 Magnolia Blvd,North Hollywood,CA,91601,34.164871,-118.36618
+,Royal Liqour,1508 W Sunset Blvd,Los Angeles,CA,90026,34.075893,-118.25544
+,SAM'S LIQ. & JUNIOR MKT,239 FRAZIER MT PARK RD,LEBEC,CA,93243,34.817959,-118.88637
+,Willis Liqour,6513 West Blvd,Inglewood,CA,90302,33.979992,-118.33524
+,A & A Grocery Wholesale Inc,16308 Garfield Ave,Paramount,CA,90723,33.885845,-118.16869
+,City Foods Wholesale,711 W 16th St,Long Beach,CA,90813,33.786907,-118.20206
+,Galleria Foods Wholesale Rowland Heights,18313 Colima Rd,Rowland Heights,CA,91748,33.988541,-117.90551
+,KASHTAN WHOLESALE GROCERIES,7707 Santa Monica Blvd,West Hollywood,CA,90046,34.090858,-118.35692
+,L J K Dried Food Wholesale,9661 Garvey Ave.,South Elmonte,CA,91733,34.062759,-118.058
+,Lucky Wholesale,1603 S Central Ave,Los Angeles,CA,90021,34.02615,-118.24905
+,S&l Dried Foods Wholesale,9661 Garvey Ave,South El Monte,CA,91733,34.062763,-118.05829
+,99 Cents Only Store 76,15345 Whittier Blvd,Whittier,CA,90603,33.946598,-117.99913
+,ATLANTIC & SOUTH 76,5740 Atlantic Ave,Long Beach,CA,90805,33.859695,-118.18487
+,Bell Gardens 76,6355 Florence Ave,Bell Gardens,CA,90201,33.96526,-118.15122
+,Gorman Union 76,49764 Gorman Post Rd,Lebec,CA,93243,34.796478,-118.85286
+,Lancaster 76,505 W Avenue J,Lancaster,CA,93534,34.689457,-118.136
+,Lyons 76,22917 Lyons Ave,Newhall,CA,91321,34.380299,-118.53352
+,Manchester 76,633 W Manchester Blvd,Inglewood,CA,90301,33.961735,-118.36686
+,Melrose 76,4600 Melrose Ave,Los Angeles,CA,90029,34.083523,-118.30064
+,Pacific Coast 76 851549,465 W Pacific Coast Hwy,Long Beach,CA,90806,33.789898,-118.19784
+,Paramount 76,14949 Garfield Ave,Paramount,CA,90723,33.89682,-118.16888
+,Quartz Hill 76,42344 50th St W,Lancaster,CA,93536,34.652283,-118.21857
+,Son 76,10685 Laurel Canyon Blvd,Pacoima,CA,91331,34.264606,-118.43833
+,Sun Valley Union 76,8181 Sunland Blvd,Sun Valley,CA,91352,34.218952,-118.36916
+,Via Verde 76,1790 S San Dimas Ave,San Dimas,CA,91773,34.077442,-117.81703
+,West Torrance 76,5404 W 190th St,Torrance,CA,90503,33.858208,-118.37019
+,98 Cents Up & Tobacco,8221 Avalon Blvd,Los Angeles,CA,90003,33.964455,-118.26521
+,99 Star Market & Tobacco,12610 Hadley St,Whittier,CA,90601,33.982662,-118.04179
+,A & M Tobacco and Market,10627 Garvey Ave,El Monte,CA,91733,34.062786,-118.04173
+,A 1 Tobacco Mart,11207 Wilmington Ave,Los Angeles,CA,90059,33.933113,-118.23908
+,A&m Tobacco Market,14114 S Normandie Ave,Gardena,CA,90249,33.903221,-118.30038
+,African Tobacco And Market,3312 W Florence Ave,Los Angeles,CA,90043,33.974514,-118.32977
+,ARS Tobacco,5427 Atlantic Ave,Long Beach,CA,90805,33.854836,-118.18504
+,B&M Tobacco Number 1,10624 Wilmington Ave,Los Angeles,CA,90002,33.939079,-118.23901
+,Djs Tobacco Market,425 1/2 W 8th St,Los Angeles,CA,90014,34.044678,-118.25611
+,EJ-Tobacco Mart,611 E Imperial Hwy,Los Angeles,CA,90059,33.931068,-118.26473
+,Eli Tobacco & Market,2327 W Washington Blvd,Los Angeles,CA,90018,34.039944,-118.31261
+,Everything And More Tobacco Mart,4429 Crenshaw Blvd,Los Angeles,CA,90043,34.003052,-118.33154
+,Family Market & Tobacco,10901 Crenshaw Blvd,Inglewood,CA,90303,33.936352,-118.32659
+,Family Market And Tobacco 2,2161 1/2 W Century Blvd,Los Angeles,CA,90047,33.945492,-118.31735
+,HG Tobacco Mart 99 & Up,5401 S Figueroa St,Los Angeles,CA,90037,33.993111,-118.28271
+,Hoover Discount Store And Tobacco,7522 S Hoover St,Los Angeles,CA,90044,33.971012,-118.28709
+,Os Tobacco+Market,2624 E Anaheim St,Long Beach,CA,90804,33.782585,-118.16084
+,Tobacco And More,611 E Century Blvd,Los Angeles,CA,90002,33.945694,-118.26443
+,Acacia Bakery,235 S Pacific Ave,San Pedro,CA,90731,33.741741,-118.28793
+,Addy's Bakery,10960 Avalon Blvd,Los Angeles,CA,90061,33.936062,-118.26517
+,Alejandra's Bakery,9715 S Normandie Ave,Los Angeles,CA,90044,33.947201,-118.3003
+,Almazan Bakery,582 E Foothill Blvd,Azusa,CA,91702,34.133411,-117.90022
+,Alondras Bakery,657 E Arrow Hwy,Azusa,CA,91702,34.106834,-117.89712
+,ALVAREZ BAKERY,4125 City Terrace Dr,Los Angeles,CA,90063,34.056038,-118.17687
+,"AMERICA'S CAFE & BAKERY, INC.",3654 Slauson Ave,Maywood,CA,90270,33.988525,-118.19968
+,Andy's Bakery,6021 N Figueroa St,Los Angeles,CA,90042,34.111446,-118.18913
+,Angeles Bakery,3661 W 3rd St,Los Angeles,CA,90020,34.069069,-118.29624
+,ANGELES BAKERY,1833 W 6th St,Los Angeles,CA,90057,34.058197,-118.27171
+,Angelica's Bakery,1623 E Cesar E Chavez Ave,Los Angeles,CA,90033,34.051407,-118.21802
+,Angelo Bakery,135 E Lomita Blvd,Carson,CA,90745,33.798702,-118.27412
+,ANNIE'S BAKERY CAFE,2117 W 6th St,Los Angeles,CA,90057,34.059685,-118.27504
+,"Anush Bakery & Market, Inc",6770 Coldwater Canyon Ave,North Hollywood,CA,91606,34.19363,-118.41376
+,ARARAT BAKERY,7112 Foothill Blvd,Tujunga,CA,91042,34.248013,-118.28635
+,ART'S BAKERY,1122 E Chevy Chase Dr,Glendale,CA,91205,34.134094,-118.24081
+,Beverly Bakery,4103 Beverly Blvd,Los Angeles,CA,90004,34.076309,-118.29825
+,Byby's Bakery,728 W Compton Blvd,Compton,CA,90220,33.895863,-118.23707
+,Bybys Bakery,5173 Long Beach Blvd,Long Beach,CA,90805,33.850071,-118.19511
+,Carmen Bakery,915 E La Habra Blvd,La Habra,CA,90631,33.931892,-117.93606
+,Celaya Bakery,1630 W Sunset Blvd,Los Angeles,CA,90026,34.076988,-118.25802
+,Celaya Bakery,2304 S Vermont Ave,Los Angeles,CA,90007,34.035057,-118.29148
+,Celaya Bakery,2704 S Vermont Ave,Los Angeles,CA,90007,34.030079,-118.29152
+,Central Bakery/water Source,5106 S Central Ave,Los Angeles,CA,90011,33.996872,-118.25644
+,CEREZO BAKERY,4315 N PECK RD,EL MONTE,CA,91732,34.082668,-118.01868
+,Chapala Bakery #2,265 E Orange Grove Blvd,Pasadena,CA,91104,34.157909,-118.14512
+,Chapinlandia Bakery 2,1455 W 3rd St,Los Angeles,CA,90017,34.058994,-118.26324
+,CHINESE PERFECT BAKERY,8253 1/2 Sepulveda Blvd,Panorama City,CA,91402,34.220909,-118.46777
+,COLORADO BAKERY,464 W Colorado St,Glendale,CA,91204,34.142494,-118.26371
+,CONPHUNG BAKERY,6367 Atlantic Ave,Bell,CA,90201,33.978558,-118.18702
+,Continental Bakery,10421 Laurel Canyon Blvd,Pacoima,CA,91331,34.259304,-118.43272
+,CONTINENTAL BAKERY,262 S Normandie Ave,Los Angeles,CA,90004,34.06982,-118.30029
+,CONTINENTAL BAKERY,12105 Saticoy St,North Hollywood,CA,91605,34.208538,-118.39665
+,Continental Bakery 4,280 S Rampart Blvd,Los Angeles,CA,90057,34.066635,-118.27856
+,Cristina's Bakery,3603 1/2 W 3rd St,Los Angeles,CA,90020,34.069107,-118.29428
+,DEL CAMPO BAKERY,8521 Norwalk Blvd,Whittier,CA,90606,33.964237,-118.07056
+,Delicia's Bakery & Some...,5567 N Figueroa St,Los Angeles,CA,90042,34.108761,-118.19455
+,Deluxe Bakery And Cafe,1529 N San Fernando Blvd,Burbank,CA,91504,34.191277,-118.32302
+,Don Pancho's Bakery,11456 Telegraph Rd,Santa Fe Springs,CA,90670,33.948532,-118.08919
+,Dos Aguilas Bakery,5945 Whittier Blvd,Los Angeles,CA,90022,34.017349,-118.14272
+,DREAM BAKERY,12908 Sherman Way,North Hollywood,CA,91605,34.201138,-118.4142
+,DURAN'S BAKERY,4518 1/2 Rosemead Blvd,Pico Rivera,CA,90660,34.008793,-118.08131
+,DUTCH OVEN BAKERY,2281 Lake Ave,Altadena,CA,91001,34.1852,-118.13161
+,EL AGUILA BAKERY INC.,5028 Huntington Dr S,Los Angeles,CA,90032,34.088036,-118.17353
+,EL GALLO BAKERY,4546 E Cesar E Chavez Ave,Los Angeles,CA,90022,34.040546,-118.16814
+,El Globo Bakery 2,414 W Whittier Blvd,Montebello,CA,90640,34.009251,-118.10407
+,El Molino Real Bakery,15120 Hawthorne Blvd,Lawndale,CA,90260,33.893742,-118.35236
+,El Paraiso Bakery,3857 E Whittier Blvd,Los Angeles,CA,90023,34.023949,-118.19041
+,El Paraiso Bakery 2,11860 Rosecrans Ave,Norwalk,CA,90650,33.902126,-118.08052
+,El Pollito Bakery,8209 Eastern Ave,Bell Gardens,CA,90201,33.957111,-118.1645
+,"El Pueblo Bakery, Inc.",3625 Tweedy Blvd,South Gate,CA,90280,33.944248,-118.20576
+,EL QUETZAL BAKERY,713 S Hoover St,Los Angeles,CA,90005,34.059486,-118.28426
+,El Quetzal Bakery 2,2791 W Pico Blvd,Los Angeles,CA,90006,34.047268,-118.30014
+,El Rey Bakery,8934 Beverly Blvd,Pico Rivera,CA,90660,34.010853,-118.08206
+,EL RINCONCITO BAKERY,2908 E 1st St,Los Angeles,CA,90033,34.04084,-118.20344
+,EL SOL BAKERY,1713 E Anaheim St,Long Beach,CA,90813,33.782665,-118.17079
+,EL SOL BAKERY 2,1015 E 10th St,Long Beach,CA,90813,33.779037,-118.18051
+,El Sol Bakery Plus,1503 Magnolia Ave,Long Beach,CA,90813,33.7859,-118.19817
+,ELIZABETH BAKERY,2828 Firestone Blvd,South Gate,CA,90280,33.955624,-118.22057
+,Father & Son Bakery & Grocery,5209 W Sunset Blvd,Los Angeles,CA,90027,34.098152,-118.30352
+,Florence Bakery,1601 E Florence Ave,Los Angeles,CA,90001,33.974777,-118.2449
+,"Friend's Cafe, Pastry & Bakery",7918 Foothill Blvd,Sunland,CA,91040,34.259613,-118.30545
+,GLEN ELK BAKERY,400 S Glendale Ave,Glendale,CA,91205,34.141647,-118.24973
+,Glendale Fine Bakery,316 E Maple St,Glendale,CA,91205,34.138702,-118.25158
+,Granny's Bakery & Cafe,2329 W Whittier Blvd,Montebello,CA,90640,34.013718,-118.12591
+,GUATEMALTECA BAKERY INC,4032 Beverly Blvd,Los Angeles,CA,90004,34.076275,-118.29696
+,HAPPY BAKERY,11629 Lower Azusa Rd Ste F,El Monte,CA,91732,34.090496,-118.01341
+,Happy Bakery & Donuts,4550 N Lark Ellen Ave,Covina,CA,91722,34.09547,-117.91658
+,Howell's Bakery,648 E El Segundo Blvd,Los Angeles,CA,90059,33.916325,-118.26406
+,HUICHO'S BAKERY,1250 S Vermont Ave,Los Angeles,CA,90006,34.047531,-118.29156
+,JENNY BAKERY,4518 Avalon Blvd,Los Angeles,CA,90011,34.001968,-118.26523
+,Julie Meat Market & Bakery,6347 Santa Fe Ave,Huntington Park,CA,90255,33.982311,-118.23035
+,K BAKERY,1258 W Temple St,Los Angeles,CA,90026,34.06609,-118.25407
+,Kathy's Bakery Bros,15516 Paramount Blvd,Paramount,CA,90723,33.892361,-118.16002
+,Katy's Bakery,5417 Long Beach Blvd,Long Beach,CA,90805,33.854584,-118.19675
+,Kilikia Bakery,8358 Foothill Blvd,Sunland,CA,91040,34.259663,-118.31545
+,La Barca Bakery,528 W Holt Ave,Pomona,CA,91768,34.062195,-117.75745
+,La Blanquita Restaurant & Bakery,11863 Valley Blvd,El Monte,CA,91732,34.063965,-118.02097
+,LA CENTRAL BAKERY,764 W la Habra Blvd,La Habra,CA,90631,33.931808,-117.95426
+,La Centroamericana Bakery,6520 Holmes Ave,Los Angeles,CA,90001,33.980225,-118.24114
+,La Chiquita Bakery,4600 Compton Ave,Los Angeles,CA,90011,34.001678,-118.24775
+,LA CHIQUITA BAKERY,270 E MARTIN LUTHER KING BLVD,LOS ANGELES,CA,90011,34.01112,-118.2691
+,La Colmena Bakery 1,11537 Sherman Way,North Hollywood,CA,91605,34.201218,-118.38355
+,LA CORONA BAKERY,15708 Pioneer Blvd,Norwalk,CA,90650,33.888939,-118.08238
+,La Corona Bakery 2,6338 Atlantic Ave,Bell,CA,90201,33.978825,-118.18677
+,La Curra Bakery  1,530 S Citrus Ave,Azusa,CA,91702,34.113331,-117.89019
+,La Esperanza Bakery,252 W Florence Ave,Los Angeles,CA,90003,33.974606,-118.27763
+,La Espiga Bakery,1466 Glendale Blvd,Los Angeles,CA,90026,34.081638,-118.25999
+,La Fama Bakery,420 N Ford Blvd,Los Angeles,CA,90022,34.041203,-118.16919
+,La Favorita Bakery,8505 Rosecrans Ave,Paramount,CA,90723,33.903816,-118.15103
+,La Flor Bakery 1,4101 Avalon Blvd,Los Angeles,CA,90011,34.009094,-118.2653
+,La Flor Bakery 2,4104 S Main St,Los Angeles,CA,90037,34.009033,-118.27394
+,LA FLOR DE MICHOACAN BAKERY,7045 Somerset Blvd,Paramount,CA,90723,33.89642,-118.17588
+,La Mascota Bakery,2715 Whittier Blvd,Los Angeles,CA,90023,34.032467,-118.21137
+,LA MEXICANA BAKERY,10147 GARVEY AVE,South El Monte,CA,91733,34.062759,-118.0474
+,La Mexicana Bakery Inc 2,2360 Mountain View Rd,El Monte,CA,91733,34.055569,-118.03022
+,LA MODERNA BAKERY,8035 1/2 Norwalk Blvd,Whittier,CA,90606,33.971615,-118.07359
+,LA MORENA BAKERY,2106 E Cesar E Chavez Ave,Los Angeles,CA,90033,34.048328,-118.2113
+,La Morenita Bakery,11230 E. Garvey Ave,El Monte,CA,91733,34.062824,-118.031
+,La Morenita Bakery 1,1389 N Hacienda Blvd,La Puente,CA,91744,34.04533,-117.94923
+,LA NORTENA BAKERY,2601 S San Pedro St,Los Angeles,CA,90011,34.021267,-118.26154
+,LA PALOMA BAKERY,2249 San Gabriel Blvd,Rosemead,CA,91770,34.055195,-118.09061
+,LA PAZ BAKERY,8223 De Soto Ave,Canoga Park,CA,91304,34.218582,-118.58855
+,LA PEQUENA BAKERY,12437 San Fernando Rd,Sylmar,CA,91342,34.296474,-118.4558
+,La Potosina Bakery,4712 Durfee Ave,Pico Rivera,CA,90660,34.004585,-118.07767
+,La Princesa Bakery,7910 Atlantic Ave,Cudahy,CA,90201,33.963032,-118.18619
+,LA PUENTE BAKERY & DELI,15751 Amar Rd,La Puente,CA,91744,34.036667,-117.94146
+,La Puente Bakery 2,13825 Amar Rd,La Puente,CA,91746,34.053719,-117.97533
+,La Soledad Bakery,2400 W 7th St,Los Angeles,CA,90057,34.057915,-118.28012
+,La Surenita Bakery,2950 E 4th St,Los Angeles,CA,90033,34.036976,-118.20371
+,LA TAPATIA BAKERY,13734 Amar Rd,La Puente,CA,91746,34.053841,-117.97672
+,Lake La Bakery,40112 170th St E,Palmdale,CA,93591,34.610096,-117.82679
+,Larios Bakery,2206 S Central Ave,Los Angeles,CA,90011,34.021385,-118.25327
+,Las Aguilas Bakery,12834 Rosecrans Ave,Norwalk,CA,90650,33.902229,-118.0592
+,LAS ALONDRA'S BAKERY,4118 S Central Ave,Los Angeles,CA,90011,34.008621,-118.25648
+,LAS DELICIAS BAKERY,1801 W 7th St,Los Angeles,CA,90057,34.055046,-118.27357
+,LATIMEX MARKET & BAKERY,11742 Central Ave,Chino,CA,91710,34.040051,-117.68967
+,Le Bon Bakery,10931 Victory Blvd,North Hollywood,CA,91606,34.18676,-118.36926
+,LEO'S BAKERY,7922 Rosecrans Ave,Paramount,CA,90723,33.903614,-118.16141
+,LEO'S BAKERY,5221 N Clydebank Ave,Azusa,CA,91702,34.107639,-117.92048
+,Little Old Mexico Bakery,223 W Anaheim St,Wilmington,CA,90744,33.779888,-118.26453
+,LORD & VILLA BAKERY,1120 N Pacific Ave,Glendale,CA,91202,34.16153,-118.26455
+,Los Amigos Bakery,3105 W 8th St,Los Angeles,CA,90005,34.057758,-118.29464
+,Los Angelitos Bakery,2881 E Florence Ave,Huntington Park,CA,90255,33.973469,-118.2178
+,Los Conpadres Bakery,10620 Whittier Blvd,Whittier,CA,90606,33.990547,-118.06496
+,Los Lobos Bakery,680 S Azusa Ave,Azusa,CA,91702,34.110764,-117.90752
+,LOS REYES BAKERY,4026 Gage Ave,Bell,CA,90201,33.978863,-118.19524
+,Lucas Bakery,4059 Gage Ave,Bell,CA,90201,33.97887,-118.19455
+,Lucero Bakery,4061 E Slauson Ave,Maywood,CA,90270,33.987968,-118.19311
+,LULU'S BAKERY #3,4201 Tweedy Blvd,South Gate,CA,90280,33.943336,-118.1974
+,LUPITA BAKERY,2546 W Pico Blvd,Los Angeles,CA,90006,34.047241,-118.29309
+,LUPITAS BAKERY INC.,1848 W Florence Ave,Los Angeles,CA,90047,33.974545,-118.31082
+,MAGGIE'S BAKERY,6530 Lankershim Blvd,North Hollywood,CA,91606,34.189079,-118.38776
+,Marilu's Bakery,1400 Cherry Ave,Long Beach,CA,90813,33.78463,-118.16764
+,MARTHA'S BAKERY,14103 Victory Blvd,Van Nuys,CA,91401,34.186687,-118.44022
+,Mary's Bakery,4523 Slauson Ave,Maywood,CA,90270,33.98708,-118.18462
+,MASIS BAKERY,321 E Alameda Ave,Burbank,CA,91502,34.176224,-118.298
+,Masis Bakery 2,8725 Sunland Blvd,Sun Valley,CA,91352,34.228317,-118.36629
+,Mayra's Bakery,2521 S San Pedro St,Los Angeles,CA,90011,34.022346,-118.26092
+,MEATLAND BAKERY,3801 E 1st St,Los Angeles,CA,90063,34.036057,-118.18441
+,Mediterranean Bakery,1451 W Arrow Hwy,San Dimas,CA,91773,34.106789,-117.83695
+,Melad Bakery and Deli,18601 Sherman Way,Reseda,CA,91335,34.201206,-118.53897
+,Mels Palace Bakery,2708 N Broadway,Los Angeles,CA,90031,34.073643,-118.21397
+,Mia's Bakery,6676 Long Beach Blvd,Long Beach,CA,90805,33.875538,-118.20309
+,Milena Bakery,5216 W Sunset Blvd,Los Angeles,CA,90027,34.098103,-118.30367
+,Mom's Bakery,11850 Valley Blvd,El Monte,CA,91732,34.064419,-118.02174
+,Monicas Bakery,133 W Anaheim St,Long Beach,CA,90813,33.782627,-118.1933
+,MOYAS BAKERY,2820 E Gage Ave,Huntington Park,CA,90255,33.981567,-118.21943
+,Mush Bakery,5224 W Sunset Blvd,Los Angeles,CA,90027,34.098072,-118.30381
+,"Old Sasoon Bakery Inc,",1132 N Allen Ave,Pasadena,CA,91104,34.165569,-118.11304
+,PALOMINO MEAT MARKET & BAKERY,2817 E 8th St,Los Angeles,CA,90023,34.026417,-118.21543
+,PAN AMERICA BAKERY,6604 S Vermont Ave,Los Angeles,CA,90044,33.979053,-118.29148
+,Pan De Vida Bakery,1061 E Avenue J,Lancaster,CA,93535,34.689499,-118.11151
+,Pan De Vida Bakery,2260 E Palmdale Blvd,Palmdale,CA,93550,34.580105,-118.08788
+,Panaderia Mi Lupita Bakery,1640 W Carson St,Torrance,CA,90501,33.83144,-118.30746
+,Panaderia Salvadorena Bakery,4873 Santa Monica Blvd,Los Angeles,CA,90029,34.090878,-118.29558
+,PANADERIA SALVADORENA BAKERY 2,4322 Beverly Blvd,Los Angeles,CA,90004,34.076218,-118.30294
+,PANCHO'S BAKERY,1759 E Florence Ave,Los Angeles,CA,90001,33.974792,-118.24181
+,Panos Bakery and Pastry,418 S Central Ave,Glendale,CA,91204,34.140999,-118.25778
+,Papillon French Bakery 1,1100 S Central Ave,Glendale,CA,91204,34.133202,-118.2578
+,PARADISE PASTRY BAKERY,1815 W Glenoaks Blvd,Glendale,CA,91201,34.173038,-118.29206
+,Pasteleria Y Panaderia El Panon Bakery,2109 S San Pedro St,Los Angeles,CA,90011,34.025555,-118.25879
+,PONCE'S BAKERY #2,757 S Fetterly Ave,Los Angeles,CA,90022,34.023521,-118.16416
+,Ponce's Bakery 4,1310 S Garey Ave,Pomona,CA,91766,34.047596,-117.74965
+,POURI BAKERY,109 S Adams St,Glendale,CA,91205,34.146069,-118.24189
+,REYES CAKES & BAKERY,6687 Downey Ave,Long Beach,CA,90805,33.876423,-118.15137
+,REYNA'S BAKERY,7120 Eastern Ave,Bell Gardens,CA,90201,33.968403,-118.16452
+,REYNA'S BAKERY,5111 Gage Ave,Bell,CA,90201,33.976658,-118.17393
+,Reyna's Bakery 3,3210 E Gage Ave,Huntington Park,CA,90255,33.980453,-118.21002
+,Rosa's Bakery 1,2609 E Carson St,Long Beach,CA,90810,33.831768,-118.22124
+,Rudy's Bakery,1918 Nadeau St,Los Angeles,CA,90001,33.967373,-118.23827
+,Salgados Bakery,10007 Long Beach Blvd,Lynwood,CA,90262,33.944172,-118.21584
+,Sam's Armenian Bakery,400 Raleigh St,Glendale,CA,91205,34.138084,-118.25082
+,SAN ANTONIO BAKERY,344 W Rosecrans Ave,Compton,CA,90222,33.903206,-118.22892
+,Sandy Bakery 2,3401 W Beverly Blvd,Montebello,CA,90640,34.024372,-118.14053
+,Sandy's Bakery,1410 Huntington Dr,Duarte,CA,91010,34.139565,-117.97507
+,SANDY'S BAKERY,5261 S Main St,Los Angeles,CA,90037,33.994518,-118.27402
+,Santaneca Bakery,2461 Atlantic Ave,Long Beach,CA,90806,33.80188,-118.18507
+,Sasoun Bakery,1700 W Glenoaks Blvd,Glendale,CA,91201,34.171349,-118.29018
+,Sasoun Bakery 1,5114 Santa Monica Blvd,Los Angeles,CA,90029,34.090801,-118.30087
+,Sasoun Bakery 2,625 E Colorado St,Glendale,CA,91205,34.142696,-118.24704
+,Sasoun Bakery 3,18135 Sherman Way,Reseda,CA,91335,34.201218,-118.52883
+,Sasoun Bakery 4,7134 Sepulveda Blvd,Van Nuys,CA,91405,34.199863,-118.46613
+,Schwartz Bakery,12522 Burbank Blvd,Valley Village,CA,91607,34.172077,-118.40612
+,SONIA'S BAKERY,744 Glendora Ave,La Puente,CA,91744,34.032043,-117.95035
+,Sonora Bakery,4484 Whittier Blvd,Los Angeles,CA,90022,34.023373,-118.17145
+,STONE BAKERY/MARKET,6700 Crenshaw Blvd,Los Angeles,CA,90043,33.977859,-118.33083
+,Sunny Bakery,743 E Valley Blvd,San Gabriel,CA,91776,34.08017,-118.09113
+,Sunrise Bakery,3462 Tweedy Blvd,South Gate,CA,90280,33.944485,-118.2084
+,SWEET 1 BAKERY,13668 Oxnard St,Van Nuys,CA,91401,34.179356,-118.43068
+,Taron Bakery Inc,1117 S Glendale Ave,Glendale,CA,91205,34.132755,-118.25215
+,"Taron Bakery, Inc",4950 Hollywood Blvd,Los Angeles,CA,90027,34.101742,-118.29746
+,TBILISY & YEREVAN BAKERY,7862 Santa Monica Blvd,West Hollywood,CA,90046,34.090778,-118.36076
+,TC Bakery,3856 Peck Rd,El Monte,CA,91732,34.075157,-118.02217
+,The Family Bakery & Cafe Inc,13630 Van Nuys Blvd,Pacoima,CA,91331,34.260567,-118.42964
+,The Original Old Mexican Bakery,23415 Main St,Carson,CA,90745,33.812931,-118.27568
+,Tijuana Bakery Cafe 1,11626 Atlantic Ave,Lynwood,CA,90262,33.918041,-118.18866
+,Tobara Coffee And Bakery,4630 Whittier Blvd,Los Angeles,CA,90022,34.022472,-118.16726
+,TOP 1 BAKERY,10310 Hawthorne Blvd,Inglewood,CA,90304,33.942329,-118.35252
+,Van Bakery,5409 W Sunset Blvd,Los Angeles,CA,90027,34.098171,-118.30755
+,Venice Market & Bakery,1529 Crenshaw Blvd,Los Angeles,CA,90019,34.045155,-118.32823
+,Victory Produce Mrkt & Bakery,10365 Balboa Blvd,Granada Hills,CA,91344,34.259163,-118.50237
+,VLAD'S BAKERY & FAST FOOD,13640 Vanowen St,Van Nuys,CA,91405,34.19389,-118.43063
+,Westchester Bakery,6216 W 87th St,Los Angeles,CA,90045,33.958534,-118.39375
+,Yolanda's Bakery Inc,19742 Sherman Way,Winnetka,CA,91306,34.200993,-118.5637
+,Zankezur Bakery And Grocery,6355 Woodman Ave,Van Nuys,CA,91401,34.186188,-118.43129
+,Alpine Mobil,20802 S Vermont Ave,Torrance,CA,90502,33.841591,-118.28992
+,AM PM 5265,2353 E Palmdale Blvd,Palmdale,CA,93550,34.58017,-118.08561
+,AM PM 82188,6100 E Washington Blvd,Commerce,CA,90040,33.99612,-118.14755
+,AM PM 83120,4666 Santa Monica Blvd,Los Angeles,CA,90029,34.090843,-118.2915
+,AVENUE I MOBIL,849 E Avenue I,Lancaster,CA,93535,34.704197,-118.11348
+,Central Mobil 2,1640 Crenshaw Blvd,Torrance,CA,90501,33.832199,-118.32856
+,Dawuds Mobil Inc,9100 Sepulveda Blvd,North Hills,CA,91343,34.235558,-118.4674
+,Hanna's Mobil,14206 Mulberry Dr,Whittier,CA,90604,33.942608,-118.02736
+,Hawatmeh Mobil,4380 W Adams Blvd,Los Angeles,CA,90018,34.032562,-118.33445
+,Hollywood Mobil,5700 Hollywood Blvd,Los Angeles,CA,90028,34.101692,-118.31385
+,Joe's Mobile Inc 207374,20101 Roscoe Blvd,Winnetka,CA,91306,34.22028,-118.57146
+,Kims Mobil,1803 W Manchester Ave,Los Angeles,CA,90047,33.959999,-118.30937
+,Kris Mobil,5560 Van Nuys Blvd,Van Nuys,CA,91401,34.171761,-118.4487
+,Lakewood Mobil,4311 E South St,Lakewood,CA,90712,33.860279,-118.1422
+,MOBIL/POPEYES CHICKEN & BISCUITS,13745 Paramount Blvd,South Gate,CA,90280,33.910847,-118.16035
+,Quintin's Mobil,1004 N Hacienda Blvd,La Puente,CA,91744,34.037498,-117.94982
+,SUNLAND MOBIL,8505 Foothill Blvd,Sunland,CA,91040,34.259727,-118.31827
+,Topanga/Nordoff AM PM,9110 Topanga Canyon Blvd,Chatsworth,CA,91311,34.235725,-118.60515
+,AM/PM 82885,6168 Eastern Ave,Bell Gardens,CA,90201,33.978676,-118.16306
+,AM/PM Hawthorne Blue Water,4015 W El Segundo Blvd,Hawthorne,CA,90250,33.916439,-118.34425
+,South City AM/PM 82858,10602 Imperial Hwy,Norwalk,CA,90650,33.917004,-118.1076
+,Baldwin Oil,13758 Los Angeles St,Baldwin Park,CA,91706,34.092102,-117.97381
+,Eastern Oil,6350 Fallbrook Ave,Woodland Hills,CA,91367,34.186092,-118.62336
+,"Genuine Oil Company, Inc",18473 Devonshire St,Northridge,CA,91325,34.25729,-118.53566
+,Los Feliz Oil Inc,3073 Los Feliz Blvd,Los Angeles,CA,90039,34.124725,-118.26624
+,Nick Oil And Market,18003 Soledad Canyon Rd,Canyon Country,CA,91387,34.416538,-118.44768
+,Sinaco Oil 3 Corporation 2652409,2727 S Reservoir St,Pomona,CA,91766,34.024151,-117.73145
+,Sm Oil,1340 E Imperial Hwy,Los Angeles,CA,90059,33.929443,-118.25076
+,Topanga Oil,6423 Topanga Canyon Blvd,Woodland Hills,CA,91303,34.187141,-118.60593
+,"Veer Oil Partners, Inc",390 W Compton Blvd,Compton,CA,90220,33.895912,-118.22834
+,Western Oil,3309 W Olympic Blvd,Los Angeles,CA,90019,34.052677,-118.30944
+,Badrinath Corporation,2444 Huntington Dr,Duarte,CA,91010,34.139671,-117.95201
+,Carniceria La Diferencia Corporation,13569 Glenoaks Blvd,Sylmar,CA,91342,34.318508,-118.46391
+,El Sereno Market Corporation,4837 Huntington Dr N,Los Angeles,CA,90032,34.086006,-118.17905
+,LORENZO CORPORATION,19061 Parthenia St,Northridge,CA,91324,34.228279,-118.54902
+,NEW BANGLUCK CORPORATION,7235 Reseda Blvd,Reseda,CA,91335,34.202271,-118.53608
+,Parsico Corporation,2305 S La Cienega Blvd,Los Angeles,CA,90034,34.038116,-118.37728
+,"Sonu & Tony Corporation, Inc",13010 Lambert Rd,Whittier,CA,90602,33.960678,-118.04164
+,"Sonu & Tony Corporation, Inc",15604 Pioneer Blvd,Norwalk,CA,90650,33.889565,-118.08243
+,Artesia Business Center,1965 E Artesia Blvd,Long Beach,CA,90805,33.874737,-118.16947
