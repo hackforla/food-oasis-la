@@ -1,4 +1,4 @@
-UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
+uid,name,address,city,state,zip,latitude,longitude
 ,Pinchers Liquor,5121 W Pico Blvd,Los Angeles,CA,90019,34.048077,-118.35003
 ,Grace Liquor,4700 Marine Ave,Lawndale,CA,90260,33.894611,-118.35979
 ,Golden Liquor,2895 E Colorado Blvd,Pasadena,CA,91107,34.146233,-118.09061

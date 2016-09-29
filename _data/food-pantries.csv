@@ -1,4 +1,4 @@
-UID,Name,Category,StreetAddress,City,State,Zipcode,Telephone,Latitude,Longitude
+uid,name,category,address,city,state,zip,phone,latitude,longitude
 ,Altadena S.D.A. Church,Food Pantry,2609 N. Lincoln Avenue,Altadena,CA,91001,626.794.3953,34.1906878,-118.1593398
 ,Catholic Charities- Region 2,Food Pantry,4171 Tyler Avenue,El Monte,CA,91731,626.575.7652,34.0827886,-118.031897
 ,Ephesus S.D.A. Church,Food Pantry,7005 S. Western Avenue,Los Angeles,CA,90047,323.759.3993,33.9759966,-118.3092608

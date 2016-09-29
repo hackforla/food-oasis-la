@@ -1,4 +1,4 @@
-{% for food_source in site.data['farmers_markets_master'] %}
+{% for food_source in site.data['farmers-markets'] %}
 	<li class="farmers-market" data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
 		<a href="/farmers-market/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>

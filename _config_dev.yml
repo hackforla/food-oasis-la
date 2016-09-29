@@ -6,7 +6,7 @@ exclude:
     - community-garden
     - community-garden
     - farmers-market
-    - food-bank
+    - food-pantry
     - grocery-store
     - supermarket
 
@@ -20,7 +20,7 @@ keep_files:
     - community-garden
     - community-garden
     - farmers-market
-    - food-bank
+    - food-pantry
     - grocery-store
     - supermarket
 

@@ -1,4 +1,4 @@
-UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
+uid,name,address,city,state,zip,latitude,longitude
 ,168 Market,1421 E Valley Blvd,Alhambra,CA,91801,34.079308,-118.10987
 ,168 Market,933 E Las Tunas Dr,San Gabriel,CA,91776,34.10347,-118.08766
 ,168 Market,19725 Colima Rd,Rowland Heights,CA,91748,33.986187,-117.8717

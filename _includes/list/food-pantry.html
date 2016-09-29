@@ -1,8 +1,8 @@
-{% for food_source in site.data['food_banks_andrew'] %}
-	<li class="food-bank" data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
-		<a href="/food-bank/{{ food_source['uri'] }}">
+{% for food_source in site.data['food-pantries'] %}
+	<li class="food-pantry" data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+		<a href="/food-pantry/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
-			<p class="type">Food Bank</p>
+			<p class="type">Food Pantry</p>
 			<p>{{ food_source['address'] | escape }}</p>
 			{% if food_source['hours'] %}
 			<h3>Hours</h3>

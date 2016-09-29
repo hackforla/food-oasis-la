@@ -9,6 +9,7 @@ module Jekyll
         .gsub("/", "-")
         .gsub("&", "-")
         .gsub(".", "-")
+        .gsub(":", "-")
         .gsub(",", "-")
         .gsub("+", "-")
         .gsub(/\r\n?/, '-')
@@ -38,11 +39,11 @@ module Jekyll
     end
     def generate(site)
       if ENV['JEKYLL_ENV'] != 'development'
-        generate_one(site, 'food_banks_andrew',        'Food Bank',        'food-bank')
-        generate_one(site, 'community-gardens_08-30',  'Community Garden', 'community-garden')
-        generate_one(site, 'farmers_markets_master',   'Farmers Market',   'farmers-market')
-        generate_one(site, 'grocery_08-30',            'Grocery Store',    'grocery-store')
-        generate_one(site, 'supermarkets_08-30',       'Supermarket',      'supermarket')
+        generate_one(site, 'food-pantries',        'Food Pantry',        'food-pantry')
+        generate_one(site, 'community-gardens',  'Community Garden', 'community-garden')
+        generate_one(site, 'farmers-markets',   'Farmers Market',   'farmers-market')
+        generate_one(site, 'grocery-stores',            'Grocery Store',    'grocery-store')
+        generate_one(site, 'supermarkets',       'Supermarket',      'supermarket')
       end
     end
   end

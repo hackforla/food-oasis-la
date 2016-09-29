@@ -1,4 +1,4 @@
-Name,Street Address,City,Zip Code,Address,Latitude,Longitude,Phone,Date,Frequency,Day of Week,Morning Opening Hour,Morning Closing Hour,Afternoon Opening Hour,Afternoon Closing Hour 1,Comments 1,Afternoon Closing Hour 2,Comments 2
+name,address,city,zip,address,latitude,longitude,phone,date,Frequency,Day of Week,Morning Opening Hour,Morning Closing Hour,Afternoon Opening Hour,Afternoon Closing Hour 1,Comments 1,Afternoon Closing Hour 2,Comments 2
 Altadena S.D.A. Church,2609 N. Lincoln Avenue,Altadena,91001,"2609 N. Lincoln Avenue, Altadena, CA 91001",34.1906878,-118.1593398,626.794.3953,,2nd & 4th,Tuesday,9:00:00 AM,,,12:00:00 PM,,12:00:00 PM,
 Catholic Charities- Region 2,4171 Tyler Avenue,El Monte,91731,"4171 Tyler Avenue, El Monte, CA 91731",34.0827886,-118.031897,626.575.7652,,,Monday,9:00:00 AM,,,1:00:00 PM,,1:00:00 PM,
 Catholic Charities- Region 2,4171 Tyler Avenue,El Monte,91731,"4171 Tyler Avenue, El Monte, CA 91731",34.0827886,-118.031897,626.575.7652,,,Tuesday,9:00:00 AM,,,1:00:00 PM,,1:00:00 PM,

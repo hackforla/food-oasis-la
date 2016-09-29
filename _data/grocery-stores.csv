@@ -1,4 +1,4 @@
-UID,Name,StreetAddress,City,State,Zipcode,Latitude,Longitude
+uid,name,address,city,state,zip,latitude,longitude
 ,$1 Plus Store,1017 W Gardena Blvd,Gardena,CA,90247,33.881607,-118.29203
 ,"1 DOLLAR MART, INC",1931 E 7th St,Long Beach,CA,90813,33.775406,-118.16807
 ,1.00 & Discount Mart,2056 Pacific Ave,Long Beach,CA,90806,33.794971,-118.19363
