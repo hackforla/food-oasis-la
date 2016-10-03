@@ -4,7 +4,6 @@ exclude:
     # Exclude list and detail pages, since they rarely change and take a long time to build.
     - list
     - community-garden
-    - community-garden
     - farmers-market
     - food-pantry
     - grocery-store
@@ -17,7 +16,6 @@ keep_files:
 
     # Keep the list and detail pages, if they exist.
     - list
-    - community-garden
     - community-garden
     - farmers-market
     - food-pantry

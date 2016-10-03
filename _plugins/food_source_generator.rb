@@ -39,11 +39,11 @@ module Jekyll
     end
     def generate(site)
       if ENV['JEKYLL_ENV'] != 'development'
-        generate_one(site, 'food-pantries',        'Food Pantry',        'food-pantry')
-        generate_one(site, 'community-gardens',  'Community Garden', 'community-garden')
+        generate_one(site, 'food-pantries',     'Food Pantry',      'food-pantry')
+        generate_one(site, 'community-gardens', 'Community Garden', 'community-garden')
         generate_one(site, 'farmers-markets',   'Farmers Market',   'farmers-market')
-        generate_one(site, 'grocery-stores',            'Grocery Store',    'grocery-store')
-        generate_one(site, 'supermarkets',       'Supermarket',      'supermarket')
+        generate_one(site, 'grocery-stores',    'Grocery Store',    'grocery-store')
+        generate_one(site, 'supermarkets',      'Supermarket',      'supermarket')
       end
     end
   end
