@@ -832,7 +832,6 @@
 
 	footer .action {
 		text-align: center;
-		margin-bottom: 3em;
 	}
 	footer .action a,
 	footer .action a:hover,
@@ -889,6 +888,7 @@
 	}
 
 	footer .contact div {
+		margin-top: 3em;
 		text-align: center;
 	}
 
