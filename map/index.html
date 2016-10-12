@@ -528,7 +528,7 @@ layout: null
 			 	button.textContent = data.label.replace('y','ies');
 			}
 			else {
-				button.textContent = data.label + 's'; // SHIM: Pluralize
+				button.textContent = data.label === 'Store' ? 'More Stores' : data.label + 's'; // SHIM: Pluralize (and add 'More' before 'Stores')
 			}
 
 			button.addEventListener('click', function(e) {
