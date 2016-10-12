@@ -67,10 +67,10 @@
 
 	a {
 		color: rgb(249, 192, 88); /* @canteloupe */
-		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(77, 85, 148); /* @grape */
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(144, 194, 70); /* @lime */
-		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(77, 85, 148); /* @grape */
 		text-decoration: underline;
 		transition: color 0.2s;
 	}
@@ -104,12 +104,6 @@
 	}
 
 	/* http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family='Libre%20Baskerville',%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
-.disabled	h1 {
-		font-size: 2.5em; /* 40px / 16px */
-		line-height: 1.2; /* 48px / 40px */
-		margin-top: 1.2em;
-		margin-bottom: 0.6em;
-	}
 	h1 {
 		font-size: 2em; /* 32px / 16px */
 		line-height: 1.3125; /* 42px / 32px */
@@ -172,7 +166,7 @@
 		background: rgb(243, 117, 104); /* @salmon */
 		background: rgb(209, 43, 43); /* @apple */
 		background: rgb(249, 192, 88); /* @canteloupe */
-		background: rgb(77, 85, 148); /* @blueberry */
+		background: rgb(77, 85, 148); /* @grape */
 		background: rgb(241, 95, 91); /* @strawberry */
 		background: rgb(144, 194, 70); /* @lime */
 		background-image: linear-gradient(to top, rgb(221, 75, 71), rgba(221, 75, 71, 0)); /* @dark-strawberry */
@@ -247,8 +241,8 @@
 		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: rgb(249, 192, 88); /* @canteloupe */
 		border-color: rgb(144, 194, 70); /* @lime */
-		border-color: rgb(77, 85, 148); /* @blueberry */
-		border-color: rgba(77, 85, 148, 0.5); /* @blueberry */
+		border-color: rgb(77, 85, 148); /* @grape */
+		border-color: rgba(77, 85, 148, 0.5); /* @grape */
 		border-color: rgb(241, 95, 91); /* @strawberry */
 		border-color: rgba(241, 95, 91, 0.5); /* @strawberry */
 		border-color: rgba(0, 0, 0, 0.25);
@@ -341,23 +335,23 @@
 	}
 	.food-source-list .grocery-store h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
-		color: rgb(77, 85, 148); /* @blueberry */
-		color: rgba(1, 147, 223, 1); /* @berryblue */
+		color: rgb(77, 85, 148); /* @grape */
+		color: rgb(40, 137, 187); /* @blueberry */
 	}
-	.food-source-list .grocery-misc h2 {
+	.food-source-list .store h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
-		color: rgb(77, 85, 148); /* @blueberry */
-		color: rgba(1, 147, 223, 1); /* @berryblue */
+		color: rgb(77, 85, 148); /* @grape */
+		color: rgb(40, 137, 187); /* @blueberry */
 	}
 	.food-source-list .farmers-market h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
-		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(77, 85, 148); /* @grape */
 		color: rgba(161, 167, 72, 0.75); /* @asparagus */
 		color: rgb(211, 16, 134); /* @dragonfruit */
 	}
 	.food-source-list .supermarket h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
-		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(77, 85, 148); /* @grape */
 	}
 
 	.food-source-list a:hover h2,
@@ -453,8 +447,11 @@
 	.strawberry .header h2 svg .food-oasis * {
 		fill: rgb(241, 95, 91); /* @strawberry */
 	}
+	.grape .header h2 svg .food-oasis * {
+		fill: rgb(77, 85, 148); /* @grape */
+	}
 	.blueberry .header h2 svg .food-oasis * {
-		fill: rgb(77, 85, 148); /* @blueberry */
+		fill: rgb(40, 137, 187); /* @blueberry */
 	}
 	.dragonfruit .header h2 svg .food-oasis * {
 		fill: rgb(211, 16, 134); /* @dragonfruit */
@@ -469,8 +466,11 @@
 	.strawberry main h1 {
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
+	.grape main h1 {
+		color: rgb(77, 85, 148); /* @grape */
+	}
 	.blueberry main h1 {
-		color: rgb(77, 85, 148); /* @blueberry */
+		color: rgb(40, 137, 187); /* @blueberry */
 	}
 	.dragonfruit main h1 {
 		color: rgb(211, 16, 134); /* @dragonfruit */
@@ -678,8 +678,11 @@
 	.strawberry footer {
 		background-color: rgb(241, 95, 91); /* @strawberry */
 	}
+	.grape footer {
+		background-color: rgb(77, 85, 148); /* @grape */
+	}
 	.blueberry footer {
-		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgb(40, 137, 187); /* @blueberry */
 	}
 	.dragonfruit footer {
 		background-color: rgb(211, 16, 134); /* @dragonfruit */
@@ -697,11 +700,17 @@
 	.strawberry footer::after {
 		background-image: url(/assets/images/footer/carrot.svg);
 	}
+	.grape footer .link-list::before,
+	.grape footer .link-list::after,
+	.grape footer::before,
+	.grape footer::after {
+		background-image: url(/assets/images/footer/pumpkin.svg);
+	}
 	.blueberry footer .link-list::before,
 	.blueberry footer .link-list::after,
 	.blueberry footer::before,
 	.blueberry footer::after {
-		background-image: url(/assets/images/footer/pumpkin.svg);
+		background-image: url(/assets/images/footer/palm-tree-blueberry.svg);
 	}
 	.dragonfruit footer .link-list::before,
 	.dragonfruit footer .link-list::after,
@@ -762,16 +771,16 @@
 	.canteloupe footer .link-list::before,
 	.canteloupe footer::before,
 	.canteloupe footer::after,
-	.blueberry footer .link-list::before,
-	.blueberry footer::before,
-	.blueberry footer::after,
+	.grape footer .link-list::before,
+	.grape footer::before,
+	.grape footer::after,
 	.strawberry footer .link-list::before,
 	.strawberry footer::before,
 	.strawberry footer::after {
 		display: none;
 	}
 	.canteloupe footer .link-list::after,
-	.blueberry footer .link-list::after,
+	.grape footer .link-list::after,
 	.strawberry footer .link-list::after {
 		margin: 0;
 		margin-top: -4.75em;
@@ -858,18 +867,6 @@
 	footer .action {
 		font-size: 1.25em;
 	}
-.disabled	.canteloupe footer .action a {
-		color: rgb(249, 192, 88); /* @canteloupe */
-	}
-.disabled	.lime footer .action a {
-		color: rgb(144, 194, 70); /* @lime */
-	}
-.disabled	.strawberry footer .action a {
-		color: rgb(241, 95, 91); /* @strawberry */
-	}
-.disabled	.blueberry footer .action a {
-		color: rgb(77, 85, 148); /* @blueberry */
-	}
 
 
 	footer .sponsors h2 {
@@ -930,8 +927,11 @@
 	.lime footer .icon {
 		fill: rgb(144, 194, 70); /* @lime */
 	}
+	.grape footer .icon {
+		fill: rgb(77, 85, 148); /* @grape */
+	}
 	.blueberry footer .icon {
-		fill: rgb(77, 85, 148); /* @blueberry */
+		fill: rgb(40, 137, 187); /* @blueberry */
 	}
 	.strawberry footer .icon {
 		fill: rgb(241, 95, 91); /* @strawberry */
@@ -1109,7 +1109,7 @@
 	.map-filters .farmers-market:hover,
 	.map-filters .farmers-market:active,
 	.map-filters .farmers-market:focus {
-		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgb(77, 85, 148); /* @grape */
 		/*background-color: rgb(241, 95, 91); /* @strawberry */
 		background-color: rgb(211, 16, 134); /* @dragonfruit */
 	}
@@ -1120,18 +1120,18 @@
 		background-color: rgb(209, 43, 43); /* @apple */
 		background-color: rgb(144, 194, 70); /* @lime */
 		background-color: rgb(241, 95, 91); /* @strawberry */
-		background-color: rgb(77, 85, 148); /* @blueberry */
-		background-color: rgba(40, 137, 187, 1); /* @berryblue */
+		background-color: rgb(77, 85, 148); /* @grape */
+		background-color: rgb(40, 137, 187); /* @blueberry */
 	}
-	.map-filters .grocery-misc,
-	.map-filters .grocery-misc:hover,
-	.map-filters .grocery-misc:active,
-	.map-filters .grocery-misc:focus {
+	.map-filters .store,
+	.map-filters .store:hover,
+	.map-filters .store:active,
+	.map-filters .store:focus {
 		background-color: rgb(209, 43, 43); /* @apple */
 		background-color: rgb(144, 194, 70); /* @lime */
 		background-color: rgb(241, 95, 91); /* @strawberry */
-		background-color: rgb(77, 85, 148); /* @blueberry */
-		background-color: rgba(40, 137, 187, 1); /* @berryblue */
+		background-color: rgb(77, 85, 148); /* @grape */
+		background-color: rgb(40, 137, 187); /* @blueberry */
 	}
 	.map-filters .supermarket,
 	.map-filters .supermarket:hover,
@@ -1139,7 +1139,7 @@
 	.map-filters .supermarket:focus {
 		background-color: rgb(161, 167, 72); /* @asparagus */
 		background-color: rgb(241, 95, 91); /* @strawberry */
-		background-color: rgb(77, 85, 148); /* @blueberry */
+		background-color: rgb(77, 85, 148); /* @grape */
 	}
 
 	.map-filters .inactive {
@@ -1403,27 +1403,6 @@
 
 	/* =Find
 	----------------------------------------------- */
-	/*
-	body.find main h1 {
-		margin-top: 0;
-	}
-	body.find form {
-		display: flex;
-		align-items: center;
-		min-height: 50vh;
-		min-height: calc(100vh - 15rem);
-	}
-	*/
-.disabled	body.find .categories h2 {
-		/* @hidden-accessible */
-		position: absolute;
-		left: -9999px;
-	}
-	/*
-	body.find .categories .link-list a {
-		border-width: 0;
-	}
-	*/
 	body.find main {
 		max-width: 60em;
 		padding-bottom: 6em;
@@ -1433,13 +1412,6 @@
 		display: table;
 		clear: both;
 	}
-	/*
-	body.find main section {
-		box-sizing: border-box;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		padding: 1.5em;
-	}
-	*/
 	@media (min-width: 35em) {
 		body.find main form {
 			display: table;
@@ -1452,10 +1424,6 @@
 		body.find main section {
 			float: left;
 			width: 50%;
-			/*
-			width: calc(50% - 1.5em);
-			margin: calc(0.75em);
-			*/
 		}
 		body.find main section:last-child {
 			width: 100%;
@@ -1465,10 +1433,6 @@
 		body.find main section,
 		body.find main section:last-child {
 			width: 33.333%;
-			/*
-			width: calc(33.333% - 1.5em);
-			margin: calc(0.75em);
-			*/
 		}
 	}
 	body.find main section h2 {
@@ -1477,16 +1441,7 @@
 	body.find main section ul {
 		margin-bottom: 0;
 	}
-	/*
-	body.find main .categories .link-list a {
-		color: rgb(102, 102, 102);
-		border-color: transparent;
-	}
-	*/
-		body.find main .categories .link-list  .icon {
-		background: rgba(144, 194, 70, 1); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
+	body.find main .categories .link-list  .icon {
 		background: rgb(211, 16, 134); /* @dragonfruit */
 		padding: 0.375em;
 		border-radius: 50%;
@@ -1494,66 +1449,28 @@
 	}
 
 	body.find main .categories .link-list .farmers-market .icon {
-		background: rgba(144, 194, 70, 1); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
 		background: rgb(211, 16, 134); /* @dragonfruit */
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-		body.find main .categories .link-list .grocery-store .icon {
-		background: rgba(144, 194, 70, 1); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
-		background: rgba(40, 137, 187, 1); /* @berryblue */
+	body.find main .categories .link-list .grocery-store .icon {
+		background: rgb(40, 137, 187); /* @blueberry */
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-		body.find main .categories .link-list .grocery-misc .icon {
-		background: rgba(144, 194, 70, 1); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
-		background: rgba(40, 137, 187, 1); /* @berryblue */
+	body.find main .categories .link-list .store .icon {
+		background: rgb(40, 137, 187); /* @blueberry */
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-		body.find main .categories .link-list .supermarket .icon {
-		background: rgba(144, 194, 70, 1); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
+	body.find main .categories .link-list .supermarket .icon {
+		background: rgb(77, 85, 148); /* @grape */
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
-	}
-.disabled	body.find .categories .link-list a[href*="food-pantry"] .icon {
-		background: rgb(249, 192, 88); /* @canteloupe */
-	}
-.disabled	body.find .categories .link-list a[href*="community-garden"] .icon {
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgb(241, 95, 91); /* @strawberry */
-	}
-.disabled	body.find .categories .link-list a[href*="farmers-market"] .icon {
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(77, 85, 148); /* @blueberry */
-		background: rgb(211, 16, 134); /* @dragonfruit */
-	}
-.disabled	body.find .categories .link-list a[href*="grocery-store"] .icon {
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgba(40, 137, 187, 1); /* @berryblue */
-	}
-.disabled	body.find .categories .link-list a[href*="grocery-misc"] .icon {
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(144, 194, 70); /* @lime */
-		background: rgba(40, 137, 187, 1); /* @berryblue */
-	}
-.disabled	body.find .categories .link-list a[href*="supermarket"] .icon {
-		background: rgb(241, 95, 91); /* @strawberry */
-		background: rgb(161, 167, 72); /* @asparagus */
-		background: rgb(77, 85, 148); /* @blueberry */
 	}
 
 

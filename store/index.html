@@ -1,21 +1,20 @@
 ---
 layout: default
 
-title: Grocery Stores in Los Angeles
+title: Stores in Los Angeles
 
 color: blueberry
 ---
 
-{% assign link_to_map_title="Grocery Stores" %}
-{% assign link_to_map_type="grocery-store" %}
+{% assign link_to_map_title="Stores" %}
+{% assign link_to_map_type="store" %}
 
 {% include link-to-map.html %}
 
-<h1>Grocery Stores</h1>
+<h1>Stores</h1>
 
 <ul class="food-source-list">
-    {% include list/grocery-store.html %}
-
+    {% include list/store.html %}
 </ul>
 
 <!-- Jim’s Google Maps API key -->

@@ -1,0 +1,16 @@
+{% for food_source in site.data['grocery-other'] %}
+	<li class="store"  data-latitude="{{ food_source['latitude'] }}" data-longitude="{{ food_source['longitude'] }}">
+		<a href="/store/{{ food_source['uri'] }}">
+			<h2>{{ food_source['name'] }}</h2>
+			<p class="type">Store</p>
+			<p>{{ food_source['address'] | escape }}</p>
+			{% if food_source['hours'] %}
+			<h3>Hours</h3>
+			<p>{{ food_source['hours'] | escape }}</p>
+			{% endif %}
+			<script type="text/template" class="distance-template">
+				<p class="distance"><span></span> miles away</p>
+			</script>
+		</a>
+	</li>
+{% endfor %}

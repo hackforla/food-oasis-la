@@ -188,8 +188,8 @@ layout: null
 			color: 'rgba(40, 137, 187, 0.75)' /* @blueberry */
 		},
 		{
-			name: 'grocery-misc',
-			label: 'More Store',
+			name: 'store',
+			label: 'Store',
 			sourceLayer: 'Grocery-Misc_09-26-4teson',
 			sourceURL: 'mapbox://foodoasisla.5ginivn7',
 			//color: 'rgba(144, 194, 70, 0.75)' /* @lime */
@@ -489,36 +489,19 @@ layout: null
 			type: 'vector',
 			url: data.sourceURL
 		});
-		if (data.name != 'grocery-misc') {
-			var layerData = {
-				'id': name,
-				'type': 'circle',
-				'source': name,
-				'layout': {
-					'visibility': 'visible'
-				},
-				'paint': {
-					'circle-radius': markerSize,
-					'circle-color': data.color
-				},
-				'source-layer': data.sourceLayer
-			};
-		}
-		else {
-			var layerData = {
-				'id': name,
-				'type': 'circle',
-				'source': name,
-				'layout': {
-					'visibility': 'none'
-				},
-				'paint': {
-					'circle-radius': markerSize,
-					'circle-color': data.color
-				},
-				'source-layer': data.sourceLayer
-			};
-		}
+		var layerData = {
+			'id': name,
+			'type': 'circle',
+			'source': name,
+			'layout': {
+				'visibility': 'visible'
+			},
+			'paint': {
+				'circle-radius': markerSize,
+				'circle-color': data.color
+			},
+			'source-layer': data.sourceLayer
+		};
 		if (minzoom) layerData.minzoom = minzoom;
 		if (maxzoom) layerData.maxzoom = maxzoom;
 		map.addLayer(layerData);
@@ -583,6 +566,10 @@ layout: null
 					if (type[index] === data.name) found = true;
 				}
 				if (!found) button.click();
+
+			// If no type was requested, toggle the “More Stores” layer off
+			} else if (data.name === 'store') {
+				button.click();
 			}
 
 			layers.appendChild(button);
