@@ -1,0 +1,13 @@
+---
+layout: default
+
+permalink: /404.html
+
+title: Page not found, Food Oasis LA
+
+color: lime
+---
+
+# Oops! That page couldn’t be found.
+
+You may want to visit our [home page](/) instead.
