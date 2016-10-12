@@ -456,6 +456,9 @@
 	.blueberry .header h2 svg .food-oasis * {
 		fill: rgb(77, 85, 148); /* @blueberry */
 	}
+	.dragonfruit .header h2 svg .food-oasis * {
+		fill: rgb(211, 16, 134); /* @dragonfruit */
+	}
 
 	main h1 {
 		color: rgb(144, 194, 70); /* @lime */
@@ -468,6 +471,9 @@
 	}
 	.blueberry main h1 {
 		color: rgb(77, 85, 148); /* @blueberry */
+	}
+	.dragonfruit main h1 {
+		color: rgb(211, 16, 134); /* @dragonfruit */
 	}
 
 	/*
@@ -675,6 +681,9 @@
 	.blueberry footer {
 		background-color: rgb(77, 85, 148); /* @blueberry */
 	}
+	.dragonfruit footer {
+		background-color: rgb(211, 16, 134); /* @dragonfruit */
+	}
 
 	.canteloupe footer .link-list::before,
 	.canteloupe footer .link-list::after,
@@ -693,6 +702,12 @@
 	.blueberry footer::before,
 	.blueberry footer::after {
 		background-image: url(/assets/images/footer/pumpkin.svg);
+	}
+	.dragonfruit footer .link-list::before,
+	.dragonfruit footer .link-list::after,
+	.dragonfruit footer::before,
+	.dragonfruit footer::after {
+		background-image: url(/assets/images/footer/palm-tree-dragonfruit.svg);
 	}
 	/*
 	.apple footer .link-list::before,
@@ -920,6 +935,9 @@
 	}
 	.strawberry footer .icon {
 		fill: rgb(241, 95, 91); /* @strawberry */
+	}
+	.dragonfruit footer .icon {
+		fill: rgb(211, 16, 134); /* @dragonfruit */
 	}
 
 
