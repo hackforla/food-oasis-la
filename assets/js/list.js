@@ -1,7 +1,7 @@
 (function() {
 
 	var foodSourcesList = document.querySelector('.food-source-list');
-	console.log("food sources children", foodSourcesList.children);
+	// console.log("food sources children", foodSourcesList.children);
 
 	var foodSources = foodSourcesList.querySelectorAll('li');
 
@@ -18,7 +18,6 @@
 
 			foodSourcesList.classList.add('sorting');
 
-			// KUDOS: http://stackoverflow.com/questions/21279559/geolocation-closest-locationlat-long-from-my-position#answer-21297385
 			var geocoder = new google.maps.Geocoder();
 
 			geocoder.geocode({'address': address}, function(results, status) {
@@ -26,6 +25,9 @@
 
 					var latitude  = results[0].geometry.location.lat();
 					var longitude = results[0].geometry.location.lng();
+
+					//console.log('latitude: ' + latitude);
+					//console.log('longitude: ' + longitude);
 
 					sortByClosest(latitude, longitude);
 
@@ -50,14 +52,82 @@
 		}
 	}
 
+	// http://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-in-javascript#12830454#answer-25075575
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Decimal_rounding
+	(function() {
+		/**
+		 * Decimal adjustment of a number.
+		 *
+		 * @param {String}  type  The type of adjustment.
+		 * @param {Number}  value The number.
+		 * @param {Integer} exp   The exponent (the 10 logarithm of the adjustment base).
+		 * @returns {Number} The adjusted value.
+		 */
+		function decimalAdjust(type, value, exp) {
+			// If the exp is undefined or zero...
+			if (typeof exp === 'undefined' || +exp === 0) {
+				return Math[type](value);
+			}
+			value = +value;
+			exp = +exp;
+			// If the value is not a number or the exp is not an integer...
+			if (isNaN(value) || !(typeof exp === 'number' && exp % 1 === 0)) {
+				return NaN;
+			}
+			// Shift
+			value = value.toString().split('e');
+			value = Math[type](+(value[0] + 'e' + (value[1] ? (+value[1] - exp) : -exp)));
+			// Shift back
+			value = value.toString().split('e');
+			return +(value[0] + 'e' + (value[1] ? (+value[1] + exp) : exp));
+		}
+
+		// Decimal round
+		if (!Math.round10) {
+			Math.round10 = function(value, exp) {
+				return decimalAdjust('round', value, exp);
+			};
+		}
+		// Decimal floor
+		if (!Math.floor10) {
+			Math.floor10 = function(value, exp) {
+				return decimalAdjust('floor', value, exp);
+			};
+		}
+		// Decimal ceil
+		if (!Math.ceil10) {
+			Math.ceil10 = function(value, exp) {
+				return decimalAdjust('ceil', value, exp);
+			};
+		}
+	})();
+
+	function addDistance(element, distance) {	
+		var miles = distance / 1.609; // kilometers per mile
+		miles = Math.round10(miles, -1); // Round to one decimal place
+		template = element.querySelector('.distance-template');
+		if (template) {
+			var container = document.createElement('div');
+			container.innerHTML = template.innerHTML;
+			var valueElement = container.querySelector('.distance span');
+			valueElement.innerHTML = distance === INFINITY ? 'unknown' : parseFloat(miles.toFixed(1));
+			template.parentNode.insertAdjacentHTML('beforeend', container.innerHTML);
+		}
+	}
+
+	var INFINITY = 9999999;
 	function sortByClosest(latitude, longitude) {
-		console.log("inside sortByClosest");
+		// console.log("inside sortByClosest");
 		var list = [];
-		for (index = 0; index < foodSources.length; ++index) {
-			var dif = PythagorasEquirectangular(latitude, longitude,
-				parseFloat(foodSources[ index ].getAttribute('data-latitude')),
-				parseFloat(foodSources[ index ].getAttribute('data-longitude'))
-				);
+		var nextLatitude, nextLongitude, dif;
+		for (index = 0; index < foodSources.length; index++) {
+			nextLatitude  = foodSources[ index ].getAttribute('data-latitude');
+			nextLongitude = foodSources[ index ].getAttribute('data-longitude');
+			if (nextLatitude != null && nextLatitude != '') {
+				dif = getDistanceInKilometers_Haversine(latitude, longitude, parseFloat(nextLatitude), parseFloat(nextLongitude));
+			} else {
+				dif = INFINITY; // infinity
+			}
 			list.push({
 				element: foodSources[index],
 				distance: dif
@@ -74,12 +144,14 @@
 			return 0;
 		});
 
-		list.splice(0, 25);
+		//list.splice(0, 25);
 
-		for (index = 0; index < list.length; ++index) {
-			var element = list[index].element;
-			var parent = element.parentNode;
+		var element, parent;
+		for (index = 0; index < list.length; index++) {
+			element = list[index].element;
+			parent = element.parentNode;
 			parent.removeChild(element);
+			addDistance(element, list[index].distance);
 			parent.appendChild(element);
 		}
 
@@ -87,11 +159,12 @@
 		
 	}
 
-	function PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
-		lat1 = Deg2Rad(lat1);
-		lat2 = Deg2Rad(lat2);
-		lon1 = Deg2Rad(lon1);
-		lon2 = Deg2Rad(lon2);
+	// KUDOS: http://stackoverflow.com/questions/21279559/geolocation-closest-locationlat-long-from-my-position#answer-21297385
+	function getDistanceInKilometers_PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
+		lat1 = deg2rad(lat1);
+		lat2 = deg2rad(lat2);
+		lon1 = deg2rad(lon1);
+		lon2 = deg2rad(lon2);
 		var R = 6371; // km
 		var x = (lon2-lon1) * Math.cos((lat1+lat2)/2);
 		var y = (lat2-lat1);
@@ -99,9 +172,24 @@
 		return d;
 	}
 
+	// http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/27943#answer-27943
+	function getDistanceInKilometers_Haversine(lat1, lon1, lat2, lon2) {
+		var R = 6371; // Radius of the earth in km
+		var dLat = deg2rad(lat2-lat1);
+		var dLon = deg2rad(lon2-lon1); 
+		var a = 
+			Math.sin(dLat/2) * Math.sin(dLat/2) +
+			Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+			Math.sin(dLon/2) * Math.sin(dLon/2)
+			; 
+		var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+		var d = R * c; // Distance in km
+		return d;
+	}
+
 	// Convert Degress to Radians
-	function Deg2Rad(deg) {
-		return deg * Math.PI / 180;
+	function deg2rad(deg) {
+		return deg * (Math.PI/180)
 	}
 
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144

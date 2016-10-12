@@ -8,10 +8,9 @@
 			<h3>Hours</h3>
 			<p>{{ food_source['hours'] | escape }}</p>
 			{% endif %}
-			<!--
-			<h3>Distance</h3>
-			<p>0.2 miles</p>
-			-->
+			<script type="text/template" class="distance-template">
+				<p class="distance"><span></span> miles away</p>
+			</script>
 		</a>
 	</li>
 {% endfor %}
