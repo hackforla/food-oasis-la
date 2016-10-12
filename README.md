@@ -2,7 +2,7 @@
 # Food Oasis
 
 This is a website with a map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
-http://foodoasis.la
+https://foodoasis.la
 
 ## How to make changes
 
@@ -50,6 +50,6 @@ c. Commit and push your changes.
 
 And you’re done!
 
-You can see your published changes at… http://foodoasis.la
+You can see your published changes at… https://foodoasis.la
 
-HINT: You can save a step by pushing to the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) repository from your `_site` folder… [See step 11 in this Stack Overflow answer](http://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
+HINT: You can save a step by pushing to the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) repository from your `_site` folder… [See step 11 in this Stack Overflow answer](https://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
