@@ -327,10 +327,6 @@
 		margin: 0;
 		opacity: 0.5;
 		display: inline;
-		text-transform: lowercase;
-	}
-	.organization-list .type::first-letter {
-		text-transform: uppercase;
 	}
 	.organization-list .tags li {
 		display: inline;

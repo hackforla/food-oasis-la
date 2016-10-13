@@ -13,8 +13,7 @@ title: Food Organizations in Los Angeles
 			<h2>{{ organization['name'] }}</h2>
 			{% if organization['type'] %}<p class="type">{{ organization['type'] }}{% if organization['groups'] %}
 					for 
-					{% if organization['groups'] == 'WIC' %} Women, Infants and Children{% endif %}
-					{% if organization['groups'] != 'WIC' %} {{ organization['groups'] }}{% endif %}{% endif %}</p>{% endif %}<ul class="tags">
+					{% if organization['groups'] == 'WIC' %} Women, Infants and Children{% endif %}{% if organization['groups'] != 'WIC' %} {{ organization['groups'] }}{% endif %}{% endif %}</p>{% endif %}<ul class="tags">
 				{% if organization['for-sale'] %}<li>Food for sale</li>{% endif %}
 				{% if organization['wholesale'] %}<li>Wholesale food</li>{% endif %}
 				{% if organization['csa'] %}<li>Community garden</li>{% endif %}
