@@ -316,22 +316,34 @@
 	.organization-list a {
 		display: block;
 		color: inherit;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
 		text-decoration: none;
 	}
+	.organization-list li + li a {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
 	.organization-list h2 {
+		margin-top: 0;
 		text-decoration: underline;
 		margin-bottom: 0.25em;
 	}
 	.organization-list .type,
 	.organization-list .tags {
-		margin: 0;
 		opacity: 0.5;
-		display: inline;
+	}
+	.organization-list .type {
+		font-style: italic;
+	}
+	.organization-list .tags {
+		margin-bottom: 0;
 	}
 	.organization-list .tags li {
 		display: inline;
 	}
-	.organization-list .type::after,
+	.organization-list .tags li + li {
+		text-transform: lowercase;
+	}
 	.organization-list .tags li::after {
 		content: ", ";
 	}
