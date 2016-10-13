@@ -6,8 +6,9 @@ exclude:
     - community-garden
     - farmers-market
     - food-pantry
-    - grocery-store
     - supermarket
+    - grocery-store
+    - store
 
     # These files are unique to the “site” repository.
     - rakefile
@@ -19,8 +20,9 @@ keep_files:
     - community-garden
     - farmers-market
     - food-pantry
-    - grocery-store
     - supermarket
+    - grocery-store
+    - store
 
     # These files are unique to the “foodoasisla.github.io” repository.
     - .nojekyll
