@@ -304,6 +304,47 @@
 	*/
 
 
+	/* =Organization List
+	----------------------------------------------- */
+	.organization-list,
+	.organization-list ul,
+	.organization-list li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.organization-list a {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+	.organization-list h2 {
+		text-decoration: underline;
+		margin-bottom: 0.25em;
+	}
+	.organization-list .type,
+	.organization-list .tags {
+		margin: 0;
+		opacity: 0.5;
+		display: inline;
+		text-transform: lowercase;
+	}
+	.organization-list .type::first-letter {
+		text-transform: uppercase;
+	}
+	.organization-list .tags li {
+		display: inline;
+	}
+	.organization-list .type::after,
+	.organization-list .tags li::after {
+		content: ", ";
+	}
+	.organization-list .type li:last-child::after,
+	.organization-list .tags li:last-child::after {
+		content: "";
+	}
+
+
 	/* =Food Source List
 	----------------------------------------------- */
 	.food-source-list,
