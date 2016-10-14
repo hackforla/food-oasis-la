@@ -7,10 +7,10 @@ end
 
 desc 'Jekyll Build'
 task :build do
-  execute("JEKYLL_ENV=development jekyll build --config _config.yml,_config_dev.yml")
+  execute("JEKYLL_ENV=development jekyll build --config _config.yml,_config_dev.yml --incremental")
 end
 
 desc 'Jekyll Serve'
 task :serve do
-  execute("JEKYLL_ENV=development jekyll serve --config _config.yml,_config_dev.yml")
+  execute("JEKYLL_ENV=development jekyll serve --config _config.yml,_config_dev.yml --incremental")
 end
