@@ -53,3 +53,56 @@ And you’re done!
 You can see your published changes at… https://foodoasis.la
 
 HINT: You can save a step by pushing to the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) repository from your `_site` folder… [See step 11 in this Stack Overflow answer](https://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
+
+## A summary of the files in this folder
+
+### Files for Jekyll
+_config_dev.yml
+_config.yml
+_data
+_includes
+_layouts
+_plugins
+rakefile
+
+## Files for GitHub
+README.md
+LICENSE
+CNAME
+
+## Assets
+assets/css
+assets/images
+assets/js
+
+## Third-party assets
+assets/leaflet
+
+## Data for client-side searching
+json
+
+## Pages
+index.html
+organizations
+resources
+about
+team
+faqs
+404.markdown
+
+## Landing pages
+build-policies
+find-food
+get-involved
+
+## Maps
+map
+
+## Lists & detail pages
+list
+community-garden
+farmers-market
+food-pantry
+supermarket
+grocery-store
+store
