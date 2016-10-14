@@ -54,34 +54,45 @@ You can see your published changes at… https://foodoasis.la
 
 HINT: You can save a step by pushing to the [foodoasisla.github.io](https://github.com/foodoasisla/foodoasisla.github.io) repository from your `_site` folder… [See step 11 in this Stack Overflow answer](https://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins?rq=1#answer-28252200).
 
-## A summary of the files in this folder
+## A summary of the project files
 
 ### Files for Jekyll
+```
 _config_dev.yml
 _config.yml
-_data
-_includes
-_layouts
-_plugins
+_data/*
+_includes/*
+_layouts/*
+_plugins/*
 rakefile
+```
 
-## Files for GitHub
+### Files for GitHub
+```
 README.md
 LICENSE
 CNAME
+```
 
-## Assets
+### Assets
+```
 assets/css
 assets/images
 assets/js
+```
 
-## Third-party assets
+### Third-party assets
+```
 assets/leaflet
+```
 
-## Data for client-side searching
-json
+### Data for client-side searching
+```
+json/*
+```
 
-## Pages
+### Pages
+```
 index.html
 organizations
 resources
@@ -89,20 +100,27 @@ about
 team
 faqs
 404.markdown
+```
 
-## Landing pages
+### Landing pages
+```
 build-policies
 find-food
 get-involved
+```
 
-## Maps
-map
+### Maps
+```
+map/*
+```
 
-## Lists & detail pages
-list
-community-garden
-farmers-market
-food-pantry
-supermarket
-grocery-store
-store
+### Lists & detail pages
+```
+list/*
+community-garden/*
+farmers-market/*
+food-pantry/*
+supermarket/*
+grocery-store/*
+store/*
+```
