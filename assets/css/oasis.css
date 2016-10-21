@@ -122,17 +122,9 @@
 		margin-top: 1.6em;
 		margin-bottom: 0.8em;
 	}
-	h4 {
-		font-size: 1.125em; /* 18px / 16px */
-		line-height: 1.3333333333; /* 24px / 18px */
-		margin-top: 1.3333333333em;
-		margin-bottom: 0.6666666667em;
-	}
-	h5, h6 {
-		font-size: inherit;
-		line-height: inherit;
-		margin-top: 1.5em;
-		margin-bottom: 0.75em;
+	h4, h5, h6 {
+		font-family: inherit;
+		font-style: italic;
 	}
 
 	/* Shrink images to fit the available space */
@@ -1639,6 +1631,31 @@
 	}
 	body.find .header h2 span {
 		color: white;
+	}
+
+
+	/* =Audience (about page)
+	----------------------------------------------- */
+	@media (min-width: 55em) {
+		.audience {
+			margin-top: 3em;
+		}
+		.audience:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+		.audience section {
+			margin-top: 0;
+			float: left;
+			width: 30%;
+		}
+		.audience section + section {
+			margin-left: 5%;
+		}
+		.audience section h3 {
+			margin-top: 0;
+		}
 	}
 
 
