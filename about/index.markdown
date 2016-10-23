@@ -16,7 +16,6 @@ FOLA’s platform is intended for use by:
 
 <div class="audience">
 	<section>
-		<h3>Food seekers</h3>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 97.6 96.9">
 		<path id="XMLID_259_" d="M0,75.9c0.2-0.2,0.5-0.3,0.8-0.5c6-5.9,12.1-11.9,18.1-17.8c4.5-4.4,9.9-6.2,16.2-5.7
 			c2.6,0.2,5.1,0.9,7.4,2.1c1.9,0.9,3.9,1.3,5.9,1.3c3.3,0,6.6,0,9.8,0c1.7,0,3.3,0.4,4.8,1.3c4.1,2.5,4.3,8.1,0.4,10.9
@@ -34,13 +33,13 @@ FOLA’s platform is intended for use by:
 			c-4,2.4-6.3,5.9-7.3,10.4C65.4,14.6,65.4,14.7,65.4,14.8z"/>
 		</svg>
 
-		<h4>LA community members affected by food Insecurity.</h4>
+		<h2>Food seekers</h2>
+		<h3>LA community members affected by food insecurity</h3>
 
-		<p>FOLA is working to unify, process and create datasets that map the range of available Food resources. Customize which datasets are shown so you can see solutions that align with your personal preferences and needs.</p>
+		<p>FOLA is working to unify, process and create datasets that map the range of available Food resources. Customize which datasets are shown so you can see solutions that align with your personal preferences and needs</p>
 	</section>
 
 	<section>
-		<h3>Policy-makers</h3>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 109.7 116.7">
 		<path d="M46.7,95.2c0.4-2.1,0.9-4.2,1.3-6.3c0.6-3.2,1.2-6.3,1.6-9.5c0.1-0.7-0.1-1.4-0.4-2c-0.5-1.1-1.4-2-1.9-3.1
 			c-0.3-0.5-0.4-1.3-0.2-1.8c0.5-1.6,1.1-3.2,1.6-4.8c0.2-0.7,0.7-1.1,1.4-1.1c3.2,0,6.3,0,9.5,0c0.7,0,1.1,0.3,1.4,1
@@ -54,13 +53,13 @@ FOLA’s platform is intended for use by:
 			<ellipse cx="54.9" cy="31.8" rx="29" ry="31.8"/>
 		</svg>
 
-		<h4>Policy-makers including politicians, non-profit organizations and community members.</h4>
+		<h2>Policy-makers</h2>
+		<h3>Politicians, non-profit organizations and community members</h3>
 
 		<p>Find existing solutions along with “Food Deserts” and outcomes like health metrics and poverty rates. Take advantage of the visual information to fight Food Insecurity in your communities.</p>
 	</section>
 
 	<section>
-		<h3>Volunteers</h3>
 		<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 77.7 119.1">
 		<path d="M2.5,28.8c2.8,5.1,5.8,10.2,8.6,15.2c0.5,0.9,0.9,1.8,1,2.8c0.2,2.3,0.3,4.6,0.3,6.9
 			c0.1,3.7,0.5,7.3,1.6,10.9c1.4,4.6,3.4,8.9,7.1,12.1c0.7,0.6,0.9,1.1,0.9,2c-0.2,5.9-0.4,11.8-0.6,17.7c-0.3,7.6-0.6,15.2-0.8,22.9
@@ -75,7 +74,8 @@ FOLA’s platform is intended for use by:
 			c-1.2,0.7-1.8,1.9-1.3,3.6C0.8,24.9,1.5,26.9,2.5,28.8z M50.4,50.7c-7.7,1.7-13.6,5.6-16.2,13.6C34.1,56.5,40.9,50.8,50.4,50.7z"/>
 		</svg>
 
-		<h4>Concerned citizens who want to get involved.</h4>
+		<h2>Volunteers</h2>
+		<h3>Concerned citizens who want to get involved</h3>
 
 		<p>Many Angelinos – those affected by Food Insecurity and those not – are asking: How can I help? FOLA’s platform aims to connect concerned individuals with opportunities to volunteer, donate and get involved in Food Security activism.</p>
 	</section>

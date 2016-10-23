@@ -101,6 +101,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-weight: normal;
+		margin-top: 1.5em;
 	}
 
 	/* http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family='Libre%20Baskerville',%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
@@ -116,13 +117,8 @@
 		margin-top: 1.3333333333em;
 		margin-bottom: 0.6666666667em;
 	}
-	h3 {
-		font-size: 1.25em; /* 20px / 16px */
-		line-height: 1.6; /* 32px / 20px */
-		margin-top: 1.6em;
-		margin-bottom: 0.8em;
-	}
-	h4, h5, h6 {
+	h3, h4, h5, h6 {
+		font-size: inherit;
 		font-family: inherit;
 		font-style: italic;
 	}
@@ -712,6 +708,14 @@
 		position: relative;
 		text-align: center;
 	}
+	@media (min-width: 60em) {
+		footer .link-list li {
+			display: inline-block;
+		}
+		footer .link-list li + li {
+			margin-left: 1.5em;
+		}
+	}
 
 	.canteloupe footer {
 		background-color: rgb(249, 192, 88); /* @canteloupe */
@@ -867,15 +871,6 @@
 	footer a:focus {
 		text-decoration: underline;
 	}
-	/*
-	footer .link-list a {
-		padding-left: 2.25em;
-	}
-	footer .link-list a .icon {
-		position: absolute;
-		margin-left: -2em;
-	}
-	*/
 	footer section h2:first-child {
 		margin-top: 0;
 	}
@@ -926,18 +921,6 @@
 		width: 10em;
 		border-radius: 50%;
 	}
-	/*
-	footer .sponsors a.hack-for-la {
-		background-color: rgb(75, 153, 204);
-		color: white;
-		padding: 1.5em;
-	}
-	footer .sponsors a.code-for-america {
-		background: white;
-		color: black;
-		padding: 1.5em;
-	}
-	*/
 	footer .sponsors h2,
 	footer .contact h2 {
 		text-align: center;
@@ -1017,18 +1000,6 @@
 		fill: #55ACEE;
 	}
 
-	/*
-	footer .sponsors a:hover,
-	footer .sponsors a:active,
-	footer .sponsors a:focus {
-		opacity: 0.8;
-	}
-	footer .action a:hover,
-	footer .action a:active,
-	footer .action a:focus {
-		background-color: rgba(255, 255, 255, 0.8);
-	}
-	*/
 	footer .action a:hover,
 	footer .action a:active,
 	footer .action a:focus {
@@ -1043,27 +1014,6 @@
 	footer a:focus  .icon {
 		fill: black;
 	} 
-
-	/*
-
-	footer a:hover  .email .icon,
-	footer a:active .email .icon,
-	footer a:focus  .email .icon {
-		fill: #DC4E41;
-	}
-
-	footer a:hover  .facebook .icon,
-	footer a:active .facebook .icon,
-	footer a:focus  .facebook .icon {
-		fill: #3B5998;
-	}
-
-	footer a:hover  .twitter .icon,
-	footer a:active .twitter .icon,
-	footer a:focus  .twitter .icon {
-		fill: #55ACEE;
-	}
-	*/
 
 
 	/* =Navigation
@@ -1636,6 +1586,13 @@
 
 	/* =Audience (about page)
 	----------------------------------------------- */
+	.audience section h2 {
+		margin-top: 0.6666666667em; /* half the usual margin top for h2 */
+		margin-bottom: 0;
+	}
+	.audience section h3 {
+		margin-top: 0.75em;
+	}
 	@media (min-width: 55em) {
 		.audience {
 			margin-top: 3em;
@@ -1652,9 +1609,6 @@
 		}
 		.audience section + section {
 			margin-left: 5%;
-		}
-		.audience section h3 {
-			margin-top: 0;
 		}
 	}
 

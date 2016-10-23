@@ -3,7 +3,7 @@ layout: default
 
 title: Frequently Asked Questions, Food Oasis Los Angeles
 
-color: blueberry
+color: grape
 ---
 
 # Frequently Asked Questions
