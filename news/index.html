@@ -8,10 +8,18 @@ title: News at Food Oasis Los Angeles
 <ul class="link-list">
 {% for post in site.posts %}
 	<li>
-		<a href="{{ post.url | prepend: site.baseurl }}">
-			<h3>{{ post.title }}</h3>
-			<p>{{ post.date | date: "%b %-d, %Y" }}</p>
-		</a>
+		<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+			<header class="post-header">
+				<h1 class="post-title" itemprop="name headline">{{ post.title }}</h1>
+				<p class="post-meta"><a href="{{ post.url | prepend: site.baseurl }}"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></a>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+			</header>
+
+			<div class="post-content" itemprop="articleBody">
+				{{ post.content | markdownify }}
+			</div>
+
+		</article>
 	</li>
 {% endfor %}
 </ul>
