@@ -844,8 +844,7 @@
 			padding: 1.5em 3em 6em;
 		}
 	}
-	footer section,
-	footer .link-list {
+	footer section {
 		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
