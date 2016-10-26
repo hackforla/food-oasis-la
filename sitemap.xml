@@ -3,6 +3,18 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--
+NOTE: This file isn’t in use yet.
+
+Before submitting it to search engines, we may want to…
+
+1) Read the site map guide from Google:
+https://support.google.com/webmasters/answer/156184?hl=en
+
+2) Add missing pages (for example: /about, /map, /list)
+
+3) Tweak the <changefreq> and <priority> elements.
+-->
   {% for food_source in site.data['community-gardens'] %}
     <url>
       <loc>{{ site.url }}/comunity-garden/{{ food_source['uri'] }}</loc>
