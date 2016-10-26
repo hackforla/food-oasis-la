@@ -1,0 +1,48 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for food_source in site.data['community-gardens'] %}
+    <url>
+      <loc>{{ site.url }}/comunity-garden/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for food_source in site.data['farmers-markets'] %}
+    <url>
+      <loc>{{ site.url }}/farmers-market/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for food_source in site.data['food-pantries'] %}
+    <url>
+      <loc>{{ site.url }}/food-pantry/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for food_source in site.data['grocery-stores'] %}
+    <url>
+      <loc>{{ site.url }}/grocery-store/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for food_source in site.data['grocery-other'] %}
+    <url>
+      <loc>{{ site.url }}/store/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for food_source in site.data['supermarkets'] %}
+    <url>
+      <loc>{{ site.url }}/supermarket/{{ food_source['uri'] }}</loc>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+</urlset>
