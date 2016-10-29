@@ -708,13 +708,12 @@
 		position: relative;
 		text-align: center;
 	}
-	@media (min-width: 60em) {
-		footer .link-list li {
-			display: inline-block;
-		}
-		footer .link-list li + li {
-			margin-left: 1.5em;
-		}
+	footer .link-list li {
+		display: inline-block;
+	}
+	footer .link-list li + li {
+		margin-left: 0.75em;
+		margin-right: 0.75em;
 	}
 
 	.canteloupe footer {
@@ -1163,6 +1162,7 @@
 		margin-bottom: 0;
 		font-size: 1.25em;
 		line-height: 1.2;
+		font-style: inherit;
 	}
 	.map-point-details h3 + p {
 		margin-top: 0;

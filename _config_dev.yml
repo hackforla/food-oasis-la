@@ -9,6 +9,7 @@ exclude:
     - supermarket
     - grocery-store
     - store
+    - sitemap.xml
 
     # These files are unique to the “site” repository.
     - rakefile
@@ -23,6 +24,7 @@ keep_files:
     - supermarket
     - grocery-store
     - store
+    - sitemap.xml
 
     # These files are unique to the “foodoasisla.github.io” repository.
     - .nojekyll
