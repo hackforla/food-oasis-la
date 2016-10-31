@@ -33,8 +33,11 @@ layout: null
 	<main>
 		<!--
 		<form action="/map" method="get" style="background-image: url(/assets/images/photos/projecto-jardin.jpg)">
-		-->
 		<form action="/map" method="get" style="background-image: url(/assets/images/photos/6060629012_d9dc1f7642_o.jpg)">
+		<form action="/map" method="get" style="background-image: url(/assets/images/photos/IMG_1061.JPG)">
+		-->
+		<form action="/map" method="get">
+
 			<div>
 				<h1>Find healthy food near&nbsp;you.</h1>
 				<p>
@@ -61,12 +64,36 @@ layout: null
 				</p>
 			</div>
 
-			<p class="photo-credit">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+			<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+			<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
 			<!--
+			<p class="photo-credit">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
 			<p class="photo-credit">Photo by <a href="http://www.proyectojardin.org">Projecto Jardin</a></p>
 			-->
 		</form>
 
+		<script>
+		(function() {
+			var images = [
+				'/assets/images/photos/daily-organics-apples.jpg',
+				'/assets/images/photos/daily-organics-apples-2.jpg',
+				'/assets/images/photos/daily-organics-carrots.jpg',
+				'/assets/images/photos/daily-organics-pears.jpg',
+				'/assets/images/photos/daily-organics-squash.jpg',
+				'/assets/images/photos/6060629012_d9dc1f7642_o.jpg'
+			];
+    		var min = 0;
+		    var max = images.length - 1;
+			var random = Math.floor(Math.random() * (max - min + 1) + min);
+			var form = document.querySelector('body.find main form');
+			form.style.backgroundImage = 'url(' + images[random] + ')';
+			if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
+				document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
+			} else {
+				document.querySelector('.photo-credit#daily-organics').style.display = 'block';
+			}
+		})();
+		</script>
 
 		<!--
 		<ul id="searchCheckBoxList">
