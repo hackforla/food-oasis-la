@@ -59,25 +59,25 @@ Effectively harnessing the graphic capabilities of online mapping platforms
 Maintaining and assessing the website
 Regular process/system of moderation
 
-## Contributors
+## Contributors (Thanks everyone!)
 
-* Raven Hardison
-* Steve Bradford
-* Regan Hutson
-* Amanda McGlothlin
-* Tamura Fatherree
-* Jim Thoburn
-* Halina Zarate
-* Joshua Robins
-* Wes Tawfik
-* Jon Schleuss
-* Kiki Garrison
 * Jessica Ayunani
-* Stella Kim
-* Melissa Halim
-* Rebecca Pizano
-* Johnny Romano
-* Arlene Waclawek
+* Steve Bradford
 * Ian Carroll
-* Michael Kunc
 * Bhaiji Ebrahim
+* Tamura Fatherree
+* Kiki Garrison
+* Melissa Halim
+* Raven Hardison
+* Regan Hutson
+* Stella Kim
+* Michael Kunc
+* Amanda McGlothlin
+* Rebecca Pizano
+* Joshua Robins
+* Johnny Romano
+* Jon Schleuss
+* Wes Tawfik
+* Jim Thoburn
+* Arlene Waclawek
+* Halina Zarate
