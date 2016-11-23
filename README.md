@@ -120,7 +120,4 @@ list/*
 community-garden/*
 farmers-market/*
 food-pantry/*
-supermarket/*
-grocery-store/*
-store/*
 ```
