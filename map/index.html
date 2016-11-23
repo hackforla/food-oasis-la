@@ -181,7 +181,11 @@ layout: null
 			// color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
 			color: 'rgba(211, 16, 134, 0.75)' /* @dragonfruit */
 
-		},
+		}
+	]
+
+	// NOTE: These aren’t in use
+	var GROCERY_MAP_LAYERS = [
 		{
 			name: 'supermarket',
 			label: 'Supermarket',
@@ -481,7 +485,9 @@ layout: null
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 	var map = new mapboxgl.Map({
 		container: 'map',
-		style: 'mapbox://styles/mapbox/streets-v9',
+		//style: 'mapbox://styles/mapbox/streets-v9',
+		//style: 'mapbox://styles/mapbox/light-v9',
+		style: 'mapbox://styles/mapbox/basic-v9',
 		zoom: 13, // starting zoom
 		center: MAP_START_POSITION, // starting position
 		maxBounds: MAP_BOUNDS

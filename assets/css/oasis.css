@@ -318,6 +318,9 @@
 		margin-top: 0;
 		text-decoration: underline;
 		margin-bottom: 0.25em;
+		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @grape */
 	}
 	.organization-list .type,
 	.organization-list .tags {
@@ -880,9 +883,6 @@
 	}
 	footer section h2,
 	footer section h3 {
-		color: rgb(229, 152, 48);
-		color: rgb(206, 149, 56);
-		color: rgba(0, 0, 0, 0.333);
 		color: inherit;
 	}
 	footer section a {
@@ -893,6 +893,8 @@
 
 	footer .action {
 		text-align: center;
+		font-size: 1.25em;
+		margin-top: 2.4em; /* 3em / 1.25em */
 	}
 	footer .action a,
 	footer .action a:hover,
@@ -900,9 +902,6 @@
 	footer .action a:focus {
 		background: white;
 		color: black;
-	}
-	footer .action {
-		font-size: 1.25em;
 	}
 
 
@@ -1499,12 +1498,14 @@
 	body.find .shim-sections h1 {
 		margin-top: 0;
 	}
+	/*
 	@media (min-width: 80em) and (min-height: 50em) {
 		body.find .shim-sections {
 			padding-top: 10vh;
-			min-height: 70vh;
+			min-height: 40vh;
 		}
 	}
+	*/
 
 	body.find .shim-sections:after {
 		content: "";
