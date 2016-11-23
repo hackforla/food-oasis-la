@@ -86,7 +86,7 @@ assets/js
 assets/leaflet
 ```
 
-### Data for client-side searching
+### Data for client-side searching (not in use yet)
 ```
 json/*
 ```
