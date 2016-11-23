@@ -1,7 +1,7 @@
 ---
 layout: default
 
-title: Team – Food Oasis Los Angeles
+title: Team, Food Oasis Los Angeles
 
 color: strawberry
 ---
