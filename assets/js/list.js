@@ -10,6 +10,7 @@
 
 		// If the user passed in an address
 		if (address) {
+			if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>' + address + '</em>';
 
 			// Add Los Angeles to the address
 			if (address.indexOf('Los Angeles') < 0) {
@@ -44,6 +45,7 @@
 			navigator.geolocation.getCurrentPosition(function(position) {
 
 				sortByClosest(position.coords.latitude, position.coords.longitude);
+				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near you';
 
 			}, function() {
 				foodSourcesList.classList.remove('sorting');

@@ -349,6 +349,16 @@
 
 	/* =Food Source List
 	----------------------------------------------- */
+	.food-source-list-headline em {
+		display: inline-block;
+		font-style: normal;
+	}
+	.food-source-list-headline em::before {
+		content: "“";
+	}
+	.food-source-list-headline em::after {
+		content: "”";
+	}
 	.food-source-list,
 	.food-source-list li {
 		list-style: none;

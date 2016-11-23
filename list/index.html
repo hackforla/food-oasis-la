@@ -6,25 +6,7 @@ title: Food near you in Los Angeles
 
 {% include link-to-map.html %}
 
-<div id="headline-placeholder"></div>
-<script>
-(function() {
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-	var address = getParameterByName('address');
-	if (address) {
-		document.getElementById('headline-placeholder').innerHTML = '<h1>' + address + '</h1>'
-	}
-})();
-</script>
+<h1 class="food-source-list-headline">Healthy food <span id="location">in Los Angeles</span></h1>
 
 <ul class="food-source-list">
 {% include list/food-pantry.html %}
