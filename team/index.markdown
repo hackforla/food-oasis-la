@@ -58,3 +58,26 @@ Maintaining clarity, simplicity and consistency, so navigation becomes intuitive
 Effectively harnessing the graphic capabilities of online mapping platforms
 Maintaining and assessing the website
 Regular process/system of moderation
+
+## Contributors
+
+* Raven Hardison
+* Steve Bradford
+* Regan Hutson
+* Amanda McGlothlin
+* Tamura Fatherree
+* Jim Thoburn
+* Halina Zarate
+* Joshua Robins
+* Wes Tawfik
+* Jon Schleuss
+* Kiki Garrison
+* Jessica Ayunani
+* Stella Kim
+* Melissa Halim
+* Rebecca Pizano
+* Johnny Romano
+* Arlene Waclawek
+* Ian Carroll
+* Michael Kunc
+* Bhaiji Ebrahim
