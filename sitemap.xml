@@ -36,6 +36,7 @@ https://support.google.com/webmasters/answer/156184?hl=en
       <priority>1.0</priority>
     </url>
   {% endfor %}
+  {% if false %}
   {% for food_source in site.data['grocery-stores'] %}
     <url>
       <loc>{{ site.url }}/grocery-store/{{ food_source['uri'] }}</loc>
@@ -57,4 +58,5 @@ https://support.google.com/webmasters/answer/156184?hl=en
       <priority>1.0</priority>
     </url>
   {% endfor %}
+  {% endif %}
 </urlset>

@@ -1,7 +1,3 @@
----
-layout: null
----
-
 var locations = [
 
     {% for food_source in site.data['food-banks'] %}
