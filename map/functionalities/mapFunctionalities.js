@@ -1,20 +1,20 @@
-
-// <script src="mapJsonData.js"></script>
 ---
 layout: null
 ---
 
+// <script src="mapJsonData.js"></script>
+
 var locations = [
 
-    {% for food_source in site.data['food_banks_andrew'] %}
+    {% for food_source in site.data['food-pantries'] %}
 
         {
-            name: "{{ food_source["name""] }}",
+            name: "{{ food_source["name"] }}",
             type: "Food Bank",
-            address: "{{ food_source["address""] }}",
-            hours: "{{ food_source["hours""] }}",
-            latitude: {{ food_source["latitude""] }},
-            longitude: {{ food_source["longitude""] }},
+            address: "{{ food_source["address"] }}",
+            hours: "{{ food_source["hours"] }}",
+            latitude: {{ food_source["latitude"] }},
+            longitude: {{ food_source["longitude"] }},
             distance: null
 
         },

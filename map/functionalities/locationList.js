@@ -1,8 +1,8 @@
 function buildLocationList(data) {
 	console.log('inside buildlocationlist');
 	// Iterate through the list of stores
-	for (i = 0; i < data.features.length; i++) {
-  var currentFeature = data.features[i];
+	for (i = 0; i < data.length; i++) {
+  var currentFeature = data[i];
   // Shorten data.feature.properties to just `prop` so we're not
     // writing this long form over and over again.
   var prop = currentFeature.properties;
@@ -38,7 +38,7 @@ function buildLocationList(data) {
   // Add an event listener for the links in the sidebar listing
   link.addEventListener('click', function(e){
     // Update the currentFeature to the store associated with the clicked link
-    var clickedListing = data.features[this.dataPosition];
+    var clickedListing = data[this.dataPosition];
     // 1. Fly to the point associated with the clicked link
     flyToStore(clickedListing);
     // 2. Close all other popups and display popup for clicked store

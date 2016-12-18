@@ -41,17 +41,17 @@ geocodeAddress(address, moveMapToPosition);
 
 	// Grab user's location on page-load
 	} else if ("geolocation" in navigator) {
-navigator.geolocation.getCurrentPosition(function(position) {
+		navigator.geolocation.getCurrentPosition(function(position) {
 
-	// Set new starting location
-	var myCoords = [position.coords.longitude, position.coords.latitude];
-	moveMapToPosition(myCoords);
+		// Set new starting location
+		var myCoords = [position.coords.longitude, position.coords.latitude];
+		console.log('current coords ' + myCoords);
+		moveMapToPosition(myCoords);
 
-}, function() {
-	console.error("Unable to retrieve your location");
-});
+		}, function() {
+			console.error("Unable to retrieve your location");
+		});
 	}
-	console.log('current coords ' + myCoords);
 }
 
 function moveMapToPosition(position) {
