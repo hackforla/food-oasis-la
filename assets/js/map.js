@@ -1,45 +1,151 @@
 (function() {
 
-	var MAP_START_POSITION = [-118.243683, 34.052235];
+	var map;
+	function createMap() {
 
-	var MAP_BOUNDS = [
-		[-119.9442369,32.7089729], // Southwest coordinates
-		[-116.63282912,35.8275538]  // Northeast coordinates
-	];
+		mapboxgl.accessToken = MAP_ACCESS_TOKEN;
+		map = new mapboxgl.Map({
+			container: 'map',
+			//style: 'mapbox://styles/mapbox/streets-v9',
+			//style: 'mapbox://styles/mapbox/light-v9',
+			style: 'mapbox://styles/mapbox/basic-v9',
+			zoom: 13, // starting zoom
+			center: MAP_START_POSITION, // starting position
+			maxBounds: MAP_BOUNDS
+		});
 
-	/*
-	Colors…
+		var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
+		map.addControl(nav);
 
-	@asparagus:   rgb(161, 167, 72)
-	@banana:      rgb(249, 192, 88)
-	@strawberry:  rgb(241, 95, 91)
-	@lime:        rgb(144, 194, 70)
-	@blueberry:   rgb(77, 85, 148)
-	@dragonfruit: rgb(211, 16, 134)
-	*/
-	var MAP_LAYERS = [
-		{
-			name: 'food-pantry',
-			label: 'Food Pantry',
-			sourceLayer: 'Food-Pantries_09-24-50izc5',
-			sourceURL: 'mapbox://foodoasisla.47r06atm',
-			color: 'rgba(229, 172, 68, 1)' /* @banana */
-		},
-		{
-			name: 'community-garden',
-			label: 'Community Garden',
-			sourceLayer: 'Community-Gardens_09-22-0ruhbz',
-			sourceURL: 'mapbox://foodoasisla.43efueeq',
-			color: 'rgba(124, 174, 50, 1)' /* @lime */
-		},
-		{
-			name: 'farmers-market',
-			label: 'Farmers Market',
-			sourceLayer: 'Farmers-Markets_08-17-3rvtq4',
-			sourceURL: 'mapbox://foodoasisla.7cdn2m99',
-			color: 'rgba(211, 16, 134, 0.75)' /* @dragonfruit */
+		// Add 'Current Location' Functionality
+		map.addControl(new mapboxgl.Geolocate());
+
+		map.on('click', showPopup); 
+
+		map.on('load', function() {
+			addLayers();
+			addFilterButtons();
+			findUserLocation();
+		});
+	}
+
+	function addLayers() {
+		for (var index = 0; index < MAP_LAYERS.length; index++) {
+			addLayer(MAP_LAYERS[index], 9, 14, null); // Zoomed in
+			addLayer(MAP_LAYERS[index], 6, 12, 14);
+			addLayer(MAP_LAYERS[index], 3, null, 12); // Zoomed out
 		}
-	]
+
+		// Draw food desert census tracts
+		map.addSource('Food Deserts', {
+			type: 'vector',
+			url: 'mapbox://foodoasisla.d040onrj'
+		});
+		map.addLayer({
+			'id': 'Food Deserts',
+			'type': 'fill',
+			'source': 'Food Deserts',
+			'layout': {
+				'visibility': 'visible'
+			},
+			'paint': {
+				'fill-color': '#FF0000',
+				'fill-opacity': 0.1
+			},
+			'filter': ["==", "LI LA De_4", "1"],
+			'source-layer': 'USDA_Food_Desert_Tracts_2010-65gavx'
+		});
+	}
+
+	function addFilterButtons() {
+		var layers = document.querySelector('.map-filters');
+
+		for (var i = 0; i < MAP_LAYERS.length; i++) {
+			layers.appendChild(createButton(MAP_LAYERS[i]));
+		}
+	}
+
+	function addLayer(data, markerSize, minzoom, maxzoom) {
+		var name = data.name + (!minzoom ? '-far' : (!maxzoom ? '-near' : ''));
+		map.addSource(name, {
+			type: 'vector',
+			url: data.sourceURL
+		});
+		var layerData = {
+			'id': name,
+			'type': 'circle',
+			'source': name,
+			'layout': {
+				'visibility': 'visible'
+			},
+			'paint': {
+				'circle-radius': markerSize,
+				'circle-color': data.color
+			},
+			'source-layer': data.sourceLayer
+		};
+		if (minzoom) layerData.minzoom = minzoom;
+		if (maxzoom) layerData.maxzoom = maxzoom;
+		map.addLayer(layerData);
+	}
+
+	function createButton(data) {
+
+		var button = document.createElement('button');
+		button.type = "button";
+		button.className = data.name;
+		button.setAttribute('data-type', data.name);
+		
+		if (data.label.endsWith('y')) {
+		 	button.textContent = data.label.replace('y','ies');
+		}
+		else {
+			button.textContent = data.label === 'Store' ? 'More Stores' : data.label + 's'; // SHIM: Pluralize (and add 'More' before 'Stores')
+		}
+
+		button.addEventListener('click', function(e) {
+			e.preventDefault();
+
+			var visibility = map.getLayoutProperty(data.name, 'visibility');
+
+			if (visibility === 'visible') {
+				map.setLayoutProperty(data.name, 'visibility', 'none');
+				map.setLayoutProperty(data.name + '-near', 'visibility', 'none');
+				map.setLayoutProperty(data.name + '-far', 'visibility', 'none');
+				this.className += ' inactive';
+			} else {
+				map.setLayoutProperty(data.name, 'visibility', 'visible');
+				map.setLayoutProperty(data.name + '-near', 'visibility', 'visible');
+				map.setLayoutProperty(data.name + '-far', 'visibility', 'visible');
+				this.className = this.className.replace(/inactive/g, '');
+			}
+
+			// SHIM: Make the filter stick
+			var type = [];
+			var activeButtons = document.querySelectorAll('.map-filters button:not(.inactive)');
+			for (var index = 0; index < activeButtons.length; index++) {
+				type.push(activeButtons[index].getAttribute('data-type'));
+			}
+			persistTypeParameter(type.join('|'));
+		}, false);
+
+		// If a type was requested and this button doesn’t match, toggle it off
+		var type = getParameterByName('type');
+		if (type) {
+			type = type.split('|');
+			var found = false;
+			for (var index = 0; index < type.length; index++) {
+				if (type[index] === data.name) found = true;
+			}
+			if (!found) button.click();
+
+		// If no type was requested, toggle the “More Stores” layer off
+		} else if (data.name === 'store') {
+			button.click();
+		}
+
+		return button;
+	}
 
 	function getLayerLabel(name) {
 		for (var index = 0; index < MAP_LAYERS.length; index++) {
@@ -85,7 +191,6 @@
 				// Set new starting location
 				var myCoords = [position.coords.longitude, position.coords.latitude];
 				moveMapToPosition(myCoords, true);
-				//console.log('current coords', myCoords);
 
 			}, function() {
 				console.error("Unable to retrieve your location");
@@ -308,141 +413,6 @@
 		return address;
 	}
 
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
-	var map = new mapboxgl.Map({
-		container: 'map',
-		//style: 'mapbox://styles/mapbox/streets-v9',
-		//style: 'mapbox://styles/mapbox/light-v9',
-		style: 'mapbox://styles/mapbox/basic-v9',
-		zoom: 13, // starting zoom
-		center: MAP_START_POSITION, // starting position
-		maxBounds: MAP_BOUNDS
-	});
-
-	var nav = new mapboxgl.Navigation({position: 'bottom-left'}); // position is optional
-	map.addControl(nav);
-
-	// Add 'Current Location' Functionality
-	map.addControl(new mapboxgl.Geolocate());
-
-	map.on('click', showPopup); 
-
-	function addLayer(data, markerSize, minzoom, maxzoom) {
-		var name = data.name + (!minzoom ? '-far' : (!maxzoom ? '-near' : ''));
-		//console.log('id: ' + name);
-		map.addSource(name, {
-			type: 'vector',
-			url: data.sourceURL
-		});
-		var layerData = {
-			'id': name,
-			'type': 'circle',
-			'source': name,
-			'layout': {
-				'visibility': 'visible'
-			},
-			'paint': {
-				'circle-radius': markerSize,
-				'circle-color': data.color
-			},
-			'source-layer': data.sourceLayer
-		};
-		if (minzoom) layerData.minzoom = minzoom;
-		if (maxzoom) layerData.maxzoom = maxzoom;
-		map.addLayer(layerData);
-	}
-
-	map.on('load', function () {
-		for (var index = 0; index < MAP_LAYERS.length; index++) {
-			addLayer(MAP_LAYERS[index], 9, 14, null); // Zoomed in
-			addLayer(MAP_LAYERS[index], 6, 12, 14);
-			addLayer(MAP_LAYERS[index], 3, null, 12); // Zoomed out
-		}
-
-		findUserLocation();
-
-		var layers = document.querySelector('.map-filters');
-		function createButton(data) {
-
-			var button = document.createElement('button');
-			button.type = "button";
-			button.className = data.name;
-			button.setAttribute('data-type', data.name);
-			
-			if (data.label.endsWith('y')) {
-			 	button.textContent = data.label.replace('y','ies');
-			}
-			else {
-				button.textContent = data.label === 'Store' ? 'More Stores' : data.label + 's'; // SHIM: Pluralize (and add 'More' before 'Stores')
-			}
-
-			button.addEventListener('click', function(e) {
-				e.preventDefault();
-
-				var visibility = map.getLayoutProperty(data.name, 'visibility');
-
-				if (visibility === 'visible') {
-					map.setLayoutProperty(data.name, 'visibility', 'none');
-					map.setLayoutProperty(data.name + '-near', 'visibility', 'none');
-					map.setLayoutProperty(data.name + '-far', 'visibility', 'none');
-					this.className += ' inactive';
-				} else {
-					map.setLayoutProperty(data.name, 'visibility', 'visible');
-					map.setLayoutProperty(data.name + '-near', 'visibility', 'visible');
-					map.setLayoutProperty(data.name + '-far', 'visibility', 'visible');
-					this.className = this.className.replace(/inactive/g, '');
-				}
-
-				// SHIM: Make the filter stick
-				var type = [];
-				var activeButtons = document.querySelectorAll('.map-filters button:not(.inactive)');
-				for (var index = 0; index < activeButtons.length; index++) {
-					type.push(activeButtons[index].getAttribute('data-type'));
-				}
-				persistTypeParameter(type.join('|'));
-			}, false);
-
-			// If a type was requested and this button doesn’t match, toggle it off
-			var type = getParameterByName('type');
-			if (type) {
-				type = type.split('|');
-				var found = false;
-				for (var index = 0; index < type.length; index++) {
-					if (type[index] === data.name) found = true;
-				}
-				if (!found) button.click();
-
-			// If no type was requested, toggle the “More Stores” layer off
-			} else if (data.name === 'store') {
-				button.click();
-			}
-
-			layers.appendChild(button);
-		}
-
-		for (var i = 0; i < MAP_LAYERS.length; i++) {
-			createButton(MAP_LAYERS[i]);
-		}
-
-		// Draw food desert census tracts
-		map.addSource('Food Deserts', {
-			type: 'vector',
-			url: 'mapbox://foodoasisla.d040onrj'
-		});
-		map.addLayer({
-			'id': 'Food Deserts',
-			'type': 'fill',
-			'source': 'Food Deserts',
-			'layout': {
-				'visibility': 'visible'
-			},
-			'paint': {
-				'fill-color': '#FF0000',
-				'fill-opacity': 0.1
-			},
-			'filter': ["==", "LI LA De_4", "1"],
-			'source-layer': 'USDA_Food_Desert_Tracts_2010-65gavx'
-		});
-	});
+	createMap();
 
 })();
