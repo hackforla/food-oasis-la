@@ -1,0 +1,116 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="{{ page.language }}" dir="ltr">
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Find healthy food near you" />
+
+	<title>Food Oasis Los Angeles</title>
+
+	<link rel="canonical" href="https://foodoasis.la" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
+	<!--
+	* Open Sans - Regular
+	* Open Sans - Italic
+	* Reem Kufi - Regular
+
+	You can choose more faces here:
+	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
+	-->
+
+	<link rel="stylesheet" href="/assets/css/oasis.css" />
+</head>
+<body class="find">
+	{% include header.html %}
+
+	{% assign has_navigation=true %}
+	{% include link-to-find-food.html %}
+
+	<main>
+		<form action="/list" method="get">
+
+			<div>
+				<h1>{{ page.headline }}</h1>
+				<p>
+					<label>
+						<span>{{ page.search_label }}</span><br />
+						<input placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
+					</label>
+					<button type="submit">Go</button>
+				</p>
+			</div>
+
+			<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+			<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
+		</form>
+
+		<script>
+		(function() {
+			var images = [
+				'/assets/images/photos/daily-organics-apples.jpg',
+				'/assets/images/photos/daily-organics-apples-2.jpg',
+				'/assets/images/photos/daily-organics-carrots.jpg',
+				'/assets/images/photos/daily-organics-pears.jpg',
+				'/assets/images/photos/daily-organics-squash.jpg',
+				'/assets/images/photos/6060629012_d9dc1f7642_o.jpg'
+			];
+			var min = 0;
+			var max = images.length - 1;
+			var random = Math.floor(Math.random() * (max - min + 1) + min);
+			var form = document.querySelector('body.find main form');
+			form.style.backgroundImage = 'url(' + images[random] + ')';
+			if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
+				document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
+			} else {
+				document.querySelector('.photo-credit#daily-organics').style.display = 'block';
+			}
+		})();
+		</script>
+
+		<div class="shim-sections">
+		<section class="categories">
+			<h2>Free food</h2>
+			<ul class="link-list has-icons">
+				<li>
+					<a href="/food-pantry">
+						<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
+						<span>Food Pantries</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="categories">
+			<h2>Grow food</h2>
+			<ul class="link-list has-icons">
+				<li>
+					<a href="/community-garden">
+						<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
+						<span>Community Gardens</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="categories">
+			<h2>Food for sale</h2>
+			<ul class="link-list has-icons">
+				<li>
+					<a href="/farmers-market">
+						<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
+						<span>Farmers’ Markets</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+		</div><!-- /.shim-sections -->
+
+	</main>
+		
+	<!-- footer.html found in _includes/footer.html -->
+	{% include footer.html %}
+
+</body>
+</html>
