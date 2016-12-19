@@ -7,14 +7,22 @@
 		[-116.63282912,35.8275538]  // Northeast coordinates
 	];
 
+	/*
+	Colors…
+
+	@asparagus:   rgb(161, 167, 72)
+	@banana:      rgb(249, 192, 88)
+	@strawberry:  rgb(241, 95, 91)
+	@lime:        rgb(144, 194, 70)
+	@blueberry:   rgb(77, 85, 148)
+	@dragonfruit: rgb(211, 16, 134)
+	*/
 	var MAP_LAYERS = [
-		
 		{
 			name: 'food-pantry',
 			label: 'Food Pantry',
 			sourceLayer: 'Food-Pantries_09-24-50izc5',
 			sourceURL: 'mapbox://foodoasisla.47r06atm',
-			//color: 'rgba(249, 192, 88, 1)' /* @banana */
 			color: 'rgba(229, 172, 68, 1)' /* @banana */
 		},
 		{
@@ -22,8 +30,6 @@
 			label: 'Community Garden',
 			sourceLayer: 'Community-Gardens_09-22-0ruhbz',
 			sourceURL: 'mapbox://foodoasisla.43efueeq',
-			//color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-			//color: 'rgba(144, 194, 70, 1)' /* @lime */
 			color: 'rgba(124, 174, 50, 1)' /* @lime */
 		},
 		{
@@ -31,44 +37,9 @@
 			label: 'Farmers Market',
 			sourceLayer: 'Farmers-Markets_08-17-3rvtq4',
 			sourceURL: 'mapbox://foodoasisla.7cdn2m99',
-			//color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
-			// color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-			// color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
 			color: 'rgba(211, 16, 134, 0.75)' /* @dragonfruit */
-
 		}
 	]
-
-	// NOTE: These aren’t in use
-	var GROCERY_MAP_LAYERS = [
-		{
-			name: 'supermarket',
-			label: 'Supermarket',
-			sourceLayer: 'Supermarkets_09-26-3yeh6k',
-			sourceURL: 'mapbox://foodoasisla.2qi0jafk',
-			//color: 'rgba(161, 167, 72, 0.75)' /* @asparagus */
-			//color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-			color: 'rgba(77, 85, 148, 0.75)' /* @blueberry */
-		},
-		{
-			name: 'grocery-store',
-			label: 'Grocery Store',
-			sourceLayer: 'Grocery_09-26-43a4h9',
-			sourceURL: 'mapbox://foodoasisla.aoph8c4x',
-			//color: 'rgba(144, 194, 70, 0.75)' /* @lime */
-			//color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-			color: 'rgba(40, 137, 187, 0.75)' /* @blueberry */
-		},
-		{
-			name: 'store',
-			label: 'Store',
-			sourceLayer: 'Grocery-Misc_09-26-4teson',
-			sourceURL: 'mapbox://foodoasisla.5ginivn7',
-			//color: 'rgba(144, 194, 70, 0.75)' /* @lime */
-			//color: 'rgba(241, 95, 91, 0.75)' /* @strawberry */
-			color: 'rgba(40, 137, 187, 0.75)' /* @blueberry */
-		}
-	];
 
 	function getLayerLabel(name) {
 		for (var index = 0; index < MAP_LAYERS.length; index++) {
