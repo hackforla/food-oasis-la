@@ -213,6 +213,7 @@
 		// Find the closest location
 		var closestMarkers = findClosestMarkers();
 
+		// KUDOS: http://stackoverflow.com/questions/16845614/zoom-to-fit-all-markers-in-mapbox-or-leaflet
 		if (closestMarkers.length > 0) {
 			var group = new L.featureGroup(closestMarkers.push(userLocationMarker));
 			map.fitBounds(group.getBounds());

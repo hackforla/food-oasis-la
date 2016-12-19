@@ -2,7 +2,9 @@
 layout: null
 ---
 <!doctype html>
-<html lang="en" dir="ltr">
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
+<html lang="{{ locale }}" dir="ltr">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,14 +14,14 @@ layout: null
 	<link rel="canonical" href="https://foodoasis.la{{ page.url }}" />
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
-	<!--
+	{% comment %}
 	* Open Sans - Regular
 	* Open Sans - Italic
 	* Reem Kufi - Regular
 
 	You can choose more faces here:
 	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
-	-->
+	{% endcomment %}
 
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 

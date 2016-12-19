@@ -1,5 +1,3 @@
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
 <nav>
 	<p>
 		<a href="{% unless has_navigation %}/{% endunless %}#navigation">
