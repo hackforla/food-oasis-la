@@ -90,28 +90,29 @@ assets/leaflet
 ### Pages
 ```
 index.html
-organizations
-resources
-about
-team
-faqs
-404.markdown
+organizations.md
+resources.md
+about.md
+team.md
+faqs.md
+news.html
+404.md
 ```
 
-### Pages (Spanish)
+### Pages translated into Spanish
 ```
-es
-```
-
-### Maps
-```
-map/*
+es/*
 ```
 
-### Lists & detail pages
+### Map
 ```
-list/*
-community-garden/*
-farmers-market/*
-food-pantry/*
+map.html
+```
+
+### Lists pages
+```
+list.html
+community-garden.html
+farmers-market.html
+food-pantry.html
 ```
