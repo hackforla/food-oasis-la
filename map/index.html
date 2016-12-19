@@ -2,7 +2,9 @@
 layout: null
 ---
 <!doctype html>
-<html lang="en" dir="ltr">
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
+<html lang="{{ locale }}" dir="ltr">
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
