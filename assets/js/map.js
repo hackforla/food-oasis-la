@@ -199,40 +199,59 @@
 	}
 
 	function moveMapToPosition(position, geolocated) {
-		 map.setZoom(14); // TBD: Should we adjust this based on screen size? (Can we zoom until at least one store is visible?)
-		 map.panTo(position);
 
+		map.setZoom(14); // TBD: Should we adjust this based on screen size? (Can we zoom until at least one store is visible?)
+		map.panTo(position);
+
+		var userLocationMarker;
 		if (geolocated) {
-			addYouAreHere(position);
+			userLocationMarker = addYouAreHere(position);
 		} else {
-			addMarker(position);
+			userLocationMarker = addMarker(position);
 		}
+
+		// Find the closest location
+		var closestMarkers = findClosestMarkers();
+
+		if (closestMarkers.length > 0) {
+			var group = new L.featureGroup(closestMarkers.push(userLocationMarker));
+			map.fitBounds(group.getBounds());
+		}
+	}
+
+	function findClosestMarkers() {
+		// For each location
+			// Calculate the distance from the user
+		// Return the marker with the shortest distance
+
+		// Bonus points: return more than one closest marker
+		// Example: findClosestMarker(5)  ==>  returns the five closest markers
+
+		return [];
 	}
 
 	function addMarker(position) {
 		var template = document.getElementById('marker-template');
-		if (template) {
-			var marker = document.createElement('div');
-			marker.innerHTML = template.innerHTML;
 
-			var address = getParameterByName('address');
+		var marker = document.createElement('div');
+		marker.innerHTML = template.innerHTML;
 
-			new mapboxgl.Marker(marker)
-				.setLngLat(position)
-				.addTo(map);
-		}
+		var address = getParameterByName('address');
+
+		return new mapboxgl.Marker(marker)
+			.setLngLat(position)
+			.addTo(map);
 	}
 
 	function addYouAreHere(position) {
 		var template = document.getElementById('you-are-here-template');
-		if (template) {
-			var marker = document.createElement('div');
-			marker.innerHTML = template.innerHTML;
 
-			new mapboxgl.Marker(marker)
-				.setLngLat(position)
-				.addTo(map);
-		}
+		var marker = document.createElement('div');
+		marker.innerHTML = template.innerHTML;
+
+		return new mapboxgl.Marker(marker)
+			.setLngLat(position)
+			.addTo(map);
 	}
 
 	var popup;
