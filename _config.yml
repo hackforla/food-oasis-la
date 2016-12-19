@@ -12,6 +12,7 @@ description: This website was put together during the Civic Hack Nights at hackf
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://foodoasis.la" # the base hostname & protocol for your site
 github_username: foodoasisla
+permalink: pretty
 
 # These files are unique to the “site” repository.
 exclude:
