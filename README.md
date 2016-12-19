@@ -98,6 +98,11 @@ faqs
 404.markdown
 ```
 
+### Pages (Spanish)
+```
+es
+```
+
 ### Maps
 ```
 map/*
