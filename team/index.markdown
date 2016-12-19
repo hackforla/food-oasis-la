@@ -63,6 +63,7 @@ Regular process/system of moderation
 
 * Ahmed Abdulkarim
 * Jessica Ayunani
+* Dan Benson
 * Steve Bradford
 * Ian Carroll
 * Ebrahim Bhaiji
