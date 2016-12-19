@@ -61,6 +61,7 @@ HINT: You can save a step by pushing to the [foodoasisla.github.io](https://gith
 _config_dev.yml
 _config.yml
 _data/*
+_drafts/*
 _includes/*
 _layouts/*
 _plugins/*
@@ -86,11 +87,6 @@ assets/js
 assets/leaflet
 ```
 
-### Data for client-side searching (not in use yet)
-```
-json/*
-```
-
 ### Pages
 ```
 index.html
@@ -100,13 +96,6 @@ about
 team
 faqs
 404.markdown
-```
-
-### Landing pages
-```
-build-policies
-find-food
-get-involved
 ```
 
 ### Maps
