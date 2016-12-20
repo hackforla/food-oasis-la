@@ -38,6 +38,20 @@
 	{% for url in stylesheets %}
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
+
+	{% comment %}
+	TODO: Create favicon files, and reference them here. This is an example…
+
+	<!-- for general use -->
+	<link rel="icon" type="image/png"    href="assets/images/favicon.png" />
+
+	<!-- for iOS -->
+	<link rel="apple-touch-icon"         href="assets/images/favicon.png" />
+
+	<!-- for Windows 8 -->
+	<meta name="msapplication-TileImage" content="assets/images/favicon-transparent.png" />
+	<meta name="msapplication-TileColor" content="[Any CSS color value can be placed here. For example, lime: rgb(144, 194, 70)]" />
+	{% endcomment %}
 </head>
 <body{% if page.color or page.classname or layout.classname %} class="{{ page.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 	<div class="header">
