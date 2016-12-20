@@ -89,6 +89,9 @@
 		opacity: 0.5;
 	}
 	*/
+	.avoid-break {
+		display: inline-block; /* @avoid-break */
+	}
 
 
 	/* =Type
@@ -146,7 +149,7 @@
 	----------------------------------------------- */
 	.action a,
 	form.find button,
-	body.find form button,
+	.home form button,
 	header button,
 	.map-filters button,
 	nav a {
@@ -177,9 +180,9 @@
 	form.find button:hover,
 	form.find button:active,
 	form.find button:focus,
-	body.find form button:hover,
-	body.find form button:active,
-	body.find form button:focus,
+	.home form button:hover,
+	.home form button:active,
+	.home form button:focus,
 	header button:hover,
 	header button:active,
 	header button:focus,
@@ -195,7 +198,7 @@
 		color: white;
 	}
 	form.find button,
-	body.find button {
+	.home button {
 		text-transform: uppercase;
 	}
 	label span {
@@ -240,17 +243,17 @@
 	}
 	@media (max-width: 35em) {
 		input[type="text"],
-		body.find form button,
+		.home form button,
 		header button,
 		.map-filters button {
 			width: 100%;
 		}
-		body.find form button,
+		.home form button,
 		header button,
 		.map-filters button {
 			margin-top: 0.375em;
 		}
-		body.find main form {
+		.home form {
 			text-align: center;
 		}
 	}
@@ -397,10 +400,10 @@
 		color: rgb(40, 137, 187); /* @blueberry */
 	}
 	.food-source-list .farmers-market h2 {
-		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @grape */
 		color: rgba(161, 167, 72, 0.75); /* @asparagus */
 		color: rgb(211, 16, 134); /* @dragonfruit */
+		color: rgb(241, 95, 91); /* @strawberry */
 	}
 	.food-source-list .supermarket h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
@@ -1111,8 +1114,8 @@
 	.map-filters .farmers-market:active,
 	.map-filters .farmers-market:focus {
 		background-color: rgb(77, 85, 148); /* @grape */
-		/*background-color: rgb(241, 95, 91); /* @strawberry */
 		background-color: rgb(211, 16, 134); /* @dragonfruit */
+		background-color: rgb(241, 95, 91); /* @strawberry */
 	}
 	.map-filters .grocery-store,
 	.map-filters .grocery-store:hover,
@@ -1410,19 +1413,19 @@
 	}
 
 
-	/* =Find
+	/* =Home
 	----------------------------------------------- */
-	body.find main {
+	.home main {
 		max-width: 60em;
 		padding-bottom: 6em;
 	}
-	body.find main:after {
+	.home main:after {
 		content: "";
 		display: table;
 		clear: both;
 	}
 	@media (min-width: 35em) {
-		body.find main form {
+		.home form {
 			display: table;
 			margin-left: auto;
 			margin-right: auto;
@@ -1430,63 +1433,49 @@
 		}
 	}
 	@media (min-width: 40em) {
-		body.find main section {
+		.home main section {
 			float: left;
 			width: 50%;
 		}
-		body.find main section:last-child {
+		.home main section:last-child {
 			width: 100%;
 		}
 	}
 	@media (min-width: 70em) {
-		body.find main section,
-		body.find main section:last-child {
+		.home main section,
+		.home main section:last-child {
 			width: 33.333%;
 		}
 	}
-	body.find main section h2 {
+	.home main section h2 {
 		margin-top: 0;
 	}
-	body.find main section ul {
+	.home main section ul {
 		margin-bottom: 0;
 	}
-	body.find main .categories .link-list  .icon {
-		background: rgb(211, 16, 134); /* @dragonfruit */
-		padding: 0.375em;
-		border-radius: 50%;
-		vertical-align: middle;
-	}
 
-	body.find main .categories .link-list .farmers-market .icon {
-		background: rgb(211, 16, 134); /* @dragonfruit */
+	.home main .link-list  .icon {
+		background: rgb(204, 204, 204);
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-	body.find main .categories .link-list .grocery-store .icon {
-		background: rgb(40, 137, 187); /* @blueberry */
-		padding: 0.375em;
-		border-radius: 50%;
-		vertical-align: middle;
+	.home main .link-list.food-pantry .icon {
+		background: rgb(249, 192, 88); /* @canteloupe */
 	}
-	body.find main .categories .link-list .store .icon {
-		background: rgb(40, 137, 187); /* @blueberry */
-		padding: 0.375em;
-		border-radius: 50%;
-		vertical-align: middle;
+	.home main .link-list.community-garden .icon {
+		background: rgb(144, 194, 70); /* @lime */
 	}
-	body.find main .categories .link-list .supermarket .icon {
+	.home main .link-list.farmers-market .icon {
 		background: rgb(77, 85, 148); /* @grape */
-		padding: 0.375em;
-		border-radius: 50%;
-		vertical-align: middle;
+		background: rgb(241, 95, 91); /* @strawberry */
 	}
 
-	body.find main {
+	.home main {
 		max-width: none;
 		padding-bottom: 0;
 	}
-	body.find .categories {
+	.home .categories {
 		max-width: 60em;
 		margin-left: auto;
 		margin-right: auto;
@@ -1494,29 +1483,29 @@
 		padding-top: 1.875em;
 		padding-bottom: 4.5em;
 	}
-	body.find .categories section {
+	.home .categories section {
 		margin-top: 1.875em;
 	}
-	body.find .categories section ul {
+	.home .categories section ul {
 		margin-bottom: 1.875em;
 	}
-	body.find .categories section ul:last-child {
+	.home .categories section ul:last-child {
 		margin-bottom: 0;
 	}
-	body.find .categories section h2 {
+	.home .categories section h2 {
 		margin-bottom: 0;
 	}
-	body.find .categories section li a {
+	.home .categories section li a {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
 	}
 
-	body.find .categories:after {
+	.home .categories:after {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	body.find main form {
+	.home form {
 		box-sizing: border-box;
 		background-color: rgb(51, 51, 51);
 		background-repeat: no-repeat;
@@ -1534,7 +1523,7 @@
 		padding-top: 5.25em;
 		padding-bottom: 3.75em;
 	}
-	body.find main form:before {
+	.home form:before {
 		content: "";
 		background: rgba(0, 0, 0, 0.25);
 		background: rgba(0, 0, 0, 0.25) linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
@@ -1545,12 +1534,12 @@
 		height: 100%;
 	}
 	@media (min-width: 30em) {
-		body.find main form {
+		.home form {
 			margin-left: -3em;
 			margin-right: -3em;
 		}
 	}
-	body.find .photo-credit {
+	.home .photo-credit {
 		position: absolute;
 		bottom: 1.5em;
 		left: 1.5rem;
@@ -1559,32 +1548,28 @@
 		opacity: 0.5;
 	}
 	@media (min-width: 30em) {
-		body.find .photo-credit {
+		.home .photo-credit {
 			left: 3rem;
 		}
 	}
-	body.find .photo-credit a {
+	.home .photo-credit a {
 		color: inherit;
 	}
-	body.find main form div {
-		/*
-		background: rgba(0, 0, 0, 0.4);
-		border-radius: 0.25em;
-		*/
+	.home form div {
 		padding-left: 1.5em;
 		padding-right: 1.5em;
 		position: relative;
 		z-index: 1;
 	}
-	body.find main form h1 {
+	.home form h1 {
 		margin-top: 0;
 		color: inherit;
 	}
-	body.find .header {
+	.home .header {
 		position: absolute;
 		z-index: 1;
 	}
-	body.find .header h2 span {
+	.home .header h2 span {
 		color: white;
 	}
 
