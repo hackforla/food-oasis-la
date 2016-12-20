@@ -39,6 +39,10 @@
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
 
+	{% if page.redirect %}
+	<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
+	{% endif %}
+
 	{% comment %}
 	TODO: Create favicon files, and reference them here. This is an example…
 
@@ -150,7 +154,7 @@
 
 		<section class="contact">
 			<h2>{{ site.data.locales[locale].footer.contact_headline }}</h2>
-			<p><a href="http://www.hackforla.org/civic-hack-nights">{{ site.data.locales[locale].footer.join_message }}</a></p>
+			<p class="join">{{ site.data.locales[locale].footer.join_message | markdownify }}</p>
 			<p class="action"><a href="mailto:contact@foodoasis.la">{{ site.data.locales[locale].footer.email_label }}</a></p>
 			<div>
 				<a href="mailto:contact@foodoasis.la">

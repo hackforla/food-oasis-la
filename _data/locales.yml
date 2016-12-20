@@ -1,39 +1,40 @@
+
 # English
 en:
     nav:
-        link_label: "Menu"
-        headline: "Helping Angelenos find healthy food"
+        link_label: Menu
+        headline: Helping Angelenos find healthy food
         items:
-            map_label: "Map"
-            organizations_label: "Organizations"
-            resources_label: "Resources"
-            about_label: "About"
-            team_label: "Team"
-            news_label: "News"
-            faqs_label: "Frequently Asked Questions"
-            faqs_abbreviated_label: "FAQs"
+            map_label: Map
+            organizations_label: Organizations
+            resources_label: Resources
+            about_label: About
+            team_label: Team
+            news_label: News
+            faqs_label: Frequently Asked Questions
+            faqs_abbreviated_label: FAQs
     footer:
-        created_at_headline: "Created at"
-        contact_headline: "Have a question? Want to help?"
-        join_message: "Join us at Hack for LA, Tuesdays at 6pm"
-        email_label: "Send us a message"
+        created_at_headline: Created at
+        contact_headline: Have a question? Want to help?
+        join_message: Join us at [Hack for LA](http://www.hackforla.org/civic-hack-nights), Tuesdays at 6pm
+        email_label: Send us a message
 
 # Español
 es:
-    nav: 
-        link_label: "Menú"
-        headline: "Helping Angelenos find healthy food"
+    nav:
+        link_label: Menú
+        headline: Helping Angelenos find healthy food
         items:
-            map_label: "Map"
-            organizations_label: "Organizations"
-            resources_label: "Resources"
-            about_label: "About"
-            team_label: "Team"
-            news_label: "News"
-            faqs_label: "Frequently Asked Questions"
-            faqs_abbreviated_label: "FAQs"
+            map_label: Map
+            organizations_label: Organizations
+            resources_label: Resources
+            about_label: About
+            team_label: Team
+            news_label: News
+            faqs_label: Frequently Asked Questions
+            faqs_abbreviated_label: FAQs
     footer:
-        created_at_headline: "Created at"
-        contact_headline: "Have a question? Want to help?"
-        join_message: "Join us at Hack for LA, Tuesdays at 6pm"
-        email_label: "Send us a message"
+        created_at_headline: Created at
+        contact_headline: Have a question? Want to help?
+        join_message: Join us at [Hack for LA](http://www.hackforla.org/civic-hack-nights), Tuesdays at 6pm
+        email_label: Send us a message

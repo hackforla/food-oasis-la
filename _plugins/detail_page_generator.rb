@@ -67,9 +67,6 @@ module Jekyll
         generate_one(site, 'food-pantries',     'Food Pantry',      'food-pantry')
         generate_one(site, 'community-gardens', 'Community Garden', 'community-garden')
         generate_one(site, 'farmers-markets',   'Farmers Market',   'farmers-market')
-        #generate_one(site, 'supermarkets',      'Supermarket',      'supermarket')
-        #generate_one(site, 'grocery-stores',    'Grocery Store',    'grocery-store')
-        #generate_one(site, 'grocery-other',     'Store',            'store')
       end
     end
   end

@@ -1,12 +1,12 @@
 ---
 layout: default
-classname: find
+classname: home
 ---
 
 <form action="/list" method="get">
 
 	<div>
-		<h1>{{ page.headline }}</h1>
+		<h1>{{ page.headline | prevent_orphans: 3 }}</h1>
 		<p>
 			<label>
 				<span>{{ page.address_field_label }}</span><br />
@@ -19,6 +19,42 @@ classname: find
 	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
 	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
 </form>
+
+<div class="categories">
+	<section>
+		<h2>{{ page.categories.free.headline }}</h2>
+		<ul class="food-pantry link-list has-icons">
+			<li>
+				<a href="/food-pantry">
+					<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
+					<span>{{ page.categories.free.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ page.categories.grow.headline }}</h2>
+		<ul class="community-garden link-list has-icons">
+			<li>
+				<a href="/community-garden">
+					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
+					<span>{{ page.categories.grow.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ page.categories.purchase.headline }}</h2>
+		<ul class="farmers-market link-list has-icons">
+			<li>
+				<a href="/farmers-market">
+					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
+					<span>{{ page.categories.purchase.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+</div><!-- /.categories -->
 
 <script>
 (function() {
@@ -33,7 +69,7 @@ classname: find
 	var min = 0;
 	var max = images.length - 1;
 	var random = Math.floor(Math.random() * (max - min + 1) + min);
-	var form = document.querySelector('body.find main form');
+	var form = document.querySelector('form');
 	form.style.backgroundImage = 'url(' + images[random] + ')';
 	if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
 		document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
@@ -42,39 +78,3 @@ classname: find
 	}
 })();
 </script>
-
-<div class="categories">
-	<section>
-		<h2>{{ page.categories.free.headline }}</h2>
-		<ul class="link-list has-icons">
-			<li>
-				<a href="/food-pantry">
-					<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
-					<span>{{ page.categories.free.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ page.categories.grow.headline }}</h2>
-		<ul class="link-list has-icons">
-			<li>
-				<a href="/community-garden">
-					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
-					<span>{{ page.categories.grow.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ page.categories.purchase.headline }}</h2>
-		<ul class="link-list has-icons">
-			<li>
-				<a href="/farmers-market">
-					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
-					<span>{{ page.categories.purchase.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-</div><!-- /.categories -->
