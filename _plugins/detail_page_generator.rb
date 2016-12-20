@@ -9,6 +9,7 @@ module Jekyll
       @name = 'index.html'
       self.process('index.html')
       self.read_yaml(File.join(base, '_layouts'), 'food-source-details.html')
+      title = "${food_source['name']}, Food Oasis Los Angeles"
       name_html  = food_source['name']
       name_words = food_source['name'].split(' ')
 

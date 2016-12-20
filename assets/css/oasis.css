@@ -1020,7 +1020,7 @@
 	footer a:active .icon,
 	footer a:focus  .icon {
 		fill: black;
-	} 
+	}
 
 
 	/* =Navigation
@@ -1390,6 +1390,11 @@
 	body.map {
 		padding-bottom: 0;
 	}
+	body.food-source main,
+	body.map main {
+		padding: 0;
+		max-width: none;
+	}
 	body.map .mapbox {
 		/* TRICKY: This causes the map to not be pannable in iOS 10.
 		border-top: 1px solid rgba(0, 0, 0, 0.25);
@@ -1666,4 +1671,3 @@
 			width: 45%;
 		}
 	}
-

@@ -1,133 +1,60 @@
 ---
-layout: null
+layout: default
+include_footer: false
+classname: map
+
+title: Map, Food Oasis Los Angeles
+
+stylesheets:
+  - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css"
 ---
-<!doctype html>
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
-<html lang="{{ locale }}" dir="ltr">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title> Map, Food Oasis Los Angeles </title>
+<form class="find" action="/map" method="get">
+	<p>
+		<label>
+			<span>Enter your location</span><br />
+			<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" autocomplete="off" autocorrect="off" />
+		</label>
+		<button type="submit">
+			<!--
+			Search icon
+			by Veronika Krpciarova
+			https://thenounproject.com/v.krpciarova/collection/search/?oq=search&cidx=1&i=353178
+			-->
+			<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="20" height="20">
+				<switch>
+					<path fill="#FFFFFF" d=" M 83.7 77.7 Q 83.6751953125 77.5302734375 83.55 77.4 L 62.65 54.95 Q 67.4498046875 48.480859375 67.45 40 67.44765625 29.3423828125 59.85 21.75 52.3580078125 14.252734375 41.7 14.25 31.0427734375 14.2533203125 23.45 21.75 15.9533203125 29.3427734375 15.95 40 15.952734375 50.6580078125 23.45 58.15 31.0423828125 65.74765625 41.7 65.75 48.7376953125 65.747265625 54.45 62.45 L 76.15 85.5 Q 76.26796875 85.6412109375 76.4 85.7 76.5693359375 85.7599609375 76.7 85.75 81.1939453125 85.53125 82.9 83.5 84.7708984375 81.51328125 83.7 77.7 M 51.75 29.9 Q 55.9521484375 34.107421875 55.95 40 55.9521484375 45.8923828125 51.75 50.05 47.5923828125 54.2521484375 41.7 54.25 35.807421875 54.2521484375 31.6 50.05 27.44765625 45.8923828125 27.45 40 27.44765625 34.107421875 31.6 29.9 35.807421875 25.74765625 41.7 25.75 47.5923828125 25.74765625 51.75 29.9 Z"></path>
+					<foreignobject>Go</foreignobject>
+				</switch>
+			</svg>
+		</button>
+	</p>
+</form>
 
-	<link rel="canonical" href="https://foodoasis.la/map/" />
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
-	<!--
-	* Open Sans - Regular
-	* Open Sans - Italic
-	* Reem Kufi - Regular
+<nav class="search">
+	<h1>Map of food near you</h1>
+	<ul>
+		<li class="map"><a>Map</a></li>
+		<li class="list"><a href="/list">List</a></li>
+	</ul>
+</nav>
 
-	You can choose more faces here:
-	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
-	-->
+<nav class="map-filters"></nav>
 
-	<link rel="stylesheet" href="/assets/css/oasis.css" />
+<div id="map" class="mapbox"></div>
 
-	<!-- For Mapbox -->
-	<link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css" />
+<!-- For map.js -->
+<script type="text/template" id="you-are-here-template">
+	<div class="you-are-here"><span>You are here</span></div>
+</script>
 
-	<script>
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-
-	function persistTypeParameter(type) {
-		if (!type) type = getParameterByName('type');
-
-		var address = getParameterByName('address');
-		var searchLink = document.querySelector('.search a[href]');
-		var href = '/list';
-
-		if (type) {
-			var form = document.querySelector('form.find');
-			var typeField = form.querySelector('input[name="type"]');
-			if (!typeField) {
-				typeField = document.createElement('input');
-				typeField.type = 'hidden';
-				typeField.name = 'type';
-				form.appendChild(typeField);
-			}
-			typeField.value = type;
-
-			var typeArray = type.split('|');
-
-			// SHIM: Only persist the type if there’s only one, since the list page only supports one type at a time (or all types at once).
-			if (typeArray.length === 1) {
-				href = '/' + typeArray[0];
-			}
-		}
-		if (address) {
-			href += '?address=' + address;
-
-			var addressField = document.querySelector('input[name="address"]');
-			addressField.value = address;
-		}
-		searchLink.setAttribute('href', href);
-	}
-	</script>
-</head>
-<body class="map">
-
-	{% include header.html %}
-	{% include link-to-nav.html %}
-
-	<form class="find" action="/map" method="get">
-		<p>
-			<label>
-				<span>Enter your location</span><br />
-				<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" autocomplete="off" autocorrect="off" />
-			</label>
-			<button type="submit">
-				<!--
-				Search icon
-				by Veronika Krpciarova
-				https://thenounproject.com/v.krpciarova/collection/search/?oq=search&cidx=1&i=353178
-				-->
-				<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="20" height="20">
-					<switch>
-						<path fill="#FFFFFF" d=" M 83.7 77.7 Q 83.6751953125 77.5302734375 83.55 77.4 L 62.65 54.95 Q 67.4498046875 48.480859375 67.45 40 67.44765625 29.3423828125 59.85 21.75 52.3580078125 14.252734375 41.7 14.25 31.0427734375 14.2533203125 23.45 21.75 15.9533203125 29.3427734375 15.95 40 15.952734375 50.6580078125 23.45 58.15 31.0423828125 65.74765625 41.7 65.75 48.7376953125 65.747265625 54.45 62.45 L 76.15 85.5 Q 76.26796875 85.6412109375 76.4 85.7 76.5693359375 85.7599609375 76.7 85.75 81.1939453125 85.53125 82.9 83.5 84.7708984375 81.51328125 83.7 77.7 M 51.75 29.9 Q 55.9521484375 34.107421875 55.95 40 55.9521484375 45.8923828125 51.75 50.05 47.5923828125 54.2521484375 41.7 54.25 35.807421875 54.2521484375 31.6 50.05 27.44765625 45.8923828125 27.45 40 27.44765625 34.107421875 31.6 29.9 35.807421875 25.74765625 41.7 25.75 47.5923828125 25.74765625 51.75 29.9 Z"></path>
-						<foreignobject>Go</foreignobject>
-					</switch>
-				</svg>
-			</button>
-		</p>
-	</form>
-
-	<nav class="search">
-		<h1>Map of food near you</h1>
-		<ul>
-			<li class="map"><a>Map</a></li>
-			<li class="list"><a href="/list">List</a></li>
-		</ul>
-	</nav>
-	<script>
-	persistTypeParameter();
-	</script>
-
-	<nav class="map-filters"></nav>
-
-	<div id="map" class="mapbox"></div>
-
-	<!-- For map.js -->
-	<script type="text/template" id="you-are-here-template">
-		<div class="you-are-here"><span>You are here</span></div>
-	</script>
-	<script type="text/template" id="marker-template">
+<script type="text/template" id="marker-template">
 	<div class="marker">
 		<img src="/assets/images/markers/purple.svg" alt="" />
 	</div>
-	</script>
+</script>
 
-	<script type="text/template" id="popup-template">
+<script type="text/template" id="popup-template">
 	<div class="map-point-details">
 		<h3><a href=""></a></h3>
 		<p class="type"></p>
@@ -139,60 +66,56 @@ layout: null
 		<p style="font-size:small; font-style:italic;">Wrong Information?
 		<a class="flag" href="mailto:contact@foodoasis.la" style="color:#808080; font-size:small; font-style:italic;">Let us know</a></p>
 	</div>
-	</script>
+</script>
 
-	<!-- Jim’s Google Maps API key -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
+<!-- Jim’s Google Maps API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
-	<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js"></script>
-	<script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js"></script>
+<script>
 
-		var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+	var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 
-		var MAP_START_POSITION = [-118.243683, 34.052235];
+	var MAP_START_POSITION = [-118.243683, 34.052235];
 
-		var MAP_BOUNDS = [
-			[-119.9442369,32.7089729], // Southwest coordinates
-			[-116.63282912,35.8275538]  // Northeast coordinates
-		];
+	var MAP_BOUNDS = [
+		[-119.9442369,32.7089729], // Southwest coordinates
+		[-116.63282912,35.8275538]  // Northeast coordinates
+	];
 
-		/*
-		Colors…
+	/*
+	Colors…
 
-		@asparagus:   rgb(161, 167, 72)
-		@banana:      rgb(249, 192, 88)
-		@strawberry:  rgb(241, 95, 91)
-		@lime:        rgb(144, 194, 70)
-		@blueberry:   rgb(77, 85, 148)
-		@dragonfruit: rgb(211, 16, 134)
-		*/
-		var MAP_LAYERS = [
-			{
-				name: 'food-pantry',
-				label: 'Food Pantry',
-				sourceLayer: 'Food-Pantries_09-24-50izc5',
-				sourceURL: 'mapbox://foodoasisla.47r06atm',
-				color: 'rgba(229, 172, 68, 1)' /* @banana */
-			},
-			{
-				name: 'community-garden',
-				label: 'Community Garden',
-				sourceLayer: 'Community-Gardens_09-22-0ruhbz',
-				sourceURL: 'mapbox://foodoasisla.43efueeq',
-				color: 'rgba(124, 174, 50, 1)' /* @lime */
-			},
-			{
-				name: 'farmers-market',
-				label: 'Farmers Market',
-				sourceLayer: 'Farmers-Markets_08-17-3rvtq4',
-				sourceURL: 'mapbox://foodoasisla.7cdn2m99',
-				color: 'rgba(211, 16, 134, 0.75)' /* @dragonfruit */
-			}
-		];
+	@asparagus:   rgb(161, 167, 72)
+	@banana:      rgb(249, 192, 88)
+	@strawberry:  rgb(241, 95, 91)
+	@lime:        rgb(144, 194, 70)
+	@blueberry:   rgb(77, 85, 148)
+	@dragonfruit: rgb(211, 16, 134)
+	*/
+	var MAP_LAYERS = [
+		{
+			name: 'food-pantry',
+			label: 'Food Pantry',
+			sourceLayer: 'Food-Pantries_09-24-50izc5',
+			sourceURL: 'mapbox://foodoasisla.47r06atm',
+			color: 'rgba(229, 172, 68, 1)' /* @banana */
+		},
+		{
+			name: 'community-garden',
+			label: 'Community Garden',
+			sourceLayer: 'Community-Gardens_09-22-0ruhbz',
+			sourceURL: 'mapbox://foodoasisla.43efueeq',
+			color: 'rgba(124, 174, 50, 1)' /* @lime */
+		},
+		{
+			name: 'farmers-market',
+			label: 'Farmers Market',
+			sourceLayer: 'Farmers-Markets_08-17-3rvtq4',
+			sourceURL: 'mapbox://foodoasisla.7cdn2m99',
+			color: 'rgba(211, 16, 134, 0.75)' /* @dragonfruit */
+		}
+	];
 
-	</script>
-	<script src="/assets/js/map.js"></script>
-
-</body>
-</html>
-
+</script>
+<script src="/assets/js/map.js"></script>

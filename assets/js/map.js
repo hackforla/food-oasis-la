@@ -2,6 +2,7 @@
 
 	var map;
 	function createMap() {
+		persistTypeParameter();
 
 		mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 		map = new mapboxgl.Map({
@@ -27,6 +28,51 @@
 			addFilterButtons();
 			findUserLocation();
 		});
+	}
+
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
+	function persistTypeParameter(type) {
+		if (!type) type = getParameterByName('type');
+
+		var address = getParameterByName('address');
+		var searchLink = document.querySelector('.search a[href]');
+		var href = '/list';
+
+		if (type) {
+			var form = document.querySelector('form.find');
+			var typeField = form.querySelector('input[name="type"]');
+			if (!typeField) {
+				typeField = document.createElement('input');
+				typeField.type = 'hidden';
+				typeField.name = 'type';
+				form.appendChild(typeField);
+			}
+			typeField.value = type;
+
+			var typeArray = type.split('|');
+
+			// SHIM: Only persist the type if there’s only one, since the list page only supports one type at a time (or all types at once).
+			if (typeArray.length === 1) {
+				href = '/' + typeArray[0];
+			}
+		}
+		if (address) {
+			href += '?address=' + address;
+
+			var addressField = document.querySelector('input[name="address"]');
+			addressField.value = address;
+		}
+		searchLink.setAttribute('href', href);
 	}
 
 	function addLayers() {

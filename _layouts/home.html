@@ -1,116 +1,80 @@
 ---
-layout: null
+layout: default
+classname: find
 ---
-<!doctype html>
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
-<html lang="{{ locale }}" dir="ltr">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<title>{{ page.headline }}, Food Oasis Los Angeles</title>
+<form action="/list" method="get">
 
-	<link rel="canonical" href="https://foodoasis.la{{ page.url }}" />
+	<div>
+		<h1>{{ page.headline }}</h1>
+		<p>
+			<label>
+				<span>{{ page.address_field_label }}</span><br />
+				<input placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
+			</label>
+			<button type="submit">Go</button>
+		</p>
+	</div>
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
-	{% comment %}
-	* Open Sans - Regular
-	* Open Sans - Italic
-	* Reem Kufi - Regular
+	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
+</form>
 
-	You can choose more faces here:
-	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
-	{% endcomment %}
+<script>
+(function() {
+	var images = [
+		'/assets/images/photos/daily-organics-apples.jpg',
+		'/assets/images/photos/daily-organics-apples-2.jpg',
+		'/assets/images/photos/daily-organics-carrots.jpg',
+		'/assets/images/photos/daily-organics-pears.jpg',
+		'/assets/images/photos/daily-organics-squash.jpg',
+		'/assets/images/photos/6060629012_d9dc1f7642_o.jpg'
+	];
+	var min = 0;
+	var max = images.length - 1;
+	var random = Math.floor(Math.random() * (max - min + 1) + min);
+	var form = document.querySelector('body.find main form');
+	form.style.backgroundImage = 'url(' + images[random] + ')';
+	if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
+		document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
+	} else {
+		document.querySelector('.photo-credit#daily-organics').style.display = 'block';
+	}
+})();
+</script>
 
-	<link rel="stylesheet" href="/assets/css/oasis.css" />
-</head>
-<body class="find">
-	{% include header.html %}
-
-	{% assign has_navigation=true %}
-	{% include link-to-nav.html %}
-
-	<main>
-		<form action="/list" method="get">
-
-			<div>
-				<h1>{{ page.headline }}.</h1>
-				<p>
-					<label>
-						<span>{{ page.address_field_label }}</span><br />
-						<input placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
-					</label>
-					<button type="submit">Go</button>
-				</p>
-			</div>
-
-			<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
-			<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
-		</form>
-
-		<script>
-		(function() {
-			var images = [
-				'/assets/images/photos/daily-organics-apples.jpg',
-				'/assets/images/photos/daily-organics-apples-2.jpg',
-				'/assets/images/photos/daily-organics-carrots.jpg',
-				'/assets/images/photos/daily-organics-pears.jpg',
-				'/assets/images/photos/daily-organics-squash.jpg',
-				'/assets/images/photos/6060629012_d9dc1f7642_o.jpg'
-			];
-			var min = 0;
-			var max = images.length - 1;
-			var random = Math.floor(Math.random() * (max - min + 1) + min);
-			var form = document.querySelector('body.find main form');
-			form.style.backgroundImage = 'url(' + images[random] + ')';
-			if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
-				document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
-			} else {
-				document.querySelector('.photo-credit#daily-organics').style.display = 'block';
-			}
-		})();
-		</script>
-
-		<div class="categories">
-			<section>
-				<h2>{{ page.categories.free.headline }}</h2>
-				<ul class="link-list has-icons">
-					<li>
-						<a href="/food-pantry">
-							<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
-							<span>{{ page.categories.free.link_label }}</span>
-						</a>
-					</li>
-				</ul>
-			</section>
-			<section>
-				<h2>{{ page.categories.grow.headline }}</h2>
-				<ul class="link-list has-icons">
-					<li>
-						<a href="/community-garden">
-							<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
-							<span>{{ page.categories.grow.link_label }}</span>
-						</a>
-					</li>
-				</ul>
-			</section>
-			<section>
-				<h2>{{ page.categories.purchase.headline }}</h2>
-				<ul class="link-list has-icons">
-					<li>
-						<a href="/farmers-market">
-							<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
-							<span>{{ page.categories.purchase.link_label }}</span>
-						</a>
-					</li>
-				</ul>
-			</section>
-		</div><!-- /.categories -->
-
-	</main>
-
-	{% include footer.html %}
-
-</body>
-</html>
+<div class="categories">
+	<section>
+		<h2>{{ page.categories.free.headline }}</h2>
+		<ul class="link-list has-icons">
+			<li>
+				<a href="/food-pantry">
+					<img class="icon" src="/assets/images/home/food-bank.svg" alt="" style="background-color: rgb(249, 192, 88); /* @canteloupe */" />
+					<span>{{ page.categories.free.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ page.categories.grow.headline }}</h2>
+		<ul class="link-list has-icons">
+			<li>
+				<a href="/community-garden">
+					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" style="background-color: rgb(144, 194, 70); /* @lime */" />
+					<span>{{ page.categories.grow.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ page.categories.purchase.headline }}</h2>
+		<ul class="link-list has-icons">
+			<li>
+				<a href="/farmers-market">
+					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
+					<span>{{ page.categories.purchase.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+</div><!-- /.categories -->
