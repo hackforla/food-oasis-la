@@ -7,7 +7,7 @@
 
 # Site settings
 title: Food Oasis Los Angeles
-email: fooddesertsla@gmail.com
+email: contact@foodoasis.la
 description: This website was put together during the Civic Hack Nights at hackforla.org
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://foodoasis.la" # the base hostname & protocol for your site
