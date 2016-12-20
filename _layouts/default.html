@@ -1,19 +1,12 @@
 <!doctype html>
 {% comment %}
-	KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jekyll-depending-on-the-locale#answer-6423895
-{% endcomment %}
-{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
-{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
 
-{% if page.include_footer == false or layout.include_footer == false %}
-	{% assign include_footer = false %}
-{% endif %}
+Set “locale” to “es” (Spanish) automatically, if we’re inside the “es” folder
 
-{% if page.stylesheets %}
-	{% assign stylesheets = page.stylesheets %}
-{% elsif layout.stylesheets %}
-	{% assign stylesheets = layout.stylesheets %}
-{% endif %}
+KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jekyll-depending-on-the-locale#answer-6423895
+
+{% endcomment
+%}{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}{% if locale != "es" %}{% assign locale = "en" %}{% endif %}
 <html lang="{{ locale }}" dir="ltr">
 <head>
 	<meta charset="utf-8" />
@@ -35,6 +28,11 @@
 
 	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
+	{% if page.stylesheets %}
+		{% assign stylesheets = page.stylesheets %}
+	{% elsif layout.stylesheets %}
+		{% assign stylesheets = layout.stylesheets %}
+	{% endif %}
 	{% for url in stylesheets %}
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
@@ -102,6 +100,9 @@
 		</h2>
 	</div>
 
+	{% if page.include_footer == false or layout.include_footer == false %}
+		{% assign include_footer = false %}
+	{% endif %}
 	<nav>
 		<p>
 			<a href="{% if include_footer == false %}/{% endif %}#navigation">
