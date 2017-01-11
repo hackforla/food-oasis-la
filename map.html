@@ -43,6 +43,12 @@ stylesheets:
 
 <div id="map" class="mapbox"></div>
 
+<div id="map-not-supported-message" class="message" style="display: none; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1; padding: 1.5em; text-align: center; background: white; z-index: 9999; box-sizing: border-box;">
+	<h1 style="margin-top: 0;">Uh oh!</h1>
+	<p style="max-width: none;">Our map isn’t working in this web browser. You may want to try viewing the <a href="/list">list of locations</a> instead.</p>
+	<p style="max-width: none;" class="action"><a href="/list">Show me the list</a></p>
+</div>
+
 <!-- For map.js -->
 <script type="text/template" id="you-are-here-template">
 	<div class="you-are-here"><span>You are here</span></div>
