@@ -131,9 +131,10 @@ stylesheets:
 	//var map_script = document.createElement("script")
 
 	if (!mapboxgl.supported()) {
-	    alert('This site works best with WebGL, which your browser does not support.');
+	    document.getElementById("map-not-supported-message").style.display = "block"
 	    // map_script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"
-	} else { //map_script.src = "/assets/js/map.js" }
+	} else { //map_script.src = "/assets/js/map.js"
+	}
 
 	//topOfScripts.appendChild(map_script);
 </script>
