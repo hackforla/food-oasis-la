@@ -72,50 +72,15 @@ stylesheets:
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
 <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.js"></script>
+
 <script>
+	var topOfScripts = document.getElementsByTagName("script")[0];
+	var map_script = document.createElement("script")
 
-	var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+	if (!mapboxgl.supported()) {
+	    alert('This site works best with WebGL, which your browser does not support.');
+	    // map_script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"
+	} else { map_script.src = "/assets/js/map.js" }
 
-	var MAP_START_POSITION = [-118.243683, 34.052235];
-
-	var MAP_BOUNDS = [
-		[-119.9442369,32.7089729], // Southwest coordinates
-		[-116.63282912,35.8275538]  // Northeast coordinates
-	];
-
-	/*
-	Colors…
-
-	@asparagus:   rgb(161, 167, 72)
-	@banana:      rgb(249, 192, 88)
-	@strawberry:  rgb(241, 95, 91)
-	@lime:        rgb(144, 194, 70)
-	@blueberry:   rgb(77, 85, 148)
-	@dragonfruit: rgb(211, 16, 134)
-	*/
-	var MAP_LAYERS = [
-		{
-			name: 'food-pantry',
-			label: 'Food Pantry',
-			sourceLayer: 'Food-Pantries_09-24-50izc5',
-			sourceURL: 'mapbox://foodoasisla.47r06atm',
-			color: 'rgba(229, 172, 68, 1)' /* @banana */
-		},
-		{
-			name: 'community-garden',
-			label: 'Community Garden',
-			sourceLayer: 'Community-Gardens_09-22-0ruhbz',
-			sourceURL: 'mapbox://foodoasisla.43efueeq',
-			color: 'rgba(124, 174, 50, 1)' /* @lime */
-		},
-		{
-			name: 'farmers-market',
-			label: 'Farmers Market',
-			sourceLayer: 'Farmers-Markets_08-17-3rvtq4',
-			sourceURL: 'mapbox://foodoasisla.7cdn2m99',
-			color: 'rgba(241, 95, 91, 1)' /* @strawberry */
-		}
-	];
-
+	topOfScripts.appendChild(map_script);
 </script>
-<script src="/assets/js/map.js"></script>

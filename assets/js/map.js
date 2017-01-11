@@ -1,5 +1,5 @@
 (function() {
-
+	
 	var map;
 	function createMap() {
 		persistTypeParameter();
