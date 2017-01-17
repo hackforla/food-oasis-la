@@ -1,356 +1,491 @@
-uid,name,category,address,city,state,zip,phone,latitude,longitude
-,Altadena S.D.A. Church,Food Pantry,2609 N. Lincoln Avenue,Altadena,CA,91001,626.794.3953,34.1906878,-118.1593398
-,Catholic Charities- Region 2,Food Pantry,4171 Tyler Avenue,El Monte,CA,91731,626.575.7652,34.0827886,-118.031897
-,Ephesus S.D.A. Church,Food Pantry,7005 S. Western Avenue,Los Angeles,CA,90047,323.759.3993,33.9759966,-118.3092608
-,Eastmont Community Center,Food Pantry,701 Hoefner Avenue,Los Angeles,CA,90022,323.726.7998,34.0209713,-118.1500876
-,St. Mary's Place,Food Pantry,7215 Newlin Avenue,Whittier,CA,90602,562.698.0107,33.9768912,-118.0412114
-,St. Francis Center,Food Pantry,1835 S. Hope Street,Los Angeles,CA,90015,213.747.5347,34.0339876,-118.2697209
-,El Monte/South Emergency,Food Pantry,10900 Mulhall Street,South El Monte,CA,91731,626.444.7269,34.0888812,-118.0288381
-,Ecumenical Council of Pasadena Area Congregations,Food Pantry,444 East Washington Boulevard,Pasadena,CA,91104,626.797.2402,34.1687151,-118.1413359
-,Berean S.D.A. Church,Food Pantry,4211 W. Adams Boulevard,Los Angeles,CA,90018,323.735.0228,34.0329576,-118.3310595
-,St. Lawrence of Brindisi,Food Pantry,10122 Compton Avenue,Los Angeles,CA,90002,323.567.1439,33.9443922,-118.2459688
-,North Hollywood Interfaith Food Pantry,Food Pantry,4390 Colfax Avenue,North Hollywood,CA,91604,818.760.3575,34.1501988,-118.3872632
-,Santa Clarita Valley Food Pantry,Food Pantry,24133 Railroad Avenue,Newhall,CA,91321,661.255.9078,34.3765012,-118.5252054
-,St. Thomas Center,Food Pantry,2727 W.  Pico Boulevard,Los Angeles,CA,90006,323.737.3325,34.0243687,-118.4608522
-,Lutheran Social Services of Southern California,Food Pantry,21430 Strathern Street,Canoga Park,CA,91304,818.901.9480,34.214903,-118.5986508
-,Tamarind Avenue S.D.A. Church,Food Pantry,417 S. Tamarind Avenue,Compton,CA,90220,310-386-8803,33.892572,-118.2220425
-,Southeast Churches Service Center,Food Pantry,2780 E. Gage Avenue,Huntington Park,CA,90255,323.585.8254,33.9814503,-118.2202826
-,Maranatha S.D.A. Community Center,Food Pantry,3569 W. Manchester Blvd.,Inglewood,CA,90305,323.971.3511,33.9602274,-118.3348393
-,Sunland Tujunga T.A.C.,Food Pantry,7747 Foothill Boulevard,Tujunga,CA,91042,818.352.2421,34.2577962,-118.3009158
-,Boys & Girls Club-San Gabriel,Food Pantry,2740 Mountain View Road,El Monte,CA,91732,626.442.5470,34.0602394,-118.0239073
-,Catholic Charities of L.A.,Food Pantry,4665 Willow Brook Avenue,Los Angeles,CA,90029,213.251.3597,34.0896046,-118.2934993
-,Bethel S.D.A. Church,Food Pantry,1921 N. Garey Avenue,Pomona,CA,91767,909.630.5883,34.0812428,-117.7531627
-,Interfaith Food Center,Food Pantry,11819 Burke Street,Sante Fe Springs,CA,90670,562.903.1478,33.962938,-118.0650479
-,Foothill Unity Center,Food Pantry,415 W. Chestnut Avenue,Monrovia,CA,91016,626.359.1777,34.1427592,-118.0081715
-,University S.D.A. Church,Food Pantry,1135 Martin Luther Kin Jr. Boulevard,Los Angeles,CA,90037,323.766.9889,34.0111729,-118.2955869
-,First Presbyterian Church,Food Pantry,1809 West Boulevard.,Los Angeles,CA,90019,323.935.5204,34.0405644,-118.3372555
-,Our Lady Queen of Angels Catholic Church,Food Pantry,535 N. Main Street,Los Angeles,CA,90012,213.629.3101,34.05707,-118.239577
-,Salvation Army-Pasadena Tabernacle,Food Pantry,1000 E.Walnut Street,Pasadena,CA,91106,626.773.4400,34.1493046,-118.1297902
-,Church of the Epiphany,Food Pantry,2808 Altura Street,Los Angeles,CA,90031,323.227.9931,34.0752843,-118.21285
-,Church of the Redeemer,Food Pantry,3739 North Monterey Avenue,Baldwin Park,CA,91706,626.960.9585,34.0802977,-117.9766557
-,Holy Cross Center,Food Pantry,104 W. 47th Place,Los Angeles,CA,90037,323.232.3333,33.9997088,-118.2742456
-,Willowbrook Project Area Commission,Food Pantry,11901 S. Willowbrook Avenue,Los Angeles,CA,90059,323-569-7676,33.9244622,-118.23627
-,St. Agnes Parish,Food Pantry,2625 S. Vermont Avenue,Los Angeles,CA,90007,323-731-2464,34.0320812,-118.2918201
-,Our Saviour Center,Food Pantry,4368 Santa Anita Avenue,EL Monte,CA,91731,626.579.2190,34.0853655,-118.0293332
-,Loaves & Fishes-Canoga Park,Food Pantry,21600 Hart Street,Canoga Park,CA,91303,818.340.2050,34.1973704,-118.6002723
-,All Peoples Christian Center,Food Pantry,822 E. 20th Street,Los Angeles,CA,90011,213-747-6357,34.0257601,-118.256703
-,Fifty Fourth Street S.D.A. Church,Food Pantry,1973 West 54th Street,Los Angeles,CA,90062,323-292-2762,33.9935442,-118.3134514
-,Prince of Peace Coalition,Food Pantry,5700 Rudnick Avenue,Woodland Hills,CA,91367,818-346-5554,34.1732527,-118.6120677
-,St. James Episcopal Church-Hope Net,Food Pantry,3903 Wilshire Boulevard,Los Angeles,CA,90010,323-934-5870,34.062042,-118.3119697
-,St. Athanasius & St. Paul Church,Food Pantry,840 Echo Park Avenue,Los Angeles,CA,90026,213.908.8827,34.0733551,-118.2591402
-,St. Philip's Episcopal Church,Food Pantry,2800 Stanford Avenue,Los Angeles,CA,90011,323-291-8917,34.0186835,-118.2606782
-,San Gabriel Valley Y.W.C.A.,Food Pantry,510 N. Vineland Avenue,La Puente,CA,91746,626-333-0294,34.051539,-117.986823
-,Meet Each Need with Dignity,Food Pantry,10641 San Fernando Road,Pacoima,CA,91331,818.686.7334,34.2630434,-118.4195782
-,Fred Jordan Mission,Food Pantry,445  Towne Avenue,Los Angeles,CA,90013,213-489-7763,34.0433355,-118.2419919
-,Sacred Heart Church,Food Pantry,2210 Sichel Street,Los Angeles,CA,90031,323.221.3179,34.0703284,-118.2126261
-,Salvation Army- Whittier Corp.,Food Pantry,7926 Pickering Avenue,Whittier,CA,90602,562-698-8348,33.9691227,-118.0417514
-,St. Charles Service Center,Food Pantry,10825 Moorpark Street,North Hollywood,CA,91602,818.985.7365,34.1503878,-118.3663839
-,Salvation Army-Pomona,Food Pantry,490 E. La Verne Anenue,Pomona,CA,91767-2800,909.623.1579,34.0806833,-117.7434276
-,Church of the Nazarene-Rosemead,Food Pantry,2703 Walnut Grove Avenue,Rosemead,CA,91770,562-695-0019,34.0610322,-118.0823275
-,City of Norwark/Department of Social Services,Food Pantry,11929 Alondra Boulevard,Norwalk,CA,90650,562-929-5544,33.8879224,-118.0789232
-,First African Methodist Episcopal Church,Food Pantry,2270 S. Harvard Boulevard,Los Angeles,CA,90018,323 735-1251,34.0344082,-118.3061942
-,First Church of the Nazarene-Pasadena,Food Pantry,3700 E. Sierra Madre Boulevard,Pasadena,CA,91107,626-351-9631,34.1609763,-118.0739988
-,St. Margaret's Center,Food Pantry,10217 Inglewood Avenue,Lennox,CA,90304,310.672.2208,33.9429599,-118.3618262
-,Estelle Van Meter Multipurpose,Food Pantry,7600 S. Avalon Boulevard,Los Angeles,CA,90003,323.753.3881,33.9709509,-118.2648597
-,Tujunga United Methodist Church,Food Pantry,9901 Tujunga Canyon Boulevard,Tujunga,CA,91042,818-352-1481,34.2480625,-118.2772395
-,Hurting & Hungry,Food Pantry,8107 Loyola Boulevard,Los Angeles,CA,90045,213.268.4820,33.9643479,-118.416965
-,St. Cecilia Catholic Church,Food Pantry,4230 S. Normandie Avenue,Los Angeles,CA,90037,(323) 294-6628,34.0059447,-118.2998211
-,Bethesda Temple Church,Food Pantry,4915 Crenshaw Boulevard,Los Angeles,CA,90043,323.299.2591,33.9979589,-118.3308714
-,Trinity Baptist Church L.A.,Food Pantry,2040 W. Jefferson Boulevard,Los Angeles,CA,90018,323-735-0044,34.0251148,-118.3161
-,Iglesia la Puerta Abierta,Food Pantry,5017 E. Olympic Boulevard,Los Angeles,CA,90022,323.261.8397,34.0173349,-118.1621792
-,St. John Vianney Church,Food Pantry,1345 Turnbull Canyon Road,Hacienda Heights,CA,91745,626-330-2269,34.0112629,-117.980451
-,Children of the Shepherd,Food Pantry,1076 N. El Centro Avenue,Hollywood,CA,90038,323-953-4000,34.0905485,-118.3243668
-,"Grace Resource Center, Inc.",Food Pantry,45134 N. Sierra Hwy.,Lancaster,CA,93534,661.940.5272,34.7030069,-118.137309
-,Testimonial Community Love Ctr,Food Pantry,5721 S. Western Avenue,Los Angeles,CA,90062,323-291-6753,33.9902077,-118.3094489
-,Cornerstone Christian Ministry,Food Pantry,11449 Sproule Avenue,Pacoima,CA,91331,818.993.2988,34.2782812,-118.4067452
-,Los Angeles Central City S.D.A. Church,Food Pantry,650 W. 21st Street,Los Angeles,CA,90007,(213) 749-9646,34.0327067,-118.2752257
-,Christ the Good Shepherd Episcopal,Food Pantry,3303 W. Vernon Avenue,Los Angeles,CA,90008,323-295-4139,34.0040273,-118.3297116
-,St. Vincent de Paul Church,Food Pantry,621 W. Adams Boulevard,Los Angeles,CA,90007,213-749-8950,34.0288543,-118.2769163
-,Our Lady of Guadalupe Church,Food Pantry,4509 Mercury Avenue,Los Angeles,CA,90032,323.225.4201,34.0861589,-118.1901472
-,Holy Family Giving Bank,Food Pantry,1524 Fremont Avenue,South Pasadena,CA,91030,626.403.6140,34.1080192,-118.1527363
-,Redeemer Lutheran Outreach,Food Pantry,20025 Chase Street,Winnetka,CA,91306,818-341-1629,34.2248564,-118.5698672
-,Central Filipino S.D.A. Church,Food Pantry,777 Colorado Boulevard,Los Angeles,CA,90041,323-255-7718,34.1410086,-118.182682
-,St. Catherine Laboure Catholic,Food Pantry,3846 Redondo Beach Boulevard,Torrance,CA,90504,310-329-0993,33.8781235,-118.3402114
-,Guadalupe Food Program,Food Pantry,4018 East Hammel Street,Los Angeles,CA,90063,323.261.8051,34.0421266,-118.1794177
-,First Unitarian Church-Hope Net,Food Pantry,2936 W. 8th Street,Los Angeles,CA,90005,213-389-1356,34.0574918,-118.2904201
-,City of Commerce Community Center,Food Pantry,2555 Commerce Way,Commerce,CA,90040,323 887-4460,34.0002991,-118.1559376
-,Good News Prayer Center,Food Pantry,1722 East Firestone Boulevard,Los Angeles,CA,90001,323.753.0117,33.9599573,-118.2423524
-,Belvue Presbyterian Church,Food Pantry,675 E. 118th Street,Los Angeles,CA,90059,323-757-9188,33.9267262,-118.2624581
-,First Bilingual Baptist Church,Food Pantry,9133 Mines Avenue,Pico Rivera,CA,90660,562-658-5907,33.9907778,-118.0869102
-,St. Brigid Catholic Church,Food Pantry,5214 S. Western Avenue,Los Angeles,CA,90062,323-292-0781,33.9945347,-118.3086059
-,Glendale Filipino S.D.A. Church,Food Pantry,310 E. Chestnut Street,Glendale,CA,91205,818.543.0110,34.1395829,-118.2520609
-,Hope Chapel Foursquare Church,Food Pantry,2420 Pacific Coast Highway,Hermosa Beach,CA,90254,310.374.4673,33.8715292,-118.3942418
-,Trinity Evangelical Lutheran Church,Food Pantry,997 E. Walnut,Pasadena,CA,91106,626.792.1212,34.1500129,-118.1297586
-,Presentation of Mary Catholic,Food Pantry,6406 Parmelee Avenue,Los Angeles,CA,90001,323.585.0570,33.9813266,-118.249548
-,Imani Unidos A.I.D.S. Project,Food Pantry,1713 W. 108th Street,Los Angeles,CA,90047,323.754.8453,33.9385863,-118.3074812
-,St. John Coptic Orthodox,Food Pantry,21329 E. Cienega Avenue,Covina,CA,91724,562 691-0299,34.103353,-117.838035
-,JFS/SOVA Community Food & Resource Program,Food Pantry,16439 Vanowen Street,Van Nuys,CA,91406,818.988.7682,34.1942489,-118.491725
-,White Memorial S.D.A. Church,Food Pantry,401 N. State Street,Los Angeles,CA,90033,323 264-2170,34.0492972,-118.2157793
-,St. Mary & St. Athanasius Coptic Church,Food Pantry,17431 Roscoe Blvd.,Northridge,CA,91325,818-342-4414,34.2216778,-118.513091
-,Pilgrim's Hope Baptist Church,Food Pantry,7016 S. Compton Avenue,Los Angeles,CA,90001,323.581.7672,33.9759009,-118.2473905
-,Lincoln Avenue Baptist Church,Food Pantry,1180 North Lincoln Avenue,Pasadena,CA,91103,626.798.9163,34.1664331,-118.1592865
-,Figueroa Church of Christ,Food Pantry,455 W. 57th Street,Los Angeles,CA,90037,323-753-2536,33.9908748,-118.2822084
-,Estrada Courts Community Center,Food Pantry,3232 Hunter Street,Los Angeles,CA,90023,323.641.8943,34.0211079,-118.2082908
-,Christian Association for Social Services,Food Pantry,5814 Venice Blvd.,Los Angeles,CA,90019,323-936-9481,34.0414693,-118.3661612
-,Blessed Sacrament Food Pantry-Hope Net,Food Pantry,6657 Sunset Blvd.,Hollywood,CA,90028,323.874.5577,34.0985135,-118.3351039
-,Door of Hope Community Center,Food Pantry,1414 South Atlantic Blvd.,Los Angeles,CA,90022,323.262.2777,34.012313,-118.1590196
-,Gardena S.D.A. Church,Food Pantry,16113 S. Denker Avenue,Gardena,CA,90247,310.324.3992,33.8844546,-118.3048366
-,Childrens Hospital Los Angeles,Food Pantry,5000 Sunset Blvd. 7th Floor,Los Angeles,CA,90027,323-361-5981,34.0977874,-118.2986107
-,Hawaiian Gardens Food Bank,Food Pantry,21411 Norwalk Blvd.,Hawaiian Gardens,CA,90716,562.860.9097,33.8348574,-118.0723646
-,Shekinah Worship Center,Food Pantry,42640 10th Street West,Lancaster,CA,93534,661.400.2570,34.6579322,-118.1471819
-,Salvation Army Southeast Comm. Corp,Food Pantry,2965 E. Gage Avenue,Huntington Park,CA,90255,323-587-4221,33.9814284,-118.2165004
-,"Eliza Shanks Homes, Inc.",Food Pantry,13055 Weidner Street,Pacoima,CA,91331,818-896-9304,34.2772191,-118.4173919
-,Wesley United Methodist Church,Food Pantry,112 West 52nd Street,Los Angeles,CA,90037,323.298.0727,33.9953651,-118.2743249
-,East L.A. Bilingual S.D.A. Church,Food Pantry,700 Hoefner Avenue,Los Angeles,CA,90022,323.633.4734,34.0209372,-118.1493743
-,Los Angeles Housing Partnership,Food Pantry,2614 W. 7th Street,Los Angeles,CA,90057,213.629.9172,34.0586006,-118.2826812
-,Our Lady of Talpa Church,Food Pantry,427 S. Evergreen Ave.,Los Angeles,CA,90033,323.268.7731,34.036566,-118.205021
-,Los Angeles First Church of the Nazarene-Hope Net,Food Pantry,3401 W. 3rd Street,Los Angeles,CA,90020,213.385.6345,34.0693363,-118.2898538
-,Burbank Temporary Aid Center,Food Pantry,1304 W. Burbank Blvd.,Burbank,CA,91506,818-848-2822,34.1825214,-118.3260622
-,All Saints Conference,Food Pantry,3431 Portola Avenue,Los Angeles,CA,90032,323.675.4873,34.0856924,-118.1729264
-,Loveship Community Outreach,Food Pantry,836 E. Avenue I,Lancaster,CA,93535,661.729.4106,34.7039815,-118.1135045
-,Mexican-American Opportunity Foundation,Food Pantry,401 N. Garfield Ave,Montebello,CA,90640,323.890.9600,34.0192364,-118.1337064
-,Star Christian School,Food Pantry,2120 Estrella Avenue,Los Angeles,CA,90007,213-746-6900,34.0324876,-118.2759117
-,Crenshaw United Methodist Church,Food Pantry,3740 Don Felipe Drive,Los Angeles,CA,90008,323.292.0141,34.0068523,-118.3408663
-,Shields for Families,Food Pantry,11705 Deputy Yamamoto Place,Lynwood,CA,90262,323-242-5000,33.9268095,-118.229051
-,Immanuel Presbyterian Church-Hope Net,Food Pantry,3300 Wilshire Blvd,Los Angeles,CA,90010,213.389.3191,34.0614542,-118.294485
-,His Helping Hands,Food Pantry,25501 Oak Street,Lomita,CA,90717,310.326.2757,33.7919156,-118.3176793
-,Palmdale S.D.A. Church,Food Pantry,1758 East Avenue R,Palmdale,CA,93550,661.947.8496,34.5722471,-118.0963705
-,Catholic Charities- Brownson House,Food Pantry,1307 Warren Street,Los Angeles,CA,90033,(213) 251-3514,34.0521281,-118.2201373
-,San Miguel Church,Food Pantry,2214 E. 108th Street,Los Angeles,CA,90059,323-569-5951,33.9373243,-118.2324792
-,Hope International Bible Fellowship,Food Pantry,4903 Fountain Avenue,Los Angeles,CA,90029,323.663.9394,34.0955984,-118.296546
-,Living Truth Christian Fellowship,Food Pantry,5873 S. Normandie Avenue,Los Angeles,CA,90044,323.290.3909,33.9877081,-118.3002282
-,Baldwin Park Bilingual S.D.A.,Food Pantry,13965 East Ramona Parkway,Baldwin Park,CA,91706,626 338-4828,34.085323,-117.969546
-,First New Christian Fellowship,Food Pantry,1555 W. 108th Street,Los Angeles,CA,90047,323.756.2541,33.9384572,-118.3040285
-,San Pedro Temple Corps,Food Pantry,138 S. Bandini Street,San Pedro,CA,90731,310-832-7228,33.7426596,-118.2986098
-,"Ananda Marga of L.A., Inc.",Food Pantry,1245 S. Norton Avenue,Los Angeles,CA,90019,818.414.7737,34.0483572,-118.3238487
-,Iglesia Pentecostes Roca de Salvacion,Food Pantry,122 South Evergreen Avenue,Los Angeles,CA,90033,323.832.5313,34.0396969,-118.202409
-,St. Joseph Conference,Food Pantry,1150 W. Holt Avenue,Pomona,CA,91768,909.469.9773,34.0613107,-117.7687845
-,Bethel Unspeakable Joy Christian Church,Food Pantry,8724 S. Central Avenue,Los Angeles,CA,90002,323 585-5939,33.9585498,-118.256075
-,Wilshire Presbyterian Church-Hope Net,Food Pantry,309 S. Oxford Avenue,Los Angeles,CA,90020,213.387.5387,34.0685889,-118.308458
-,West Adams Church of Christ,Food Pantry,4959 W. Adams Boulevard,Los Angeles,CA,90016,323 731-6672,34.032789,-118.348501
-,Hollywood Community Housing,Food Pantry,5020 W. Santa Monica Boulevard,Hollywood,CA,90029,323.469.0710,34.0904073,-118.2988528
-,International Families Association,Food Pantry,"1741 Gardena Avenue, Suite E",Glendale,CA,91204,818.770.0779,34.1227497,-118.2575547
-,Christ Gospel Prayer Center,Food Pantry,4228 S. Vermont Avenue,Los Angeles,CA,90037,323.732.1394,34.0065425,-118.2912726
-,Fuller Theological Seminary,Food Pantry,135 North Oakland Avenue,Pasadena,CA,91101,626.584.5433,34.148218,-118.1404603
-,Cover the Homeless Ministry,Food Pantry,4425 S. Central Avenue,Los Angeles,CA,90011,323.931.5468,34.0031117,-118.2568599
-,Loaves & Fishes-Van Nuys,Food Pantry,14640 Keswick,Van Nuys,CA,91405,818-997-0943,34.2100101,-118.4523896
-,Loaves & Fishes-Glendale,Food Pantry,4322 San Fernando Road,Glendale,CA,91204,818.409.3080,34.1316156,-118.261043
-,First Baptist Church-Hope Net,Food Pantry,760 S. Westmoreland Avenue,Los Angeles,CA,90005,213.384.2151,34.0582323,-118.2886022
-,Family Church Whittier,Food Pantry,8434 S. Greenleaf Avenue,Whittier,CA,90602,626-893-1236,33.9627706,-118.0395279
-,St. Andrew Catholic Church,Food Pantry,140 Chestnut Street,Pasadena,CA,91103,626- 792-4183,34.1501638,-118.1474523
-,Jesus Christ the Reedemer Center,Food Pantry,755 E. 223rd Street,Carson,CA,90745,424.264.9875,33.8244169,-118.2620021
-,Living Springs Foursquare Church,Food Pantry,17134 E. Ave O,Palmdale,CA,93591,661.264.1717,34.616048,-117.824428
-,Normandie Community Development Food Pantry,Food Pantry,3801 South Normandie Avenue,Los Angeles,CA,90037,323.731.7787,34.0170589,-118.3003684
-,Palmdale Foursquare Church,Food Pantry,38325 10th Street East,Palmdale,CA,93550,661.947.2938,34.5784049,-118.1120551
-,Lady Bug Ministry,Food Pantry,14725 Gramercy Place,Gardena,CA,90247,(323) 751-3748,33.897334,-118.314122
-,Heavenly Vision Church of God in Christ,Food Pantry,841 W. 85th Street,Los Angeles,CA,90044,323.245.2651,33.9614457,-118.288536
-,Salvation Army- South L.A.,Food Pantry,7651 South Central Avenue,Los Angeles,CA,90001,323.586.0759,33.9698411,-118.2567313
-,La Puente Spanish S.D.A. Church,Food Pantry,18047 Valley Boulevard,La Puente,CA,91744,626.912.9408,34.0065174,-117.9088863
-,Immaculate Heart of Mary-Hope Net,Food Pantry,4954 Santa Monica Boulevard,Los Angeles,CA,90029,323.660.0034,34.0905787,-118.2976765
-,East Palmdale Foursquare,Food Pantry,"1817 E. Avenue Q., A-6",Palmdale,CA,93550,661.874.8788,34.5672827,-118.0960249
-,Islamic Center of Southern CA-Hope Net,Food Pantry,434 S. Vermont Boulevard,Los Angeles,CA,90020,213.382.9200,34.0664143,-118.291309
-,Inglewood Southside Christian Church,Food Pantry,3947 W. 104th Street,Inglewood,CA,90303,310.677.0446,33.9421196,-118.3433323
-,Love & Faith Christian Center,Food Pantry,8505 S. Western Avenue,Los Angeles,CA,90047,323.753.8300,33.9606268,-118.3093646
-,CCC Ebenezery Parish,Food Pantry,8803-8807 S. Broadway Street,Los Angeles,CA,90003,323.752.4400,33.9571095,-118.2785568
-,Filipino Christian Church,Food Pantry,301 N. Union Avenue,Los Angeles,CA,90026,213.483.5821,34.0676498,-118.2644293
-,Wilshire Boulevard Temple Hope-Net,Food Pantry,3663 Wilshire Boulevard,Los Angeles,CA,90010,213.388.2401,34.0621177,-118.3049672
-,St. Mark Missionary Baptist,Food Pantry,5017 Compton Avenue,Los Angeles,CA,90011,323.231.1040,33.9970846,-118.2481042
-,Gardena Valley Assembly of God,Food Pantry,1473 W. 182nd Street,Gardena,CA,90248,310.329.6933,33.8659794,-118.3018567
-,St. George Church,Food Pantry,15721 Cornuta Avenue,Bellflower,CA,90706,562.862.0273,33.8906177,-118.1198573
-,Cory's Kitchen,Food Pantry,1418 Arrow Highway,Irwindale,CA,91706,626.305.0392,34.1146127,-117.9746909
-,First United Methodist Church of La Puente,Food Pantry,15701 E. Hill Street,La Puente,CA,91744,626.968.9394,34.0325929,-118.2662632
-,Sowing Seeds for Life,Food Pantry,1350 Arrow Hwy,La Verne,CA,91750,909.392.5777,34.100366,-117.785848
-,Family Mennonite Church,Food Pantry,6520 S. Normandie Avenue,Los Angeles,CA,90044,323.750.1744,33.9799881,-118.2999294
-,Mt. Sinai C.O.G.I.C.,Food Pantry,936 W. Ninth Street,Pomona,CA,91766,909.868.0224,34.0510185,-117.7596455
-,Filipino Baptist Fellowship of Long Beach,Food Pantry,2155 Atlantic Avenue,Long Beach,CA,90806,310.212.5175,33.7963363,-118.1853545
-,Chapel of Peace Lutheran Church,Food Pantry,1009 N. Market Street,Inglewood,CA,90302,310.673.2584,33.9766895,-118.3568641
-,City of Truth Ministries,Food Pantry,"1139 E. Dominguez Street, Suite D",Carson,CA,90746,310.669.8300,33.8419672,-118.253889
-,Tongan Community Service Center,Food Pantry,"13030 Inglewood Avenue, Suite.104",Hawthorne,CA,90249,310.679.9099,33.9137357,-118.3608819
-,The Lord's Church,Food Pantry,9701 Flower Street,Bellflower,CA,90706,562.866.8283,33.882343,-118.12727
-,Peace Lutheran Church,Food Pantry,11690 Fenton Avenue,Lake View Terrace,CA,91342,818.899.3950,34.2823569,-118.3916075
-,Ed & Frankie Benson Evangelistic Ministries,Food Pantry,4232 West Ave. L,Quartz Hill,CA,93536,661.943.1148,34.659707,-118.2068055
-,Imani Economic & Community Development Corporation,Food Pantry,510 W. Monterey Avenue,Pomona,CA,91768,909.620.9161,34.0602663,-117.7569861
-,Greater New Morning Star Baptist Church,Food Pantry,210 W. Florence Avenue,Los Angeles,CA,90003,323.529.4446,33.9745963,-118.2767182
-,Zion Hill Baptist Church,Food Pantry,7860 10th Avenue,Los Angeles,CA,90043,323.753.4610,33.9678904,-118.3280831
-,Montebello Watch,Food Pantry,1033 South Maple Avenue,Montebello,CA,90640,626-810-5833,33.9953919,-118.124677
-,Calvary Presbyterian Church,Food Pantry,13560 Hawthorne Boulevard,Hawthorne,CA,90250,310.676.1144,33.9088461,-118.3520296
-,Mision Cristana Monte de Sion,Food Pantry,6315 Eastern Avenue,Bell Gardens,CA,90201,562.544.4264,33.9768389,-118.1637179
-,Houses of Light Church Corporation,Food Pantry,19359 Londelius Street,Northridge,CA,91324,818.998.2931,34.2304245,-118.5557989
-,Shepherd's Pantry,Food Pantry,657 E. Arrow Highway,Glendora,CA,91740,626.852.7630,34.1070477,-117.8509722
-,Village Covenant,Food Pantry,5607 N. Barranca Avenue,Azusa,CA,91702,626-335-4013,34.11485,-117.8821589
-,All Saints Episcopal Church Highland Park,Food Pantry,5619 Monte Vista Street,Los Angeles,CA,90042,323.255.6806,34.1117075,-118.1953492
-,CUSH Foundation,Food Pantry,2343 N. San Antonio Avenue,Pomona,CA,91767,909.621.5369,34.0852934,-117.7371539
-,Hope Chapel Lancaster,Food Pantry,6015 W Avenue J8,Quartz Hill,CA,93536,661.943.1074,34.6826776,-118.2371694
-,Grace Presbyterian Church,Food Pantry,1500 N. Ave 53,Los Angeles,CA,90042,818.957.8090,34.1213022,-118.1999599
-,Iglesia Pentecostes Templo Calvario,Food Pantry,8824 Long Beach Boulevard,South Gate,CA,90280,310.713.1428,33.956026,-118.220037
-,St. Stephen's Community Outreach Program,Food Pantry,122 Ramona Avenue,Monterey Park,CA,91754,626.573.9984,34.0616348,-118.1251851
-,Gospel Mission Baptist Church,Food Pantry,7301 S. Avalon Boulevard,Los Angeles,CA,90003,323.759.8087,33.9735936,-118.2655739
-,Salvation Army- Santa Fe Springs,Food Pantry,12000 E. Washington Boulevard,Whittier,CA,90606,562.696.9562,33.9676128,-118.0553469
-,Charismatic Ecumencial Ministries International,Food Pantry,4357 West 3rd Street,Los Angeles,CA,90020,213.219.3228,34.0691134,-118.3094234
-,First Lutheran Church of Inglewood,Food Pantry,600 West Queen Street,Inglewood,CA,90301,310.674.5103,33.9624612,-118.3665755
-,Our Lady of Victory Conference,Food Pantry,410 E. Palmer Street,Compton,CA,90221,310.631.5100,33.8983065,-118.2185064
-,Greater New Unity Baptist Church,Food Pantry,9719 S. Avalon Boulevard,Los Angeles,CA,90003,323.757.5094,33.9476946,-118.2655116
-,Hollywood West Tenant Action Committee,Food Pantry,5823 Willoughby Avenue,Los Angeles,CA,90038,323.461.4957,34.0873928,-118.3231596
-,Twin Lakes Community Church,Food Pantry,17213 Lake Los Angeles Avenue,Lake Los Angeles,CA,93591,661.264.1215,34.6072723,-117.8233091
-,Iglesia Fuente de Vida Community Center,Food Pantry,11134 Saticoy Street,Sun Valley,CA,91352,818.765.0705,34.2082145,-118.3738402
-,Eastmont S.D.A. Spanish Church,Food Pantry,1021 Westside Drive,Los Angeles,CA,90022,323.396.7729,34.0136274,-118.1376064
-,Shield of Faith Christian Center of Pasadena,Food Pantry,1127 N. Lake Avenue,Pasadena,CA,91104,626.773.0505,34.1652586,-118.1327954
-,The Great Vision Church,Food Pantry,4465 W. Melrose Avenue,Los Angeles,CA,90029,213-675-8291,34.0838228,-118.2975894
-,"Helping In Services, Inc.",Food Pantry,1535 Gundry Avenue,Long Beach,CA,90813,562.591.8778,33.7868869,-118.1744206
-,Holy Virgin Mary Coptic Orthodox Church,Food Pantry,4900 Cleland Avenue,Los Angeles,CA,90042,323.258.5555,34.1142576,-118.2104324
-,Esmirna Pentecostal Church,Food Pantry,5414 N. Figueroa Street,Los Angeles,CA,90042,323.254.0191,34.1072082,-118.196609
-,Metropolitan Community Churchof L.A.-Hope Net,Food Pantry,4607 Prospect Avenue,Los Angeles,CA,90027,323.669.3436,34.102074,-118.2897866
-,Rock Solid Christian Assembly,Food Pantry,867 W. 10th Street,San Pedro,CA,90731,310.832.2788,33.734896,-118.296113
-,Centro de Vida International Church Movement,Food Pantry,9251 Burnet Avenue,North Hills,CA,91343,818.892.2838,34.2387967,-118.4635834
-,Silverlake Community Church-Hope Net,Food Pantry,2930 Hyperion Ave,Los Angeles,CA,90027,323.663.3151,34.1098951,-118.2702749
-,Salvation Army- L.A. Central Corp,Food Pantry,906 S. Francisco Street,Los Angeles,CA,90015,213.896.9178,34.0466096,-118.2646275
-,My Friends House,Food Pantry,3533 West 58th Place,Los Angeles,CA,90043,323.292.4939,33.988368,-118.334148
-,Church of the Valley,Food Pantry,6565 Vester blvd,Van Nuys,CA,91411,818.284.1331,34.1898566,-118.451357
-,Breath of Life S.D.A. Church,Food Pantry,425 S. La Brea,Inglewood,CA,90301,310.837.8782,33.9582157,-118.3536215
-,Visions Community Outreach,Food Pantry,2300 S. Griffith Avenue,Los Angeles,CA,90011,310.920.1026,34.0220569,-118.255854
-,Spanish American S.D.A. Church,Food Pantry,1815 E. Bridge Street,Los Angeles,CA,90033,323.222.7063,34.051615,-118.215201
-,Salvation Army- East L.A.,Food Pantry,140 N. Eastman Avenue,Los Angeles,CA,90063,323.263-7577,34.036961,-118.1854747
-,H.O.P.E. Helping Other People Excel,Food Pantry,11163 S. Central Avenue,Los Angeles,CA,90059,323.567.8524,33.933305,-118.254577
-,Do Right Christian Church,Food Pantry,9815 S. Vermont Avenue,Los Angeles,CA,90044,323.755.1053,33.9463608,-118.2920482
-,Rosewood Revitalization Group,Food Pantry,4101 Rosewood Avenue,Los Angeles,CA,90004,323.662.1194,34.0793451,-118.2932645
-,Imperial Church of Christ,Food Pantry,11316 S. San Pedro Street,Los Angeles,CA,90061,323.756.0360,33.9315622,-118.2691607
-,Pilipino Worker Center of Southern California,Food Pantry,153 Glendale Boulevard,Los Angeles,CA,90026,213.250.4353,34.0634518,-118.2602462
-,Iglesia Cristiana El Shaddai USA,Food Pantry,5518 S. Broadway,Los Angeles,CA,90037,323.235.5988,33.9921017,-118.2779982
-,Young Hwa United Methodist Church,Food Pantry,214 S. Loma Drive,Los Angeles,CA,90026,213.413.4154,34.0607514,-118.2642047
-,New Jerusalem C.O.G.I.C.,Food Pantry,420 S. Sante Fe Avenue,Compton,CA,90221,310.639.1013,33.892894,-118.215494
-,Crusaders for Christ Baptist Church,Food Pantry,3200 W. Temple Street,Los Angeles,CA,90026,323.681.3569,34.0752651,-118.2816342
-,Good News Missionary Baptist Church,Food Pantry,2400 W. Vernon Ave,Los Angeles,CA,90008,323.292.3589,34.003407,-118.319388
-,Hank Lacayo Youth & Family Center,Food Pantry,7915 Van Nuys Boulevard,Panorama City,CA,91402,818-644-9970,34.2147105,-118.4490873
-,St. John's Cathedral-Hope Net,Food Pantry,514 W. Adams Boulevard,Los Angeles,CA,90007,213.747.6285,34.02741,-118.2756401
-,First Southern Baptist Church of Hollywood,Food Pantry,1528 N. Wilton Place,Hollywood,CA,90028,323.466.9631,34.0991321,-118.3132449
-,Los Angeles Boys & Girls Club,Food Pantry,2635 Pasadena Avenue,Los Angeles,CA,90031,323.221.9111,34.0779999,-118.215668
-,Echo Park United Methodist,Food Pantry,1226 N. Alvarado Boulevard,Los Angeles,CA,90026,323.731.5472,34.0787092,-118.2624834
-,Iglesia Bautista Renacer,Food Pantry,15950 Chatsworth St.,Granada Hills,CA,91344,818.277.9982,34.264075,-118.479712
-,Good News Central Church,Food Pantry,3500 West 1st Street,Los Angeles,CA,90004,213.386.0097,34.0731603,-118.2896203
-,Lawrence Ministries,Food Pantry,12441 E. Farlow Street,Hawaiian Gardens,CA,90716,310.764.4104,33.832877,-118.066341
-,Pentecostal Church of God,Food Pantry,2829 1/4 Fletcher Drive,Los Angeles,CA,90039,323.842.7888,34.1123662,-118.2494937
-,People for Community Improvement,Food Pantry,13008 South Figueroa,Los Angeles,CA,90061,310.538.4013,33.913935,-118.282263
-,Greater Emmanuel M.B.C.,Food Pantry,3727 West 111th Place,Inglewood,CA,90303,310.677.9916,33.934083,-118.3384028
-,Koreatown Multipurpose Senior,Food Pantry,2147 W. Washington Boulevard,Los Angeles,CA,90018,213.247.3560 cell,34.0399577,-118.3075101
-,Ascension's Food Pantry,Food Pantry,517 W. 112th Street,Los Angeles,CA,90044,323.754.2978,33.933076,-118.282984
-,First Southern Baptist Church of Long Beach,Food Pantry,3435 San Anseline Avenue,Long Beach,CA,90808,562.422.8027,33.8197856,-118.1212202
-,Nuevo Amanecer,Food Pantry,1035 N. Avalon Boulevard,Wilmington,CA,90744,310.847.6937,33.784017,-118.263126
-,New Covenant Tabernacle of Antelope Valley,Food Pantry,38626 9th Street East,Palmdale,CA,93550,661.965.4588,34.585386,-118.114029
-,Dae Hueng Presbyterian Church,Food Pantry,15411 S. Figueroa Street,Gardena,CA,90248,310.719.2244,33.8913189,-118.2836487
-,Congregational Church of Chatsworth,Food Pantry,20440 Lassen Street,Chatsworth,CA,91311,818.882.3474,34.2496259,-118.5788499
-,Saint Mark Food Pantry,Food Pantry,8305 S. Gramercy Place,Los Angeles,CA,90047,323.753.3535,33.9632286,-118.3136076
-,Iglesia Evangelica Camino de Santidad,Food Pantry,958 N. Maclay Ave,San Fernando,CA,91340,818.898.3848,34.2931026,-118.4273834
-,First Missionary Baptist Church,Food Pantry,37721 N. 100th Street East,Sun Villiage,CA,93543,661.944.4128,34.56754,-117.953277
-,Iglesia de la Comunidad Presbyterian Church,Food Pantry,115 N. Ave 53,Los Angeles,CA,90042,323.257.4352,34.1073922,-118.1981957
-,Grace Evangelical Free Church of La Mirada,Food Pantry,12717 Santa Gertrudes Avenue,La Mirada,CA,90638,562.943.3791,33.915754,-117.995356
-,Vallejo Drive S.D.A. Church,Food Pantry,311-B Vallejo Drive,Glendale,CA,91206,818.409.8056,34.1507659,-118.2285903
-,Centro Palabra de Fe,Food Pantry,107 W. Artesia Boulevard,Compton,CA,90220,310-632-7337,33.8749043,-118.2243445
-,Holy Trinity Church of God in Christ,Food Pantry,9706 S. Broadway Boulevard,Los Angeles,CA,90003,323.777.2965,33.9481075,-118.2778577
-,Palmdale Community Foundation-S.A.V.E.S.,Food Pantry,1002 East Avenue Q12,Palmdale,CA,93550,661.267.5191,34.5755254,-118.1114457
-,St. Gertrudes Conference,Food Pantry,7025 Garfield Avenue,Bell Gardens,CA,90201,562.927.4495,33.9678794,-118.1506637
-,Living Hope Community Partnership,Food Pantry,18500 Farjardo Street,Rowland Heights,CA,91748,714.202.7333,33.979196,-117.902383
-,St. Ferdinand Church,Food Pantry,1109 Coronel Street,San Fernando,CA,91340,818.365.3194,34.2818972,-118.4436663
-,St. Paul's Methodist Church,Food Pantry,2600 Nelson Avenue,Redondo Beach,CA,90278,310.370.4319,33.8745269,-118.3641598
-,Crenshaw Baptist Church,Food Pantry,18749 Crenshaw Boulevard,Torrance,CA,90504,310.323.2115,33.8599467,-118.3274219
-,Evergreen Baptist Church of San Gabriel Valley,Food Pantry,323 Workman Mill Road,La Puente,CA,91746,626.363.0300,34.0435729,-117.9991561
-,West Angeles Community Corporation,Food Pantry,3045 South Crenshaw Boulevard,Los Angeles,CA,90016,323.751.3440,34.026398,-118.335492
-,Blood of Jesus Prayer and Deliverance Ministry,Food Pantry,11001 S. Broadway,Los Angeles,CA,90061,323.752.3048,33.935441,-118.278724
-,Coast Christian Fellowship,Food Pantry,4000 Pacific Coast Highway,Torrance,CA,90505,310.373.8573,33.8065814,-118.3566268
-,Rehoboth Courage Church,Food Pantry,425 E. Compton Boulevard,Compton,CA,90220,310.663.0789,33.8962309,-118.2185024
-,Total Deliverance Church,Food Pantry,45124 10th Street West,Lancaster,CA,93535,661.951.9881,34.7030871,-118.1472077
-,City of Maywood,Food Pantry,4319 E. Slauson Avenue,Maywood,CA,90270,323.562.5755,33.9878263,-118.1891261
-,Lynwood All People's First Assembly,Food Pantry,4330 Martin Luther King Jr. Boulevard,Lynwood,CA,90262,310.639.2010,33.9211561,-118.1884331
-,Lynwood United Methodist Church,Food Pantry,4207 Carlin Avenue,Lynwood,CA,90262,310.638.5163,33.91217,-118.1966584
-,Principe de Paz,Food Pantry,6706 Vinevale Avenue,Bell,CA,90201,323.560.3780,33.97426,-118.1809218
-,Salvation Army- Lancaster Corp,Food Pantry,44517 Sierra Highway,Lancaster,CA,93534,661.948.3418,34.6914947,-118.1362728
-,New Life Community Church,Food Pantry,5009 W. 119th Street,Hawthorne,CA,90250,310.676.6859,33.9258706,-118.3660822
-,"Project 29:11, A Community Development Corporation",Food Pantry,418 N. Second Avenue,Covina,CA,91723,626.373.2976,34.0897447,-117.8874932
-,St. Luke Catholic Community,Food Pantry,9451 Broadway,Temple City,CA,91780,626.291.5900,34.1001065,-118.0635668
-,Norwalk Church of the Nazarene,Food Pantry,15000 Studebaker Road,Norwalk,CA,90650,562.863.0911,33.8944743,-118.0995643
-,La Voz Sylmar S.D.A. Church,Food Pantry,13550 Herron Street,Sylmar,CA,91342,951.318.4420,34.313473,-118.427859
-,San Gabriel Mission,Food Pantry,428 South Mission Drive,San Gabriel,CA,91776,626.457.3035,34.0971693,-118.1074142
-,Lifeline Community Services & Economic Development,Food Pantry,2556 N. Lake Avenue,Altadena,CA,91001,626.797.3585,34.1896939,-118.1310706
-,Long Beach Lutheran Social Services,Food Pantry,1611 Pine Avenue,Long Beach,CA,90813,562.599.1321,33.7874467,-118.1927643
-,Iglesia Piedra Angular,Food Pantry,2110 W. Francisquito Avenue,West Covina,CA,91790,626.833.8141,34.0597225,-117.9630247
-,S.V.P. All Souls Conference,Food Pantry,1500 W. Main Street,Alhambra,CA,91803,626.281.0466,34.0911399,-118.1397892
-,Salvation Army Santa Clarita Valley Corps,Food Pantry,22935 Lyons Avenue,Newhall,CA,91321,661.799.7486,34.3805004,-118.5341693
-,Centro Cristiano Manantial de vida,Food Pantry,10035 Washington Street,Bellflower,CA,90706,562.481.1642,33.898644,-118.1204073
-,Iglesia Un Renuevo,Food Pantry,13216 Fairford Ave.,Norwalk,CA,90650,562.743.4611,33.9109635,-118.0946044
-,Centro Cristiano Las Buenas Nuevas,Food Pantry,11910 Alondra Blvd.,Norwalk,CA,90650,562.237.3114,33.8873025,-118.0795603
-,Valley Crossroads S.D.A. Church,Food Pantry,11350 Glenoaks Blvd.,Pacoima,CA,91331,818.896.4488,34.2771851,-118.4148709
-,Pico Rivera Iglesia Crece,Food Pantry,14832 Valley Blvd.,La Puente,CA,91744,562.895.4587,34.0317917,-117.970394
-,Khalsa Care Foundation,Food Pantry,9989 Laurel Canyon Blvd.,Pacoima,CA,91331,805.402.5050,34.2511562,-118.4252181
-,Antelope Valley Boys & Girls Club,Food Pantry,815 E. Avenue Q6,Palmdale,CA,93550,661.267.2582,34.5823279,-118.114847
-,Hollywood Lutheran Church,Food Pantry,1733 N. New Hampshire Ave.,Hollywood,CA,90027,323.667.1212,34.102841,-118.2936174
-,Servants Arms Community Based Organization,Food Pantry,1720 N. Walnut Avenue,La Puente,CA,91744,626.918.3227,42.1077661,-87.9903638
-,Vermont Avenue Baptist Church,Food Pantry,23325 S. Vermont Ave.,Torrance,CA,90502,310.530.0533,33.8134945,-118.2910208
-,Resting Place Church,Food Pantry,10803 Cantara St.,Sun Valley,CA,91352,818.588.1024,34.219583,-118.365132
-,Jesus is the Answer Apostolic Church,Food Pantry,"25100 S. Normandie Ave, Suite A",Harbor City,CA,90710,310.667.0147,33.7965619,-118.2966541
-,United African Church,Food Pantry,1745 W. 55th Street,Los Angeles,CA,90062,323.766.0001,33.9924976,-118.3084069
-,Inglewood Church of Christ,Food Pantry,323 S. Eucalyptus Ave.,Inglewood,CA,90301,310.674.7690,33.9595172,-118.3598898
-,Christ Centered Ministries Church,Food Pantry,742 N. La Brea Avenue,Inglewood,CA,90302,310.676.1499,33.972923,-118.357212
-,East San Gabriel Valley Coalition For the Homeless,Food Pantry,1345 Turnbull Canyon Blvd.,Hacienda Heights,CA,91745,626.333.726,34.0112629,-117.980451
-,Church of God,Food Pantry,4161 Baldwin Park Blvd,Baldwin Park,CA,91706,626.968.6716,34.0873966,-117.9652924
-,Trinity Pantry Ministry,Food Pantry,1450 West 7th Street,San Pedro,CA,90732,310.742.3279,33.738369,-118.308972
-,Bread of Life Community Outreach,Food Pantry,628 South Street,Long Beach,CA,90805,562.428.5422,33.8584858,-118.0929072
-,"Helping Hands, Caring Hearts Ministry",Food Pantry,1750 W. Holt Avenue,Pomona,CA,91768,909.620.1601,34.0609388,-117.7800069
-,Missionaries of Charity,Food Pantry,10950 California Avenue,Lynwood,CA,90262,310.635.3264,33.9334265,-118.2080294
-,St. Peter and Paul Poverty Program,Food Pantry,943 Lagoon Avenue,Wilmington,CA,90744,310.952.0144,33.7823374,-118.267995
-,Catholic Rainbow Outreach,Food Pantry,11419 Carmenita Road,Whittier,CA,90605,562.556.4449,33.9277609,-118.046881
-,Dos Testamentos En El Desierto,Food Pantry,9845 E Palmdale Boulevard,Palmdale,CA,93591,661.433.1186,34.5803299,-117.952611
-,RCCG Victory House of California,Food Pantry,6640 Van Nuys Blvd.,Van Nuys,CA,91411,323.385.4442,34.191872,-118.4483031
-,New Region For Christ,Food Pantry,520 S. La Brea Ave,Inglewood,CA,90301,424.227.8657,33.9569988,-118.3527848
-,Iglesia Macedonia Defenders of the Christian Faith,Food Pantry,9228 S. Central Avenue,Los Angeles,CA,90002,323.804.6615,33.952555,-118.255771
-,"Abundance For All, Inc.",Food Pantry,"6310 Howard B Drollinger Way, Suite 216",Westchester,CA,90045,424.243.7181,33.9559043,-118.3967476
-,Redeemer Missionary Baptist Church,Food Pantry,1631 W. Adams Boulevard,Los Angeles,CA,90007,323.732.4124,34.0331289,-118.2983987
-,Next Dimensions Ministries Church,Food Pantry,45337 Sierra Hwy,Lancaster,CA,93534,661.940.8289,34.706917,-118.1387931
-,St. Helen Church,Food Pantry,9314 Madison Avenue,South Gate,CA,90280,323.563.3522,33.9506409,-118.2138075
-,United Gospel Outreach,Food Pantry,7223 S. Main Street,Los Angeles,CA,90003,323.758.1213,33.974056,-118.274222
-,Salvation Army Redondo Beach,Food Pantry,125 W. Beryl Street,Redondo Beach,CA,90277,310.318.2827,33.8469008,-118.3925479
-,The Bible Tabernacle,Food Pantry,16301 Sierra Highway,Santa Clarita,CA,91351,661.252.5087,34.4534526,-118.4252723
-,"Cathloic Charities of Los Angeles, Inc.",Food Pantry,123 East 14th Street,Long Beach,CA,90813,562.591.1641,33.7840547,-118.1916668
-,Harbor Christian Center,Food Pantry,1602 N. Wilmington Blvd,Wilmington,CA,90744,310.835.5661,33.7950143,-118.2748789
-,St. Paul of the Cross Church,Food Pantry,14020 Foster Road,La Mirada,CA,90638,562.921.2914,33.9092737,-118.0321261
-,Bethel AME Church- Richard Allen Center,Food Pantry,7919 S.  Western Avenue,Los Angeles,CA,90047,323.750.3240,33.9666659,-118.309331
-,Paramount Care Foundation,Food Pantry,8303 Alondra Boulevard,Paramount,CA,90723,562.531.6820,33.889572,-118.154455
-,Another Chance Outreach Ministry,Food Pantry,456 W. Compton Blvd,Compton,CA,90220,310.669.9469,33.8957154,-118.2300311
-,Rosewood Church,Food Pantry,10115 E. Rose Street,Bellflower,CA,90706,562.925.1443,33.8705097,-118.1180147
-,HOAP Inc.,Food Pantry,5014 S. Avalon Boulevard,Los Angeles,CA,90011,323.232.7256,33.9970819,-118.2650011
-,Life Deliverance Ministries,Food Pantry,9120 S. Western Avenue,Los Angeles,CA,90044,562.607.8780,33.9538569,-118.3087286
-,Travelers Rest Missionary B.C.,Food Pantry,1417 E. Florence Avenue,Los Angeles,CA,90001,323.582.7797,33.9750605,-118.2493074
-,Victory Baptist Church,Food Pantry,4802 South McKinley Avenue,Los Angeles,CA,90011,323.231.2424,33.9999755,-118.2603428
-,Vision of Hope Outreach Ministry,Food Pantry,5951 S. San Pedro,Los Angeles,CA,90003,323-233-4647,33.9859277,-118.2697413
-,Inland Valley Hope Partners,Food Pantry,209 W. Pearl Street,Pomona,CA,91768,909.622.7278,34.0649162,-117.7523806
-,Food Net-San Gabriel Valley Center,Food Pantry,1441 Santa Anita Avenue,South El Monte,CA,91733,626.575.5431,34.0451612,-118.0455444
-,Food Net-East Rancho Dominguez,Food Pantry,4513 E. Compton Boulevard,Compton,CA,90221,310.603.7401,33.8964368,-118.1927524
-,Food Net-Centro Maravilla,Food Pantry,4716 E. Cesar Chavez Avenue,Los Angeles,CA,90022,323.260.2804,34.0402137,-118.1643033
-,Food Net-Asian Service Center,Food Pantry,14112 S. Kingsley Drive,Gardena,CA,90249,310.217.7300,33.90287,-118.30389
-,Food Net- East Los Angeles Center,Food Pantry,133 N. Sunol Drive,Los Angeles,CA,90063,323-260-2801,34.0370429,-118.1792254
-,Food Net-Florence Firestone Center,Food Pantry,7807 S. Compton Avenue,Los Angeles,CA,90001,323.586.6502,33.9677438,-118.2480784
-,Food Net-Los Nietos Service Center,Food Pantry,11640 W. Slauson Avenue,Whittier,CA,90606,562.699.9898,33.9643446,-118.0676089
-,Food Net-Willowbrook Senior Center,Food Pantry,12915 Jarvis Avenue,Los Angeles,CA,90061,310.217.5650,33.9150672,-118.2722211
-,Food Net-Santa Clarita Service Center,Food Pantry,24271 Main Street,Newhall,CA,91321,661-254-0070,34.3783287,-118.5278635
-,Food Net-San Pedro Service Center,Food Pantry,769 W. Third Street,San Pedro,CA,90731,310-519-6091,33.7412554,-118.2938035
-,Prince of Peace/Family Rescue,Food Pantry,22103 Van Owen Street,Canoga Park,CA,91303,818.887.9386,34.1940869,-118.6085261
-,WSFB- St. Gerard's Social Services,Food Pantry,4439 Inglewood Boulevard,Los Angeles,CA,90066,310.390.5034,33.9952899,-118.4191511
-,WSFB-St. Anne's Social Service,Food Pantry,2013 Colorado Avenue,Santa Monica,CA,90404,310.829.4411,34.0266996,-118.4766044
-,WSFB- St. Joseph's Center,Food Pantry,204 Hampton Drive,Venice,CA,90291,310.396.6468,33.9979527,-118.4779718
-,WSFB- St. Augustine SAVES,Food Pantry,3820 Jasmine Avenue,Culver City,CA,90232,310.838.2702,34.0212852,-118.4007884
-,WSFB- Ocean Park Community Ctr,Food Pantry,503 Olympic Boulevard,Santa Monica,CA,90401,310.450.4050,34.0135455,-118.4890914
-,M.E.N.D./Our Lady of Peace Catholic Church,Food Pantry,15444 Nordhoff Street,North Hills,CA,91343,818-894-1176,34.235161,-118.468996
-,M.E.N.D./St. Didacus Church,Food Pantry,14337 Astoria Street,Sylmar,CA,91342,818.890.9421,34.3053872,-118.4462183
-,First Church of the Nazarene-Altadena,Food Pantry,9 W. Mendocino Street,Altadena,CA,91001,626-798-2361,34.1915246,-118.1491785
-,C.A.R.E. Heglis,Food Pantry,1633 N. Hacienda Boulevard,La Puente,CA,91744,626.715.5653,34.0498143,-117.9467971
-,Cory's Kitchen-El Sereno,Food Pantry,4810 Huntington Drive South,Los Angeles,CA,90032,323.972.1330,34.0851253,-118.1796924
-,Corys Kitchen-New Beginnings,Food Pantry,"13020 Francisquito Avenue, Suite 10",Baldwin Park,CA,91706,626.305.0392,34.0791001,-117.9893116
-,Cory's Kitchen-Calvary Chapel Pico Rivera,Food Pantry,8110 Paramount Boulevard,Pico Rivera,CA,90660,626-622-9202,33.969865,-118.1127636
-,Cory's Kitchen-Faith Center Ministries,Food Pantry,20470 # A Yellowbrick Road,Walnut,CA,91789,626-825-9441,33.999464,-117.8575384
-,Corys Kitchen-Iglesia Torre De Alabanza,Food Pantry,822 Bradbourne Ave.,Duarte,CA,91010,626.960.4639,34.1422404,-117.9590196
-,East LA Community Corporation,Food Pantry,611 S. Lorena Street,Los Angeles,CA,90033,323.269.4214,34.030634,-118.199474
-,S.A. Pearblossom United Methodist,Food Pantry,34143 126th Street East,Pearblossom,CA,93553,661.839.6123,34.505958,-117.905785
-,S.A. Penney Lynn Wind,Food Pantry,8300 Pearblossom Hwy,Littlerock,CA,93543,661.944.6100,34.5208321,-117.9811848
-,S.A. Mayflower Gardens,Food Pantry,6570 West Avenue L-12,Quartz Hill,CA,93536,661.943.3228,34.6638843,-118.2231208
-,S.A. Friendly Village Mobile Park,Food Pantry,1301 east Ave. I,Lancaster,CA,93535,661.946.6267,34.7088457,-118.1055901
-,S.A. Mountain View Mobile,Food Pantry,3255 E. Ave R,Palmdale,CA,93550,661.947.4700,34.5732114,-118.0702161
-,The Bible Tabernacle (Venice),Food Pantry,1761 Washington Way,Venice,CA,90291,310.821.6116,33.9879884,-118.4626862
-,"Catholic Charities of Los Angeles, Inc.",Food Pantry,5014 Passons Blvd,Pico Rivera,CA,90660,562.949.0937,33.9980359,-118.0777582
+,Unnamed: 0,address,category,city,hours,latitude,longitude,name,phone,state,zip
+0,0,2609 N. Lincoln Avenue,Food Pantry,Altadena,,34.1906878,-118.1593398,Altadena S.D.A. Church,626.794.3953,CA,91001
+1,1,4171 Tyler Avenue,Food Pantry,El Monte,,34.0827886,-118.031897,Catholic Charities- Region 2,626.575.7652,CA,91731
+2,2,7005 S. Western Avenue,Food Pantry,Los Angeles,,33.9759966,-118.3092608,Ephesus S.D.A. Church,323.759.3993,CA,90047
+3,3,701 Hoefner Avenue,Food Pantry,Los Angeles,,34.0209713,-118.1500876,Eastmont Community Center,323.726.7998,CA,90022
+4,4,7215 Newlin Avenue,Food Pantry,Whittier,,33.9768912,-118.0412114,St. Mary's Place,562.698.0107,CA,90602
+5,5,1835 S. Hope Street,Food Pantry,Los Angeles,,34.0339876,-118.2697209,St. Francis Center,213.747.5347,CA,90015
+6,6,10900 Mulhall Street,Food Pantry,South El Monte,,34.0888812,-118.0288381,El Monte/South Emergency,626.444.7269,CA,91731
+7,7,444 East Washington Boulevard,Food Pantry,Pasadena,,34.1687151,-118.1413359,Ecumenical Council of Pasadena Area Congregations,626.797.2402,CA,91104
+8,8,4211 W. Adams Boulevard,Food Pantry,Los Angeles,,34.0329576,-118.3310595,Berean S.D.A. Church,323.735.0228,CA,90018
+9,9,10122 Compton Avenue,Food Pantry,Los Angeles,,33.9443922,-118.2459688,St. Lawrence of Brindisi,323.567.1439,CA,90002
+10,10,4390 Colfax Avenue,Food Pantry,North Hollywood,,34.1501988,-118.3872632,North Hollywood Interfaith Food Pantry,818.760.3575,CA,91604
+11,11,24133 Railroad Avenue,Food Pantry,Newhall,,34.3765012,-118.5252054,Santa Clarita Valley Food Pantry,661.255.9078,CA,91321
+12,12,2727 W.  Pico Boulevard,Food Pantry,Los Angeles,,34.0243687,-118.4608522,St. Thomas Center,323.737.3325,CA,90006
+13,13,21430 Strathern Street,Food Pantry,Canoga Park,,34.214903,-118.5986508,Lutheran Social Services of Southern California,818.901.9480,CA,91304
+14,14,417 S. Tamarind Avenue,Food Pantry,Compton,,33.892572,-118.2220425,Tamarind Avenue S.D.A. Church,310-386-8803,CA,90220
+15,15,2780 E. Gage Avenue,Food Pantry,Huntington Park,,33.9814503,-118.2202826,Southeast Churches Service Center,323.585.8254,CA,90255
+16,16,3569 W. Manchester Blvd.,Food Pantry,Inglewood,,33.9602274,-118.3348393,Maranatha S.D.A. Community Center,323.971.3511,CA,90305
+17,17,7747 Foothill Boulevard,Food Pantry,Tujunga,,34.2577962,-118.3009158,Sunland Tujunga T.A.C.,818.352.2421,CA,91042
+18,18,2740 Mountain View Road,Food Pantry,El Monte,,34.0602394,-118.0239073,Boys & Girls Club-San Gabriel,626.442.5470,CA,91732
+19,19,4665 Willow Brook Avenue,Food Pantry,Los Angeles,,34.0896046,-118.2934993,Catholic Charities of L.A.,213.251.3597,CA,90029
+20,20,1921 N. Garey Avenue,Food Pantry,Pomona,,34.0812428,-117.7531627,Bethel S.D.A. Church,909.630.5883,CA,91767
+21,21,11819 Burke Street,Food Pantry,Sante Fe Springs,,33.962938,-118.0650479,Interfaith Food Center,562.903.1478,CA,90670
+22,22,415 W. Chestnut Avenue,Food Pantry,Monrovia,,34.1427592,-118.0081715,Foothill Unity Center,626.359.1777,CA,91016
+23,23,1135 Martin Luther Kin Jr. Boulevard,Food Pantry,Los Angeles,,34.0111729,-118.2955869,University S.D.A. Church,323.766.9889,CA,90037
+24,24,1809 West Boulevard.,Food Pantry,Los Angeles,,34.0405644,-118.3372555,First Presbyterian Church,323.935.5204,CA,90019
+25,25,535 N. Main Street,Food Pantry,Los Angeles,,34.05707,-118.239577,Our Lady Queen of Angels Catholic Church,213.629.3101,CA,90012
+26,26,1000 E.Walnut Street,Food Pantry,Pasadena,,34.1493046,-118.1297902,Salvation Army-Pasadena Tabernacle,626.773.4400,CA,91106
+27,27,2808 Altura Street,Food Pantry,Los Angeles,,34.0752843,-118.21285,Church of the Epiphany,323.227.9931,CA,90031
+28,28,3739 North Monterey Avenue,Food Pantry,Baldwin Park,,34.0802977,-117.9766557,Church of the Redeemer,626.960.9585,CA,91706
+29,29,104 W. 47th Place,Food Pantry,Los Angeles,,33.9997088,-118.2742456,Holy Cross Center,323.232.3333,CA,90037
+30,30,11901 S. Willowbrook Avenue,Food Pantry,Los Angeles,,33.9244622,-118.23627,Willowbrook Project Area Commission,323-569-7676,CA,90059
+31,31,2625 S. Vermont Avenue,Food Pantry,Los Angeles,,34.0320812,-118.2918201,St. Agnes Parish,323-731-2464,CA,90007
+32,32,4368 Santa Anita Avenue,Food Pantry,EL Monte,,34.0853655,-118.0293332,Our Saviour Center,626.579.2190,CA,91731
+33,33,21600 Hart Street,Food Pantry,Canoga Park,,34.1973704,-118.6002723,Loaves & Fishes-Canoga Park,818.340.2050,CA,91303
+34,34,822 E. 20th Street,Food Pantry,Los Angeles,,34.0257601,-118.256703,All Peoples Christian Center,213-747-6357,CA,90011
+35,35,1973 West 54th Street,Food Pantry,Los Angeles,,33.9935442,-118.3134514,Fifty Fourth Street S.D.A. Church,323-292-2762,CA,90062
+36,36,5700 Rudnick Avenue,Food Pantry,Woodland Hills,,34.1732527,-118.6120677,Prince of Peace Coalition,818-346-5554,CA,91367
+37,37,3903 Wilshire Boulevard,Food Pantry,Los Angeles,,34.062042,-118.3119697,St. James Episcopal Church-Hope Net,323-934-5870,CA,90010
+38,38,840 Echo Park Avenue,Food Pantry,Los Angeles,,34.0733551,-118.2591402,St. Athanasius & St. Paul Church,213.908.8827,CA,90026
+39,39,2800 Stanford Avenue,Food Pantry,Los Angeles,,34.0186835,-118.2606782,St. Philip's Episcopal Church,323-291-8917,CA,90011
+40,40,510 N. Vineland Avenue,Food Pantry,La Puente,,34.051539,-117.986823,San Gabriel Valley Y.W.C.A.,626-333-0294,CA,91746
+41,41,10641 San Fernando Road,Food Pantry,Pacoima,,34.2630434,-118.4195782,Meet Each Need with Dignity,818.686.7334,CA,91331
+42,42,445  Towne Avenue,Food Pantry,Los Angeles,,34.0433355,-118.2419919,Fred Jordan Mission,213-489-7763,CA,90013
+43,43,2210 Sichel Street,Food Pantry,Los Angeles,,34.0703284,-118.2126261,Sacred Heart Church,323.221.3179,CA,90031
+44,44,7926 Pickering Avenue,Food Pantry,Whittier,,33.9691227,-118.0417514,Salvation Army- Whittier Corp.,562-698-8348,CA,90602
+45,45,10825 Moorpark Street,Food Pantry,North Hollywood,,34.1503878,-118.3663839,St. Charles Service Center,818.985.7365,CA,91602
+46,46,490 E. La Verne Anenue,Food Pantry,Pomona,,34.0806833,-117.7434276,Salvation Army-Pomona,909.623.1579,CA,91767-2800
+47,47,2703 Walnut Grove Avenue,Food Pantry,Rosemead,,34.0610322,-118.0823275,Church of the Nazarene-Rosemead,562-695-0019,CA,91770
+48,48,11929 Alondra Boulevard,Food Pantry,Norwalk,,33.8879224,-118.0789232,City of Norwark/Department of Social Services,562-929-5544,CA,90650
+49,49,2270 S. Harvard Boulevard,Food Pantry,Los Angeles,,34.0344082,-118.3061942,First African Methodist Episcopal Church,323 735-1251,CA,90018
+50,50,3700 E. Sierra Madre Boulevard,Food Pantry,Pasadena,,34.1609763,-118.0739988,First Church of the Nazarene-Pasadena,626-351-9631,CA,91107
+51,51,10217 Inglewood Avenue,Food Pantry,Lennox,,33.9429599,-118.3618262,St. Margaret's Center,310.672.2208,CA,90304
+52,52,7600 S. Avalon Boulevard,Food Pantry,Los Angeles,,33.9709509,-118.2648597,Estelle Van Meter Multipurpose,323.753.3881,CA,90003
+53,53,9901 Tujunga Canyon Boulevard,Food Pantry,Tujunga,,34.2480625,-118.2772395,Tujunga United Methodist Church,818-352-1481,CA,91042
+54,54,8107 Loyola Boulevard,Food Pantry,Los Angeles,,33.9643479,-118.416965,Hurting & Hungry,213.268.4820,CA,90045
+55,55,4230 S. Normandie Avenue,Food Pantry,Los Angeles,,34.0059447,-118.2998211,St. Cecilia Catholic Church,(323) 294-6628,CA,90037
+56,56,4915 Crenshaw Boulevard,Food Pantry,Los Angeles,,33.9979589,-118.3308714,Bethesda Temple Church,323.299.2591,CA,90043
+57,57,2040 W. Jefferson Boulevard,Food Pantry,Los Angeles,,34.0251148,-118.3161,Trinity Baptist Church L.A.,323-735-0044,CA,90018
+58,58,5017 E. Olympic Boulevard,Food Pantry,Los Angeles,,34.0173349,-118.1621792,Iglesia la Puerta Abierta,323.261.8397,CA,90022
+59,59,1345 Turnbull Canyon Road,Food Pantry,Hacienda Heights,,34.0112629,-117.980451,St. John Vianney Church,626-330-2269,CA,91745
+60,60,1076 N. El Centro Avenue,Food Pantry,Hollywood,,34.0905485,-118.3243668,Children of the Shepherd,323-953-4000,CA,90038
+61,61,45134 N. Sierra Hwy.,Food Pantry,Lancaster,,34.7030069,-118.137309,"Grace Resource Center, Inc.",661.940.5272,CA,93534
+62,62,5721 S. Western Avenue,Food Pantry,Los Angeles,,33.9902077,-118.3094489,Testimonial Community Love Ctr,323-291-6753,CA,90062
+63,63,11449 Sproule Avenue,Food Pantry,Pacoima,,34.2782812,-118.4067452,Cornerstone Christian Ministry,818.993.2988,CA,91331
+64,64,650 W. 21st Street,Food Pantry,Los Angeles,,34.0327067,-118.2752257,Los Angeles Central City S.D.A. Church,(213) 749-9646,CA,90007
+65,65,3303 W. Vernon Avenue,Food Pantry,Los Angeles,,34.0040273,-118.3297116,Christ the Good Shepherd Episcopal,323-295-4139,CA,90008
+66,66,621 W. Adams Boulevard,Food Pantry,Los Angeles,,34.0288543,-118.2769163,St. Vincent de Paul Church,213-749-8950,CA,90007
+67,67,4509 Mercury Avenue,Food Pantry,Los Angeles,,34.0861589,-118.1901472,Our Lady of Guadalupe Church,323.225.4201,CA,90032
+68,68,1524 Fremont Avenue,Food Pantry,South Pasadena,,34.1080192,-118.1527363,Holy Family Giving Bank,626.403.6140,CA,91030
+69,69,20025 Chase Street,Food Pantry,Winnetka,,34.2248564,-118.5698672,Redeemer Lutheran Outreach,818-341-1629,CA,91306
+70,70,777 Colorado Boulevard,Food Pantry,Los Angeles,,34.1410086,-118.182682,Central Filipino S.D.A. Church,323-255-7718,CA,90041
+71,71,3846 Redondo Beach Boulevard,Food Pantry,Torrance,,33.8781235,-118.3402114,St. Catherine Laboure Catholic,310-329-0993,CA,90504
+72,72,4018 East Hammel Street,Food Pantry,Los Angeles,,34.0421266,-118.1794177,Guadalupe Food Program,323.261.8051,CA,90063
+73,73,2936 W. 8th Street,Food Pantry,Los Angeles,,34.0574918,-118.2904201,First Unitarian Church-Hope Net,213-389-1356,CA,90005
+74,74,2555 Commerce Way,Food Pantry,Commerce,,34.0002991,-118.1559376,City of Commerce Community Center,323 887-4460,CA,90040
+75,75,1722 East Firestone Boulevard,Food Pantry,Los Angeles,,33.9599573,-118.2423524,Good News Prayer Center,323.753.0117,CA,90001
+76,76,675 E. 118th Street,Food Pantry,Los Angeles,,33.9267262,-118.2624581,Belvue Presbyterian Church,323-757-9188,CA,90059
+77,77,9133 Mines Avenue,Food Pantry,Pico Rivera,,33.9907778,-118.0869102,First Bilingual Baptist Church,562-658-5907,CA,90660
+78,78,5214 S. Western Avenue,Food Pantry,Los Angeles,,33.9945347,-118.3086059,St. Brigid Catholic Church,323-292-0781,CA,90062
+79,79,310 E. Chestnut Street,Food Pantry,Glendale,,34.1395829,-118.2520609,Glendale Filipino S.D.A. Church,818.543.0110,CA,91205
+80,80,2420 Pacific Coast Highway,Food Pantry,Hermosa Beach,,33.8715292,-118.3942418,Hope Chapel Foursquare Church,310.374.4673,CA,90254
+81,81,997 E. Walnut,Food Pantry,Pasadena,,34.1500129,-118.1297586,Trinity Evangelical Lutheran Church,626.792.1212,CA,91106
+82,82,6406 Parmelee Avenue,Food Pantry,Los Angeles,,33.9813266,-118.249548,Presentation of Mary Catholic,323.585.0570,CA,90001
+83,83,1713 W. 108th Street,Food Pantry,Los Angeles,,33.9385863,-118.3074812,Imani Unidos A.I.D.S. Project,323.754.8453,CA,90047
+84,84,21329 E. Cienega Avenue,Food Pantry,Covina,,34.103353,-117.838035,St. John Coptic Orthodox,562 691-0299,CA,91724
+85,85,16439 Vanowen Street,Food Pantry,Van Nuys,,34.1942489,-118.491725,JFS/SOVA Community Food & Resource Program,818.988.7682,CA,91406
+86,86,401 N. State Street,Food Pantry,Los Angeles,,34.0492972,-118.2157793,White Memorial S.D.A. Church,323 264-2170,CA,90033
+87,87,17431 Roscoe Blvd.,Food Pantry,Northridge,,34.2216778,-118.513091,St. Mary & St. Athanasius Coptic Church,818-342-4414,CA,91325
+88,88,7016 S. Compton Avenue,Food Pantry,Los Angeles,,33.9759009,-118.2473905,Pilgrim's Hope Baptist Church,323.581.7672,CA,90001
+89,89,1180 North Lincoln Avenue,Food Pantry,Pasadena,,34.1664331,-118.1592865,Lincoln Avenue Baptist Church,626.798.9163,CA,91103
+90,90,455 W. 57th Street,Food Pantry,Los Angeles,,33.9908748,-118.2822084,Figueroa Church of Christ,323-753-2536,CA,90037
+91,91,3232 Hunter Street,Food Pantry,Los Angeles,,34.0211079,-118.2082908,Estrada Courts Community Center,323.641.8943,CA,90023
+92,92,5814 Venice Blvd.,Food Pantry,Los Angeles,,34.0414693,-118.3661612,Christian Association for Social Services,323-936-9481,CA,90019
+93,93,6657 Sunset Blvd.,Food Pantry,Hollywood,,34.0985135,-118.3351039,Blessed Sacrament Food Pantry-Hope Net,323.874.5577,CA,90028
+94,94,1414 South Atlantic Blvd.,Food Pantry,Los Angeles,,34.012313,-118.1590196,Door of Hope Community Center,323.262.2777,CA,90022
+95,95,16113 S. Denker Avenue,Food Pantry,Gardena,,33.8844546,-118.3048366,Gardena S.D.A. Church,310.324.3992,CA,90247
+96,96,5000 Sunset Blvd. 7th Floor,Food Pantry,Los Angeles,,34.0977874,-118.2986107,Childrens Hospital Los Angeles,323-361-5981,CA,90027
+97,97,21411 Norwalk Blvd.,Food Pantry,Hawaiian Gardens,,33.8348574,-118.0723646,Hawaiian Gardens Food Bank,562.860.9097,CA,90716
+98,98,42640 10th Street West,Food Pantry,Lancaster,,34.6579322,-118.1471819,Shekinah Worship Center,661.400.2570,CA,93534
+99,99,2965 E. Gage Avenue,Food Pantry,Huntington Park,,33.9814284,-118.2165004,Salvation Army Southeast Comm. Corp,323-587-4221,CA,90255
+100,100,13055 Weidner Street,Food Pantry,Pacoima,,34.2772191,-118.4173919,"Eliza Shanks Homes, Inc.",818-896-9304,CA,91331
+101,101,112 West 52nd Street,Food Pantry,Los Angeles,,33.9953651,-118.2743249,Wesley United Methodist Church,323.298.0727,CA,90037
+102,102,700 Hoefner Avenue,Food Pantry,Los Angeles,,34.0209372,-118.1493743,East L.A. Bilingual S.D.A. Church,323.633.4734,CA,90022
+103,103,2614 W. 7th Street,Food Pantry,Los Angeles,,34.0586006,-118.2826812,Los Angeles Housing Partnership,213.629.9172,CA,90057
+104,104,427 S. Evergreen Ave.,Food Pantry,Los Angeles,,34.036566,-118.205021,Our Lady of Talpa Church,323.268.7731,CA,90033
+105,105,3401 W. 3rd Street,Food Pantry,Los Angeles,,34.0693363,-118.2898538,Los Angeles First Church of the Nazarene-Hope Net,213.385.6345,CA,90020
+106,106,1304 W. Burbank Blvd.,Food Pantry,Burbank,,34.1825214,-118.3260622,Burbank Temporary Aid Center,818-848-2822,CA,91506
+107,107,3431 Portola Avenue,Food Pantry,Los Angeles,,34.0856924,-118.1729264,All Saints Conference,323.675.4873,CA,90032
+108,108,836 E. Avenue I,Food Pantry,Lancaster,,34.7039815,-118.1135045,Loveship Community Outreach,661.729.4106,CA,93535
+109,109,401 N. Garfield Ave,Food Pantry,Montebello,,34.0192364,-118.1337064,Mexican-American Opportunity Foundation,323.890.9600,CA,90640
+110,110,2120 Estrella Avenue,Food Pantry,Los Angeles,,34.0324876,-118.2759117,Star Christian School,213-746-6900,CA,90007
+111,111,3740 Don Felipe Drive,Food Pantry,Los Angeles,,34.0068523,-118.3408663,Crenshaw United Methodist Church,323.292.0141,CA,90008
+112,112,11705 Deputy Yamamoto Place,Food Pantry,Lynwood,,33.9268095,-118.229051,Shields for Families,323-242-5000,CA,90262
+113,113,3300 Wilshire Blvd,Food Pantry,Los Angeles,,34.0614542,-118.294485,Immanuel Presbyterian Church-Hope Net,213.389.3191,CA,90010
+114,114,25501 Oak Street,Food Pantry,Lomita,,33.7919156,-118.3176793,His Helping Hands,310.326.2757,CA,90717
+115,115,1758 East Avenue R,Food Pantry,Palmdale,,34.5722471,-118.0963705,Palmdale S.D.A. Church,661.947.8496,CA,93550
+116,116,1307 Warren Street,Food Pantry,Los Angeles,,34.0521281,-118.2201373,Catholic Charities- Brownson House,(213) 251-3514,CA,90033
+117,117,2214 E. 108th Street,Food Pantry,Los Angeles,,33.9373243,-118.2324792,San Miguel Church,323-569-5951,CA,90059
+118,118,4903 Fountain Avenue,Food Pantry,Los Angeles,,34.0955984,-118.296546,Hope International Bible Fellowship,323.663.9394,CA,90029
+119,119,5873 S. Normandie Avenue,Food Pantry,Los Angeles,,33.9877081,-118.3002282,Living Truth Christian Fellowship,323.290.3909,CA,90044
+120,120,13965 East Ramona Parkway,Food Pantry,Baldwin Park,,34.085323,-117.969546,Baldwin Park Bilingual S.D.A.,626 338-4828,CA,91706
+121,121,1555 W. 108th Street,Food Pantry,Los Angeles,,33.9384572,-118.3040285,First New Christian Fellowship,323.756.2541,CA,90047
+122,122,138 S. Bandini Street,Food Pantry,San Pedro,,33.7426596,-118.2986098,San Pedro Temple Corps,310-832-7228,CA,90731
+123,123,1245 S. Norton Avenue,Food Pantry,Los Angeles,,34.0483572,-118.3238487,"Ananda Marga of L.A., Inc.",818.414.7737,CA,90019
+124,124,122 South Evergreen Avenue,Food Pantry,Los Angeles,,34.0396969,-118.202409,Iglesia Pentecostes Roca de Salvacion,323.832.5313,CA,90033
+125,125,1150 W. Holt Avenue,Food Pantry,Pomona,,34.0613107,-117.7687845,St. Joseph Conference,909.469.9773,CA,91768
+126,126,8724 S. Central Avenue,Food Pantry,Los Angeles,,33.9585498,-118.256075,Bethel Unspeakable Joy Christian Church,323 585-5939,CA,90002
+127,127,309 S. Oxford Avenue,Food Pantry,Los Angeles,,34.0685889,-118.308458,Wilshire Presbyterian Church-Hope Net,213.387.5387,CA,90020
+128,128,4959 W. Adams Boulevard,Food Pantry,Los Angeles,,34.032789,-118.348501,West Adams Church of Christ,323 731-6672,CA,90016
+129,129,5020 W. Santa Monica Boulevard,Food Pantry,Hollywood,,34.0904073,-118.2988528,Hollywood Community Housing,323.469.0710,CA,90029
+130,130,"1741 Gardena Avenue, Suite E",Food Pantry,Glendale,,34.1227497,-118.2575547,International Families Association,818.770.0779,CA,91204
+131,131,4228 S. Vermont Avenue,Food Pantry,Los Angeles,,34.0065425,-118.2912726,Christ Gospel Prayer Center,323.732.1394,CA,90037
+132,132,135 North Oakland Avenue,Food Pantry,Pasadena,,34.148218,-118.1404603,Fuller Theological Seminary,626.584.5433,CA,91101
+133,133,4425 S. Central Avenue,Food Pantry,Los Angeles,,34.0031117,-118.2568599,Cover the Homeless Ministry,323.931.5468,CA,90011
+134,134,14640 Keswick,Food Pantry,Van Nuys,,34.2100101,-118.4523896,Loaves & Fishes-Van Nuys,818-997-0943,CA,91405
+135,135,4322 San Fernando Road,Food Pantry,Glendale,,34.1316156,-118.261043,Loaves & Fishes-Glendale,818.409.3080,CA,91204
+136,136,760 S. Westmoreland Avenue,Food Pantry,Los Angeles,,34.0582323,-118.2886022,First Baptist Church-Hope Net,213.384.2151,CA,90005
+137,137,8434 S. Greenleaf Avenue,Food Pantry,Whittier,,33.9627706,-118.0395279,Family Church Whittier,626-893-1236,CA,90602
+138,138,140 Chestnut Street,Food Pantry,Pasadena,,34.1501638,-118.1474523,St. Andrew Catholic Church,626- 792-4183,CA,91103
+139,139,755 E. 223rd Street,Food Pantry,Carson,,33.8244169,-118.2620021,Jesus Christ the Reedemer Center,424.264.9875,CA,90745
+140,140,17134 E. Ave O,Food Pantry,Palmdale,,34.616048,-117.824428,Living Springs Foursquare Church,661.264.1717,CA,93591
+141,141,3801 South Normandie Avenue,Food Pantry,Los Angeles,,34.0170589,-118.3003684,Normandie Community Development Food Pantry,323.731.7787,CA,90037
+142,142,38325 10th Street East,Food Pantry,Palmdale,,34.5784049,-118.1120551,Palmdale Foursquare Church,661.947.2938,CA,93550
+143,143,14725 Gramercy Place,Food Pantry,Gardena,,33.897334,-118.314122,Lady Bug Ministry,(323) 751-3748,CA,90247
+144,144,841 W. 85th Street,Food Pantry,Los Angeles,,33.9614457,-118.288536,Heavenly Vision Church of God in Christ,323.245.2651,CA,90044
+145,145,7651 South Central Avenue,Food Pantry,Los Angeles,,33.9698411,-118.2567313,Salvation Army- South L.A.,323.586.0759,CA,90001
+146,146,18047 Valley Boulevard,Food Pantry,La Puente,,34.0065174,-117.9088863,La Puente Spanish S.D.A. Church,626.912.9408,CA,91744
+147,147,4954 Santa Monica Boulevard,Food Pantry,Los Angeles,,34.0905787,-118.2976765,Immaculate Heart of Mary-Hope Net,323.660.0034,CA,90029
+148,148,"1817 E. Avenue Q., A-6",Food Pantry,Palmdale,,34.5672827,-118.0960249,East Palmdale Foursquare,661.874.8788,CA,93550
+149,149,434 S. Vermont Boulevard,Food Pantry,Los Angeles,,34.0664143,-118.291309,Islamic Center of Southern CA-Hope Net,213.382.9200,CA,90020
+150,150,3947 W. 104th Street,Food Pantry,Inglewood,,33.9421196,-118.3433323,Inglewood Southside Christian Church,310.677.0446,CA,90303
+151,151,8505 S. Western Avenue,Food Pantry,Los Angeles,,33.9606268,-118.3093646,Love & Faith Christian Center,323.753.8300,CA,90047
+152,152,8803-8807 S. Broadway Street,Food Pantry,Los Angeles,,33.9571095,-118.2785568,CCC Ebenezery Parish,323.752.4400,CA,90003
+153,153,301 N. Union Avenue,Food Pantry,Los Angeles,,34.0676498,-118.2644293,Filipino Christian Church,213.483.5821,CA,90026
+154,154,3663 Wilshire Boulevard,Food Pantry,Los Angeles,,34.0621177,-118.3049672,Wilshire Boulevard Temple Hope-Net,213.388.2401,CA,90010
+155,155,5017 Compton Avenue,Food Pantry,Los Angeles,,33.9970846,-118.2481042,St. Mark Missionary Baptist,323.231.1040,CA,90011
+156,156,1473 W. 182nd Street,Food Pantry,Gardena,,33.8659794,-118.3018567,Gardena Valley Assembly of God,310.329.6933,CA,90248
+157,157,15721 Cornuta Avenue,Food Pantry,Bellflower,,33.8906177,-118.1198573,St. George Church,562.862.0273,CA,90706
+158,158,1418 Arrow Highway,Food Pantry,Irwindale,,34.1146127,-117.9746909,Cory's Kitchen,626.305.0392,CA,91706
+159,159,15701 E. Hill Street,Food Pantry,La Puente,,34.0325929,-118.2662632,First United Methodist Church of La Puente,626.968.9394,CA,91744
+160,160,1350 Arrow Hwy,Food Pantry,La Verne,,34.100366,-117.785848,Sowing Seeds for Life,909.392.5777,CA,91750
+161,161,6520 S. Normandie Avenue,Food Pantry,Los Angeles,,33.9799881,-118.2999294,Family Mennonite Church,323.750.1744,CA,90044
+162,162,936 W. Ninth Street,Food Pantry,Pomona,,34.0510185,-117.7596455,Mt. Sinai C.O.G.I.C.,909.868.0224,CA,91766
+163,163,2155 Atlantic Avenue,Food Pantry,Long Beach,,33.7963363,-118.1853545,Filipino Baptist Fellowship of Long Beach,310.212.5175,CA,90806
+164,164,1009 N. Market Street,Food Pantry,Inglewood,,33.9766895,-118.3568641,Chapel of Peace Lutheran Church,310.673.2584,CA,90302
+165,165,"1139 E. Dominguez Street, Suite D",Food Pantry,Carson,,33.8419672,-118.253889,City of Truth Ministries,310.669.8300,CA,90746
+166,166,"13030 Inglewood Avenue, Suite.104",Food Pantry,Hawthorne,,33.9137357,-118.3608819,Tongan Community Service Center,310.679.9099,CA,90249
+167,167,9701 Flower Street,Food Pantry,Bellflower,,33.882343,-118.12727,The Lord's Church,562.866.8283,CA,90706
+168,168,11690 Fenton Avenue,Food Pantry,Lake View Terrace,,34.2823569,-118.3916075,Peace Lutheran Church,818.899.3950,CA,91342
+169,169,4232 West Ave. L,Food Pantry,Quartz Hill,,34.659707,-118.2068055,Ed & Frankie Benson Evangelistic Ministries,661.943.1148,CA,93536
+170,170,510 W. Monterey Avenue,Food Pantry,Pomona,,34.0602663,-117.7569861,Imani Economic & Community Development Corporation,909.620.9161,CA,91768
+171,171,210 W. Florence Avenue,Food Pantry,Los Angeles,,33.9745963,-118.2767182,Greater New Morning Star Baptist Church,323.529.4446,CA,90003
+172,172,7860 10th Avenue,Food Pantry,Los Angeles,,33.9678904,-118.3280831,Zion Hill Baptist Church,323.753.4610,CA,90043
+173,173,1033 South Maple Avenue,Food Pantry,Montebello,,33.9953919,-118.124677,Montebello Watch,626-810-5833,CA,90640
+174,174,13560 Hawthorne Boulevard,Food Pantry,Hawthorne,,33.9088461,-118.3520296,Calvary Presbyterian Church,310.676.1144,CA,90250
+175,175,6315 Eastern Avenue,Food Pantry,Bell Gardens,,33.9768389,-118.1637179,Mision Cristana Monte de Sion,562.544.4264,CA,90201
+176,176,19359 Londelius Street,Food Pantry,Northridge,,34.2304245,-118.5557989,Houses of Light Church Corporation,818.998.2931,CA,91324
+177,177,657 E. Arrow Highway,Food Pantry,Glendora,,34.1070477,-117.8509722,Shepherd's Pantry,626.852.7630,CA,91740
+178,178,5607 N. Barranca Avenue,Food Pantry,Azusa,,34.11485,-117.8821589,Village Covenant,626-335-4013,CA,91702
+179,179,5619 Monte Vista Street,Food Pantry,Los Angeles,,34.1117075,-118.1953492,All Saints Episcopal Church Highland Park,323.255.6806,CA,90042
+180,180,2343 N. San Antonio Avenue,Food Pantry,Pomona,,34.0852934,-117.7371539,CUSH Foundation,909.621.5369,CA,91767
+181,181,6015 W Avenue J8,Food Pantry,Quartz Hill,,34.6826776,-118.2371694,Hope Chapel Lancaster,661.943.1074,CA,93536
+182,182,1500 N. Ave 53,Food Pantry,Los Angeles,,34.1213022,-118.1999599,Grace Presbyterian Church,818.957.8090,CA,90042
+183,183,8824 Long Beach Boulevard,Food Pantry,South Gate,,33.956026,-118.220037,Iglesia Pentecostes Templo Calvario,310.713.1428,CA,90280
+184,184,122 Ramona Avenue,Food Pantry,Monterey Park,,34.0616348,-118.1251851,St. Stephen's Community Outreach Program,626.573.9984,CA,91754
+185,185,7301 S. Avalon Boulevard,Food Pantry,Los Angeles,,33.9735936,-118.2655739,Gospel Mission Baptist Church,323.759.8087,CA,90003
+186,186,12000 E. Washington Boulevard,Food Pantry,Whittier,,33.9676128,-118.0553469,Salvation Army- Santa Fe Springs,562.696.9562,CA,90606
+187,187,4357 West 3rd Street,Food Pantry,Los Angeles,,34.0691134,-118.3094234,Charismatic Ecumencial Ministries International,213.219.3228,CA,90020
+188,188,600 West Queen Street,Food Pantry,Inglewood,,33.9624612,-118.3665755,First Lutheran Church of Inglewood,310.674.5103,CA,90301
+189,189,410 E. Palmer Street,Food Pantry,Compton,,33.8983065,-118.2185064,Our Lady of Victory Conference,310.631.5100,CA,90221
+190,190,9719 S. Avalon Boulevard,Food Pantry,Los Angeles,,33.9476946,-118.2655116,Greater New Unity Baptist Church,323.757.5094,CA,90003
+191,191,5823 Willoughby Avenue,Food Pantry,Los Angeles,,34.0873928,-118.3231596,Hollywood West Tenant Action Committee,323.461.4957,CA,90038
+192,192,17213 Lake Los Angeles Avenue,Food Pantry,Lake Los Angeles,,34.6072723,-117.8233091,Twin Lakes Community Church,661.264.1215,CA,93591
+193,193,11134 Saticoy Street,Food Pantry,Sun Valley,,34.2082145,-118.3738402,Iglesia Fuente de Vida Community Center,818.765.0705,CA,91352
+194,194,1021 Westside Drive,Food Pantry,Los Angeles,,34.0136274,-118.1376064,Eastmont S.D.A. Spanish Church,323.396.7729,CA,90022
+195,195,1127 N. Lake Avenue,Food Pantry,Pasadena,,34.1652586,-118.1327954,Shield of Faith Christian Center of Pasadena,626.773.0505,CA,91104
+196,196,4465 W. Melrose Avenue,Food Pantry,Los Angeles,,34.0838228,-118.2975894,The Great Vision Church,213-675-8291,CA,90029
+197,197,1535 Gundry Avenue,Food Pantry,Long Beach,,33.7868869,-118.1744206,"Helping In Services, Inc.",562.591.8778,CA,90813
+198,198,4900 Cleland Avenue,Food Pantry,Los Angeles,,34.1142576,-118.2104324,Holy Virgin Mary Coptic Orthodox Church,323.258.5555,CA,90042
+199,199,5414 N. Figueroa Street,Food Pantry,Los Angeles,,34.1072082,-118.196609,Esmirna Pentecostal Church,323.254.0191,CA,90042
+200,200,4607 Prospect Avenue,Food Pantry,Los Angeles,,34.102074,-118.2897866,Metropolitan Community Churchof L.A.-Hope Net,323.669.3436,CA,90027
+201,201,867 W. 10th Street,Food Pantry,San Pedro,,33.734896,-118.296113,Rock Solid Christian Assembly,310.832.2788,CA,90731
+202,202,9251 Burnet Avenue,Food Pantry,North Hills,,34.2387967,-118.4635834,Centro de Vida International Church Movement,818.892.2838,CA,91343
+203,203,2930 Hyperion Ave,Food Pantry,Los Angeles,,34.1098951,-118.2702749,Silverlake Community Church-Hope Net,323.663.3151,CA,90027
+204,204,906 S. Francisco Street,Food Pantry,Los Angeles,,34.0466096,-118.2646275,Salvation Army- L.A. Central Corp,213.896.9178,CA,90015
+205,205,3533 West 58th Place,Food Pantry,Los Angeles,,33.988368,-118.334148,My Friends House,323.292.4939,CA,90043
+206,206,6565 Vester blvd,Food Pantry,Van Nuys,,34.1898566,-118.451357,Church of the Valley,818.284.1331,CA,91411
+207,207,425 S. La Brea,Food Pantry,Inglewood,,33.9582157,-118.3536215,Breath of Life S.D.A. Church,310.837.8782,CA,90301
+208,208,2300 S. Griffith Avenue,Food Pantry,Los Angeles,,34.0220569,-118.255854,Visions Community Outreach,310.920.1026,CA,90011
+209,209,1815 E. Bridge Street,Food Pantry,Los Angeles,,34.051615,-118.215201,Spanish American S.D.A. Church,323.222.7063,CA,90033
+210,210,140 N. Eastman Avenue,Food Pantry,Los Angeles,,34.036961,-118.1854747,Salvation Army- East L.A.,323.263-7577,CA,90063
+211,211,11163 S. Central Avenue,Food Pantry,Los Angeles,,33.933305,-118.254577,H.O.P.E. Helping Other People Excel,323.567.8524,CA,90059
+212,212,9815 S. Vermont Avenue,Food Pantry,Los Angeles,,33.9463608,-118.2920482,Do Right Christian Church,323.755.1053,CA,90044
+213,213,4101 Rosewood Avenue,Food Pantry,Los Angeles,,34.0793451,-118.2932645,Rosewood Revitalization Group,323.662.1194,CA,90004
+214,214,11316 S. San Pedro Street,Food Pantry,Los Angeles,,33.9315622,-118.2691607,Imperial Church of Christ,323.756.0360,CA,90061
+215,215,153 Glendale Boulevard,Food Pantry,Los Angeles,,34.0634518,-118.2602462,Pilipino Worker Center of Southern California,213.250.4353,CA,90026
+216,216,5518 S. Broadway,Food Pantry,Los Angeles,,33.9921017,-118.2779982,Iglesia Cristiana El Shaddai USA,323.235.5988,CA,90037
+217,217,214 S. Loma Drive,Food Pantry,Los Angeles,,34.0607514,-118.2642047,Young Hwa United Methodist Church,213.413.4154,CA,90026
+218,218,420 S. Sante Fe Avenue,Food Pantry,Compton,,33.892894,-118.215494,New Jerusalem C.O.G.I.C.,310.639.1013,CA,90221
+219,219,3200 W. Temple Street,Food Pantry,Los Angeles,,34.0752651,-118.2816342,Crusaders for Christ Baptist Church,323.681.3569,CA,90026
+220,220,2400 W. Vernon Ave,Food Pantry,Los Angeles,,34.003407,-118.319388,Good News Missionary Baptist Church,323.292.3589,CA,90008
+221,221,7915 Van Nuys Boulevard,Food Pantry,Panorama City,,34.2147105,-118.4490873,Hank Lacayo Youth & Family Center,818-644-9970,CA,91402
+222,222,514 W. Adams Boulevard,Food Pantry,Los Angeles,,34.02741,-118.2756401,St. John's Cathedral-Hope Net,213.747.6285,CA,90007
+223,223,1528 N. Wilton Place,Food Pantry,Hollywood,,34.0991321,-118.3132449,First Southern Baptist Church of Hollywood,323.466.9631,CA,90028
+224,224,2635 Pasadena Avenue,Food Pantry,Los Angeles,,34.0779999,-118.215668,Los Angeles Boys & Girls Club,323.221.9111,CA,90031
+225,225,1226 N. Alvarado Boulevard,Food Pantry,Los Angeles,,34.0787092,-118.2624834,Echo Park United Methodist,323.731.5472,CA,90026
+226,226,15950 Chatsworth St.,Food Pantry,Granada Hills,,34.264075,-118.479712,Iglesia Bautista Renacer,818.277.9982,CA,91344
+227,227,3500 West 1st Street,Food Pantry,Los Angeles,,34.0731603,-118.2896203,Good News Central Church,213.386.0097,CA,90004
+228,228,12441 E. Farlow Street,Food Pantry,Hawaiian Gardens,,33.832877,-118.066341,Lawrence Ministries,310.764.4104,CA,90716
+229,229,2829 1/4 Fletcher Drive,Food Pantry,Los Angeles,,34.1123662,-118.2494937,Pentecostal Church of God,323.842.7888,CA,90039
+230,230,13008 South Figueroa,Food Pantry,Los Angeles,,33.913935,-118.282263,People for Community Improvement,310.538.4013,CA,90061
+231,231,3727 West 111th Place,Food Pantry,Inglewood,,33.934083,-118.3384028,Greater Emmanuel M.B.C.,310.677.9916,CA,90303
+232,232,2147 W. Washington Boulevard,Food Pantry,Los Angeles,,34.0399577,-118.3075101,Koreatown Multipurpose Senior,213.247.3560 cell,CA,90018
+233,233,517 W. 112th Street,Food Pantry,Los Angeles,,33.933076,-118.282984,Ascension's Food Pantry,323.754.2978,CA,90044
+234,234,3435 San Anseline Avenue,Food Pantry,Long Beach,,33.8197856,-118.1212202,First Southern Baptist Church of Long Beach,562.422.8027,CA,90808
+235,235,1035 N. Avalon Boulevard,Food Pantry,Wilmington,,33.784017,-118.263126,Nuevo Amanecer,310.847.6937,CA,90744
+236,236,38626 9th Street East,Food Pantry,Palmdale,,34.585386,-118.114029,New Covenant Tabernacle of Antelope Valley,661.965.4588,CA,93550
+237,237,15411 S. Figueroa Street,Food Pantry,Gardena,,33.8913189,-118.2836487,Dae Hueng Presbyterian Church,310.719.2244,CA,90248
+238,238,20440 Lassen Street,Food Pantry,Chatsworth,,34.2496259,-118.5788499,Congregational Church of Chatsworth,818.882.3474,CA,91311
+239,239,8305 S. Gramercy Place,Food Pantry,Los Angeles,,33.9632286,-118.3136076,Saint Mark Food Pantry,323.753.3535,CA,90047
+240,240,958 N. Maclay Ave,Food Pantry,San Fernando,,34.2931026,-118.4273834,Iglesia Evangelica Camino de Santidad,818.898.3848,CA,91340
+241,241,37721 N. 100th Street East,Food Pantry,Sun Villiage,,34.56754,-117.953277,First Missionary Baptist Church,661.944.4128,CA,93543
+242,242,115 N. Ave 53,Food Pantry,Los Angeles,,34.1073922,-118.1981957,Iglesia de la Comunidad Presbyterian Church,323.257.4352,CA,90042
+243,243,12717 Santa Gertrudes Avenue,Food Pantry,La Mirada,,33.915754,-117.995356,Grace Evangelical Free Church of La Mirada,562.943.3791,CA,90638
+244,244,311-B Vallejo Drive,Food Pantry,Glendale,,34.1507659,-118.2285903,Vallejo Drive S.D.A. Church,818.409.8056,CA,91206
+245,245,107 W. Artesia Boulevard,Food Pantry,Compton,,33.8749043,-118.2243445,Centro Palabra de Fe,310-632-7337,CA,90220
+246,246,9706 S. Broadway Boulevard,Food Pantry,Los Angeles,,33.9481075,-118.2778577,Holy Trinity Church of God in Christ,323.777.2965,CA,90003
+247,247,1002 East Avenue Q12,Food Pantry,Palmdale,,34.5755254,-118.1114457,Palmdale Community Foundation-S.A.V.E.S.,661.267.5191,CA,93550
+248,248,7025 Garfield Avenue,Food Pantry,Bell Gardens,,33.9678794,-118.1506637,St. Gertrudes Conference,562.927.4495,CA,90201
+249,249,18500 Farjardo Street,Food Pantry,Rowland Heights,,33.979196,-117.902383,Living Hope Community Partnership,714.202.7333,CA,91748
+250,250,1109 Coronel Street,Food Pantry,San Fernando,,34.2818972,-118.4436663,St. Ferdinand Church,818.365.3194,CA,91340
+251,251,2600 Nelson Avenue,Food Pantry,Redondo Beach,,33.8745269,-118.3641598,St. Paul's Methodist Church,310.370.4319,CA,90278
+252,252,18749 Crenshaw Boulevard,Food Pantry,Torrance,,33.8599467,-118.3274219,Crenshaw Baptist Church,310.323.2115,CA,90504
+253,253,323 Workman Mill Road,Food Pantry,La Puente,,34.0435729,-117.9991561,Evergreen Baptist Church of San Gabriel Valley,626.363.0300,CA,91746
+254,254,3045 South Crenshaw Boulevard,Food Pantry,Los Angeles,,34.026398,-118.335492,West Angeles Community Corporation,323.751.3440,CA,90016
+255,255,11001 S. Broadway,Food Pantry,Los Angeles,,33.935441,-118.278724,Blood of Jesus Prayer and Deliverance Ministry,323.752.3048,CA,90061
+256,256,4000 Pacific Coast Highway,Food Pantry,Torrance,,33.8065814,-118.3566268,Coast Christian Fellowship,310.373.8573,CA,90505
+257,257,425 E. Compton Boulevard,Food Pantry,Compton,,33.8962309,-118.2185024,Rehoboth Courage Church,310.663.0789,CA,90220
+258,258,45124 10th Street West,Food Pantry,Lancaster,,34.7030871,-118.1472077,Total Deliverance Church,661.951.9881,CA,93535
+259,259,4319 E. Slauson Avenue,Food Pantry,Maywood,,33.9878263,-118.1891261,City of Maywood,323.562.5755,CA,90270
+260,260,4330 Martin Luther King Jr. Boulevard,Food Pantry,Lynwood,,33.9211561,-118.1884331,Lynwood All People's First Assembly,310.639.2010,CA,90262
+261,261,4207 Carlin Avenue,Food Pantry,Lynwood,,33.91217,-118.1966584,Lynwood United Methodist Church,310.638.5163,CA,90262
+262,262,6706 Vinevale Avenue,Food Pantry,Bell,,33.97426,-118.1809218,Principe de Paz,323.560.3780,CA,90201
+263,263,44517 Sierra Highway,Food Pantry,Lancaster,,34.6914947,-118.1362728,Salvation Army- Lancaster Corp,661.948.3418,CA,93534
+264,264,5009 W. 119th Street,Food Pantry,Hawthorne,,33.9258706,-118.3660822,New Life Community Church,310.676.6859,CA,90250
+265,265,418 N. Second Avenue,Food Pantry,Covina,,34.0897447,-117.8874932,"Project 29:11, A Community Development Corporation",626.373.2976,CA,91723
+266,266,9451 Broadway,Food Pantry,Temple City,,34.1001065,-118.0635668,St. Luke Catholic Community,626.291.5900,CA,91780
+267,267,15000 Studebaker Road,Food Pantry,Norwalk,,33.8944743,-118.0995643,Norwalk Church of the Nazarene,562.863.0911,CA,90650
+268,268,13550 Herron Street,Food Pantry,Sylmar,,34.313473,-118.427859,La Voz Sylmar S.D.A. Church,951.318.4420,CA,91342
+269,269,428 South Mission Drive,Food Pantry,San Gabriel,,34.0971693,-118.1074142,San Gabriel Mission,626.457.3035,CA,91776
+270,270,2556 N. Lake Avenue,Food Pantry,Altadena,,34.1896939,-118.1310706,Lifeline Community Services & Economic Development,626.797.3585,CA,91001
+271,271,1611 Pine Avenue,Food Pantry,Long Beach,,33.7874467,-118.1927643,Long Beach Lutheran Social Services,562.599.1321,CA,90813
+272,272,2110 W. Francisquito Avenue,Food Pantry,West Covina,,34.0597225,-117.9630247,Iglesia Piedra Angular,626.833.8141,CA,91790
+273,273,1500 W. Main Street,Food Pantry,Alhambra,,34.0911399,-118.1397892,S.V.P. All Souls Conference,626.281.0466,CA,91803
+274,274,22935 Lyons Avenue,Food Pantry,Newhall,,34.3805004,-118.5341693,Salvation Army Santa Clarita Valley Corps,661.799.7486,CA,91321
+275,275,10035 Washington Street,Food Pantry,Bellflower,,33.898644,-118.1204073,Centro Cristiano Manantial de vida,562.481.1642,CA,90706
+276,276,13216 Fairford Ave.,Food Pantry,Norwalk,,33.9109635,-118.0946044,Iglesia Un Renuevo,562.743.4611,CA,90650
+277,277,11910 Alondra Blvd.,Food Pantry,Norwalk,,33.8873025,-118.0795603,Centro Cristiano Las Buenas Nuevas,562.237.3114,CA,90650
+278,278,11350 Glenoaks Blvd.,Food Pantry,Pacoima,,34.2771851,-118.4148709,Valley Crossroads S.D.A. Church,818.896.4488,CA,91331
+279,279,14832 Valley Blvd.,Food Pantry,La Puente,,34.0317917,-117.970394,Pico Rivera Iglesia Crece,562.895.4587,CA,91744
+280,280,9989 Laurel Canyon Blvd.,Food Pantry,Pacoima,,34.2511562,-118.4252181,Khalsa Care Foundation,805.402.5050,CA,91331
+281,281,815 E. Avenue Q6,Food Pantry,Palmdale,,34.5823279,-118.114847,Antelope Valley Boys & Girls Club,661.267.2582,CA,93550
+282,282,1733 N. New Hampshire Ave.,Food Pantry,Hollywood,,34.102841,-118.2936174,Hollywood Lutheran Church,323.667.1212,CA,90027
+283,283,1720 N. Walnut Avenue,Food Pantry,La Puente,,42.1077661,-87.9903638,Servants Arms Community Based Organization,626.918.3227,CA,91744
+284,284,23325 S. Vermont Ave.,Food Pantry,Torrance,,33.8134945,-118.2910208,Vermont Avenue Baptist Church,310.530.0533,CA,90502
+285,285,10803 Cantara St.,Food Pantry,Sun Valley,,34.219583,-118.365132,Resting Place Church,818.588.1024,CA,91352
+286,286,"25100 S. Normandie Ave, Suite A",Food Pantry,Harbor City,,33.7965619,-118.2966541,Jesus is the Answer Apostolic Church,310.667.0147,CA,90710
+287,287,1745 W. 55th Street,Food Pantry,Los Angeles,,33.9924976,-118.3084069,United African Church,323.766.0001,CA,90062
+288,288,323 S. Eucalyptus Ave.,Food Pantry,Inglewood,,33.9595172,-118.3598898,Inglewood Church of Christ,310.674.7690,CA,90301
+289,289,742 N. La Brea Avenue,Food Pantry,Inglewood,,33.972923,-118.357212,Christ Centered Ministries Church,310.676.1499,CA,90302
+290,290,1345 Turnbull Canyon Blvd.,Food Pantry,Hacienda Heights,,34.0112629,-117.980451,East San Gabriel Valley Coalition For the Homeless,626.333.726,CA,91745
+291,291,4161 Baldwin Park Blvd,Food Pantry,Baldwin Park,,34.0873966,-117.9652924,Church of God,626.968.6716,CA,91706
+292,292,1450 West 7th Street,Food Pantry,San Pedro,,33.738369,-118.308972,Trinity Pantry Ministry,310.742.3279,CA,90732
+293,293,628 South Street,Food Pantry,Long Beach,,33.8584858,-118.0929072,Bread of Life Community Outreach,562.428.5422,CA,90805
+294,294,1750 W. Holt Avenue,Food Pantry,Pomona,,34.0609388,-117.7800069,"Helping Hands, Caring Hearts Ministry",909.620.1601,CA,91768
+295,295,10950 California Avenue,Food Pantry,Lynwood,,33.9334265,-118.2080294,Missionaries of Charity,310.635.3264,CA,90262
+296,296,943 Lagoon Avenue,Food Pantry,Wilmington,,33.7823374,-118.267995,St. Peter and Paul Poverty Program,310.952.0144,CA,90744
+297,297,11419 Carmenita Road,Food Pantry,Whittier,,33.9277609,-118.046881,Catholic Rainbow Outreach,562.556.4449,CA,90605
+298,298,9845 E Palmdale Boulevard,Food Pantry,Palmdale,,34.5803299,-117.952611,Dos Testamentos En El Desierto,661.433.1186,CA,93591
+299,299,6640 Van Nuys Blvd.,Food Pantry,Van Nuys,,34.191872,-118.4483031,RCCG Victory House of California,323.385.4442,CA,91411
+300,300,520 S. La Brea Ave,Food Pantry,Inglewood,,33.9569988,-118.3527848,New Region For Christ,424.227.8657,CA,90301
+301,301,9228 S. Central Avenue,Food Pantry,Los Angeles,,33.952555,-118.255771,Iglesia Macedonia Defenders of the Christian Faith,323.804.6615,CA,90002
+302,302,"6310 Howard B Drollinger Way, Suite 216",Food Pantry,Westchester,,33.9559043,-118.3967476,"Abundance For All, Inc.",424.243.7181,CA,90045
+303,303,1631 W. Adams Boulevard,Food Pantry,Los Angeles,,34.0331289,-118.2983987,Redeemer Missionary Baptist Church,323.732.4124,CA,90007
+304,304,45337 Sierra Hwy,Food Pantry,Lancaster,,34.706917,-118.1387931,Next Dimensions Ministries Church,661.940.8289,CA,93534
+305,305,9314 Madison Avenue,Food Pantry,South Gate,,33.9506409,-118.2138075,St. Helen Church,323.563.3522,CA,90280
+306,306,7223 S. Main Street,Food Pantry,Los Angeles,,33.974056,-118.274222,United Gospel Outreach,323.758.1213,CA,90003
+307,307,125 W. Beryl Street,Food Pantry,Redondo Beach,,33.8469008,-118.3925479,Salvation Army Redondo Beach,310.318.2827,CA,90277
+308,308,16301 Sierra Highway,Food Pantry,Santa Clarita,,34.4534526,-118.4252723,The Bible Tabernacle,661.252.5087,CA,91351
+309,309,123 East 14th Street,Food Pantry,Long Beach,,33.7840547,-118.1916668,"Cathloic Charities of Los Angeles, Inc.",562.591.1641,CA,90813
+310,310,1602 N. Wilmington Blvd,Food Pantry,Wilmington,,33.7950143,-118.2748789,Harbor Christian Center,310.835.5661,CA,90744
+311,311,14020 Foster Road,Food Pantry,La Mirada,,33.9092737,-118.0321261,St. Paul of the Cross Church,562.921.2914,CA,90638
+312,312,7919 S.  Western Avenue,Food Pantry,Los Angeles,,33.9666659,-118.309331,Bethel AME Church- Richard Allen Center,323.750.3240,CA,90047
+313,313,8303 Alondra Boulevard,Food Pantry,Paramount,,33.889572,-118.154455,Paramount Care Foundation,562.531.6820,CA,90723
+314,314,456 W. Compton Blvd,Food Pantry,Compton,,33.8957154,-118.2300311,Another Chance Outreach Ministry,310.669.9469,CA,90220
+315,315,10115 E. Rose Street,Food Pantry,Bellflower,,33.8705097,-118.1180147,Rosewood Church,562.925.1443,CA,90706
+316,316,5014 S. Avalon Boulevard,Food Pantry,Los Angeles,,33.9970819,-118.2650011,HOAP Inc.,323.232.7256,CA,90011
+317,317,9120 S. Western Avenue,Food Pantry,Los Angeles,,33.9538569,-118.3087286,Life Deliverance Ministries,562.607.8780,CA,90044
+318,318,1417 E. Florence Avenue,Food Pantry,Los Angeles,,33.9750605,-118.2493074,Travelers Rest Missionary B.C.,323.582.7797,CA,90001
+319,319,4802 South McKinley Avenue,Food Pantry,Los Angeles,,33.9999755,-118.2603428,Victory Baptist Church,323.231.2424,CA,90011
+320,320,5951 S. San Pedro,Food Pantry,Los Angeles,,33.9859277,-118.2697413,Vision of Hope Outreach Ministry,323-233-4647,CA,90003
+321,321,209 W. Pearl Street,Food Pantry,Pomona,,34.0649162,-117.7523806,Inland Valley Hope Partners,909.622.7278,CA,91768
+322,322,1441 Santa Anita Avenue,Food Pantry,South El Monte,,34.0451612,-118.0455444,Food Net-San Gabriel Valley Center,626.575.5431,CA,91733
+323,323,4513 E. Compton Boulevard,Food Pantry,Compton,,33.8964368,-118.1927524,Food Net-East Rancho Dominguez,310.603.7401,CA,90221
+324,324,4716 E. Cesar Chavez Avenue,Food Pantry,Los Angeles,,34.0402137,-118.1643033,Food Net-Centro Maravilla,323.260.2804,CA,90022
+325,325,14112 S. Kingsley Drive,Food Pantry,Gardena,,33.90287,-118.30389,Food Net-Asian Service Center,310.217.7300,CA,90249
+326,326,133 N. Sunol Drive,Food Pantry,Los Angeles,,34.0370429,-118.1792254,Food Net- East Los Angeles Center,323-260-2801,CA,90063
+327,327,7807 S. Compton Avenue,Food Pantry,Los Angeles,,33.9677438,-118.2480784,Food Net-Florence Firestone Center,323.586.6502,CA,90001
+328,328,11640 W. Slauson Avenue,Food Pantry,Whittier,,33.9643446,-118.0676089,Food Net-Los Nietos Service Center,562.699.9898,CA,90606
+329,329,12915 Jarvis Avenue,Food Pantry,Los Angeles,,33.9150672,-118.2722211,Food Net-Willowbrook Senior Center,310.217.5650,CA,90061
+330,330,24271 Main Street,Food Pantry,Newhall,,34.3783287,-118.5278635,Food Net-Santa Clarita Service Center,661-254-0070,CA,91321
+331,331,769 W. Third Street,Food Pantry,San Pedro,,33.7412554,-118.2938035,Food Net-San Pedro Service Center,310-519-6091,CA,90731
+332,332,22103 Van Owen Street,Food Pantry,Canoga Park,,34.1940869,-118.6085261,Prince of Peace/Family Rescue,818.887.9386,CA,91303
+333,333,4439 Inglewood Boulevard,Food Pantry,Los Angeles,,33.9952899,-118.4191511,WSFB- St. Gerard's Social Services,310.390.5034,CA,90066
+334,334,2013 Colorado Avenue,Food Pantry,Santa Monica,,34.0266996,-118.4766044,WSFB-St. Anne's Social Service,310.829.4411,CA,90404
+335,335,204 Hampton Drive,Food Pantry,Venice,,33.9979527,-118.4779718,WSFB- St. Joseph's Center,310.396.6468,CA,90291
+336,336,3820 Jasmine Avenue,Food Pantry,Culver City,,34.0212852,-118.4007884,WSFB- St. Augustine SAVES,310.838.2702,CA,90232
+337,337,503 Olympic Boulevard,Food Pantry,Santa Monica,,34.0135455,-118.4890914,WSFB- Ocean Park Community Ctr,310.450.4050,CA,90401
+338,338,15444 Nordhoff Street,Food Pantry,North Hills,,34.235161,-118.468996,M.E.N.D./Our Lady of Peace Catholic Church,818-894-1176,CA,91343
+339,339,14337 Astoria Street,Food Pantry,Sylmar,,34.3053872,-118.4462183,M.E.N.D./St. Didacus Church,818.890.9421,CA,91342
+340,340,9 W. Mendocino Street,Food Pantry,Altadena,,34.1915246,-118.1491785,First Church of the Nazarene-Altadena,626-798-2361,CA,91001
+341,341,1633 N. Hacienda Boulevard,Food Pantry,La Puente,,34.0498143,-117.9467971,C.A.R.E. Heglis,626.715.5653,CA,91744
+342,342,4810 Huntington Drive South,Food Pantry,Los Angeles,,34.0851253,-118.1796924,Cory's Kitchen-El Sereno,323.972.1330,CA,90032
+343,343,"13020 Francisquito Avenue, Suite 10",Food Pantry,Baldwin Park,,34.0791001,-117.9893116,Corys Kitchen-New Beginnings,626.305.0392,CA,91706
+344,344,8110 Paramount Boulevard,Food Pantry,Pico Rivera,,33.969865,-118.1127636,Cory's Kitchen-Calvary Chapel Pico Rivera,626-622-9202,CA,90660
+345,345,20470 # A Yellowbrick Road,Food Pantry,Walnut,,33.999464,-117.8575384,Cory's Kitchen-Faith Center Ministries,626-825-9441,CA,91789
+346,346,822 Bradbourne Ave.,Food Pantry,Duarte,,34.1422404,-117.9590196,Corys Kitchen-Iglesia Torre De Alabanza,626.960.4639,CA,91010
+347,347,611 S. Lorena Street,Food Pantry,Los Angeles,,34.030634,-118.199474,East LA Community Corporation,323.269.4214,CA,90033
+348,348,34143 126th Street East,Food Pantry,Pearblossom,,34.505958,-117.905785,S.A. Pearblossom United Methodist,661.839.6123,CA,93553
+349,349,8300 Pearblossom Hwy,Food Pantry,Littlerock,,34.5208321,-117.9811848,S.A. Penney Lynn Wind,661.944.6100,CA,93543
+350,350,6570 West Avenue L-12,Food Pantry,Quartz Hill,,34.6638843,-118.2231208,S.A. Mayflower Gardens,661.943.3228,CA,93536
+351,351,1301 east Ave. I,Food Pantry,Lancaster,,34.7088457,-118.1055901,S.A. Friendly Village Mobile Park,661.946.6267,CA,93535
+352,352,3255 E. Ave R,Food Pantry,Palmdale,,34.5732114,-118.0702161,S.A. Mountain View Mobile,661.947.4700,CA,93550
+353,353,1761 Washington Way,Food Pantry,Venice,,33.9879884,-118.4626862,The Bible Tabernacle (Venice),310.821.6116,CA,90291
+354,354,5014 Passons Blvd,Food Pantry,Pico Rivera,,33.9980359,-118.0777582,"Catholic Charities of Los Angeles, Inc.",562.949.0937,CA,90660
+355,0,445 Towne Avenue,Food Pantry,Los Angeles,Monday - Friday 12:00 PM - 1:00 PM,34.043336,-118.241992,Fred Jordan Mission,213-489-7763,CA,90013
+358,3,501 S. Bixel Street,Food Pantry,Los Angeles,Tuesday 10:00 AM-1:00 PM,34.0549,-118.261821,Central City Neighborhood Partners,213.923.3808,CA,90017
+366,11,830 Green Ave,Food Pantry,Los Angeles,Friday 2:30 PM 4:00 PM,34.051158,-118.271202,St. Francis Center,213.747.5347,CA,90017
+367,12,"1725 Beverly Boulevard, Suite 1-B",Food Pantry,Los Angeles,11/1 at 9:00 AM - 12:00 PM,34.065401,-118.266495,Chinese Community Service Center,213-483-3035,CA,90026
+369,14,2800 Stanford Avenue,Food Pantry,Los Angeles,2nd & 4th Tuesday 7:30 AM - 8:30 AM,34.018684,-118.260678,St. Philip&#8217;s Episcopal Church,323-291-8917,CA,90011
+373,18,514 W. Adams Boulevard,Food Pantry,Los Angeles,1st & 3rd Saturday 10:30 AM - 11:30 AM,34.02741,-118.27564,St. John&#8217;s Cathedral-Hope Net,213.747.6285,CA,90007
+375,20,840 Echo Park Avenue,Food Pantry,Los Angeles,Friday 8:00 AM - 10:30 AM,34.073355,-118.25914,St. Athanasius &#038; St. Paul Church,213.482.2040,CA,90026
+377,22,2212 Beverly Blvd,Food Pantry,Los Angeles,Wednesday 9:00 AM - 10:30 AM,34.067067,-118.271962,Estrella Del Mar De Los Angeles- Regis House Community Center,213.380.8168,CA,90057
+378,23,1366 S. Alvarado Street,Food Pantry,Los Angeles,4th Saturday 5:00 PM - 6:00 PM,34.045629,-118.283484,Central Spanish S.D.A. Church,818-649-0893,CA,90006
+379,24,4016 S. Central Avenue,Food Pantry,Los Angeles,Tuesday 10:00 AM-12:00 PM,34.010669,-118.255753,Masjid Bilal Islamic Center,323.233.7274,CA,90011
+385,30,2635 Pasadena Avenue,Food Pantry,Los Angeles,Thursday 5:00 PM - 6:00 PM,34.078,-118.215668,Los Angeles Boys &#038; Girls Club,323.221.9111,CA,90031
+390,35,892 E. 48th Street,Food Pantry,Los Angeles,Wednesday 11:30 AM-1:00 PM,33.999977,-118.259845,St. Francis Center,213.747.5348,CA,90011
+395,40,2727 W. Pico Boulevard,Food Pantry,Los Angeles,"1st, 2nd & 3rd Saturday 7:00 AM - 9:00 AM",34.046892,-118.298908,St. Thomas Center,323.737.3325,CA,90006
+403,48,2249 S. Harvard Boulevard,Food Pantry,Los Angeles,4th Saturday 9:00 AM - 12:00 PM,34.03483,-118.307066,First African Methodist Episcopal Church,323 735-1251,CA,90018
+410,55,504 N. Berendo Street,Food Pantry,Los Angeles,1st Friday 3:30 PM -4:30 PM,34.079327,-118.293706,Los Angeles Housing Partnership,213.629.9172,CA,90004
+413,58,2750 Marsh Street,Food Pantry,Los Angeles,4th Tuesday 4:00 PM - 6:00 PM,34.103961,-118.248523,Iglesia del Nazareno Elysian Park,909.649.5337,CA,90039
+418,63,4357 West 3rd Street,Food Pantry,Los Angeles,"1st, 2nd & 3rd Sunday 1:00 PM - 2:00 PM",34.069113,-118.309423,Charismatic Ecumenical Ministries International,213.219.3228,CA,90020
+429,74,4810 Huntington Drive South,Food Pantry,Los Angeles,Monday 4:30 PM - 6:30 PM,34.085125,-118.179692,Cory&#8217;s Kitchen-El Sereno,323.972.1330,CA,90032
+431,76,7016 S. Compton Avenue,Food Pantry,Los Angeles,2nd Wednesday 9:00 AM - 11:00 AM,33.975901,-118.247391,Pilgrim&#8217;s Hope Baptist Church,323.581.7672,CA,90001
+435,80,1750 E. Florence Ave,Food Pantry,Los Angeles,Thursday 11:00 AM-2:00 PM,33.974424,-118.241453,Praise Chapel Florence Community Church,626.483.5728,CA,90001
+437,82,4607 Prospect Avenue,Food Pantry,Los Angeles,Saturday 9:00 AM - 11:00 AM,34.102074,-118.289787,Metropolitan Community Church of L.A.-Hope Net,323.669.3436,CA,90027
+439,84,5000 Sunset Blvd. 7th Floor,Food Pantry,Los Angeles,Wednesday 10:00 - 11:00 AM,34.097787,-118.298611,Children&#8217;s Hospital Los Angeles,323-361-5981,CA,90027
+444,89,115 N. Ave 53,Food Pantry,Los Angeles,1st & 3rd Thursday 10:30 AM - 11:30 AM,34.107392,-118.198196,Iglesia de la Communidad Presbyterian Church,323.257.4352,CA,90042
+448,93,7229 S. Main Street,Food Pantry,Los Angeles,Friday 1:00 PM - 2:00 PM,33.97397,-118.274184,United Gospel Outreach,323.758.1213,CA,90003
+456,101,5721 S. Western Avenue,Food Pantry,Los Angeles,Thursday 8:30 AM - 10:30 AM,33.990208,-118.309449,Testimonial Community Love Center,323.291.6753,CA,90062
+459,104,5175 1/2 W. Washington St.,Food Pantry,Los Angeles,Sunday & Wednesday 3:00 PM - 4:00 PM,34.039696,-118.337061,Bread of Life Foursquare Gospel Church,323.939.4716,CA,90016
+466,111,1229 N. Bronson Avenue,Food Pantry,Los Angeles,3rd Friday 3:30 PM - 4:30 PM,34.093566,-118.318296,Los Angeles Housing Partnership,(213) 629-9172,CA,90038
+472,117,1722 E. Firestone Blvd,Food Pantry,Los Angeles,Thursday 10:00 AM-12:00 PM,33.959957,-118.242352,Holy Way Church,323.589.5531,CA,90001
+477,122,430 W. Cypress St,Food Pantry,Glendale,2nd & 4th Thursday 7:00 PM - 8:00 PM,34.129047,-118.261515,Calvary Chapel Glendale,323.236.1310,CA,91206
+478,123,2900 Slauson Ave.,Food Pantry,Los Angeles,Saturday 10:00 AM - 12:00 PM,33.988853,-118.324665,Islah L.A.,323.596.3456,CA,90043
+480,125,4322 San Fernando Road,Food Pantry,Glendale,"Monday, Tuesday, Wednesday, Friday 10:00 AM - 12:00 PM & 1:15 PM -3:30 PM",34.131616,-118.261043,Loaves &#038; Fishes-Glendale,818.409.3080,CA,91204
+482,127,8803 S. Broadway Street,Food Pantry,Los Angeles,Saturday 11:00 AM - 1:30 PM,33.957205,-118.27861,CCC Ebenezery Parish,323.752.4400,CA,90003
+486,131,7726 S. Western Ave,Food Pantry,Los Angeles,3rd Saturday 10:00 AM - 12:00 PM,33.969348,-118.308735,Good News Prayer Center,323.753.0117,CA,90001
+488,133,6315 Eastern Avenue,Food Pantry,Bell Gardens,Tuesday 8:30 PM - 9:30 PM,33.976839,-118.163718,Mision Cristiana Monte de Sion,562.544.4264,CA,90201
+489,134,5602 E. Gage Ave,Food Pantry,Bell Gardens,3rd Sunday 1:00 PM-3:00 PM,33.975437,-118.16495,Indian Revival Church,323.773.4883,CA,90201
+492,137,820 E. Maple Street,Food Pantry,Glendale,Wednesday 2:00 PM - 5:00 PM,34.138546,-118.244928,International Families Association,818.770.0779,CA,91205
+493,138,7919 S. Western Avenue,Food Pantry,Los Angeles,Wednesday 7:30 AM - 11:30 AM,33.966666,-118.309331,Bethel AME Church,323.750.3240,CA,90047
+496,141,840 N. Ave 66,Food Pantry,Los Angeles,2nd & 4th Saturday 2:00 PM - 3:00 PM,34.120637,-118.172231,Hathaway Children &#038; Family Services,323.257.9600,CA,90042
+497,142,8124 South Western Ave,Food Pantry,Los Angeles,Sunday 2:30 PM-3:30 PM & Saturday 2:00 PM-3:00 PM,33.964719,-118.308636,New Direction Community Program,323.753.0346,CA,90047
+498,143,3868 W. 54th Street,Food Pantry,Los Angeles,1st Wednesday 8:00 AM - 9:00 AM,33.992821,-118.341589,Robbins Memorial Church of God in Christ,323-298-8771,CA,90043
+502,147,122 Ramona Avenue,Food Pantry,Monterey Park,Saturday 9:30 AM - 11:30 AM,34.061635,-118.125185,St. Stephen&#8217;s Community Outreach Program,626.573.9984,CA,91754
+505,150,101 S. Atlantic Blvd,Food Pantry,Alhambra,Thursday 3:00 PM-5:00 PM,34.090041,-118.135329,First Baptist Church of Alhambra,626.570.1511,CA,91801
+508,153,3231 Minnesota Ave,Food Pantry,Lynwood,Thursday 7:00 PM-8:00 PM,33.944568,-118.214445,South Gate S.D.A. Church,951.318.4420,CA,90262
+516,161,7501 Hollywood Blvd,Food Pantry,Los Angeles,Friday 9:00 AM-11:30 AM,34.10194,-118.353085,JFS/SOVA Community Food &#038; Resource Program,818.988.7682,CA,90046
+522,167,517 W. 112th Street,Food Pantry,Los Angeles,Last Saturday 9:00 AM - 11:00 AM,33.933076,-118.282984,Ascension&#8217;s Food Pantry,323.754.2978,CA,90044
+528,173,8846 W. Pico Boulevard,Food Pantry,Los Angeles,"Monday, Tuesday, Wednesday, Thursday 10:00 AM-1:30 PM Sunday 9:00 AM-12:00 PM",34.054745,-118.384858,JFS/SOVA Community Food &#038; Resource Program,818.988.7682,CA,90035
+534,179,2813 N. Wilmington Ave.,Food Pantry,Compton,Last Thursday 10:00 AM-1:00 PM,33.917641,-118.239498,Trinity Chapel,310.635.0206,CA,90221
+535,180,"6820 La Tijera Blvd., Suite 206B",Food Pantry,Los Angeles,"Tuesday 12:00 PM - 3:00 PM, Thursday12:00 PM - 6:00 PM, Saturday 10:00 AM - 12:00 PM",33.976662,-118.371928,"Abundance For All, Inc.",424.243.7181,CA,90045
+537,182,4330 Martin Luther King Jr. Boulevard,Food Pantry,Lynwood,Friday 8:30 PM - 9:30 PM,33.921156,-118.188433,Lynwood All People&#8217;s First Assembly,310.639.2010,CA,90262
+545,190,4211 Columbia Ave,Food Pantry,Pico Rivera,3rd Saturday 1:00 PM - 2:30 PM,34.013612,-118.084047,Cory&#8217;s Kitchen-Pio Pico Elementary School,626-622-9202,CA,90660
+549,194,1000 Walnut Street,Food Pantry,Pasadena,Monday - Friday 9:00 AM - 11:00 AM,34.149305,-118.12979,Salvation Army-Pasadena Tabernacle,626.773.4400,CA,91106
+551,196,10217 Inglewood Avenue,Food Pantry,Lennox,"Monday, Wednesday, Friday 9:00 AM - 12:00 PM & 1:00 PM - 4:00 PM",33.94296,-118.361826,St. Margaret&#8217;s Center,310.672.2208,CA,90304
+554,199,"11612 Hawthorne Blvd, Suite 204",Food Pantry,Hawthorne,2nd & 4th Friday 11:00 AM - 2:00 PM,33.928754,-118.352144,Justice Children Deserve,213.426.0108,CA,90250
+558,203,11901 Acacia Ave.,Food Pantry,Hawthorne,2nd Sunday 9:00 AM - 11:00 AM,33.92519,-118.351634,St. Joseph Catholic Church,310.679.1139,CA,90250
+560,205,736 E. Compton Blvd.,Food Pantry,Compton,Wednesday 9:30 AM-12:00 PM,33.895635,-118.215217,Salvation Army Compton Corps,310.639.0362,CA,90221
+561,206,111 N. Long Beach Blvd,Food Pantry,Compton,Saturday 10:00 AM - 12:00 PM,33.896575,-118.208319,Ministerio a la Luz de la Palabra,310.365.2277,CA,90221
+566,211,191 N. Oak Avenue,Food Pantry,Pasadena,"Tuesday 9:00 AM - 11:30, Wednesday & Friday 1:00 PM - 3:30 PM",34.149592,-118.107847,Foothill Unity Center,626.584.7420,CA,91107
+567,212,15116 S. Atlantic Ave,Food Pantry,Compton,"Tuesday, Wednesday & Thursday 9:00 AM - 4:00 PM",33.895497,-118.192717,Food Net-East Rancho Dominguez,310.603.7401,CA,90221
+568,213,4439 Inglewood Boulevard,Food Pantry,Los Angeles,Tuesday & Thursday 9:00 AM - 12:00 PM & 1:00 PM - 5:00 PM,33.99529,-118.419151,WSFB- St. Gerard&#8217;s Social Services,310.390.5034,CA,90066
+569,214,12950 S. Prairie Ave,Food Pantry,Hawthorne,Sunday 12:00 PM - 3:00 PM & Wednesday 6:00 PM -7:30 PM,33.91437,-118.343869,New Rock of Ages Baptist Church,310.940.1887,CA,90250
+571,216,4754 West 120th Street,Food Pantry,Hawthorne,1st & 3rd Tuesday 7:00 AM - 9:00 AM,33.923433,-118.360718,Tongan Community Service Center,310.679.9099,CA,90249
+581,226,12808 Woodruff Ave.,Food Pantry,Downey,Monday - Saturday 8:30 AM -5:00 PM,33.915826,-118.115366,Calvary Chapel Downey,562.803.5631,CA,90242
+587,232,2144 Tyler Ave,Food Pantry,South El Monte,Friday 11:00 AM-1:00 PM,34.053832,-118.035416,San Gabriel Valley Family Center,626.442.5470,CA,91733
+588,233,2556 N. Lake Avenue,Food Pantry,Altadena,2nd & 4th Wednesday 12:00 PM - 2:00 PM,34.189694,-118.131071,Lifeline Community Services &#038; Economic Development,626.797.3585,CA,91001
+590,235,10035 Washington Street,Food Pantry,Bellflower,Monday 6:30 PM - 8:30 PM,33.898644,-118.120407,Centro Cristiano Manantial de Vida,562.481.1642,CA,90706
+592,237,7215 Newlin Avenue,Food Pantry,Whittier,3rd Saturday 9:00 AM - 12:00 PM,33.976891,-118.041211,St. Mary&#8217;s Place,562.698.0107,CA,90602
+602,247,9701 Flower Street,Food Pantry,Bellflower,2nd & 4th Wednesday 8:00 PM - 9:00 PM,33.882343,-118.12727,The Lord&#8217;s Church,562.866.8283,CA,90706
+605,250,1761 Washington Way,Food Pantry,Venice,"Monday, Tuesday, Friday 9:00 AM - 12:00 PM",33.987746,-118.462697,The Bible Tabernacle,310.821.6116,CA,90291
+606,251,1520 Pearl Street,Food Pantry,Santa Monica,Wednesday 2:30 PM - 5:30 PM,34.013908,-118.472094,WSFB- Church on Pearl Pantry,310.699.2777,CA,90405
+607,252,4602 N. Peck Road,Food Pantry,El Monte,Thursday 2:30 PM- 5:30 PM,34.087856,-118.015459,San Gabriel Valley Family Center,626.442.5470,CA,91732
+608,253,2013 Colorado Avenue,Food Pantry,Santa Monica,Wednesday 4:00 PM - 5:30 PM,34.0267,-118.476605,WSFB- St. Anne&#8217;s Social Service,310.829.4411,CA,90404
+611,256,2600 Nelson Avenue,Food Pantry,Redondo Beach,1st & 3rd Thursday 9:00 AM - 11:00 AM,33.874527,-118.36416,St. Paul&#8217;s Methodist Church,310.370.4319,CA,90278
+613,258,204 Hampton Drive,Food Pantry,Venice,"Monday, Wednesday, Thursday 10:00 AM - 12:00 PM; Tuesday & Friday 1:00 PM - 3:00 PM",33.998051,-118.47795,WSFB- St. Joseph&#8217;s Center,310.396.6468,CA,90291
+614,259,851 Via Carmelitos,Food Pantry,Long Beach,Friday 2:00 PM-3:00 PM,33.849011,-118.181868,Women In Action Reaching Out,562.253.8078,CA,90805
+619,264,503 Olympic Boulevard,Food Pantry,Santa Monica,Tuesday 1:00 PM - 2:30 PM,34.013546,-118.489091,WSFB- Ocean Park Community Center,310.450.4050,CA,90401
+620,265,11929 Alondra Boulevard,Food Pantry,Norwalk,"Monday - Thursday 8:00 AM - 5:30 PM, Friday 8:00 AM -4:30 PM",33.887922,-118.078923,City of Norwalk/Department of Social Services,562-929-5544,CA,90650
+622,267,"13020 Francisquito Avenue, Suite 10",Food Pantry,Baldwin Park,Friday 5:00 PM - 7:00 PM,34.079218,-117.989466,Cory&#8217;s Kitchen-New Beginnings,626.305.0392,CA,91706
+625,270,21919 S. Figueroa Street,Food Pantry,Carson,Saturday 10:00 AM-11:00 AM,33.828364,-118.28648,Finger of God Goodnews Ministry,323.719.0290,CA,90745
+627,272,755 E. 223rd Street,Food Pantry,Carson,Saturday 11:00 AM - 11:30 AM,33.824417,-118.262002,Jesus Christ the Redeemer Center,424.264.9875,CA,90745
+628,273,2300 W. Wardlow Road,Food Pantry,Long Beach,Thursday 10:30 AM - 12:00 PM,33.82425,-118.222294,Harbor Baptist Church,562.427.8046,CA,90810
+633,278,15144 Leffingwell Rd.,Food Pantry,La Mirada,3rd Saturday 11:00 AM- 1:00 PM,33.927317,-118.00741,Calvary Chapel La Mirada,562.941.2558,CA,90638
+634,279,13965 East Ramona Parkway,Food Pantry,Baldwin Park,"Wednesday 6:30 PM - 7:30 PM, Except 5th Wednesday",34.085323,-117.969546,Baldwin Park Bilingual S.D.A. Church,626 338-4828,CA,91706
+635,280,23400 S. Avalon Boulevard,Food Pantry,Carson,3rd Saturday 10:00 AM - 12:00 PM,33.812708,-118.262879,City of Truth Ministries,310.617.2914,CA,90745
+637,282,1418 Arrow Highway,Food Pantry,Irwindale,Tuesday 6:00 PM - 8:00 PM,34.114613,-117.974691,Cory&#8217;s Kitchen,626.305.0392,CA,91706
+639,284,"1442 Arrow Highway, Unit F",Food Pantry,Irwindale,Saturday 9:00 AM - 11:00 AM,34.113615,-117.973397,Vision de Cristo Ministerio Kairos,626.367.0690,CA,91706
+642,287,11947 Del Amo Blvd.,Food Pantry,Cerritos,1st Saturday 7:00 AM - 9:00 AM,33.846369,-118.077095,Cerritos Baptist Church,562.860.1720,CA,90703
+643,288,14640 Keswick,Food Pantry,Van Nuys,"Monday, Wednesday, Friday 10:00 AM - 1:30 PM",34.210272,-118.452381,Loaves &#038; Fishes-Van Nuys,818-997-0943,CA,91405
+644,289,16241 Leffingwell Road,Food Pantry,Whittier,Tuesday 9:30 AM - 11:30 AM,33.932911,-117.984331,Morningstar Christian Chapel,562.943.0297,CA,90603
+646,291,7915 Van Nuys Boulevard,Food Pantry,Panorama City,Thursday 4:00 PM - 6:00 PM,34.214711,-118.449087,Hank Lacayo Youth &#038; Family Center,818-644-9970,CA,91402
+648,293,12229 E. Del Amo Blvd,Food Pantry,Cerritos,Sunday 8:30 AM- 9:45 AM & 3:00 PM-4:00 PM,33.846537,-118.070818,Crossroads Multinational Church of the Nazarene,562.809.4143,CA,90703
+649,294,13013 Santa Gertrudes Ave.,Food Pantry,La Mirada,Thursday 4:30 PM - 5:30 PM,33.912539,-117.994726,Good Sam Pantry/Beatitudes of our Lord,562.943.1521,CA,90638
+652,297,3435 San Anseline Avenue,Food Pantry,Long Beach,"Monday, Tuesday, Thursday 10:30 AM-11:30 AM & Wednesday, Saturday 10:00 AM-11:00 AM",33.819786,-118.12122,Truett Memorial Southern Baptist Church,562.425.1235,CA,90808
+656,301,12381 Osborne Street,Food Pantry,Pacoima,4th Friday 4:30 PM -5:30 PM,34.261371,-118.402866,Los Angeles Housing Partnership,213.629.9172,CA,91331
+657,302,16439 Vanowen Street,Food Pantry,Van Nuys,"Monday, Tuesday, Wednesday, Thursday 10:00 AM-1:30 PM and Sunday 9:00 AM-12:00 PM",34.194249,-118.491725,JFS/SOVA Community Food &#038; Resource Program,818.988.7682,CA,91406
+662,307,763 N. Sunset Avenue,Food Pantry,West Covina,3rd Saturday 9:00 AM-10:30 AM,34.085838,-117.935286,Bethany Church,626.617.0787,CA,91790
+663,308,22121 Norwalk Blvd.,Food Pantry,Hawaiian Gardens,Wednesday 2:00 PM - 6:00 PM & Thursday 9:30 AM - 3:30 PM,33.827098,-118.072156,Hawaiian Gardens Food Bank,562.860.9097,CA,90716
+669,314,123 East 14th Street,Food Pantry,Long Beach,Tuesday & Thursday 9:30 AM - 12:00 PM & 1:30 PM - 3:00 PM,33.784055,-118.191667,"Catholic Charities of Los Angeles, Inc.",562.591.1641,CA,90813
+671,316,15453 Rayen Street,Food Pantry,North Hills,1st & 3rd Friday 12:00 PM - 1:30 PM,34.231916,-118.469128,North Valley Caring Services,818.891.0481,CA,91343
+675,320,12541 Van Nuys Blvd,Food Pantry,Pacoima,"Monday, Wednesday, Friday 9:00 AM-3:00 PM",34.277833,-118.406481,Apostolic Worship Center,818.896.3840,CA,91331
+679,324,1400 Bella Vista Drive,Food Pantry,La Habra Heights,4th Saturday 9:00 AM-11:00 AM,33.950086,-117.927226,La Habra Christian Church,562.691.0514,CA,90631
+681,326,11479 San Fernando Road,Food Pantry,San Fernando,Sunday 6:00 PM-7:00 PM,34.278398,-118.435782,Ministerio a la Luz de la Palabra,310.365.2277,CA,91340
+682,327,17431 Roscoe Blvd.,Food Pantry,Northridge,3rd Sunday & Tuesday 9:00 AM - 2:00 PM,34.221678,-118.513091,St. Mary &#038; St. Athanasius Coptic Church,818-342-4414,CA,91325
+688,333,151 N. Fenimore Ave,Food Pantry,Azusa,2nd Saturday 9:00 AM - 12:00 PM,34.123531,-117.893988,Gods Pantry,909.455.4531,CA,91702
+689,334,275 West 1st Street,Food Pantry,San Pedro,2nd & 4th Saturday 11:00 AM - 11:30 AM,33.743275,-118.28322,Rock Solid Christian Assembly,310.832.2788,CA,90731
+699,344,657 E. Arrow Highway,Food Pantry,Glendora,Wednesday & Thursday 5:00 PM - 7:00 PM,34.107048,-117.850972,Shepherd&#8217;s Pantry,626.852.7630,CA,91740
+701,346,21600 Hart Street,Food Pantry,Canoga Park,"Monday, Wednesday, Friday 9:00 AM - 12:00 PM",34.197386,-118.600272,Loaves &#038; Fishes-Canoga Park,818.340.2050,CA,91303
+704,349,1404 West Covina,Food Pantry,San Dimas,Last Sunday 2:00 PM-4:30 PM,34.098641,-117.836681,God&#8217;s Pantry,909.455.4531,CA,91773
+707,352,945 W. Covina Blvd.,Food Pantry,San Dimas,"Sunday 10:40 AM-1:00 PM; 1st, 3rd and 5th Thursday 7:00 PM-8:00 PM; 2nd & 4th Saturday 10:00 AM-12:00 PM",34.100473,-117.82574,New Song Church,909.394.9488,CA,91733
+708,353,110 E. Third Street,Food Pantry,San Dimas,"Monday, Wednesday, Friday 2:00 PM - 4:00 PM",34.109684,-117.806865,Inland Valley Hope Partners,909.622.3806,CA,91768
+713,358,810 S. White Ave,Food Pantry,Pomona,Sunday 5:00 PM -7:00 PM,34.051833,-117.758359,Inland Valley Hope Partners,909.391.4882,CA,91766
+714,359,510 W. Monterey Avenue,Food Pantry,Pomona,3rd Saturday 11:00 AM - 12:30 PM,34.060266,-117.756986,Imani Economic &#038; Community Development Corporation,909.620.9161,CA,91768
+715,360,18701 Flying Tiger Drive,Food Pantry,Santa Clarita,2nd Tuesday 10:00 AM -11:30 AM,34.407147,-118.459282,Santa Clarita Valley Food Pantry,661.251.2900,CA,91351
+721,366,305 E. Arrow Hwy,Food Pantry,Pomona,2nd Saturday 11:00 AM - 1:00 PM,34.090495,-117.745577,Sowing Seeds for Life,909.392.5777,CA,91767
+722,367,490 E. La Verne Avenue,Food Pantry,Pomona,"Monday, Wednesday, Friday 8:00 AM - 12:00 PM & 1:00 PM - 4:00 PM & Tuesday, Thursday 8:00 AM - 12:00 PM",34.080683,-117.743428,Salvation Army-Pomona,909.623.1579,CA,91767-2800
+723,368,275 E. Foothill Boulevard,Food Pantry,Pomona,Friday 4:00 PM - 5:30 PM,34.108011,-117.744837,New Life Community Church,909.593.7070,CA,91767
+725,370,1770 Sumner Avenue,Food Pantry,Claremont,3rd Sunday 3:30 PM - 4:30 PM,34.11617,-117.741952,S.V.P. Our Lady of the Assumption Conference,909.238.3235,CA,91711
+726,371,23520 Wiley Canyon Road,Food Pantry,Valencia,3rd Thursday 10:00 AM -11:30 AM,34.386886,-118.54964,Santa Clarita Valley Food Pantry,661.255.5818,CA,91355
+727,372,32142 North Crown Valley Road,Food Pantry,Acton,2nd Thursday 10:00 AM -11:30 AM,34.470648,-118.19722,Santa Clarita Valley Food Pantry,661.255.9078,CA,93510
+728,373,660 N. Mountain Avenue,Food Pantry,Claremont,Tuesday & Thursday 12:30 PM -4:30 PM,34.099852,-117.728903,Inland Valley Hope Partners,909.622.3806,CA,91711
+730,375,25857 Singing Hills Drive,Food Pantry,Valencia,1st Wednesday 9:30 AM -11:00 AM,34.393454,-118.56087,Santa Clarita Valley Food Pantry,661.255.9078,CA,91321
+731,376,26705 Bouquet Canyon Road,Food Pantry,Saugus,3rd Tuesday 10:00 AM -11:30 AM,34.431397,-118.535102,Santa Clarita Valley Food Pantry,661-255-9078,CA,91350
+732,377,904 E. California Street,Food Pantry,Ontario,Monday-Thursday 9:00 AM -3:00 PM,34.055553,-117.63639,Inland Valley Hope Partners,909.622.3806,CA,91761
+733,378,8300 Pearblossom Hwy,Food Pantry,Littlerock,3rd Monday 12:00 PM - 2:00 PM,34.520832,-117.981185,Salvation Army- Penney Lynn Wind,661.944.6100,CA,93543
+734,379,34143 126th Street East,Food Pantry,Pearblossom,3rd Monday 9:00 AM - 11:00 AM,34.505958,-117.905785,Salvation Army- Pearblossom United Methodist,661.839.6123,CA,93553
+735,380,1600 East Avenue R,Food Pantry,Palmdale,Wednesday 9:30 AM - 12:00 PM,34.572673,-118.100121,S.V.P. St. May&#8217;s Conference,661.944.5209,CA,93550
+739,384,3255 E. Ave R,Food Pantry,Palmdale,2nd Tuesday 12:00 PM - 2:00 PM,34.573211,-118.070216,Salvation Army- Mountain View Mobile,661.947.4700,CA,93550
+740,385,31990 Castaic Lake Road,Food Pantry,Castaic,1st Thursday 10:00 AM -11:30 AM,34.504549,-118.616172,Santa Clarita Valley Food Pantry,661.255.9078,CA,91384
+743,388,6570 West Avenue L-12,Food Pantry,Quartz Hill,2nd Tuesday 9:00 AM - 11:00 AM,34.647622,-118.247529,Salvation Army- Mayflower Gardens,661.943.3228,CA,93536
+744,389,4232 West Ave. L,Food Pantry,Quartz Hill,3rd Tuesday 12:00 PM - 1:00 PM,34.659707,-118.206806,Ed &#038; Frankie Benson Evangelistic Ministries,661.943.1148,CA,93536
+746,391,"1034 West Avenue L-12, Suite 105/107",Food Pantry,Lancaster,4th Saturday 11:00 AM - 1:00 PM,34.659916,-118.149255,A.V. Living Water Worship Center,661.313.6240,CA,93535
+747,392,"43770 15th Street West, Suite #265",Food Pantry,Lancaster,Wednesday 12:00-2:00 PM & Friday 12:00 PM-3:00 PM,34.678269,-118.15624,Care Four You Foundation,661.305.8789,CA,93534
+749,394,"43845 10th Street West, 1D",Food Pantry,Lancaster,"Tuesday, Wednesday & Friday 3:30 PM-6:30 M",34.680111,-118.148421,Change Lanes Youth Support Services,661.948.2555,CA,93534
+751,396,603 E. Lancaster Blvd.,Food Pantry,Lancaster,3rd Saturday 9:30 AM-10:30 AM,34.697117,-118.119383,Boulevard Community Church of Lancaster,661.942.1932,CA,93535
+755,400,"17134 Ease Avenue O, Room 104",Food Pantry,Palmdale,Friday 7:30 AM - 1:00 PM,34.616048,-117.824428,St. Vincent de Paul Society of Palmdale,661.264.1858,CA,93591
+758,403,1301 east Ave. I,Food Pantry,Lancaster,4th Monday 9:00 AM - 11:00 AM,34.7042,-118.107192,Salvation Army- Friendly Village Mobile Park,661.946.6267,CA,93535
