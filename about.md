@@ -8,7 +8,7 @@ color: strawberry
 
 # About this project
 
-In 2015, Feeding America reported that 1.5 million people in Los Angeles County lack sufficient funds to buy food, making it home to the US’s largest population of individuals affected by Food Insecurity. Today, there are hundreds of efforts – spanning the non-profit, community-based, governmental, educational and for-profit sectors – that are currently planning and implementing solutions to Food Insecurity in Los Angeles. 
+In 2015, Feeding America reported that 1.5 million people in Los Angeles County lack sufficient funds to buy food, making it home to the US’s largest population of individuals affected by Food Insecurity. Today, there are hundreds of efforts – spanning the non-profit, community-based, governmental, educational and for-profit sectors – that are currently planning and implementing solutions for Food Insecurity in Los Angeles. 
 
 Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the complex landscape of these often disparate solutions on one map.
 
@@ -87,8 +87,8 @@ To build a unified hub for Angelenos to easily find healthy food.
 
 ## Our Team
 
-Food Oasis Los Angeles was born at a Hack for LA as a collaboration between volunteers from all walks of life. [More about our team](/team)
+Food Oasis Los Angeles was born at a [Hack for LA](http://www.hackforla.org) as a collaboration between volunteers from all walks of life. [More about our team](/team)
 
 ## About Hack for LA
 
-Hack for LA is the official Los Angeles chapter of Code for America, a national nonprofit that believes government can work for the people, by the people, in the 21st century. At our weekly Civic Hack Nights, we organize groups of volunteers to build technology addressing the LA region's biggest civic issues. We welcome technologists, government officials, designers, students, activists, entrepreneurs and community members to join us and collaboratively create a better Los Angeles.
+[Hack for LA](http://www.hackforla.org) is the official Los Angeles chapter of Code for America, a national nonprofit that believes government can work for the people, by the people, in the 21st century. At our weekly Civic Hack Nights, we organize groups of volunteers to build technology addressing the LA region's biggest civic issues. We welcome technologists, government officials, designers, students, activists, entrepreneurs and community members to join us and collaboratively create a better Los Angeles.
