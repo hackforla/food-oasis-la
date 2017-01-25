@@ -19,12 +19,11 @@ color: lime
 		<a href="/{{ food_source['type_uri'] }}/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p class="type">Community Garden</p>
-			{% if food_source['address_1'] %}
 			<p>{{ food_source['address_1'] | escape }}</p>
-			{% elsif food_source['address'] %}
-			<p>{{ food_source['address'] | escape }}</p>
+			{% if page.food_source['address_2'] and page.food_source['address_2'] != '' %}
+				<br />
+				{{ page.food_source['address_2'] | escape }}
 			{% endif %}
-			<p>{{ food_source['address'] | escape }}</p>
 {% if false %}
 			{% if food_source['hours'] and food_source['hours'].length and food_source['hours'].length > 0 %}
 			<h3>Hours</h3>

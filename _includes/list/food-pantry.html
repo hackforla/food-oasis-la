@@ -3,7 +3,7 @@
 		<a href="/food-pantry/{{ food_source['uri'] }}">
 			<h2>{{ food_source['name'] }}</h2>
 			<p class="type">Food Pantry</p>
-			<p>{{ food_source['address'] | escape }}</p>
+			<p>{{ food_source['address_1'] | escape }}</p>
 			{% if food_source['hours'] %}
 			<h3>Hours</h3>
 			<p>{{ food_source['hours'] | escape }}</p>

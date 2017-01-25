@@ -18,12 +18,14 @@ stylesheets:
 		Address
 	</h2>
 	<p>
-		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address'] | escape }} {{ page.food_source['city'] | escape }} {{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}">
-			{{ page.food_source['address'] | escape }}
-			{% if page.food_source['city'] %}
+		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address_1'] | escape }} {% if page.food_source['address_2'] and page.food_source['address_2'] != '' %} {{ page.food_source['address_2'] | escape }} {% endif %} {{ page.food_source['city'] | escape }} {{ page.food_source['state'] | escape }} {{ page.food_source['zipcode'] | escape }}">
+			{{ page.food_source['address_1'] | escape }}
+			{% if page.food_source['address_2'] and page.food_source['address_2'] != '' %}
 				<br />
-				{{ page.food_source['city'] | escape }}, {{ page.food_source['state'] | escape }} {{ page.food_source['zip'] | escape }}
+				{{ page.food_source['address_2'] | escape }}
 			{% endif %}
+			<br />
+			{{ page.food_source['city'] | escape }}, {{ page.food_source['state'] | escape }} {{ page.food_source['zipcode'] | escape }}
 		</a>
 	</p>
 

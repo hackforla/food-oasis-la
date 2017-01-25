@@ -1,4 +1,4 @@
-name,address,address_2,city,state,zip,phone,latitude,longitude,category,website,active,daycode,open,close
+name,address_1,address_2,city,state,zipcode,phone,latitude,longitude,category,website,active,daycode,open,close
 Arleta Community Garden,8800 Canterbury Avenue,,San Fernando Valley,CA,91331,,34.22961903400005,-118.42451217799999,Community Garden,,Y,,,
 Crenshaw Community Garden,1423 S Crenshaw Blvd,,Los Angeles,CA,90019,,34.04619602500003,-118.32762735099999,Community Garden,http://crenshawgarden.blogspot.com/,Y,,,
 Eagle Rockdale Community Garden & Art Park,1003 Rockdale Avenue,,Los Angeles,CA,90041,,34.13392643900005,-118.18878835899994,Community Garden,https://www.facebook.com/Eagle-Rockdale-Community-Garden-Art-Park-121724107876620/,Y,,,

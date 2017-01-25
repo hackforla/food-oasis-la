@@ -1,4 +1,4 @@
-fm_id,name,category,address,city,state,zip,phone,website,season_open,season_close,day_open,time_open,time_close,longitude,latitude,EBT,day1_open,day1_close,day2_open,day2_close,day3_open,day3_close,day4_open,day4_close,day5_open,day5_close,day6_open,day6_open,day7_open,day7_close
+fm_id,name,category,address_1,city,state,zipcode,phone,website,season_open,season_close,day_open,time_open,time_close,longitude,latitude,EBT,day1_open,day1_close,day2_open,day2_close,day3_open,day3_close,day4_open,day4_close,day5_open,day5_close,day6_open,day6_open,day7_open,day7_close
 ,Acton Farmers Market,Farmers Market,3801 Sierra Way,Acton,California,93510,,,5/1,10/31,3,4:00 PM,7:30 PM,-118.2004,34.4927,,,,,,4:00 PM,7:30 PM,,,,,,,,
 ,Adams - Vermont Farmers Market,Farmers Market,1432 W Adams Blvd,Los Angeles,California,90007,,,,,4,2:00 PM,6:00 PM,-118.2926,34.0326,Y,,,,,,,2:00 PM,6:00 PM,,,,,,
 ,Agoura Hills Farmers Market,Farmers Market,5835 Kanan Rd,Agoura Hills,California,91310,,,,,1,9:00 AM,2:00 PM,-118.7572,34.1569,,9:00 AM,2:00 PM,,,,,,,,,,,,
