@@ -15,12 +15,12 @@ github_username: foodoasisla
 permalink: pretty
 
 # https://github.com/18F/jekyll-get
-jekyll_get:
-    - data: community-gardens-from-staging-api
-      json: 'https://fola-staging.herokuapp.com/locations'
-      cache: true
-      type: 'Community Garden'
-      type_uri: 'community-garden'
+# jekyll_get:
+#     - data: community-gardens-from-staging-api
+#       json: 'https://fola-staging.herokuapp.com/locations'
+#       cache: true
+#       type: 'Community Garden'
+#       type_uri: 'community-garden'
 
 # These files are unique to the “site” repository.
 exclude:
