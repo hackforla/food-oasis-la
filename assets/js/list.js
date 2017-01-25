@@ -8,8 +8,8 @@
 	function findUserLocation() {
 		var address = getParameterByName('address');
 
-		// If the user passed in an address
-		if (address) {
+		// If the user passed in an address, and if the Google Maps geocoder is available
+		if (address && "google" in window) {
 			if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>' + address + '</em>';
 
 			// Add Los Angeles to the address

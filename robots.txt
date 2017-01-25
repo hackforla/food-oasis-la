@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /community-garden-from-staging-api/

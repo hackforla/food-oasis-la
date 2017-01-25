@@ -66,6 +66,7 @@ module Jekyll
       if ENV['JEKYLL_ENV'] != 'development'
         generate_one(site, 'food-pantries',     'Food Pantry',      'food-pantry')
         generate_one(site, 'community-gardens', 'Community Garden', 'community-garden')
+        generate_one(site, 'community-gardens-from-staging-api', 'Community Garden', 'community-garden-from-staging-api')
         generate_one(site, 'farmers-markets',   'Farmers Market',   'farmers-market')
       end
     end
