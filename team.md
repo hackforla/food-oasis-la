@@ -21,9 +21,9 @@ While our technology stack meets most our needs, many our tools and services are
  
 ### Challenges:
 
--Developing back end skills
--Developing mapping online skills
--Funding for hosting
+* Developing back end skills
+* Developing mapping online skills
+* Funding for hosting
 
 
 ## The Mapping Team
@@ -34,14 +34,14 @@ Our data comes from a variety of sources including the Los Angeles County Data P
 
 ### Challenges: 
 
--Deciding/discovering what data to collect
--Finding up-to-date datasets
--Cleaning datasets to select relevant and accurate information
--Reconciling datasets into a single format
--Working with online mapping platforms in a way that reflects the GIS desktop application capabilities
--Processing and creating georeferenced data, managing the complexity of datasets
--Creating analysis layers
--Manual data entry
+* Deciding/discovering what data to collect
+* Finding up-to-date datasets
+* Cleaning datasets to select relevant and accurate information
+* Reconciling datasets into a single format
+* Working with online mapping platforms in a way that reflects the GIS desktop application capabilities
+* Processing and creating georeferenced data, managing the complexity of datasets
+* Creating analysis layers
+* Manual data entry
 
 
 ## The Design Team
@@ -52,12 +52,13 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 
 ### Challenges
 
--Improving usability so navigation is intuitive
--Maintaining FOLA's branding
--Harnessing the graphic capabilities of our online mapping platforms
--Designing for multiple screen sizes
--Constantly testing/iterating on website design
--Creating outreach/marketing materials
+* Improving usability so navigation is intuitive
+* Maintaining FOLA's branding
+* Harnessing the graphic capabilities of our online mapping platforms
+* Designing for multiple screen sizes
+* Constantly testing/iterating on website design
+* Creating outreach/marketing materials
+
 
 ## Contributors (Thanks everyone!)
 
