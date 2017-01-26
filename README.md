@@ -12,25 +12,7 @@ As you make changes and commit/push them to GitHub, the website will automatical
 
 ## How to develop locally
 
-If you want to see a preview of your changes before they appear on the live site, you can run Jekyll on your computer.
-
-To use Jekyll, you first need to [install Ruby and Jekyll](https://jekyllrb.com/docs/installation/).
-
-### Step 1: Make your changes to the source code
-
-a. Clone the this repository.
-
-b. Make your changes.
-
-### Step 2: Generate the site with Jekyll
-
-Run this command within your project folder…
-
-```
-jekyll serve
-```
-
-And then visit… [http://localhost:4000](http://localhost:4000)
+If you want to see a preview of your changes before they appear on the live site, you can [run a Jekyll server](https://jekyllrb.com) on your local machine.
 
 ## A summary of the project files
 
