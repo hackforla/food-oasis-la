@@ -12,7 +12,7 @@ As you make changes and commit/push them to GitHub, the website will automatical
 
 ## How to develop locally
 
-If you want to see a preview of your changes before they appear on the live site, you can [run a Jekyll server](https://jekyllrb.com) on your local machine.
+If you want to see a preview of your changes before they appear on the live site, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. You can get started by [installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/).
 
 ## A summary of the project files
 
