@@ -44,23 +44,3 @@ collections:
   food-pantries:
     output: true
     permalink: /food-pantry/:path/
-
-# https://github.com/18F/jekyll-get
-# jekyll_get:
-#     - data: community-gardens-from-staging-api
-#       json: 'https://fola-staging.herokuapp.com/locations'
-#       cache: true
-#       type: 'Community Garden'
-#       type_uri: 'community-garden'
-
-# These files are unique to the “site” repository.
-exclude:
-    - rakefile
-    - Gemfile
-    - Gemfile.lock
-
-# These files are unique to the “foodoasisla.github.io” repository.
-keep_files:
-    - .nojekyll
-    - .gitignore
-    - .git
