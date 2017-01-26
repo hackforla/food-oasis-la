@@ -31,12 +31,7 @@ To re-generate the files, first install Node.js. And then run this command from 
 node _node/generate-locations.js
 ```
 
-Note that this will overwrite the existing markdown files, but it won’t remove any of them. You may wish to manually remove these three folders first, before running `generate-locations.js` to remove any unneeded markdown files.
-```
-_community-gardens/*
-_farmers-markets/*
-_food-pantries/*
-```
+Note that this will overwrite the existing markdown files, but it won’t remove any of them. You may wish to manually remove all of the markdown files before running `generate-locations.js`, to get a fresh copy.
 
 ## A summary of the project files
 
