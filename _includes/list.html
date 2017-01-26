@@ -1,0 +1,16 @@
+{% for data in data_list %}
+	<li class="{{ data['category'] | downcase | replace: ' ', '-' }}" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
+		<a href="{{ data.url }}">
+			<h2>{{ data['name'] }}</h2>
+			<p class="type">{{ data['category'] }}</p>
+			<p>{{ data['address_1'] | escape }}</p>
+			{% if data['hours'] %}
+			<h3>Hours</h3>
+			<p>{{ data['hours'] | escape }}</p>
+			{% endif %}
+			<script type="text/template" class="distance-template">
+				<p class="distance"><span></span> miles away</p>
+			</script>
+		</a>
+	</li>
+{% endfor %}

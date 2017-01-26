@@ -7,9 +7,9 @@ stylesheets:
   - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css"
 ---
 
-<h1>{{ page.name_html }}</h1>
+<h1>{{ page.name }}</h1>
 
-<p><a href="/{{ page.food_source['type_uri'] }}" title="List of {{ page.food_source['type'] }}s in Los Angeles">{{ page.food_source['type'] }}</a></p>
+<p><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
 
 <div class="page-contents">
 
@@ -18,31 +18,39 @@ stylesheets:
 		Address
 	</h2>
 	<p>
-		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page.food_source['address_1'] | escape }} {% if page.food_source['address_2'] and page.food_source['address_2'] != '' %} {{ page.food_source['address_2'] | escape }} {% endif %} {{ page.food_source['city'] | escape }} {{ page.food_source['state'] | escape }} {{ page.food_source['zipcode'] | escape }}">
-			{{ page.food_source['address_1'] | escape }}
-			{% if page.food_source['address_2'] and page.food_source['address_2'] != '' %}
+		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">
+			{{ page['address_1'] | escape }}
+			{% if page['address_2'] and page['address_2'] != '' %}
 				<br />
-				{{ page.food_source['address_2'] | escape }}
+				{{ page['address_2'] | escape }}
 			{% endif %}
 			<br />
-			{{ page.food_source['city'] | escape }}, {{ page.food_source['state'] | escape }} {{ page.food_source['zipcode'] | escape }}
+			{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
 		</a>
 	</p>
 
-	{% if page.food_source['phone'] %}
+	{% if page['phone'] and page['phone'] != '' %}
 	<h2>
 		<img class="icon" src="/assets/images/icons/phone.svg" width="30" alt="" />
 		Phone
 	</h2>
-	<p>{{ page.food_source['phone'] | escape }}</p>
+	<p>{{ page['phone'] | escape }}</p>
 	{% endif %}
 
-	{% if page.food_source['hours'] %}
+	{% if page['website'] and page['website'] != '' %}
+	<h2>
+		<img class="icon" src="/assets/images/icons/website.svg" width="30" alt="" />
+		Website
+	</h2>
+	<p><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></p>
+	{% endif %}
+
+	{% if page['hours'] %}
 	<h2>
 		<img class="icon" src="/assets/images/icons/hours.svg" width="30" alt="" />
 		Hours
 	</h2>
-	<p>{{ page.food_source['hours'] | escape }}</p>
+	<p>{{ page['hours'] | escape }}</p>
 	{% endif %}
 
 	{% comment %}
@@ -80,14 +88,14 @@ stylesheets:
 <script type="text/template" id="marker-template">
 	<div class="marker">
 		<img src="/assets/images/markers/green.svg" alt="" />
-		<p class="label">{{ page.food_source['name'] | escape }}</p>
+		<p class="label">{{ page['name'] | escape }}</p>
 	</div>
 </script>
 
 <script>
 	var FOOD_SOURCE = {
-		latitude: {{ page.food_source['latitude'] }},
-		longitude: {{ page.food_source['longitude'] }},
+		latitude: {{ page['latitude'] }},
+		longitude: {{ page['longitude'] }},
 	}
 </script>
 

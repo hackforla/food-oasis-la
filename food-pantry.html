@@ -11,10 +11,12 @@ color: canteloupe
 
 {% include link-to-map.html %}
 
-<h1>Food Pantries <span id="location">in Los Angeles</span></h1>
+<h1>{{ link_to_map_title }} <span id="location">in Los Angeles</span></h1>
 
 <ul class="food-source-list">
-{% include list/food-pantry.html %}
+{% assign data_collection = site.collections | where: "label", "food-pantries" | first %}
+{% assign data_list = data_collection.docs %}
+{% include list.html %}
 </ul>
 
 <!-- Jim’s Google Maps API key -->

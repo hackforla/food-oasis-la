@@ -441,14 +441,18 @@
 		};
 
 		// This is duplicated in _plugins/food_source_generator.rb
+		var street = 
+					feature.properties["address"] ||
+					feature.properties["Address"] ||
+					feature.properties["ADDRESS"] ||
+					feature.properties["ADDRESS:"] ||
+					feature.properties["address_1"] ||
+					feature.properties["StreetAddress"];
+
 		data.uri = '/' + 
 					data.type.toLowerCase().replace(/\s/g, '-')
 					+ '/' + 
-					stringToURI(data.name)
-					+ '/' + 
-					data.latitude
-					+ '/' + 
-					data.longitude;
+					stringToURI(data.name.replace(' ' + data.type, ''));
 
 		return data;
 	}
@@ -461,6 +465,7 @@
 					feature.properties["Address"] ||
 					feature.properties["ADDRESS"] ||
 					feature.properties["ADDRESS:"] ||
+					feature.properties["address_1"] ||
 					feature.properties["StreetAddress"];
 		var city = 
 					feature.properties["city"] ||

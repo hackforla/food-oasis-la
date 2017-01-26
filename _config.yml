@@ -14,6 +14,37 @@ url: "https://foodoasis.la" # the base hostname & protocol for your site
 github_username: foodoasisla
 permalink: pretty
 
+defaults:
+  - scope:
+      path: ""
+      type: community-gardens
+    values:
+      layout: food-source-details
+      color: lime
+  - scope:
+      path: ""
+      type: farmers-markets
+    values:
+      layout: food-source-details
+      color: strawberry
+  - scope:
+      path: ""
+      type: food-pantries
+    values:
+      layout: food-source-details
+      color: canteloupe
+
+collections:
+  community-gardens:
+    output: true
+    permalink: /community-garden/:path/
+  farmers-markets:
+    output: true
+    permalink: /farmers-market/:path/
+  food-pantries:
+    output: true
+    permalink: /food-pantry/:path/
+
 # https://github.com/18F/jekyll-get
 # jekyll_get:
 #     - data: community-gardens-from-staging-api

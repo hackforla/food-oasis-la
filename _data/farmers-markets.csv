@@ -104,7 +104,6 @@ fm_id,name,category,address_1,city,state,zipcode,phone,website,season_open,seaso
 1002882,Monrovia Farmers Market - Friday,Farmers Market,200 Block of Myrtle Ave,Monrovia,California,91016,,,,,6,5:00 PM,9:00 PM,-118.0009,34.1448,,,,,,,,,,,,5:00 PM,9:00 PM,,
 ,Monterey Park Farmers Market,Farmers Market,318 S. Ramona Ave,Monterey Park,California,91754,,,,,6,4:00 PM,9:00 PM,-118.1247,34.0591,Y,,,,,,,,,,,4:00 PM,9:00 PM,,
 ,Montrose Harvest Market,Farmers Market,2200 Block of Honolulu Ave,Glendale,California,91020,,,,,1,9:00 AM,2:00 PM,-118.2269,34.2054,,9:00 AM,2:00 PM,,,,,,,,,,,,
-1002376,Montrose Harvest Market Farmers Market,Farmers Market,Honolulu & Ocean Avenue,Santa Barbara,California,93101,,,,,,,,-119.713,34.4222,,,,,,,,,,,,,,,
 ,Motor Avenue Farmers Market,Farmers Market,10316 National @ Motor Ave.,Los Angeles,California,90034,,,,,1,9:00 AM,1:00 PM,-118.4107,34.0292,,9:00 AM,1:00 PM,,,,,,,,,,,,
 ,Newhall Farmers Market,Farmers Market,22520 Lynos Ave,Newhall,California,91321,,,,,7,8:00 AM,12:00 PM,-118.5293,34.3815,Y,,,,,,,,,,,,,8:00 AM,12:00 PM
 ,North Hollywood Farmers Market,Farmers Market,5200 Bakman,North Hollywood,California,91601,,,,,7,10:00 AM,3:00 PM,-118.3774,34.1649,Y,,,,,,,,,,,,,10:00 AM,3:00 PM
@@ -154,10 +153,7 @@ fm_id,name,category,address_1,city,state,zipcode,phone,website,season_open,seaso
 ,Topanga Canyon CFM,Farmers Market,1440 North Topanga Canyon Blvd.,Topanga,California,90503,,,,,6,9:00 AM,1:00 PM,,,Y,,,,,,,,,,,9:00 AM,1:00 PM,,
 1000224,Topanga Canyon Farmers Market,Farmers Market,120 S. Topanga Canyon Blvd,Topanga,California,90290,,,,,,,,-118.605,34.0906,,,,,,,,,,,,,,,
 1006481,"Torrance Farmers Market -Tuesday and saturday- 2200 Crenshaw Blvd Torrance,Ca.90501",Farmers Market,2200 Crenshaw Blvd,Torrance,California,90501,,,1/1,12/31,3,8:00 AM,1:00 PM,-118.3284,33.8249,,,,,,8:00 AM,1:00 PM,,,,,,,,
-1006481,"Torrance Farmers Market -Tuesday and saturday- 2200 Crenshaw Blvd Torrance,Ca.90501",Farmers Market,2200 Crenshaw Blvd,Torrance,California,90501,,,1/1,12/31,7,8:00 AM,1:00 PM,-118.3284,33.8249,,,,,,,,,,,,,,8:00 AM,1:00 PM
 ,Torrance Providence Farmers Market,Farmers Market,4101 Torranc Blvd. @ Hawthorne Blvd,Torrance,California,90503,,,,,6,10:00 AM,3:00 PM,-118.3568,33.8387,,,,,,,,,,,,10:00 AM,3:00 PM,,
-1006481,Torrance Saturday Farmers Market,Farmers Market,2200 Crenshaw Blvd,Torrance,California,90503,,,,,3,8:00 AM,1:00 PM,-118.3258,33.8269,,,,,,8:00 AM,1:00 PM,,,,,,,,
-1006481,Torrance Saturday Farmers Market,Farmers Market,2200 Crenshaw Blvd,Torrance,California,90503,,,,,7,8:00 AM,1:00 PM,-118.3258,33.8269,,,,,,,,,,,,,,8:00 AM,1:00 PM
 ,UCLA Farmers Market,Farmers Market,350 Charles E. Young @ the Camp,Los Angeles,California,90045,,,,,4,11:00 AM,3:00 PM,-118.4391,34.0746,,,,,,,,11:00 AM,3:00 PM,,,,,,
 1003331,Uptown Whittier Farmers Market,Farmers Market,Bright Ave & Philadelphia St,Whittier,California,90602,,,,,6,8:00 AM,1:00 PM,-118.0362,33.9791,Y,,,,,,,,,,,8:00 AM,1:00 PM,,
 ,USC Hospitality Farmers Market,Farmers Market,3445 S. Figueroa Street,Los Angeles,California,90007,,,,,4,11:00 AM,3:00 PM,-118.2807,34.0209,Y,,,,,,,11:00 AM,3:00 PM,,,,,,

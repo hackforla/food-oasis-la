@@ -1,0 +1,17 @@
+{
+  "name": "foodoasisla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate-locations.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^1.1.12",
+    "js-yaml": "^3.7.0",
+    "mkdirp": "^0.5.1",
+    "stream-transform": "^0.1.1"
+  }
+}

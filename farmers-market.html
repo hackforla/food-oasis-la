@@ -6,15 +6,17 @@ title: Farmers’ Markets in Los Angeles
 color: strawberry
 ---
 
-{% assign link_to_map_title="Farmers Markets" %}
+{% assign link_to_map_title="Farmers’ Markets" %}
 {% assign link_to_map_type="farmers-market" %}
 
 {% include link-to-map.html %}
 
-<h1>Farmers’ Markets <span id="location">in Los Angeles</span></h1>
+<h1>{{ link_to_map_title }} <span id="location">in Los Angeles</span></h1>
 
 <ul class="food-source-list">
-{% include list/farmers-market.html %}
+{% assign data_collection = site.collections | where: "label", "farmers-markets" | first %}
+{% assign data_list = data_collection.docs %}
+{% include list.html %}
 </ul>
 
 <!-- Jim’s Google Maps API key -->
