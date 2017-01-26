@@ -9,5 +9,6 @@ zipcode: '90813'
 phone: 562.599.1321
 latitude: '33.7874467'
 longitude: '-118.1927643'
+title: 'Long Beach Lutheran Social Services, Food Oasis Los Angeles'
 
 ---

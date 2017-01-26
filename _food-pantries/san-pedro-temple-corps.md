@@ -9,5 +9,6 @@ zipcode: '90731'
 phone: 310-832-7228
 latitude: '33.7426596'
 longitude: '-118.2986098'
+title: 'San Pedro Temple Corps, Food Oasis Los Angeles'
 
 ---

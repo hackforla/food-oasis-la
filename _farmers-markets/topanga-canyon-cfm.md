@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '1:00 PM'
 day7_open: ''
 day7_close: ''
+title: 'Topanga Canyon CFM, Food Oasis Los Angeles'
 
 ---

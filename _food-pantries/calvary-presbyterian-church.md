@@ -9,5 +9,6 @@ zipcode: '90250'
 phone: 310.676.1144
 latitude: '33.9088461'
 longitude: '-118.3520296'
+title: 'Calvary Presbyterian Church, Food Oasis Los Angeles'
 
 ---

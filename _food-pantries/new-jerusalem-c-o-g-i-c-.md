@@ -9,5 +9,6 @@ zipcode: '90221'
 phone: 310.639.1013
 latitude: '33.892894'
 longitude: '-118.215494'
+title: 'New Jerusalem C.O.G.I.C., Food Oasis Los Angeles'
 
 ---

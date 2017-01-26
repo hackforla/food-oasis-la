@@ -9,5 +9,6 @@ zipcode: '90606'
 phone: 562.696.9562
 latitude: '33.9676128'
 longitude: '-118.0553469'
+title: 'Salvation Army- Santa Fe Springs, Food Oasis Los Angeles'
 
 ---

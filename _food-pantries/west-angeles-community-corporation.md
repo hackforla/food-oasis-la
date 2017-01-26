@@ -9,5 +9,6 @@ zipcode: '90016'
 phone: 323.751.3440
 latitude: '34.026398'
 longitude: '-118.335492'
+title: 'West Angeles Community Corporation, Food Oasis Los Angeles'
 
 ---

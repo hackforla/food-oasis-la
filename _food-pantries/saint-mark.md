@@ -9,5 +9,6 @@ zipcode: '90047'
 phone: 323.753.3535
 latitude: '33.9632286'
 longitude: '-118.3136076'
+title: 'Saint Mark Food Pantry, Food Oasis Los Angeles'
 
 ---

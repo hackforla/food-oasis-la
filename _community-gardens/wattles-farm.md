@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Wattles Farm, Food Oasis Los Angeles'
 
 ---

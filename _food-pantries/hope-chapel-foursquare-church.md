@@ -9,5 +9,6 @@ zipcode: '90254'
 phone: 310.374.4673
 latitude: '33.8715292'
 longitude: '-118.3942418'
+title: 'Hope Chapel Foursquare Church, Food Oasis Los Angeles'
 
 ---

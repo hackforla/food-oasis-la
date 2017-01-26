@@ -9,5 +9,6 @@ zipcode: '91731'
 phone: 626.444.7269
 latitude: '34.0888812'
 longitude: '-118.0288381'
+title: 'El Monte/South Emergency, Food Oasis Los Angeles'
 
 ---

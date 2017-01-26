@@ -9,5 +9,6 @@ zipcode: '91706'
 phone: 626.960.9585
 latitude: '34.0802977'
 longitude: '-117.9766557'
+title: 'Church of the Redeemer, Food Oasis Los Angeles'
 
 ---

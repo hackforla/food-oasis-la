@@ -9,5 +9,6 @@ zipcode: '91768'
 phone: 909.469.9773
 latitude: '34.0613107'
 longitude: '-117.7687845'
+title: 'St. Joseph Conference, Food Oasis Los Angeles'
 
 ---

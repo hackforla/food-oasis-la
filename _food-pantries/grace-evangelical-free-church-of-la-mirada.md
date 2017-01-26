@@ -9,5 +9,6 @@ zipcode: '90638'
 phone: 562.943.3791
 latitude: '33.915754'
 longitude: '-117.995356'
+title: 'Grace Evangelical Free Church of La Mirada, Food Oasis Los Angeles'
 
 ---

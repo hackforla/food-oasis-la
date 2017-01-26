@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '8:30 AM'
 day7_close: '1:00 PM'
+title: 'Santa Monica Pico Farmers'' Market, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90249'
 phone: 310.217.7300
 latitude: '33.90287'
 longitude: '-118.30389'
+title: 'Food Net-Asian Service Center, Food Oasis Los Angeles'
 
 ---

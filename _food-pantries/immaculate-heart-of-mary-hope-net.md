@@ -9,5 +9,6 @@ zipcode: '90029'
 phone: 323.660.0034
 latitude: '34.0905787'
 longitude: '-118.2976765'
+title: 'Immaculate Heart of Mary-Hope Net, Food Oasis Los Angeles'
 
 ---

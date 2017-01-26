@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'L.A. Chinatown Farmers Market, Food Oasis Los Angeles'
 
 ---

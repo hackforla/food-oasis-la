@@ -9,5 +9,6 @@ zipcode: '90043'
 phone: 323.292.4939
 latitude: '33.988368'
 longitude: '-118.334148'
+title: 'My Friends House, Food Oasis Los Angeles'
 
 ---

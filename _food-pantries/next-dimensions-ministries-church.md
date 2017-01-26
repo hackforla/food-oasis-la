@@ -9,5 +9,6 @@ zipcode: '93534'
 phone: 661.940.8289
 latitude: '34.706917'
 longitude: '-118.1387931'
+title: 'Next Dimensions Ministries Church, Food Oasis Los Angeles'
 
 ---

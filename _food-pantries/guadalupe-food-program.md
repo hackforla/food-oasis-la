@@ -9,5 +9,6 @@ zipcode: '90063'
 phone: 323.261.8051
 latitude: '34.0421266'
 longitude: '-118.1794177'
+title: 'Guadalupe Food Program, Food Oasis Los Angeles'
 
 ---

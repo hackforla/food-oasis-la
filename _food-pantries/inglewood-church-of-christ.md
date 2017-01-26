@@ -9,5 +9,6 @@ zipcode: '90301'
 phone: 310.674.7690
 latitude: '33.9595172'
 longitude: '-118.3598898'
+title: 'Inglewood Church of Christ, Food Oasis Los Angeles'
 
 ---

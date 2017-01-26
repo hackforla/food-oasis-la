@@ -9,5 +9,6 @@ zipcode: '90020'
 phone: 213.219.3228
 latitude: '34.0691134'
 longitude: '-118.3094234'
+title: 'Charismatic Ecumencial Ministries International, Food Oasis Los Angeles'
 
 ---

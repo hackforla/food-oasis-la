@@ -9,5 +9,6 @@ zipcode: '91331'
 phone: 818-896-9304
 latitude: '34.2772191'
 longitude: '-118.4173919'
+title: 'Eliza Shanks Homes, Inc., Food Oasis Los Angeles'
 
 ---

@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'USC Hospitality Farmers Market, Food Oasis Los Angeles'
 
 ---

@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'L.A. Harambee Farmers Market, Food Oasis Los Angeles'
 
 ---

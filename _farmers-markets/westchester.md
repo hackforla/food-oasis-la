@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '1:30 PM'
 day7_open: ''
 day7_close: ''
+title: 'Westchester Farmers Market, Food Oasis Los Angeles'
 
 ---

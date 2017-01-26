@@ -9,5 +9,6 @@ zipcode: '90640'
 phone: 626-810-5833
 latitude: '33.9953919'
 longitude: '-118.124677'
+title: 'Montebello Watch, Food Oasis Los Angeles'
 
 ---

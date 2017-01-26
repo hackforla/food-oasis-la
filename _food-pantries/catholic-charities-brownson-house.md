@@ -9,5 +9,6 @@ zipcode: '90033'
 phone: (213) 251-3514
 latitude: '34.0521281'
 longitude: '-118.2201373'
+title: 'Catholic Charities- Brownson House, Food Oasis Los Angeles'
 
 ---

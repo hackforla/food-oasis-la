@@ -29,5 +29,6 @@ day5_close: '4:00 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Central Ave Farmers Market, Food Oasis Los Angeles'
 
 ---

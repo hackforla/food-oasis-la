@@ -29,5 +29,6 @@ day5_close: '2:00 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Kaised Downey, Food Oasis Los Angeles'
 
 ---

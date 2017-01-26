@@ -9,5 +9,6 @@ zipcode: '90262'
 phone: 310.635.3264
 latitude: '33.9334265'
 longitude: '-118.2080294'
+title: 'Missionaries of Charity, Food Oasis Los Angeles'
 
 ---

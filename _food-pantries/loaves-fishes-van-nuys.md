@@ -9,5 +9,6 @@ zipcode: '91405'
 phone: 818-997-0943
 latitude: '34.2100101'
 longitude: '-118.4523896'
+title: 'Loaves & Fishes-Van Nuys, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '91342'
 phone: 818.890.9421
 latitude: '34.3053872'
 longitude: '-118.4462183'
+title: 'M.E.N.D./St. Didacus Church, Food Oasis Los Angeles'
 
 ---

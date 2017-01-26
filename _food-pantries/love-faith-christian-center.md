@@ -9,5 +9,6 @@ zipcode: '90047'
 phone: 323.753.8300
 latitude: '33.9606268'
 longitude: '-118.3093646'
+title: 'Love & Faith Christian Center, Food Oasis Los Angeles'
 
 ---

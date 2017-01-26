@@ -9,5 +9,6 @@ zipcode: '90031'
 phone: 323.227.9931
 latitude: '34.0752843'
 longitude: '-118.21285'
+title: 'Church of the Epiphany, Food Oasis Los Angeles'
 
 ---

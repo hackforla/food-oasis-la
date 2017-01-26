@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '7:00 PM'
 day7_open: ''
 day7_close: ''
+title: 'The Greener Good Farmers'' Market NORTH, Food Oasis Los Angeles'
 
 ---

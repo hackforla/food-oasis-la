@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Glassell Park Community Garden, Food Oasis Los Angeles'
 
 ---

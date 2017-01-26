@@ -9,5 +9,6 @@ zipcode: '90744'
 phone: 310.835.5661
 latitude: '33.7950143'
 longitude: '-118.2748789'
+title: 'Harbor Christian Center, Food Oasis Los Angeles'
 
 ---

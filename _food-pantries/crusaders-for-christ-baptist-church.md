@@ -9,5 +9,6 @@ zipcode: '90026'
 phone: 323.681.3569
 latitude: '34.0752651'
 longitude: '-118.2816342'
+title: 'Crusaders for Christ Baptist Church, Food Oasis Los Angeles'
 
 ---

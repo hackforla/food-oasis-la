@@ -9,5 +9,6 @@ zipcode: '90502'
 phone: 310.530.0533
 latitude: '33.8134945'
 longitude: '-118.2910208'
+title: 'Vermont Avenue Baptist Church, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '91204'
 phone: 818.409.3080
 latitude: '34.1316156'
 longitude: '-118.261043'
+title: 'Loaves & Fishes-Glendale, Food Oasis Los Angeles'
 
 ---

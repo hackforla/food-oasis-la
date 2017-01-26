@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '9:00 PM'
 day7_open: ''
 day7_close: ''
+title: 'Monrovia Farmers Market - Friday, Food Oasis Los Angeles'
 
 ---

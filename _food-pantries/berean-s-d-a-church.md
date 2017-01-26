@@ -9,5 +9,6 @@ zipcode: '90018'
 phone: 323.735.0228
 latitude: '34.0329576'
 longitude: '-118.3310595'
+title: 'Berean S.D.A. Church, Food Oasis Los Angeles'
 
 ---

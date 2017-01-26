@@ -9,5 +9,6 @@ zipcode: '91204'
 phone: 818.770.0779
 latitude: '34.1227497'
 longitude: '-118.2575547'
+title: 'International Families Association, Food Oasis Los Angeles'
 
 ---

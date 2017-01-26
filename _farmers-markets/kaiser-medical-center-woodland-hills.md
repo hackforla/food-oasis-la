@@ -29,5 +29,6 @@ day5_close: '2:30 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Kaiser Medical Center Woodland Hills, Food Oasis Los Angeles'
 
 ---

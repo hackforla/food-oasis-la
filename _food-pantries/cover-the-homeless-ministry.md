@@ -9,5 +9,6 @@ zipcode: '90011'
 phone: 323.931.5468
 latitude: '34.0031117'
 longitude: '-118.2568599'
+title: 'Cover the Homeless Ministry, Food Oasis Los Angeles'
 
 ---

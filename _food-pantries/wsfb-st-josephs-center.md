@@ -9,5 +9,6 @@ zipcode: '90291'
 phone: 310.396.6468
 latitude: '33.9979527'
 longitude: '-118.4779718'
+title: 'WSFB- St. Joseph''s Center, Food Oasis Los Angeles'
 
 ---

@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'L.A. City Hall (Little Tokyo CFM), Food Oasis Los Angeles'
 
 ---

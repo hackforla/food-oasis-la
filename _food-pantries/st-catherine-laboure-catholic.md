@@ -9,5 +9,6 @@ zipcode: '90504'
 phone: 310-329-0993
 latitude: '33.8781235'
 longitude: '-118.3402114'
+title: 'St. Catherine Laboure Catholic, Food Oasis Los Angeles'
 
 ---

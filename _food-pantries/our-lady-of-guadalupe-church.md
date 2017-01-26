@@ -9,5 +9,6 @@ zipcode: '90032'
 phone: 323.225.4201
 latitude: '34.0861589'
 longitude: '-118.1901472'
+title: 'Our Lady of Guadalupe Church, Food Oasis Los Angeles'
 
 ---

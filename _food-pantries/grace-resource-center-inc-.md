@@ -9,5 +9,6 @@ zipcode: '93534'
 phone: 661.940.5272
 latitude: '34.7030069'
 longitude: '-118.137309'
+title: 'Grace Resource Center, Inc., Food Oasis Los Angeles'
 
 ---

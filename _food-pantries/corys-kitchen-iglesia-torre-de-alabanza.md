@@ -9,5 +9,6 @@ zipcode: '91010'
 phone: 626.960.4639
 latitude: '34.1422404'
 longitude: '-117.9590196'
+title: 'Corys Kitchen-Iglesia Torre De Alabanza, Food Oasis Los Angeles'
 
 ---

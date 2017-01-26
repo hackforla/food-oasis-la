@@ -9,5 +9,6 @@ zipcode: '90038'
 phone: 323-953-4000
 latitude: '34.0905485'
 longitude: '-118.3243668'
+title: 'Children of the Shepherd, Food Oasis Los Angeles'
 
 ---

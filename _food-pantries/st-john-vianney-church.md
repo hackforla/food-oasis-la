@@ -9,5 +9,6 @@ zipcode: '91745'
 phone: 626-330-2269
 latitude: '34.0112629'
 longitude: '-117.980451'
+title: 'St. John Vianney Church, Food Oasis Los Angeles'
 
 ---

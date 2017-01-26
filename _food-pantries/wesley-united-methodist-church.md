@@ -9,5 +9,6 @@ zipcode: '90037'
 phone: 323.298.0727
 latitude: '33.9953651'
 longitude: '-118.2743249'
+title: 'Wesley United Methodist Church, Food Oasis Los Angeles'
 
 ---

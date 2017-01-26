@@ -9,5 +9,6 @@ zipcode: '90047'
 phone: 323.750.3240
 latitude: '33.9666659'
 longitude: '-118.309331'
+title: 'Bethel AME Church- Richard Allen Center, Food Oasis Los Angeles'
 
 ---

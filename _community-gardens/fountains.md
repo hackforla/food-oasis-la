@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Fountain Community Gardens, Food Oasis Los Angeles'
 
 ---

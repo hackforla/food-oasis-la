@@ -9,5 +9,6 @@ zipcode: '90008'
 phone: 323.292.0141
 latitude: '34.0068523'
 longitude: '-118.3408663'
+title: 'Crenshaw United Methodist Church, Food Oasis Los Angeles'
 
 ---

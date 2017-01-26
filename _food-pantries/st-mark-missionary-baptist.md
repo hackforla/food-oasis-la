@@ -9,5 +9,6 @@ zipcode: '90011'
 phone: 323.231.1040
 latitude: '33.9970846'
 longitude: '-118.2481042'
+title: 'St. Mark Missionary Baptist, Food Oasis Los Angeles'
 
 ---

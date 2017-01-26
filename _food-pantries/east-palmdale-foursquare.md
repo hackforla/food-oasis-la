@@ -9,5 +9,6 @@ zipcode: '93550'
 phone: 661.874.8788
 latitude: '34.5672827'
 longitude: '-118.0960249'
+title: 'East Palmdale Foursquare, Food Oasis Los Angeles'
 
 ---

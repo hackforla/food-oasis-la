@@ -9,5 +9,6 @@ zipcode: '90249'
 phone: 310.679.9099
 latitude: '33.9137357'
 longitude: '-118.3608819'
+title: 'Tongan Community Service Center, Food Oasis Los Angeles'
 
 ---

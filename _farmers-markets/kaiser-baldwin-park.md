@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '12:30 PM'
 day7_open: ''
 day7_close: ''
+title: 'Kaiser Baldwin Park Farmers Market, Food Oasis Los Angeles'
 
 ---

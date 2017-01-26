@@ -9,5 +9,6 @@ zipcode: '90660'
 phone: 562-658-5907
 latitude: '33.9907778'
 longitude: '-118.0869102'
+title: 'First Bilingual Baptist Church, Food Oasis Los Angeles'
 
 ---

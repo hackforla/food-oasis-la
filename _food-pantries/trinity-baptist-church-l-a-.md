@@ -9,5 +9,6 @@ zipcode: '90018'
 phone: 323-735-0044
 latitude: '34.0251148'
 longitude: '-118.3161'
+title: 'Trinity Baptist Church L.A., Food Oasis Los Angeles'
 
 ---

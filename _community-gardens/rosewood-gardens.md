@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Rosewood Gardens, Food Oasis Los Angeles'
 
 ---

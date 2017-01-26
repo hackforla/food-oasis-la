@@ -9,5 +9,6 @@ zipcode: '90044'
 phone: 323.750.1744
 latitude: '33.9799881'
 longitude: '-118.2999294'
+title: 'Family Mennonite Church, Food Oasis Los Angeles'
 
 ---

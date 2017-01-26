@@ -33,6 +33,9 @@ function generateCollection(data_name) {
 
     (function(food_source) {
 
+      // Page title
+      food_source.title = food_source.name + ', Food Oasis Los Angeles';
+
       // This is duplicated in /assests/js/map.js
       var path = '../_' + data_name;
       var filename = stringToURI(food_source.name.replace(' ' + food_source.category, ''));

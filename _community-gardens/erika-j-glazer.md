@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Erika J. Glazer Community Garden, Food Oasis Los Angeles'
 
 ---

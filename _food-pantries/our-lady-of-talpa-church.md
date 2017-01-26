@@ -9,5 +9,6 @@ zipcode: '90033'
 phone: 323.268.7731
 latitude: '34.036566'
 longitude: '-118.205021'
+title: 'Our Lady of Talpa Church, Food Oasis Los Angeles'
 
 ---

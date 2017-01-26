@@ -9,5 +9,6 @@ zipcode: '90003'
 phone: 323.758.1213
 latitude: '33.974056'
 longitude: '-118.274222'
+title: 'United Gospel Outreach, Food Oasis Los Angeles'
 
 ---

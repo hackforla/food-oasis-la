@@ -9,5 +9,6 @@ zipcode: '91740'
 phone: 626.852.7630
 latitude: '34.1070477'
 longitude: '-117.8509722'
+title: 'Shepherd''s Pantry, Food Oasis Los Angeles'
 
 ---

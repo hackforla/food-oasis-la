@@ -9,5 +9,6 @@ zipcode: '90015'
 phone: 213.896.9178
 latitude: '34.0466096'
 longitude: '-118.2646275'
+title: 'Salvation Army- L.A. Central Corp, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90026'
 phone: 213.250.4353
 latitude: '34.0634518'
 longitude: '-118.2602462'
+title: 'Pilipino Worker Center of Southern California, Food Oasis Los Angeles'
 
 ---

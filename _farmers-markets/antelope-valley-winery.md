@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '9:00 AM'
 day7_close: '12:00 PM'
+title: 'Antelope Valley Winery Farmers Market, Food Oasis Los Angeles'
 
 ---

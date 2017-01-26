@@ -9,5 +9,6 @@ zipcode: '90003'
 phone: 323.759.8087
 latitude: '33.9735936'
 longitude: '-118.2655739'
+title: 'Gospel Mission Baptist Church, Food Oasis Los Angeles'
 
 ---

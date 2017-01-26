@@ -9,5 +9,6 @@ zipcode: '91790'
 phone: 626.833.8141
 latitude: '34.0597225'
 longitude: '-117.9630247'
+title: 'Iglesia Piedra Angular, Food Oasis Los Angeles'
 
 ---

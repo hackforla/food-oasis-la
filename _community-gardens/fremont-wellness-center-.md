@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Fremont Wellness Center & Community Garden, Food Oasis Los Angeles'
 
 ---

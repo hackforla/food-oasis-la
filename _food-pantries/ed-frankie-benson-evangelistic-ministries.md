@@ -9,5 +9,6 @@ zipcode: '93536'
 phone: 661.943.1148
 latitude: '34.659707'
 longitude: '-118.2068055'
+title: 'Ed & Frankie Benson Evangelistic Ministries, Food Oasis Los Angeles'
 
 ---

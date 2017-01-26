@@ -9,5 +9,6 @@ zipcode: '93535'
 phone: 661.946.6267
 latitude: '34.7088457'
 longitude: '-118.1055901'
+title: 'S.A. Friendly Village Mobile Park, Food Oasis Los Angeles'
 
 ---

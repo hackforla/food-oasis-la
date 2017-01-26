@@ -9,5 +9,6 @@ zipcode: '90047'
 phone: 323.754.8453
 latitude: '33.9385863'
 longitude: '-118.3074812'
+title: 'Imani Unidos A.I.D.S. Project, Food Oasis Los Angeles'
 
 ---

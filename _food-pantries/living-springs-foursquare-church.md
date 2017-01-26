@@ -9,5 +9,6 @@ zipcode: '93591'
 phone: 661.264.1717
 latitude: '34.616048'
 longitude: '-117.824428'
+title: 'Living Springs Foursquare Church, Food Oasis Los Angeles'
 
 ---

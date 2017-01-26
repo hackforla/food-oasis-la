@@ -9,5 +9,6 @@ zipcode: '91042'
 phone: 818-352-1481
 latitude: '34.2480625'
 longitude: '-118.2772395'
+title: 'Tujunga United Methodist Church, Food Oasis Los Angeles'
 
 ---

@@ -31,5 +31,8 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: >-
+  Torrance Farmers Market -Tuesday and saturday- 2200 Crenshaw Blvd
+  Torrance,Ca.90501, Food Oasis Los Angeles
 
 ---

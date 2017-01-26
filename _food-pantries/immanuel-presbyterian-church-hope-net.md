@@ -9,5 +9,6 @@ zipcode: '90010'
 phone: 213.389.3191
 latitude: '34.0614542'
 longitude: '-118.294485'
+title: 'Immanuel Presbyterian Church-Hope Net, Food Oasis Los Angeles'
 
 ---

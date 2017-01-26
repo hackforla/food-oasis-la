@@ -9,5 +9,6 @@ zipcode: '90027'
 phone: 323.667.1212
 latitude: '34.102841'
 longitude: '-118.2936174'
+title: 'Hollywood Lutheran Church, Food Oasis Los Angeles'
 
 ---

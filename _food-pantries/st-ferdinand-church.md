@@ -9,5 +9,6 @@ zipcode: '91340'
 phone: 818.365.3194
 latitude: '34.2818972'
 longitude: '-118.4436663'
+title: 'St. Ferdinand Church, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90044'
 phone: 323.755.1053
 latitude: '33.9463608'
 longitude: '-118.2920482'
+title: 'Do Right Christian Church, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90061'
 phone: 323.752.3048
 latitude: '33.935441'
 longitude: '-118.278724'
+title: 'Blood of Jesus Prayer and Deliverance Ministry, Food Oasis Los Angeles'
 
 ---

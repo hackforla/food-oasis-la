@@ -9,5 +9,6 @@ zipcode: '90008'
 phone: 323-295-4139
 latitude: '34.0040273'
 longitude: '-118.3297116'
+title: 'Christ the Good Shepherd Episcopal, Food Oasis Los Angeles'
 
 ---

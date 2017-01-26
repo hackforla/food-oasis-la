@@ -9,5 +9,6 @@ zipcode: '90404'
 phone: 310.829.4411
 latitude: '34.0266996'
 longitude: '-118.4766044'
+title: 'WSFB-St. Anne''s Social Service, Food Oasis Los Angeles'
 
 ---

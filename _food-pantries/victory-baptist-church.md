@@ -9,5 +9,6 @@ zipcode: '90011'
 phone: 323.231.2424
 latitude: '33.9999755'
 longitude: '-118.2603428'
+title: 'Victory Baptist Church, Food Oasis Los Angeles'
 
 ---

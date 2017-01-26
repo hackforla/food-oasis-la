@@ -9,5 +9,6 @@ zipcode: '90032'
 phone: 323.972.1330
 latitude: '34.0851253'
 longitude: '-118.1796924'
+title: 'Cory''s Kitchen-El Sereno, Food Oasis Los Angeles'
 
 ---

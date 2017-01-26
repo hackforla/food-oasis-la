@@ -9,5 +9,6 @@ zipcode: '90059'
 phone: 323.567.8524
 latitude: '33.933305'
 longitude: '-118.254577'
+title: 'H.O.P.E. Helping Other People Excel, Food Oasis Los Angeles'
 
 ---

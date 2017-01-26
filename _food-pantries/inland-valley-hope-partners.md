@@ -9,5 +9,6 @@ zipcode: '91768'
 phone: 909.622.7278
 latitude: '34.0649162'
 longitude: '-117.7523806'
+title: 'Inland Valley Hope Partners, Food Oasis Los Angeles'
 
 ---

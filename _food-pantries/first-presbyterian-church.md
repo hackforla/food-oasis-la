@@ -9,5 +9,6 @@ zipcode: '90019'
 phone: 323.935.5204
 latitude: '34.0405644'
 longitude: '-118.3372555'
+title: 'First Presbyterian Church, Food Oasis Los Angeles'
 
 ---

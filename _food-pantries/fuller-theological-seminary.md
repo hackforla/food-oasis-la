@@ -9,5 +9,6 @@ zipcode: '91101'
 phone: 626.584.5433
 latitude: '34.148218'
 longitude: '-118.1404603'
+title: 'Fuller Theological Seminary, Food Oasis Los Angeles'
 
 ---

@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Mar Vista Community Garden, Food Oasis Los Angeles'
 
 ---

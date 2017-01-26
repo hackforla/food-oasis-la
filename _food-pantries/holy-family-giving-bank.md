@@ -9,5 +9,6 @@ zipcode: '91030'
 phone: 626.403.6140
 latitude: '34.1080192'
 longitude: '-118.1527363'
+title: 'Holy Family Giving Bank, Food Oasis Los Angeles'
 
 ---

@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Salesian Boys & Girls Club Community Garden, Food Oasis Los Angeles'
 
 ---

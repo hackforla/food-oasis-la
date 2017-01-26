@@ -9,5 +9,6 @@ zipcode: '90004'
 phone: 213.386.0097
 latitude: '34.0731603'
 longitude: '-118.2896203'
+title: 'Good News Central Church, Food Oasis Los Angeles'
 
 ---

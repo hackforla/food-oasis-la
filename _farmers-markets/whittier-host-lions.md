@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '8:00 AM'
 day7_close: '1:00 PM'
+title: 'Whittier Host Lions Farmers Market, Food Oasis Los Angeles'
 
 ---

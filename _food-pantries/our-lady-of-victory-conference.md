@@ -9,5 +9,6 @@ zipcode: '90221'
 phone: 310.631.5100
 latitude: '33.8983065'
 longitude: '-118.2185064'
+title: 'Our Lady of Victory Conference, Food Oasis Los Angeles'
 
 ---

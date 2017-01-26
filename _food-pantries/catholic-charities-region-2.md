@@ -9,5 +9,6 @@ zipcode: '91731'
 phone: 626.575.7652
 latitude: '34.0827886'
 longitude: '-118.031897'
+title: 'Catholic Charities- Region 2, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '91602'
 phone: 818.985.7365
 latitude: '34.1503878'
 longitude: '-118.3663839'
+title: 'St. Charles Service Center, Food Oasis Los Angeles'
 
 ---

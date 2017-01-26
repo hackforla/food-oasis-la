@@ -9,5 +9,6 @@ zipcode: '90011'
 phone: 323.232.7256
 latitude: '33.9970819'
 longitude: '-118.2650011'
+title: 'HOAP Inc., Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90045'
 phone: 424.243.7181
 latitude: '33.9559043'
 longitude: '-118.3967476'
+title: 'Abundance For All, Inc., Food Oasis Los Angeles'
 
 ---

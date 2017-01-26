@@ -9,5 +9,6 @@ zipcode: '90062'
 phone: 323-292-0781
 latitude: '33.9945347'
 longitude: '-118.3086059'
+title: 'St. Brigid Catholic Church, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '90007'
 phone: 213-749-8950
 latitude: '34.0288543'
 longitude: '-118.2769163'
+title: 'St. Vincent de Paul Church, Food Oasis Los Angeles'
 
 ---

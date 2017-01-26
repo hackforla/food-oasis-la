@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Ocean View Farms, Food Oasis Los Angeles'
 
 ---

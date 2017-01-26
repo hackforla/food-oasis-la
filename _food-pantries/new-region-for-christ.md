@@ -9,5 +9,6 @@ zipcode: '90301'
 phone: 424.227.8657
 latitude: '33.9569988'
 longitude: '-118.3527848'
+title: 'New Region For Christ, Food Oasis Los Angeles'
 
 ---

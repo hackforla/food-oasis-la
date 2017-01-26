@@ -9,5 +9,6 @@ zipcode: '90027'
 phone: 323-361-5981
 latitude: '34.0977874'
 longitude: '-118.2986107'
+title: 'Childrens Hospital Los Angeles, Food Oasis Los Angeles'
 
 ---

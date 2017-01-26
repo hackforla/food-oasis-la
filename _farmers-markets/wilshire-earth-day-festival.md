@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Wilshire Earth Day Festival, Food Oasis Los Angeles'
 
 ---

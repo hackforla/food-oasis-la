@@ -9,5 +9,6 @@ zipcode: '90044'
 phone: 323.754.2978
 latitude: '33.933076'
 longitude: '-118.282984'
+title: 'Ascension''s Food Pantry, Food Oasis Los Angeles'
 
 ---

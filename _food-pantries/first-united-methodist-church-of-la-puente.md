@@ -9,5 +9,6 @@ zipcode: '91744'
 phone: 626.968.9394
 latitude: '34.0325929'
 longitude: '-118.2662632'
+title: 'First United Methodist Church of La Puente, Food Oasis Los Angeles'
 
 ---

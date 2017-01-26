@@ -9,5 +9,6 @@ zipcode: '91321'
 phone: 661.799.7486
 latitude: '34.3805004'
 longitude: '-118.5341693'
+title: 'Salvation Army Santa Clarita Valley Corps, Food Oasis Los Angeles'
 
 ---

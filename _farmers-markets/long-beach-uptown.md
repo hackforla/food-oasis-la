@@ -29,5 +29,6 @@ day5_close: '6:30 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Long Beach Uptown Farmers Market, Food Oasis Los Angeles'
 
 ---

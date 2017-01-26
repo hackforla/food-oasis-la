@@ -9,5 +9,6 @@ zipcode: '90037'
 phone: 323-753-2536
 latitude: '33.9908748'
 longitude: '-118.2822084'
+title: 'Figueroa Church of Christ, Food Oasis Los Angeles'
 
 ---

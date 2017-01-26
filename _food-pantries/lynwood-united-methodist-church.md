@@ -9,5 +9,6 @@ zipcode: '90262'
 phone: 310.638.5163
 latitude: '33.91217'
 longitude: '-118.1966584'
+title: 'Lynwood United Methodist Church, Food Oasis Los Angeles'
 
 ---

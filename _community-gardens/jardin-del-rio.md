@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Jardin Del Rio, Food Oasis Los Angeles'
 
 ---

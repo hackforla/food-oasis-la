@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'The Learning Garden, Food Oasis Los Angeles'
 
 ---

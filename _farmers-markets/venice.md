@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: '11:00 AM'
 day7_open: ''
 day7_close: ''
+title: 'Venice Farmers Market, Food Oasis Los Angeles'
 
 ---

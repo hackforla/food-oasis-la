@@ -9,5 +9,6 @@ zipcode: '90042'
 phone: 323.255.6806
 latitude: '34.1117075'
 longitude: '-118.1953492'
+title: 'All Saints Episcopal Church Highland Park, Food Oasis Los Angeles'
 
 ---

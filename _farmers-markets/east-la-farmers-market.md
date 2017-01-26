@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '9:00 AM'
 day7_close: '2:00 PM'
+title: 'East LA Farmers'' Market, Food Oasis Los Angeles'
 
 ---

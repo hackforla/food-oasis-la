@@ -9,5 +9,6 @@ zipcode: '93591'
 phone: 661.264.1215
 latitude: '34.6072723'
 longitude: '-117.8233091'
+title: 'Twin Lakes Community Church, Food Oasis Los Angeles'
 
 ---

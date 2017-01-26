@@ -9,5 +9,6 @@ zipcode: '91724'
 phone: 562 691-0299
 latitude: '34.103353'
 longitude: '-117.838035'
+title: 'St. John Coptic Orthodox, Food Oasis Los Angeles'
 
 ---

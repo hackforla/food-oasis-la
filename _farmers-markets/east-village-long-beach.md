@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'East Village Long Beach Farmers Market, Food Oasis Los Angeles'
 
 ---

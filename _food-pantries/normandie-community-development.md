@@ -9,5 +9,6 @@ zipcode: '90037'
 phone: 323.731.7787
 latitude: '34.0170589'
 longitude: '-118.3003684'
+title: 'Normandie Community Development Food Pantry, Food Oasis Los Angeles'
 
 ---

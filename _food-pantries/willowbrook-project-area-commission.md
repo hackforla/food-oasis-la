@@ -9,5 +9,6 @@ zipcode: '90059'
 phone: 323-569-7676
 latitude: '33.9244622'
 longitude: '-118.23627'
+title: 'Willowbrook Project Area Commission, Food Oasis Los Angeles'
 
 ---

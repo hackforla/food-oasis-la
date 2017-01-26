@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Stanford Avalon Community Garden, Food Oasis Los Angeles'
 
 ---

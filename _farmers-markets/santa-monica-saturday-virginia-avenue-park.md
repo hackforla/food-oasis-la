@@ -29,5 +29,8 @@ day5_close: ''
 day6_open: ''
 day7_open: '8:00 AM'
 day7_close: '1:00 PM'
+title: >-
+  Santa Monica Farmers Market - Saturday Virginia Avenue Park, Food Oasis Los
+  Angeles
 
 ---

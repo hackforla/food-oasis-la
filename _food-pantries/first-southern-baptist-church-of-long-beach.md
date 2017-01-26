@@ -9,5 +9,6 @@ zipcode: '90808'
 phone: 562.422.8027
 latitude: '33.8197856'
 longitude: '-118.1212202'
+title: 'First Southern Baptist Church of Long Beach, Food Oasis Los Angeles'
 
 ---

@@ -29,5 +29,6 @@ day5_close: '1:00 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Redondo Beach Farmers Market, Food Oasis Los Angeles'
 
 ---

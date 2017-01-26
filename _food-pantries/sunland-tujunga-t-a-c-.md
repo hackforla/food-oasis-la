@@ -9,5 +9,6 @@ zipcode: '91042'
 phone: 818.352.2421
 latitude: '34.2577962'
 longitude: '-118.3009158'
+title: 'Sunland Tujunga T.A.C., Food Oasis Los Angeles'
 
 ---

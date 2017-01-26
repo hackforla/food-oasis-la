@@ -9,5 +9,6 @@ zipcode: '91311'
 phone: 818.882.3474
 latitude: '34.2496259'
 longitude: '-118.5788499'
+title: 'Congregational Church of Chatsworth, Food Oasis Los Angeles'
 
 ---

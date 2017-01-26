@@ -9,5 +9,6 @@ zipcode: '90201'
 phone: 562.927.4495
 latitude: '33.9678794'
 longitude: '-118.1506637'
+title: 'St. Gertrudes Conference, Food Oasis Los Angeles'
 
 ---

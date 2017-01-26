@@ -9,5 +9,6 @@ zipcode: '90003'
 phone: 323.777.2965
 latitude: '33.9481075'
 longitude: '-118.2778577'
+title: 'Holy Trinity Church of God in Christ, Food Oasis Los Angeles'
 
 ---

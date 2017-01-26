@@ -9,5 +9,6 @@ zipcode: '90303'
 phone: 310.677.0446
 latitude: '33.9421196'
 longitude: '-118.3433323'
+title: 'Inglewood Southside Christian Church, Food Oasis Los Angeles'
 
 ---

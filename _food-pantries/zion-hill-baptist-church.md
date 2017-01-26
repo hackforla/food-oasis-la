@@ -9,5 +9,6 @@ zipcode: '90043'
 phone: 323.753.4610
 latitude: '33.9678904'
 longitude: '-118.3280831'
+title: 'Zion Hill Baptist Church, Food Oasis Los Angeles'
 
 ---

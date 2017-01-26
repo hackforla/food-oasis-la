@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'San Pedro Gardens, Food Oasis Los Angeles'
 
 ---

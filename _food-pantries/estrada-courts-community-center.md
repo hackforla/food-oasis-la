@@ -9,5 +9,6 @@ zipcode: '90023'
 phone: 323.641.8943
 latitude: '34.0211079'
 longitude: '-118.2082908'
+title: 'Estrada Courts Community Center, Food Oasis Los Angeles'
 
 ---

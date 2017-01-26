@@ -9,5 +9,6 @@ zipcode: '90042'
 phone: 818.957.8090
 latitude: '34.1213022'
 longitude: '-118.1999599'
+title: 'Grace Presbyterian Church, Food Oasis Los Angeles'
 
 ---

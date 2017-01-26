@@ -9,5 +9,6 @@ zipcode: '90220'
 phone: 310.663.0789
 latitude: '33.8962309'
 longitude: '-118.2185024'
+title: 'Rehoboth Courage Church, Food Oasis Los Angeles'
 
 ---

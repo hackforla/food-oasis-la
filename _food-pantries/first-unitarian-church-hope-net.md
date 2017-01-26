@@ -9,5 +9,6 @@ zipcode: '90005'
 phone: 213-389-1356
 latitude: '34.0574918'
 longitude: '-118.2904201'
+title: 'First Unitarian Church-Hope Net, Food Oasis Los Angeles'
 
 ---

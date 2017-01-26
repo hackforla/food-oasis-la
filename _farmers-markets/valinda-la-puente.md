@@ -29,5 +29,6 @@ day5_close: '3:00 PM'
 day6_open: ''
 day7_open: ''
 day7_close: ''
+title: 'Valinda / La Puente Farmers Market, Food Oasis Los Angeles'
 
 ---

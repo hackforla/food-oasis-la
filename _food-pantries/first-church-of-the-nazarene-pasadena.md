@@ -9,5 +9,6 @@ zipcode: '91107'
 phone: 626-351-9631
 latitude: '34.1609763'
 longitude: '-118.0739988'
+title: 'First Church of the Nazarene-Pasadena, Food Oasis Los Angeles'
 
 ---

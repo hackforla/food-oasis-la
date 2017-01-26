@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Epworth Community Garden, Food Oasis Los Angeles'
 
 ---

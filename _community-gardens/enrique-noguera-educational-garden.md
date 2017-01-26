@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Enrique Noguera Educational Garden, Food Oasis Los Angeles'
 
 ---

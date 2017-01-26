@@ -9,5 +9,6 @@ zipcode: '90029'
 phone: 323.663.9394
 latitude: '34.0955984'
 longitude: '-118.296546'
+title: 'Hope International Bible Fellowship, Food Oasis Los Angeles'
 
 ---

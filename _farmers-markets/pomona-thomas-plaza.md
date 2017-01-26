@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '5:00 PM'
 day7_close: '9:00 PM'
+title: 'Pomona Thomas Plaza Farmers Market, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '91103'
 phone: 626.798.9163
 latitude: '34.1664331'
 longitude: '-118.1592865'
+title: 'Lincoln Avenue Baptist Church, Food Oasis Los Angeles'
 
 ---

@@ -9,5 +9,6 @@ zipcode: '93550'
 phone: 661.947.4700
 latitude: '34.5732114'
 longitude: '-118.0702161'
+title: 'S.A. Mountain View Mobile, Food Oasis Los Angeles'
 
 ---

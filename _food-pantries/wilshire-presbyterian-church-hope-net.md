@@ -9,5 +9,6 @@ zipcode: '90020'
 phone: 213.387.5387
 latitude: '34.0685889'
 longitude: '-118.308458'
+title: 'Wilshire Presbyterian Church-Hope Net, Food Oasis Los Angeles'
 
 ---

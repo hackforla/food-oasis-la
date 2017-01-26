@@ -9,5 +9,6 @@ zipcode: '90010'
 phone: 213.388.2401
 latitude: '34.0621177'
 longitude: '-118.3049672'
+title: 'Wilshire Boulevard Temple Hope-Net, Food Oasis Los Angeles'
 
 ---

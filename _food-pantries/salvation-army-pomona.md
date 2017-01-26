@@ -9,5 +9,6 @@ zipcode: 91767-2800
 phone: 909.623.1579
 latitude: '34.0806833'
 longitude: '-117.7434276'
+title: 'Salvation Army-Pomona, Food Oasis Los Angeles'
 
 ---

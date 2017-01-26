@@ -9,5 +9,6 @@ zipcode: '91789'
 phone: 626-825-9441
 latitude: '33.999464'
 longitude: '-117.8575384'
+title: 'Cory''s Kitchen-Faith Center Ministries, Food Oasis Los Angeles'
 
 ---

@@ -29,5 +29,6 @@ day5_close: ''
 day6_open: ''
 day7_open: '8:00 AM'
 day7_close: '12:30 PM'
+title: 'Burbank Farmers Market, Food Oasis Los Angeles'
 
 ---

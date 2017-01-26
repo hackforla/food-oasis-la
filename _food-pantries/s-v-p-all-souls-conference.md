@@ -9,5 +9,6 @@ zipcode: '91803'
 phone: 626.281.0466
 latitude: '34.0911399'
 longitude: '-118.1397892'
+title: 'S.V.P. All Souls Conference, Food Oasis Los Angeles'
 
 ---

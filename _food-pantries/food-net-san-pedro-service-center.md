@@ -9,5 +9,6 @@ zipcode: '90731'
 phone: 310-519-6091
 latitude: '33.7412554'
 longitude: '-118.2938035'
+title: 'Food Net-San Pedro Service Center, Food Oasis Los Angeles'
 
 ---

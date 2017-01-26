@@ -14,5 +14,8 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: >-
+  Orcutt Ranch Horticultural Center Rancho Sombra del Roble, Food Oasis Los
+  Angeles
 
 ---

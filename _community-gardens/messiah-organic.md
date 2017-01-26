@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Messiah Organic Community Garden, Food Oasis Los Angeles'
 
 ---

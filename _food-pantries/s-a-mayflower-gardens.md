@@ -9,5 +9,6 @@ zipcode: '93536'
 phone: 661.943.3228
 latitude: '34.6638843'
 longitude: '-118.2231208'
+title: 'S.A. Mayflower Gardens, Food Oasis Los Angeles'
 
 ---

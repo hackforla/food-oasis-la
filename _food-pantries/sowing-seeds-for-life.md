@@ -9,5 +9,6 @@ zipcode: '91750'
 phone: 909.392.5777
 latitude: '34.100366'
 longitude: '-117.785848'
+title: 'Sowing Seeds for Life, Food Oasis Los Angeles'
 
 ---

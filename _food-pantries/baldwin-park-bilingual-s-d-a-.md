@@ -9,5 +9,6 @@ zipcode: '91706'
 phone: 626 338-4828
 latitude: '34.085323'
 longitude: '-117.969546'
+title: 'Baldwin Park Bilingual S.D.A., Food Oasis Los Angeles'
 
 ---

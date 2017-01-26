@@ -14,5 +14,6 @@ active: 'Y'
 daycode: ''
 open: ''
 close: ''
+title: 'Emerson Avenue Community Garden, Food Oasis Los Angeles'
 
 ---
