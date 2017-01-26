@@ -12,6 +12,7 @@
     "csv-parse": "^1.1.12",
     "js-yaml": "^3.7.0",
     "mkdirp": "^0.5.1",
+    "request": "^2.79.0",
     "stream-transform": "^0.1.1"
   }
 }
