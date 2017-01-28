@@ -257,11 +257,13 @@
 	@media (max-width: 35em) {
 		input[type="text"],
 		.home form button,
+		form.find button,
 		header button,
 		.map-filters button {
 			width: 100%;
 		}
 		.home form button,
+		form.find button,
 		header button,
 		.map-filters button {
 			margin-top: 0.375em;
