@@ -574,7 +574,14 @@ function addMarkers(locations, geolocated, latitude, longitude) {
 	bounds.push([latitude, longitude]);
 
 	map.fitBounds(bounds);
-	map.scrollWheelZoom.disable();
+	//map.scrollWheelZoom.disable();
+
+	/*
+	map.on('zoomend', function() {
+		var currentZoom = map.getZoom();
+		myMarker.setRadius(currentZoom);
+	});
+	*/
 }
 
 // http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	

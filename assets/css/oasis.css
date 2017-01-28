@@ -107,6 +107,19 @@
 		margin-top: 1.5em;
 	}
 
+	h1 em,
+	h2 em {
+		font-style: normal;
+	}
+	h1 em::before,
+	h2 em::before {
+		content: "“";
+	}
+	h1 em::after,
+	h2 em::after {
+		content: "”";
+	}
+
 	/* http://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&webfont=Libre+Baskerville&font-family='Libre%20Baskerville',%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333 */
 	h1 {
 		font-size: 2em; /* 32px / 16px */
@@ -352,16 +365,6 @@
 
 	/* =Food Source List
 	----------------------------------------------- */
-	.food-source-list-headline em {
-		display: inline-block;
-		font-style: normal;
-	}
-	.food-source-list-headline em::before {
-		content: "“";
-	}
-	.food-source-list-headline em::after {
-		content: "”";
-	}
 	.food-source-list,
 	.food-source-list li {
 		list-style: none;
@@ -1179,12 +1182,33 @@
 		line-height: 1.2;
 		font-style: inherit;
 	}
+	.map-point-details h3 a {
+		color: rgb(77, 85, 148); /* @grape */
+		text-decoration: underline;
+	}
+	.farmers-market-details h3 a {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.community-garden-details h3 a {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.food-pantry-details h3 a {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.map-point-details h3 a:hover,
+	.map-point-details h3 a:active,
+	.map-point-details h3 a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
 	.map-point-details h3 + p {
 		margin-top: 0;
 	}
+	.map-point-details .type,
+	.map-point-details .distance {
+		opacity: 0.5;
+	}
 	.map-point-details .type {
 		font-style: italic;
-		opacity: 0.5;
 	}
 	.map-point-details h4 {
 		margin-top: 0;
@@ -1271,6 +1295,8 @@
 		padding: 0.2em;
 		border-radius: 50%;
 		display: inline-block;
+		width: auto !important;
+		height: auto !important;
 	}
 	.you-are-here span {
 		display: block;
@@ -1658,4 +1684,3 @@
 			width: 45%;
 		}
 	}
-
