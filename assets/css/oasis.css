@@ -584,12 +584,6 @@
 		}
 	}
 
-	form.find {
-		position: absolute;
-		z-index: 1;
-		top: 1.5em;
-		right: 1.5em;
-	}
 	form.find p {
 		margin: 0;
 	}

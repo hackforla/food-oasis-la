@@ -8,6 +8,8 @@ title: Healthy food in Los Angeles
 
 <h1>Healthy food <span id="location">near <em>Los Angeles</em></span></h1>
 
+{% include search-form.html %}
+
 <ul class="food-source-list">
 {% assign data_collection = site.collections | where: "label", "community-gardens" | first %}
 {% assign data_list = data_collection.docs %}

@@ -8,10 +8,13 @@ color: canteloupe
 
 {% assign link_to_map_title="Food Pantries" %}
 {% assign link_to_map_type="food-pantry" %}
+{% assign form_action="/food-pantry/" %}
 
 {% include link-to-map.html %}
 
 <h1>{{ link_to_map_title }} <span id="location">near <em>Los Angeles</em></span></h1>
+
+{% include search-form.html %}
 
 <ul class="food-source-list">
 {% assign data_collection = site.collections | where: "label", "food-pantries" | first %}
