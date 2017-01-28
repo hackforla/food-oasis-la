@@ -14,13 +14,16 @@ color: lime
 
 <h1>{{ link_to_map_title }} <span id="location">near <em>Los Angeles</em></span></h1>
 
-{% include search-form.html %}
+<p><a href="#search">Search in a different location</a></p>
 
 <ul class="food-source-list">
 {% assign data_collection = site.collections | where: "label", "community-gardens" | first %}
 {% assign data_list = data_collection.docs %}
 {% include list.html %}
 </ul>
+
+<h2 id="search">Find community gardens near you</h2>
+{% include search-form.html %}
 
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
