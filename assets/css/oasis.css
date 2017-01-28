@@ -1432,11 +1432,11 @@
 		*/
 		height: 500px;
 		height: 100vh;
-		height: calc(100vh - 8.5rem); /* header height */
+		height: calc(100vh - 11.75rem); /* header height */
 	}
 	@media (min-width: 30em) {
 		body.map .mapbox {
-			height: calc(100vh - 8.25rem); /* header height */
+			height: calc(100vh -11.75rem); /* header height */
 		}
 	}
 

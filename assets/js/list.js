@@ -42,6 +42,7 @@
 					console.error('Geocode was not successful for the following reason: ' + status);
 
 					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude);
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 				}
 			});
 
@@ -59,7 +60,11 @@
 				console.error("Unable to retrieve your location");
 
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude);
+				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 			});
+		} else {
+			sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude);
+			if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 		}
 	}
 

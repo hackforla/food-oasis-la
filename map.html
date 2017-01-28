@@ -33,12 +33,16 @@ stylesheets:
 {% endif %}
 
 <nav class="search">
-	<h1>Map of food near you</h1>
+	<h1>Healthy food <span id="location">near <em>Los Angeles</em></span></h1>
 	<ul>
 		<li class="map"><a>Map</a></li>
 		<li class="list"><a href="/list">List</a></li>
 	</ul>
 </nav>
+
+<script type="text/template" id="limit-template">
+	<p>Showing <span>20</span> locations nearest to<br /><em>Los Angeles</em>. <a href="?limit=40">Show more</a></p>
+</script>
 
 <!--
 <nav class="map-filters"></nav>
@@ -547,8 +551,14 @@ function addYouAreHere(coordinates) {
 }
 
 function addMarkers(locations, geolocated, latitude, longitude) {
+	var limit = getParameterByName('limit');
+	if (!limit) {
+		limit = 20;
+	}
+	limit = Number(limit);
+	if (limit >= locations.length) limit = locations.length;
 	var bounds = [];
-	for (var index = 0; index < locations.length && index < 20; index++) {
+	for (var index = 0; index < locations.length && index < limit; index++) {
 		(function(location) {
 			var icon = icons[location.category];
 			var coordinates = [
@@ -563,6 +573,25 @@ function addMarkers(locations, geolocated, latitude, longitude) {
 				.addTo(map);
 			bounds.push(coordinates);
 		})(locations[index]);
+	}
+
+	var limitTemplate = document.getElementById('limit-template');
+	if (limitTemplate) {
+		var div = document.createElement('div');
+		div.innerHTML = limitTemplate.innerHTML;
+		div.querySelector('span').textContent = limit;
+		div.querySelector('em').textContent = getParameterByName('address') || 'Downtown Los Angeles';
+		var address = getParameterByName('address') || '';
+		if (address != '') address = 'address=' + address + '&';
+		var type = getParameterByName('type') || '';
+		if (type != '') address = 'address=' + address + '&';
+		var link = div.querySelector('a');
+		if (limit < locations.length) {
+			link.href = '?' + address + type + 'limit=' + (limit * 2);
+		} else {
+			link.parentNode.removeChild(link);
+		}
+		limitTemplate.parentNode.insertBefore(div, limitTemplate);
 	}
 
 	//if (geolocated) {
