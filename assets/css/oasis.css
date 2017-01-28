@@ -1348,6 +1348,36 @@
 		}
 	}
 
+	.farmers-market-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/farmers-market.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
+	.community-garden-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/community-garden.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
+	.food-pantry-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/food-bank.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
 
 	/* =Slow Page Note
 	----------------------------------------------- */
