@@ -5,6 +5,11 @@
 
 	var foodSources = foodSourcesList.querySelectorAll('li');
 
+	var LOS_ANGELES = {
+		latitude: 34.052234,
+		longitude: -118.243685
+	};
+
 	function findUserLocation() {
 		var address = getParameterByName('address');
 
@@ -33,8 +38,10 @@
 					sortByClosest(latitude, longitude);
 
 				} else {
-					foodSourcesList.classList.remove('sorting');
+					//foodSourcesList.classList.remove('sorting');
 					console.error('Geocode was not successful for the following reason: ' + status);
+
+					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude);
 				}
 			});
 
@@ -48,8 +55,10 @@
 				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near you';
 
 			}, function() {
-				foodSourcesList.classList.remove('sorting');
+				//foodSourcesList.classList.remove('sorting');
 				console.error("Unable to retrieve your location");
+
+				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude);
 			});
 		}
 	}

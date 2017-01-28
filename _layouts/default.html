@@ -28,8 +28,6 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
 	{% endcomment %}
 
-	<link rel="stylesheet" href="/assets/css/oasis.css" />
-
 	{% if page.stylesheets %}
 		{% assign stylesheets = page.stylesheets %}
 	{% elsif layout.stylesheets %}
@@ -38,6 +36,8 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	{% for url in stylesheets %}
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
+
+	<link rel="stylesheet" href="/assets/css/oasis.css" />
 
 	{% if page.redirect %}
 	<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
