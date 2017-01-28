@@ -41,7 +41,7 @@ stylesheets:
 </nav>
 
 <script type="text/template" id="limit-template">
-	<p>Showing <span>20</span> locations nearest to<br /><em>Los Angeles</em>. <a href="?limit=40">Show more</a></p>
+	<p>Showing <span class="limit">20</span> locations <span class="location">nearest to<br /><em>Los Angeles</em></span>. <a href="?limit=40">Show more</a></p>
 </script>
 
 <!--
@@ -579,8 +579,8 @@ function addMarkers(locations, geolocated, latitude, longitude) {
 	if (limitTemplate) {
 		var div = document.createElement('div');
 		div.innerHTML = limitTemplate.innerHTML;
-		div.querySelector('span').textContent = limit;
-		div.querySelector('em').textContent = getParameterByName('address') || 'Downtown Los Angeles';
+		div.querySelector('.limit').textContent = limit;
+		div.querySelector('.location').innerHTML = (geolocated) ? 'near you' : 'nearest to<br /><em>' + (getParameterByName('address') || 'Downtown Los Angeles') + '</em>';
 		var address = getParameterByName('address') || '';
 		if (address != '') address = 'address=' + address + '&';
 		var type = getParameterByName('type') || '';
