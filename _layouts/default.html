@@ -69,7 +69,7 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
 </head>
-<body{% if page.color or page.classname or layout.classname %} class="{{ page.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
+<body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 	<div class="header">
 		<h2>
 			<a href="/">

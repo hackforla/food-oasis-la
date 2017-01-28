@@ -210,6 +210,19 @@
 		text-decoration: none;
 		color: white;
 	}
+	.map .header + nav a {
+		background: white;
+		color: rgb(144, 194, 70); /* @lime */
+		border: 1px solid;
+		transition: 0.2s;
+	}
+	.map .header + nav a:hover,
+	.map .header + nav a:active,
+	.map .header + nav a:focus {
+		background: rgb(124, 174, 50); /* @dark-lime */
+		text-decoration: none;
+		color: white;
+	}
 	form.find button,
 	.home button {
 		text-transform: uppercase;
@@ -257,19 +270,21 @@
 	@media (max-width: 35em) {
 		input[type="text"],
 		.home form button,
-		form.find button,
 		header button,
 		.map-filters button {
 			width: 100%;
 		}
 		.home form button,
-		form.find button,
 		header button,
 		.map-filters button {
 			margin-top: 0.375em;
 		}
 		.home form {
 			text-align: center;
+		}
+		form.find input {
+			width: 20em;
+			max-width: calc(100% - 3.75em);
 		}
 	}
 
@@ -600,6 +615,7 @@
 		margin-left: -0.75em;
 		margin-right: -0.75em;
 	}
+	/*
 	body.map form.find {
 		display: none;
 		position: absolute;
@@ -612,6 +628,29 @@
 			display: block;
 		}
 	}
+	*/
+
+
+	/* =Pagination
+	----------------------------------------------- */
+	.pagination {
+		margin-top: 3em;
+		margin-bottom: 7.5em;
+	}
+	.pagination ul,
+	.pagination li {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	/*
+	.pagination ul {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
+	*/
 
 
 	/* Drop-down Menu in Header
@@ -1460,10 +1499,14 @@
 		height: 100vh;
 		height: calc(100vh - 11.75rem); /* header height */
 	}
-	@media (min-width: 30em) {
-		body.map .mapbox {
-			height: calc(100vh -11.75rem); /* header height */
-		}
+
+	body.map form.find ~ .mapbox {
+		/* TRICKY: This causes the map to not be pannable in iOS 10.
+		border-top: 1px solid rgba(0, 0, 0, 0.25);
+		*/
+		height: 500px;
+		height: 65vh;
+		height: calc(65vh - 11.75rem); /* header height */
 	}
 
 

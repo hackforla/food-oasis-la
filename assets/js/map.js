@@ -59,6 +59,7 @@
 
 		function findUserLocation() {
 			var address = getParameterByName('address');
+			var foodSourcesList = document.querySelector('.food-source-list');
 
 			// If the user passed in an address, and if the Google Maps geocoder is available
 			if (address && "google" in window) {
@@ -67,6 +68,8 @@
 				if (address.indexOf('Los Angeles') < 0) {
 					address += ' Los Angeles';
 				}
+
+				if (foodSourcesList) foodSourcesList.classList.add('sorting');
 
 				var geocoder = new google.maps.Geocoder();
 
@@ -80,27 +83,37 @@
 						//console.log('longitude: ' + longitude);
 
 						sortByClosest(latitude, longitude, false);
+						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>' + getParameterByName('address') + '</em>';
 
 					} else {
 						console.error('Geocode was not successful for the following reason: ' + status);
 						sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
+						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 					}
 				});
 
 			// Else if automatic geolocation is available
 			} else if ("geolocation" in navigator) {
 
+				if (foodSourcesList) foodSourcesList.classList.add('sorting');
 				navigator.geolocation.getCurrentPosition(function(position) {
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
-					//if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near you';
+					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near you';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
 					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
+					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 				});
 			} else {
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
+				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
 			}
 		}
 
@@ -188,6 +201,7 @@
 			}
 
 			addMarkers(list, geolocated, latitude, longitude);
+			addListItems(list);
 		}
 
 		// KUDOS: http://stackoverflow.com/questions/21279559/geolocation-closest-locationlat-long-from-my-position#answer-21297385
@@ -239,33 +253,39 @@
 	})();
 
 
-	L.mapbox.accessToken = MAP_ACCESS_TOKEN;
-	var map = L.mapbox.map('map', 'mapbox.light').setView([locations[0].latitude, locations[0].longitude], 13);
+	if ('L' in window) L.mapbox.accessToken = MAP_ACCESS_TOKEN;
+	var map;
+	if (document.getElementById('map')) {
+		map = L.mapbox.map('map', 'mapbox.light').setView([locations[0].latitude, locations[0].longitude], 13);
+	}
 
 	// Define the icons
-	var icons = {
-		'Farmers Market': L.divIcon({
-			// Specify a class name we can refer to in CSS.
-			className: 'farmers-market-marker',
-			// Set marker width and height
-			iconSize: [43, 56],
-			popupAnchor: [0, -28]
-		}),
-		'Community Garden': L.divIcon({
-			// Specify a class name we can refer to in CSS.
-			className: 'community-garden-marker',
-			// Set marker width and height
-			iconSize: [43, 56],
-			popupAnchor: [0, -28]
-		}),
-		'Food Pantry': L.divIcon({
-			// Specify a class name we can refer to in CSS.
-			className: 'food-pantry-marker',
-			// Set marker width and height
-			iconSize: [43, 56],
-			popupAnchor: [0, -28]
-		})
-	};
+	var icons;
+	if ('L' in window) {
+		icons = {
+			'Farmers Market': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'farmers-market-marker',
+				// Set marker width and height
+				iconSize: [43, 56],
+				popupAnchor: [0, -28]
+			}),
+			'Community Garden': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'community-garden-marker',
+				// Set marker width and height
+				iconSize: [43, 56],
+				popupAnchor: [0, -28]
+			}),
+			'Food Pantry': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'food-pantry-marker',
+				// Set marker width and height
+				iconSize: [43, 56],
+				popupAnchor: [0, -28]
+			})
+		};
+	}
 
 	/*
 	function addMarker(position) {
@@ -301,26 +321,31 @@
 	function addMarkers(locations, geolocated, latitude, longitude) {
 		var limit = getParameterByName('limit');
 		if (!limit) {
-			limit = 20;
+			limit = 10;
 		}
 		limit = Number(limit);
+		var start = window.listOffset || 0;
+		limit += start;
 		if (limit >= locations.length) limit = locations.length;
 		var bounds = [];
-		for (var index = 0; index < locations.length && index < limit; index++) {
-			(function(location) {
-				var icon = icons[location.category];
-				var coordinates = [
-					location.latitude,
-					location.longitude
-				];
-				var popup = L.popup({ maxWidth: INFINITY })
-					.setContent(createPopupElement(location));
 
-				L.marker(coordinates, { icon: icon })
-					.bindPopup(popup)
-					.addTo(map);
-				bounds.push(coordinates);
-			})(locations[index]);
+		if (map) {
+			for (var index = start; index < locations.length && index < limit; index++) {
+				(function(location) {
+					var icon = icons[location.category];
+					var coordinates = [
+						location.latitude,
+						location.longitude
+					];
+					var popup = L.popup({ maxWidth: INFINITY })
+						.setContent(createPopupElement(location));
+
+					L.marker(coordinates, { icon: icon })
+						.bindPopup(popup)
+						.addTo(map);
+					bounds.push(coordinates);
+				})(locations[index]);
+			}
 		}
 
 		var limitTemplate = document.getElementById('limit-template');
@@ -343,15 +368,15 @@
 		}
 
 		//if (geolocated) {
-			addYouAreHere([latitude, longitude]);
+			if (map) addYouAreHere([latitude, longitude]);
 		//} else {
 			//addMarker([latitude, longitude]);
 		//}
 
 		bounds.push([latitude, longitude]);
 
-		map.fitBounds(bounds);
-		//map.scrollWheelZoom.disable();
+		if (map) map.fitBounds(bounds);
+		map.scrollWheelZoom.disable();
 
 		/*
 		map.on('zoomend', function() {
@@ -360,6 +385,92 @@
 		});
 		*/
 	}
+
+	function createListItem(data) {
+
+		var template = document.getElementById('list-item-template');
+		if (template) {
+			var element = document.createElement('li');
+			element.innerHTML = template.innerHTML;
+			element.className = data.category.toLowerCase().replace(' ', '-'); // Example: farmers-market
+
+			// Name
+			var nameElement = element.querySelector('h2');
+			nameElement.textContent = data.name;
+
+			var link = element.querySelector('a');
+			link.setAttribute('href', data.uri);
+
+			// Category (Type)
+			var typeElement = element.querySelector('.type');
+			typeElement.textContent = data.category;
+
+			// Address
+			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
+
+			// Hours
+			var hoursElement = element.querySelector('.hours');
+			if (data.hours) {
+				hoursElement.innerHTML = data.hours;
+			} else {
+				var h3 = element.querySelector('h3');
+				h3.parentNode.removeChild(h3);
+
+				hoursElement.parentNode.removeChild(hoursElement);
+			}
+
+			// Address
+			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);
+
+			return element;
+		}
+	}
+
+	var sortedLocations;
+	function addListItems(locations) {
+		sortedLocations = locations;
+		var limit = getParameterByName('limit');
+		if (!limit) {
+			limit = 10;
+		}
+		limit = Number(limit);
+		var start = window.listOffset || 0;
+		limit += start;
+		if (limit >= sortedLocations.length) limit = locations.length;
+		var list = document.querySelector('.food-source-list');
+		if (list) {
+			list.innerHTML = '';
+			for (var index = start; index < sortedLocations.length && index < limit; index++) {
+				list.appendChild(createListItem(sortedLocations[index]));
+			}
+		}
+	}
+
+	/*
+	function addMoreListItems() {
+		var limit = getParameterByName('limit');
+		if (!limit) {
+			limit = 10;
+		}
+		limit = Number(limit);
+		var list = document.querySelector('.food-source-list');
+		var items = list.querySelectorAll('li');
+		limit += items.length;
+		if (limit >= sortedLocations.length) limit = sortedLocations.length;
+		if (list) {
+			for (var index = items.length; index < sortedLocations.length && index < limit; index++) {
+				list.appendChild(createListItem(sortedLocations[index]));
+			}
+		}
+	}
+	var nextPageLink = document.querySelector('.pagination a');
+	if (nextPageLink) {
+		nextPageLink.addEventListener('click', function(e) {
+			addMoreListItems();
+			e.preventDefault();
+		}, false);
+	}
+	*/
 
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
 	function getParameterByName(name, url) {
@@ -377,6 +488,7 @@
 
 		var address = getParameterByName('address');
 		var searchLink = document.querySelector('.search a[href]');
+		if (!searchLink) return;
 		var href = '/list';
 
 		if (type) {

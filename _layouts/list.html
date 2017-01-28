@@ -1,0 +1,147 @@
+---
+layout: default
+color: strawberry
+classname: map
+
+stylesheets:
+  - "https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css"
+---
+
+{% assign form_action="/list/" %}
+
+{% include search-form.html %}
+
+<div id="map" class="mapbox" style="margin-top: 1.5em;"></div>
+
+<!--
+<div id="map-not-supported-message" class="message" style="display: none; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1; padding: 1.5em; text-align: center; background: white; z-index: 9999; box-sizing: border-box;">
+	<h1 style="margin-top: 0;">Uh oh!</h1>
+	<p style="max-width: none;">Our map isn’t working in this web browser. You may want to try viewing the <a href="/list">list of locations</a> instead.</p>
+	<p style="max-width: none;" class="action"><a href="/list">Show me the list</a></p>
+</div>
+-->
+
+<!-- For map.js -->
+<script type="text/template" id="you-are-here-template">
+	<div class="you-are-here"><span>You are here</span></div>
+</script>
+
+<!--
+<script type="text/template" id="marker-template">
+	<div class="marker">
+		<img src="/assets/images/markers/purple.svg" alt="" />
+	</div>
+</script>
+-->
+
+<script type="text/template" id="popup-template">
+	<div class="map-point-details">
+		<h3><a href=""></a></h3>
+		<p class="type"></p>
+		<p class="address"></p>
+		<p class="phone"></p>
+		<h4>Hours</h4>
+		<p class="hours"></p>
+		<p class="distance"><span></span> miles away</p>
+	</div>
+</script>
+
+{% assign data_collection = site.collections | where: "label", "farmers-markets" | first %}
+{% assign data_list = data_collection.docs %}
+{% assign list_limit = 20 %}
+{% assign page_number_minus_one = page.page_number | minus: 1 %}
+{% assign page_number_plus_one = page.page_number | plus: 1 %}
+{% assign list_offset = list_limit | times: page_number_minus_one %}
+
+<script>
+var listOffset = {{ list_offset }};
+</script>
+
+{% assign list_offset_plus_list_limit = list_offset | plus: list_limit %}
+{% assign data_list_size = data_list | size %}
+
+{% if list_offset_plus_list_limit < data_list_size %}{% comment %}Should this be <= ?{% endcomment%}
+	{% assign next_page  = '/list-beta/page' | append: page_number_plus_one %}
+{% endif %}
+
+{% if page.page_number > 2 %}
+	{% assign previous_page = '/list-beta/page' | append: page_number_minus_one %}
+{% elsif page.page_number == 2 %}
+	{% assign previous_page = '/list-beta/' %}
+{% endif %}
+
+<!--
+<h2>list_limit: {{ list_limit }}</h2>
+<h2>page.page_number: {{ page.page_number }}</h2>
+<h2>page_number_minus_one: {{ page_number_minus_one }}</h2>
+<h2>list_offset: {{ list_offset }}</h2>
+<h2>list_offset_plus_list_limit: {{ list_offset_plus_list_limit }}</h2>
+<h2>data_list_size: {{ data_list_size }}</h2>
+<h2>next_page: {{ next_page }}</h2>
+<h2>previous_page: {{ previous_page }}</h2>
+-->
+
+<script type="text/template" id="list-item-template">
+	<a href="">
+		<h2></h2>
+		<p class="type"></p>
+		<p class="address"></p>
+		<h3>Hours</h3>
+		<p class="hours"></p>
+		<p class="distance"><span></span> miles away</p>
+	</a>
+</script>
+
+<ul class="food-source-list">
+{% include list.html %}
+</ul>
+
+{% if next_page or previous_page %}
+<nav class="pagination">
+	<ul>
+		{% if next_page %}
+		<li><a href="{{ next_page }}">More Locations</a></li>
+		{% endif %}
+{% comment %}
+		{% if previous_page %}
+		<li><a href="{{ previous_page }}">Previous Page</a></li>
+		{% endif %}
+{% endcomment %}
+	</ul>
+</nav>
+<script>
+(function() {
+
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
+	// SHIM: Make the address persistent
+	var paginationLink = document.querySelector('.pagination a[href]');
+	var address = getParameterByName('address');
+	var href = paginationLink.getAttribute('href');
+	href += '?address=' + address;
+	paginationLink.setAttribute('href', href);
+})();
+</script>
+
+{% endif %}
+
+<!-- Jim’s Google Maps API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
+
+<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+
+<script>
+var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+</script>
+
+<script src="/api/locations.js"></script>
+<script src="/assets/js/map.js"></script>

@@ -11,10 +11,17 @@ stylesheets:
 
 <style>
 	form.find {
+		display: none;
 		position: absolute;
 		z-index: 1;
-		top: 1.5em;
-		right: 1.5em;
+		top: auto;
+		bottom: 3em;
+		right: 3em;
+	}
+	@media (min-width: 40em) {
+		form.find {
+			display: block;
+		}
 	}
 </style>
 
