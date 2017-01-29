@@ -619,6 +619,9 @@
 	form.find p {
 		margin: 0;
 	}
+	.map-list form.find p {
+		max-width: none;
+	}
 	/*
 	form.find label span {
 		position: absolute;

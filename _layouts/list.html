@@ -118,8 +118,10 @@ categories:
 {% endif %}
 </ul>
 
+<div style="padding-top: 0em; border-top: 1px solid rgba(0, 0, 0, 0.1);"></div>
+
 {% if page.next or page.previous %}
-<nav class="pagination">
+<nav class="pagination" style="text-align: center;">
 	<ul>
 		{% if page.next %}
 		<li><a href="{{ page.next }}">More Locations</a></li>
@@ -157,6 +159,10 @@ categories:
 </script>
 {% endif %}
 
+<div style="text-align: center;">
+
+<div style="padding-top: 1.5em;"></div>
+
 <h1 id="search">Find {{ page.category | downcase }} <span class="avoid-break">near you</span></h1>
 {% include search-form.html %}
 
@@ -167,6 +173,9 @@ categories:
 	<li><a href="/farmers-market/">Farmers’ Markets</a></li>
 	<li><a href="/list/">Everything</a></li>
 </ul>
+</div>
+
+
 </div>
 
 <div style="margin-top: 9em"></div>
