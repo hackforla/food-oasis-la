@@ -1542,7 +1542,7 @@
 		/* TRICKY: This causes the map to not be pannable in iOS 10.
 		border-top: 1px solid rgba(0, 0, 0, 0.25);
 		*/
-		height: 500px;
+		height: 200px;
 		height: 100vh;
 		height: calc(100vh - 11.75rem); /* header height */
 	}
@@ -1552,16 +1552,17 @@
 		border-top: 1px solid rgba(0, 0, 0, 0.25);
 		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 		*/
-		height: 500px;
+		height: 100px;
 		height: 50vh;
 		height: calc(40vh);
 	}
 	body.map .mapbox.expanded {
+		height: 140px;
 		height: 70vh;
 		height: calc(75vh);
 	}
 	body.map:not(.map-list) .mapbox {
-		height: 500px;
+		height: 200px;
 		height: 100vh;
 		height: calc(100vh - 8rem); /* header height */
 	}
