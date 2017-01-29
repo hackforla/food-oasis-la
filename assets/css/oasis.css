@@ -214,23 +214,30 @@
 		text-decoration: none;
 		color: white;
 	}
-	.larger-map button,
-	.map .header + nav a {
+	.larger-map button {
 		background: white;
 		color: rgb(144, 194, 70); /* @lime */
 		border: 1px solid;
 		transition: 0.2s;
 	}
+	.larger-map {
+		max-width: none;
+		text-align: center;
+		font-size: 0.75em;
+	}
 	.larger-map button:hover,
 	.larger-map button:active,
-	.larger-map button:focus,
-	.map .header + nav a:hover,
-	.map .header + nav a:active,
-	.map .header + nav a:focus {
+	.larger-map button:focus {
 		background: rgb(124, 174, 50); /* @dark-lime */
 		text-decoration: none;
 		color: white;
 	}
+	/*
+	.larger-map button {
+		border-color: transparent;
+		text-decoration: underline;
+	}
+	*/
 	form.find button,
 	.home button {
 		text-transform: uppercase;
@@ -245,6 +252,7 @@
 		display: none;
 	}
 
+	/*
 	nav form label span {
 		position: absolute;
 		left: -9999px;
@@ -252,6 +260,7 @@
 	nav form label br {
 		display: none;
 	}
+	*/
 
 
 	/* =Field
@@ -279,20 +288,18 @@
 		input[type="text"],
 		.home form button,
 		header button,
+		form.find button,
 		.map-filters button {
 			width: 100%;
 		}
 		.home form button,
 		header button,
+		form.find button,
 		.map-filters button {
 			margin-top: 0.375em;
 		}
 		.home form {
 			text-align: center;
-		}
-		form.find input {
-			width: 20em;
-			max-width: calc(100% - 3.75em);
 		}
 	}
 
@@ -612,6 +619,7 @@
 	form.find p {
 		margin: 0;
 	}
+	/*
 	form.find label span {
 		position: absolute;
 		left: -9999px;
@@ -619,6 +627,7 @@
 	form.find label br {
 		display: none
 	}
+	*/
 	form.find button svg {
 		margin-left: -0.75em;
 		margin-right: -0.75em;
@@ -643,7 +652,7 @@
 	----------------------------------------------- */
 	.pagination {
 		margin-top: 3em;
-		margin-bottom: 7.5em;
+		margin-bottom: 4.5em;
 	}
 	.pagination ul,
 	.pagination li {
@@ -1229,15 +1238,15 @@
 		color: rgb(77, 85, 148); /* @grape */
 		text-decoration: underline;
 	}
-	.farmers-market-details h3 a {
-		color: rgb(241, 95, 91); /* @strawberry */
-	}
-	.community-garden-details h3 a {
-		color: rgb(144, 194, 70); /* @lime */
-	}
-	.food-pantry-details h3 a {
-		color: rgb(249, 192, 88); /* @canteloupe */
-	}
+.disabled .farmers-market-details h3 a {
+	color: rgb(241, 95, 91); /* @strawberry */
+}
+.disabled .community-garden-details h3 a {
+	color: rgb(144, 194, 70); /* @lime */
+}
+.disabled .food-pantry-details h3 a {
+	color: rgb(249, 192, 88); /* @canteloupe */
+}
 	.map-point-details h3 a:hover,
 	.map-point-details h3 a:active,
 	.map-point-details h3 a:focus {
@@ -1491,9 +1500,37 @@
 
 	/* =Map Page
 	----------------------------------------------- */
-	body.map {
+	body.map-list {
+		padding-top: 0;
+	}
+	body.map:not(.map-list) {
 		padding-bottom: 0;
 	}
+
+	body.map-list > .header {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding-top: 1.5em;
+		padding-left: 3em;
+	}
+		body.map-list > .header {
+			padding-top: 0.75em;
+			padding-left: 1em;
+		}
+		body.map-list > .header h2 {
+			font-size: 0.5em;
+		}
+	body.map-list > .header h2 span {
+		position: absolute;
+		left: -9999px;
+	}
+	body.map-list > .header + nav {
+		opacity: 0;
+	}
+
 	body.food-source main,
 	body.map main {
 		padding: 0;
@@ -1508,17 +1545,54 @@
 		height: calc(100vh - 11.75rem); /* header height */
 	}
 
-	body.map form.find ~ .mapbox {
+	body.map .mapbox {
 		/* TRICKY: This causes the map to not be pannable in iOS 10.
 		border-top: 1px solid rgba(0, 0, 0, 0.25);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 		*/
 		height: 500px;
-		height: 65vh;
-		height: calc(65vh - 11.75rem); /* header height */
+		height: 50vh;
+		height: calc(40vh - 6rem); /* header height */
 	}
-	body.map form.find ~ .mapbox.expanded {
+	body.map .mapbox.expanded {
+		height: 70vh;
+		height: calc(75vh - 6rem); /* header height */
+	}
+	body.map:not(.map-list) .mapbox {
+		height: 500px;
 		height: 100vh;
-		height: calc(100vh - 11.75rem); /* header height */
+		height: calc(100vh - 8rem); /* header height */
+	}
+	/*
+	body.map form.find {
+		margin-top: 1.5em;
+		position: absolute;
+		z-index: 1;
+	}
+	*/
+	/*
+	body.map form.find {
+		margin-top: -0.75em;
+		margin-bottom: 0.375em;
+	}
+	*/
+	/*
+	.larger-map {
+		position: absolute;
+		right: 0;
+		margin: calc(-40vh + 7rem) 1.5em 0 0;
+	}
+	*/
+
+	.categories ul,
+	.categories li {
+		list-style: none;
+		marign-left: 0;
+		padding-left: 0;
+	}
+	.categories li {
+		display: inline;
+		margin-right: 0.75em;
 	}
 
 
@@ -1542,40 +1616,40 @@
 		}
 	}
 	@media (min-width: 40em) {
-		.home main section {
+		.home .categories section {
 			float: left;
 			width: 50%;
 		}
-		.home main section:last-child {
+		.home .categories section:last-child {
 			width: 100%;
 		}
 	}
 	@media (min-width: 70em) {
-		.home main section,
-		.home main section:last-child {
+		.home .categories section,
+		.home .categories section:last-child {
 			width: 33.333%;
 		}
 	}
-	.home main section h2 {
+	.categories section h2 {
 		margin-top: 0;
 	}
-	.home main section ul {
+	.categories section ul {
 		margin-bottom: 0;
 	}
 
-	.home main .link-list  .icon {
+	main .link-list  .icon {
 		background: rgb(204, 204, 204);
 		padding: 0.375em;
 		border-radius: 50%;
 		vertical-align: middle;
 	}
-	.home main .link-list.food-pantry .icon {
+	main .link-list.food-pantry .icon {
 		background: rgb(249, 192, 88); /* @canteloupe */
 	}
-	.home main .link-list.community-garden .icon {
+	main .link-list.community-garden .icon {
 		background: rgb(144, 194, 70); /* @lime */
 	}
-	.home main .link-list.farmers-market .icon {
+	main .link-list.farmers-market .icon {
 		background: rgb(77, 85, 148); /* @grape */
 		background: rgb(241, 95, 91); /* @strawberry */
 	}
@@ -1592,29 +1666,29 @@
 		padding-top: 1.875em;
 		padding-bottom: 4.5em;
 	}
-	.home .categories section {
+	.categories section {
 		margin-top: 0;
 	}
-	.home .categories section {
+	.categories section {
 		margin-bottom: 1.5em;
 	}
 	@media (min-width: 40em) {
-		.home .categories section {
+		.categories section {
 			margin-top: 1.875em;
 		}
 	}
-	.home .categories section ul:last-child {
+	.categories section ul:last-child {
 		margin-bottom: 0;
 	}
-	.home .categories section h2 {
+	.categories section h2 {
 		margin-bottom: 0;
 	}
-	.home .categories section li a {
+	.categories section li a {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
 	}
 
-	.home .categories:after {
+	.categories:after {
 		content: "";
 		display: table;
 		clear: both;

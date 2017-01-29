@@ -71,7 +71,7 @@ var communityGardens = generateCollection('community-garden');
 var foodPantries     = generateCollection('food-pantry');
 var farmersMarkets   = generateCollection('farmers-market');
 
-var ITEMS_PER_PAGE = 10;
+var ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {
 
   // Page title
@@ -95,7 +95,11 @@ function createPageFile(writePath, pageNumber, name, uri, size, color) {
     data.previous = data.first;
   }
 
-  if (uri !== 'list') data.collection = uri;
+  if (uri !== 'list') {
+    data.collection = uri;
+  }
+
+  data.category = name;
 
   var filename = (pageNumber === 1) ? 'index.md' : 'page' + pageNumber + '.md'; // Example page2.md
 

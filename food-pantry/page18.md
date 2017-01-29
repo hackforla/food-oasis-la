@@ -3,11 +3,11 @@ layout: list
 color: canteloupe
 title: 'Food Pantries in Los Angeles, Page 18'
 page_number: 18
-items_per_page: 10
-list_offset: 170
+items_per_page: 20
+list_offset: 340
 first: /food-pantry/
-next: /food-pantry/page19/
 previous: /food-pantry/page17/
 collection: food-pantry
+category: Food Pantries
 
 ---

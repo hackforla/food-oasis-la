@@ -2,9 +2,11 @@
 <form class="find" action="{{ form_action }}" method="get">
 	<p>
 		<label>
-			<span>Enter your location</span><br />
-			<input type="text" name="address" placeholder="Address, Neighborhood, or Zip" autocomplete="off" autocorrect="off" />
+			<span>Address, Neighborhood, or Zip</span><br />
+			<input type="text" name="address" placeholder="Los Angeles" autocomplete="off" autocorrect="off" />
 		</label>
+		<button type="submit">Go</button>
+		{% comment %}
 		<button type="submit">
 			<!--
 			Search icon
@@ -18,10 +20,12 @@
 				</switch>
 			</svg>
 		</button>
+		{% endcomment %}
 	</p>
 </form>
 <script>
 (function() {
+
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
 	function getParameterByName(name, url) {
 		if (!url) url = window.location.href;

@@ -1,20 +1,58 @@
 ---
 layout: default
-classname: map
+classname: "map map-list"
 
 stylesheets:
   - "https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css"
+
+categories:
+    free:
+        headline: Free food
+        link_label: Food Pantries
+    grow:
+        headline: Grow food
+        link_label: Community Gardens
+    purchase:
+        headline: Food for sale
+        link_label: Farmers’ Markets
 ---
 
-{% assign form_action = page.first %}
+<!--
+<ul class="link-list has-icons">
+	<li>
+		<a href="/food-pantry">
+			<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
+			<span>Food Pantries</span>
+		</a>
+	</li>
+	<li>
+		<a href="/community-garden">
+			<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
+			<span>Community Gardens</span>
+		</a>
+	</li>
+	<li>
+		<a href="/farmers-market">
+			<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
+			<span>Farmers’ Markets</span>
+		</a>
+	</li>
+</ul>
+-->
 
-{% include search-form.html %}
-
-<div id="map" class="mapbox" style="margin-top: 1.5em;"></div>
+<div id="map" class="mapbox"></div>
 
 <script type="text/template" id="larger-map-template">
 	<p class="larger-map"><button>Larger Map</button></p>
 </script>
+
+{% assign form_action = page.first %}
+
+<h1 style="color: inherit;">{{ page.category }} <span id="location">near <em>Los Angeles</em></span></h1>
+
+<p><a href="#search">Search for something else</a></p>
+
+<div style="padding-top: 1.5em; border-bottom: 1px solid rgba(0, 0, 0, 0.1);"></div>
 
 <!--
 <div id="map-not-supported-message" class="message" style="display: none; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1; padding: 1.5em; text-align: center; background: white; z-index: 9999; box-sizing: border-box;">
@@ -119,6 +157,82 @@ stylesheets:
 </script>
 {% endif %}
 
+<h1 id="search">Find {{ page.category | downcase }} <span class="avoid-break">near you</span></h1>
+{% include search-form.html %}
+
+<div class="categories">
+<ul>
+	<li><a href="/food-pantry/">Food Pantries</a></li>
+	<li><a href="/community-garden/">Community Gardens</a></li>
+	<li><a href="/farmers-market/">Farmers’ Markets</a></li>
+	<li><a href="/list/">Everything</a></li>
+</ul>
+</div>
+
+<div style="margin-top: 9em"></div>
+
+{% comment %}
+<div class="categories" style="margin-top: 4.5em;">
+	<section>
+		<h2>{{ layout.categories.free.headline }}</h2>
+		<ul class="food-pantry link-list has-icons">
+			<li>
+				<a href="/food-pantry">
+					<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
+					<span>{{ layout.categories.free.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ layout.categories.grow.headline }}</h2>
+		<ul class="community-garden link-list has-icons">
+			<li>
+				<a href="/community-garden">
+					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
+					<span>{{ layout.categories.grow.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<section>
+		<h2>{{ layout.categories.purchase.headline }}</h2>
+		<ul class="farmers-market link-list has-icons">
+			<li>
+				<a href="/farmers-market">
+					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
+					<span>{{ layout.categories.purchase.link_label }}</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+</div><!-- /.categories -->
+{% endcomment %}
+
+<script>
+(function() {
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
+	// SHIM: Make the address persistent
+	var address = getParameterByName('address');
+	if (address) {
+		var links = document.querySelectorAll('.categories a[href]');
+		for (var index = 0; index < links.length; index++) {
+			links[index].setAttribute('href', links[index].getAttribute('href') + '?address=' + address);
+		}
+	}
+})();
+</script>
+
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
@@ -129,6 +243,7 @@ var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvb
 </script>
 
 <script>
+var itemsPerPage = {{ page.items_per_page }};
 var listOffset = {{ page.list_offset }};
 </script>
 

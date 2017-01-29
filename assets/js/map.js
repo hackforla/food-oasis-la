@@ -1,5 +1,10 @@
 (function() {
 
+	var LOS_ANGELES = {
+		latitude: 34.052234,
+		longitude: -118.243685
+	};
+
 	var INFINITY = 9999999;
 	function getDistanceForPresentation(kilometers) {	
 		if (kilometers === INFINITY) return 'unknown';
@@ -51,11 +56,6 @@
 
 
 	(function() {
-
-		var LOS_ANGELES = {
-			latitude: 34.052234,
-			longitude: -118.243685
-		};
 
 		function findUserLocation() {
 			var address = getParameterByName('address');
@@ -256,7 +256,14 @@
 	if ('L' in window) L.mapbox.accessToken = MAP_ACCESS_TOKEN;
 	var map;
 	if (document.getElementById('map')) {
-		map = L.mapbox.map('map', 'mapbox.light').setView([locations[0].latitude, locations[0].longitude], 13);
+		map = L.mapbox.map('map', 'mapbox.light', {
+			zoomControl: false,
+			scrollWheelZoom: false
+		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 18);
+
+		L.control.zoom({
+			position:'topright'
+		}).addTo(map);
 
 		(function() {
 			var template = document.getElementById('larger-map-template');
@@ -264,11 +271,12 @@
 				var div = document.createElement('div');
 				div.innerHTML = template.innerHTML;
 				var button = div.querySelector('button');
-				template.parentNode.insertBefore(div, template);
+				//template.parentNode.insertBefore(div, template);
 				function expandMap() {
 					document.getElementById('map').className += ' expanded';
 					map.invalidateSize(false);
-					div.parentNode.removeChild(div);
+					//div.parentNode.removeChild(div);
+					map.scrollWheelZoom.enable();
 				}
 				button.addEventListener('click', expandMap, false);
 				button.addEventListener('keypress', function(e) {
@@ -277,6 +285,8 @@
 						expandMap();
 					}
 				}, false);
+				document.getElementById('map').addEventListener('click', expandMap, false);
+				// expandMap();
 			}
 		})();
 	}
@@ -341,7 +351,7 @@
 	}
 
 	function addMarkers(locations, geolocated, latitude, longitude) {
-		var limit = getParameterByName('limit');
+		var limit = getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
 			limit = 10;
 		}
@@ -395,10 +405,14 @@
 			//addMarker([latitude, longitude]);
 		//}
 
-		bounds.push([latitude, longitude]);
+		bounds.unshift([latitude, longitude]);
 
-		if (map) map.fitBounds(bounds);
-		map.scrollWheelZoom.disable();
+		bounds = bounds.slice(0, 5);
+
+		if (map) {
+			map.fitBounds(bounds);
+			//map.panTo(new L.LatLng(latitude, longitude));
+		}
 
 		/*
 		map.on('zoomend', function() {
@@ -451,7 +465,7 @@
 	var sortedLocations;
 	function addListItems(locations) {
 		sortedLocations = locations;
-		var limit = getParameterByName('limit');
+		var limit = getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
 			limit = 10;
 		}
