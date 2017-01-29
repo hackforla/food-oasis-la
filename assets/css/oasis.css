@@ -162,6 +162,7 @@
 	----------------------------------------------- */
 	.action a,
 	form.find button,
+	.larger-map button,
 	.home form button,
 	header button,
 	.map-filters button,
@@ -193,6 +194,9 @@
 	form.find button:hover,
 	form.find button:active,
 	form.find button:focus,
+	.larger-map button:hover,
+	.larger-map button:active,
+	.larger-map button:focus,
 	.home form button:hover,
 	.home form button:active,
 	.home form button:focus,
@@ -210,12 +214,16 @@
 		text-decoration: none;
 		color: white;
 	}
+	.larger-map button,
 	.map .header + nav a {
 		background: white;
 		color: rgb(144, 194, 70); /* @lime */
 		border: 1px solid;
 		transition: 0.2s;
 	}
+	.larger-map button:hover,
+	.larger-map button:active,
+	.larger-map button:focus,
 	.map .header + nav a:hover,
 	.map .header + nav a:active,
 	.map .header + nav a:focus {
@@ -1507,6 +1515,10 @@
 		height: 500px;
 		height: 65vh;
 		height: calc(65vh - 11.75rem); /* header height */
+	}
+	body.map form.find ~ .mapbox.expanded {
+		height: 100vh;
+		height: calc(100vh - 11.75rem); /* header height */
 	}
 
 

@@ -257,6 +257,28 @@
 	var map;
 	if (document.getElementById('map')) {
 		map = L.mapbox.map('map', 'mapbox.light').setView([locations[0].latitude, locations[0].longitude], 13);
+
+		(function() {
+			var template = document.getElementById('larger-map-template');
+			if (template) {
+				var div = document.createElement('div');
+				div.innerHTML = template.innerHTML;
+				var button = div.querySelector('button');
+				template.parentNode.insertBefore(div, template);
+				function expandMap() {
+					document.getElementById('map').className += ' expanded';
+					map.invalidateSize(false);
+					div.parentNode.removeChild(div);
+				}
+				button.addEventListener('click', expandMap, false);
+				button.addEventListener('keypress', function(e) {
+					if (e.keyCode === 32 || // spacebar
+						e.keyCode === 13) { // enter
+						expandMap();
+					}
+				}, false);
+			}
+		})();
 	}
 
 	// Define the icons

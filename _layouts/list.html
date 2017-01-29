@@ -12,6 +12,10 @@ stylesheets:
 
 <div id="map" class="mapbox" style="margin-top: 1.5em;"></div>
 
+<script type="text/template" id="larger-map-template">
+	<p class="larger-map"><button>Larger Map</button></p>
+</script>
+
 <!--
 <div id="map-not-supported-message" class="message" style="display: none; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1; padding: 1.5em; text-align: center; background: white; z-index: 9999; box-sizing: border-box;">
 	<h1 style="margin-top: 0;">Uh oh!</h1>
@@ -68,12 +72,6 @@ stylesheets:
 {% else %}
 
 	{% assign data_list = site.data['generated-locations-for-jekyll'] %}
-
-{% comment %}
-	<h1>community_gardens: {{ community_gardens }}</h1>
-	<h1>farmers_markets: {{ farmers_markets }}</h1>
-	<h1>food_pantries: {{ food_pantries }}</h1>
-{% endcomment %}
 
 	{% assign list_limit = page.items_per_page %}
 	{% assign list_offset = page.list_offset %}
