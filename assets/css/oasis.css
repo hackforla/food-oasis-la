@@ -1530,7 +1530,7 @@
 		left: -9999px;
 	}
 	body.map-list > .header + nav {
-		opacity: 0;
+		display: none;
 	}
 
 	body.food-source main,
