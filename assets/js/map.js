@@ -259,7 +259,7 @@
 		map = L.mapbox.map('map', 'mapbox.light', {
 			zoomControl: false,
 			scrollWheelZoom: false
-		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 18);
+		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 14);
 
 		L.control.zoom({
 			position:'topright'

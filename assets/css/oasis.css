@@ -1512,7 +1512,6 @@
 		z-index: 1;
 		top: 0;
 		left: 0;
-		width: 100%;
 		padding-top: 1.5em;
 		padding-left: 3em;
 	}
@@ -1552,11 +1551,11 @@
 		*/
 		height: 500px;
 		height: 50vh;
-		height: calc(40vh - 6rem); /* header height */
+		height: calc(40vh);
 	}
 	body.map .mapbox.expanded {
 		height: 70vh;
-		height: calc(75vh - 6rem); /* header height */
+		height: calc(75vh);
 	}
 	body.map:not(.map-list) .mapbox {
 		height: 500px;
