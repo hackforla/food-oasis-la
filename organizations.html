@@ -9,7 +9,7 @@ color: grape
 <h1>Food Organizations in Los Angeles</h1>
 
 <ul class="organization-list">
-{% for organization in site.data['organizations'] %}
+{% for organization in site.data['organization'] %}
 	<li>
 		<a href="{{ organization['website'] }}">
 			<h2>{{ organization['name'] }}</h2>

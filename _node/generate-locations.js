@@ -62,12 +62,112 @@ function generateCollection(data_name) {
   for (let index = 0; index < records.length; index++) {
     createMarkdownFile(writePath, records[index]);
   }
-
+  return records;
 }
 
-generateCollection('community-gardens');
-generateCollection('food-pantries');
-generateCollection('farmers-markets');
+var communityGardens = generateCollection('community-garden');
+var foodPantries     = generateCollection('food-pantry');
+var farmersMarkets   = generateCollection('farmers-market');
+
+var ITEMS_PER_PAGE = 10;
+function createPageFile(writePath, pageNumber, name, uri, size, color) {
+
+  // Page title
+  var data = {
+    layout: 'list',
+    color: color,
+    title: name + ' in Los Angeles, Page ' + pageNumber,
+    page_number: pageNumber,
+    items_per_page: ITEMS_PER_PAGE,
+    list_offset: (pageNumber - 1) * ITEMS_PER_PAGE,
+    first: '/' + uri + '/'
+  };
+
+  if ((data.list_offset + ITEMS_PER_PAGE) < size) {
+    data.next = '/' + uri + '/page' + (pageNumber + 1) + '/';
+  }
+
+  if (pageNumber > 2) {
+    data.previous = '/' + uri + '/page' + (pageNumber - 1) + '/';
+  } else if (pageNumber === 2) {
+    data.previous = data.first;
+  }
+
+  if (uri !== 'list') data.collection = uri;
+
+  var filename = (pageNumber === 1) ? 'index.md' : 'page' + pageNumber + '.md'; // Example page2.md
+
+   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
+  var output =
+`---
+${yaml.safeDump(data)}
+---
+`
+
+  mkdirp(writePath, function (err) {
+    if (err) {
+      console.error(err);
+    } else {
+      fs.writeFileSync(writePath + '/' +  filename, output, 'utf8', (err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
+    }
+  });
+}
+
+function generatePages(name, uri, size, color) {
+  var writePath = '../' + uri;
+
+  // For the number of pages needed for the list of records
+    // Write the next page
+
+  var pageNumber = 0;
+  for (let index = 0; index < size; index += ITEMS_PER_PAGE) {
+    pageNumber++;
+    createPageFile(writePath, pageNumber, name, uri, size, color);
+  }
+}
+
+generatePages('Healthy Food', 'list', communityGardens.length + foodPantries.length + farmersMarkets.length, 'lime');
+generatePages('Community Gardens', 'community-garden', communityGardens.length, 'lime');
+generatePages('Food Pantries', 'food-pantry', foodPantries.length, 'canteloupe');
+generatePages('Farmers’ Markets', 'farmers-market', farmersMarkets.length, 'strawberry');
+
+function generateLocationJSON() {
+  var writePath = '../_data';
+
+  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets));
+  locations = locations.sort(function(a, b) {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    // a must be equal to b
+    return 0;
+  });
+
+  var output = JSON.stringify(locations);
+
+  mkdirp(writePath, function (err) {
+    if (err) {
+      console.error(err);
+    } else {
+      fs.writeFileSync(writePath + '/' + 'generated-locations-for-jekyll.json', output, 'utf8', (err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
+    }
+  });
+}
+
+generateLocationJSON();
+
+/*
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118
@@ -78,9 +178,11 @@ request({
   json: true
 }, function (error, response, body) {
   if (!error && response.statusCode === 200) {
-    var writePath = '../_community-gardens-from-staging-api';
+    var writePath = '../_community-garden-from-staging-api';
     for (let index = 0; index < body.length; index++) {
       createMarkdownFile(writePath, body[index]);
     }
   }
 });
+
+*/

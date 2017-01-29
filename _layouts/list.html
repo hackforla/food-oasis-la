@@ -1,13 +1,12 @@
 ---
 layout: default
-color: strawberry
 classname: map
 
 stylesheets:
   - "https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css"
 ---
 
-{% assign form_action="/list/" %}
+{% assign form_action = page.first %}
 
 {% include search-form.html %}
 
@@ -46,41 +45,6 @@ stylesheets:
 	</div>
 </script>
 
-{% assign data_collection = site.collections | where: "label", "farmers-markets" | first %}
-{% assign data_list = data_collection.docs %}
-{% assign list_limit = 20 %}
-{% assign page_number_minus_one = page.page_number | minus: 1 %}
-{% assign page_number_plus_one = page.page_number | plus: 1 %}
-{% assign list_offset = list_limit | times: page_number_minus_one %}
-
-<script>
-var listOffset = {{ list_offset }};
-</script>
-
-{% assign list_offset_plus_list_limit = list_offset | plus: list_limit %}
-{% assign data_list_size = data_list | size %}
-
-{% if list_offset_plus_list_limit < data_list_size %}{% comment %}Should this be <= ?{% endcomment%}
-	{% assign next_page  = '/list-beta/page' | append: page_number_plus_one %}
-{% endif %}
-
-{% if page.page_number > 2 %}
-	{% assign previous_page = '/list-beta/page' | append: page_number_minus_one %}
-{% elsif page.page_number == 2 %}
-	{% assign previous_page = '/list-beta/' %}
-{% endif %}
-
-<!--
-<h2>list_limit: {{ list_limit }}</h2>
-<h2>page.page_number: {{ page.page_number }}</h2>
-<h2>page_number_minus_one: {{ page_number_minus_one }}</h2>
-<h2>list_offset: {{ list_offset }}</h2>
-<h2>list_offset_plus_list_limit: {{ list_offset_plus_list_limit }}</h2>
-<h2>data_list_size: {{ data_list_size }}</h2>
-<h2>next_page: {{ next_page }}</h2>
-<h2>previous_page: {{ previous_page }}</h2>
--->
-
 <script type="text/template" id="list-item-template">
 	<a href="">
 		<h2></h2>
@@ -93,18 +57,40 @@ var listOffset = {{ list_offset }};
 </script>
 
 <ul class="food-source-list">
-{% include list.html %}
+{% if page.collection %}
+
+	{% assign data_collection = site.collections | where: "label", page.collection | first %}
+	{% assign data_list = data_collection.docs %}
+	{% assign list_limit = page.items_per_page %}
+	{% assign list_offset = page.list_offset %}
+	{% include list.html %}
+
+{% else %}
+
+	{% assign data_list = site.data['generated-locations-for-jekyll'] %}
+
+{% comment %}
+	<h1>community_gardens: {{ community_gardens }}</h1>
+	<h1>farmers_markets: {{ farmers_markets }}</h1>
+	<h1>food_pantries: {{ food_pantries }}</h1>
+{% endcomment %}
+
+	{% assign list_limit = page.items_per_page %}
+	{% assign list_offset = page.list_offset %}
+	{% include list.html %}
+
+{% endif %}
 </ul>
 
-{% if next_page or previous_page %}
+{% if page.next or page.previous %}
 <nav class="pagination">
 	<ul>
-		{% if next_page %}
-		<li><a href="{{ next_page }}">More Locations</a></li>
+		{% if page.next %}
+		<li><a href="{{ page.next }}">More Locations</a></li>
 		{% endif %}
 {% comment %}
-		{% if previous_page %}
-		<li><a href="{{ previous_page }}">Previous Page</a></li>
+		{% if page.previous %}
+		<li><a href="{{ page.previous }}">Previous Page</a></li>
 		{% endif %}
 {% endcomment %}
 	</ul>
@@ -126,12 +112,13 @@ var listOffset = {{ list_offset }};
 	// SHIM: Make the address persistent
 	var paginationLink = document.querySelector('.pagination a[href]');
 	var address = getParameterByName('address');
-	var href = paginationLink.getAttribute('href');
-	href += '?address=' + address;
-	paginationLink.setAttribute('href', href);
+	if (address) {
+		var href = paginationLink.getAttribute('href');
+		href += '?address=' + address;
+		paginationLink.setAttribute('href', href);
+	}
 })();
 </script>
-
 {% endif %}
 
 <!-- Jim’s Google Maps API key -->
@@ -143,5 +130,14 @@ var listOffset = {{ list_offset }};
 var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 </script>
 
+<script>
+var listOffset = {{ page.list_offset }};
+</script>
+
+{% if page.collection %}
+<script src="/api/{{ page.collection }}.js"></script>
+{% else %}
 <script src="/api/locations.js"></script>
+{% endif %}
+
 <script src="/assets/js/map.js"></script>

@@ -37,39 +37,39 @@ exclude:
 defaults:
   - scope:
       path: ""
-      type: community-gardens
+      type: community-garden
     values:
       layout: food-source-details
       color: lime
   - scope:
       path: ""
-      type: community-gardens-from-staging-api
+      type: community-garden-from-staging-api
     values:
       layout: food-source-details
       color: lime
   - scope:
       path: ""
-      type: farmers-markets
+      type: farmers-market
     values:
       layout: food-source-details
       color: strawberry
   - scope:
       path: ""
-      type: food-pantries
+      type: food-pantry
     values:
       layout: food-source-details
       color: canteloupe
 
 collections:
-  community-gardens:
+  community-garden:
     output: true
     permalink: /community-garden/:path/
-  community-gardens-from-staging-api:
+  community-garden-from-staging-api:
     output: true
     permalink: /community-garden-from-staging-api/:path/
-  farmers-markets:
+  farmers-market:
     output: true
     permalink: /farmers-market/:path/
-  food-pantries:
+  food-pantry:
     output: true
     permalink: /food-pantry/:path/

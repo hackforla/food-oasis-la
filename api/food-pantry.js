@@ -3,7 +3,8 @@ layout: null
 ---
 var locations = [
 
-{% assign data_list = site.data['generated-locations-for-jekyll'] %}
+{% assign data_collection = site.collections | where: "label", "food-pantry" | first %}
+{% assign data_list = data_collection.docs %}
 {% for data in data_list %}
 {
 	latitude  : "{{ data.latitude }}",
