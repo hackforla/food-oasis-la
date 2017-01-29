@@ -1543,7 +1543,6 @@
 		border-top: 1px solid rgba(0, 0, 0, 0.25);
 		*/
 		height: 200px;
-		height: 50vh;
 		height: calc(100vh - 11.75rem); /* header height */
 	}
 
@@ -1553,15 +1552,14 @@
 		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 		*/
 		height: 100px;
-		height: 40vh;
+		height: calc(40vh);
 	}
 	body.map .mapbox.expanded {
 		height: 140px;
-		height: 75vh;
+		height: calc(75vh);
 	}
 	body.map:not(.map-list) .mapbox {
 		height: 200px;
-		height: 50vh;
 		height: calc(100vh - 8rem); /* header height */
 	}
 	/*
@@ -1816,7 +1814,7 @@
 	.food-source .mapbox {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		height: 150px;
-		height: 50vh;
+		height: calc(50vh);
 		margin-bottom: -1.5em;
 	}
 	@media (min-width: 30em) {
@@ -1837,7 +1835,6 @@
 			top: 0;
 			right: 0;
 			height: 500px;
-			height: calc(100vh - 5.75rem); /* header height */
 			height: 100vh;
 		}
 		.food-source h1,
