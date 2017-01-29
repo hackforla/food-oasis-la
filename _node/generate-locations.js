@@ -95,7 +95,7 @@ function createPageFile(writePath, pageNumber, name, uri, size, color) {
     data.previous = data.first;
   }
 
-  if (uri !== 'list') {
+  if (uri !== 'locations') {
     data.collection = uri;
   }
 
@@ -136,7 +136,7 @@ function generatePages(name, uri, size, color) {
   }
 }
 
-generatePages('Healthy Food', 'list', communityGardens.length + foodPantries.length + farmersMarkets.length, 'lime');
+generatePages('Healthy Food', 'locations', communityGardens.length + foodPantries.length + farmersMarkets.length, 'lime');
 generatePages('Community Gardens', 'community-garden', communityGardens.length, 'lime');
 generatePages('Food Pantries', 'food-pantry', foodPantries.length, 'canteloupe');
 generatePages('Farmers’ Markets', 'farmers-market', farmersMarkets.length, 'strawberry');

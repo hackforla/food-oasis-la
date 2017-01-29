@@ -5,9 +5,9 @@ title: 'Healthy Food in Los Angeles, Page 14'
 page_number: 14
 items_per_page: 20
 list_offset: 260
-first: /list/
-next: /list/page15/
-previous: /list/page13/
+first: /locations/
+next: /locations/page15/
+previous: /locations/page13/
 category: Healthy Food
 
 ---
