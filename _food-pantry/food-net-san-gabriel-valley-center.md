@@ -10,5 +10,6 @@ phone: 626.575.5431
 latitude: '34.0451612'
 longitude: '-118.0455444'
 title: 'Food Net-San Gabriel Valley Center, Food Oasis Los Angeles'
+uri: /food-pantry/food-net-san-gabriel-valley-center/
 
 ---

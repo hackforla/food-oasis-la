@@ -10,5 +10,6 @@ phone: 818.901.9480
 latitude: '34.214903'
 longitude: '-118.5986508'
 title: 'Lutheran Social Services of Southern California, Food Oasis Los Angeles'
+uri: /food-pantry/lutheran-social-services-of-southern-california/
 
 ---

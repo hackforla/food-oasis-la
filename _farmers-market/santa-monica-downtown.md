@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Santa Monica Downtown Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/santa-monica-downtown/
 
 ---

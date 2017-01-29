@@ -30,5 +30,6 @@ day6_open: '1:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Calabasas Old Town Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/calabasas-old-town/
 
 ---

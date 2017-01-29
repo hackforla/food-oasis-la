@@ -10,5 +10,6 @@ phone: 562-695-0019
 latitude: '34.0610322'
 longitude: '-118.0823275'
 title: 'Church of the Nazarene-Rosemead, Food Oasis Los Angeles'
+uri: /food-pantry/church-of-the-nazarene-rosemead/
 
 ---

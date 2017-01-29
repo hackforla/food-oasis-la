@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Glassell Park Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/glassell-park/
 
 ---

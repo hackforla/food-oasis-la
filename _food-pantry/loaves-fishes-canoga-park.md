@@ -10,5 +10,6 @@ phone: 818.340.2050
 latitude: '34.1973704'
 longitude: '-118.6002723'
 title: 'Loaves & Fishes-Canoga Park, Food Oasis Los Angeles'
+uri: /food-pantry/loaves-fishes-canoga-park/
 
 ---

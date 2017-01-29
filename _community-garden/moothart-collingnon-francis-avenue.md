@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Moothart Collingnon/Francis Avenue Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/moothart-collingnon-francis-avenue/
 
 ---

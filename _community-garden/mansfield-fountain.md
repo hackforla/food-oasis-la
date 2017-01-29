@@ -16,5 +16,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Mansfield Fountain Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/mansfield-fountain/
 
 ---

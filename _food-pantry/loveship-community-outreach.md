@@ -10,5 +10,6 @@ phone: 661.729.4106
 latitude: '34.7039815'
 longitude: '-118.1135045'
 title: 'Loveship Community Outreach, Food Oasis Los Angeles'
+uri: /food-pantry/loveship-community-outreach/
 
 ---

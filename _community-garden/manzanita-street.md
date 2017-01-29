@@ -16,5 +16,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Manzanita Street Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/manzanita-street/
 
 ---

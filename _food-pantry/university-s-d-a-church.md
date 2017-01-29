@@ -10,5 +10,6 @@ phone: 323.766.9889
 latitude: '34.0111729'
 longitude: '-118.2955869'
 title: 'University S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/university-s-d-a-church/
 
 ---

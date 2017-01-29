@@ -10,5 +10,6 @@ phone: 310.832.2788
 latitude: '33.734896'
 longitude: '-118.296113'
 title: 'Rock Solid Christian Assembly, Food Oasis Los Angeles'
+uri: /food-pantry/rock-solid-christian-assembly/
 
 ---

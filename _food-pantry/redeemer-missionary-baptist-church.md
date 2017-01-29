@@ -10,5 +10,6 @@ phone: 323.732.4124
 latitude: '34.0331289'
 longitude: '-118.2983987'
 title: 'Redeemer Missionary Baptist Church, Food Oasis Los Angeles'
+uri: /food-pantry/redeemer-missionary-baptist-church/
 
 ---

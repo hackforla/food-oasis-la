@@ -10,5 +10,6 @@ phone: 626.373.2976
 latitude: '34.0897447'
 longitude: '-117.8874932'
 title: 'Project 29:11, A Community Development Corporation, Food Oasis Los Angeles'
+uri: /food-pantry/project-29-11-a-community-development-corporation/
 
 ---

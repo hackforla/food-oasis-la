@@ -10,5 +10,6 @@ phone: 323.292.3589
 latitude: '34.003407'
 longitude: '-118.319388'
 title: 'Good News Missionary Baptist Church, Food Oasis Los Angeles'
+uri: /food-pantry/good-news-missionary-baptist-church/
 
 ---

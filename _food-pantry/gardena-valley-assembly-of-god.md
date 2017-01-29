@@ -10,5 +10,6 @@ phone: 310.329.6933
 latitude: '33.8659794'
 longitude: '-118.3018567'
 title: 'Gardena Valley Assembly of God, Food Oasis Los Angeles'
+uri: /food-pantry/gardena-valley-assembly-of-god/
 
 ---

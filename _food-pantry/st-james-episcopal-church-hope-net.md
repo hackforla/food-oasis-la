@@ -10,5 +10,6 @@ phone: 323-934-5870
 latitude: '34.062042'
 longitude: '-118.3119697'
 title: 'St. James Episcopal Church-Hope Net, Food Oasis Los Angeles'
+uri: /food-pantry/st-james-episcopal-church-hope-net/
 
 ---

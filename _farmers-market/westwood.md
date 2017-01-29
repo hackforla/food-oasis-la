@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Westwood Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/westwood/
 
 ---

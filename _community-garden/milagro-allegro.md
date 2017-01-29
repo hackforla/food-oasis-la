@@ -16,5 +16,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Milagro Allegro Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/milagro-allegro/
 
 ---

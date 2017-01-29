@@ -10,5 +10,6 @@ phone: 323.260.2804
 latitude: '34.0402137'
 longitude: '-118.1643033'
 title: 'Food Net-Centro Maravilla, Food Oasis Los Angeles'
+uri: /food-pantry/food-net-centro-maravilla/
 
 ---

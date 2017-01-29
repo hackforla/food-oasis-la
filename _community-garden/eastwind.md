@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Eastwind Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/eastwind/
 
 ---

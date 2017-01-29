@@ -10,5 +10,6 @@ phone: 323 585-5939
 latitude: '33.9585498'
 longitude: '-118.256075'
 title: 'Bethel Unspeakable Joy Christian Church, Food Oasis Los Angeles'
+uri: /food-pantry/bethel-unspeakable-joy-christian-church/
 
 ---

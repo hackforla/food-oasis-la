@@ -10,5 +10,6 @@ phone: 818.892.2838
 latitude: '34.2387967'
 longitude: '-118.4635834'
 title: 'Centro de Vida International Church Movement, Food Oasis Los Angeles'
+uri: /food-pantry/centro-de-vida-international-church-movement/
 
 ---

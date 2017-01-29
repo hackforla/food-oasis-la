@@ -10,5 +10,6 @@ phone: 714.202.7333
 latitude: '33.979196'
 longitude: '-117.902383'
 title: 'Living Hope Community Partnership, Food Oasis Los Angeles'
+uri: /food-pantry/living-hope-community-partnership/
 
 ---

@@ -32,5 +32,6 @@ day7_close: ''
 title: >-
   Cal State University Northridge (CSUN) Farmers Market (CFM), Food Oasis Los
   Angeles
+uri: /farmers-market/cal-state-university-northridge-csun-cfm/
 
 ---

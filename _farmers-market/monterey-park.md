@@ -30,5 +30,6 @@ day6_open: '9:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Monterey Park Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/monterey-park/
 
 ---

@@ -10,5 +10,6 @@ phone: 661.943.1074
 latitude: '34.6826776'
 longitude: '-118.2371694'
 title: 'Hope Chapel Lancaster, Food Oasis Los Angeles'
+uri: /food-pantry/hope-chapel-lancaster/
 
 ---

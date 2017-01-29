@@ -10,5 +10,6 @@ phone: 310.635.3264
 latitude: '33.9334265'
 longitude: '-118.2080294'
 title: 'Missionaries of Charity, Food Oasis Los Angeles'
+uri: /food-pantry/missionaries-of-charity/
 
 ---

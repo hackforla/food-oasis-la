@@ -10,5 +10,6 @@ phone: 310.674.5103
 latitude: '33.9624612'
 longitude: '-118.3665755'
 title: 'First Lutheran Church of Inglewood, Food Oasis Los Angeles'
+uri: /food-pantry/first-lutheran-church-of-inglewood/
 
 ---

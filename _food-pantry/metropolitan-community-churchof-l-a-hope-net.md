@@ -10,5 +10,6 @@ phone: 323.669.3436
 latitude: '34.102074'
 longitude: '-118.2897866'
 title: 'Metropolitan Community Churchof L.A.-Hope Net, Food Oasis Los Angeles'
+uri: /food-pantry/metropolitan-community-churchof-l-a-hope-net/
 
 ---

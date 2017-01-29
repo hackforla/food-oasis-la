@@ -10,5 +10,6 @@ phone: 626.715.5653
 latitude: '34.0498143'
 longitude: '-117.9467971'
 title: 'C.A.R.E. Heglis, Food Oasis Los Angeles'
+uri: /food-pantry/c-a-r-e-heglis/
 
 ---

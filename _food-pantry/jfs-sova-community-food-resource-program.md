@@ -10,5 +10,6 @@ phone: 818.988.7682
 latitude: '34.1942489'
 longitude: '-118.491725'
 title: 'JFS/SOVA Community Food & Resource Program, Food Oasis Los Angeles'
+uri: /food-pantry/jfs-sova-community-food-resource-program/
 
 ---

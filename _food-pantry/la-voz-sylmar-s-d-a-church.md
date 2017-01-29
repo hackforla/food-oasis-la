@@ -10,5 +10,6 @@ phone: 951.318.4420
 latitude: '34.313473'
 longitude: '-118.427859'
 title: 'La Voz Sylmar S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/la-voz-sylmar-s-d-a-church/
 
 ---

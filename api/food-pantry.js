@@ -13,7 +13,7 @@ var locations = [
 	address_1 : "{{ data.address_1 | replace: '"', '' }}",
 	category  : "{{ data.category }}",
 	hours     : "{{ data.hours }}",
-	uri       : "{{ data.url }}"
+	uri       : "{{ data.uri }}"
 }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 

@@ -10,5 +10,6 @@ phone: 213.268.4820
 latitude: '33.9643479'
 longitude: '-118.416965'
 title: 'Hurting & Hungry, Food Oasis Los Angeles'
+uri: /food-pantry/hurting-hungry/
 
 ---

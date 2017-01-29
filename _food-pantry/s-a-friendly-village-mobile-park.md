@@ -10,5 +10,6 @@ phone: 661.946.6267
 latitude: '34.7088457'
 longitude: '-118.1055901'
 title: 'S.A. Friendly Village Mobile Park, Food Oasis Los Angeles'
+uri: /food-pantry/s-a-friendly-village-mobile-park/
 
 ---

@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '9:00 AM'
 day7_close: '2:00 PM'
 title: 'Playa Vista Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/playa-vista/
 
 ---

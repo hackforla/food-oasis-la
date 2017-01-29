@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'The Learning Garden, Food Oasis Los Angeles'
+uri: /community-garden/the-learning-garden/
 
 ---

@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Good Earth Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/good-earth/
 
 ---

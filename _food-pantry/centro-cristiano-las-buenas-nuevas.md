@@ -10,5 +10,6 @@ phone: 562.237.3114
 latitude: '33.8873025'
 longitude: '-118.0795603'
 title: 'Centro Cristiano Las Buenas Nuevas, Food Oasis Los Angeles'
+uri: /food-pantry/centro-cristiano-las-buenas-nuevas/
 
 ---

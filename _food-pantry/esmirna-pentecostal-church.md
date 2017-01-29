@@ -10,5 +10,6 @@ phone: 323.254.0191
 latitude: '34.1072082'
 longitude: '-118.196609'
 title: 'Esmirna Pentecostal Church, Food Oasis Los Angeles'
+uri: /food-pantry/esmirna-pentecostal-church/
 
 ---

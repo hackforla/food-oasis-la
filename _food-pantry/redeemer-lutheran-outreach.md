@@ -10,5 +10,6 @@ phone: 818-341-1629
 latitude: '34.2248564'
 longitude: '-118.5698672'
 title: 'Redeemer Lutheran Outreach, Food Oasis Los Angeles'
+uri: /food-pantry/redeemer-lutheran-outreach/
 
 ---

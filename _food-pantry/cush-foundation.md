@@ -10,5 +10,6 @@ phone: 909.621.5369
 latitude: '34.0852934'
 longitude: '-117.7371539'
 title: 'CUSH Foundation, Food Oasis Los Angeles'
+uri: /food-pantry/cush-foundation/
 
 ---

@@ -10,5 +10,6 @@ phone: 323 264-2170
 latitude: '34.0492972'
 longitude: '-118.2157793'
 title: 'White Memorial S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/white-memorial-s-d-a-church/
 
 ---

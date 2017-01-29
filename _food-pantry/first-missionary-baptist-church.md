@@ -10,5 +10,6 @@ phone: 661.944.4128
 latitude: '34.56754'
 longitude: '-117.953277'
 title: 'First Missionary Baptist Church, Food Oasis Los Angeles'
+uri: /food-pantry/first-missionary-baptist-church/
 
 ---

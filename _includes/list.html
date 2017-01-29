@@ -1,6 +1,6 @@
 {% for data in data_list limit:list_limit offset:list_offset %}
 	<li class="{{ data['category'] | downcase | replace: ' ', '-' }}" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
-		<a href="{{ data.url }}">
+		<a href="{{ data.uri }}">
 			<h2>{{ data['name'] }}</h2>
 			<p class="type">{{ data['category'] }}</p>
 			<p>{{ data['address_1'] | escape }}</p>

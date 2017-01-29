@@ -10,5 +10,6 @@ phone: 562.591.1641
 latitude: '33.7840547'
 longitude: '-118.1916668'
 title: 'Cathloic Charities of Los Angeles, Inc., Food Oasis Los Angeles'
+uri: /food-pantry/cathloic-charities-of-los-angeles-inc-/
 
 ---

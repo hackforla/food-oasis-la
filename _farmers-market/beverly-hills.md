@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Beverly Hills Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/beverly-hills/
 
 ---

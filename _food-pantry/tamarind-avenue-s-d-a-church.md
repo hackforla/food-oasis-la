@@ -10,5 +10,6 @@ phone: 310-386-8803
 latitude: '33.892572'
 longitude: '-118.2220425'
 title: 'Tamarind Avenue S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/tamarind-avenue-s-d-a-church/
 
 ---

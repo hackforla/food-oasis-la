@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '8:00 AM'
 day7_close: '2:00 PM'
 title: 'Beverly Glen Center Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/beverly-glen-center/
 
 ---

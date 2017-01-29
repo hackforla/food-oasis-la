@@ -10,5 +10,6 @@ phone: 323.832.5313
 latitude: '34.0396969'
 longitude: '-118.202409'
 title: 'Iglesia Pentecostes Roca de Salvacion, Food Oasis Los Angeles'
+uri: /food-pantry/iglesia-pentecostes-roca-de-salvacion/
 
 ---

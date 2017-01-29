@@ -10,5 +10,6 @@ phone: 323.662.1194
 latitude: '34.0793451'
 longitude: '-118.2932645'
 title: 'Rosewood Revitalization Group, Food Oasis Los Angeles'
+uri: /food-pantry/rosewood-revitalization-group/
 
 ---

@@ -10,5 +10,6 @@ phone: 562.699.9898
 latitude: '33.9643446'
 longitude: '-118.0676089'
 title: 'Food Net-Los Nietos Service Center, Food Oasis Los Angeles'
+uri: /food-pantry/food-net-los-nietos-service-center/
 
 ---

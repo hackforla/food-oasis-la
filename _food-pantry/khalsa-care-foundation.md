@@ -10,5 +10,6 @@ phone: 805.402.5050
 latitude: '34.2511562'
 longitude: '-118.4252181'
 title: 'Khalsa Care Foundation, Food Oasis Los Angeles'
+uri: /food-pantry/khalsa-care-foundation/
 
 ---

@@ -10,5 +10,6 @@ phone: 323.842.7888
 latitude: '34.1123662'
 longitude: '-118.2494937'
 title: 'Pentecostal Church of God, Food Oasis Los Angeles'
+uri: /food-pantry/pentecostal-church-of-god/
 
 ---

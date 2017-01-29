@@ -10,5 +10,6 @@ phone: 310.450.4050
 latitude: '34.0135455'
 longitude: '-118.4890914'
 title: 'WSFB- Ocean Park Community Ctr, Food Oasis Los Angeles'
+uri: /food-pantry/wsfb-ocean-park-community-ctr/
 
 ---

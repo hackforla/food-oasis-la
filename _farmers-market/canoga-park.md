@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '9:00 AM'
 day7_close: '1:30 PM'
 title: 'Canoga Park Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/canoga-park/
 
 ---

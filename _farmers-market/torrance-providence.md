@@ -30,5 +30,6 @@ day6_open: '3:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Torrance Providence Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/torrance-providence/
 
 ---

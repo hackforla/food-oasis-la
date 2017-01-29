@@ -10,5 +10,6 @@ phone: 562-698-8348
 latitude: '33.9691227'
 longitude: '-118.0417514'
 title: 'Salvation Army- Whittier Corp., Food Oasis Los Angeles'
+uri: /food-pantry/salvation-army-whittier-corp-/
 
 ---

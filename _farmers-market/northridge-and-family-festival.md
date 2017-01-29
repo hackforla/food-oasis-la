@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Northridge Farmers Market And Family Festival, Food Oasis Los Angeles'
+uri: /farmers-market/northridge-and-family-festival/
 
 ---

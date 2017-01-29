@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Wattles Farm, Food Oasis Los Angeles'
+uri: /community-garden/wattles-farm/
 
 ---

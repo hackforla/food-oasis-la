@@ -10,5 +10,6 @@ phone: 323.562.5755
 latitude: '33.9878263'
 longitude: '-118.1891261'
 title: 'City of Maywood, Food Oasis Los Angeles'
+uri: /food-pantry/city-of-maywood/
 
 ---

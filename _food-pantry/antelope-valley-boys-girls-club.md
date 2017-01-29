@@ -10,5 +10,6 @@ phone: 661.267.2582
 latitude: '34.5823279'
 longitude: '-118.114847'
 title: 'Antelope Valley Boys & Girls Club, Food Oasis Los Angeles'
+uri: /food-pantry/antelope-valley-boys-girls-club/
 
 ---

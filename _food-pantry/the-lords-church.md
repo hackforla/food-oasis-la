@@ -10,5 +10,6 @@ phone: 562.866.8283
 latitude: '33.882343'
 longitude: '-118.12727'
 title: 'The Lord''s Church, Food Oasis Los Angeles'
+uri: /food-pantry/the-lords-church/
 
 ---

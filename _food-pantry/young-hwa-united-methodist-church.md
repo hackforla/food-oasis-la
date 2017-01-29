@@ -10,5 +10,6 @@ phone: 213.413.4154
 latitude: '34.0607514'
 longitude: '-118.2642047'
 title: 'Young Hwa United Methodist Church, Food Oasis Los Angeles'
+uri: /food-pantry/young-hwa-united-methodist-church/
 
 ---

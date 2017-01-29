@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Arts District Little Tokyo Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/arts-district-little-tokyo/
 
 ---

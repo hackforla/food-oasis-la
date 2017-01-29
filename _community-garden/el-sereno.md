@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'El Sereno Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/el-sereno/
 
 ---

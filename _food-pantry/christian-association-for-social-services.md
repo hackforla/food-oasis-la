@@ -10,5 +10,6 @@ phone: 323-936-9481
 latitude: '34.0414693'
 longitude: '-118.3661612'
 title: 'Christian Association for Social Services, Food Oasis Los Angeles'
+uri: /food-pantry/christian-association-for-social-services/
 
 ---

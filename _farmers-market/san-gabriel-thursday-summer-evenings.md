@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'San Gabriel Farmers Market (Thursday Summer Evenings), Food Oasis Los Angeles'
+uri: /farmers-market/san-gabriel-thursday-summer-evenings/
 
 ---

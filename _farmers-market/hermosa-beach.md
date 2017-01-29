@@ -30,5 +30,6 @@ day6_open: '4:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Hermosa Beach Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/hermosa-beach/
 
 ---

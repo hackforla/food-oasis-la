@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Kaiser South Bay Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/kaiser-south-bay/
 
 ---

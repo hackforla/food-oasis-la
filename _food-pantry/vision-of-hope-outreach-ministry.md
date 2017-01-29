@@ -10,5 +10,6 @@ phone: 323-233-4647
 latitude: '33.9859277'
 longitude: '-118.2697413'
 title: 'Vision of Hope Outreach Ministry, Food Oasis Los Angeles'
+uri: /food-pantry/vision-of-hope-outreach-ministry/
 
 ---

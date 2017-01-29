@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Huntington Park Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/huntington-park/
 
 ---

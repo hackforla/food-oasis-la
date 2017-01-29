@@ -10,5 +10,6 @@ phone: 213.247.3560 cell
 latitude: '34.0399577'
 longitude: '-118.3075101'
 title: 'Koreatown Multipurpose Senior, Food Oasis Los Angeles'
+uri: /food-pantry/koreatown-multipurpose-senior/
 
 ---

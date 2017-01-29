@@ -10,5 +10,6 @@ phone: 213-746-6900
 latitude: '34.0324876'
 longitude: '-118.2759117'
 title: 'Star Christian School, Food Oasis Los Angeles'
+uri: /food-pantry/star-christian-school/
 
 ---

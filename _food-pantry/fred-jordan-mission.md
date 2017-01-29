@@ -10,5 +10,6 @@ phone: 213-489-7763
 latitude: '34.0433355'
 longitude: '-118.2419919'
 title: 'Fred Jordan Mission, Food Oasis Los Angeles'
+uri: /food-pantry/fred-jordan-mission/
 
 ---

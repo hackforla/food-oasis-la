@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'L.A. City Hall (Little Tokyo CFM), Food Oasis Los Angeles'
+uri: /farmers-market/l-a-city-hall-little-tokyo-cfm/
 
 ---

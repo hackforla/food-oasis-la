@@ -10,5 +10,6 @@ phone: 323.461.4957
 latitude: '34.0873928'
 longitude: '-118.3231596'
 title: 'Hollywood West Tenant Action Committee, Food Oasis Los Angeles'
+uri: /food-pantry/hollywood-west-tenant-action-committee/
 
 ---

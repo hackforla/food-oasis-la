@@ -10,5 +10,6 @@ phone: 323.585.8254
 latitude: '33.9814503'
 longitude: '-118.2202826'
 title: 'Southeast Churches Service Center, Food Oasis Los Angeles'
+uri: /food-pantry/southeast-churches-service-center/
 
 ---

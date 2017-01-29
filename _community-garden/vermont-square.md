@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Vermont Square Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/vermont-square/
 
 ---

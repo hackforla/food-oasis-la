@@ -10,5 +10,6 @@ phone: 323.269.4214
 latitude: '34.030634'
 longitude: '-118.199474'
 title: 'East LA Community Corporation, Food Oasis Los Angeles'
+uri: /food-pantry/east-la-community-corporation/
 
 ---

@@ -10,5 +10,6 @@ phone: 323.221.3179
 latitude: '34.0703284'
 longitude: '-118.2126261'
 title: 'Sacred Heart Church, Food Oasis Los Angeles'
+uri: /food-pantry/sacred-heart-church/
 
 ---

@@ -10,5 +10,6 @@ phone: 323.890.9600
 latitude: '34.0192364'
 longitude: '-118.1337064'
 title: 'Mexican-American Opportunity Foundation, Food Oasis Los Angeles'
+uri: /food-pantry/mexican-american-opportunity-foundation/
 
 ---

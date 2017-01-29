@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '7:30 AM'
 day7_close: '11:30 AM'
 title: 'Pomona Valley CFM, Food Oasis Los Angeles'
+uri: /farmers-market/pomona-valley-cfm/
 
 ---

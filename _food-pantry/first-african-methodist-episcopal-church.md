@@ -10,5 +10,6 @@ phone: 323 735-1251
 latitude: '34.0344082'
 longitude: '-118.3061942'
 title: 'First African Methodist Episcopal Church, Food Oasis Los Angeles'
+uri: /food-pantry/first-african-methodist-episcopal-church/
 
 ---

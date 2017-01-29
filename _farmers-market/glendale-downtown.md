@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Glendale Downtown Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/glendale-downtown/
 
 ---

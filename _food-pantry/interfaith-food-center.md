@@ -10,5 +10,6 @@ phone: 562.903.1478
 latitude: '33.962938'
 longitude: '-118.0650479'
 title: 'Interfaith Food Center, Food Oasis Los Angeles'
+uri: /food-pantry/interfaith-food-center/
 
 ---

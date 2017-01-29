@@ -10,5 +10,6 @@ phone: 323.756.2541
 latitude: '33.9384572'
 longitude: '-118.3040285'
 title: 'First New Christian Fellowship, Food Oasis Los Angeles'
+uri: /food-pantry/first-new-christian-fellowship/
 
 ---

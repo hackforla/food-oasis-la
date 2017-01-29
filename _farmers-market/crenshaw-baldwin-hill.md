@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '10:00 AM'
 day7_close: '3:00 PM'
 title: 'Crenshaw Baldwin Hill Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/crenshaw-baldwin-hill/
 
 ---

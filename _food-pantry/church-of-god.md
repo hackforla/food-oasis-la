@@ -10,5 +10,6 @@ phone: 626.968.6716
 latitude: '34.0873966'
 longitude: '-117.9652924'
 title: 'Church of God, Food Oasis Los Angeles'
+uri: /food-pantry/church-of-god/
 
 ---

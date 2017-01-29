@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Greater Watts Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/greater-watts/
 
 ---

@@ -30,5 +30,6 @@ day6_open: '2:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'San Pedro Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/san-pedro/
 
 ---

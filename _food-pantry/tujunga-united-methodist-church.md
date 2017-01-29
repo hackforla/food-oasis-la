@@ -10,5 +10,6 @@ phone: 818-352-1481
 latitude: '34.2480625'
 longitude: '-118.2772395'
 title: 'Tujunga United Methodist Church, Food Oasis Los Angeles'
+uri: /food-pantry/tujunga-united-methodist-church/
 
 ---

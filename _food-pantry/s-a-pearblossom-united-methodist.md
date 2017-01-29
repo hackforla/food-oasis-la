@@ -10,5 +10,6 @@ phone: 661.839.6123
 latitude: '34.505958'
 longitude: '-117.905785'
 title: 'S.A. Pearblossom United Methodist, Food Oasis Los Angeles'
+uri: /food-pantry/s-a-pearblossom-united-methodist/
 
 ---

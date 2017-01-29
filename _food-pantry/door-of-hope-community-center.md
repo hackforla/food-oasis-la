@@ -10,5 +10,6 @@ phone: 323.262.2777
 latitude: '34.012313'
 longitude: '-118.1590196'
 title: 'Door of Hope Community Center, Food Oasis Los Angeles'
+uri: /food-pantry/door-of-hope-community-center/
 
 ---

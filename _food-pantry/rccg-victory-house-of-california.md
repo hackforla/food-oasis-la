@@ -10,5 +10,6 @@ phone: 323.385.4442
 latitude: '34.191872'
 longitude: '-118.4483031'
 title: 'RCCG Victory House of California, Food Oasis Los Angeles'
+uri: /food-pantry/rccg-victory-house-of-california/
 
 ---

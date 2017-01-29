@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Granada Hills Salad Bowl Garden Club, Food Oasis Los Angeles'
+uri: /community-garden/granada-hills-salad-bowl-garden-club/
 
 ---

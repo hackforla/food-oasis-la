@@ -10,5 +10,6 @@ phone: 310.821.6116
 latitude: '33.9879884'
 longitude: '-118.4626862'
 title: 'The Bible Tabernacle (Venice), Food Oasis Los Angeles'
+uri: /food-pantry/the-bible-tabernacle-venice/
 
 ---

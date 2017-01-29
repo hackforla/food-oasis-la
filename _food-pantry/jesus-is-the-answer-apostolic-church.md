@@ -10,5 +10,6 @@ phone: 310.667.0147
 latitude: '33.7965619'
 longitude: '-118.2966541'
 title: 'Jesus is the Answer Apostolic Church, Food Oasis Los Angeles'
+uri: /food-pantry/jesus-is-the-answer-apostolic-church/
 
 ---

@@ -30,5 +30,6 @@ day6_open: '3:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Long Beach Downtown CFM, Food Oasis Los Angeles'
+uri: /farmers-market/long-beach-downtown-cfm/
 
 ---

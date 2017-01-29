@@ -10,5 +10,6 @@ phone: 909.630.5883
 latitude: '34.0812428'
 longitude: '-117.7531627'
 title: 'Bethel S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/bethel-s-d-a-church/
 
 ---

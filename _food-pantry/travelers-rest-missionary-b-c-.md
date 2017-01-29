@@ -10,5 +10,6 @@ phone: 323.582.7797
 latitude: '33.9750605'
 longitude: '-118.2493074'
 title: 'Travelers Rest Missionary B.C., Food Oasis Los Angeles'
+uri: /food-pantry/travelers-rest-missionary-b-c-/
 
 ---

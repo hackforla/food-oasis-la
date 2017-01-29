@@ -10,5 +10,6 @@ phone: 323 731-6672
 latitude: '34.032789'
 longitude: '-118.348501'
 title: 'West Adams Church of Christ, Food Oasis Los Angeles'
+uri: /food-pantry/west-adams-church-of-christ/
 
 ---

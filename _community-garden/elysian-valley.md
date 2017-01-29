@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Elysian Valley Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/elysian-valley/
 
 ---

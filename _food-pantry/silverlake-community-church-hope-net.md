@@ -10,5 +10,6 @@ phone: 323.663.3151
 latitude: '34.1098951'
 longitude: '-118.2702749'
 title: 'Silverlake Community Church-Hope Net, Food Oasis Los Angeles'
+uri: /food-pantry/silverlake-community-church-hope-net/
 
 ---

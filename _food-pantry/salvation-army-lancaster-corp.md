@@ -10,5 +10,6 @@ phone: 661.948.3418
 latitude: '34.6914947'
 longitude: '-118.1362728'
 title: 'Salvation Army- Lancaster Corp, Food Oasis Los Angeles'
+uri: /food-pantry/salvation-army-lancaster-corp/
 
 ---

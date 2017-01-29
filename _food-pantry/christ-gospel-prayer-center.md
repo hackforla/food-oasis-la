@@ -10,5 +10,6 @@ phone: 323.732.1394
 latitude: '34.0065425'
 longitude: '-118.2912726'
 title: 'Christ Gospel Prayer Center, Food Oasis Los Angeles'
+uri: /food-pantry/christ-gospel-prayer-center/
 
 ---

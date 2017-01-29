@@ -10,5 +10,6 @@ phone: 661.433.1186
 latitude: '34.5803299'
 longitude: '-117.952611'
 title: 'Dos Testamentos En El Desierto, Food Oasis Los Angeles'
+uri: /food-pantry/dos-testamentos-en-el-desierto/
 
 ---

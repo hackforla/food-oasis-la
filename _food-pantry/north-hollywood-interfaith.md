@@ -10,5 +10,6 @@ phone: 818.760.3575
 latitude: '34.1501988'
 longitude: '-118.3872632'
 title: 'North Hollywood Interfaith Food Pantry, Food Oasis Los Angeles'
+uri: /food-pantry/north-hollywood-interfaith/
 
 ---

@@ -10,5 +10,6 @@ phone: 562.607.8780
 latitude: '33.9538569'
 longitude: '-118.3087286'
 title: 'Life Deliverance Ministries, Food Oasis Los Angeles'
+uri: /food-pantry/life-deliverance-ministries/
 
 ---

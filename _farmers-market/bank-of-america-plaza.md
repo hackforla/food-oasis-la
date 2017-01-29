@@ -30,5 +30,6 @@ day6_open: '3:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Bank Of America Plaza Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/bank-of-america-plaza/
 
 ---

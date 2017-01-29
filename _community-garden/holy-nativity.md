@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Holy Nativity Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/holy-nativity/
 
 ---

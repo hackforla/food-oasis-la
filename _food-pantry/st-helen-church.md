@@ -10,5 +10,6 @@ phone: 323.563.3522
 latitude: '33.9506409'
 longitude: '-118.2138075'
 title: 'St. Helen Church, Food Oasis Los Angeles'
+uri: /food-pantry/st-helen-church/
 
 ---

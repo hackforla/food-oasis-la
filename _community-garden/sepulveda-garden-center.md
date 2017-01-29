@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Sepulveda Garden Center, Food Oasis Los Angeles'
+uri: /community-garden/sepulveda-garden-center/
 
 ---

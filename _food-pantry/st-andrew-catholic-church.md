@@ -10,5 +10,6 @@ phone: 626- 792-4183
 latitude: '34.1501638'
 longitude: '-118.1474523'
 title: 'St. Andrew Catholic Church, Food Oasis Los Angeles'
+uri: /food-pantry/st-andrew-catholic-church/
 
 ---

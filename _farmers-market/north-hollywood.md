@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '10:00 AM'
 day7_close: '3:00 PM'
 title: 'North Hollywood Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/north-hollywood/
 
 ---

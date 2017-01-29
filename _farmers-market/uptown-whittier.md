@@ -30,5 +30,6 @@ day6_open: '1:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Uptown Whittier Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/uptown-whittier/
 
 ---

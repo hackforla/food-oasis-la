@@ -10,5 +10,6 @@ phone: 323.757.5094
 latitude: '33.9476946'
 longitude: '-118.2655116'
 title: 'Greater New Unity Baptist Church, Food Oasis Los Angeles'
+uri: /food-pantry/greater-new-unity-baptist-church/
 
 ---

@@ -30,5 +30,6 @@ day6_open: '10:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'La Puente Live Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/la-puente-live/
 
 ---

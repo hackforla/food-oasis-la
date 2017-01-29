@@ -10,5 +10,6 @@ phone: 310.679.9099
 latitude: '33.9137357'
 longitude: '-118.3608819'
 title: 'Tongan Community Service Center, Food Oasis Los Angeles'
+uri: /food-pantry/tongan-community-service-center/
 
 ---

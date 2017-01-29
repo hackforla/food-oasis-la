@@ -10,5 +10,6 @@ phone: 626.794.3953
 latitude: '34.1906878'
 longitude: '-118.1593398'
 title: 'Altadena S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/altadena-s-d-a-church/
 
 ---

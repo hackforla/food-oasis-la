@@ -10,5 +10,6 @@ phone: 310.212.5175
 latitude: '33.7963363'
 longitude: '-118.1853545'
 title: 'Filipino Baptist Fellowship of Long Beach, Food Oasis Los Angeles'
+uri: /food-pantry/filipino-baptist-fellowship-of-long-beach/
 
 ---

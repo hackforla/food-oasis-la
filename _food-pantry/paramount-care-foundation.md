@@ -10,5 +10,6 @@ phone: 562.531.6820
 latitude: '33.889572'
 longitude: '-118.154455'
 title: 'Paramount Care Foundation, Food Oasis Los Angeles'
+uri: /food-pantry/paramount-care-foundation/
 
 ---

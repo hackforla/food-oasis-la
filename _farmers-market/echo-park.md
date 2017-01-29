@@ -30,5 +30,6 @@ day6_open: '7:30 PM'
 day7_open: ''
 day7_close: ''
 title: 'Echo Park Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/echo-park/
 
 ---

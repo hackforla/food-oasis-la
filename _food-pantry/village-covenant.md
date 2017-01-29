@@ -10,5 +10,6 @@ phone: 626-335-4013
 latitude: '34.11485'
 longitude: '-117.8821589'
 title: 'Village Covenant, Food Oasis Los Angeles'
+uri: /food-pantry/village-covenant/
 
 ---

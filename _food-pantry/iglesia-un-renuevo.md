@@ -10,5 +10,6 @@ phone: 562.743.4611
 latitude: '33.9109635'
 longitude: '-118.0946044'
 title: 'Iglesia Un Renuevo, Food Oasis Los Angeles'
+uri: /food-pantry/iglesia-un-renuevo/
 
 ---

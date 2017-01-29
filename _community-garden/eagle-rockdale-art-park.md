@@ -16,5 +16,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Eagle Rockdale Community Garden & Art Park, Food Oasis Los Angeles'
+uri: /community-garden/eagle-rockdale-art-park/
 
 ---

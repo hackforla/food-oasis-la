@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'East Hollywood Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/east-hollywood/
 
 ---

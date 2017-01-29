@@ -10,5 +10,6 @@ phone: 323-757-9188
 latitude: '33.9267262'
 longitude: '-118.2624581'
 title: 'Belvue Presbyterian Church, Food Oasis Los Angeles'
+uri: /food-pantry/belvue-presbyterian-church/
 
 ---

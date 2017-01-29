@@ -10,5 +10,6 @@ phone: 626-798-2361
 latitude: '34.1915246'
 longitude: '-118.1491785'
 title: 'First Church of the Nazarene-Altadena, Food Oasis Los Angeles'
+uri: /food-pantry/first-church-of-the-nazarene-altadena/
 
 ---

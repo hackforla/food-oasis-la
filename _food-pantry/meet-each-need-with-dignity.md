@@ -10,5 +10,6 @@ phone: 818.686.7334
 latitude: '34.2630434'
 longitude: '-118.4195782'
 title: 'Meet Each Need with Dignity, Food Oasis Los Angeles'
+uri: /food-pantry/meet-each-need-with-dignity/
 
 ---

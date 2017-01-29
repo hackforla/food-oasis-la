@@ -17,5 +17,6 @@ close: ''
 title: >-
   Orcutt Ranch Horticultural Center Rancho Sombra del Roble, Food Oasis Los
   Angeles
+uri: /community-garden/orcutt-ranch-horticultural-center-rancho-sombra-del-roble/
 
 ---

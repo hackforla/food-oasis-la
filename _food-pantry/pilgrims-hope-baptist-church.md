@@ -10,5 +10,6 @@ phone: 323.581.7672
 latitude: '33.9759009'
 longitude: '-118.2473905'
 title: 'Pilgrim''s Hope Baptist Church, Food Oasis Los Angeles'
+uri: /food-pantry/pilgrims-hope-baptist-church/
 
 ---

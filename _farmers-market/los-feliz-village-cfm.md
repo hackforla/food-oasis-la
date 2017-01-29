@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Los Feliz Village CFM, Food Oasis Los Angeles'
+uri: /farmers-market/los-feliz-village-cfm/
 
 ---

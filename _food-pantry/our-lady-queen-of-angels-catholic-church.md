@@ -10,5 +10,6 @@ phone: 213.629.3101
 latitude: '34.05707'
 longitude: '-118.239577'
 title: 'Our Lady Queen of Angels Catholic Church, Food Oasis Los Angeles'
+uri: /food-pantry/our-lady-queen-of-angels-catholic-church/
 
 ---

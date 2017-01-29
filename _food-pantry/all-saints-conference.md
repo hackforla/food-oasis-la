@@ -10,5 +10,6 @@ phone: 323.675.4873
 latitude: '34.0856924'
 longitude: '-118.1729264'
 title: 'All Saints Conference, Food Oasis Los Angeles'
+uri: /food-pantry/all-saints-conference/
 
 ---

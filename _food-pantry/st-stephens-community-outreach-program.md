@@ -10,5 +10,6 @@ phone: 626.573.9984
 latitude: '34.0616348'
 longitude: '-118.1251851'
 title: 'St. Stephen''s Community Outreach Program, Food Oasis Los Angeles'
+uri: /food-pantry/st-stephens-community-outreach-program/
 
 ---

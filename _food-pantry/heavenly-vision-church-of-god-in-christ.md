@@ -10,5 +10,6 @@ phone: 323.245.2651
 latitude: '33.9614457'
 longitude: '-118.288536'
 title: 'Heavenly Vision Church of God in Christ, Food Oasis Los Angeles'
+uri: /food-pantry/heavenly-vision-church-of-god-in-christ/
 
 ---

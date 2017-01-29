@@ -10,5 +10,6 @@ phone: 310.673.2584
 latitude: '33.9766895'
 longitude: '-118.3568641'
 title: 'Chapel of Peace Lutheran Church, Food Oasis Los Angeles'
+uri: /food-pantry/chapel-of-peace-lutheran-church/
 
 ---

@@ -10,5 +10,6 @@ phone: 818.409.8056
 latitude: '34.1507659'
 longitude: '-118.2285903'
 title: 'Vallejo Drive S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/vallejo-drive-s-d-a-church/
 
 ---

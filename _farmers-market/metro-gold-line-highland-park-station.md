@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Metro Gold Line Highland Park Station, Food Oasis Los Angeles'
+uri: /farmers-market/metro-gold-line-highland-park-station/
 
 ---

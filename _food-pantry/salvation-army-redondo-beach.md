@@ -10,5 +10,6 @@ phone: 310.318.2827
 latitude: '33.8469008'
 longitude: '-118.3925479'
 title: 'Salvation Army Redondo Beach, Food Oasis Los Angeles'
+uri: /food-pantry/salvation-army-redondo-beach/
 
 ---

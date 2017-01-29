@@ -10,5 +10,6 @@ phone: 323-292-2762
 latitude: '33.9935442'
 longitude: '-118.3134514'
 title: 'Fifty Fourth Street S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/fifty-fourth-street-s-d-a-church/
 
 ---

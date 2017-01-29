@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Ocean View Farms, Food Oasis Los Angeles'
+uri: /community-garden/ocean-view-farms/
 
 ---

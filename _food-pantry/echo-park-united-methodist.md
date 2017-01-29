@@ -10,5 +10,6 @@ phone: 323.731.5472
 latitude: '34.0787092'
 longitude: '-118.2624834'
 title: 'Echo Park United Methodist, Food Oasis Los Angeles'
+uri: /food-pantry/echo-park-united-methodist/
 
 ---

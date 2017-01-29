@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Solano Canyon Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/solano-canyon/
 
 ---

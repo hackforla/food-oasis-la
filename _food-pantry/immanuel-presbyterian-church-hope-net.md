@@ -10,5 +10,6 @@ phone: 213.389.3191
 latitude: '34.0614542'
 longitude: '-118.294485'
 title: 'Immanuel Presbyterian Church-Hope Net, Food Oasis Los Angeles'
+uri: /food-pantry/immanuel-presbyterian-church-hope-net/
 
 ---

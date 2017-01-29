@@ -10,5 +10,6 @@ phone: 323.567.1439
 latitude: '33.9443922'
 longitude: '-118.2459688'
 title: 'St. Lawrence of Brindisi, Food Oasis Los Angeles'
+uri: /food-pantry/st-lawrence-of-brindisi/
 
 ---

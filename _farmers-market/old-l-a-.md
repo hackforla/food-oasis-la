@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Old L.A. Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/old-l-a-/
 
 ---

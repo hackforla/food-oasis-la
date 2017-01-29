@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Silver Lake CFM, Food Oasis Los Angeles'
+uri: /farmers-market/silver-lake-cfm/
 
 ---

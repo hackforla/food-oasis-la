@@ -10,5 +10,6 @@ phone: 562.895.4587
 latitude: '34.0317917'
 longitude: '-117.970394'
 title: 'Pico Rivera Iglesia Crece, Food Oasis Los Angeles'
+uri: /food-pantry/pico-rivera-iglesia-crece/
 
 ---

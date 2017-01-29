@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Messiah Organic Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/messiah-organic/
 
 ---

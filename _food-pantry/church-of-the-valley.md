@@ -10,5 +10,6 @@ phone: 818.284.1331
 latitude: '34.1898566'
 longitude: '-118.451357'
 title: 'Church of the Valley, Food Oasis Los Angeles'
+uri: /food-pantry/church-of-the-valley/
 
 ---

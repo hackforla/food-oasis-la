@@ -10,5 +10,6 @@ phone: 323.752.4400
 latitude: '33.9571095'
 longitude: '-118.2785568'
 title: 'CCC Ebenezery Parish, Food Oasis Los Angeles'
+uri: /food-pantry/ccc-ebenezery-parish/
 
 ---

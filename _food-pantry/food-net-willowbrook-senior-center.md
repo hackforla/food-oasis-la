@@ -10,5 +10,6 @@ phone: 310.217.5650
 latitude: '33.9150672'
 longitude: '-118.2722211'
 title: 'Food Net-Willowbrook Senior Center, Food Oasis Los Angeles'
+uri: /food-pantry/food-net-willowbrook-senior-center/
 
 ---

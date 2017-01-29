@@ -10,5 +10,6 @@ phone: 310.837.8782
 latitude: '33.9582157'
 longitude: '-118.3536215'
 title: 'Breath of Life S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/breath-of-life-s-d-a-church/
 
 ---

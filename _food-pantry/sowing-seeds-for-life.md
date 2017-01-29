@@ -10,5 +10,6 @@ phone: 909.392.5777
 latitude: '34.100366'
 longitude: '-117.785848'
 title: 'Sowing Seeds for Life, Food Oasis Los Angeles'
+uri: /food-pantry/sowing-seeds-for-life/
 
 ---

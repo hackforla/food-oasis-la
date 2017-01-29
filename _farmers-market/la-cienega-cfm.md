@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'La Cienega Farmers Market (CFM), Food Oasis Los Angeles'
+uri: /farmers-market/la-cienega-cfm/
 
 ---

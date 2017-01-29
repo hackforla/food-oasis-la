@@ -10,5 +10,6 @@ phone: 323.585.0570
 latitude: '33.9813266'
 longitude: '-118.249548'
 title: 'Presentation of Mary Catholic, Food Oasis Los Angeles'
+uri: /food-pantry/presentation-of-mary-catholic/
 
 ---

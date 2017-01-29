@@ -10,5 +10,6 @@ phone: 818.985.7365
 latitude: '34.1503878'
 longitude: '-118.3663839'
 title: 'St. Charles Service Center, Food Oasis Los Angeles'
+uri: /food-pantry/st-charles-service-center/
 
 ---

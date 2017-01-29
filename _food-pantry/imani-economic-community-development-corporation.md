@@ -10,5 +10,6 @@ phone: 909.620.9161
 latitude: '34.0602663'
 longitude: '-117.7569861'
 title: 'Imani Economic & Community Development Corporation, Food Oasis Los Angeles'
+uri: /food-pantry/imani-economic-community-development-corporation/
 
 ---

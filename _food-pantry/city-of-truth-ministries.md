@@ -10,5 +10,6 @@ phone: 310.669.8300
 latitude: '33.8419672'
 longitude: '-118.253889'
 title: 'City of Truth Ministries, Food Oasis Los Angeles'
+uri: /food-pantry/city-of-truth-ministries/
 
 ---

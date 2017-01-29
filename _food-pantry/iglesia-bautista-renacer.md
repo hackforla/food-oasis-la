@@ -10,5 +10,6 @@ phone: 818.277.9982
 latitude: '34.264075'
 longitude: '-118.479712'
 title: 'Iglesia Bautista Renacer, Food Oasis Los Angeles'
+uri: /food-pantry/iglesia-bautista-renacer/
 
 ---

@@ -16,5 +16,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Howard Finn Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/howard-finn/
 
 ---

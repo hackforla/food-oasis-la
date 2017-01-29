@@ -10,5 +10,6 @@ phone: 213.384.2151
 latitude: '34.0582323'
 longitude: '-118.2886022'
 title: 'First Baptist Church-Hope Net, Food Oasis Los Angeles'
+uri: /food-pantry/first-baptist-church-hope-net/
 
 ---

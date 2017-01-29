@@ -10,5 +10,6 @@ phone: 323-242-5000
 latitude: '33.9268095'
 longitude: '-118.229051'
 title: 'Shields for Families, Food Oasis Los Angeles'
+uri: /food-pantry/shields-for-families/
 
 ---

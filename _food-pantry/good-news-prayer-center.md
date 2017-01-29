@@ -10,5 +10,6 @@ phone: 323.753.0117
 latitude: '33.9599573'
 longitude: '-118.2423524'
 title: 'Good News Prayer Center, Food Oasis Los Angeles'
+uri: /food-pantry/good-news-prayer-center/
 
 ---

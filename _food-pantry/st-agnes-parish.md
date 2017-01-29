@@ -10,5 +10,6 @@ phone: 323-731-2464
 latitude: '34.0320812'
 longitude: '-118.2918201'
 title: 'St. Agnes Parish, Food Oasis Los Angeles'
+uri: /food-pantry/st-agnes-parish/
 
 ---

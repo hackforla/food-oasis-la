@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'El Segundo Plaza Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/el-segundo-plaza/
 
 ---

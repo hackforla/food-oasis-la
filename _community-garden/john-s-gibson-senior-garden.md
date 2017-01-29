@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'John S. Gibson Senior Garden, Food Oasis Los Angeles'
+uri: /community-garden/john-s-gibson-senior-garden/
 
 ---

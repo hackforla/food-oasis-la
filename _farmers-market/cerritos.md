@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '8:00 AM'
 day7_close: '12:00 PM'
 title: 'Cerritos Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/cerritos/
 
 ---

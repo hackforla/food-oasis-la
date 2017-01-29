@@ -10,5 +10,6 @@ phone: 323.396.7729
 latitude: '34.0136274'
 longitude: '-118.1376064'
 title: 'Eastmont S.D.A. Spanish Church, Food Oasis Los Angeles'
+uri: /food-pantry/eastmont-s-d-a-spanish-church/
 
 ---

@@ -33,6 +33,8 @@ function createMarkdownFile(writePath, data) {
 
   var filename = stringToURI(data.name.replace(' ' + data.category, ''));
 
+  data.uri = '/' + data.category.toLowerCase().replace(' ', '-') + '/' + filename + '/';
+
    // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   var output =
 `---

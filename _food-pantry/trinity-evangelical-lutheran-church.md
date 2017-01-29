@@ -10,5 +10,6 @@ phone: 626.792.1212
 latitude: '34.1500129'
 longitude: '-118.1297586'
 title: 'Trinity Evangelical Lutheran Church, Food Oasis Los Angeles'
+uri: /food-pantry/trinity-evangelical-lutheran-church/
 
 ---

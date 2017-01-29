@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Rancho San Pedro Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/rancho-san-pedro/
 
 ---

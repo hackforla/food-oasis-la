@@ -10,5 +10,6 @@ phone: (323) 751-3748
 latitude: '33.897334'
 longitude: '-118.314122'
 title: 'Lady Bug Ministry, Food Oasis Los Angeles'
+uri: /food-pantry/lady-bug-ministry/
 
 ---

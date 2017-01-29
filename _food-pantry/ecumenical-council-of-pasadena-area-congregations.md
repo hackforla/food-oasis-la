@@ -10,5 +10,6 @@ phone: 626.797.2402
 latitude: '34.1687151'
 longitude: '-118.1413359'
 title: 'Ecumenical Council of Pasadena Area Congregations, Food Oasis Los Angeles'
+uri: /food-pantry/ecumenical-council-of-pasadena-area-congregations/
 
 ---

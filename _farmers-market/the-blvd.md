@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'The BLVD Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/the-blvd/
 
 ---

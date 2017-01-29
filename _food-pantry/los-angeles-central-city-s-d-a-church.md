@@ -10,5 +10,6 @@ phone: (213) 749-9646
 latitude: '34.0327067'
 longitude: '-118.2752257'
 title: 'Los Angeles Central City S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/los-angeles-central-city-s-d-a-church/
 
 ---

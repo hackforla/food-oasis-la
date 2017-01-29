@@ -10,5 +10,6 @@ phone: 626.912.9408
 latitude: '34.0065174'
 longitude: '-117.9088863'
 title: 'La Puente Spanish S.D.A. Church, Food Oasis Los Angeles'
+uri: /food-pantry/la-puente-spanish-s-d-a-church/
 
 ---

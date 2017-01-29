@@ -10,5 +10,6 @@ phone: 562.591.8778
 latitude: '33.7868869'
 longitude: '-118.1744206'
 title: 'Helping In Services, Inc., Food Oasis Los Angeles'
+uri: /food-pantry/helping-in-services-inc-/
 
 ---

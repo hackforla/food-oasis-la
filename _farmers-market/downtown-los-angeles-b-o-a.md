@@ -30,5 +30,6 @@ day6_open: '3:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Downtown Los Angeles (B O. A) Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/downtown-los-angeles-b-o-a/
 
 ---

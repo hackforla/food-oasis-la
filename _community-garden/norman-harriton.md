@@ -15,5 +15,6 @@ daycode: ''
 open: ''
 close: ''
 title: 'Norman Harriton Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/norman-harriton/
 
 ---

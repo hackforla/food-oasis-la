@@ -30,5 +30,6 @@ day6_open: '7:00 PM'
 day7_open: ''
 day7_close: ''
 title: 'Del Ray Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/del-ray/
 
 ---

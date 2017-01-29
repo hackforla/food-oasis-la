@@ -10,5 +10,6 @@ phone: 661.255.9078
 latitude: '34.3765012'
 longitude: '-118.5252054'
 title: 'Santa Clarita Valley Food Pantry, Food Oasis Los Angeles'
+uri: /food-pantry/santa-clarita-valley/
 
 ---

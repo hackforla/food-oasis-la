@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Santa Fe Springs Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/santa-fe-springs/
 
 ---

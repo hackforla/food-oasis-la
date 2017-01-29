@@ -10,5 +10,6 @@ phone: 323.756.0360
 latitude: '33.9315622'
 longitude: '-118.2691607'
 title: 'Imperial Church of Christ, Food Oasis Los Angeles'
+uri: /food-pantry/imperial-church-of-christ/
 
 ---

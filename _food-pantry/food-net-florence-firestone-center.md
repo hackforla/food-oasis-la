@@ -10,5 +10,6 @@ phone: 323.586.6502
 latitude: '33.9677438'
 longitude: '-118.2480784'
 title: 'Food Net-Florence Firestone Center, Food Oasis Los Angeles'
+uri: /food-pantry/food-net-florence-firestone-center/
 
 ---

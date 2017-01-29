@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: ''
 day7_close: ''
 title: 'Kaiser Medical Center Woodland Hills, Food Oasis Los Angeles'
+uri: /farmers-market/kaiser-medical-center-woodland-hills/
 
 ---

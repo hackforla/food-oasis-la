@@ -30,5 +30,6 @@ day6_open: ''
 day7_open: '9:00 AM'
 day7_close: '2:00 PM'
 title: 'The Greener Good Farmers'' Market WEST, Food Oasis Los Angeles'
+uri: /farmers-market/the-greener-good-farmers-market-west/
 
 ---

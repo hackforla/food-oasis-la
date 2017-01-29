@@ -10,5 +10,6 @@ phone: 323.753.3881
 latitude: '33.9709509'
 longitude: '-118.2648597'
 title: 'Estelle Van Meter Multipurpose, Food Oasis Los Angeles'
+uri: /food-pantry/estelle-van-meter-multipurpose/
 
 ---

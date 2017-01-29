@@ -10,5 +10,6 @@ phone: 626.457.3035
 latitude: '34.0971693'
 longitude: '-118.1074142'
 title: 'San Gabriel Mission, Food Oasis Los Angeles'
+uri: /food-pantry/san-gabriel-mission/
 
 ---
