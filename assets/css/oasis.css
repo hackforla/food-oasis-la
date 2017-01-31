@@ -1555,7 +1555,7 @@
 		height: calc(40vh);
 	}
 	body.map .mapbox.expanded {
-		height: 140px;
+		height: 200px;
 		height: calc(75vh);
 	}
 	body.map:not(.map-list) .mapbox {
