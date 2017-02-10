@@ -74,17 +74,12 @@ news.html
 es/*
 ```
 
-### Map
+### Lists of locations
 ```
-map.html
-```
-
-### Lists
-```
-list.html
-community-garden.html
-farmers-market.html
-food-pantry.html
+locations/*
+community-garden/*
+farmers-market/*
+food-pantry/*
 ```
 
 ## How to update the location data
