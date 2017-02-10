@@ -16,9 +16,7 @@
 title: Food Oasis Los Angeles
 email: contact@foodoasis.la
 description: > # this means to ignore newlines until "baseurl:"
-  This is a website with a map of food sources in Los Angeles, and list of resources
-  about food deserts and health, published with Jekyll and GitHub Pages.
-  https://foodoasis.la
+  A list of healthy food locations in Los Angeles
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://foodoasis.la" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: foodoasisla

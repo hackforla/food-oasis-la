@@ -2,61 +2,75 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+{% comment %}
+  https://support.google.com/webmasters/answer/156184?hl=en
+
+  ### TODO:
+
+  * Consider adding alternate language elements…
+  https://support.google.com/webmasters/answer/2620865?hl=en
+  <xhtml:link rel="alternate" hreflang="es" href="https://foodoasis.la/español/" />
+
+  * Consider adding the <changefreq> and <priority> elements.
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+
+{% endcomment %}
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--
-NOTE: This file isn’t in use yet.
 
-Before submitting it to search engines, we may want to…
+{% comment %}
+######### Pages #########
+{% endcomment %}
+  <url>
+    <loc>https://foodoasis.la/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/organizations/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/resources/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/about/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/team/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/faqs/</loc>
+  </url>
 
-1) Read the site map guide from Google:
-https://support.google.com/webmasters/answer/156184?hl=en
+{% comment %}
+######### Posts #########
+{% endcomment %}
+  <url>
+    <loc>https://foodoasis.la/news/</loc>
+  </url>
+{% for post in site.posts %}
+  <url>
+    <loc>https://foodoasis.la{{ post.url }}</loc>
+  </url>
+{% endfor %}
 
-2) Add missing pages (for example: /about, /map, /list)
-
-3) Tweak the <changefreq> and <priority> elements.
--->
-  {% for food_source in site.data['community-gardens'] %}
-    <url>
-      <loc>{{ site.url }}/comunity-garden/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% for food_source in site.data['farmers-markets'] %}
-    <url>
-      <loc>{{ site.url }}/farmers-market/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% for food_source in site.data['food-pantries'] %}
-    <url>
-      <loc>{{ site.url }}/food-pantry/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% if false %}
-  {% for food_source in site.data['grocery-stores'] %}
-    <url>
-      <loc>{{ site.url }}/grocery-store/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% for food_source in site.data['grocery-other'] %}
-    <url>
-      <loc>{{ site.url }}/store/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% for food_source in site.data['supermarkets'] %}
-    <url>
-      <loc>{{ site.url }}/supermarket/{{ food_source['uri'] }}</loc>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  {% endfor %}
-  {% endif %}
+{% comment %}
+######### Locations #########
+{% endcomment %}
+  <url>
+    <loc>https://foodoasis.la/locations/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/farmers-market/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/community-garden/</loc>
+  </url>
+  <url>
+    <loc>https://foodoasis.la/food-pantry/</loc>
+  </url>
+{% assign locations = site.data['generated-locations-for-jekyll'] %}
+{% for location in locations %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
 </urlset>

@@ -78,11 +78,12 @@ function createPageFile(writePath, pageNumber, name, uri, size, color) {
   var data = {
     layout: 'location-list',
     color: color,
-    title: name + ' in Los Angeles, Page ' + pageNumber,
+    title: name + ' in Los Angeles' + (pageNumber > 1 ? ', Page ' + pageNumber : ''),
     page_number: pageNumber,
     items_per_page: ITEMS_PER_PAGE,
     list_offset: (pageNumber - 1) * ITEMS_PER_PAGE,
-    first: '/' + uri + '/'
+    first: '/' + uri + '/',
+    canonical_url: '/' + uri + '/'
   };
 
   if ((data.list_offset + ITEMS_PER_PAGE) < size) {

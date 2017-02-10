@@ -14,7 +14,9 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 
 	<title>{% if page.title %}{{ page.title | escape }}{% elsif layout.title %}{{ layout.title | escape }}{% elsif page.name %}{{ page.name | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-	<link rel="canonical" href="https://foodoasis.la>{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}" />
+	<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}" />
+
+	<link rel="canonical" href="https://foodoasis.la{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}" />
 
 	<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 	
@@ -134,7 +136,7 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 		<h2>{{ site.data.locales[locale].nav_headline }}</h2>
 		<ul class="link-list has-icons">
 			<li>
-				<a href="/map">
+				<a href="/locations">
 					<!-- Map icon
 					by Jose Moya
 					https://thenounproject.com/search/?q=map&i=47766 -->

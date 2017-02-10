@@ -6,6 +6,7 @@ page_number: 9
 items_per_page: 20
 list_offset: 160
 first: /food-pantry/
+canonical_url: /food-pantry/
 next: /food-pantry/page10/
 previous: /food-pantry/page8/
 collection: food-pantry

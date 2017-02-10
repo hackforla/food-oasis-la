@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /community-garden-from-staging-api/
+Sitemap: https://foodoasis.la/sitemap.xml
