@@ -1529,7 +1529,7 @@
 		position: absolute;
 		left: -9999px;
 	}
-	body.map-list > .header + nav {
+	body.map-list > .header ~ nav {
 		display: none;
 	}
 
