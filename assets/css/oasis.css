@@ -395,22 +395,22 @@
 	}
 
 
-	/* =Food Source List
+	/* =Location List
 	----------------------------------------------- */
-	.food-source-list,
-	.food-source-list li {
+	.location-list,
+	.location-list li {
 		list-style: none;
 		padding-left: 0;
 		margin-left: 0;
 	}
-	.food-source-list a {
+	.location-list a {
 		display: block;
 		padding-top: 1.5em;
 		padding-bottom: 1.5em;
 		text-decoration: none;
 		color: inherit;
 	}
-	.food-source-list h2 {
+	.location-list h2 {
 		margin-top: 0;
 		margin-bottom: 0;
 		color: rgb(241, 95, 91); /* @strawberry */
@@ -418,60 +418,60 @@
 		text-decoration: underline;
 	}
 
-	.food-source-list .food-pantry h2 {
+	.location-list .food-pantry h2 {
 		color: rgb(249, 192, 88); /* @canteloupe */
 	}
-	.food-source-list .community-garden h2 {
+	.location-list .community-garden h2 {
 		color: rgb(144, 194, 70); /* @lime */
 	}
-	.food-source-list .grocery-store h2 {
+	.location-list .grocery-store h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @grape */
 		color: rgb(40, 137, 187); /* @blueberry */
 	}
-	.food-source-list .store h2 {
+	.location-list .store h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @grape */
 		color: rgb(40, 137, 187); /* @blueberry */
 	}
-	.food-source-list .farmers-market h2 {
+	.location-list .farmers-market h2 {
 		color: rgb(77, 85, 148); /* @grape */
 		color: rgba(161, 167, 72, 0.75); /* @asparagus */
 		color: rgb(211, 16, 134); /* @dragonfruit */
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
-	.food-source-list .supermarket h2 {
+	.location-list .supermarket h2 {
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @grape */
 	}
 
-	.food-source-list a:hover h2,
-	.food-source-list a:active h2,
-	.food-source-list a:focus h2 {
+	.location-list a:hover h2,
+	.location-list a:active h2,
+	.location-list a:focus h2 {
 	}
-	.food-source-list li + li a {
+	.location-list li + li a {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	.food-source-list .distance {
+	.location-list .distance {
 		opacity: 0.5;
 	}
-	.food-source-list h2 + p,
-	.food-source-list h3 + p {
+	.location-list h2 + p,
+	.location-list h3 + p {
 		margin-top: 0;
 	}
-	.food-source-list p:last-child {
+	.location-list p:last-child {
 		margin-bottom: 0;
 	}
-	.food-source-list .type {
+	.location-list .type {
 		font-style: italic;
 		opacity: 0.5;
 	}
 
 	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
-	.food-source-list.sorting li {
+	.location-list.sorting li {
 		visibility: hidden;
 	}
-	.food-source-list.sorting::before {
+	.location-list.sorting::before {
 		content: "Finding nearest locations…";
 		display: block;
 	}
@@ -1533,7 +1533,7 @@
 		display: none;
 	}
 
-	body.food-source main,
+	body.location-details main,
 	body.map main {
 		padding: 0;
 		max-width: none;
@@ -1790,42 +1790,42 @@
 	}
 
 
-	/* =Food Source
+	/* =Location Details
 	----------------------------------------------- */
-	.food-source h1 {
+	.location-details h1 {
 		margin-bottom: 0;
 	}
-	.food-source h1 span {
+	.location-details h1 span {
 		display: inline-block; /* @avoid-break */
 	}
-	.food-source h1 + p {
+	.location-details h1 + p {
 		margin-bottom: 1.5em;
 	}
-	.food-source .page-contents h2 {
+	.location-details .page-contents h2 {
 		font-size: inherit;
 		margin-top: 1.5em;
 		display: block;
 		margin-bottom: 0.5em;
 	}
-	.food-source h2 + p {
+	.location-details h2 + p {
 		margin-top: 0;
 	}
 
-	.food-source .mapbox {
+	.location-details .mapbox {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		height: 150px;
 		height: calc(50vh);
 		margin-bottom: -1.5em;
 	}
 	@media (min-width: 30em) {
-		.food-source .mapbox {
+		.location-details .mapbox {
 			margin-bottom: -3em;
 		}
 	}
 
 	/* OPTIONAL: Position the map on the right side, on really big screens. */
 	@media (min-width: 70em) {
-		.food-source .mapbox {
+		.location-details .mapbox {
 			border-top-width: 0;
 			border-left: 1px solid rgba(0, 0, 0, 0.1);
 			width: 50%;
@@ -1837,8 +1837,8 @@
 			height: 500px;
 			height: 100vh;
 		}
-		.food-source h1,
-		.food-source .page-contents {
+		.location-details h1,
+		.location-details .page-contents {
 			width: 45%;
 		}
 	}

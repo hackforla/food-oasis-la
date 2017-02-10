@@ -62,7 +62,7 @@ categories:
 </div>
 -->
 
-<!-- For locations.js -->
+<!-- For location-list.js -->
 <script type="text/template" id="you-are-here-template">
 	<div class="you-are-here"><span>You are here</span></div>
 </script>
@@ -98,7 +98,7 @@ categories:
 	</a>
 </script>
 
-<ul class="food-source-list">
+<ul class="location-list">
 {% if page.collection %}
 
 	{% assign data_collection = site.collections | where: "label", page.collection | first %}
@@ -262,4 +262,4 @@ var listOffset = {{ page.list_offset }};
 <script src="/api/locations.js"></script>
 {% endif %}
 
-<script src="/assets/js/locations.js"></script>
+<script src="/assets/js/location-list.js"></script>

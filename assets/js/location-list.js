@@ -59,7 +59,7 @@
 
 		function findUserLocation() {
 			var address = getParameterByName('address');
-			var foodSourcesList = document.querySelector('.food-source-list');
+			var foodSourcesList = document.querySelector('.location-list');
 
 			// If the user passed in an address, and if the Google Maps geocoder is available
 			if (address && "google" in window) {
@@ -473,7 +473,7 @@
 		var start = window.listOffset || 0;
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
-		var list = document.querySelector('.food-source-list');
+		var list = document.querySelector('.location-list');
 		if (list) {
 			list.innerHTML = '';
 			for (var index = start; index < sortedLocations.length && index < limit; index++) {
@@ -489,7 +489,7 @@
 			limit = 10;
 		}
 		limit = Number(limit);
-		var list = document.querySelector('.food-source-list');
+		var list = document.querySelector('.location-list');
 		var items = list.querySelectorAll('li');
 		limit += items.length;
 		if (limit >= sortedLocations.length) limit = sortedLocations.length;
