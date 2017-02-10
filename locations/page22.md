@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: location-list
 color: lime
 title: 'Healthy Food in Los Angeles, Page 22'
 page_number: 22

@@ -26,14 +26,14 @@ function stringToURI(str) {
     .replace(/\-\-/g, '-')
 }
 
-function createMarkdownFile(writePath, data) {
+function createMarkdownFile(writePath, data, category_uri) {
 
   // Page title
   data.title = data.name + ', Food Oasis Los Angeles';
 
   var filename = stringToURI(data.name.replace(' ' + data.category, ''));
 
-  data.uri = '/' + data.category.toLowerCase().replace(' ', '-') + '/' + filename + '/';
+  data.uri = '/' + category_uri + '/' + filename + '/';
 
    // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   var output =
@@ -62,7 +62,7 @@ function generateCollection(data_name) {
   var input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   var records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
   for (let index = 0; index < records.length; index++) {
-    createMarkdownFile(writePath, records[index]);
+    createMarkdownFile(writePath, records[index], data_name);
   }
   return records;
 }
@@ -76,7 +76,7 @@ function createPageFile(writePath, pageNumber, name, uri, size, color) {
 
   // Page title
   var data = {
-    layout: 'list',
+    layout: 'location-list',
     color: color,
     title: name + ' in Los Angeles, Page ' + pageNumber,
     page_number: pageNumber,
@@ -171,9 +171,7 @@ function generateLocationJSON() {
   });
 }
 
-generateLocationJSON();
-
-/*
+generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets)), 'generated-locations-for-jekyll.json');
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118
@@ -186,9 +184,10 @@ request({
   if (!error && response.statusCode === 200) {
     var writePath = '../_community-garden-from-staging-api';
     for (let index = 0; index < body.length; index++) {
-      createMarkdownFile(writePath, body[index]);
+      createMarkdownFile(writePath, body[index], 'community-garden-from-staging-api');
     }
+    var communityGardensFromStagingAPI = body;
+    generatePages('Community Gardens from Staging API', 'community-garden-from-staging-api', communityGardens.length, 'lime');
+    generateLocationJSON(communityGardensFromStagingAPI, 'generated-locations-from-staging-api-for-jekyll.json');
   }
 });
-
-*/

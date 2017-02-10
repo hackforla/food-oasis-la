@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: location-list
 color: canteloupe
 title: 'Food Pantries in Los Angeles, Page 17'
 page_number: 17

@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: location-list
 color: strawberry
 title: 'Farmers’ Markets in Los Angeles, Page 7'
 page_number: 7

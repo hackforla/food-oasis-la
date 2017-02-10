@@ -39,25 +39,25 @@ defaults:
       path: ""
       type: community-garden
     values:
-      layout: food-source-details
+      layout: location-details
       color: lime
   - scope:
       path: ""
       type: community-garden-from-staging-api
     values:
-      layout: food-source-details
+      layout: location-details
       color: lime
   - scope:
       path: ""
       type: farmers-market
     values:
-      layout: food-source-details
+      layout: location-details
       color: strawberry
   - scope:
       path: ""
       type: food-pantry
     values:
-      layout: food-source-details
+      layout: location-details
       color: canteloupe
 
 collections:

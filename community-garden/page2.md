@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: location-list
 color: lime
 title: 'Community Gardens in Los Angeles, Page 2'
 page_number: 2
