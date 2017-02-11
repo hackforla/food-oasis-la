@@ -16,7 +16,9 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 
 	<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}" />
 
-	<link rel="canonical" href="https://foodoasis.la{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}" />
+	{% if page.canonical_url %}
+	<link rel="canonical" href="https://foodoasis.la{{ page.canonical_url }}" />
+	{% endif %}
 
 	<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 	
