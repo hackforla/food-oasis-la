@@ -8,4 +8,4 @@ redirect: https://foodoasis.la/
 
 # Voting for the LA2050 competition has ended and we thank you for all your support! 
 
-# You will now be re-directed to our homepage.
+# Please visit our [home page](/).
