@@ -784,8 +784,6 @@
 	}
 	footer .link-list li {
 		display: inline-block;
-	}
-	footer .link-list li + li {
 		margin-left: 0.75em;
 		margin-right: 0.75em;
 	}
