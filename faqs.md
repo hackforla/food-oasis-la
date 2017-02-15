@@ -69,10 +69,4 @@ How do we make this happen?
 Coming soon.
 
 <h2> <a name="question11"></a> What is not in the map? </h2>
-See our Resources page for additional information.
-
-
-
-
-
-
+See our [Resources page](/resources/) for additional information.
