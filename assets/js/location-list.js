@@ -84,13 +84,13 @@
 
 						sortByClosest(latitude, longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>' + getParameterByName('address') + '</em>';
+						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>' + getParameterByName('address') + '</em>';
 
 					} else {
 						console.error('Geocode was not successful for the following reason: ' + status);
 						sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
+						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 					}
 				});
 
@@ -102,18 +102,18 @@
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near you';
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near you';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
 					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 				});
 			} else {
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'near <em>Downtown Los Angeles</em>';
+				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 			}
 		}
 
