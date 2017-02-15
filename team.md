@@ -76,16 +76,18 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Regan Hutson
 * Stella Kim
 * Michael Kunc
+* Hannah Lazarus
 * Amanda McGlothlin
 * Rebecca Pizano
+* Danny Prikaz
 * Joshua Robins
 * Johnny Romano
 * Jon Schleuss
+* George Syrop
 * Wes Tawfik
 * Jim Thoburn
 * Arlene Waclawek
 * Halina Zarate
-* George Syrop
 
 ## Want to contribute?
 Join us at [Hack for LA](http://www.hackforla.org/), Tuesdays at 6pm!
