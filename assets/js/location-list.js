@@ -102,7 +102,7 @@
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near you';
+					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near You';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
