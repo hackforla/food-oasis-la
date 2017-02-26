@@ -1,4 +1,7 @@
 ---
+title: Rancho San Pedro Community Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 name: Rancho San Pedro Community Garden
 address_1: 275 W 1st Street
 address_2: ''
@@ -7,14 +10,12 @@ state: CA
 zipcode: '90731'
 phone: ''
 latitude: '33.74327698400003'
-longitude: '-118.28301723599998'
-category: Community Garden
+longitude: "-118.28301723599998"
 website: ''
-active: 'Y'
+active: Y
 daycode: ''
 open: ''
 close: ''
-title: 'Rancho San Pedro Community Garden, Food Oasis Los Angeles'
-uri: /community-garden/rancho-san-pedro/
-
+uri: "/community-garden/rancho-san-pedro/"
 ---
+

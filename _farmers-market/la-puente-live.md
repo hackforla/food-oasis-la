@@ -1,7 +1,9 @@
 ---
+title: La Puente Live Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: ''
 name: La Puente Live Farmers Market
-category: Farmers Market
 address_1: Main Street & First Street
 city: La Puente
 state: California
@@ -11,9 +13,9 @@ website: ''
 season_open: 7/1
 season_close: 12/31
 day_open: '6'
-time_open: '6:00 PM'
-time_close: '10:00 PM'
-longitude: '-117.9523'
+time_open: 6:00 PM
+time_close: 10:00 PM
+longitude: "-117.9523"
 latitude: '34.0201'
 EBT: ''
 day1_open: ''
@@ -26,10 +28,9 @@ day4_open: ''
 day4_close: ''
 day5_open: ''
 day5_close: ''
-day6_open: '10:00 PM'
+day6_open: 10:00 PM
 day7_open: ''
 day7_close: ''
-title: 'La Puente Live Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/la-puente-live/
-
+uri: "/farmers-market/la-puente-live/"
 ---
+

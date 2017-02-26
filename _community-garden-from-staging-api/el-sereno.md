@@ -1,4 +1,7 @@
 ---
+title: El Sereno Community Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 id: 13
 name: El Sereno Community Garden
 address_1: 5466 Huntington Drive
@@ -8,10 +11,8 @@ state: CA
 zipcode: '90032'
 phone: ''
 latitude: '34.092497'
-longitude: '-118.161623'
-category: Community Garden
+longitude: "-118.161623"
 hours: []
-title: 'El Sereno Community Garden, Food Oasis Los Angeles'
-uri: /community-garden-from-staging-api/el-sereno/
-
+uri: "/community-garden-from-staging-api/el-sereno/"
 ---
+

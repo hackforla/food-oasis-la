@@ -1,8 +1,6 @@
 ---
-layout: default
-
 title: Frequently Asked Questions, Food Oasis Los Angeles
-
+layout: default
 color: grape
 ---
 

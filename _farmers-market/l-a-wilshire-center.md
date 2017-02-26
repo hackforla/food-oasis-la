@@ -1,7 +1,9 @@
 ---
+title: L.A. Wilshire Center Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1003441'
 name: L.A. Wilshire Center Farmers Market
-category: Farmers Market
 address_1: Mariposa & Wilshire
 city: Tarzana
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-119.016'
+longitude: "-119.016"
 latitude: '36.0678'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'L.A. Wilshire Center Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/l-a-wilshire-center/
-
+uri: "/farmers-market/l-a-wilshire-center/"
 ---
+

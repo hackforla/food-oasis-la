@@ -1,7 +1,9 @@
 ---
+title: Chatsworth Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1003729'
 name: Chatsworth Farmers Market
-category: Farmers Market
 address_1: Devonshire St.
 city: Chatsworth
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.597'
+longitude: "-118.597"
 latitude: '34.2572'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Chatsworth Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/chatsworth/
-
+uri: "/farmers-market/chatsworth/"
 ---
+

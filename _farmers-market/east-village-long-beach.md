@@ -1,7 +1,9 @@
 ---
+title: East Village Long Beach Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1006657'
 name: East Village Long Beach Farmers Market
-category: Farmers Market
 address_1: 1St Street and Elm St.
 city: LONG BEACH
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.188'
+longitude: "-118.188"
 latitude: '33.7681'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'East Village Long Beach Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/east-village-long-beach/
-
+uri: "/farmers-market/east-village-long-beach/"
 ---
+

@@ -1,7 +1,9 @@
 ---
+title: Malibu Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1001537'
 name: Malibu Farmers Market
-category: Farmers Market
 address_1: 23525 Civic Center Way
 city: Malibu
 state: California
@@ -11,13 +13,13 @@ website: ''
 season_open: ''
 season_close: ''
 day_open: '1'
-time_open: '10:00 AM'
-time_close: '3:00 PM'
-longitude: '-118.6912'
+time_open: 10:00 AM
+time_close: 3:00 PM
+longitude: "-118.6912"
 latitude: '34.0347'
 EBT: ''
-day1_open: '10:00 AM'
-day1_close: '3:00 PM'
+day1_open: 10:00 AM
+day1_close: 3:00 PM
 day2_open: ''
 day2_close: ''
 day3_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Malibu Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/malibu/
-
+uri: "/farmers-market/malibu/"
 ---
+

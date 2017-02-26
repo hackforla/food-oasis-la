@@ -1,4 +1,7 @@
 ---
+title: Granada Hills Salad Bowl Garden Club, Food Oasis Los Angeles
+categories:
+- Community Garden
 name: Granada Hills Salad Bowl Garden Club
 address_1: 16003 Rinaldi Street
 address_2: ''
@@ -7,14 +10,12 @@ state: CA
 zipcode: '91344'
 phone: 818-368-4533
 latitude: '34.27917819000004'
-longitude: '-118.48080939099998'
-category: Community Garden
+longitude: "-118.48080939099998"
 website: ''
-active: 'Y'
+active: Y
 daycode: ''
 open: ''
 close: ''
-title: 'Granada Hills Salad Bowl Garden Club, Food Oasis Los Angeles'
-uri: /community-garden/granada-hills-salad-bowl-garden-club/
-
+uri: "/community-garden/granada-hills-salad-bowl-garden-club/"
 ---
+

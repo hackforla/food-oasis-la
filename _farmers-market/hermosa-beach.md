@@ -1,7 +1,9 @@
 ---
+title: Hermosa Beach Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1006480'
 name: Hermosa Beach Farmers Market
-category: Farmers Market
 address_1: Valley Dr. between 8th St. & 10th St.
 city: Hermosa Beach
 state: California
@@ -11,9 +13,9 @@ website: ''
 season_open: 1/1
 season_close: 12/31
 day_open: '6'
-time_open: '12:00 PM'
-time_close: '4:00 PM'
-longitude: '-118.3952'
+time_open: 12:00 PM
+time_close: 4:00 PM
+longitude: "-118.3952"
 latitude: '33.862'
 EBT: ''
 day1_open: ''
@@ -26,10 +28,9 @@ day4_open: ''
 day4_close: ''
 day5_open: ''
 day5_close: ''
-day6_open: '4:00 PM'
+day6_open: 4:00 PM
 day7_open: ''
 day7_close: ''
-title: 'Hermosa Beach Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/hermosa-beach/
-
+uri: "/farmers-market/hermosa-beach/"
 ---
+

@@ -1,7 +1,9 @@
 ---
+title: Topanga Canyon Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1000224'
 name: Topanga Canyon Farmers Market
-category: Farmers Market
 address_1: 120 S. Topanga Canyon Blvd
 city: Topanga
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.605'
+longitude: "-118.605"
 latitude: '34.0906'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Topanga Canyon Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/topanga-canyon/
-
+uri: "/farmers-market/topanga-canyon/"
 ---
+

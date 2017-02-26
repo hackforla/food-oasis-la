@@ -1,7 +1,9 @@
 ---
+title: Santa Monica Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1001944'
 name: Santa Monica Farmers Market
-category: Farmers Market
 address_1: Santa Monica Airport
 city: Santa Monica
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.447'
+longitude: "-118.447"
 latitude: '34.0172'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Santa Monica Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/santa-monica/
-
+uri: "/farmers-market/santa-monica/"
 ---
+

@@ -1,7 +1,9 @@
 ---
+title: Whittier Host Lions Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1011897'
 name: Whittier Host Lions Farmers Market
-category: Farmers Market
 address_1: 9401 S Painter Ave
 city: South Whittier
 state: California
@@ -11,9 +13,9 @@ website: ''
 season_open: ''
 season_close: ''
 day_open: '7'
-time_open: '8:00 AM'
-time_close: '1:00 PM'
-longitude: '-118.0443'
+time_open: 8:00 AM
+time_close: 1:00 PM
+longitude: "-118.0443"
 latitude: '33.9532'
 EBT: ''
 day1_open: ''
@@ -27,9 +29,8 @@ day4_close: ''
 day5_open: ''
 day5_close: ''
 day6_open: ''
-day7_open: '8:00 AM'
-day7_close: '1:00 PM'
-title: 'Whittier Host Lions Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/whittier-host-lions/
-
+day7_open: 8:00 AM
+day7_close: 1:00 PM
+uri: "/farmers-market/whittier-host-lions/"
 ---
+

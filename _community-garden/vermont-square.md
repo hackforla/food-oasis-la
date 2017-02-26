@@ -1,4 +1,7 @@
 ---
+title: Vermont Square Community Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 name: Vermont Square Community Garden
 address_1: 4712 S Vermont Avenue
 address_2: ''
@@ -7,14 +10,12 @@ state: CA
 zipcode: '90037'
 phone: ''
 latitude: '34.00009092600004'
-longitude: '-118.29150677299998'
-category: Community Garden
+longitude: "-118.29150677299998"
 website: ''
-active: 'Y'
+active: Y
 daycode: ''
 open: ''
 close: ''
-title: 'Vermont Square Community Garden, Food Oasis Los Angeles'
-uri: /community-garden/vermont-square/
-
+uri: "/community-garden/vermont-square/"
 ---
+

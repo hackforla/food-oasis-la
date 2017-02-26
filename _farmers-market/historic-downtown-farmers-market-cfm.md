@@ -1,7 +1,9 @@
 ---
+title: Historic Downtown Farmers' Market (CFM), Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: ''
 name: Historic Downtown Farmers' Market (CFM)
-category: Farmers Market
 address_1: 205 West 5th Street
 city: Los Angeles
 state: California
@@ -11,13 +13,13 @@ website: ''
 season_open: ''
 season_close: ''
 day_open: '1'
-time_open: '9:30 AM'
-time_close: '2:00 PM'
+time_open: 9:30 AM
+time_close: 2:00 PM
 longitude: ''
 latitude: ''
-EBT: 'Y'
-day1_open: '9:30 AM'
-day1_close: '2:00 PM'
+EBT: Y
+day1_open: 9:30 AM
+day1_close: 2:00 PM
 day2_open: ''
 day2_close: ''
 day3_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Historic Downtown Farmers'' Market (CFM), Food Oasis Los Angeles'
-uri: /farmers-market/historic-downtown-farmers-market-cfm/
-
+uri: "/farmers-market/historic-downtown-farmers-market-cfm/"
 ---
+

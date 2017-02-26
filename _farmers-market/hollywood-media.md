@@ -1,7 +1,9 @@
 ---
+title: Hollywood Media Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1001880'
 name: Hollywood Media Farmers Market
-category: Farmers Market
 address_1: 1100 Block of Cole Ave.
 city: Hollister
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-121.607'
+longitude: "-121.607"
 latitude: '36.7105'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Hollywood Media Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/hollywood-media/
-
+uri: "/farmers-market/hollywood-media/"
 ---
+

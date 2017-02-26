@@ -1,4 +1,7 @@
 ---
+title: Salesian Boys & Girls Club Community Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 name: Salesian Boys & Girls Club Community Garden
 address_1: 2228 E 4th Street
 address_2: ''
@@ -7,14 +10,12 @@ state: CA
 zipcode: '90033'
 phone: ''
 latitude: '34.04122508200004'
-longitude: '-118.21322074599999'
-category: Community Garden
+longitude: "-118.21322074599999"
 website: ''
-active: 'Y'
+active: Y
 daycode: ''
 open: ''
 close: ''
-title: 'Salesian Boys & Girls Club Community Garden, Food Oasis Los Angeles'
-uri: /community-garden/salesian-boys-girls-club/
-
+uri: "/community-garden/salesian-boys-girls-club/"
 ---
+

@@ -1,7 +1,9 @@
 ---
+title: Carson Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1000369'
 name: Carson Farmers Market
-category: Farmers Market
 address_1: Carson St. & Bonita St.
 city: Carson
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.259'
+longitude: "-118.259"
 latitude: '33.8316'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Carson Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/carson/
-
+uri: "/farmers-market/carson/"
 ---
+

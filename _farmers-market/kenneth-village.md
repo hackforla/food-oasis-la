@@ -1,7 +1,9 @@
 ---
+title: Kenneth Village, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1005578'
 name: Kenneth Village
-category: Farmers Market
 address_1: 1435 W. Kenneth Rd.
 city: GLENDALE
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.281'
+longitude: "-118.281"
 latitude: '34.173'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Kenneth Village, Food Oasis Los Angeles'
-uri: /farmers-market/kenneth-village/
-
+uri: "/farmers-market/kenneth-village/"
 ---
+

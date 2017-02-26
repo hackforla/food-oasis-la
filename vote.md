@@ -1,8 +1,6 @@
 ---
-layout: default
-
 title: Vote for Food Oasis Los Angeles on LA2050
-
+layout: default
 redirect: https://foodoasis.la/
 ---
 

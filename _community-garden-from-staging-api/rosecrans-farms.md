@@ -1,4 +1,7 @@
 ---
+title: Rosecrans Farms, Food Oasis Los Angeles
+categories:
+- Community Garden
 id: 52
 name: Rosecrans Farms
 address_1: 561 W 146th Street
@@ -8,10 +11,8 @@ state: CA
 zipcode: '90248'
 phone: ''
 latitude: '33.900159'
-longitude: '-118.285232'
-category: Community Garden
+longitude: "-118.285232"
 hours: []
-title: 'Rosecrans Farms, Food Oasis Los Angeles'
-uri: /community-garden-from-staging-api/rosecrans-farms/
-
+uri: "/community-garden-from-staging-api/rosecrans-farms/"
 ---
+

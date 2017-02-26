@@ -1,4 +1,7 @@
 ---
+title: Vista Hermosa Gardens, Food Oasis Los Angeles
+categories:
+- Community Garden
 id: 32
 name: Vista Hermosa Gardens
 address_1: 1590 E 114th Street
@@ -8,10 +11,8 @@ state: CA
 zipcode: '90059'
 phone: ''
 latitude: '33.931087'
-longitude: '-118.246526'
-category: Community Garden
+longitude: "-118.246526"
 hours: []
-title: 'Vista Hermosa Gardens, Food Oasis Los Angeles'
-uri: /community-garden-from-staging-api/vista-hermosa-gardens/
-
+uri: "/community-garden-from-staging-api/vista-hermosa-gardens/"
 ---
+

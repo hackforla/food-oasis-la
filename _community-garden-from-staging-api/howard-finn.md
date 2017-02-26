@@ -1,4 +1,7 @@
 ---
+title: Howard Finn Community Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 id: 35
 name: Howard Finn Community Garden
 address_1: 7747 Foothill Blvd
@@ -8,10 +11,8 @@ state: CA
 zipcode: '91042'
 phone: ''
 latitude: '34.258132'
-longitude: '-118.301699'
-category: Community Garden
+longitude: "-118.301699"
 hours: []
-title: 'Howard Finn Community Garden, Food Oasis Los Angeles'
-uri: /community-garden-from-staging-api/howard-finn/
-
+uri: "/community-garden-from-staging-api/howard-finn/"
 ---
+

@@ -1,4 +1,7 @@
 ---
+title: John S. Gibson Senior Garden, Food Oasis Los Angeles
+categories:
+- Community Garden
 name: John S. Gibson Senior Garden
 address_1: 1500 S Harbor Blvd
 address_2: ''
@@ -7,14 +10,12 @@ state: CA
 zipcode: '90731'
 phone: ''
 latitude: '33.73094877400007'
-longitude: '-118.279958637'
-category: Community Garden
+longitude: "-118.279958637"
 website: ''
-active: 'Y'
+active: Y
 daycode: ''
 open: ''
 close: ''
-title: 'John S. Gibson Senior Garden, Food Oasis Los Angeles'
-uri: /community-garden/john-s-gibson-senior-garden/
-
+uri: "/community-garden/john-s-gibson-senior-garden/"
 ---
+

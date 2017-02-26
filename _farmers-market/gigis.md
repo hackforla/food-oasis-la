@@ -1,7 +1,9 @@
 ---
+title: Gigis Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1006658'
 name: Gigis Farmers Market
-category: Farmers Market
 address_1: 889 American Way
 city: GLENDALE
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.211'
+longitude: "-118.211"
 latitude: '34.1251'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'Gigis Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/gigis/
-
+uri: "/farmers-market/gigis/"
 ---
+

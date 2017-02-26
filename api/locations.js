@@ -1,6 +1,7 @@
 ---
-layout: null
+layout: 
 ---
+
 var locations = [
 
 {% assign data_list = site.data['generated-locations-for-jekyll'] %}

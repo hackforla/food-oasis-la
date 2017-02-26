@@ -1,8 +1,6 @@
 ---
-layout: default
-
 title: About Food Oasis Los Angeles
-
+layout: default
 color: strawberry
 ---
 

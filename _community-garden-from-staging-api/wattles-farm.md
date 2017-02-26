@@ -1,4 +1,7 @@
 ---
+title: Wattles Farm, Food Oasis Los Angeles
+categories:
+- Community Garden
 id: 9
 name: Wattles Farm
 address_1: 1714 N Curson Avenue
@@ -8,10 +11,8 @@ state: CA
 zipcode: '90046'
 phone: ''
 latitude: '34.101991'
-longitude: '-118.355012'
-category: Community Garden
+longitude: "-118.355012"
 hours: []
-title: 'Wattles Farm, Food Oasis Los Angeles'
-uri: /community-garden-from-staging-api/wattles-farm/
-
+uri: "/community-garden-from-staging-api/wattles-farm/"
 ---
+

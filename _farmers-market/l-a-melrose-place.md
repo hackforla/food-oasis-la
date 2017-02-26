@@ -1,7 +1,9 @@
 ---
+title: L.A. Melrose Place Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1003446'
 name: L.A. Melrose Place Farmers Market
-category: Farmers Market
 address_1: Melrose Place & Croft
 city: Los Angeles
 state: California
@@ -13,9 +15,9 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.374'
+longitude: "-118.374"
 latitude: '34.0841'
-EBT: 'Y'
+EBT: Y
 day1_open: ''
 day1_close: ''
 day2_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'L.A. Melrose Place Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/l-a-melrose-place/
-
+uri: "/farmers-market/l-a-melrose-place/"
 ---
+

@@ -1,7 +1,9 @@
 ---
+title: Playa Vista Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1002350'
 name: Playa Vista Farmers Market
-category: Farmers Market
 address_1: 6500 Seabluff Drive
 city: Playa Vista
 state: California
@@ -11,9 +13,9 @@ website: ''
 season_open: 1/1
 season_close: 12/31
 day_open: '7'
-time_open: '9:00 AM'
-time_close: '2:00 PM'
-longitude: '-118.4219'
+time_open: 9:00 AM
+time_close: 2:00 PM
+longitude: "-118.4219"
 latitude: '33.9726'
 EBT: ''
 day1_open: ''
@@ -27,9 +29,8 @@ day4_close: ''
 day5_open: ''
 day5_close: ''
 day6_open: ''
-day7_open: '9:00 AM'
-day7_close: '2:00 PM'
-title: 'Playa Vista Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/playa-vista/
-
+day7_open: 9:00 AM
+day7_close: 2:00 PM
+uri: "/farmers-market/playa-vista/"
 ---
+

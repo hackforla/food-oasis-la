@@ -1,7 +1,9 @@
 ---
+title: L.A. Silverlake Farmers Market, Food Oasis Los Angeles
+categories:
+- Farmers Market
 fm_id: '1001269'
 name: L.A. Silverlake Farmers Market
-category: Farmers Market
 address_1: 9700 Sunset Blvd.
 city: Los Angeles
 state: California
@@ -13,7 +15,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: '-118.282'
+longitude: "-118.282"
 latitude: '34.0943'
 EBT: ''
 day1_open: ''
@@ -29,7 +31,6 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-title: 'L.A. Silverlake Farmers Market, Food Oasis Los Angeles'
-uri: /farmers-market/l-a-silverlake/
-
+uri: "/farmers-market/l-a-silverlake/"
 ---
+
