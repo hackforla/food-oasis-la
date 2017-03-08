@@ -1,7 +1,4 @@
 ---
-title: Epworth Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 27
 name: Epworth Community Garden
 address_1: 1419 W 65th Street
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90044'
 phone: ''
 latitude: '33.980628'
-longitude: "-118.300742"
+longitude: '-118.300742'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/epworth/"
----
+title: 'Epworth Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/epworth/
 
+---

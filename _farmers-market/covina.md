@@ -1,9 +1,7 @@
 ---
-title: Covina Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1001500'
 name: Covina Farmers Market
+category: Farmers Market
 address_1: School St. and Citrus Ave.
 city: Covina
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-117.89"
+longitude: '-117.89'
 latitude: '34.0893'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/covina/"
----
+title: 'Covina Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/covina/
 
+---

@@ -1,7 +1,4 @@
 ---
-title: Norman Harriton Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 name: Norman Harriton Community Garden
 address_1: 2037 N Sanborn Avenue
 address_2: ''
@@ -10,12 +7,14 @@ state: CA
 zipcode: '90027'
 phone: ''
 latitude: '34.104141973000026'
-longitude: "-118.27865306899997"
+longitude: '-118.27865306899997'
+category: Community Garden
 website: ''
-active: Y
+active: 'Y'
 daycode: ''
 open: ''
 close: ''
-uri: "/community-garden/norman-harriton/"
----
+title: 'Norman Harriton Community Garden, Food Oasis Los Angeles'
+uri: /community-garden/norman-harriton/
 
+---

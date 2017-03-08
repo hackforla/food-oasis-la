@@ -1,7 +1,4 @@
 ---
-title: Mothers of East LA Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 16
 name: Mothers of East LA Community Garden
 address_1: 1020 S Fickett Street
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90023'
 phone: ''
 latitude: '34.031341'
-longitude: "-118.215340"
+longitude: '-118.215340'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/mothers-of-east-la/"
----
+title: 'Mothers of East LA Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/mothers-of-east-la/
 
+---

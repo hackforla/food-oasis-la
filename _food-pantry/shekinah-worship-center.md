@@ -1,16 +1,15 @@
 ---
-title: Shekinah Worship Center, Food Oasis Los Angeles
-categories:
-- Food Pantry
 uid: ''
 name: Shekinah Worship Center
+category: Food Pantry
 address_1: 42640 10th Street West
 city: Lancaster
 state: CA
 zipcode: '93534'
 phone: 661.400.2570
 latitude: '34.6579322'
-longitude: "-118.1471819"
-uri: "/food-pantry/shekinah-worship-center/"
----
+longitude: '-118.1471819'
+title: 'Shekinah Worship Center, Food Oasis Los Angeles'
+uri: /food-pantry/shekinah-worship-center/
 
+---

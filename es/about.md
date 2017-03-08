@@ -1,6 +1,8 @@
 ---
-title: About Food Oasis Los Angeles
 layout: default
+
+title: About Food Oasis Los Angeles
+
 color: strawberry
 ---
 

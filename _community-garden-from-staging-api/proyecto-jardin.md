@@ -1,7 +1,4 @@
 ---
-title: Proyecto Jardin, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 14
 name: Proyecto Jardin
 address_1: 1718 Bridge Street
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90033'
 phone: ''
 latitude: '34.051895'
-longitude: "-118.216611"
+longitude: '-118.216611'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/proyecto-jardin/"
----
+title: 'Proyecto Jardin, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/proyecto-jardin/
 
+---

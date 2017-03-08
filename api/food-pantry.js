@@ -1,7 +1,6 @@
 ---
-layout: 
+layout: null
 ---
-
 var locations = [
 
 {% assign data_collection = site.collections | where: "label", "food-pantry" | first %}

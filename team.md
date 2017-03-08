@@ -1,9 +1,10 @@
 ---
-title: Team, Food Oasis Los Angeles
 layout: default
+
+title: Team, Food Oasis Los Angeles
+
 color: strawberry
 ---
-
 ![Food Oasis LA team members](/assets/images/pages/team.jpg)
 
 # Our Team and Project Challenges

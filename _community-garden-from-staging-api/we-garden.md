@@ -1,7 +1,4 @@
 ---
-title: WE Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 46
 name: WE Garden
 address_1: 1010 Abbot Kinney Blvd
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90201'
 phone: ''
 latitude: '33.992116'
-longitude: "-118.472189"
+longitude: '-118.472189'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/we-garden/"
----
+title: 'WE Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/we-garden/
 
+---

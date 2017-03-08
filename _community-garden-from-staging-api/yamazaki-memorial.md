@@ -1,7 +1,4 @@
 ---
-title: Yamazaki Memorial Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 20
 name: Yamazaki Memorial Community Garden
 address_1: 961 S Mariposa Avenue
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90006'
 phone: ''
 latitude: '34.054261'
-longitude: "-118.299262"
+longitude: '-118.299262'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/yamazaki-memorial/"
----
+title: 'Yamazaki Memorial Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/yamazaki-memorial/
 
+---

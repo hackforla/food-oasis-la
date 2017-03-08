@@ -1,9 +1,7 @@
 ---
-title: La Canada Flintridge Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1003444'
 name: La Canada Flintridge Farmers Market
+category: Farmers Market
 address_1: Beulah Dr. & Foothill Ave.
 city: La Canada Flintridge
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-118.198"
+longitude: '-118.198'
 latitude: '34.2035'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/la-canada-flintridge/"
----
+title: 'La Canada Flintridge Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/la-canada-flintridge/
 
+---

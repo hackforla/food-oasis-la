@@ -1,7 +1,4 @@
 ---
-title: Moothart Collingnon/Francis Avenue Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 19
 name: Moothart Collingnon/Francis Avenue Community Garden
 address_1: 2909 Francis Avenue
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90005'
 phone: ''
 latitude: '34.056848'
-longitude: "-118.289420"
+longitude: '-118.289420'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/moothart-collingnon-francis-avenue/"
----
+title: 'Moothart Collingnon/Francis Avenue Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/moothart-collingnon-francis-avenue/
 
+---

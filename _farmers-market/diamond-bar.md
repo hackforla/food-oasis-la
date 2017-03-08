@@ -1,9 +1,7 @@
 ---
-title: Diamond Bar Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1006035'
 name: Diamond Bar Farmers Market
+category: Farmers Market
 address_1: Calvary Chapel Church
 city: Diamond Bar
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-119.781"
+longitude: '-119.781'
 latitude: '36.8199'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/diamond-bar/"
----
+title: 'Diamond Bar Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/diamond-bar/
 
+---

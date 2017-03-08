@@ -1,9 +1,7 @@
 ---
-title: Lynwood Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1003144'
 name: Lynwood Farmers Market
+category: Farmers Market
 address_1: Martin Luther King & Cesar Chavez Lane
 city: Compton
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-121.972"
+longitude: '-121.972'
 latitude: '37.248'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/lynwood/"
----
+title: 'Lynwood Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/lynwood/
 
+---

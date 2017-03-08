@@ -1,7 +1,4 @@
 ---
-title: Emerson Avenue Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 51
 name: Emerson Avenue Community Garden
 address_1: 6550 W 80th Street
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90045'
 phone: ''
 latitude: '33.969234'
-longitude: "-118.404763"
+longitude: '-118.404763'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/emerson-avenue/"
----
+title: 'Emerson Avenue Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/emerson-avenue/
 
+---

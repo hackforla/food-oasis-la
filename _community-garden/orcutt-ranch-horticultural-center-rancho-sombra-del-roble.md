@@ -1,7 +1,4 @@
 ---
-title: Orcutt Ranch Horticultural Center Rancho Sombra del Roble, Food Oasis Los Angeles
-categories:
-- Community Garden
 name: Orcutt Ranch Horticultural Center Rancho Sombra del Roble
 address_1: 23600 Roscoe Blvd
 address_2: ''
@@ -10,12 +7,16 @@ state: CA
 zipcode: '91304'
 phone: ''
 latitude: '34.219132785000056'
-longitude: "-118.64119895299996"
+longitude: '-118.64119895299996'
+category: Community Garden
 website: ''
-active: Y
+active: 'Y'
 daycode: ''
 open: ''
 close: ''
-uri: "/community-garden/orcutt-ranch-horticultural-center-rancho-sombra-del-roble/"
----
+title: >-
+  Orcutt Ranch Horticultural Center Rancho Sombra del Roble, Food Oasis Los
+  Angeles
+uri: /community-garden/orcutt-ranch-horticultural-center-rancho-sombra-del-roble/
 
+---

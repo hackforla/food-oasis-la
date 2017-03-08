@@ -1,7 +1,8 @@
 ---
-title: Getting Involved with Food Oasis Los Angeles
-date: 2017-02-26 01:03:28.567000000 Z
 layout: default
+
+title: Getting Involved with Food Oasis Los Angeles
+
 color: banana
 ---
 

@@ -1,7 +1,4 @@
 ---
-title: North Hollywood Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 40
 name: North Hollywood Community Garden
 address_1: 11800 Weddington Street
@@ -11,8 +8,10 @@ state: CA
 zipcode: '91607'
 phone: ''
 latitude: '34.166854'
-longitude: "-118.390595"
+longitude: '-118.390595'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/north-hollywood/"
----
+title: 'North Hollywood Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/north-hollywood/
 
+---

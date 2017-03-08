@@ -1,9 +1,7 @@
 ---
-title: El Segundo Plaza Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1000024'
 name: El Segundo Plaza Farmers Market
+category: Farmers Market
 address_1: Grand & Eucalyptus
 city: Los Angeles
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-118.405"
+longitude: '-118.405'
 latitude: '33.9208'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/el-segundo-plaza/"
----
+title: 'El Segundo Plaza Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/el-segundo-plaza/
 
+---

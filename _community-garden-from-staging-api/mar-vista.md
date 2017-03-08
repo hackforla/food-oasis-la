@@ -1,7 +1,4 @@
 ---
-title: Mar Vista Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 49
 name: Mar Vista Community Garden
 address_1: 5075 S Slauson Avenue
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90230'
 phone: ''
 latitude: '33.993487'
-longitude: "-118.406856"
+longitude: '-118.406856'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/mar-vista/"
----
+title: 'Mar Vista Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/mar-vista/
 
+---

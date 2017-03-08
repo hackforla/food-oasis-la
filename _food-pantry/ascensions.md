@@ -1,16 +1,15 @@
 ---
-title: Ascension's Food Pantry, Food Oasis Los Angeles
-categories:
-- Food Pantry
 uid: ''
 name: Ascension's Food Pantry
+category: Food Pantry
 address_1: 517 W. 112th Street
 city: Los Angeles
 state: CA
 zipcode: '90044'
 phone: 323.754.2978
 latitude: '33.933076'
-longitude: "-118.282984"
-uri: "/food-pantry/ascensions/"
----
+longitude: '-118.282984'
+title: 'Ascension''s Food Pantry, Food Oasis Los Angeles'
+uri: /food-pantry/ascensions/
 
+---

@@ -1,7 +1,4 @@
 ---
-title: Crenshaw Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 21
 name: Crenshaw Community Garden
 address_1: 1423 S Crenshaw Blvd
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90019'
 phone: ''
 latitude: '34.046196'
-longitude: "-118.327627"
+longitude: '-118.327627'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/crenshaw/"
----
+title: 'Crenshaw Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/crenshaw/
 
+---

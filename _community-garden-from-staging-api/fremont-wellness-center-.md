@@ -1,7 +1,4 @@
 ---
-title: Fremont Wellness Center & Community Garden, Food Oasis Los Angeles
-categories:
-- Community Garden
 id: 28
 name: Fremont Wellness Center & Community Garden
 address_1: 7821 S Avalon Blvd
@@ -11,8 +8,10 @@ state: CA
 zipcode: '90003'
 phone: ''
 latitude: '33.968168'
-longitude: "-118.265197"
+longitude: '-118.265197'
+category: Community Garden
 hours: []
-uri: "/community-garden-from-staging-api/fremont-wellness-center-/"
----
+title: 'Fremont Wellness Center & Community Garden, Food Oasis Los Angeles'
+uri: /community-garden-from-staging-api/fremont-wellness-center-/
 
+---

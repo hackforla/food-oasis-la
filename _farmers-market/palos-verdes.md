@@ -1,9 +1,7 @@
 ---
-title: Palos Verdes Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1011995'
 name: Palos Verdes Farmers Market
+category: Farmers Market
 address_1: Hawthorne Blvd. & Silver Spur Rd.
 city: Rolling Hills Estates
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-118.3749"
+longitude: '-118.3749'
 latitude: '33.7767'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/palos-verdes/"
----
+title: 'Palos Verdes Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/palos-verdes/
 
+---

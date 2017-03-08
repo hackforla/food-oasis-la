@@ -1,9 +1,7 @@
 ---
-title: Sierra Madre Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1005576'
 name: Sierra Madre Farmers Market
+category: Farmers Market
 address_1: S. Baldwin St. & Mariposa St.
 city: ''
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-118.053"
+longitude: '-118.053'
 latitude: '34.1609'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/sierra-madre/"
----
+title: 'Sierra Madre Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/sierra-madre/
 
+---

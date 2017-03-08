@@ -1,9 +1,7 @@
 ---
-title: Green Acres, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: ''
 name: Green Acres
+category: Farmers Market
 address_1: 5000 East Spring Street
 city: Long Beach
 state: California
@@ -13,13 +11,13 @@ website: ''
 season_open: ''
 season_close: ''
 day_open: '1'
-time_open: 8:30 AM
-time_close: 2:30 PM
+time_open: '8:30 AM'
+time_close: '2:30 PM'
 longitude: ''
 latitude: ''
-EBT: Y
-day1_open: 8:30 AM
-day1_close: 2:30 PM
+EBT: 'Y'
+day1_open: '8:30 AM'
+day1_close: '2:30 PM'
 day2_open: ''
 day2_close: ''
 day3_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/green-acres/"
----
+title: 'Green Acres, Food Oasis Los Angeles'
+uri: /farmers-market/green-acres/
 
+---

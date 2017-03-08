@@ -1,9 +1,7 @@
 ---
-title: Cerritos Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1010147'
 name: Cerritos Farmers Market
+category: Farmers Market
 address_1: 17870 Park plaza Drive
 city: Cerritos
 state: California
@@ -13,11 +11,11 @@ website: ''
 season_open: ''
 season_close: ''
 day_open: '7'
-time_open: 8:00 AM
-time_close: 12:00 PM
-longitude: "-118.0625"
+time_open: '8:00 AM'
+time_close: '12:00 PM'
+longitude: '-118.0625'
 latitude: '33.8693'
-EBT: Y
+EBT: 'Y'
 day1_open: ''
 day1_close: ''
 day2_open: ''
@@ -29,8 +27,9 @@ day4_close: ''
 day5_open: ''
 day5_close: ''
 day6_open: ''
-day7_open: 8:00 AM
-day7_close: 12:00 PM
-uri: "/farmers-market/cerritos/"
----
+day7_open: '8:00 AM'
+day7_close: '12:00 PM'
+title: 'Cerritos Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/cerritos/
 
+---

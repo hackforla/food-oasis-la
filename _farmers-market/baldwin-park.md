@@ -1,9 +1,7 @@
 ---
-title: Baldwin Park Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1003720'
 name: Baldwin Park Farmers Market
+category: Farmers Market
 address_1: Baldwin Park - Cesar Chavez & Ramond
 city: Baldwin Park
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-117.965"
+longitude: '-117.965'
 latitude: '34.0856'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/baldwin-park/"
----
+title: 'Baldwin Park Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/baldwin-park/
 
+---

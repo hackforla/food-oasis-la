@@ -1,9 +1,7 @@
 ---
-title: L.A. Chinatown Farmers Market, Food Oasis Los Angeles
-categories:
-- Farmers Market
 fm_id: '1005154'
 name: L.A. Chinatown Farmers Market
+category: Farmers Market
 address_1: 727 North Hill & Alpine
 city: Los Angeles
 state: California
@@ -15,7 +13,7 @@ season_close: ''
 day_open: ''
 time_open: ''
 time_close: ''
-longitude: "-118.24"
+longitude: '-118.24'
 latitude: '34.0628'
 EBT: ''
 day1_open: ''
@@ -31,6 +29,7 @@ day5_close: ''
 day6_open: ''
 day7_open: ''
 day7_close: ''
-uri: "/farmers-market/l-a-chinatown/"
----
+title: 'L.A. Chinatown Farmers Market, Food Oasis Los Angeles'
+uri: /farmers-market/l-a-chinatown/
 
+---
