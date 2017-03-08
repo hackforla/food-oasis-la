@@ -57,6 +57,10 @@ defaults:
     values:
       layout: location-details
       color: canteloupe
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 collections:
   community-garden:
