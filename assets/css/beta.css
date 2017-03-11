@@ -143,7 +143,7 @@
 	.map-container {
 		height: 500px;
 		height: 50vh;
-		height: calc(100vh - 28.5em);
+		height: calc(100vh - 20em);
 		width: 100%;
 		overflow: hidden;
 	}
@@ -449,6 +449,12 @@
 	main,
 	footer {
 		padding: 1.5em;
+	}
+
+	header,
+	nav {
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
 	}
 
 	/*
