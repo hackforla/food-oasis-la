@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: null
 include_footer: false
 classname: location-details
 
@@ -7,17 +7,45 @@ stylesheets:
   - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css"
 ---
 
-<h1>{{ page.name }}</h1>
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<title>Fred Jordan Mission</title>
 
-<p><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
+	{% comment %}
+	* Open Sans - Regular
+	* Open Sans - Italic
+	* Reem Kufi - Regular
 
-<div class="page-contents">
+	You can choose more faces here:
+	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
+	{% endcomment %}
+	<link href="/assets/css/beta.css" rel="stylesheet" />
+</head>
+<body>
 
-	<h2>
-		<img class="icon" src="/assets/images/icons/address.svg" width="30" alt="" />
-		Address
-	</h2>
-	<p>
+<header>
+
+	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
+	<p>Healthy Food for All Angelenos</p>
+
+	<p class="action"><a href="/#navigation">Menu</a></p>
+
+</header>
+
+<nav>
+	<p class="back"><a href="/locations/">← Back to All Results</a></p>
+</nav>
+
+<div id="map" class="map-container"></div>
+
+<main>
+
+	<h1 class="{{ page['category'] | downcase | replace: ' ', '-' }}"><img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(153, 153, 153)" alt="" /> {{ page.name }}</h1>
+
+	<p class="address">
 		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">
 			{{ page['address_1'] | escape }}
 			{% if page['address_2'] and page['address_2'] != '' %}
@@ -28,63 +56,67 @@ stylesheets:
 			{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
 		</a>
 	</p>
+	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
+	<p class="distance"><del>0.4 miles away <mark>Coming soon!</mark></del></p>
+	<p class="open"><del>Open Now <mark>Coming soon!</mark></del></p>
 
-	{% if page['phone'] and page['phone'] != '' %}
-	<h2>
-		<img class="icon" src="/assets/images/icons/phone.svg" width="30" alt="" />
-		Phone
-	</h2>
-	<p>{{ page['phone'] | escape }}</p>
-	{% endif %}
+	<ul class="options action">
+		<li><del><a href="">Share</a> <mark>Coming soon!</mark></del></li>
+		<li><a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Directions</a></li>
+	</ul>
 
-	{% if page['website'] and page['website'] != '' %}
-	<h2>
-		<img class="icon" src="/assets/images/icons/website.svg" width="30" alt="" />
-		Website
-	</h2>
-	<p><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></p>
-	{% endif %}
-
-	{% if page['hours'] %}
-	<h2>
-		<img class="icon" src="/assets/images/icons/hours.svg" width="30" alt="" />
-		Hours
-	</h2>
-	<p>{{ page['hours'] | escape }}</p>
-	{% endif %}
-
-	{% comment %}
+	<del>
+	<h2>Hours</h2>
 	<dl>
+		<dt>Sunday</dt>
+		<dd>8am – 5pm</dd>
+
 		<dt>Monday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
-		<dd>Open Now!</dd>
+		<dd>8am – 5pm</dd>
 
 		<dt>Tuesday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
+		<dd>8am – 11am</dd>
+		<dd>Open Now</dd>
 
 		<dt>Wednesday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
+		<dd>Closed</dd>
 
 		<dt>Thursday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
+		<dd>12pm – 6pm</dd>
 
 		<dt>Friday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
+		<dd>12pm – 6pm</dd>
 
 		<dt>Saturday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
-
-		<dt>Sunday</dt>
-		<dd>11:00 am - 7:00 pm</dd>
+		<dd>1pm – 7pm</dd>
 	</dl>
-	{% endcomment %}
+	<mark>Coming soon!</mark>
+	</del>
 
-	<hr>
-	<p style="font-size:small; font-style:italic;">Wrong Information?
-	<a class="flag" href="https://form.jotform.com/62638504761156?businessName={{ page.name }}&amp;address={{ page.address_1 }}&amp;category={{ page.category }}&amp;longitude={{ page.longitude }}&amp;latitude={{ page.latitude }}" style="color:#808080; font-size:small; font-style:italic;">Let us know</a></p>
-</div>
+	<h2>Information</h2>
 
-<div id="map" class="mapbox"></div>
+	<dl>
+		<dt>Web</dt>
+		<dd>{% if page['website'] and page['website'] != '' %}<a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a>{% else %}<i>unknown</i>{% endif %}</dd>
+
+		<dt>Phone</dt>
+		<dd>{% if page['phone'] and page['phone'] != '' %}{{ page['phone'] | escape }}{% else %}<i>unknown</i>{% endif %}</dd>
+
+		<dt>Facebook</dt>
+		<dd>{% if page['facebook'] and page['facebook'] != '' %}{{ page['facebook'] | escape }}{% else %}<i>unknown</i>{% endif %}</dd>
+
+		<dt>Twitter</dt>
+		<dd>{% if page['twitter'] and page['twitter'] != '' %}{{ page['twitter'] | escape }}{% else %}<i>unknown</i>{% endif %}</dd>
+	</dl>
+
+	<h2>Options</h2>
+
+	<ul class="options action secondary">
+		<li><del><a href="">Claim Business</a> <mark>coming soon!</mark></del></li>
+		<li><a href="https://form.jotform.com/62638504761156?businessName={{ page.name }}&amp;address={{ page.address_1 }}&amp;category={{ page.category }}&amp;longitude={{ page.longitude }}&amp;latitude={{ page.latitude }}">Report Issue</a></li>
+	</ul>
+
+</main>
 
 <script src="https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js"></script>
 
@@ -92,7 +124,6 @@ stylesheets:
 <script type="text/template" id="marker-template">
 	<div class="marker">
 		<img src="/assets/images/markers/green.svg" alt="" />
-		<p class="label">{{ page['name'] | escape }}</p>
 	</div>
 </script>
 
@@ -104,3 +135,6 @@ stylesheets:
 </script>
 
 <script src="/assets/js/location-details.js"></script>
+
+</body>
+</html>

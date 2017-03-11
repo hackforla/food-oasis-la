@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: null
 classname: "map map-list"
 
 stylesheets:
@@ -17,112 +17,175 @@ categories:
         link_label: Farmers’ Markets
 ---
 
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<title>List</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
+	{% comment %}
+	* Open Sans - Regular
+	* Open Sans - Italic
+	* Reem Kufi - Regular
+
+	You can choose more faces here:
+	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
+	{% endcomment %}
+	<link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet" />
+	<link href="/assets/css/beta.css" rel="stylesheet" />
+</head>
+<body>
+
+<header>
+
+	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
+	<p>Healthy Food for All Angelenos</p>
+
+	<p class="action"><a href="/#navigation">Menu</a></p>
+
+</header>
+
+<nav>
+	<p>
+		<a href="/search/" id="search-link">
+			<img src="/assets/images/icons/search-black.svg" width="50" alt="Search" />
+			<span id="search-type">{{ page.category }}</span> <span id="search-location">Near <em>Los Angeles</em></span>
+		</a>
+	</p>
+
+	<ul class="options action secondary" id="search-views">
+		<li><a href="/filters/" id="filters-link">Filters</a></li>
+	</ul>
+
+	<script type="text/template" id="search-views-template">
+		<li class="list" style="display: none;"><button type="button">List</button></li>
+		<li class="map" style="display: none;"><button type="button">Map</button></li>
+	</script>
+
+	<script>
+	(function() {
+		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+		function getParameterByName(name, url) {
+			if (!url) url = window.location.href;
+			name = name.replace(/[\[\]]/g, "\\$&");
+			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+					results = regex.exec(url);
+			if (!results) return null;
+			if (!results[2]) return '';
+			return decodeURIComponent(results[2].replace(/\+/g, " "));
+		}
+
+		// SHIM: Make the type persistent
+		var type = getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %};
+
+		var address = getParameterByName('address');
+
+		function updateLink(link) {
+			var params = [];
+			if (type) params.push('type=' + type);
+			if (address) params.push('address=' + address);
+
+			var queryString = params.join('&');
+			link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
+		}
+
+		if (type || address) {
+			var filtersLink = document.getElementById('filters-link');
+			if (filtersLink) {
+				updateLink(filtersLink);
+			}
+
+			var searchLink = document.getElementById('search-link');
+			if (searchLink) {
+				updateLink(searchLink);
+			}
+		}
+
+		if (type) {
+			var types = type.split('|');
+
+			var searchType = document.getElementById('search-type');
+
+			if (types.length === 1) {
+				// SHIM: Translate to a human readable version of the “type”.
+				searchType.innerText = (types[0] === 'food-pantry') ? 'food pantries' : types[0].replace(/\-/g, ' ') + 's';
+				searchType.style.textTransform = 'capitalize';
+			} else {
+				searchType.innerText = 'healthy food';
+				searchType.style.textTransform = 'capitalize';
+			}
+
+		}
+	})();
+
+	(function() {
+		var views = document.getElementById('search-views');
+		var template = document.getElementById('search-views-template');
+		views.insertAdjacentHTML('afterbegin', template.innerHTML);
+
+		var mapButton = views.querySelector('.map');
+		var listButton = views.querySelector('.list');
+
+		listButton.style.display = "block";
+
+		document.body.classList.add('only-map');
+		document.body.classList.remove('only-list');
+
+		mapButton.addEventListener('click', function(e) {
+			mapButton.style.display = "none";
+			listButton.style.display = "block";
+
+			document.body.classList.add('only-map');
+			document.body.classList.remove('only-list');
+		}, false);
+
+		listButton.addEventListener('click', function(e) {
+			mapButton.style.display = "block";
+			listButton.style.display = "none";
+
+			document.body.classList.remove('only-map');
+			document.body.classList.add('only-list');
+		}, false);
+	})();
+	</script>
+</nav>
+
+<div id="map" class="map-container"></div>
+
+<main>
+
 <!--
-<ul class="link-list has-icons">
-	<li>
-		<a href="/food-pantry">
-			<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
-			<span>Food Pantries</span>
-		</a>
-	</li>
-	<li>
-		<a href="/community-garden">
-			<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
-			<span>Community Gardens</span>
-		</a>
-	</li>
-	<li>
-		<a href="/farmers-market">
-			<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
-			<span>Farmers’ Markets</span>
-		</a>
-	</li>
-</ul>
+	<script type="text/template" id="larger-map-template">
+		<p class="larger-map"><button>Larger Map</button></p>
+	</script>
 -->
 
-<div id="map" class="mapbox"></div>
+	<ul class="list" id="locations">
+	{% if page.collection %}
 
-<script type="text/template" id="larger-map-template">
-	<p class="larger-map"><button>Larger Map</button></p>
-</script>
+		{% assign data_collection = site.collections | where: "label", page.collection | first %}
+		{% assign data_list = data_collection.docs %}
+		{% assign list_limit = page.items_per_page %}
+		{% assign list_offset = page.list_offset %}
+		{% include list.html %}
 
-{% assign form_action = page.first %}
+	{% else %}
 
-<h1 style="color: inherit;">{{ page.category }} <span id="location">Near <em>Los Angeles</em></span></h1>
+		{% assign data_list = site.data['generated-locations-for-jekyll'] %}
 
-<p><a href="#search">Search for something else</a></p>
+		{% assign list_limit = page.items_per_page %}
+		{% assign list_offset = page.list_offset %}
+		{% include list.html %}
 
-<div style="padding-top: 1.5em; border-bottom: 1px solid rgba(0, 0, 0, 0.1);"></div>
+	{% endif %}
+	</ul>
 
-<!--
-<div id="map-not-supported-message" class="message" style="display: none; position: absolute; bottom: 0; left: 0; width: 100%; z-index: 1; padding: 1.5em; text-align: center; background: white; z-index: 9999; box-sizing: border-box;">
-	<h1 style="margin-top: 0;">Uh oh!</h1>
-	<p style="max-width: none;">Our map isn’t working in this web browser. You may want to try viewing the <a href="/locations/">list of locations</a> instead.</p>
-	<p style="max-width: none;" class="action"><a href="/locations/">Show me the list</a></p>
-</div>
--->
-
-<!-- For location-list.js -->
-<script type="text/template" id="you-are-here-template">
-	<div class="you-are-here"><span>You are here</span></div>
-</script>
-
-<!--
-<script type="text/template" id="marker-template">
-	<div class="marker">
-		<img src="/assets/images/markers/purple.svg" alt="" />
-	</div>
-</script>
--->
-
-<script type="text/template" id="popup-template">
-	<div class="map-point-details">
-		<h3><a href=""></a></h3>
-		<p class="type"></p>
-		<p class="address"></p>
-		<p class="phone"></p>
-		<h4>Hours</h4>
-		<p class="hours"></p>
-		<p class="distance"><span></span> miles away</p>
-	</div>
-</script>
-
-<script type="text/template" id="list-item-template">
-	<a href="">
-		<h2></h2>
-		<p class="type"></p>
-		<p class="address"></p>
-		<h3>Hours</h3>
-		<p class="hours"></p>
-		<p class="distance"><span></span> miles away</p>
-	</a>
-</script>
-
-<ul class="location-list">
-{% if page.collection %}
-
-	{% assign data_collection = site.collections | where: "label", page.collection | first %}
-	{% assign data_list = data_collection.docs %}
-	{% assign list_limit = page.items_per_page %}
-	{% assign list_offset = page.list_offset %}
-	{% include list.html %}
-
-{% else %}
-
-	{% assign data_list = site.data['generated-locations-for-jekyll'] %}
-
-	{% assign list_limit = page.items_per_page %}
-	{% assign list_offset = page.list_offset %}
-	{% include list.html %}
-
-{% endif %}
-</ul>
-
-<div style="padding-top: 0em; border-top: 1px solid rgba(0, 0, 0, 0.1);"></div>
+</main>
 
 {% if page.next or page.previous %}
-<nav class="pagination" style="text-align: center;">
-	<ul>
+<nav class="pagination">
+	<ul class="options action">
 		{% if page.next %}
 		<li><a href="{{ page.next }}">More Locations</a></li>
 		{% endif %}
@@ -159,87 +222,32 @@ categories:
 </script>
 {% endif %}
 
-<div style="text-align: center;">
+<!-- For location-list.js -->
+<script type="text/template" id="you-are-here-template">
+	<div class="you-are-here"><span>You are here</span></div>
+</script>
 
-<div style="padding-top: 1.5em;"></div>
+<script type="text/template" id="popup-template">
+	<div class="map-point-details">
+		<h3><a href=""></a></h3>
+		<p class="type"></p>
+		<p class="address"></p>
+		<p class="phone"></p>
+		<h4>Hours</h4>
+		<p class="hours"></p>
+		<p class="distance"><span></span> miles away</p>
+	</div>
+</script>
 
-<h1 id="search">Find {{ page.category | downcase }} <span class="avoid-break">near you</span></h1>
-{% include search-form.html %}
-
-<div class="categories">
-<ul>
-	<li><a href="/food-pantry/">Food Pantries</a></li>
-	<li><a href="/community-garden/">Community Gardens</a></li>
-	<li><a href="/farmers-market/">Farmers’ Markets</a></li>
-	<li><a href="/locations/">Everything</a></li>
-</ul>
-</div>
-
-
-</div>
-
-<div style="margin-top: 9em"></div>
-
-{% comment %}
-<div class="categories" style="margin-top: 4.5em;">
-	<section>
-		<h2>{{ layout.categories.free.headline }}</h2>
-		<ul class="food-pantry link-list has-icons">
-			<li>
-				<a href="/food-pantry">
-					<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
-					<span>{{ layout.categories.free.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ layout.categories.grow.headline }}</h2>
-		<ul class="community-garden link-list has-icons">
-			<li>
-				<a href="/community-garden">
-					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
-					<span>{{ layout.categories.grow.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ layout.categories.purchase.headline }}</h2>
-		<ul class="farmers-market link-list has-icons">
-			<li>
-				<a href="/farmers-market">
-					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
-					<span>{{ layout.categories.purchase.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-</div><!-- /.categories -->
-{% endcomment %}
-
-<script>
-(function() {
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-
-	// SHIM: Make the address persistent
-	var address = getParameterByName('address');
-	if (address) {
-		var links = document.querySelectorAll('.categories a[href]');
-		for (var index = 0; index < links.length; index++) {
-			links[index].setAttribute('href', links[index].getAttribute('href') + '?address=' + address);
-		}
-	}
-})();
+<script type="text/template" id="list-item-template">
+	<a href="">
+		<img src="" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(153, 153, 153)" alt="" />
+		<h2></h2>
+		<p class="address"></p>
+		<p class="type"></p>
+		<p class="open"><del>Open Now <mark>Unknown Hours</mark></del></p>
+		<p class="distance"><span></span> miles away</p>
+	</a>
 </script>
 
 <!-- Jim’s Google Maps API key -->
@@ -263,3 +271,6 @@ var listOffset = {{ page.list_offset }};
 {% endif %}
 
 <script src="/assets/js/location-list.js"></script>
+
+</body>
+</html>

@@ -84,13 +84,13 @@
 
 						sortByClosest(latitude, longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>' + getParameterByName('address') + '</em>';
+						if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>' + getParameterByName('address') + '</em>';
 
 					} else {
 						console.error('Geocode was not successful for the following reason: ' + status);
 						sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+						if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 					}
 				});
 
@@ -102,18 +102,18 @@
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near You';
+					if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near You';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
 					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+					if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 				});
 			} else {
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-				if (document.getElementById('location')) document.getElementById('location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+				if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
 			}
 		}
 
@@ -195,8 +195,14 @@
 
 			var type = getParameterByName('type');
 			if (type) {
+				var types = type.split('|');
 				list = list.filter(function(element) {
-					return (element.category.toLowerCase().replace(' ', '-') === type);
+					for (var index = 0; index < types.length; index++) {
+						if (element.category.toLowerCase().replace(' ', '-') === types[index]) {
+							return true;
+						}
+					}
+					return false;
 				});
 			}
 
@@ -257,14 +263,15 @@
 	var map;
 	if (document.getElementById('map')) {
 		map = L.mapbox.map('map', 'mapbox.light', {
-			zoomControl: false,
-			scrollWheelZoom: false
+			zoomControl: false//,
+			//scrollWheelZoom: false
 		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 14);
 
 		L.control.zoom({
 			position:'topright'
 		}).addTo(map);
 
+		/*
 		(function() {
 			var template = document.getElementById('larger-map-template');
 			if (template) {
@@ -289,6 +296,7 @@
 				// expandMap();
 			}
 		})();
+		*/
 	}
 
 	// Define the icons
@@ -440,22 +448,13 @@
 			// Category (Type)
 			var typeElement = element.querySelector('.type');
 			typeElement.textContent = data.category;
+			var img = element.querySelector('img');
+			img.src = "/assets/images/home/" + element.className + ".svg"; // SHIM: Should we handle this in the CSS instead?
 
 			// Address
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
-			// Hours
-			var hoursElement = element.querySelector('.hours');
-			if (data.hours) {
-				hoursElement.innerHTML = data.hours;
-			} else {
-				var h3 = element.querySelector('h3');
-				h3.parentNode.removeChild(h3);
-
-				hoursElement.parentNode.removeChild(hoursElement);
-			}
-
-			// Address
+			// Distance
 			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);
 
 			return element;
@@ -473,7 +472,7 @@
 		var start = window.listOffset || 0;
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
-		var list = document.querySelector('.location-list');
+		var list = document.getElementById('locations');
 		if (list) {
 			list.innerHTML = '';
 			for (var index = start; index < sortedLocations.length && index < limit; index++) {

@@ -7,6 +7,7 @@
 		container: 'map', // container id
 		style: 'mapbox://styles/mapbox/streets-v9',
 		center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
+		scrollZoom: false,
 		zoom: 14 // starting zoom
 	});
 

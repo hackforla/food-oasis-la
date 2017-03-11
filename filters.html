@@ -1,0 +1,215 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<title>Filters</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
+	{% comment %}
+	* Open Sans - Regular
+	* Open Sans - Italic
+	* Reem Kufi - Regular
+
+	You can choose more faces here:
+	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
+	{% endcomment %}
+	<link href="/assets/css/beta.css" rel="stylesheet" />
+</head>
+<body>
+
+	<header>
+
+		<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
+		<p>Healthy Food for All Angelenos</p>
+
+		<p class="action"><a href="/#navigation">Menu</a></p>
+
+	</header>
+
+	<main>
+
+		<h1>Filters</h1>
+
+		<form action="/locations/" method="get">
+
+			<ul class="options">
+				<li class="action secondary"><button type="reset">Reset</button></li>
+				<li><button type="submit">Done</button></li>
+			</ul>
+
+			<input type="hidden" name="address" />
+			<input type="hidden" name="type" id="hidden-type" />
+
+			<del>
+			<fieldset>
+				<legend>Hours</legend>
+
+				<p>
+					<label>
+						Open Now
+						<input type="checkbox" disabled="disabled" />
+					</label>
+				</p>
+
+				<h3>Open At</h3>
+				<select disabled="disabled">
+					<option>Anytime</option>
+					<option>5am – 6am</option>
+					<option>6am – 7am</option>
+					<option>7am – 8am</option>
+					<option>8am – 9am</option>
+					<option>10am – 11am</option>
+					<option>11am – noon</option>
+					<option>noon – 1pm</option>
+					<option>1pm – 2pm</option>
+					<option>2pm – 3pm</option>
+					<option>4pm – 5pm</option>
+					<option>5pm – 6pm</option>
+					<option>6pm – 7pm</option>
+					<option>7pm – 8pm</option>
+					<option>8pm – 9pm</option>
+					<option>9pm – 10pm</option>
+				</select>
+				<!-- TBD:
+				<input type="text" value="2pm" />
+				-->
+
+				<select disabled="disabled">
+					<option>Any Day</option>
+					<option>Sunday</option>
+					<option>Monday</option>
+					<option>Tuesday</option>
+					<option>Wednesday</option>
+					<option>Thursday</option>
+					<option>Friday</option>
+					<option>Saturday</option>
+				</select>
+
+				<!--
+				TODO: Make a button that looks like a checkbox, that resets the “anytime” and “any day” select elements.
+				<input type="checkbox" />
+				-->
+				<mark>Coming soon!</mark>
+			</fieldset>
+			</del>
+
+			<fieldset>
+				<legend>Types</legend>
+				<ul class="list">
+				<li>
+					<label>
+						<img src="/assets/images/home/food-pantry.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(249, 192, 88); /* @canteloupe */" alt="" />
+						<span class="category">Free</span><br />
+						<span class="type">Food Pantries</span>
+						<input type="checkbox" name="type_option" value="food-pantry" checked="checked" />
+					</label>
+				</li>
+				<li>
+					<label>
+						<img src="/assets/images/home/community-garden.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(144, 194, 70); /* @lime */" alt="" />
+						<span class="category">Grow</span><br />
+						<span class="type">Community Gardens</span>
+						<input type="checkbox" name="type_option" value="community-garden" checked="checked" />
+					</label>
+				</li>
+				<li>
+					<label>
+						<img src="/assets/images/home/farmers-market.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(241, 95, 91); /* @strawberry */" alt="" />
+						<span class="category">Buy</span><br />
+						<span class="type">Farmers Markets</span>
+						<input type="checkbox" name="type_option" value="farmers-market" checked="checked" />
+					</label>
+				</li>
+				<li>
+				<del>
+					<label>
+						<img src="/assets/images/home/grocery-store.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(241, 95, 91); /* @strawberry */" alt="" />
+						<span class="category">Buy</span><br />
+						<span class="type">Grocery Stores</span>
+						<input type="checkbox" name="type_option" value="grocery-store" disabled="disabled" />
+						<mark>Coming soon!</mark>
+					</label>
+				</del>
+				</li>
+				</ul>
+			</fieldset>
+
+			<del>
+			<fieldset>
+				<legend>Research Data</legend>
+				<p>
+					<label>
+						<span>Food Deserts</span>
+						<input type="checkbox" disabled="disabled" />
+						<mark>Coming soon!</mark>
+					</label>
+					<br />
+					<i>Food Deserts are low-income areas without easy access to healthy food.</i>
+				</p>
+			</fieldset>
+			</del>
+		</form>
+
+		<script>
+		(function() {
+			// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+			function getParameterByName(name, url) {
+				if (!url) url = window.location.href;
+				name = name.replace(/[\[\]]/g, "\\$&");
+				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+						results = regex.exec(url);
+				if (!results) return null;
+				if (!results[2]) return '';
+				return decodeURIComponent(results[2].replace(/\+/g, " "));
+			}
+
+			// SHIM: Make the type persistent
+			var type = getParameterByName('type');
+			if (type) {
+				var types = type.split('|');
+				var typeFields = document.querySelectorAll('input[name="type_option"]:checked');
+				for (var index = 0; index < typeFields.length; index++) {
+					(function() {
+						var field = typeFields[index];
+						for (var j = 0; j < types.length; j++) {
+							if (types[j] === field.value) {
+								field.checked = true;
+								return;
+							}
+						}
+						field.checked = false;
+					})();
+				}
+			}
+
+			// SHIM: Pass the type onto the next page as one pipe-delimited query string value
+			var form = document.querySelector('form');
+			form.addEventListener('submit', function(e) {
+				var typeFields = document.querySelectorAll('input[name="type_option"]:checked');
+				var types = [];
+				for (var index = 0; index < typeFields.length; index++) {
+					types.push(typeFields[index].value);
+					//typeFields[index].checked = false;
+				}
+				var hiddenType = document.getElementById('hidden-type');
+				hiddenType.value = types.join('|');
+				form.submit();
+				e.preventDefault();
+			}, false);
+
+			// SHIM: Make the address persistent
+			var address = getParameterByName('address');
+			if (address) {
+				var addressField = document.querySelector('input[name="address"]');
+				addressField.value = address;
+			}
+		})();
+		</script>
+
+	</main>
+
+</body>
+</html>

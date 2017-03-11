@@ -1,0 +1,604 @@
+
+	@charset "utf-8";
+
+	/*
+	Styles for Food Oasis LA
+
+	Sections are grouped under headings with a “=” symbol,
+	to make searching easier.
+
+	When a style is used more than once, it sometimes has a “@keyword”
+	in a comment next to it (to help with search and replace).
+
+	For example…
+
+	16px  @font-size
+	24px  @line-height
+	32em  @page-max-width
+	*/
+
+	del {
+		display: block;
+		opacity: 0.25;
+		text-decoration: none;
+	}
+	mark {
+		display: inline-block;
+		transform: rotate(-15deg) translate(-25%, -100%);
+	}
+
+
+	del, mark {
+		display: none;
+	}
+
+	/* =Elements
+	----------------------------------------------- */
+	body {
+		background: rgb(253, 254, 255);
+		color: rgb(49, 50, 51);
+		margin: 0;
+		padding: 0;
+		font: 100%/1.5 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+	}
+
+	/* OPTIONAL: Increase the font size on big screens. */
+	@media screen and (min-width: 600px) and (min-height: 600px) {
+		html {
+			font-size: 112.5%;
+		}
+	}
+	@media screen and (min-width: 800px) and (min-height: 800px) {
+		html {
+			font-size: 125%;
+		}
+	}
+	@media screen and (min-width: 1000px) and (min-height: 1000px) {
+		html {
+			font-size: 137.5%;
+		}
+	}
+	@media screen and (min-width: 1200px) and (min-height: 1200px) {
+		html {
+			font-size: 150%;
+		}
+	}
+
+	a {
+		color: rgb(77, 85, 148); /* @grape */
+		transition: color 0.2s;
+	}
+	a:hover,
+	a:active,
+	a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+
+	/* =Type
+	----------------------------------------------- */
+	h1, h2, h3, h4, h5, h6, p, dl, ul, ol, table {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: normal;
+		margin-top: 1.5em;
+	}
+
+	/* =Button
+	----------------------------------------------- */
+	button,
+	.action a {
+		display: inline-block;
+		background: rgb(144, 194, 70); /* @lime */
+		background-image: linear-gradient(to top, rgb(124, 174, 50), rgba(124, 174, 50, 0)); /* @dark-lime */
+		color: white;
+		padding: 0.375em 1.5em;
+		border-radius: 0.25em;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: transparent;
+		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
+	}
+	button:hover,
+	button:active,
+	button:focus,
+	.action a:hover,
+	.action a:active,
+	.action a:focus {
+		background: rgb(124, 174, 50); /* @dark-lime */
+		text-decoration: none;
+		color: white;
+	}
+
+	.action.secondary a,
+	.action.secondary button {
+		background: white;
+		color: black;
+		border-color: black;
+	}
+
+
+	/* =Options
+	----------------------------------------------- */
+	.options {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+
+		justify-content: space-between;
+		align-items: center;
+	}
+	.options li + li {
+		margin-left: 1em;
+	}
+
+
+	/* =Map
+	----------------------------------------------- */
+	.map-container {
+		height: 500px;
+		height: 50vh;
+		height: calc(100vh - 28.5em);
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.only-map main {
+		display: none;
+	}
+
+	.only-list #map {
+		display: none;
+	}
+
+
+	/* =You are here
+	----------------------------------------------- */
+	@keyframes sonar {
+		0% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		50% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(3);
+			opacity: 0;
+		}
+	}
+
+	@keyframes shrink {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.875);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
+
+	.you-are-here::before {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		background-color: rgb(0, 128, 255);
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+
+		animation: sonar 3s infinite ease-out;
+	}
+	.you-are-here::after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		position: absolute;
+		top: -20%;
+		left: -20%;
+		z-index: -1;
+		width: 140%;
+		height: 140%;
+		background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 40%, transparent 60%, transparent 100%);
+		background-size: contain;
+	}
+
+	.you-are-here {
+		position: relative;
+		font-size: 1rem;
+		margin-top: -1.25em;
+		margin-right: -1.25em;
+		background: white;
+		padding: 0.2em;
+		border-radius: 50%;
+		display: inline-block;
+		width: auto !important;
+		height: auto !important;
+	}
+	.you-are-here span {
+		display: block;
+		width: 1.05em;
+		height: 1.05em;
+		background-color: rgb(0, 128, 255);
+		border-radius: 50%;
+		animation: shrink 3s 1.5s infinite both;
+
+		/* @hidden-accessible-text */
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+
+
+	/* =Marker
+	----------------------------------------------- */
+	.marker {
+		position: relative;
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+	.marker img {
+		position: absolute;
+		bottom: 0;
+		left: -1em;
+		width: 2em;
+		max-width: none;
+		height: 2em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.marker .label {
+		margin: 0;
+		position: absolute;
+		top: 0.25em;
+		width: 15em;
+		text-align: center;
+		margin-left: -7.5em;
+		padding: 0.375em;
+		background: white;
+		background: rgba(255, 255, 255, 0.5);
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+	}
+	@media (min-width: 30em) {
+		.marker {
+			font-size: 1.5rem;
+		}
+	}
+
+	.farmers-market-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/farmers-market.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
+	.community-garden-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/community-garden.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
+	.food-pantry-marker {
+		border: none;
+		cursor: pointer;
+		height: 56px;
+		width: 43px;
+		background-image: url(/assets/images/map/food-bank.svg);
+		background-color: rgba(0, 0, 0, 0);
+		transform: translate(28px, 56px, 0);
+	}
+
+	/* =Map Point Popup
+	----------------------------------------------- */
+	.map-point-details {
+		max-width: 80vw;
+		font-size: 1rem;
+		line-height: 1.5;
+		padding: 0.75em;
+	}
+	.map-point-details p {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+		font-size: inherit;
+		line-height: inherit;
+	}
+	.map-point-details h3 {
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.25em;
+		line-height: 1.2;
+		font-style: inherit;
+	}
+	.map-point-details h3 a {
+		color: rgb(77, 85, 148); /* @grape */
+		text-decoration: underline;
+	}
+.disabled .farmers-market-details h3 a {
+	color: rgb(241, 95, 91); /* @strawberry */
+}
+.disabled .community-garden-details h3 a {
+	color: rgb(144, 194, 70); /* @lime */
+}
+.disabled .food-pantry-details h3 a {
+	color: rgb(249, 192, 88); /* @canteloupe */
+}
+	.map-point-details h3 a:hover,
+	.map-point-details h3 a:active,
+	.map-point-details h3 a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.map-point-details h3 + p {
+		margin-top: 0;
+	}
+	.map-point-details .type,
+	.map-point-details .distance {
+		opacity: 0.5;
+	}
+	.map-point-details .type {
+		font-style: italic;
+	}
+	.map-point-details h4 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-family: inherit;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+	.map-point-details .hours {
+		margin-top: 0;
+		max-width: 15em;
+		line-height: 1.5;
+	}
+	.map-point-details p:last-child {
+		margin-bottom: 0;
+	}
+
+
+	/* =Header
+	----------------------------------------------- */
+	body {
+		background-color: rgb(241, 241, 241);
+	}
+	nav,
+	header {
+		background-color: rgb(241, 241, 241);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	main {
+		background: rgb(253, 254, 255);
+	}
+	header h2,
+	header p {
+		margin: 0;
+	}
+	header h2 img {
+		width: 2.5em;
+		height: auto;
+	}
+
+	/* SHIM: Hide the tagline on small screens */
+	@media (max-width: 40em) {
+		header h2 + p {
+			position: absolute;
+			left: -9909px
+		}
+	}
+
+
+	/* =Nav
+	----------------------------------------------- */
+	nav {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+		position: relative;
+		z-index: 1;
+	}
+	main + nav {
+		box-shadow: none;
+	}
+	nav a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	nav p,
+	nav ul {
+		margin: 0;
+	}
+
+	/* icon */
+	nav img {
+		vertical-align: middle;
+	}
+
+	/* SHIM: Hide the search details on small screens */
+	@media (max-width: 40em) {
+		nav img ~ span {
+			position: absolute;
+			left: -9909px
+		}
+	}
+
+
+	/* =Layout
+	----------------------------------------------- */
+	header,
+	nav,
+	main,
+	footer {
+		padding: 1.5em;
+	}
+
+	/*
+	main {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	*/
+
+	main > * {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	/* =Description List
+	----------------------------------------------- */
+	dt {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding-top: 0.375em;
+		padding-bottom: 0.375em;
+		padding-left: 1.5em;
+	}
+	dd {
+		padding-bottom: 0.375em;
+	}
+	@media (min-width: 40em) {
+		dl:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		dt {
+			clear: both;
+			float: left;
+			width: 14em;
+			text-align: left;
+			padding-bottom: 0.375em;
+			box-sizing: border-box;
+			white-space: nowrap;
+		}
+		dt + dd {
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+			padding-top: 0.375em;
+		}
+		dd {
+			padding-left: 1.45em;
+			margin-left: 14em;
+		}
+	}
+
+
+	/* =List
+	----------------------------------------------- */
+	.list {
+		list-style: none;
+		padding-left: 0;
+	}
+	.list li + li {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.list a,
+	.list label {
+		display: block;
+		color: inherit;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		text-decoration: none;
+	}
+	.list input[type="checkbox"] {
+		font-size: inherit;
+	}
+	.list h2 {
+		margin-top: 0;
+		text-decoration: underline;
+		margin-bottom: 0.25em;
+		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @grape */
+	}
+	.list .type {
+		opacity: 0.5;
+	}
+	.list .type {
+		font-style: italic;
+	}
+	.list li {
+		position: relative;
+	}
+	.list li img {
+		position: absolute;
+	}
+	.list li img ~ span,
+	.list li img ~ p {
+		padding-left: 3em;
+	}
+	.list li img ~ h2 {
+		padding-left: 3rem;
+	}
+	.list li input[type="checkbox"] {
+		position: absolute;
+		top: 50%;
+		right: 1.5em;
+	}
+
+	h1.farmers-market img,
+	.list .farmers-market img {
+		background-color: rgb(241, 95, 91) !important; /* @strawberry */
+	}
+	h1.food-pantry img,
+	.list .food-pantry img {
+		background-color: rgb(249, 192, 88) !important; /* @canteloupe */
+	}
+	h1.community-garden img,
+	.list .community-garden img {
+		background-color: rgb(144, 194, 70) !important; /* @lime */
+	}
+
+
+	/* =Field
+	----------------------------------------------- */
+	input[type="text"],
+	input[type="search"] {
+		line-height: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.375em 0.75em;
+		border-radius: 0.25em;
+		border: 1px solid black;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-color: rgba(0, 0, 0, 0.25);
+		width: 20em;
+		max-width: 100%;
+		box-sizing: border-box;
+
+		/* Remove default */
+		-webkit-appearance: none;
+	}
+	@media (max-width: 35em) {
+		input[type="text"],
+		input[type="search"] {
+			width: 100%;
+		}
+	}
+
+
+	fieldset {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+		border: 0.25em solid rgb(204, 204, 204);
+	}
