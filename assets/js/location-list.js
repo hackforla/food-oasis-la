@@ -380,9 +380,16 @@
 					var popup = L.popup({ maxWidth: INFINITY })
 						.setContent(createPopupElement(location));
 
-					L.marker(coordinates, { icon: icon })
-						.bindPopup(popup)
-						.addTo(map);
+					var marker = L.marker(coordinates, { icon: icon });
+
+					marker.bindPopup(popup);
+					marker.addTo(map);
+
+					if (index === 0) {
+						// KUDOS: http://stackoverflow.com/questions/13008328/leaflet-mapbox-openpopup-not-working
+						marker.openPopup();
+					}
+
 					bounds.push(coordinates);
 				})(locations[index]);
 			}
