@@ -291,11 +291,14 @@
 	}
 	@media (max-width: 35em) {
 		.pseudo-field,
+		.pseudo-button,
 		input[type="text"],
 		.home form button,
 		header button,
 		form.find button,
 		.map-filters button {
+			margin-top: 0.25em;
+			box-sizing: border-box;
 			width: 100%;
 		}
 		.home form button,
