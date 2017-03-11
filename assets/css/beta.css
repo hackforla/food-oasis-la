@@ -20,16 +20,11 @@
 	del {
 		display: block;
 		opacity: 0.25;
-		text-decoration: none;
 	}
 	mark {
+		text-decoration: none;
 		display: inline-block;
-		transform: rotate(-15deg) translate(-25%, -100%);
-	}
-
-
-	del, mark {
-		display: none;
+		transform: rotate(-15deg);
 	}
 
 	/* =Elements
