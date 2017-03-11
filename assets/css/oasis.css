@@ -166,7 +166,8 @@
 	.home form button,
 	header button,
 	.map-filters button,
-	nav a {
+	nav a,
+	.pseudo-button {
 		display: inline-block;
 		background: rgb(243, 117, 104); /* @salmon */
 		background: rgb(209, 43, 43); /* @apple */
@@ -265,7 +266,11 @@
 
 	/* =Field
 	----------------------------------------------- */
+	.pseudo-field,
 	input[type="text"] {
+		display: inline-block;
+		background: white;
+		color: black;
 		line-height: inherit;
 		font-family: inherit;
 		font-size: inherit;
@@ -285,6 +290,7 @@
 		box-sizing: border-box;
 	}
 	@media (max-width: 35em) {
+		.pseudo-field,
 		input[type="text"],
 		.home form button,
 		header button,

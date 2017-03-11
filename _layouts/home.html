@@ -8,27 +8,23 @@ classname: home
 	<div>
 		<h1>{{ page.headline }}</h1>
 		<p>
+			<!--
 			<label>
 				<span style="position: absolute; left: -9999px;">{{ page.address_field_label }}</span><br />
-				<input disabled="disabled" placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
+				<input placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
 			</label>
 			<button type="submit" style="text-transform: none;">Search</button>
+			-->
+			<a href="/search/">
+				<span class="pseudo-field">Los Angeles</span>
+				<span class="pseudo-button">Search</span>
+			</a>
 		</p>
 	</div>
 
 	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
 	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
 </form>
-
-<script>
-(function() {
-	var form = document.querySelector('form');
-	form.addEventListener('click', function(e) {
-		window.location = '/search/';
-		e.preventDefault();
-	}, false);
-})();
-</script>
 
 <div class="categories">
 	<section>
