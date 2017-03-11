@@ -591,11 +591,11 @@
 	}
 	@media (max-width: 35em) {
 		input[type="text"],
-		input[type="search"] {
+		input[type="search"],
+		form button {
 			width: 100%;
 		}
 	}
-
 
 	fieldset {
 		margin-top: 0.75em;
