@@ -368,6 +368,7 @@
 		limit += start;
 		if (limit >= locations.length) limit = locations.length;
 		var bounds = [];
+		var firstMarker;
 
 		if (map) {
 			for (var index = start; index < locations.length && index < limit; index++) {
@@ -386,8 +387,7 @@
 					marker.addTo(map);
 
 					if (index === 0) {
-						// KUDOS: http://stackoverflow.com/questions/13008328/leaflet-mapbox-openpopup-not-working
-						marker.openPopup();
+						firstMarker = marker;
 					}
 
 					bounds.push(coordinates);
@@ -426,7 +426,7 @@
 
 		if (map) {
 			map.fitBounds(bounds);
-			//map.panTo(new L.LatLng(latitude, longitude));
+			if (firstMarker) firstMarker.openPopup();
 		}
 
 		/*
