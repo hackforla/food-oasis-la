@@ -26,7 +26,7 @@ stylesheets:
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body>
+<body class="location-details">
 
 <header>
 
@@ -37,30 +37,42 @@ stylesheets:
 
 </header>
 
+{% comment %}
+TODO:
+* Pass the search parameters from the search page to this page, by editing location-list.js (For examaple… ?address=San+Gabriel&type=farmers-market)
+* Use JavaScript to add those parameters to this link and then display it.
+
 <nav>
 	<p class="back"><a href="/locations/">← Back to All Results</a></p>
 </nav>
+{% endcomment %}
 
 <div id="map" class="map-container"></div>
 
 <main>
 
-	<h1 class="{{ page['category'] | downcase | replace: ' ', '-' }}"><img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(153, 153, 153)" alt="" /> {{ page.name }}</h1>
+	<div class="header {{ page['category'] | downcase | replace: ' ', '-' }}">
 
-	<p class="address">
-		<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">
-			{{ page['address_1'] | escape }}
-			{% if page['address_2'] and page['address_2'] != '' %}
+		<img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" alt="" />
+
+		<h1>{{ page.name }}</h1>
+
+		<p class="address">
+			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">
+				{{ page['address_1'] | escape }}
+				{% if page['address_2'] and page['address_2'] != '' %}
+					<br />
+					{{ page['address_2'] | escape }}
+				{% endif %}
 				<br />
-				{{ page['address_2'] | escape }}
-			{% endif %}
-			<br />
-			{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
-		</a>
-	</p>
-	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
-	<p class="distance"><del>0.4 miles away <mark>Coming soon!</mark></del></p>
-	<p class="open"><del>Open Now <mark>Coming soon!</mark></del></p>
+				{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
+			</a>
+		</p>
+		<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
+		<p class="distance"><del>0.4 miles away <mark>Coming soon!</mark></del></p>
+		<p class="open"><del>Open Now <mark>Coming soon!</mark></del></p>
+
+	</div>
 
 	<ul class="options action">
 		<li><del><a>Share</a> <mark>Coming soon!</mark></del></li>

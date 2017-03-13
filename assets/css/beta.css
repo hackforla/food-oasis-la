@@ -160,6 +160,10 @@
 		overflow: hidden;
 	}
 
+	.location-details .map-container {
+		height: 30vh;
+	}
+
 	.only-map main {
 		display: none;
 	}
@@ -588,15 +592,36 @@
 		right: 1.5em;
 	}
 
-	h1.farmers-market img,
+	.location-details main .header {
+		padding-left: 3em;
+		position: relative;
+	}
+	.location-details main .header h1 {
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+
+	.location-details main .header img {
+		width: auto;
+		height: 1.5em;
+		border-radius: 50%;
+		vertical-align: middle;
+		margin-right: 0.375em;
+		padding: 0.375em;
+		background: rgb(153, 153, 153);
+		position: absolute;
+		left: 0;
+	}
+
+	.location-details main .header.farmers-market img,
 	.list .farmers-market img {
 		background-color: rgb(241, 95, 91) !important; /* @strawberry */
 	}
-	h1.food-pantry img,
+	.location-details main .header.food-pantry img,
 	.list .food-pantry img {
 		background-color: rgb(249, 192, 88) !important; /* @canteloupe */
 	}
-	h1.community-garden img,
+	.location-details main .header.community-garden img,
 	.list .community-garden img {
 		background-color: rgb(144, 194, 70) !important; /* @lime */
 	}
