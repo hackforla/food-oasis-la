@@ -42,9 +42,9 @@ categories:
 <header>
 
 	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
-	<p>Healthy Food for All Angelenos</p>
+	<p class="tagline">Healthy Food for All Angelenos</p>
 
-	<p class="action"><a href="/#navigation">Menu</a></p>
+	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
 
 </header>
 
@@ -61,8 +61,8 @@ categories:
 	</ul>
 
 	<script type="text/template" id="search-views-template">
-		<li class="list" style="display: none;"><button type="button">List</button></li>
-		<li class="map" style="display: none;"><button type="button">Map</button></li>
+		<li class="list action" style="display: none;"><button type="button">List</button></li>
+		<li class="map action" style="display: none;"><button type="button">Map</button></li>
 	</script>
 
 	<script>
@@ -189,7 +189,7 @@ categories:
 <nav class="pagination">
 	<ul class="options action">
 		{% if page.next %}
-		<li><a href="{{ page.next }}">More Locations</a></li>
+		<li><a href="{{ page.next }}">Next {{ page.items_per_page }} results →</a></li>
 		{% endif %}
 {% comment %}
 		{% if page.previous %}

@@ -84,7 +84,7 @@
 
 	/* =Button
 	----------------------------------------------- */
-	button,
+	.action button,
 	.action a {
 		display: inline-block;
 		background: rgb(144, 194, 70); /* @lime */
@@ -98,10 +98,12 @@
 		text-decoration: none;
 		cursor: pointer;
 		font-size: inherit;
+		text-transform: uppercase;
+		line-height: inherit;
 	}
-	button:hover,
-	button:active,
-	button:focus,
+	.action button:hover,
+	.action button:active,
+	.action button:focus,
 	.action a:hover,
 	.action a:active,
 	.action a:focus {
@@ -130,6 +132,21 @@
 	}
 	.options li + li {
 		margin-left: 1em;
+	}
+
+	.options.search {
+		background-color: rgb(241, 241, 241);
+		padding: 0.75em 1.5em;
+		margin-top: -1.5em;
+		margin-left: -1.5em;
+		margin-right: -1.5em;
+	}
+	@media (min-width: 46em) {
+		.options.search {
+			margin-top: -1.5em;
+			margin-left: calc(-50vw + 20em);
+			margin-right: calc(-50vw + 20em);
+		}
 	}
 
 
@@ -381,6 +398,9 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	header p:first-child {
+		width: 3em;
+	}
 	main {
 		background: rgb(253, 254, 255);
 	}
@@ -399,6 +419,12 @@
 			position: absolute;
 			left: -9909px
 		}
+	}
+
+	.nav-link img {
+		vertical-align: middle;
+		height: 1.5em;
+		width: auto;
 	}
 
 
@@ -461,7 +487,7 @@
 	*/
 
 	main > * {
-		max-width: 40em;
+		max-width: 40rem;
 		margin-left: auto;
 		margin-right: auto;
 	}

@@ -22,23 +22,16 @@ layout: null
 </head>
 <body>
 
-	<header>
-
-		<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
-		<p>Healthy Food for All Angelenos</p>
-
-	</header>
-
 	<main>
-
-		<h1>Filters</h1>
 
 		<form action="/locations/" method="get">
 
-			<ul class="options">
+			<ul class="options search">
 				<li class="action secondary"><button type="reset">Reset</button></li>
-				<li><button type="submit">Done</button></li>
+				<li class="action"><button type="submit">Done</button></li>
 			</ul>
+
+			<h1>Filters</h1>
 
 			<input type="hidden" name="address" />
 			<input type="hidden" name="type" id="hidden-type" />
