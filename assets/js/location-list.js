@@ -368,7 +368,6 @@
 		limit += start;
 		if (limit >= locations.length) limit = locations.length;
 		var bounds = [];
-		var firstMarker;
 
 		if (map) {
 			for (var index = start; index < locations.length && index < limit; index++) {
@@ -385,10 +384,6 @@
 
 					marker.bindPopup(popup);
 					marker.addTo(map);
-
-					if (index === 0) {
-						firstMarker = marker;
-					}
 
 					bounds.push(coordinates);
 				})(locations[index]);
@@ -426,7 +421,6 @@
 
 		if (map) {
 			map.fitBounds(bounds);
-			if (firstMarker) firstMarker.openPopup();
 		}
 
 		/*

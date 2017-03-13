@@ -462,6 +462,11 @@
 		}
 	}
 
+	nav.pagination {
+		padding-top: 0.75em;
+		text-align: center;
+	}
+
 
 	/* =Layout
 	----------------------------------------------- */
@@ -474,8 +479,8 @@
 
 	header,
 	nav {
-		padding-top: 0.75em;
-		padding-bottom: 0.75em;
+		padding-top: 0.375em;
+		padding-bottom: 0.375em;
 	}
 
 	/*
