@@ -5,22 +5,11 @@ classname: home
 
 <form action="/locations/" method="get">
 
-	<div>
-		<h1>{{ page.headline }}</h1>
-		<p>
-			<!--
-			<label>
-				<span style="position: absolute; left: -9999px;">{{ page.address_field_label }}</span><br />
-				<input placeholder="Los Angeles" type="text" name="address" autocomplete="off" autocorrect="off" />
-			</label>
-			<button type="submit" style="text-transform: none;">Search</button>
-			-->
+		<h1>
 			<a href="/search/">
-				<span class="pseudo-field">Los Angeles</span>
-				<span class="pseudo-button">Search</span>
+				<span class="pseudo-field" style="position: relative; border-width: 0;">{{ page.headline }} <img src="/assets/images/icons/search.svg" width="50" style="border-top-right-radius: 0.25em; border-bottom-right-radius: 0.25em; height: 100%; width: auto; vertical-align: middle; position: absolute; padding-left: 0.375em; padding-right: 0.375em; top: 0; right: 0; background: rgb(144, 194, 70); /* @lime */" /></span>
 			</a>
-		</p>
-	</div>
+		</h1>
 
 	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
 	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>

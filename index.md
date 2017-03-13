@@ -2,7 +2,7 @@
 layout: home
 
 title: Find healthy food near you, Food Oasis Los Angeles
-headline: Find healthy food <span class="avoid-break">near you</span>.
+headline: Find healthy food
 address_field_label: Address, Neighborhood, or Zip
 categories:
     free:

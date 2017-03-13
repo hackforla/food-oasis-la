@@ -166,8 +166,7 @@
 	.home form button,
 	header button,
 	.map-filters button,
-	nav a,
-	.pseudo-button {
+	nav a {
 		display: inline-block;
 		background: rgb(243, 117, 104); /* @salmon */
 		background: rgb(209, 43, 43); /* @apple */
@@ -188,6 +187,7 @@
 		text-decoration: none;
 		cursor: pointer;
 		font-size: inherit;
+		text-transform: uppercase;
 	}
 	.action a:hover,
 	.action a:active,
@@ -291,7 +291,6 @@
 	}
 	@media (max-width: 35em) {
 		.pseudo-field,
-		.pseudo-button,
 		input[type="text"],
 		.home form button,
 		header button,
@@ -310,6 +309,9 @@
 		.home form {
 			text-align: center;
 		}
+	}
+	.pseudo-field {
+		padding-right: 3.75em;
 	}
 
 
@@ -1758,6 +1760,12 @@
 	.home form h1 {
 		margin-top: 0;
 		color: inherit;
+		font-size: inherit;
+	}
+	@media (min-width: 30em) {
+		.home form h1 {
+			font-size: 1.5em;
+		}
 	}
 	.home .header {
 		position: absolute;
