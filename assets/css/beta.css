@@ -324,7 +324,9 @@
 	}
 
 
-	/* =Map Point Popup
+	/* =Leaflet Location Summary
+	-----------------------------------------------
+	SHIM: Override the default leaflet styles to make the location summary appear the same way it does in the “list”
 	----------------------------------------------- */
 	.leaflet-popup-content .location-summary {
 		display: block;
