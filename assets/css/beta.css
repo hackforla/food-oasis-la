@@ -296,96 +296,61 @@
 	.farmers-market-marker {
 		border: none;
 		cursor: pointer;
-		height: 56px;
-		width: 43px;
-		background-image: url(/assets/images/map/farmers-market.svg);
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-red-small.svg);
 		background-color: rgba(0, 0, 0, 0);
-		transform: translate(28px, 56px, 0);
+		transform: translate(23px, 46px, 0);
 	}
 
 	.community-garden-marker {
 		border: none;
 		cursor: pointer;
-		height: 56px;
-		width: 43px;
-		background-image: url(/assets/images/map/community-garden.svg);
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-green-small.svg);
 		background-color: rgba(0, 0, 0, 0);
-		transform: translate(28px, 56px, 0);
+		transform: translate(23px, 46px, 0);
 	}
 
 	.food-pantry-marker {
 		border: none;
 		cursor: pointer;
-		height: 56px;
-		width: 43px;
-		background-image: url(/assets/images/map/food-bank.svg);
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-yellow-small.svg);
 		background-color: rgba(0, 0, 0, 0);
-		transform: translate(28px, 56px, 0);
+		transform: translate(23px, 46px, 0);
 	}
+
 
 	/* =Map Point Popup
 	----------------------------------------------- */
-	.map-point-details {
+	.leaflet-popup-content .location-summary {
+		display: block;
 		max-width: 80vw;
 		font-size: 1rem;
 		line-height: 1.5;
 		padding: 0.75em;
+		color: inherit;
 	}
-	.map-point-details p {
+	.leaflet-popup-content .location-summary img {
+		box-sizing: content-box;
+	}
+	.leaflet-popup-content .location-summary p {
 		margin-top: 0.75em;
 		margin-bottom: 0.75em;
 		font-size: inherit;
 		line-height: inherit;
 	}
-	.map-point-details h3 {
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+	.leaflet-popup-content .location-summary h2 {
 		margin-top: 0;
-		margin-bottom: 0;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 		font-size: 1.25em;
 		line-height: 1.2;
 		font-style: inherit;
 	}
-	.map-point-details h3 a {
-		color: rgb(77, 85, 148); /* @grape */
-		text-decoration: underline;
-	}
-.disabled .farmers-market-details h3 a {
-	color: rgb(241, 95, 91); /* @strawberry */
-}
-.disabled .community-garden-details h3 a {
-	color: rgb(144, 194, 70); /* @lime */
-}
-.disabled .food-pantry-details h3 a {
-	color: rgb(249, 192, 88); /* @canteloupe */
-}
-	.map-point-details h3 a:hover,
-	.map-point-details h3 a:active,
-	.map-point-details h3 a:focus {
-		color: rgb(241, 95, 91); /* @strawberry */
-	}
-	.map-point-details h3 + p {
-		margin-top: 0;
-	}
-	.map-point-details .type,
-	.map-point-details .distance {
-		opacity: 0.5;
-	}
-	.map-point-details .type {
-		font-style: italic;
-	}
-	.map-point-details h4 {
-		margin-top: 0;
-		margin-bottom: 0;
-		font-family: inherit;
-		font-weight: bold;
-		line-height: 1.5;
-	}
-	.map-point-details .hours {
-		margin-top: 0;
-		max-width: 15em;
-		line-height: 1.5;
-	}
-	.map-point-details p:last-child {
+	.leaflet-popup-content .location-summary p:last-child {
 		margin-bottom: 0;
 	}
 
@@ -549,7 +514,8 @@
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
 	.list a,
-	.list label {
+	.list label,
+	.location-summary {
 		display: block;
 		color: inherit;
 		padding-top: 0.75em;
@@ -559,7 +525,8 @@
 	.list input[type="checkbox"] {
 		font-size: inherit;
 	}
-	.list h2 {
+	.list h2,
+	.location-summary h2 {
 		margin-top: 0;
 		text-decoration: underline;
 		margin-bottom: 0.25em;
@@ -567,26 +534,30 @@
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(77, 85, 148); /* @grape */
 	}
-	.list .type {
+	.list .type,
+	.location-summary .type {
 		opacity: 0.5;
-	}
-	.list .type {
 		font-style: italic;
 	}
 	.list .classification {
 		font-size: 0.875em;
 	}
-	.list li {
+	.list li,
+	.location-summary {
 		position: relative;
 	}
-	.list li img {
+	.list li img,
+	.location-summary img {
 		position: absolute;
 	}
 	.list li img ~ span,
-	.list li img ~ p {
+	.list li img ~ p,
+	.location-summary img ~ span,
+	.location-summary img ~ p {
 		padding-left: 3rem;
 	}
-	.list li img ~ h2 {
+	.list li img ~ h2,
+	.location-summary img ~ h2 {
 		padding-left: 3rem;
 	}
 	.list li input[type="checkbox"] {
@@ -616,16 +587,26 @@
 		left: 0;
 	}
 
+	.location-summary img {
+		width: auto;
+		height: 1.5em;
+		border-radius: 50%;
+		padding: 0.375em;
+		vertical-align: middle;
+		margin-right: 0.375em;
+		background: rgb(153, 153, 153);
+	}
+
 	.location-details main .header.farmers-market img,
-	.list .farmers-market img {
+	.farmers-market .location-summary img {
 		background-color: rgb(241, 95, 91) !important; /* @strawberry */
 	}
 	.location-details main .header.food-pantry img,
-	.list .food-pantry img {
+	.food-pantry .location-summary img {
 		background-color: rgb(249, 192, 88) !important; /* @canteloupe */
 	}
 	.location-details main .header.community-garden img,
-	.list .community-garden img {
+	.community-garden .location-summary img {
 		background-color: rgb(144, 194, 70) !important; /* @lime */
 	}
 

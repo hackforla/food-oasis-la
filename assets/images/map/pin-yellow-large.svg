@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="70px" viewBox="0 0 42 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>pin-yellow-large</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pin-yellow-large">
+            <g id="Big-Pin-Copy-3">
+                <ellipse id="Oval" fill-opacity="0.437924592" fill="#1E1E1E" filter="url(#filter-1)" cx="21" cy="66.5" rx="7" ry="3.5"></ellipse>
+                <path d="M20.8798765,0 C-3.30812354,0 -1.35812354,23.671 1.94187646,31.312 C4.86787646,38.085 20.8798765,67.312 20.8798765,67.312 C20.8798765,67.312 36.8918765,38.085 39.8178765,31.312 C43.1178765,23.671 45.0678765,0 20.8798765,0 Z M20.8798765,28.894 C16.2078765,28.894 12.4228765,25.109 12.4228765,20.437 C12.4228765,15.765 16.2078765,11.98 20.8798765,11.98 C25.5518765,11.98 29.3368765,15.765 29.3368765,20.437 C29.3368765,25.109 25.5518765,28.894 20.8798765,28.894 Z" id="Page-1" fill="#F9C058"></path>
+            </g>
+        </g>
+    </g>
+</svg>

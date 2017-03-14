@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="46px" viewBox="0 0 30 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>pin-yellow-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pin-yellow-small">
+            <g id="Pin-Copy-4">
+                <ellipse id="Oval" fill-opacity="0.437924592" fill="#1E1E1E" filter="url(#filter-1)" cx="15" cy="36.5" rx="5" ry="2.5"></ellipse>
+                <path d="M15.2556821,3 C3.37513102,3 4.3329231,14.6266134 5.95380199,18.3796848 C7.39098127,21.7064159 15.2556821,36.062 15.2556821,36.062 C15.2556821,36.062 23.120383,21.7064159 24.5575623,18.3796848 C26.1784412,14.6266134 27.1362332,3 15.2556821,3 Z" id="Page-1-Copy" fill="#F9C058"></path>
+            </g>
+        </g>
+    </g>
+</svg>

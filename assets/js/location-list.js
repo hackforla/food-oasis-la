@@ -14,46 +14,6 @@
 		return parseFloat(miles.toFixed(1));
 	}
 
-	function createPopupElement(data) {
-
-		var template = document.getElementById('popup-template');
-		if (template) {
-			var element = document.createElement('div');
-			element.innerHTML = template.innerHTML;
-			element.querySelector('.map-point-details').className +=
-				' ' + data.category.toLowerCase().replace(' ', '-') + '-details'; // Example: farmers-market-details
-
-			// Name
-			var nameElement = element.querySelector('h3');
-			var link = nameElement.querySelector('a');
-			link.setAttribute('href', data.uri);
-			link.innerText = data.name;
-
-			// Category (Type)
-			var typeElement = element.querySelector('.type');
-			typeElement.innerText = data.category;
-
-			// Address
-			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
-
-			// Hours
-			var hoursElement = element.querySelector('.hours');
-			if (data.hours) {
-				hoursElement.innerHTML = data.hours;
-			} else {
-				var h4 = element.querySelector('h4');
-				h4.parentNode.removeChild(h4);
-
-				hoursElement.parentNode.removeChild(hoursElement);
-			}
-
-			// Address
-			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);
-
-			return element;
-		}
-	}
-
 
 	(function() {
 
@@ -307,22 +267,22 @@
 				// Specify a class name we can refer to in CSS.
 				className: 'farmers-market-marker',
 				// Set marker width and height
-				iconSize: [43, 56],
-				popupAnchor: [0, -28]
+				iconSize: [30, 46],
+				popupAnchor: [0, -23]
 			}),
 			'Community Garden': L.divIcon({
 				// Specify a class name we can refer to in CSS.
 				className: 'community-garden-marker',
 				// Set marker width and height
-				iconSize: [43, 56],
-				popupAnchor: [0, -28]
+				iconSize: [30, 46],
+				popupAnchor: [0, -23]
 			}),
 			'Food Pantry': L.divIcon({
 				// Specify a class name we can refer to in CSS.
 				className: 'food-pantry-marker',
 				// Set marker width and height
-				iconSize: [43, 56],
-				popupAnchor: [0, -28]
+				iconSize: [30, 46],
+				popupAnchor: [0, -23]
 			})
 		};
 	}
@@ -378,7 +338,7 @@
 						location.longitude
 					];
 					var popup = L.popup({ maxWidth: INFINITY })
-						.setContent(createPopupElement(location));
+						.setContent(createListItem(location, 'div'));
 
 					var marker = L.marker(coordinates, { icon: icon });
 
@@ -431,14 +391,14 @@
 		*/
 	}
 
-	function createListItem(data) {
+	function createListItem(data, containerTagName) {
 
 		var template = document.getElementById('list-item-template');
 		if (template) {
-			var element = document.createElement('li');
+			var element = document.createElement(containerTagName);
 			var category = data.category.toLowerCase().replace(' ', '-'); // Example: farmers-market
 			element.innerHTML = template.innerHTML;
-			element.className = 'location-summary ' + category;
+			element.className = category;
 
 			// Name
 			var nameElement = element.querySelector('h2');
@@ -478,7 +438,7 @@
 		if (list) {
 			list.innerHTML = '';
 			for (var index = start; index < sortedLocations.length && index < limit; index++) {
-				list.appendChild(createListItem(sortedLocations[index]));
+				list.appendChild(createListItem(sortedLocations[index], 'li'));
 			}
 		}
 	}

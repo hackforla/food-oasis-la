@@ -1,7 +1,7 @@
 {% for data in data_list limit:list_limit offset:list_offset %}
-	<li class="{{ data['category'] | downcase | replace: ' ', '-' }} location-summary" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
-		<a href="{{ data.uri }}">
-			<img src="/assets/images/home/{{ data['category'] | downcase | replace: ' ', '-' }}.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(153, 153, 153)" alt="" />
+	<li class="{{ data['category'] | downcase | replace: ' ', '-' }}" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
+		<a href="{{ data.uri }}" class="location-summary">
+			<img src="/assets/images/home/{{ data['category'] | downcase | replace: ' ', '-' }}.svg" alt="" />
 			<h2>{{ data['name'] }}</h2>
 			<p class="address">{{ data['address_1'] | escape }}</p>
 			<p class="type">{{ data['category'] }}</p>
