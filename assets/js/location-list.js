@@ -436,8 +436,9 @@
 		var template = document.getElementById('list-item-template');
 		if (template) {
 			var element = document.createElement('li');
+			var category = data.category.toLowerCase().replace(' ', '-'); // Example: farmers-market
 			element.innerHTML = template.innerHTML;
-			element.className = data.category.toLowerCase().replace(' ', '-'); // Example: farmers-market
+			element.className = 'location-summary ' + category;
 
 			// Name
 			var nameElement = element.querySelector('h2');
@@ -450,7 +451,7 @@
 			var typeElement = element.querySelector('.type');
 			typeElement.textContent = data.category;
 			var img = element.querySelector('img');
-			img.src = "/assets/images/home/" + element.className + ".svg"; // SHIM: Should we handle this in the CSS instead?
+			img.src = "/assets/images/home/" + category + ".svg"; // SHIM: Should we handle this in the CSS instead?
 
 			// Address
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;

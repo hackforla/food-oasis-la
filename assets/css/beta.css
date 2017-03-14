@@ -552,8 +552,8 @@
 	.list label {
 		display: block;
 		color: inherit;
-		padding-top: 1.5em;
-		padding-bottom: 1.5em;
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
 		text-decoration: none;
 	}
 	.list input[type="checkbox"] {
@@ -573,6 +573,9 @@
 	.list .type {
 		font-style: italic;
 	}
+	.list .classification {
+		font-size: 0.875em;
+	}
 	.list li {
 		position: relative;
 	}
@@ -581,7 +584,7 @@
 	}
 	.list li img ~ span,
 	.list li img ~ p {
-		padding-left: 3em;
+		padding-left: 3rem;
 	}
 	.list li img ~ h2 {
 		padding-left: 3rem;
@@ -626,6 +629,42 @@
 		background-color: rgb(144, 194, 70) !important; /* @lime */
 	}
 
+	/* If advanced selectors are supported, hide the checkboxes… */
+	.list input[type="checkbox"]:checked,
+	.list input[type="checkbox"]:not(:checked) {
+		opacity: 0;
+	}
+	/* …and hint that the numbers are push-able. */
+	.list input[type="checkbox"]:checked       ~ .pseudo-checkbox,
+	.list input[type="checkbox"]:not(:checked) ~ .pseudo-checkbox {
+		padding: 0; /* SHIM: Reset */
+
+		display: block;
+		width: 1.875em;
+		height: 1.875em;
+		border: 0.125em solid black;
+		position: absolute;
+		top: 50%;
+		top: calc(50% - 0.9375em);
+		right: 1.5em;
+		border-radius: 0.375em;
+	}
+
+	/* If a checkbox is checked, show the related number. */
+	.list input[type="checkbox"]:checked ~ .pseudo-checkbox {
+		background-image: url(/assets/images/icons/checkmark.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	/* If a checkbox is focused, highlight the related number. */
+	.list input[type="checkbox"]:focus ~ .pseudo-checkbox {
+		border-color: rgb(40, 137, 187); /* @blueberry */
+	}
+	.list input[type="checkbox"]:checked:focus ~ .pseudo-checkbox {
+		border-color: rgb(40, 137, 187); /* @blueberry */
+	}
+
 
 	/* =Field
 	----------------------------------------------- */
@@ -637,7 +676,6 @@
 		padding: 0.375em 0.75em;
 		border-radius: 0.25em;
 		border: 1px solid black;
-		border: 1px solid rgba(0, 0, 0, 0.1);
 		border-color: rgba(0, 0, 0, 0.25);
 		width: 20em;
 		max-width: 100%;
@@ -652,6 +690,33 @@
 		form button {
 			width: 100%;
 		}
+	}
+
+	.search-field {
+		margin: -0.75em -1.5em 0;
+		background-color: rgb(241, 241, 241);
+		padding: 0.75em 1.5em;
+	}
+	@media (min-width: 46em) {
+		.search-field {
+			margin-top: -1.5em;
+			margin-left: calc(-50vw + 20em);
+			margin-right: calc(-50vw + 20em);
+		}
+	}
+	.search-field label {
+		display: block;
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.search-field input[type="search"] {
+		padding-left: 2.25em;
+		background-image: url(/assets/images/icons/location.svg);
+		background-position: 0.75em 50%;
+		background-size: auto 1.5em;
+		background-repeat: no-repeat;
 	}
 
 	fieldset {

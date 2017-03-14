@@ -1760,7 +1760,7 @@
 	.home form h1 {
 		margin-top: 0;
 		color: inherit;
-		font-size: inherit;
+		font-size: 1.25em;
 	}
 	@media (min-width: 30em) {
 		.home form h1 {
