@@ -439,6 +439,17 @@
 	}
 
 
+	/* =Location List Nav
+	----------------------------------------------- */
+	nav.location-list-nav {
+		display: block; /* SHIM: Reset display flex */
+	}
+	nav.location-list-nav .options {
+		display: flex;
+		justify-content: space-between;
+	}
+
+
 	/* =Layout
 	----------------------------------------------- */
 	header,

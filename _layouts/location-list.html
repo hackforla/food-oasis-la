@@ -37,7 +37,7 @@ categories:
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-<body>
+<body class="location-list">
 
 <header>
 
@@ -48,8 +48,8 @@ categories:
 
 </header>
 
-<nav style="display: block;">
-	<ul class="options" id="search-views" style="display: flex; justify-content: space-between;">
+<nav class="location-list-nav">
+	<ul class="options" id="search-views">
 		<li><a href="/filters/" id="filters-link">Filter</a></li>
 		<li>
 			<a href="/search/" id="search-link">
@@ -119,7 +119,10 @@ categories:
 
 		}
 	})();
+	</script>
 
+	<script>
+	// Toggle between the map and list views
 	(function() {
 		var views = document.getElementById('search-views');
 		var template = document.getElementById('search-views-template');
