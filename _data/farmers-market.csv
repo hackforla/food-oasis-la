@@ -1,7 +1,8 @@
 FM_ID,name,address_1,address_2,City,State,Zip,Phone,latitude,longitude,Website,day,open,close,
 1003720,Baldwin Park Farmers Market,Baldwin Park - Cesar Chavez & Ramond,1011 Baldwin Park Blvd,Baldwin Park,California,91706,,34.0856,-117.965,,Fri,830,1330,
 ,Bank Of America Plaza Farmers Market,333 S Hope St,,Los Angeles,California,90021,(818) 591-8161,34.0533,-118.2529,,Fri,1000,1400,
-,Boyle Heights Farmers' Market,1831 E 1st St,,Los Angeles,California,90033,(323) 331-2752,,,"http://www.mariachi-plaza.com/mariachi-big-events.htmhttps://www.facebook.com/Boyle-Heights-Farmers-Market-308825742488228/",Fri,1500,1900,
+,Boyle Heights Farmers' Market,1831 E 1st St,,Los Angeles,California,90033,(323) 331-2752,,,"http://www.mariachi-plaza.com/mariachi-big-events.htm
+https://www.facebook.com/Boyle-Heights-Farmers-Market-308825742488228/",Fri,1500,1900,
 1001500,Covina Farmers Market,Citrus Ave and San Bernandino Rd,Heritage Plaza,Covina,California,,928-854-1105,34.0893,-117.89,http://www.covinafarmersmarket.com/,Fri,1700,2100,
 1006034,Eagle Rock Farmers Market,2035 Colorado Blvd.,,Eagle Rock,California,90041,,34.1392,-118.214,https://www.facebook.com/EagleRockFarmersMarket/,Fri,1600,2000,
 1010019,Echo Park Farmers Market,Logan St. and Sunset Blvd,,Los Angeles,California,90026,,34.0769,-118.2586,https://www.facebook.com/Echo-Park-Farmers-Market-313522200882/,Fri,1500,1930,
@@ -63,11 +64,11 @@ FM_ID,name,address_1,address_2,City,State,Zip,Phone,latitude,longitude,Website,d
 1002890,Wellington Square Farmers Market,4394 W Washington Blvd.,,Los Angeles,California,90016,,34.0398,-118.3348,https://www.wellingtonsquarefarmersmarket.com/,Sun,900,1300,
 ,West Los Angeles Farmers Market,1645 Corinth Avenue at Santa Monica Blvd,,Los Angeles,California,90025,,34.0457,-118.4505,,Sun ,900,1400,
 1008720,Temple City Farmers Market,9701 Las  Tunas Dr,,Temple City,California,91780,(626) 422-1419,34.1077,-118.0579,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,830,1300,1300
-,The Village Farmers Market,6250 Topanga Blvd.,,Woodland HIlls,California,91367,"(818) 591-8161",34.1841,-118.6058,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,900,1300,
-1003446,L.A. Melrose Place Farmers Market,Melrose Place & Croft,"8400 Melrose Ave, Los Angeles, CA 90069",Los Angeles,California,90069,(818) 591-8161,34.0841,-118.374,,Sun ,1000,1400,
+,The Village Farmers Market,6250 Topanga Blvd.,,Woodland HIlls,California,91367,"(818) 591-8161",34.1841,-118.6058,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,900,1300,
+1003446,L.A. Melrose Place Farmers Market,Melrose Place & Croft,"8400 Melrose Ave, Los Angeles, CA 90069",Los Angeles,California,90069,(818) 591-8161,34.0841,-118.374,,Sun ,1000,1400,
 1011995,Palos Verdes Farmers Market,27118 Silver Spur Rd,,Rolling Hills Estates,California,90274,(310) 328-8076,33.7767,-118.3749,,Sun ,800,1300,
 ,Riviera Village Farmers Market,S Elena St & Avenida del Norte,,Redondo Beach,California,90277,,33.8193,-118.3884,,Sun ,800,1300,
-,Santa Clarita Farmers Market,College of the Canyons â€“ Valencia Campus,26455 Rockwell Canyon Rd.,Valencia,California,91355,(805) 529-6266,34.4042,-118.5683,http://visitsantaclarita.com/dining/farmers-markets/santa-clarita-farmers-market/,Sun ,830,1200,
+,Santa Clarita Farmers Market,College of the Canyons Valencia Campus,26455 Rockwell Canyon Rd.,Valencia,California,91355,(805) 529-6266,34.4042,-118.5683,http://visitsantaclarita.com/dining/farmers-markets/santa-clarita-farmers-market/,Sun ,830,1200,
 1003123,Santa Monica Farmers Market - Sunday Main Street,2640 Main Street,(in Heritage Square),Santa Monica,California,90405,310 458-8712,34.0023,-118.4833,http://www.smgov.net/portals/farmersmarket/,Sun ,830,1330,
 ,Lancaster Farmers Market,721 Lancaster Blvd.,,Lancaster,California,93534,661-723-6077,34.6968,-118.1155,http://www.cityoflancasterca.org/about-us/departments-services/parks-recreation-arts/special-events/blvd-farmers-market,Thu,,,
 ,Lancaster Farmers Market / BLVD Farmers' Market,758 West Lancaster Blvd,,Lancaster,California,93534,(818) 591-8161,,,http://www.theblvdlancaster.com/events.html?id=535#.WH7qI7byvdQ,Thu,1500,1700,
@@ -102,8 +103,8 @@ FM_ID,name,address_1,address_2,City,State,Zip,Phone,latitude,longitude,Website,d
 ,Northridge University Farmers Market,18111 Nordroff Street,,Northridge,California,91330,818) 677-1200,34.236,-118.5283,,Tue,1000,1400,
 1011298,Old L.A. Farmers Market,North Figueroa & Ave. 58,,Los Angeles,California,90042,(323) 449-4100,34.1106,-118.1928,,Tue,1500,2000,
 1008719,Pasadena Villa Parke Farmers Market,363 E. Villa St.,,Pasadena,California,91101,(626) 449-0179,34.1551,-118.1429,http://www.pasadenafarmersmarket.org/pasadena_farmers_market_villa_parke.html,Tue,830,1230,
-,"Adams - Vermont Farmers Market /St. Agnes Church Farmer's Market",1432 W Adams Blvd,,Los Angeles,California,90007,213-454-8533,34.0326,-118.2926,,Wed,1400,1900,
-1009998,Altadena Farmers Market,600 W. Palm Street,,Altadena,California,91001,(310) 595-0272,34.2004,-118.1581,http://altadenafarmersmarket.com/,Wed,"open spring/summer 4pmopen fall/winter 3pm","open spring/summer 8pmopen fall/winter 7pm",
+,"Adams - Vermont Farmers Market / St. Agnes Church Farmer's Market",1432 W Adams Blvd,,Los Angeles,California,90007,213-454-8533,34.0326,-118.2926,,Wed,1400,1900,
+1009998,Altadena Farmers Market,600 W. Palm Street,,Altadena,California,91001,(310) 595-0272,34.2004,-118.1581,http://altadenafarmersmarket.com/,Wed,"open spring/summer 4pm open fall/winter 3pm open spring/summer 8pmopen fall/winter 7pm",
 ,Children's Hospital LA CFM,4650 Sunset Blvd.,,Los Angeles,California,90027,323-361-8505,,,https://www.facebook.com/chlafarmersmarket/,Wed,1000,1500,
 1006480,Hermosa Beach Farmers Market,Valley Dr. between 8th St. & 10th St.,,Hermosa Beach,California,90254,,33.862,-118.3952,https://www.facebook.com/farmermarkHB,Wed,1100,1600,
 1011300,Lincoln Heights Farmers Market,2334 Daly St.,,Los Angeles,California,90031,(323) 437-0203,34.0729,-118.2152,https://www.facebook.com/LincolnHeightsCFM/,Wed,1500,2000,
