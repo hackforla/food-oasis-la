@@ -1,34 +1,19 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Long Beach Downtown CFM
-category: Farmers Market
 address_1: 199 East 5th Street
-city: Long Beach
-state: California
-zipcode: '90805'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '6'
-time_open: '10:00 AM'
-time_close: '3:00 PM'
-longitude: ''
+address_2: 'Inside City Place Shopping Center, on Promenade north between 3rd and 5th. '
+City: Long Beach
+State: California
+Zip: '90805'
+Phone: (866) 466-3834
 latitude: ''
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: '3:00 PM'
-day7_open: ''
-day7_close: ''
+longitude: ''
+Website: 'https://www.goodveg.org/friday-long-beach-downtown'
+day: Fri
+open: '1000'
+close: '1400'
+'': ''
 title: 'Long Beach Downtown CFM, Food Oasis Los Angeles'
 uri: /farmers-market/long-beach-downtown-cfm/
 
