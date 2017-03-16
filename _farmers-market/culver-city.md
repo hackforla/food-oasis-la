@@ -1,34 +1,20 @@
 ---
-fm_id: '1005403'
+FM_ID: '1005403'
 name: Culver City Farmers Market
-category: Farmers Market
 address_1: Main & Culver
+address_2: ''
 city: Culver City
 state: California
 zipcode: '90232'
 phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-118.396'
 latitude: '34.0247'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.396'
+website: 'http://www.culvercity.org/live/get-involved/farmers-market'
+day: Tue
+open: '1400'
+close: '1900'
+'': ''
+category: Farmers Market
 title: 'Culver City Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/culver-city/
 

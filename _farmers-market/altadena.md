@@ -1,34 +1,20 @@
 ---
-fm_id: '1009998'
+FM_ID: '1009998'
 name: Altadena Farmers Market
-category: Farmers Market
 address_1: 600 W. Palm Street
+address_2: ''
 city: Altadena
 state: California
 zipcode: '91001'
-phone: ''
-website: ''
-season_open: 1/8
-season_close: 3/5
-day_open: '4'
-time_open: '3:00 PM'
-time_close: '7:00 PM'
-longitude: '-118.1581'
+phone: (310) 595-0272
 latitude: '34.2004'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: '3:00 PM'
-day4_close: '7:00 PM'
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.1581'
+website: 'http://altadenafarmersmarket.com/'
+day: Wed
+open: "open spring/summer 4pm\r\nopen fall/winter 3pm"
+close: "open spring/summer 8pm\r\nopen fall/winter 7pm"
+'': ''
+category: Farmers Market
 title: 'Altadena Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/altadena/
 

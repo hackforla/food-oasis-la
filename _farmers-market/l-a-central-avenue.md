@@ -1,34 +1,21 @@
 ---
-fm_id: '1002082'
+FM_ID: '1002082'
 name: L.A. Central Avenue Farmers Market
-category: Farmers Market
-address_1: 43rd St. & Central Ave.
+address_1: 4301 S. Central Avenue
+address_2: ''
 city: Hollywood
 state: California
 zipcode: '90028'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-121.448'
+phone: (323) 463-3171
 latitude: '38.5706'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-121.448'
+website: >-
+  https://www.facebook.com/pg/CentralAvenueFarmersMarket/about/?ref=page_internal
+day: Thu
+open: '1000'
+close: '1500'
+'': ''
+category: Farmers Market
 title: 'L.A. Central Avenue Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/l-a-central-avenue/
 

@@ -1,34 +1,20 @@
 ---
-fm_id: '1006034'
+FM_ID: '1006034'
 name: Eagle Rock Farmers Market
-category: Farmers Market
-address_1: 2100 Merton Ave.
-city: Los Angeles
+address_1: 2035 Colorado Blvd.
+address_2: ''
+city: Eagle Rock
 state: California
-zipcode: '90065'
+zipcode: '90041'
 phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
+latitude: '34.1392'
 longitude: '-118.214'
-latitude: '34.1391'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+website: 'https://www.facebook.com/EagleRockFarmersMarket/'
+day: Fri
+open: '1600'
+close: '2000'
+'': ''
+category: Farmers Market
 title: 'Eagle Rock Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/eagle-rock/
 

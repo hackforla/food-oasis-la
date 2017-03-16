@@ -1,34 +1,20 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Baldwin La Brea Farmers Market
-category: Farmers Market
 address_1: 3601 S. La Brea Ave.
+address_2: ''
 city: Los Angeles
 state: California
 zipcode: '90016'
 phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '7'
-time_open: '9:00 AM'
-time_close: '2:00 PM'
-longitude: '-118.3561'
 latitude: '34.0212'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: '9:00 AM'
-day7_close: '2:00 PM'
+longitude: '-118.3561'
+website: 'http://www.localharvest.org/baldwin-la-brea-farmers-market-M66674'
+day: Sat
+open: '900'
+close: '1430'
+'': ''
+category: Farmers Market
 title: 'Baldwin La Brea Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/baldwin-la-brea/
 

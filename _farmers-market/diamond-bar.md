@@ -1,34 +1,21 @@
 ---
-fm_id: '1006035'
+FM_ID: '1006035'
 name: Diamond Bar Farmers Market
-category: Farmers Market
 address_1: Calvary Chapel Church
+address_2: ''
 city: Diamond Bar
 state: California
 zipcode: '91765'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-119.781'
+phone: (323) 447-6848
 latitude: '36.8199'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-119.781'
+website: >-
+  http://www.local-farmers-markets.com/market/345/diamond-bar/diamond-bar-farmers-market
+day: Sat
+open: '800'
+close: '1300'
+'': ''
+category: Farmers Market
 title: 'Diamond Bar Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/diamond-bar/
 

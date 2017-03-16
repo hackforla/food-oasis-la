@@ -1,34 +1,20 @@
 ---
-fm_id: '1003446'
+FM_ID: '1003446'
 name: L.A. Melrose Place Farmers Market
-category: Farmers Market
 address_1: Melrose Place & Croft
+address_2: "\r\n8400 Melrose Ave"
 city: Los Angeles
 state: California
-zipcode: '90029'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-118.374'
+zipcode: '90069'
+phone: (818) 591-8161
 latitude: '34.0841'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.374'
+website: ''
+day: 'Sun '
+open: '1000'
+close: '1400'
+'': ''
+category: Farmers Market
 title: 'L.A. Melrose Place Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/l-a-melrose-place/
 

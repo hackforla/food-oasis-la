@@ -1,34 +1,20 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Bank Of America Plaza Farmers Market
-category: Farmers Market
 address_1: 333 S Hope St
+address_2: ''
 city: Los Angeles
 state: California
 zipcode: '90021'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '6'
-time_open: '11:00 AM'
-time_close: '3:00 PM'
-longitude: '-118.2529'
+phone: (818) 591-8161
 latitude: '34.0533'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: '3:00 PM'
-day7_open: ''
-day7_close: ''
+longitude: '-118.2529'
+website: ''
+day: Fri
+open: '1000'
+close: '1400'
+'': ''
+category: Farmers Market
 title: 'Bank Of America Plaza Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/bank-of-america-plaza/
 

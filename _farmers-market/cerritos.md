@@ -1,34 +1,20 @@
 ---
-fm_id: '1010147'
+FM_ID: '1010147'
 name: Cerritos Farmers Market
-category: Farmers Market
 address_1: 17870 Park plaza Drive
+address_2: ''
 city: Cerritos
 state: California
 zipcode: '90703'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '7'
-time_open: '8:00 AM'
-time_close: '12:00 PM'
-longitude: '-118.0625'
+phone: (562) 597-7920
 latitude: '33.8693'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: '8:00 AM'
-day7_close: '12:00 PM'
+longitude: '-118.0625'
+website: 'https://www.facebook.com/CerritosFarmersMarket/'
+day: Sat
+open: '800'
+close: '1200'
+'': ''
+category: Farmers Market
 title: 'Cerritos Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/cerritos/
 

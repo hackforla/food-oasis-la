@@ -1,34 +1,21 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Lancaster Farmers Market
-category: Farmers Market
 address_1: 721 Lancaster Blvd.
+address_2: ''
 city: Lancaster
 state: California
 zipcode: '93534'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '5'
-time_open: '3:00 PM'
-time_close: '8:00 PM'
-longitude: '-118.1155'
+phone: 661-723-6077
 latitude: '34.6968'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: '3:00 PM'
-day5_close: '8:00 PM'
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.1155'
+website: >-
+  http://www.cityoflancasterca.org/about-us/departments-services/parks-recreation-arts/special-events/blvd-farmers-market
+day: Thu
+open: ''
+close: ''
+'': ''
+category: Farmers Market
 title: 'Lancaster Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/lancaster/
 

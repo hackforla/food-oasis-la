@@ -1,34 +1,20 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Newhall Farmers Market
-category: Farmers Market
-address_1: 22520 Lynos Ave
-city: Newhall
+address_1: 24500 Main Street
+address_2: ''
+city: Santa Clarita
 state: California
 zipcode: '91321'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '7'
-time_open: '8:00 AM'
-time_close: '12:00 PM'
-longitude: '-118.5293'
+phone: (661) 250-3787
 latitude: '34.3815'
-EBT: 'Y'
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: '8:00 AM'
-day7_close: '12:00 PM'
+longitude: '-118.5293'
+website: 'http://oldtownnewhall.com/old-town-newhall-farmers-market/'
+day: Sat
+open: '830'
+close: '1230'
+'': ''
+category: Farmers Market
 title: 'Newhall Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/newhall/
 

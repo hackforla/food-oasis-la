@@ -1,34 +1,20 @@
 ---
-fm_id: '1011995'
+FM_ID: '1011995'
 name: Palos Verdes Farmers Market
-category: Farmers Market
-address_1: Hawthorne Blvd. & Silver Spur Rd.
+address_1: 27118 Silver Spur Rd
+address_2: ''
 city: Rolling Hills Estates
 state: California
 zipcode: '90274'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-118.3749'
+phone: (310) 328-8076
 latitude: '33.7767'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.3749'
+website: ''
+day: 'Sun '
+open: '800'
+close: '1300'
+'': ''
+category: Farmers Market
 title: 'Palos Verdes Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/palos-verdes/
 

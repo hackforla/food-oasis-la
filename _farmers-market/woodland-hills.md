@@ -1,34 +1,20 @@
 ---
-fm_id: '1002463'
+FM_ID: ''
 name: Woodland Hills Farmers Market
-category: Farmers Market
-address_1: 6200 Block of Topanga Blvd.
+address_1: 23504 Calabasas Rd
+address_2: ''
 city: Calabasas
 state: California
-zipcode: '91303'
-phone: ''
+zipcode: '91302'
+phone: (818) 591-8161
+latitude: '34.161236'
+longitude: '-118.091724'
 website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-118.605'
-latitude: '34.2086'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+day: Sat
+open: '800'
+close: '1300'
+'': ''
+category: Farmers Market
 title: 'Woodland Hills Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/woodland-hills/
 

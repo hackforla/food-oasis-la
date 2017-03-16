@@ -56,20 +56,21 @@ ${yaml.safeDump(data)}
   });
 }
 
-function generateCollection(data_name) {
+function generateCollection(data_name, data_category) {
 
   var writePath = '../_' + data_name; // Example: _/community-gardens
   var input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   var records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
   for (let index = 0; index < records.length; index++) {
+    records[index].category = data_category;
     createMarkdownFile(writePath, records[index], data_name);
   }
   return records;
 }
 
-var communityGardens = generateCollection('community-garden');
-var foodPantries     = generateCollection('food-pantry');
-var farmersMarkets   = generateCollection('farmers-market');
+var communityGardens = generateCollection('community-garden', 'Community Garden');
+var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
+var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
 
 var ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {

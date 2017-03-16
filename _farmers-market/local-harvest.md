@@ -1,34 +1,20 @@
 ---
-fm_id: ''
+FM_ID: ''
 name: Local Harvest Farmers Market
-category: Farmers Market
-address_1: E. Appian Way & Nito Ave.
+address_1: Marine Stadium at Appian Way & Nieto
+address_2: ''
 city: Long Beach
 state: California
 zipcode: '90803'
-phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: '4'
-time_open: '3:00 PM'
-time_close: '7:00 PM'
-longitude: '-118.1329'
+phone: (562) 449 - 9299
 latitude: '33.7685'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: '3:00 PM'
-day4_close: '7:00 PM'
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+longitude: '-118.1329'
+website: 'http://www.localharvestfarmersmarkets.com/marine-stadium'
+day: Wed
+open: '1500'
+close: '1900'
+'': ''
+category: Farmers Market
 title: 'Local Harvest Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/local-harvest/
 

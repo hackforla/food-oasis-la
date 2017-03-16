@@ -1,34 +1,20 @@
 ---
-fm_id: '1000024'
+FM_ID: '1000024'
 name: El Segundo Plaza Farmers Market
-category: Farmers Market
-address_1: Grand & Eucalyptus
-city: Los Angeles
+address_1: 300 Main St.
+address_2: ''
+city: El Segundo
 state: California
-zipcode: '90045'
+zipcode: '90245'
 phone: ''
-website: ''
-season_open: ''
-season_close: ''
-day_open: ''
-time_open: ''
-time_close: ''
-longitude: '-118.405'
-latitude: '33.9208'
-EBT: ''
-day1_open: ''
-day1_close: ''
-day2_open: ''
-day2_close: ''
-day3_open: ''
-day3_close: ''
-day4_open: ''
-day4_close: ''
-day5_open: ''
-day5_close: ''
-day6_open: ''
-day7_open: ''
-day7_close: ''
+latitude: '33.9191'
+longitude: '-118.416'
+website: 'https://www.facebook.com/elsegundofarmersmarket/'
+day: Thu
+open: '1500'
+close: '1900'
+'': ''
+category: Farmers Market
 title: 'El Segundo Plaza Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/el-segundo-plaza/
 
