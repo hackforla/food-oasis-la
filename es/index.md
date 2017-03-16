@@ -1,9 +1,8 @@
 ---
 layout: home
 
-title: Encontre alimentos saludables cerca de ti, Food Oasis Los Angeles
+title: Food Oasis Los Angeles, Encontre alimentos saludables cerca de ti
 headline: Encontre alimentos saludables
-address_field_label: Dirección, Barrio, o Zip
 categories:
     free:
         headline: Free food
