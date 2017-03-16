@@ -19,8 +19,6 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	{% if page.canonical_url %}
 	<link rel="canonical" href="https://foodoasis.la{{ page.canonical_url }}" />
 	{% endif %}
-
-	<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
 	{% comment %}
@@ -47,9 +45,6 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
 	{% endif %}
 
-	{% comment %}
-	TODO: Create favicon files, and reference them here. This is an example…
-
 	<!-- for general use -->
 	<link rel="icon" type="image/png"    href="/assets/images/favicon.png" />
 
@@ -57,9 +52,8 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	<link rel="apple-touch-icon"         href="/assets/images/favicon.png" />
 
 	<!-- for Windows 8 -->
-	<meta name="msapplication-TileImage" content="/assets/images/favicon-transparent.png" />
-	<meta name="msapplication-TileColor" content="[Any CSS color value can be placed here. For example, lime: rgb(144, 194, 70)]" />
-	{% endcomment %}
+	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
+	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
 
 	<!-- Hotjar Tracking Code for foodoasis.la -->
 	<script>
