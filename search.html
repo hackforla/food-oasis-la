@@ -48,7 +48,7 @@ layout: null
 						<img src="/assets/images/home/food-pantry.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(249, 192, 88); /* @canteloupe */" alt="" />
 						<span class="classification" style="color: rgb(249, 192, 88); /* @canteloupe */">Free</span><br />
 						<span class="option">Food Pantries</span>
-						<input type="checkbox" name="type_option" value="food-pantry" checked="checked" />
+						<input type="checkbox" data-name="type_option" value="food-pantry" checked="checked" />
 						<span class="pseudo-checkbox"></span>
 					</label>
 				</li>
@@ -57,7 +57,7 @@ layout: null
 						<img src="/assets/images/home/community-garden.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(144, 194, 70); /* @lime */" alt="" />
 						<span class="classification" style="color: rgb(144, 194, 70); /* @lime */">Grow</span><br />
 						<span class="option">Community Gardens</span>
-						<input type="checkbox" name="type_option" value="community-garden" checked="checked" />
+						<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
 						<span class="pseudo-checkbox"></span>
 					</label>
 				</li>
@@ -66,7 +66,7 @@ layout: null
 						<img src="/assets/images/home/farmers-market.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(241, 95, 91); /* @strawberry */" alt="" />
 						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
 						<span class="option">Farmers Markets</span>
-						<input type="checkbox" name="type_option" value="farmers-market" checked="checked" />
+						<input type="checkbox" data-name="type_option" value="farmers-market" checked="checked" />
 						<span class="pseudo-checkbox"></span>
 					</label>
 				</li>
@@ -76,7 +76,7 @@ layout: null
 						<img src="/assets/images/home/grocery-store.svg" width="100" style="width: auto; height: 1.5em; border-radius: 50%; vertical-align: middle; margin-right: 0.375em; padding: 0.375em; background: rgb(241, 95, 91); /* @strawberry */" alt="" />
 						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
 						<span class="option">Grocery Stores</span>
-						<input type="checkbox" name="type_option" value="grocery-store" disabled="disabled" />
+						<input type="checkbox" data-name="type_option" value="grocery-store" disabled="disabled" />
 						<span class="pseudo-checkbox"></span>
 						<mark>Coming soon!</mark>
 					</label>
@@ -106,7 +106,7 @@ layout: null
 			var type = getParameterByName('type');
 			if (type) {
 				var types = type.split('|');
-				var typeFields = document.querySelectorAll('input[name="type_option"]:checked');
+				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
 				for (var index = 0; index < typeFields.length; index++) {
 					(function() {
 						var field = typeFields[index];
@@ -124,7 +124,7 @@ layout: null
 			// SHIM: Pass the type onto the next page as one pipe-delimited query string value
 			var form = document.querySelector('form');
 			form.addEventListener('submit', function(e) {
-				var typeFields = document.querySelectorAll('input[name="type_option"]:checked');
+				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
 				var types = [];
 				for (var index = 0; index < typeFields.length; index++) {
 					types.push(typeFields[index].value);
