@@ -517,7 +517,7 @@
 		searchLink.setAttribute('href', href);
 	}
 
-	persistTypeParameter();
-	//addFilterButtons();
+	// persistTypeParameter();
+	// addFilterButtons();
 
 })();

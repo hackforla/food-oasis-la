@@ -41,17 +41,17 @@ categories:
 
 <header>
 
-	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
-
 	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
 	<p class="tagline">Healthy Food for All Angelenos</p>
+
+	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
 
 </header>
 
 <nav class="location-list-nav">
 	<ul class="options" id="search-views">
-		<li><a href="/filters/" id="filters-link">Filter</a></li>
-		<li>
+		<li class="filter"><a href="/filters/" id="filters-link">Filter</a></li>
+		<li class="search">
 			<a href="/search/" id="search-link">
 				<img src="/assets/images/icons/search-black.svg" width="50" style="height: 1.5em; width: auto;" alt="Search" />
 				<span id="search-type">{{ page.category }}</span> <span id="search-location">Near <em>Los Angeles</em></span>
@@ -60,8 +60,8 @@ categories:
 	</ul>
 
 	<script type="text/template" id="search-views-template">
-		<li id="list-button" style="display: none;"><a href="">List</button></a>
-		<li id="map-button" style="display: none;"><a href="">Map</button></a>
+		<li id="list-button" class="view" style="display: none;"><a href="">List</button></a>
+		<li id="map-button" class="view" style="display: none;"><a href="">Map</button></a>
 	</script>
 
 	<script>

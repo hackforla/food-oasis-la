@@ -1646,20 +1646,9 @@
 	}
 
 	main .link-list  .icon {
-		background: rgb(204, 204, 204);
-		padding: 0.375em;
-		border-radius: 50%;
 		vertical-align: middle;
-	}
-	main .link-list.food-pantry .icon {
-		background: rgb(249, 192, 88); /* @canteloupe */
-	}
-	main .link-list.community-garden .icon {
-		background: rgb(144, 194, 70); /* @lime */
-	}
-	main .link-list.farmers-market .icon {
-		background: rgb(77, 85, 148); /* @grape */
-		background: rgb(241, 95, 91); /* @strawberry */
+		height: 2.25em;
+		width: auto;
 	}
 
 	.home main {

@@ -369,6 +369,17 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	header h2 {
+		flex-grow: 1;
+	}
+	header .tagline {
+		flex-grow: 0;
+	}
+	header .nav-link {
+		order: -1;
+		flex-grow: 0;
+		padding-right: 1.5em;
+	}
 	header p:first-child {
 		width: 3em;
 	}
@@ -379,14 +390,20 @@
 	header p {
 		margin: 0;
 	}
+	header .tagline {
+		font-style: italic;
+		opacity: 0.5;
+	}
 	header h2 img {
 		width: 2.5em;
 		height: auto;
+		display: block;
+		margin-top: -0.25em;
 	}
 
 	/* SHIM: Hide the tagline on small screens */
-	@media (max-width: 40em) {
-		header h2 + p {
+	@media (max-width: 25em) {
+		header .tagline {
 			position: absolute;
 			left: -9909px
 		}
@@ -414,6 +431,18 @@
 		text-decoration: none;
 		color: inherit;
 	}
+	nav .filter,
+	nav .view {
+		text-transform: uppercase;
+	}
+	nav .search {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		background: white;
+		padding: 0.5em 0.75em 0.375em 0.375em;
+		border-radius: 0.25em;
+	}
 
 	nav p,
 	nav ul {
@@ -423,14 +452,6 @@
 	/* icon */
 	nav img {
 		vertical-align: middle;
-	}
-
-	/* SHIM: Hide the search details on small screens */
-	@media (max-width: 40em) {
-		nav img ~ span {
-			position: absolute;
-			left: -9909px
-		}
 	}
 
 	nav.pagination {
@@ -449,6 +470,10 @@
 		display: flex;
 		justify-content: space-between;
 	}
+	nav.location-list-nav .view {
+		flex-basis: 3em;
+		text-align: right;
+	}
 
 
 	/* =Layout
@@ -460,7 +485,10 @@
 		padding: 1.5em;
 	}
 
-	header,
+	header {
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+	}
 	nav {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
@@ -564,6 +592,11 @@
 	.location-summary img {
 		position: absolute;
 	}
+	.list li img {
+		top: 0.75em;
+		height: 2.25em;
+		width: auto;
+	}
 	.list li img ~ span,
 	.list li img ~ p,
 	.location-summary img ~ span,
@@ -591,37 +624,18 @@
 
 	.location-details main .header img {
 		width: auto;
-		height: 1.5em;
-		border-radius: 50%;
+		height: 2.25em;
 		vertical-align: middle;
 		margin-right: 0.375em;
-		padding: 0.375em;
-		background: rgb(153, 153, 153);
 		position: absolute;
 		left: 0;
 	}
 
 	.location-summary img {
 		width: auto;
-		height: 1.5em;
-		border-radius: 50%;
-		padding: 0.375em;
+		height: 2.25em;
 		vertical-align: middle;
 		margin-right: 0.375em;
-		background: rgb(153, 153, 153);
-	}
-
-	.location-details main .header.farmers-market img,
-	.farmers-market .location-summary img {
-		background-color: rgb(241, 95, 91) !important; /* @strawberry */
-	}
-	.location-details main .header.food-pantry img,
-	.food-pantry .location-summary img {
-		background-color: rgb(249, 192, 88) !important; /* @canteloupe */
-	}
-	.location-details main .header.community-garden img,
-	.community-garden .location-summary img {
-		background-color: rgb(144, 194, 70) !important; /* @lime */
 	}
 
 	/* If advanced selectors are supported, hide the checkboxes… */
