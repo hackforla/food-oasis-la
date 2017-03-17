@@ -401,6 +401,26 @@
 		var minutes = Number(timeString.substring(timeString.length - 2));
 		return (hours * 60 * 60) + (minutes * 60);
 	}
+	function isOpenNow(data) {
+		if (data.day && data.open && data.close) {
+
+			var now = new Date();
+			var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
+
+			var time = now.toTimeString();
+			var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+
+			if (pacificTime &&
+				DAYS_OF_WEEK[now.getDay()] === data.day &&
+				nowSeconds > getSeconds(data.open) &&
+				nowSeconds < getSeconds(data.close) ) {
+				return true;
+			}
+
+			// TBD: Should we show a special notice if it’s opening soon or closing soon?
+		}
+		return false;
+	}
 	function createListItem(data, containerTagName) {
 
 		var template = document.getElementById('list-item-template');
@@ -414,8 +434,14 @@
 			var nameElement = element.querySelector('h2');
 			nameElement.textContent = data.name;
 
+			var params = [];
+			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
+			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
+
+			var queryString = params.join('&');
+
 			var link = element.querySelector('a');
-			link.setAttribute('href', data.uri);
+			link.setAttribute('href', data.uri + '?' + queryString);
 
 			// Category (Type)
 			var typeElement = element.querySelector('.type');
@@ -427,26 +453,7 @@
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
 			// Open Now
-			var isOpen = false;
-			if (data.day && data.open && data.close) {
-
-				var now = new Date();
-				var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
-
-				var time = now.toTimeString();
-				var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
-
-				if (pacificTime &&
-					DAYS_OF_WEEK[now.getDay()] === data.day &&
-					nowSeconds > getSeconds(data.open) &&
-					nowSeconds < getSeconds(data.close) ) {
-					isOpen = true;
-				}
-
-				// TBD: Should we show a special notice if it’s opening soon or closing soon?
-			}
-
-			if (!isOpen) {
+			if (!isOpenNow(data)) {
 				var openNowElement = element.querySelector('.open');
 				openNowElement.parentNode.removeChild(openNowElement);
 			}

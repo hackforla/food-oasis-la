@@ -35,6 +35,8 @@ categories:
 	<link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet" />
 	<link href="/assets/css/beta.css" rel="stylesheet" />
 
+	<link rel="canonical" href="https://foodoasis.la/locations/" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body class="location-list">
@@ -65,6 +67,8 @@ categories:
 	</script>
 
 	<script>
+	var PAGE_PARAMETERS;
+
 	(function() {
 		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
 		function getParameterByName(name, url) {
@@ -77,21 +81,23 @@ categories:
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 
-		// SHIM: Make the type persistent
-		var type = getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %};
+		PAGE_PARAMETERS = {
+			type   : getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %},
+			address: getParameterByName('address')
+		};
 
-		var address = getParameterByName('address');
+		// SHIM: Make the type persistent
 
 		function updateLink(link) {
 			var params = [];
-			if (type) params.push('type=' + type);
-			if (address) params.push('address=' + address);
+			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
+			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 
 			var queryString = params.join('&');
 			link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 		}
 
-		if (type || address) {
+		if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address) {
 			var filtersLink = document.getElementById('filters-link');
 			if (filtersLink) {
 				updateLink(filtersLink);
@@ -103,8 +109,8 @@ categories:
 			}
 		}
 
-		if (type) {
-			var types = type.split('|');
+		if (PAGE_PARAMETERS.type) {
+			var types = PAGE_PARAMETERS.type.split('|');
 
 			var searchType = document.getElementById('search-type');
 

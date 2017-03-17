@@ -24,6 +24,8 @@ stylesheets:
 	{% endcomment %}
 	<link href="/assets/css/beta.css" rel="stylesheet" />
 
+	<link rel="canonical" href="https://foodoasis.la{{ page.url }}" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body class="location-details">
@@ -37,15 +39,8 @@ stylesheets:
 
 </header>
 
-{% comment %}
-TODO:
-* Pass the search parameters from the search page to this page, by editing location-list.js (For example… ?address=San+Gabriel&type=farmers-market)
-* Use JavaScript to add those parameters to this link and then display it.
-{% endcomment %}
 <nav>
-<del>
-	<p class="back"><a>← Back to All Results</a> <mark>Coming soon!</mark></p>
-</del>
+	<p class="back"><a href="/locations/" id="back-link">← Find more locations</a></p>
 </nav>
 
 <div id="map" class="map-container"></div>
@@ -71,8 +66,13 @@ TODO:
 			</a>
 		</p>
 		<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
-		<p class="distance"><del>0.4 miles away <mark>Coming soon!</mark></del></p>
-		<p class="open"><del>Open Now <mark>Beta</mark></del></p>
+
+		<script type="text/template" class="open-template" data-day="{{ data['day'] }}" data-open="{{ data['open'] }}" data-close="{{ data['close'] }}">
+			<p class="open">Open Now</p>
+		</script>
+		<script type="text/template" class="distance-template" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
+			<p class="distance"><span></span> miles away</p>
+		</script>
 
 		</div>
 	</div>
@@ -171,8 +171,14 @@ TODO:
 	var FOOD_SOURCE = {
 		latitude: {{ page['latitude'] }},
 		longitude: {{ page['longitude'] }},
+		day: "{{ page['day'] }}",
+		open: "{{ page['open'] }}",
+		close: "{{ page['close'] }}"
 	}
 </script>
+
+<!-- Jim’s Google Maps API key -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
 <script src="/assets/js/location-details.js"></script>
 
