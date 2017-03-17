@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0334'
 longitude: '-118.16'
 website: 'https://www.facebook.com/eastlafarmersmarket/'
-day: Sat
-open: '900'
-close: '1400'
+day: Saturday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'East LA Farmers'' Market, Food Oasis Los Angeles'

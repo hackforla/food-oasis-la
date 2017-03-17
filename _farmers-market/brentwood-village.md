@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0506'
 longitude: '-118.4751'
 website: 'https://www.facebook.com/Brentwoodfm'
-day: Sun
-open: '900'
-close: '1430'
+day: Sunday
+open: 9am
+close: '2:30pm'
 '': ''
 category: Farmers Market
 title: 'Brentwood Village Farmers Market, Food Oasis Los Angeles'

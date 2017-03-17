@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.9876'
 longitude: '-118.466'
 website: ''
-day: Fri
-open: '700'
-close: '1100'
+day: Friday
+open: 7am
+close: 11am
 '': ''
 category: Farmers Market
 title: 'Venice Farmers Market, Food Oasis Los Angeles'

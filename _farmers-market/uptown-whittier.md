@@ -10,9 +10,9 @@ phone: (562) 696-2662
 latitude: '33.9791'
 longitude: '-118.0362'
 website: 'http://whittieruptown.org/fridaymarket/'
-day: Fri
-open: '800'
-close: '1300'
+day: Friday
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Uptown Whittier Farmers Market, Food Oasis Los Angeles'

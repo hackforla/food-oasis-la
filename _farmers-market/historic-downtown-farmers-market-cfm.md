@@ -10,9 +10,9 @@ phone: (310) 455-0181
 latitude: '34.0477107'
 longitude: '-118.2523156'
 website: 'https://www.facebook.com/HistoricFarmersMarket/'
-day: Sun
-open: '900'
-close: '1400'
+day: Sunday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Historic Downtown Farmers'' Market (CFM), Food Oasis Los Angeles'

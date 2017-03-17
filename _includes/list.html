@@ -5,7 +5,13 @@
 			<h2>{{ data['name'] }}</h2>
 			<p class="address">{{ data['address_1'] | escape }}</p>
 			<p class="type">{{ data['category'] }}</p>
-			<p class="open"><del>Open Now <mark>Unknown Hours</mark></del></p>
+			{% if data['day'] %}
+			<script type="text/template" class="open-template" data-day="{{ data['day'] }}" data-open="{{ data['open'] }}" data-close="{{ data['close'] }}">
+				<p class="open">Open Now</p>
+			</script>
+			{% else %}
+			<p class="open"><del>Open Now <mark>Coming soon!</mark></del></p>
+			{% endif %}
 			<script type="text/template" class="distance-template">
 				<p class="distance"><span></span> miles away</p>
 			</script>

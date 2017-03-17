@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.1571'
 longitude: '-118.4379'
 website: ''
-day: Tue
-open: '1500'
-close: '1900'
+day: Tuesday
+open: 3pm
+close: 7pm
 '': ''
 category: Farmers Market
 title: 'Woodman Avenue Farmers Market, Food Oasis Los Angeles'

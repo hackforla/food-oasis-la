@@ -10,9 +10,9 @@ phone: 626-570-5081
 latitude: '34.0937'
 longitude: '-118.1288'
 website: 'http://www.cityofalhambra.org/page/289/certified_farmers_market/'
-day: Sun
-open: '830'
-close: '1300'
+day: Sunday
+open: '8:30am'
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Alhambra Certified Farmers Market, Food Oasis Los Angeles'

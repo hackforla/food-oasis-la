@@ -12,8 +12,8 @@ longitude: '-118.5683'
 website: >-
   http://visitsantaclarita.com/dining/farmers-markets/santa-clarita-farmers-market/
 day: 'Sun '
-open: '830'
-close: '1200'
+open: '8:30am'
+close: 12pm
 '': ''
 category: Farmers Market
 title: 'Santa Clarita Farmers Market, Food Oasis Los Angeles'

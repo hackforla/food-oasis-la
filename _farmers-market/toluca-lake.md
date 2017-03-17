@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.1522'
 longitude: '-118.3538'
 website: 'http://dola.com/events/weekly/sun/toluca-lake-farmers-market'
-day: Sun
-open: '1000'
-close: '1500'
+day: Sunday
+open: 10am
+close: 3pm
 '': ''
 category: Farmers Market
 title: 'Toluca Lake Farmers Market, Food Oasis Los Angeles'

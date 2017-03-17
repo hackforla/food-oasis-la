@@ -26,6 +26,19 @@ function stringToURI(str) {
     .replace(/\-\-/g, '-')
 }
 
+function formatTime(timeString) { // Example: 1430 ==> 2:30pm
+  var hours   = Number(timeString.substring(0, timeString.length - 2));
+  var minutes = timeString.substring(timeString.length - 2);
+  var ampm = 'am';
+  if (hours >= 12 && hours < 24) {
+    ampm = 'pm';
+  }
+  if (hours >= 13) {
+    hours = hours - 12;
+  }
+  return hours + ((minutes != '00') ? ":" + minutes : '') + ampm;
+}
+
 function createMarkdownFile(writePath, data, category_uri) {
 
   // Page title
@@ -34,6 +47,34 @@ function createMarkdownFile(writePath, data, category_uri) {
   var filename = stringToURI(data.name.replace(' ' + data.category, ''));
 
   data.uri = '/' + category_uri + '/' + filename + '/';
+
+  if (data.day && data.open && data.close) {
+    switch (data.day) {
+      case 'Mon':
+        data.day = 'Monday';
+        break;
+      case 'Tue':
+        data.day = 'Tuesday';
+        break;
+      case 'Wed':
+        data.day = 'Wednesday';
+        break;
+      case 'Thu':
+        data.day = 'Thursday';
+        break;
+      case 'Fri':
+        data.day = 'Friday';
+        break;
+      case 'Sat':
+        data.day = 'Saturday';
+        break;
+      case 'Sun':
+        data.day = 'Sunday';
+        break;
+    }
+    data.open = formatTime(data.open);
+    data.close = formatTime(data.close);
+  }
 
    // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   var output =

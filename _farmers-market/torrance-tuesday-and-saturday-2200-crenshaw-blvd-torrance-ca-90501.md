@@ -12,9 +12,9 @@ phone: ''
 latitude: '33.8249'
 longitude: '-118.3284'
 website: 'http://www.torranceca.gov/6620.htm'
-day: Tue
-open: '800'
-close: '1300'
+day: Tuesday
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: >-

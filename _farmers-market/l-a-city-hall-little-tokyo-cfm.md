@@ -10,9 +10,9 @@ phone: (323) 660-8660
 latitude: '34.053106'
 longitude: '-118.241657'
 website: 'https://www.yelp.com/biz/farmers-market-at-los-angeles-city-hall-los-angeles'
-day: Thu
-open: '1000'
-close: '1400'
+day: Thursday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'L.A. City Hall (Little Tokyo CFM), Food Oasis Los Angeles'

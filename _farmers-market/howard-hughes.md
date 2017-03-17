@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.976'
 longitude: '-118.3867'
 website: 'https://www.facebook.com/HowardHughesFarmersMarket/'
-day: Thu
-open: '1000'
-close: '1400'
+day: Thursday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Howard Hughes Farmers Market, Food Oasis Los Angeles'

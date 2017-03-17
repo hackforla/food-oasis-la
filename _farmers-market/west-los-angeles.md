@@ -11,8 +11,8 @@ latitude: '34.0457'
 longitude: '-118.4505'
 website: ''
 day: 'Sun '
-open: '900'
-close: '1400'
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'West Los Angeles Farmers Market, Food Oasis Los Angeles'

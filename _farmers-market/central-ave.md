@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0058'
 longitude: '-118.256'
 website: 'http://seela.org/markets-central-avenue/'
-day: Thu
-open: '1000'
-close: '1500'
+day: Thursday
+open: 10am
+close: 3pm
 '': ''
 category: Farmers Market
 title: 'Central Ave Farmers Market, Food Oasis Los Angeles'

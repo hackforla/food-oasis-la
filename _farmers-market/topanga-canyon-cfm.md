@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.112172'
 longitude: '-118.589828'
 website: 'http://www.sfma.net/'
-day: Fri
-open: '900'
-close: '1300'
+day: Friday
+open: 9am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Topanga Canyon CFM, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0856'
 longitude: '-117.965'
 website: ''
-day: Fri
-open: '830'
-close: '1330'
+day: Friday
+open: '8:30am'
+close: '1:30pm'
 '': ''
 category: Farmers Market
 title: 'Baldwin Park Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.647'
 longitude: '-118.1662'
 website: ''
-day: Sat
-open: '900'
-close: '1200'
+day: Saturday
+open: 9am
+close: 12pm
 '': ''
 category: Farmers Market
 title: 'Antelope Valley Winery Farmers Market, Food Oasis Los Angeles'

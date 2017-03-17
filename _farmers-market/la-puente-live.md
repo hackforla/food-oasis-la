@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0201'
 longitude: '-117.9523'
 website: 'http://www.lapuentelive.com/'
-day: Fri
-open: '1800'
-close: '2200'
+day: Friday
+open: 6pm
+close: 10pm
 '': ''
 category: Farmers Market
 title: 'La Puente Live Farmers Market, Food Oasis Los Angeles'

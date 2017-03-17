@@ -10,9 +10,9 @@ phone: (805) 643-6458
 latitude: '34.2392'
 longitude: '-118.5538'
 website: ''
-day: Wed
-open: '1700'
-close: '2100'
+day: Wednesday
+open: 5pm
+close: 9pm
 '': ''
 category: Farmers Market
 title: 'Northridge Farmers Market And Family Festival, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: (562) 449 - 9299
 latitude: '33.8426'
 longitude: '-118.1849'
 website: 'http://lbfresh.org/eaters/find-local-food/farmers-markets/'
-day: Thu
-open: '1500'
-close: '1830'
+day: Thursday
+open: 3pm
+close: '6:30pm'
 '': ''
 category: Farmers Market
 title: 'Long Beach Uptown Farmers Market, Food Oasis Los Angeles'

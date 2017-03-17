@@ -82,8 +82,14 @@ TODO:
 		<li><a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Directions</a></li>
 	</ul>
 
-	<del>
 	<h2>Hours</h2>
+	{% if page['day'] %}
+	<dl>
+		<dt>{{ page['day'] }}</dt>
+		<dd>{{ page['open'] }} – {{ page['close'] }}</dd>
+	</dl>
+	{% else %}
+	<del>
 	<dl>
 		<dt>Sunday</dt>
 		<dd>8am – 5pm</dd>
@@ -109,9 +115,9 @@ TODO:
 	</dl>
 	<mark>Coming soon!</mark>
 	</del>
+	{% endif %}
 
 	<h2>Information</h2>
-
 	<dl>
 		<dt>Web</dt>
 		<dd>{% if page['website'] and page['website'] != '' %}<a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a>{% else %}<i>unknown</i>{% endif %}</dd>
@@ -126,9 +132,26 @@ TODO:
 		<dd>{% if page['twitter'] and page['twitter'] != '' %}{{ page['twitter'] | escape }}{% else %}<i>unknown</i>{% endif %}</dd>
 	</dl>
 
+{% comment %}
+	{% if page['website'] != '' or page['phone'] != '' %}
+	<h2>Information</h2>
+	<dl>
+		{% if page['website'] != '' %}
+		<dt>Web</dt>
+		<dd><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></dd>
+		{% endif %}
+
+		{% if page['phone'] != '' %}
+		<dt>Phone</dt>
+		<dd>{{ page['phone'] | escape }}</dd>
+		{% endif %}
+	</dl>
+	{% endif %}
+{% endcomment %}
+
 	<h2 style="position: absolute; left: -9999px; /* @hidden-accessible */">Options</h2>
 
-	<ul class="options action secondary">
+	<ul class="options action secondary" style="margin-top: 3em;">
 		<li><del><a>Claim Business</a> <mark>coming soon!</mark></del></li>
 		<li><a href="https://form.jotform.com/62638504761156?businessName={{ page.name }}&amp;address={{ page.address_1 }}&amp;category={{ page.category }}&amp;longitude={{ page.longitude }}&amp;latitude={{ page.latitude }}">Report Issue</a></li>
 	</ul>

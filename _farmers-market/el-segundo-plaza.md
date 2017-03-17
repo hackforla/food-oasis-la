@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.9191'
 longitude: '-118.416'
 website: 'https://www.facebook.com/elsegundofarmersmarket/'
-day: Thu
-open: '1500'
-close: '1900'
+day: Thursday
+open: 3pm
+close: 7pm
 '': ''
 category: Farmers Market
 title: 'El Segundo Plaza Farmers Market, Food Oasis Los Angeles'

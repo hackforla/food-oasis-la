@@ -10,9 +10,9 @@ phone: (818) 591-8161
 latitude: '34.0834'
 longitude: '-118.324'
 website: 'https://www.facebook.com/LarchmontVillageFM/'
-day: Sun
-open: '1000'
-close: '1400'
+day: Sunday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'L.A. Larchmont Village Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: 213-454-8533
 latitude: '34.0326'
 longitude: '-118.2926'
 website: ''
-day: Wed
-open: '1400'
-close: '1900'
+day: Wednesday
+open: 2pm
+close: 7pm
 '': ''
 category: Farmers Market
 title: >-

@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.0981'
 longitude: '-118.3287'
 website: 'http://www.hollywoodfarmersmarket.net/'
-day: Sun
-open: '800'
-close: '1300'
+day: Sunday
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Hollywood Farmers Market, Food Oasis Los Angeles'

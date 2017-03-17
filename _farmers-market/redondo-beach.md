@@ -10,9 +10,9 @@ phone: (310) 372-1171
 latitude: '33.8365'
 longitude: '-118.3895'
 website: ''
-day: Thu
-open: '800'
-close: '1300'
+day: Thursday
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Redondo Beach Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: (310) 595-0272
 latitude: '34.2004'
 longitude: '-118.1581'
 website: 'http://altadenafarmersmarket.com/'
-day: Wed
-open: "open spring/summer 4pm\r\nopen fall/winter 3pm"
-close: "open spring/summer 8pm\r\nopen fall/winter 7pm"
+day: Wednesday
+open: 'NaN:pmam'
+close: 'NaN:pmam'
 '': ''
 category: Farmers Market
 title: 'Altadena Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: (866) 466-3834
 latitude: '33.773432'
 longitude: '-118.169951'
 website: 'https://www.goodveg.org/friday-long-beach-downtown'
-day: Fri
-open: '1000'
-close: '1400'
+day: Friday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Long Beach Downtown CFM, Food Oasis Los Angeles'

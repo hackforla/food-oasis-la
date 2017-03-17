@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.104458'
 longitude: '-118.292219'
 website: 'https://www.yelp.com/biz/los-feliz-village-farmers-market-los-angeles'
-day: Sun
-open: '900'
-close: '1400'
+day: Sunday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Los Feliz Village CFM, Food Oasis Los Angeles'

@@ -416,6 +416,22 @@
 			// Address
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
+			// Open Now
+			/*
+			if (data.day) {
+				var openNowElement = element.querySelector('.open:not(.coming-soon)');
+				if (data.open && data.close) {
+					// var localEpochTimeSeconds = Math.floor(new Date().getTime() / 1000);
+					if (open now) {
+						openNowElement.style.display = 'block';
+					}
+				}
+			} else {
+			*/
+				var openNowElement = element.querySelector('.open.coming-soon');
+				openNowElement.style.display = 'block';
+			//}
+
 			// Distance
 			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);
 

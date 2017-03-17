@@ -10,9 +10,9 @@ phone: (323) 437-0203
 latitude: '34.0729'
 longitude: '-118.2152'
 website: 'https://www.facebook.com/LincolnHeightsCFM/'
-day: Wed
-open: '1500'
-close: '2000'
+day: Wednesday
+open: 3pm
+close: 8pm
 '': ''
 category: Farmers Market
 title: 'Lincoln Heights Farmers Market, Food Oasis Los Angeles'

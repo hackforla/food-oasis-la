@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.9192'
 longitude: '-118.1288'
 website: ''
-day: Thu
-open: '900'
-close: '1400'
+day: Thursday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Kaiser Downey, Food Oasis Los Angeles'

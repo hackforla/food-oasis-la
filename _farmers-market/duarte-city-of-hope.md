@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.1397'
 longitude: '-117.978'
 website: ''
-day: Thu
-open: '1000'
-close: '1400'
+day: Thursday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Duarte City of Hope Farmers Market, Food Oasis Los Angeles'

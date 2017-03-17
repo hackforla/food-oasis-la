@@ -10,9 +10,9 @@ phone: (323) 463-3171
 latitude: '34.1182'
 longitude: '-118.2602'
 website: ''
-day: Sun
-open: '1000'
-close: '1400'
+day: Sunday
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Atwater Village Farmers Market, Food Oasis Los Angeles'

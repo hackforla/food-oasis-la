@@ -10,9 +10,9 @@ phone: (323) 449-4100
 latitude: '34.1106'
 longitude: '-118.1928'
 website: ''
-day: Tue
-open: '1500'
-close: '2000'
+day: Tuesday
+open: 3pm
+close: 8pm
 '': ''
 category: Farmers Market
 title: 'Old L.A. Farmers Market, Food Oasis Los Angeles'

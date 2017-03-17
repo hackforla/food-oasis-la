@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.8837'
 longitude: '-118.1339'
 website: ''
-day: Mon
-open: '900'
-close: '1300'
+day: Monday
+open: 9am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Bellflower Farmers Market, Food Oasis Los Angeles'

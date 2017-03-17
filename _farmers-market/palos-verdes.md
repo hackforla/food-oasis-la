@@ -11,8 +11,8 @@ latitude: '33.7767'
 longitude: '-118.3749'
 website: ''
 day: 'Sun '
-open: '800'
-close: '1300'
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Palos Verdes Farmers Market, Food Oasis Los Angeles'

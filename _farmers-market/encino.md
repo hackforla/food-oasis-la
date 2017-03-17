@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.1862'
 longitude: '-118.5141'
 website: 'http://www.encinofarmersmarket.org/'
-day: Sun
-open: '800'
-close: '1300'
+day: Sunday
+open: 8am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Encino Farmers Market, Food Oasis Los Angeles'

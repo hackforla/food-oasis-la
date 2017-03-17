@@ -10,9 +10,9 @@ phone: (626) 449-0179
 latitude: '34.1551'
 longitude: '-118.1429'
 website: 'http://www.pasadenafarmersmarket.org/pasadena_farmers_market_villa_parke.html'
-day: Tue
-open: '830'
-close: '1230'
+day: Tuesday
+open: '8:30am'
+close: '12:30pm'
 '': ''
 category: Farmers Market
 title: 'Pasadena Villa Parke Farmers Market, Food Oasis Los Angeles'

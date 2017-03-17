@@ -11,8 +11,8 @@ latitude: '34.1841'
 longitude: '-118.6058'
 website: 'http://www.ci.temple-city.ca.us/287/Farmers-Market'
 day: 'Sun '
-open: '900'
-close: '1300'
+open: 9am
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'The Village Farmers Market, Food Oasis Los Angeles'

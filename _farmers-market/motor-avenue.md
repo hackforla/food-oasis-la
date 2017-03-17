@@ -10,9 +10,9 @@ phone: (310) 202-9002
 latitude: '34.0292'
 longitude: '-118.4107'
 website: 'http://www.motoravenuemarket.com/'
-day: Tue
-open: '1100'
-close: '1600'
+day: Tuesday
+open: 11am
+close: 4pm
 '': ''
 category: Farmers Market
 title: 'Motor Avenue Farmers Market, Food Oasis Los Angeles'

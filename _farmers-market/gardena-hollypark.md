@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.931'
 longitude: '-118.318'
 website: ''
-day: Sat
-open: '630'
-close: '1200'
+day: Saturday
+open: '6:30am'
+close: 12pm
 '': ''
 category: Farmers Market
 title: 'Gardena Hollypark Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: (818) 591-8161
 latitude: '34.0617'
 longitude: '-118.3535'
 website: ''
-day: Wed
-open: '1100'
-close: '1500'
+day: Wednesday
+open: 11am
+close: 3pm
 '': ''
 category: Farmers Market
 title: 'Miracle Mile Farmers Market, Food Oasis Los Angeles'

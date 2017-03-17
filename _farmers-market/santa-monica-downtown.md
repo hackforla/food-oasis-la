@@ -10,9 +10,9 @@ phone: 310 458-8712
 latitude: '34.0162'
 longitude: '-118.4986'
 website: 'http://www.smgov.net/portals/farmersmarket/'
-day: Sat
-open: '830'
-close: '1300'
+day: Saturday
+open: '8:30am'
+close: 1pm
 '': ''
 category: Farmers Market
 title: 'Santa Monica Downtown Farmers Market, Food Oasis Los Angeles'

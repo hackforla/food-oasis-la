@@ -10,9 +10,9 @@ phone: ''
 latitude: '33.9835'
 longitude: '-117.867'
 website: 'https://www.yelp.com/biz/the-jack-newes-farmers-market-walnut'
-day: Sat
-open: '800'
-close: '1400'
+day: Saturday
+open: 8am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Jack Newe''s Farmers Market, Food Oasis Los Angeles'

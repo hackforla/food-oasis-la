@@ -10,9 +10,9 @@ phone: (661) 250-3787
 latitude: '34.3815'
 longitude: '-118.5293'
 website: 'http://oldtownnewhall.com/old-town-newhall-farmers-market/'
-day: Sat
-open: '830'
-close: '1230'
+day: Saturday
+open: '8:30am'
+close: '12:30pm'
 '': ''
 category: Farmers Market
 title: 'Newhall Farmers Market, Food Oasis Los Angeles'

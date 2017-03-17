@@ -11,8 +11,8 @@ latitude: '34.0841'
 longitude: '-118.374'
 website: ''
 day: 'Sun '
-open: '1000'
-close: '1400'
+open: 10am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'L.A. Melrose Place Farmers Market, Food Oasis Los Angeles'

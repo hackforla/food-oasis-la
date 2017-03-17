@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.057'
 longitude: '-118.4494'
 website: ''
-day: Thu
-open: '1200'
-close: '1800'
+day: Thursday
+open: 12pm
+close: 6pm
 '': ''
 category: Farmers Market
 title: 'Westwood Village Farmers Market, Food Oasis Los Angeles'

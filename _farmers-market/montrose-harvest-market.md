@@ -10,9 +10,9 @@ phone: (818) 646-2880
 latitude: '34.2054'
 longitude: '-118.2269'
 website: 'http://shopmontrose.com/harvest-market-and-marketplace/'
-day: Sun
-open: '900'
-close: '1400'
+day: Sunday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'Montrose Harvest Market, Food Oasis Los Angeles'

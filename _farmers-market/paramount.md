@@ -10,9 +10,9 @@ phone: (562) 220-2224
 latitude: '33.9026'
 longitude: '-118.1602'
 website: ''
-day: Fri
-open: '930'
-close: '1330'
+day: Friday
+open: '9:30am'
+close: '1:30pm'
 '': ''
 category: Farmers Market
 title: 'Paramount Farmers Market, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: ''
 latitude: '34.064542'
 longitude: '-117.750371'
 website: ''
-day: Sat
-open: '730'
-close: '1130'
+day: Saturday
+open: '7:30am'
+close: '11:30am'
 '': ''
 category: Farmers Market
 title: 'Pomona Valley CFM, Food Oasis Los Angeles'

@@ -10,9 +10,9 @@ phone: (310) 832-2183
 latitude: '33.7388'
 longitude: '-118.2857'
 website: ''
-day: Fri
-open: '900'
-close: '1400'
+day: Friday
+open: 9am
+close: 2pm
 '': ''
 category: Farmers Market
 title: 'San Pedro Farmers Market, Food Oasis Los Angeles'
