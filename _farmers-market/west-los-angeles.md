@@ -10,7 +10,7 @@ phone: ''
 latitude: '34.0457'
 longitude: '-118.4505'
 website: ''
-day: 'Sun '
+day: Sunday
 open: 9am
 close: 2pm
 '': ''

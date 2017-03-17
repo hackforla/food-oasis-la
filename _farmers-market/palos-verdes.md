@@ -10,7 +10,7 @@ phone: (310) 328-8076
 latitude: '33.7767'
 longitude: '-118.3749'
 website: ''
-day: 'Sun '
+day: Sunday
 open: 8am
 close: 1pm
 '': ''

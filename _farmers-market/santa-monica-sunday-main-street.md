@@ -10,7 +10,7 @@ phone: 310 458-8712
 latitude: '34.0023'
 longitude: '-118.4833'
 website: 'http://www.smgov.net/portals/farmersmarket/'
-day: 'Sun '
+day: Sunday
 open: '8:30am'
 close: '1:30pm'
 '': ''

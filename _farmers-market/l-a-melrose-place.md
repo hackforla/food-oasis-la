@@ -10,7 +10,7 @@ phone: (818) 591-8161
 latitude: '34.0841'
 longitude: '-118.374'
 website: ''
-day: 'Sun '
+day: Sunday
 open: 10am
 close: 2pm
 '': ''

@@ -11,7 +11,7 @@ latitude: '34.4042'
 longitude: '-118.5683'
 website: >-
   http://visitsantaclarita.com/dining/farmers-markets/santa-clarita-farmers-market/
-day: 'Sun '
+day: Sunday
 open: '8:30am'
 close: 12pm
 '': ''

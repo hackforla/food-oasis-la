@@ -49,7 +49,7 @@ function createMarkdownFile(writePath, data, category_uri) {
   data.uri = '/' + category_uri + '/' + filename + '/';
 
   if (data.day && data.open && data.close) {
-    switch (data.day) {
+    switch (data.day.trim()) {
       case 'Mon':
         data.day = 'Monday';
         break;

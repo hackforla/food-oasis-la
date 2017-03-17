@@ -10,7 +10,7 @@ phone: (626) 422-1419
 latitude: '34.1077'
 longitude: '-118.0579'
 website: 'http://www.ci.temple-city.ca.us/287/Farmers-Market'
-day: 'Sun '
+day: Sunday
 open: '8:30am'
 close: 1pm
 '': '1300'
