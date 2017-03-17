@@ -155,9 +155,31 @@
 	.map-container {
 		height: 500px;
 		height: 50vh;
-		height: calc(100vh - 20em);
+		height: calc(100vh - 8.625em);
 		width: 100%;
 		overflow: hidden;
+	}
+
+	/* OPTIONAL: Increase the font size on big screens. */
+	@media screen and (min-width: 600px) and (min-height: 600px) {
+		.map-container {
+			height: calc(100vh - 10em);
+		}
+	}
+	@media screen and (min-width: 800px) and (min-height: 800px) {
+		.map-container {
+			height: calc(100vh - 10.75em);
+		}
+	}
+	@media screen and (min-width: 1000px) and (min-height: 1000px) {
+		.map-container {
+			height: calc(100vh - 11.75em);
+		}
+	}
+	@media screen and (min-width: 1200px) and (min-height: 1200px) {
+		.map-container {
+			height: calc(100vh - 12.75em);
+		}
 	}
 
 	.location-details .map-container {
@@ -524,6 +546,11 @@
 	}
 	dd {
 		padding-bottom: 0.375em;
+
+		/* For long URLs on the detail page */
+		/* @wrap-long-words */
+		word-wrap     : break-word;
+		overflow-wrap : break-word;
 	}
 	@media (min-width: 40em) {
 		dl:after {
