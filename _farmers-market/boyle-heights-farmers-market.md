@@ -10,12 +10,15 @@ phone: (323) 331-2752
 latitude: '34.047096'
 longitude: '-118.218686'
 website: 'https://www.facebook.com/Boyle-Heights-Farmers-Market-308825742488228/'
-day: Friday
-open: 3pm
-close: 7pm
+day: Fri
+open: '1500'
+close: '1900'
 '': ''
 category: Farmers Market
 title: 'Boyle Heights Farmers'' Market, Food Oasis Los Angeles'
 uri: /farmers-market/boyle-heights-farmers-market/
+formatted_day: Friday
+formatted_open: 3pm
+formatted_close: 7pm
 
 ---

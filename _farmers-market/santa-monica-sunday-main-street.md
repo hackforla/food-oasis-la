@@ -10,12 +10,15 @@ phone: 310 458-8712
 latitude: '34.0023'
 longitude: '-118.4833'
 website: 'http://www.smgov.net/portals/farmersmarket/'
-day: Sunday
-open: '8:30am'
-close: '1:30pm'
+day: 'Sun '
+open: '830'
+close: '1330'
 '': ''
 category: Farmers Market
 title: 'Santa Monica Farmers Market - Sunday Main Street, Food Oasis Los Angeles'
 uri: /farmers-market/santa-monica-sunday-main-street/
+formatted_day: Sunday
+formatted_open: '8:30am'
+formatted_close: '1:30pm'
 
 ---

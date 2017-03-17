@@ -39,9 +39,6 @@
 						var latitude  = results[0].geometry.location.lat();
 						var longitude = results[0].geometry.location.lng();
 
-						//console.log('latitude: ' + latitude);
-						//console.log('longitude: ' + longitude);
-
 						sortByClosest(latitude, longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 						if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>' + getParameterByName('address') + '</em>';
@@ -128,7 +125,6 @@
 		})();
 
 		function sortByClosest(latitude, longitude, geolocated) {
-			// console.log("inside sortByClosest");
 			var list = [];
 			var nextLatitude, nextLongitude, dif;
 			for (index = 0; index < locations.length; index++) {
@@ -391,6 +387,20 @@
 		*/
 	}
 
+	var DAYS_OF_WEEK = [
+		'Sun',
+		'Mon',
+		'Tue',
+		'Wed',
+		'Thu',
+		'Fri',
+		'Sat'
+	];
+	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
+		var hours   = Number(timeString.substring(0, timeString.length - 2));
+		var minutes = Number(timeString.substring(timeString.length - 2));
+		return (hours * 60 * 60) + (minutes * 60);
+	}
 	function createListItem(data, containerTagName) {
 
 		var template = document.getElementById('list-item-template');
@@ -417,20 +427,29 @@
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
 			// Open Now
-			/*
-			if (data.day) {
-				var openNowElement = element.querySelector('.open:not(.coming-soon)');
-				if (data.open && data.close) {
-					// var localEpochTimeSeconds = Math.floor(new Date().getTime() / 1000);
-					if (open now) {
-						openNowElement.style.display = 'block';
-					}
+			var isOpen = false;
+			if (data.day && data.open && data.close) {
+
+				var now = new Date();
+				var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
+
+				var time = now.toTimeString();
+				var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+
+				if (pacificTime &&
+					DAYS_OF_WEEK[now.getDay()] === data.day &&
+					nowSeconds > getSeconds(data.open) &&
+					nowSeconds < getSeconds(data.close) ) {
+					isOpen = true;
 				}
-			} else {
-			*/
-				var openNowElement = element.querySelector('.open.coming-soon');
-				openNowElement.style.display = 'block';
-			//}
+
+				// TBD: Should we show a special notice if it’s opening soon or closing soon?
+			}
+
+			if (!isOpen) {
+				var openNowElement = element.querySelector('.open');
+				openNowElement.parentNode.removeChild(openNowElement);
+			}
 
 			// Distance
 			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);

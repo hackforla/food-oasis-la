@@ -10,12 +10,15 @@ phone: 928-854-1105
 latitude: '34.0893'
 longitude: '-117.89'
 website: 'http://www.covinafarmersmarket.com/'
-day: Friday
-open: 5pm
-close: 9pm
+day: Fri
+open: '1700'
+close: '2100'
 '': ''
 category: Farmers Market
 title: 'Covina Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/covina/
+formatted_day: Friday
+formatted_open: 5pm
+formatted_close: 9pm
 
 ---

@@ -10,12 +10,15 @@ phone: (562) 449 - 9299
 latitude: '33.7685'
 longitude: '-118.1329'
 website: 'http://www.localharvestfarmersmarkets.com/marine-stadium'
-day: Wednesday
-open: 3pm
-close: 7pm
+day: Wed
+open: '1500'
+close: '1900'
 '': ''
 category: Farmers Market
 title: 'Local Harvest Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/local-harvest/
+formatted_day: Wednesday
+formatted_open: 3pm
+formatted_close: 7pm
 
 ---

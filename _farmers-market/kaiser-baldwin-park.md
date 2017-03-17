@@ -11,12 +11,15 @@ latitude: '34.0654'
 longitude: '-117.9859'
 website: >-
   https://thrive.kaiserpermanente.org/care-near-you/southern-california/baldwin-park/shc_calendar_event/farmers-market-6/
-day: Friday
-open: '8:30am'
-close: '1:30pm'
+day: Fri
+open: '830'
+close: '1330'
 '': ''
 category: Farmers Market
 title: 'Kaiser Baldwin Park Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/kaiser-baldwin-park/
+formatted_day: Friday
+formatted_open: '8:30am'
+formatted_close: '1:30pm'
 
 ---

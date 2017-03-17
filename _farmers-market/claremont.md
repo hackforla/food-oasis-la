@@ -10,12 +10,15 @@ phone: (714) 345-3087
 latitude: '34.0956'
 longitude: '-117.7193'
 website: 'http://www.claremontforum.org/claremont-farmers-market/'
-day: Sunday
-open: 8am
-close: 1pm
+day: Sun
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Claremont Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/claremont/
+formatted_day: Sunday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

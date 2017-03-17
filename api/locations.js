@@ -11,7 +11,9 @@ var locations = [
 	name      : "{{ data.name }}",
 	address_1 : "{{ data.address_1 | replace: '"', '' }}",
 	category  : "{{ data.category }}",
-	hours     : "{{ data.hours }}",
+	day       : "{{ data.day }}",
+	open      : "{{ data.open }}",
+	close     : "{{ data.close }}",
 	uri       : "{{ data.uri }}"
 }{% unless forloop.last %},{% endunless %}
 {% endfor %}

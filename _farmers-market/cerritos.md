@@ -10,12 +10,15 @@ phone: (562) 597-7920
 latitude: '33.8693'
 longitude: '-118.0625'
 website: 'https://www.facebook.com/CerritosFarmersMarket/'
-day: Saturday
-open: 8am
-close: 12pm
+day: Sat
+open: '800'
+close: '1200'
 '': ''
 category: Farmers Market
 title: 'Cerritos Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/cerritos/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: 12pm
 
 ---

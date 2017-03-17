@@ -11,12 +11,15 @@ latitude: '38.5706'
 longitude: '-121.448'
 website: >-
   https://www.facebook.com/pg/CentralAvenueFarmersMarket/about/?ref=page_internal
-day: Thursday
-open: 10am
-close: 3pm
+day: Thu
+open: '1000'
+close: '1500'
 '': ''
 category: Farmers Market
 title: 'L.A. Central Avenue Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/l-a-central-avenue/
+formatted_day: Thursday
+formatted_open: 10am
+formatted_close: 3pm
 
 ---

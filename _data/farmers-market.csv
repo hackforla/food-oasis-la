@@ -63,8 +63,7 @@ FM_ID,name,address_1,address_2,city,state,zipcode,phone,latitude,longitude,websi
 1002890,Wellington Square Farmers Market,4394 W Washington Blvd.,,Los Angeles,California,90016,,34.0398,-118.3348,https://www.wellingtonsquarefarmersmarket.com/,Sun,900,1300,
 ,West Los Angeles Farmers Market,1645 Corinth Avenue at Santa Monica Blvd,,Los Angeles,California,90025,,34.0457,-118.4505,,Sun ,900,1400,
 1008720,Temple City Farmers Market,9701 Las  Tunas Dr,,Temple City,California,91780,(626) 422-1419,34.1077,-118.0579,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,830,1300,1300
-,The Village Farmers Market,6250 Topanga Blvd.,,Woodland HIlls,California,91367,"(818) 591-8161
-",34.1841,-118.6058,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,900,1300,
+,The Village Farmers Market,6250 Topanga Blvd.,,Woodland HIlls,California,91367,"(818) 591-8161",34.1841,-118.6058,http://www.ci.temple-city.ca.us/287/Farmers-Market,Sun ,900,1300,
 1003446,L.A. Melrose Place Farmers Market,Melrose Place & Croft,"
 8400 Melrose Ave",Los Angeles,California,90069,(818) 591-8161,34.0841,-118.374,,Sun ,1000,1400,
 1011995,Palos Verdes Farmers Market,27118 Silver Spur Rd,,Rolling Hills Estates,California,90274,(310) 328-8076,33.7767,-118.3749,,Sun ,800,1300,
@@ -105,9 +104,7 @@ FM_ID,name,address_1,address_2,city,state,zipcode,phone,latitude,longitude,websi
 1011298,Old L.A. Farmers Market,North Figueroa & Ave. 58,,Los Angeles,California,90042,(323) 449-4100,34.1106,-118.1928,,Tue,1500,2000,
 1008719,Pasadena Villa Parke Farmers Market,363 E. Villa St.,,Pasadena,California,91101,(626) 449-0179,34.1551,-118.1429,http://www.pasadenafarmersmarket.org/pasadena_farmers_market_villa_parke.html,Tue,830,1230,
 ,Adams - Vermont Farmers Market / St. Agnes Church Farmer's Market,1432 W Adams Blvd,,Los Angeles,California,90007,213-454-8533,34.0326,-118.2926,,Wed,1400,1900,
-1009998,Altadena Farmers Market,600 W. Palm Street,,Altadena,California,91001,(310) 595-0272,34.2004,-118.1581,http://altadenafarmersmarket.com/,Wed,"open spring/summer 4pm
-open fall/winter 3pm","open spring/summer 8pm
-open fall/winter 7pm",
+1009998,Altadena Farmers Market,600 W. Palm Street,,Altadena,California,91001,(310) 595-0272,34.2004,-118.1581,http://altadenafarmersmarket.com/,Wed,open spring/summer 4pm; open fall/winter 3pm,open spring/summer 8pm; open fall/winter 7pm,
 ,Children's Hospital LA CFM,4650 Sunset Blvd.,,Los Angeles,California,90027,323-361-8505,34.097567,-118.290099,https://www.facebook.com/chlafarmersmarket/,Wed,1000,1500,
 1006480,Hermosa Beach Farmers Market,Valley Dr. between 8th St. & 10th St.,,Hermosa Beach,California,90254,,33.862,-118.3952,https://www.facebook.com/farmermarkHB,Wed,1100,1600,
 1011300,Lincoln Heights Farmers Market,2334 Daly St.,,Los Angeles,California,90031,(323) 437-0203,34.0729,-118.2152,https://www.facebook.com/LincolnHeightsCFM/,Wed,1500,2000,

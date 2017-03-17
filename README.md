@@ -116,7 +116,7 @@ npm install
 node generate-locations.js
 ```
 
-Note that this will overwrite the existing markdown files, but it won’t remove any of them. You may wish to manually remove these three folders before running `generate-locations.js`, so there won’t be any old files left inside them…
+Note that this will overwrite the existing markdown files, but it won’t remove any of them. You may wish to manually remove these folders before running `generate-locations.js`, so there won’t be any old files left inside them…
 ```
 _community-garden/*
 _farmers-market/*

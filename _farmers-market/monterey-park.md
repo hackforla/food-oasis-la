@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.0591'
 longitude: '-118.1247'
 website: 'http://www.montereypark.ca.gov/686/Farmers-Market'
-day: Friday
-open: 4pm
-close: 8pm
+day: Fri
+open: '1600'
+close: '2000'
 '': ''
 category: Farmers Market
 title: 'Monterey Park Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/monterey-park/
+formatted_day: Friday
+formatted_open: 4pm
+formatted_close: 8pm
 
 ---

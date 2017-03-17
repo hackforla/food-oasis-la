@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.8982'
 longitude: '-118.354'
 website: 'http://www.lawndalecity.org/HTML/FarmersMarket.htm'
-day: Wednesday
-open: 2pm
-close: 7pm
+day: Wed
+open: '1400'
+close: '1900'
 '': ''
 category: Farmers Market
 title: 'Lawndale Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/lawndale/
+formatted_day: Wednesday
+formatted_open: 2pm
+formatted_close: 7pm
 
 ---

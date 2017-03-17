@@ -10,12 +10,15 @@ phone: (818) 591-8161
 latitude: '34.0533'
 longitude: '-118.2529'
 website: ''
-day: Friday
-open: 10am
-close: 2pm
+day: Fri
+open: '1000'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Bank Of America Plaza Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/bank-of-america-plaza/
+formatted_day: Friday
+formatted_open: 10am
+formatted_close: 2pm
 
 ---

@@ -12,12 +12,15 @@ phone: (562) 449 - 9299
 latitude: '33.7576'
 longitude: '-118.1131'
 website: 'http://lbfresh.org/eaters/find-local-food/farmers-markets/'
-day: Sunday
-open: 9am
-close: 2pm
+day: Sun
+open: '900'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Long Beach Southeast Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/long-beach-southeast/
+formatted_day: Sunday
+formatted_open: 9am
+formatted_close: 2pm
 
 ---

@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.0706'
 longitude: '-117.9215'
 website: 'http://westcovinafarmersmarket.org/'
-day: Saturday
-open: 8am
-close: 1pm
+day: Sat
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'West Covina Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/west-covina/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

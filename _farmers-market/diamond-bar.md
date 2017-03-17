@@ -11,12 +11,15 @@ latitude: '36.8199'
 longitude: '-119.781'
 website: >-
   http://www.local-farmers-markets.com/market/345/diamond-bar/diamond-bar-farmers-market
-day: Saturday
-open: 8am
-close: 1pm
+day: Sat
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Diamond Bar Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/diamond-bar/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.8867'
 longitude: '-118.4094'
 website: 'http://downtownmanhattanbeach.com/manhattan-beach-farmers-market/'
-day: Tuesday
-open: 11am
-close: 4pm
+day: Tue
+open: '1100'
+close: '1600'
 '': ''
 category: Farmers Market
 title: 'Manhattan Beach Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/manhattan-beach/
+formatted_day: Tuesday
+formatted_open: 11am
+formatted_close: 4pm
 
 ---

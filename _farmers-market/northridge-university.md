@@ -10,12 +10,15 @@ phone: 818) 677-1200
 latitude: '34.236'
 longitude: '-118.5283'
 website: ''
-day: Tuesday
-open: 10am
-close: 2pm
+day: Tue
+open: '1000'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Northridge University Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/northridge-university/
+formatted_day: Tuesday
+formatted_open: 10am
+formatted_close: 2pm
 
 ---

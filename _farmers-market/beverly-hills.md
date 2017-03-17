@@ -10,12 +10,15 @@ phone: (310) 285-6830
 latitude: '34.0743'
 longitude: '-118.3989'
 website: 'http://www.beverlyhills.org/exploring/farmersmarket/'
-day: Sunday
-open: 9am
-close: 1pm
+day: Sun
+open: '900'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Beverly Hills Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/beverly-hills/
+formatted_day: Sunday
+formatted_open: 9am
+formatted_close: 1pm
 
 ---

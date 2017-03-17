@@ -10,12 +10,15 @@ phone: (562) 863-4896
 latitude: '33.9456'
 longitude: '-118.0827'
 website: ''
-day: Wednesday
-open: 5pm
-close: 9pm
+day: Wed
+open: '1700'
+close: '2100'
 '': ''
 category: Farmers Market
 title: 'Santa Fe Springs Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/santa-fe-springs/
+formatted_day: Wednesday
+formatted_open: 5pm
+formatted_close: 9pm
 
 ---

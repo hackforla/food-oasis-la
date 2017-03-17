@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.1604'
 longitude: '-118.0929'
 website: 'http://www.pasadenafarmersmarket.org/pasadena_farmers_market_victory_park.html'
-day: Saturday
-open: '8:30am'
-close: '12:30pm'
+day: Sat
+open: '830'
+close: '1230'
 '': ''
 category: Farmers Market
 title: 'Pasadena Victory Park Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/pasadena-victory-park/
+formatted_day: Saturday
+formatted_open: '8:30am'
+formatted_close: '12:30pm'
 
 ---

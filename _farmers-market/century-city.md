@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.061'
 longitude: '-118.4179'
 website: 'https://www.facebook.com/CenturyCityFM'
-day: Thursday
-open: 10am
-close: 2pm
+day: Thu
+open: '1000'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Century City Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/century-city/
+formatted_day: Thursday
+formatted_open: 10am
+formatted_close: 2pm
 
 ---

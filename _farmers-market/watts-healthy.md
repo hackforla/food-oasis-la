@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.9435'
 longitude: '-118.2524'
 website: 'http://seela.org/venue/watts-healthy-farmers-market-2/'
-day: Saturday
-open: 10am
-close: 2pm
+day: Sat
+open: '1000'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Watts Healthy Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/watts-healthy/
+formatted_day: Saturday
+formatted_open: 10am
+formatted_close: 2pm
 
 ---

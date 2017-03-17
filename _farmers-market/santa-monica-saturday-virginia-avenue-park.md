@@ -10,14 +10,17 @@ phone: 310 458-8712
 latitude: '34.0208'
 longitude: '-118.4677'
 website: 'http://www.smgov.net/portals/farmersmarket/'
-day: Saturday
-open: 8am
-close: 1pm
+day: Sat
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: >-
   Santa Monica Farmers Market - Saturday Virginia Avenue Park, Food Oasis Los
   Angeles
 uri: /farmers-market/santa-monica-saturday-virginia-avenue-park/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

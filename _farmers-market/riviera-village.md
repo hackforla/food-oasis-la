@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.8193'
 longitude: '-118.3884'
 website: ''
-day: Sunday
-open: 8am
-close: 1pm
+day: 'Sun '
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Riviera Village Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/riviera-village/
+formatted_day: Sunday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

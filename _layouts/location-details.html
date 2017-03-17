@@ -83,10 +83,10 @@ TODO:
 	</ul>
 
 	<h2>Hours</h2>
-	{% if page['day'] %}
+	{% if page['formatted_day'] %}
 	<dl>
-		<dt>{{ page['day'] }}</dt>
-		<dd>{{ page['open'] }} – {{ page['close'] }}</dd>
+		<dt>{{ page['formatted_day'] }}</dt>
+		<dd>{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</dd>
 	</dl>
 	{% else %}
 	<del>

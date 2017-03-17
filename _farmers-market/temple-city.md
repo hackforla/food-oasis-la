@@ -10,12 +10,15 @@ phone: (626) 422-1419
 latitude: '34.1077'
 longitude: '-118.0579'
 website: 'http://www.ci.temple-city.ca.us/287/Farmers-Market'
-day: Sunday
-open: '8:30am'
-close: 1pm
+day: 'Sun '
+open: '830'
+close: '1300'
 '': '1300'
 category: Farmers Market
 title: 'Temple City Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/temple-city/
+formatted_day: Sunday
+formatted_open: '8:30am'
+formatted_close: 1pm
 
 ---

@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.9586'
 longitude: '-118.394'
 website: ''
-day: Wednesday
-open: '8:30am'
-close: 1pm
+day: Wed
+open: '830'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Westchester Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/westchester/
+formatted_day: Wednesday
+formatted_open: '8:30am'
+formatted_close: 1pm
 
 ---

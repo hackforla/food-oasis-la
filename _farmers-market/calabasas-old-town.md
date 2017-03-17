@@ -10,12 +10,15 @@ phone: (818) 591-8161
 latitude: '34.1587'
 longitude: '-118.636'
 website: 'https://www.yelp.com/biz/old-town-calabasas-farmers-market-calabasas'
-day: Saturday
-open: 8am
-close: 1pm
+day: Sat
+open: '800'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'Calabasas Old Town Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/calabasas-old-town/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: 1pm
 
 ---

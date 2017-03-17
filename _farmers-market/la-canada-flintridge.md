@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.2035'
 longitude: '-118.198'
 website: 'http://www.lacanadaflintridge.com/events-page/farmers-market.html'
-day: Saturday
-open: 9am
-close: 1pm
+day: Sat
+open: '900'
+close: '1300'
 '': ''
 category: Farmers Market
 title: 'La Canada Flintridge Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/la-canada-flintridge/
+formatted_day: Saturday
+formatted_open: 9am
+formatted_close: 1pm
 
 ---

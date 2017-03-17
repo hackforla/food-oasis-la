@@ -51,38 +51,37 @@ function createMarkdownFile(writePath, data, category_uri) {
   if (data.day && data.open && data.close) {
     switch (data.day.trim()) {
       case 'Mon':
-        data.day = 'Monday';
+        data.formatted_day = 'Monday';
         break;
       case 'Tue':
-        data.day = 'Tuesday';
+        data.formatted_day = 'Tuesday';
         break;
       case 'Wed':
-        data.day = 'Wednesday';
+        data.formatted_day = 'Wednesday';
         break;
       case 'Thu':
-        data.day = 'Thursday';
+        data.formatted_day = 'Thursday';
         break;
       case 'Fri':
-        data.day = 'Friday';
+        data.formatted_day = 'Friday';
         break;
       case 'Sat':
-        data.day = 'Saturday';
+        data.formatted_day = 'Saturday';
         break;
       case 'Sun':
-        data.day = 'Sunday';
+        data.formatted_day = 'Sunday';
         break;
     }
-    data.open = formatTime(data.open);
-    data.close = formatTime(data.close);
+    data.formatted_open  = formatTime(data.open);
+    data.formatted_close = formatTime(data.close);
   }
 
-   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
+  // https://www.npmjs.com/package/js-yaml#safedump-object---options-
   var output =
 `---
 ${yaml.safeDump(data)}
 ---
 `
-  // console.log(writePath + '/' +  filename + '.md');
 
   mkdirp(writePath, function (err) {
     if (err) {

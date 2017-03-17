@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.4159'
 longitude: '-118.5582'
 website: ''
-day: Thursday
-open: 4pm
-close: 8pm
+day: Thu
+open: '1600'
+close: '2000'
 '': ''
 category: Farmers Market
 title: 'Valencia Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/valencia/
+formatted_day: Thursday
+formatted_open: 4pm
+formatted_close: 8pm
 
 ---

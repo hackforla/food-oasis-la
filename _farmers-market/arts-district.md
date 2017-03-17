@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.045502'
 longitude: '-118.236677'
 website: 'http://laraba.org/ad-farmers-market/'
-day: Saturday
-open: 10am
-close: 4pm
+day: Sat
+open: '1000'
+close: '1600'
 '': ''
 category: Farmers Market
 title: 'Arts District Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/arts-district/
+formatted_day: Saturday
+formatted_open: 10am
+formatted_close: 4pm
 
 ---

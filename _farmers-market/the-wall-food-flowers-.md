@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.0408'
 longitude: '-118.2497'
 website: 'http://www.laflowerdistrict.com/farmers-market'
-day: Saturday
-open: 9am
-close: 2pm
+day: Sat
+open: '900'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'The WALL Food + Flowers + Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/the-wall-food-flowers-/
+formatted_day: Saturday
+formatted_open: 9am
+formatted_close: 2pm
 
 ---

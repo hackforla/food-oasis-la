@@ -10,12 +10,15 @@ phone: (213) 821-5707
 latitude: '34.0209'
 longitude: '-118.2807'
 website: 'http://hospitality.usc.edu/'
-day: Wednesday
-open: 11am
-close: 3pm
+day: Wed
+open: '1100'
+close: '1500'
 '': ''
 category: Farmers Market
 title: 'USC Hospitality Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/usc-hospitality/
+formatted_day: Wednesday
+formatted_open: 11am
+formatted_close: 3pm
 
 ---

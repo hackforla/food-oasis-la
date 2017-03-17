@@ -607,7 +607,8 @@
 	.location-summary h2 {
 		margin-top: 0;
 		margin-bottom: 0;
-		font-size: 1.5em;
+		font-size: 1.25em;
+		line-height: 1.25;
 		padding-left: 3rem;
 	}
 	.list .address,
@@ -636,6 +637,9 @@
 		bottom: 0.75rem;
 		left: 0;
 	}
+	.leaflet-popup-content .location-summary .open {
+		left: 0.75rem;
+	}
 	.list .type,
 	.location-summary .type,
 	.leaflet-popup-content .location-summary .type {
@@ -651,6 +655,9 @@
 		position: absolute;
 		bottom: 0.75rem;
 		right: 0;
+	}
+	.leaflet-popup-content .location-summary .distance {
+		right: 0.75rem;
 	}
 
 	.list .farmers-market .type,
@@ -677,9 +684,7 @@
 	.list li img,
 	.location-summary img {
 		position: absolute;
-	}
-	.list li img {
-		top: 0.75em;
+		top: 1.125em;
 		height: 2.25em;
 		width: auto;
 	}

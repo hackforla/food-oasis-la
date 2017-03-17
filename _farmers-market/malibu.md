@@ -10,12 +10,15 @@ phone: (310) 428-4262
 latitude: '34.0347'
 longitude: '-118.6912'
 website: 'https://www.facebook.com/pages/Malibu-Farmers-Market/112872675433982'
-day: Sunday
-open: 10am
-close: 3pm
+day: Sun
+open: '1000'
+close: '1500'
 '': ''
 category: Farmers Market
 title: 'Malibu Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/malibu/
+formatted_day: Sunday
+formatted_open: 10am
+formatted_close: 3pm
 
 ---

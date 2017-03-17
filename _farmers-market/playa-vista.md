@@ -10,12 +10,15 @@ phone: ''
 latitude: '33.9726'
 longitude: '-118.4219'
 website: 'http://www.farmermark.com/playavista/'
-day: Saturday
-open: 9am
-close: 2pm
+day: Sat
+open: '900'
+close: '1400'
 '': ''
 category: Farmers Market
 title: 'Playa Vista Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/playa-vista/
+formatted_day: Saturday
+formatted_open: 9am
+formatted_close: 2pm
 
 ---

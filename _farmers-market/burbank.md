@@ -10,12 +10,15 @@ phone: ''
 latitude: '34.1828'
 longitude: '-118.308'
 website: 'https://www.facebook.com/burbankfarmersmarket'
-day: Saturday
-open: 8am
-close: '12:30pm'
+day: Sat
+open: '800'
+close: '1230'
 '': ''
 category: Farmers Market
 title: 'Burbank Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/burbank/
+formatted_day: Saturday
+formatted_open: 8am
+formatted_close: '12:30pm'
 
 ---

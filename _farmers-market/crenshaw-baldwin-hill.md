@@ -10,12 +10,15 @@ phone: ' (323) 290-6636'
 latitude: '34.0112'
 longitude: '-118.3365'
 website: 'http://www.baldwinhillscrenshawplaza.com/farmersmarket'
-day: Saturday
-open: 10am
-close: 3pm
+day: Sat
+open: '1000'
+close: '1500'
 '': ''
 category: Farmers Market
 title: 'Crenshaw Baldwin Hill Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/crenshaw-baldwin-hill/
+formatted_day: Saturday
+formatted_open: 10am
+formatted_close: 3pm
 
 ---

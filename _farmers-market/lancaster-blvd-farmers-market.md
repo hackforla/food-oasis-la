@@ -10,12 +10,15 @@ phone: (818) 591-8161
 latitude: '34.697542'
 longitude: '-118.144039'
 website: 'http://www.theblvdlancaster.com/events.html?id=535#.WH7qI7byvdQ'
-day: Thursday
-open: 3pm
-close: 5pm
+day: Thu
+open: '1500'
+close: '1700'
 '': ''
 category: Farmers Market
 title: 'Lancaster Farmers Market / BLVD Farmers'' Market, Food Oasis Los Angeles'
 uri: /farmers-market/lancaster-blvd-farmers-market/
+formatted_day: Thursday
+formatted_open: 3pm
+formatted_close: 5pm
 
 ---

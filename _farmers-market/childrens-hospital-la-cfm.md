@@ -10,12 +10,15 @@ phone: 323-361-8505
 latitude: '34.097567'
 longitude: '-118.290099'
 website: 'https://www.facebook.com/chlafarmersmarket/'
-day: Wednesday
-open: 10am
-close: 3pm
+day: Wed
+open: '1000'
+close: '1500'
 '': ''
 category: Farmers Market
 title: 'Children''s Hospital LA CFM, Food Oasis Los Angeles'
 uri: /farmers-market/childrens-hospital-la-cfm/
+formatted_day: Wednesday
+formatted_open: 10am
+formatted_close: 3pm
 
 ---
