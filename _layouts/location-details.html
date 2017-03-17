@@ -13,14 +13,14 @@ stylesheets:
 	<meta charset="utf-8" />
 	<title>{{ page.title | escape }}</title>
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i,600" />
 	{% comment %}
 	* Open Sans - Regular
 	* Open Sans - Italic
 	* Reem Kufi - Regular
 
 	You can choose more faces here:
-	https://fonts.google.com/selection?selection.family=Open+Sans:400,400i|Reem+Kufi
+	https://fonts.google.com/selection?selection.family=Reem+Kufi|Open+Sans:400,400i,600
 	{% endcomment %}
 	<link href="/assets/css/beta.css" rel="stylesheet" />
 
@@ -39,7 +39,7 @@ stylesheets:
 
 {% comment %}
 TODO:
-* Pass the search parameters from the search page to this page, by editing location-list.js (For examaple… ?address=San+Gabriel&type=farmers-market)
+* Pass the search parameters from the search page to this page, by editing location-list.js (For example… ?address=San+Gabriel&type=farmers-market)
 * Use JavaScript to add those parameters to this link and then display it.
 {% endcomment %}
 <nav>
@@ -53,6 +53,7 @@ TODO:
 <main>
 
 	<div class="header {{ page['category'] | downcase | replace: ' ', '-' }}">
+		<div class="location-summary">
 
 		<img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" alt="" />
 
@@ -73,6 +74,7 @@ TODO:
 		<p class="distance"><del>0.4 miles away <mark>Coming soon!</mark></del></p>
 		<p class="open"><del>Open Now <mark>Coming soon!</mark></del></p>
 
+		</div>
 	</div>
 
 	<ul class="options action">

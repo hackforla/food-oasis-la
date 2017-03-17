@@ -420,7 +420,7 @@
 	----------------------------------------------- */
 	nav {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		box-shadow: 0 0.25em 0.25em rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
 		position: relative;
 		z-index: 1;
 	}
@@ -458,6 +458,11 @@
 		padding-top: 1.5em;
 		padding-bottom: 1.5em;
 		text-align: center;
+	}
+	nav.pagination .secondary a {
+		text-transform: none;
+		border-width: 0;
+		font-family: inherit;
 	}
 
 
@@ -552,6 +557,9 @@
 		list-style: none;
 		padding-left: 0;
 	}
+	main > .list:first-child {
+		margin-top: 0;
+	}
 	.list li + li {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
@@ -568,19 +576,70 @@
 		font-size: inherit;
 	}
 	.list h2,
+	.location-summary h1,
 	.location-summary h2 {
 		margin-top: 0;
-		text-decoration: underline;
-		margin-bottom: 0.25em;
-		color: rgb(144, 194, 70); /* @lime */
-		color: rgb(241, 95, 91); /* @strawberry */
-		color: rgb(77, 85, 148); /* @grape */
+		margin-bottom: 0;
+		font-size: 1.5em;
+		padding-left: 3rem;
+	}
+	.list .address,
+	.location-summary .address,
+	.leaflet-popup-content .location-summary .address {
+		margin-top: 0;
+	}
+	.location-summary .type a,
+	.location-summary .address a {
+		text-decoration: none;
+		color: inherit;
+	}
+	.header .location-summary {
+		margin-bottom: 3em;
+	}
+	.list .open,
+	.location-summary .open,
+	.leaflet-popup-content .location-summary .open {
+		color: rgb(66, 194, 231);
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: bold;
+		letter-spacing: 1px;
+		margin-bottom: 0;
+		position: absolute;
+		bottom: 0.75rem;
+		left: 0;
 	}
 	.list .type,
-	.location-summary .type {
-		opacity: 0.5;
+	.location-summary .type,
+	.leaflet-popup-content .location-summary .type {
 		font-style: italic;
+		margin-bottom: 2.25em;
 	}
+	.list .distance,
+	.location-summary .distance,
+	.leaflet-popup-content .location-summary .distance {
+		font-size: 0.75em;
+		opacity: 0.5;
+		margin-bottom: 0;
+		position: absolute;
+		bottom: 0.75rem;
+		right: 0;
+	}
+
+	.list .farmers-market .type,
+	.farmers-market .location-summary .type {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.list .community-garden .type,
+	.community-garden .location-summary .type {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.list .food-pantry .type,
+	.food-pantry .location-summary .type {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+
+
 	.list .classification {
 		font-size: 0.875em;
 	}
@@ -603,32 +662,10 @@
 	.location-summary img ~ p {
 		padding-left: 3rem;
 	}
-	.list li img ~ h2,
-	.location-summary img ~ h2 {
-		padding-left: 3rem;
-	}
 	.list li input[type="checkbox"] {
 		position: absolute;
 		top: 50%;
 		right: 1.5em;
-	}
-
-	.location-details main .header {
-		padding-left: 3em;
-		position: relative;
-	}
-	.location-details main .header h1 {
-		font-size: 1.5em;
-		margin-top: 0;
-	}
-
-	.location-details main .header img {
-		width: auto;
-		height: 2.25em;
-		vertical-align: middle;
-		margin-right: 0.375em;
-		position: absolute;
-		left: 0;
 	}
 
 	.location-summary img {
