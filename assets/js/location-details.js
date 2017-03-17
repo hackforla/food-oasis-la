@@ -200,7 +200,7 @@
 	}
 
 	// Open Now
-	if (!isOpenNow(FOOD_SOURCE)) {
+	if (isOpenNow(FOOD_SOURCE)) {
 		var openTemplate = document.querySelector('.open-template');
 		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
 	}
