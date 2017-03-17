@@ -155,7 +155,7 @@
 	.map-container {
 		height: 500px;
 		height: 50vh;
-		height: calc(100vh - 8.625em);
+		height: calc(100vh - 11.625em);
 		width: 100%;
 		overflow: hidden;
 	}
@@ -163,22 +163,22 @@
 	/* OPTIONAL: Increase the font size on big screens. */
 	@media screen and (min-width: 600px) and (min-height: 600px) {
 		.map-container {
-			height: calc(100vh - 10em);
+			height: calc(100vh - 13em);
 		}
 	}
 	@media screen and (min-width: 800px) and (min-height: 800px) {
 		.map-container {
-			height: calc(100vh - 10.75em);
+			height: calc(100vh - 13.75em);
 		}
 	}
 	@media screen and (min-width: 1000px) and (min-height: 1000px) {
 		.map-container {
-			height: calc(100vh - 11.75em);
+			height: calc(100vh - 14.75em);
 		}
 	}
 	@media screen and (min-width: 1200px) and (min-height: 1200px) {
 		.map-container {
-			height: calc(100vh - 12.75em);
+			height: calc(100vh - 15.75em);
 		}
 	}
 
