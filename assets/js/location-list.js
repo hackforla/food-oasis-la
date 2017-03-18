@@ -375,8 +375,7 @@
 
 				var visible;
 
-				// Attach map zoom handler
-				map.on('zoomend', function (e) {
+				function updateTooltips() {
 					// Check zoom level
 					if (map.getZoom() > 14) {
 						// Check if not already shown
@@ -402,7 +401,12 @@
 							visible = false;
 						}
 					}
-				});
+				}
+
+				updateTooltips();
+
+				// Attach map zoom handler
+				map.on('zoomend', updateTooltips);
 
 			})();
 		}
