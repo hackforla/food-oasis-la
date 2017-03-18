@@ -55,15 +55,13 @@ stylesheets:
 		<h1>{{ page.name }}</h1>
 
 		<p class="address">
-			<a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">
-				{{ page['address_1'] | escape }}
-				{% if page['address_2'] and page['address_2'] != '' %}
-					<br />
-					{{ page['address_2'] | escape }}
-				{% endif %}
+			{{ page['address_1'] | escape }}
+			{% if page['address_2'] and page['address_2'] != '' %}
 				<br />
-				{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
-			</a>
+				{{ page['address_2'] | escape }}
+			{% endif %}
+			<br />
+			{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
 		</p>
 		<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
 
@@ -78,15 +76,118 @@ stylesheets:
 	</div>
 
 	<ul class="options action">
-		<li><del><a>Share</a> <mark>Coming soon!</mark></del></li>
+		<li><a href="#shareable-link">Share</a></li>
 		<li><a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Directions</a></li>
 	</ul>
 
+	<div id="shareable-link">
+		<h2>Share</h2>
+		<p class="copy-paste">
+			<label>
+				<span>Here’s a link you can copy and paste:</span>
+				<input type="text" onclick="this.setSelectionRange(0, this.value.length)" value="https://foodoasis.la{{ page.url }}" readonly="readonly" />
+			</label>
+		</p>
+	</div>
+	<script>
+	(function() {
+		// Hide the details until the link is pressed
+		var link = document.querySelector('a[href="#shareable-link"]');
+		var details = document.getElementById('shareable-link');
+		if (link && details) {
+			details.style.display = 'none';
+			link.addEventListener('click', function(e) {
+				details.style.display = 'block';
+				e.preventDefault();
+				link.classList.add('disabled');
+			}, false);
+		}
+	})();
+	</script>
+
+{% comment %}
+<!--
+	<p class="copy-paste">
+		<label>
+			<span>Here’s an address you can copy and paste:</span>
+			<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly">
+}
+{{ page['address_1'] | escape }}{% if page['address_2'] and page['address_2'] != '' %},
+{{ page['address_2'] | escape }}{% endif %},
+{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
+			</textarea>
+		</label>
+	</p>
+-->
+{% endcomment %}
+
 	<h2>Hours</h2>
 	{% if page['formatted_day'] %}
+	{% assign days = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" | split: ", " %}
 	<dl>
-		<dt>{{ page['formatted_day'] }}</dt>
-		<dd>{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</dd>
+	{% for day in days %}
+		<dt>{{ day }}</dt>
+		{% if page['formatted_day'] == day %}
+		<dd data-day="{{ page['day'] }}" data-open="{{ page['open'] }}" data-close="{{ page['close'] }}">{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</dd>
+		<script>
+		(function() {
+			var DAYS_OF_WEEK = [
+				'Sun',
+				'Mon',
+				'Tue',
+				'Wed',
+				'Thu',
+				'Fri',
+				'Sat'
+			];
+			function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
+				var hours   = Number(timeString.substring(0, timeString.length - 2));
+				var minutes = Number(timeString.substring(timeString.length - 2));
+				return (hours * 60 * 60) + (minutes * 60);
+			}
+			function isOpenNow(data) {
+				if (data.day && data.open && data.close) {
+
+					var now = new Date();
+					var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
+
+					var time = now.toTimeString();
+					var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+
+					if (pacificTime &&
+						DAYS_OF_WEEK[now.getDay()] === data.day &&
+						nowSeconds > getSeconds(data.open) &&
+						nowSeconds < getSeconds(data.close) ) {
+						return true;
+					}
+
+					// TBD: Should we show a special notice if it’s opening soon or closing soon?
+				}
+				return false;
+			}
+			var day = document.querySelector('dd[data-day]');
+			if (day) {
+				var data = {
+					day: day.getAttribute('data-day'),
+					open: day.getAttribute('data-open'),
+					close: day.getAttribute('data-close')
+				};
+				if (isOpenNow(data)) {
+					day.classList.add('open');
+					var notice = document.createElement('i');
+					notice.textContent = 'Open Now';
+					day.appendChild(document.createTextNode(' '));
+					day.appendChild(notice);
+				}
+			}
+			debugger;
+		})();
+		</script>
+
+		{% else %}
+		<dd class="closed">Closed</dd>
+		{% endif %}
+	{% endfor %}
 	</dl>
 	{% else %}
 	<del>
