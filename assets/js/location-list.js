@@ -347,6 +347,8 @@
 						interactive: true
 					});
 					marker.addTo(map);
+					tooltip.addTo(map);
+					tooltip.closeTooltip();
 
 					function showLocationSummary() {
 						var item = createListItem(location, 'div');
@@ -375,9 +377,9 @@
 
 				var visible;
 
-				function updateTooltips() {
+				function updateTooltips(doShow) {
 					// Check zoom level
-					if (map.getZoom() > 14) {
+					if (map.getZoom() > 14 || doShow === true) {
 						// Check if not already shown
 						if (!visible) {
 
@@ -403,7 +405,9 @@
 					}
 				}
 
-				updateTooltips();
+				setTimeout(function() {
+					updateTooltips(true); // Show the tooltips by default
+				}, 100);
 
 				// Attach map zoom handler
 				map.on('zoomend', updateTooltips);
