@@ -430,17 +430,18 @@
 	}
 	header .tagline {
 		font-style: italic;
+		font-size: 0.875em;
 		opacity: 0.5;
 	}
 	header h2 img {
 		width: 2.5em;
 		height: auto;
 		display: block;
-		margin-top: -0.25em;
+		margin-top: 0em;
 	}
 
 	/* SHIM: Hide the tagline on small screens */
-	@media (max-width: 25em) {
+	@media (max-width: 21em) {
 		header .tagline {
 			position: absolute;
 			left: -9909px
@@ -449,7 +450,7 @@
 
 	.nav-link img {
 		vertical-align: middle;
-		height: 1.5em;
+		height: 1.25em;
 		width: auto;
 	}
 
