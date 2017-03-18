@@ -239,7 +239,7 @@
 		var link = document.getElementById('back-link');
 		if (link) {
 			updateLink(link);
-			link.textContent = '← Back to All Results';
+			link.querySelector('span').textContent = 'Back to All Results';
 		}
 	}
 

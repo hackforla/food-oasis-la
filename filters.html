@@ -28,12 +28,12 @@ layout: null
 
 		<form action="/locations/" method="get">
 
-			<ul class="options search">
-				<li class="action secondary"><button type="reset">Reset</button></li>
-				<li class="action"><button type="submit">Done</button></li>
-			</ul>
+			<div class="filter-header">
+				<h1>Filters</h1>
 
-			<h1>Filters</h1>
+				<p><button type="reset">Reset</button></p>
+				<p><button type="submit">Done</button></p>
+			</div>
 
 			<input type="hidden" name="address" />
 			<input type="hidden" name="type" id="hidden-type" />
