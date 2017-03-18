@@ -406,7 +406,7 @@
 				}
 
 				setTimeout(function() {
-					updateTooltips(true); // Show the tooltips by default
+					updateTooltips();
 				}, 100);
 
 				// Attach map zoom handler
