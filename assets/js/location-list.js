@@ -334,17 +334,36 @@
 						location.latitude,
 						location.longitude
 					];
-					var popup = L.popup({ maxWidth: INFINITY })
-						.setContent(createListItem(location, 'div'));
+					//var popup = L.popup({ maxWidth: INFINITY })
+					//	.setContent(createListItem(location, 'div'));
 
 					var marker = L.marker(coordinates, { icon: icon });
 
-					marker.bindPopup(popup);
+					//marker.bindPopup(popup);
 					var tooltip = marker.bindTooltip(location.name, {
 						direction: 'center',
-						offset: [0, -40]
+						offset: [0, -40],
+						permanent: true,
+						interactive: true
 					});
 					marker.addTo(map);
+
+					function showLocationSummary() {
+						var item = createListItem(location, 'div');
+						var summary = document.getElementById('map-location-summary');
+						summary.innerHTML = '';
+						summary.appendChild(item);
+						document.body.classList.add('has-map-location-summary');
+						/*
+						setTimeout(function() {
+							map.invalidateSize();
+							bounds.push(coordinates);
+							map.fitBounds(bounds);
+						}, 100);
+						*/
+					}
+
+					marker.on('click', showLocationSummary);
 
 					bounds.push(coordinates);
 					tooltips.push(tooltip);
