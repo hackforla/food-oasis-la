@@ -324,6 +324,7 @@
 		limit += start;
 		if (limit >= locations.length) limit = locations.length;
 		var bounds = [];
+		var tooltips = [];
 
 		if (map) {
 			for (var index = start; index < locations.length && index < limit; index++) {
@@ -339,11 +340,52 @@
 					var marker = L.marker(coordinates, { icon: icon });
 
 					marker.bindPopup(popup);
+					var tooltip = marker.bindTooltip(location.name, {
+						direction: 'center',
+						offset: [0, -40]
+					});
 					marker.addTo(map);
 
 					bounds.push(coordinates);
+					tooltips.push(tooltip);
 				})(locations[index]);
 			}
+
+			// KUDOS: http://stackoverflow.com/questions/27820338/how-do-i-show-a-label-beyond-a-certain-zoom-level-in-leaflet#answer-27822424
+			(function() {
+
+				var visible;
+
+				// Attach map zoom handler
+				map.on('zoomend', function (e) {
+					// Check zoom level
+					if (map.getZoom() > 14) {
+						// Check if not already shown
+						if (!visible) {
+
+							// Loop over layers
+							for (var index = 0; index < tooltips.length; index++) {
+								// Show label
+								tooltips[index].openTooltip();
+							};
+							// Set visibility flag
+							visible = true;
+						}
+					} else {
+						// Check if not already hidden
+						if (visible) {
+							// Loop over layers
+							for (var index = 0; index < tooltips.length; index++) {
+								// Hide label
+								tooltips[index].closeTooltip();
+							};
+							// Set visibility flag
+							visible = false;
+						}
+					}
+				});
+
+			})();
 		}
 
 		var limitTemplate = document.getElementById('limit-template');
