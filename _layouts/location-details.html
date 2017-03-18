@@ -129,61 +129,6 @@ stylesheets:
 		<dt>{{ day }}</dt>
 		{% if page['formatted_day'] == day %}
 		<dd data-day="{{ page['day'] }}" data-open="{{ page['open'] }}" data-close="{{ page['close'] }}">{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</dd>
-		<script>
-		(function() {
-			var DAYS_OF_WEEK = [
-				'Sun',
-				'Mon',
-				'Tue',
-				'Wed',
-				'Thu',
-				'Fri',
-				'Sat'
-			];
-			function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
-				var hours   = Number(timeString.substring(0, timeString.length - 2));
-				var minutes = Number(timeString.substring(timeString.length - 2));
-				return (hours * 60 * 60) + (minutes * 60);
-			}
-			function isOpenNow(data) {
-				if (data.day && data.open && data.close) {
-
-					var now = new Date();
-					var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
-
-					var time = now.toTimeString();
-					var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
-
-					if (pacificTime &&
-						DAYS_OF_WEEK[now.getDay()] === data.day &&
-						nowSeconds > getSeconds(data.open) &&
-						nowSeconds < getSeconds(data.close) ) {
-						return true;
-					}
-
-					// TBD: Should we show a special notice if it’s opening soon or closing soon?
-				}
-				return false;
-			}
-			var day = document.querySelector('dd[data-day]');
-			if (day) {
-				var data = {
-					day: day.getAttribute('data-day'),
-					open: day.getAttribute('data-open'),
-					close: day.getAttribute('data-close')
-				};
-				if (isOpenNow(data)) {
-					day.classList.add('open');
-					var notice = document.createElement('i');
-					notice.textContent = 'Open Now';
-					day.appendChild(document.createTextNode(' '));
-					day.appendChild(notice);
-				}
-			}
-			debugger;
-		})();
-		</script>
-
 		{% else %}
 		<dd class="closed">Closed</dd>
 		{% endif %}
