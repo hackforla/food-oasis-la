@@ -264,6 +264,7 @@
 				className: 'farmers-market-marker',
 				// Set marker width and height
 				iconSize: [30, 46],
+				iconAnchor: [15, 40],
 				popupAnchor: [0, -23]
 			}),
 			'Community Garden': L.divIcon({
@@ -271,6 +272,7 @@
 				className: 'community-garden-marker',
 				// Set marker width and height
 				iconSize: [30, 46],
+				iconAnchor: [15, 40],
 				popupAnchor: [0, -23]
 			}),
 			'Food Pantry': L.divIcon({
@@ -278,6 +280,7 @@
 				className: 'food-pantry-marker',
 				// Set marker width and height
 				iconSize: [30, 46],
+				iconAnchor: [15, 40],
 				popupAnchor: [0, -23]
 			})
 		};
@@ -291,6 +294,7 @@
 				className: 'farmers-market-marker-active',
 				// Set marker width and height
 				iconSize: [42, 70],
+				iconAnchor: [21, 70],
 				popupAnchor: [0, -35]
 			}),
 			'Community Garden': L.divIcon({
@@ -298,6 +302,7 @@
 				className: 'community-garden-marker-active',
 				// Set marker width and height
 				iconSize: [42, 70],
+				iconAnchor: [21, 70],
 				popupAnchor: [0, -35]
 			}),
 			'Food Pantry': L.divIcon({
@@ -305,6 +310,7 @@
 				className: 'food-pantry-marker-active',
 				// Set marker width and height
 				iconSize: [42, 70],
+				iconAnchor: [21, 70],
 				popupAnchor: [0, -35]
 			})
 		};
@@ -376,7 +382,7 @@
 					//marker.bindPopup(popup);
 					var tooltip = marker.bindTooltip(location.name, {
 						direction: 'center',
-						offset: [0, -40],
+						offset: [0, -20],
 						permanent: true,
 						interactive: true
 					});
