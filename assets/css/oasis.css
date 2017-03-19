@@ -799,6 +799,10 @@
 		margin-right: 0.75em;
 	}
 
+	footer .action a {
+		text-transform: none;
+	}
+
 	.canteloupe footer {
 		background-color: rgb(249, 192, 88); /* @canteloupe */
 	}

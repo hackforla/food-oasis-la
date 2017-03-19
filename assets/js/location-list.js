@@ -59,7 +59,7 @@
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'You';
+					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'you';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
@@ -283,6 +283,33 @@
 		};
 	}
 
+	var activeIcons;
+	if ('L' in window) {
+		activeIcons = {
+			'Farmers Market': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'farmers-market-marker-active',
+				// Set marker width and height
+				iconSize: [42, 70],
+				popupAnchor: [0, -35]
+			}),
+			'Community Garden': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'community-garden-marker-active',
+				// Set marker width and height
+				iconSize: [42, 70],
+				popupAnchor: [0, -35]
+			}),
+			'Food Pantry': L.divIcon({
+				// Specify a class name we can refer to in CSS.
+				className: 'food-pantry-marker-active',
+				// Set marker width and height
+				iconSize: [42, 70],
+				popupAnchor: [0, -35]
+			})
+		};
+	}
+
 	/*
 	function addMarker(position) {
 		var template = document.getElementById('marker-template');
@@ -312,6 +339,13 @@
 
 		return L.marker(coordinates, { icon: icon })
 			.addTo(map);
+	}
+
+	var markerResetMethods = [];
+	function resetMarkers() {
+		for (var index = 0; index < markerResetMethods.length; index++) {
+			markerResetMethods[index]();
+		}
 	}
 
 	function addMarkers(locations, geolocated, latitude, longitude) {
@@ -365,7 +399,17 @@
 						*/
 					}
 
-					marker.on('click', showLocationSummary);
+					marker.on('click', function() {
+						resetMarkers();
+						var icon = activeIcons[location.category];
+						marker.setIcon(icon);
+						showLocationSummary();
+					});
+
+					markerResetMethods.push(function() {
+						var icon = icons[location.category];
+						marker.setIcon(icon);
+					});
 
 					bounds.push(coordinates);
 					tooltips.push(tooltip);

@@ -80,7 +80,7 @@ stylesheets:
 		<li><a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Directions</a></li>
 	</ul>
 
-	<div id="shareable-link">
+	<div class="shareable-link" id="shareable-link">
 		<h2>Share</h2>
 		<p class="copy-paste">
 			<label>
@@ -95,9 +95,10 @@ stylesheets:
 		var link = document.querySelector('a[href="#shareable-link"]');
 		var details = document.getElementById('shareable-link');
 		if (link && details) {
-			details.style.display = 'none';
+			details.classList.add('inactive');
 			link.addEventListener('click', function(e) {
-				details.style.display = 'block';
+				details.classList.remove('inactive');
+				details.classList.add('active');
 				e.preventDefault();
 				link.classList.add('disabled');
 			}, false);
