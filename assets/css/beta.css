@@ -338,6 +338,9 @@
 	.location-details .map-container {
 		height: 30vh;
 	}
+	.location-details .map-container.expanded {
+		height: 75vh;
+	}
 
 	.only-map main {
 		display: none;

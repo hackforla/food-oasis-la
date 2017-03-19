@@ -13,7 +13,7 @@
 	});
 
 	// Add a zoom control
-	map.addControl(new mapboxgl.Navigation({position: 'bottom-left'})); // position is optional
+	map.addControl(new mapboxgl.Navigation( { position: 'top-right' } )); // position is optional
 
 	// Add a marker at the location of the food source
 	var template = document.getElementById('marker-template');
@@ -25,6 +25,17 @@
 			.setLngLat([FOOD_SOURCE.longitude, FOOD_SOURCE.latitude])
 			.addTo(map);
 	}
+	(function() {
+		//template.parentNode.insertBefore(div, template);
+		function expandMap() {
+			document.getElementById('map').className += ' expanded';
+			map.resize();
+			//div.parentNode.removeChild(div);
+			map.scrollZoom.enable();
+		}
+		document.getElementById('map').addEventListener('click', expandMap, false);
+		// expandMap();
+	})();
 })();
 
 (function() {
