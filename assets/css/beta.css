@@ -138,12 +138,12 @@
 		justify-content: stretch;
 	}
 	.options.action li {
-		flex-basis: 50%;
+		flex-basis: 100%;
 	}
 	.options.action a {
 		width: 100%;
-		padding-left: 0.5em;
-		padding-right: 0.5em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
 	}
 
 	.options.action a .icon {
@@ -155,9 +155,12 @@
 		margin-bottom: 0.25em;
 	}
 	@media (min-width: 21em) {
+		.options.action a {
+			display: flex;
+			justify-content: center;
+		}
 		.options.action a .icon {
-			float: left;
-			margin-right: 0.25em;
+			margin-right: 0.5em;
 			margin-bottom: 0;
 		}
 	}

@@ -78,8 +78,8 @@ stylesheets:
 	</div>
 
 	<ul class="options action">
-		<li><a href="#shareable-link"><img src="/assets/images/icons/share.svg" height="24" class="icon" alt="" /> Share</a></li>
-		<li><a href="#directions"><img src="/assets/images/icons/directions.svg" height="24" class="icon" alt="" /> Directions</a></li>
+		<li><a href="#shareable-link"><span><img src="/assets/images/icons/share.svg" height="24" class="icon" alt="" /></span> <span>Share</span></a></li>
+		<li><a href="#directions"><span><img src="/assets/images/icons/directions.svg" height="24" class="icon" alt="" /></span> <span>Directions</span></a></li>
 	</ul>
 
 	<div class="shareable-link" id="shareable-link">
@@ -122,7 +122,7 @@ stylesheets:
 {{ page['address_1'] | escape }}{% if page['address_2'] and page['address_2'] != '' %},
 {{ page['address_2'] | escape }}{% endif %},
 {{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
-				</textarea>
+</textarea>
 			</label>
 		</p>
 		<p><a href="http://maps.google.com/maps/place/{{ page['name'] | escape }} {{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Get Directions on Google Maps</a></p>
