@@ -270,7 +270,7 @@
 	input[type="text"] {
 		display: inline-block;
 		background: white;
-		color: black;
+		color: #B1B1B1;
 		line-height: inherit;
 		font-family: inherit;
 		font-size: inherit;
@@ -311,7 +311,7 @@
 		}
 	}
 	.pseudo-field {
-		padding-right: 3.75em;
+		padding-right: 6.75em;
 	}
 
 
@@ -1619,6 +1619,27 @@
 		display: table;
 		clear: both;
 	}
+	h2.home-headline{
+		color:white;
+		text-align: center;
+		z-index:100;
+		padding-bottom: 10px;
+
+	}
+	div.home-text {
+		padding: 50px 0;
+
+
+
+	}
+	.home-text p{
+		margin:0 auto;
+		text-align: center;
+		max-width: 90%;
+		font-size: 105%;
+		padding-bottom: 2%;
+	}
+
 	@media (min-width: 35em) {
 		.home form {
 			display: table;
@@ -1626,6 +1647,7 @@
 			margin-right: auto;
 			margin-bottom: 3em;
 		}
+		
 	}
 	@media (min-width: 40em) {
 		.home .categories section {
@@ -1711,6 +1733,7 @@
 		position: relative;
 		padding-top: 5.25em;
 		padding-bottom: 3.75em;
+		flex-direction: column;
 	}
 	.home form:before {
 		content: "";
