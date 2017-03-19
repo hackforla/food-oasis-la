@@ -205,7 +205,13 @@
 		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
 	}
 
+	var PAGE_PARAMETERS = {
+		type   : getParameterByName('type'),
+		address: getParameterByName('address')
+	};
+
 	// Distance
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address) { // If the user came from the search page
 	var distance;
 	findUserLocation(function(userLocation) {
 		if (FOOD_SOURCE.latitude != null && FOOD_SOURCE.latitude != '' && userLocation && userLocation.latitude && userLocation.longitude) {
@@ -220,11 +226,7 @@
 			distanceTemplate.parentNode.querySelector('.distance span').innerHTML = getDistanceForPresentation(distance);
 		}
 	});
-
-	var PAGE_PARAMETERS = {
-		type   : getParameterByName('type'),
-		address: getParameterByName('address')
-	};
+	}
 
 	function updateLink(link) {
 		var params = [];
