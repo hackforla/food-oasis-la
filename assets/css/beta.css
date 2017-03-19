@@ -99,6 +99,8 @@
 		font-size: inherit;
 		text-transform: uppercase;
 		line-height: inherit;
+		text-align: center;
+		box-sizing: border-box;
 	}
 	.action button:hover,
 	.action button:active,
@@ -111,12 +113,6 @@
 		color: white;
 	}
 
-	.header + .action a {
-		width: 100%;
-		box-sizing: border-box;
-		text-align: center;
-	}
-
 	.farmers-market + .action a {
 		background: rgb(241, 95, 91); /* @strawberry */
 	}
@@ -125,11 +121,14 @@
 		background: rgb(249, 192, 88); /* @canteloupe */
 	}
 
-	.header + .options {
+	.options.action {
 		justify-content: stretch;
 	}
-	.header + .options li {
+	.options.action li {
 		width: 50%;
+	}
+	.options.action a {
+		width: 100%;
 	}
 
 	.action.secondary a,
@@ -632,6 +631,9 @@
 	main,
 	footer {
 		padding: 1.5em;
+	}
+	main {
+		padding-bottom: 4.5em;
 	}
 
 	header {

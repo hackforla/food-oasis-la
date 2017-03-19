@@ -9,7 +9,7 @@
 		//style: 'mapbox://styles/mapbox/streets-v9',
 		center: [FOOD_SOURCE.longitude, FOOD_SOURCE.latitude], // starting position
 		scrollZoom: false,
-		zoom: 16 // starting zoom
+		zoom: 14 // starting zoom
 	});
 
 	// Add a zoom control

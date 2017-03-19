@@ -214,7 +214,13 @@ stylesheets:
 <!-- For location-details.js -->
 <script type="text/template" id="marker-template">
 	<div class="marker">
-		<img src="/assets/images/markers/green.svg" alt="" />
+		{% if page['category'] == 'Farmers Market' %}
+		<img src="/assets/images/map/pin-red-large.svg" alt="" />
+		{% elsif page['category'] == 'Food Pantry' %}
+		<img src="/assets/images/map/pin-yellow-large.svg" alt="" />
+		{% else %}
+		<img src="/assets/images/map/pin-green-large.svg" alt="" />
+		{% endif %}
 	</div>
 </script>
 
