@@ -138,10 +138,28 @@
 		justify-content: stretch;
 	}
 	.options.action li {
-		width: 50%;
+		flex-basis: 50%;
 	}
 	.options.action a {
 		width: 100%;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+
+	.options.action a .icon {
+		height: 1.5em;
+		width: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0.25em;
+	}
+	@media (min-width: 21em) {
+		.options.action a .icon {
+			float: left;
+			margin-right: 0.25em;
+			margin-bottom: 0;
+		}
 	}
 
 	.action.secondary a,
@@ -339,7 +357,7 @@
 		height: 30vh;
 	}
 	.location-details .map-container.expanded {
-		height: 75vh;
+		height: 50vh;
 	}
 
 	.only-map main {
@@ -871,7 +889,7 @@
 		line-height: 1.45;
 	}
 	.copy-paste textarea {
-		min-height: 4.35em;
+		min-height: 5.8em;
 		text-align: center;
 	}
 
@@ -884,9 +902,11 @@
 		}
 	}
 
+	.directions.inactive,
 	.shareable-link.inactive {
 		display: none;
 	}
+	.directions.active,
 	.shareable-link.active {
 		display: block;
 		animation: fade-in 0.6s;

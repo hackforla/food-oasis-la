@@ -78,8 +78,8 @@ stylesheets:
 	</div>
 
 	<ul class="options action">
-		<li><a href="#shareable-link">Share</a></li>
-		<li><a title="Get Directions on Google Maps" href="http://maps.google.com/maps/place/{{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Directions</a></li>
+		<li><a href="#shareable-link"><img src="/assets/images/icons/share.svg" height="24" class="icon" alt="" /> Share</a></li>
+		<li><a href="#directions"><img src="/assets/images/icons/directions.svg" height="24" class="icon" alt="" /> Directions</a></li>
 	</ul>
 
 	<div class="shareable-link" id="shareable-link">
@@ -92,10 +92,10 @@ stylesheets:
 		</p>
 	</div>
 	<script>
-	(function() {
+	function toggleDetailsOnPress(elementID) {
 		// Hide the details until the link is pressed
-		var link = document.querySelector('a[href="#shareable-link"]');
-		var details = document.getElementById('shareable-link');
+		var link = document.querySelector('a[href="#' + elementID + '"]');
+		var details = document.getElementById(elementID);
 		if (link && details) {
 			details.classList.add('inactive');
 			link.addEventListener('click', function(e) {
@@ -105,24 +105,31 @@ stylesheets:
 				link.classList.add('disabled');
 			}, false);
 		}
-	})();
+	}
 	</script>
 
-{% comment %}
-<!--
-	<p class="copy-paste">
-		<label>
-			<span>Here’s an address you can copy and paste:</span>
-			<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly">
-}
+	<script>
+	toggleDetailsOnPress('shareable-link');
+	</script>
+
+	<div class="directions" id="directions">
+		<h2>Directions</h2>
+		<p class="copy-paste">
+			<label>
+				<span>Here’s an address you can copy and paste:</span>
+				<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly">
+{{ page['name'] | escape }}
 {{ page['address_1'] | escape }}{% if page['address_2'] and page['address_2'] != '' %},
 {{ page['address_2'] | escape }}{% endif %},
 {{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
-			</textarea>
-		</label>
-	</p>
--->
-{% endcomment %}
+				</textarea>
+			</label>
+		</p>
+		<p><a href="http://maps.google.com/maps/place/{{ page['name'] | escape }} {{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Get Directions on Google Maps</a></p>
+	</div>
+	<script>
+	toggleDetailsOnPress('directions');
+	</script>
 
 	<hr />
 
