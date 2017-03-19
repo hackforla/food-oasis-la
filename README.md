@@ -14,6 +14,8 @@ As you make changes and commit/push them to GitHub, the website will automatical
 
 If you want to see a preview of your changes before they appear on the live site, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) is a good place to start.
 
+To run the server, you can ```jekyll serve```. 
+
 ## A summary of the project files
 
 ### Files for Jekyll
