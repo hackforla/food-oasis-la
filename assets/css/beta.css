@@ -88,7 +88,6 @@
 	.action a {
 		display: inline-block;
 		background: rgb(144, 194, 70); /* @lime */
-		background-image: linear-gradient(to top, rgb(124, 174, 50), rgba(124, 174, 50, 0)); /* @dark-lime */
 		color: white;
 		padding: 0.375em 1.5em;
 		border-radius: 0.25em;
@@ -110,6 +109,27 @@
 		background: rgb(124, 174, 50); /* @dark-lime */
 		text-decoration: none;
 		color: white;
+	}
+
+	.header + .action a {
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	.farmers-market + .action a {
+		background: rgb(241, 95, 91); /* @strawberry */
+	}
+
+	.food-pantry + .action a {
+		background: rgb(249, 192, 88); /* @canteloupe */
+	}
+
+	.header + .options {
+		justify-content: stretch;
+	}
+	.header + .options li {
+		width: 50%;
 	}
 
 	.action.secondary a,
@@ -179,6 +199,7 @@
 		text-decoration: none;
 		color: inherit;
 	}
+	nav.pagination a,
 	nav .filter a,
 	nav .view a,
 	nav .back a,
@@ -195,6 +216,9 @@
 		cursor: pointer;
 		transition: color 0.2s;
 	}
+	nav.pagination a:hover,
+	nav.pagination a:active,
+	nav.pagination a:focus,
 	nav .filter a:hover,
 	nav .filter a:active,
 	nav .filter a:focus,
@@ -221,19 +245,20 @@
 		padding-bottom: 0.375em;
 		line-height: 1.5;
 	}
-	.pagination .action img,
+	nav.pagination img,
 	nav .back img {
 		height: 1.5em;
 		width: auto;
-		border: 2px solid rgba(0, 0, 0, 0.5);
+		border: 1px solid rgba(0, 0, 0, 0.5);
 		border-radius: 50%;
 		margin-right: 0.5em;
 		vertical-align: middle;
 	}
-	.pagination .action img {
+	nav.pagination img {
 		margin-right: 0;
 		margin-left: 0.5em;
 	}
+	nav.pagination span,
 	nav .back span {
 		vertical-align: middle;
 	}
@@ -580,13 +605,8 @@
 
 	nav.pagination {
 		padding-top: 1.5em;
-		padding-bottom: 1.5em;
+		padding-bottom: 4.5em;
 		text-align: center;
-	}
-	nav.pagination .secondary a {
-		text-transform: none;
-		border-width: 0;
-		font-family: inherit;
 	}
 
 
@@ -638,23 +658,37 @@
 	}
 
 
+	hr {
+		margin-top: 2.25em;
+		margin-bottom: 2.25em;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-width: 1px 0 0 0;
+	}
+
+
 	/* =Description List
 	----------------------------------------------- */
 	dt {
+		/*
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		*/
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
+		/*
 		padding-left: 1.5em;
+		*/
 	}
 	dd {
 		padding-bottom: 0.375em;
+		margin-left: 0;
+		padding-left: 1.5em;
 
 		/* For long URLs on the detail page */
 		/* @wrap-long-words */
 		word-wrap     : break-word;
 		overflow-wrap : break-word;
 	}
-	@media (min-width: 40em) {
+	@media (min-width: 20em) {
 		dl:after {
 			content: "";
 			display: table;
@@ -663,37 +697,48 @@
 		dt {
 			clear: both;
 			float: left;
-			width: 14em;
+			width: 8em;
 			text-align: left;
 			padding-bottom: 0.375em;
 			box-sizing: border-box;
 			white-space: nowrap;
 		}
 		dt + dd {
+			/*
 			border-top: 1px solid rgba(0, 0, 0, 0.1);
+			*/
 			padding-top: 0.375em;
 		}
 		dd {
 			padding-left: 1.45em;
-			margin-left: 14em;
+			margin-left: 8em;
 		}
 	}
 
+	dt.open {
+		font-weight: bold;
+	}
 	dd.open {
 		background: rgb(221, 247, 254);
 		font-weight: bold;
+	}
+	dd.open span {
+		margin-right: 1.5em;
 	}
 	dd.open i {
 		font-style: normal;
 		font-weight: normal;
 		text-transform: uppercase;
 		color: rgb(93, 205, 232);
-		margin-left: 1.5em;
-		font-size: 0.75em;
+		font-size: 0.875em;
+		display: inline-block;
 	}
-	dd.closed {
-		color: rgb(153, 153, 153);
+	dd i {
+		font-style: normal;
 		text-transform: uppercase;
+		color: rgb(153, 153, 153);
+		font-size: 0.875em;
+		display: inline-block;
 	}
 
 
@@ -760,7 +805,8 @@
 	}
 
 	.header .location-summary {
-		margin-bottom: 3em;
+		margin-top: -0.75em;
+		margin-bottom: 1.5em;
 	}
 	.list .open,
 	.location-summary .open,

@@ -282,19 +282,21 @@
 		}
 		return false;
 	}
-	var day = document.querySelector('dd[data-day]');
-	if (day) {
+	var dt = document.querySelector('dt[data-day]');
+	var dd = document.querySelector('dd[data-day]');
+	if (dd) {
 		var data = {
-			day: day.getAttribute('data-day'),
-			open: day.getAttribute('data-open'),
-			close: day.getAttribute('data-close')
+			day: dd.getAttribute('data-day'),
+			open: dd.getAttribute('data-open'),
+			close: dd.getAttribute('data-close')
 		};
 		if (isOpenNow(data)) {
-			day.classList.add('open');
+			dt.classList.add('open');
+			dd.classList.add('open');
 			var notice = document.createElement('i');
 			notice.textContent = 'Open Now';
-			day.appendChild(document.createTextNode(' '));
-			day.appendChild(notice);
+			dd.appendChild(document.createTextNode(' '));
+			dd.appendChild(notice);
 		}
 	}
 })();

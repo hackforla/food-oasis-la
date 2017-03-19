@@ -41,13 +41,13 @@
 
 						sortByClosest(latitude, longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>' + getParameterByName('address') + '</em>';
+						if (document.getElementById('search-location')) document.getElementById('search-location').textContent = getParameterByName('address');
 
 					} else {
 						console.error('Geocode was not successful for the following reason: ' + status);
 						sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 						if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-						if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+						if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
 					}
 				});
 
@@ -59,18 +59,18 @@
 
 					sortByClosest(position.coords.latitude, position.coords.longitude, true);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near You';
+					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'You';
 
 				}, function() {
 					console.error("Unable to retrieve your location");
 					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
 				});
 			} else {
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-				if (document.getElementById('search-location')) document.getElementById('search-location').innerHTML = 'Near <em>Downtown Los Angeles</em>';
+				if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
 			}
 		}
 

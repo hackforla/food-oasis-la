@@ -121,49 +121,52 @@ stylesheets:
 -->
 {% endcomment %}
 
+	<hr />
+
 	<h2>Hours</h2>
 	{% if page['formatted_day'] %}
 	{% assign days = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" | split: ", " %}
 	<dl>
 	{% for day in days %}
-		<dt>{{ day }}</dt>
+		<dt data-day="{{ page['day'] }}">{{ day }}</dt>
 		{% if page['formatted_day'] == day %}
-		<dd data-day="{{ page['day'] }}" data-open="{{ page['open'] }}" data-close="{{ page['close'] }}">{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</dd>
+		<dd data-day="{{ page['day'] }}" data-open="{{ page['open'] }}" data-close="{{ page['close'] }}"><span>{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</span></dd>
 		{% else %}
-		<dd class="closed">Closed</dd>
+		<dd><i>Closed</i></dd>
 		{% endif %}
 	{% endfor %}
 	</dl>
 	{% else %}
 	<del>
+	<mark>Coming soon!</mark>
 	<dl>
 		<dt>Sunday</dt>
-		<dd>8am – 5pm</dd>
+		<dd><span>8am – 5pm</span></dd>
 
 		<dt>Monday</dt>
-		<dd>8am – 5pm</dd>
+		<dd><span>8am – 5pm</psan></dd>
 
-		<dt>Tuesday</dt>
-		<dd>8am – 11am</dd>
-		<dd>Open Now</dd>
+		<dt class="open">Tuesday</dt>
+		<dd class="open"><span>8am – 11am</span> <i>Open Now</i></dd>
 
 		<dt>Wednesday</dt>
-		<dd>Closed</dd>
+		<dd><i>Closed</i></dd>
 
 		<dt>Thursday</dt>
-		<dd>12pm – 6pm</dd>
+		<dd><span>12pm – 6pm</span></dd>
 
 		<dt>Friday</dt>
-		<dd>12pm – 6pm</dd>
+		<dd><span>12pm – 6pm</span></dd>
 
 		<dt>Saturday</dt>
-		<dd>1pm – 7pm</dd>
+		<dd><span>1pm – 7pm</span></dd>
 	</dl>
-	<mark>Coming soon!</mark>
 	</del>
 	{% endif %}
 
-	<h2>Information</h2>
+	<hr />
+
+	<h2 style="position: absolute; left: -9999px; /* @hidden-accessible */">Information</h2>
 	<dl>
 		<dt>Web</dt>
 		<dd>{% if page['website'] and page['website'] != '' %}<a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a>{% else %}<i>unknown</i>{% endif %}</dd>
@@ -180,7 +183,7 @@ stylesheets:
 
 {% comment %}
 	{% if page['website'] != '' or page['phone'] != '' %}
-	<h2>Information</h2>
+	<h2 style="position: absolute; left: -9999px; /* @hidden-accessible */">Information</h2>
 	<dl>
 		{% if page['website'] != '' %}
 		<dt>Web</dt>
@@ -194,6 +197,8 @@ stylesheets:
 	</dl>
 	{% endif %}
 {% endcomment %}
+
+	<hr />
 
 	<h2 style="position: absolute; left: -9999px; /* @hidden-accessible */">Options</h2>
 
