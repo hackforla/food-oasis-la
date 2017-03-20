@@ -1173,7 +1173,7 @@
 		text-align: center;
 		z-index:100;
 		padding-bottom: 10px;
-
+		margin-top: 0;
 	}
 	div.home-text {
 		padding: 50px 0;
@@ -1484,9 +1484,6 @@
 		background-color: rgb(144, 194, 70); /* @lime */
 		color: white;
 		margin-top: 5em;
-		margin-left: -1.5em;
-		margin-right: -1.5em;
-		margin-bottom: -1.5em;
 		padding: 1.5em 1.5em 4.5em;
 		position: relative;
 		text-align: center;
