@@ -204,7 +204,7 @@
 
 	if ('mapboxgl' in window) mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 	var map;
-	if (document.getElementById('map')) {
+	if (document.getElementById('map') && 'mapboxgl' in window && mapboxgl.supported()) {
 
 		/*
 		map = L.mapbox.map('map', 'mapbox.light', {
@@ -478,7 +478,7 @@
 				mapLngLatBounds.extend(coordinates);
 			});
 
-			map.fitBounds(mapLngLatBounds, { padding: '20' });
+			map.fitBounds(mapLngLatBounds, { padding: 20 });
 		}
 
 		/*

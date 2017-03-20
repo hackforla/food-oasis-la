@@ -160,43 +160,6 @@ categories:
 		}
 	})();
 	</script>
-
-	<script>
-	// Toggle between the map and list views
-	(function() {
-		var views = document.getElementById('search-views');
-		var template = document.getElementById('search-views-template');
-		views.insertAdjacentHTML('beforeend', template.innerHTML);
-
-		var mapButton = document.getElementById('map-button');
-		var listButton = document.getElementById('list-button');
-
-		listButton.style.display = "block";
-
-		document.body.classList.add('only-map');
-		document.body.classList.remove('only-list');
-
-		mapButton.addEventListener('click', function(e) {
-			mapButton.style.display = "none";
-			listButton.style.display = "block";
-
-			document.body.classList.add('only-map');
-			document.body.classList.remove('only-list');
-
-			e.preventDefault();
-		}, false);
-
-		listButton.addEventListener('click', function(e) {
-			mapButton.style.display = "block";
-			listButton.style.display = "none";
-
-			document.body.classList.remove('only-map');
-			document.body.classList.add('only-list');
-
-			e.preventDefault();
-		}, false);
-	})();
-	</script>
 </nav>
 
 <div id="map" class="map-container"></div>
@@ -317,6 +280,48 @@ var listOffset = {{ page.list_offset }};
 {% endif %}
 
 <script src="/assets/js/location-list.js"></script>
+
+<script>
+// Toggle between the map and list views
+(function() {
+	if (mapboxgl.supported()) {
+
+		var views = document.getElementById('search-views');
+		var template = document.getElementById('search-views-template');
+		views.insertAdjacentHTML('beforeend', template.innerHTML);
+
+		var mapButton = document.getElementById('map-button');
+		var listButton = document.getElementById('list-button');
+
+		listButton.style.display = "block";
+
+		document.body.classList.add('only-map');
+		document.body.classList.remove('only-list');
+
+		mapButton.addEventListener('click', function(e) {
+			mapButton.style.display = "none";
+			listButton.style.display = "block";
+
+			document.body.classList.add('only-map');
+			document.body.classList.remove('only-list');
+
+			e.preventDefault();
+		}, false);
+
+		listButton.addEventListener('click', function(e) {
+			mapButton.style.display = "block";
+			listButton.style.display = "none";
+
+			document.body.classList.remove('only-map');
+			document.body.classList.add('only-list');
+
+			e.preventDefault();
+		}, false);
+	} else {
+		document.body.classList.add('only-list');
+	}
+})();
+</script>
 
 </body>
 </html>

@@ -13,7 +13,7 @@
 	});
 
 	// Add a zoom control
-	map.addControl(new mapboxgl.Navigation( { position: 'top-right' } )); // position is optional
+	map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
 
 	// Add a marker at the location of the food source
 	var template = document.getElementById('marker-template');

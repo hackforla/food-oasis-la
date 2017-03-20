@@ -501,7 +501,7 @@
 		transform: translateX(-50%);
 		transition: opacity 0.2s;
 	}
-	.hidden-marker-labels .marker-label {
+	.hidden-marker-labels .marker:not(.active) .marker-label {
 		opacity: 0;
 		display: none;
 	}
@@ -558,7 +558,7 @@
 	}
 
 	.farmers-market-marker.active {
-		cursor: pointer;
+		cursor: default;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-red-large.svg);
@@ -569,7 +569,7 @@
 	}
 
 	.community-garden-marker.active {
-		cursor: pointer;
+		cursor: default;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-green-large.svg);
@@ -580,7 +580,7 @@
 	}
 
 	.food-pantry-marker.active {
-		cursor: pointer;
+		cursor: default;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-yellow-large.svg);
@@ -746,6 +746,15 @@
 	nav.location-list-nav .view {
 		flex-basis: 3em;
 		text-align: right;
+	}
+
+	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
+	.sorting .list li {
+		visibility: hidden;
+	}
+	.sorting .list::before {
+		content: "Finding nearest locations…";
+		display: block;
 	}
 
 
