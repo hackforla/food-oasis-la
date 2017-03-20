@@ -1,65 +1,14 @@
 ---
-layout: null
+layout: default
+classname: "location-details"
+
+include_map: true
+include_back: true
 include_footer: false
-classname: location-details
 
 stylesheets:
-  - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css"
+  - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css"
 ---
-
-<!doctype html>
-<html lang="en" dir="ltr">
-<head>
-	<meta charset="utf-8" />
-	<title>{{ page.title | escape }}</title>
-
-	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css" rel="stylesheet" />
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i,600" />
-	{% comment %}
-	* Open Sans - Regular
-	* Open Sans - Italic
-	* Reem Kufi - Regular
-
-	You can choose more faces here:
-	https://fonts.google.com/selection?selection.family=Reem+Kufi|Open+Sans:400,400i,600
-	{% endcomment %}
-	<link href="/assets/css/beta.css" rel="stylesheet" />
-
-	<link rel="canonical" href="https://foodoasis.la{{ page.url }}" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- for general use -->
-	<link rel="icon" type="image/png"    href="/assets/images/favicon.png" />
-
-	<!-- for iOS -->
-	<link rel="apple-touch-icon"         href="/assets/images/favicon-rgb-240-240-240.png" />
-
-	<!-- for Windows 8 -->
-	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
-	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
-</head>
-<body class="location-details">
-
-<div class="sticky">
-	<header>
-
-		<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
-		<p class="tagline">Healthy Food for All Angelinos</p>
-
-		<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
-
-	</header>
-
-	<nav>
-		<p class="back"><a href="/locations/" id="back-link"><img src="/assets/images/icons/back.svg" /> <span>Find more locations</span></a></p>
-	</nav>
-</div>
-
-<div id="map" class="map-container"></div>
-
-<main>
 
 	<div class="header {{ page['category'] | downcase | replace: ' ', '-' }}">
 		<div class="location-summary">
@@ -229,8 +178,6 @@ stylesheets:
 		<li><a href="https://form.jotform.com/62638504761156?businessName={{ page.name }}&amp;address={{ page.address_1 }}&amp;category={{ page.category }}&amp;longitude={{ page.longitude }}&amp;latitude={{ page.latitude }}">Report Issue</a></li>
 	</ul>
 
-</main>
-
 <script src="https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js"></script>
 
 <!-- For location-details.js -->
@@ -252,6 +199,3 @@ stylesheets:
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
 <script src="/assets/js/location-details.js"></script>
-
-</body>
-</html>

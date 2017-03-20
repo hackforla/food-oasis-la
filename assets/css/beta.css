@@ -253,7 +253,7 @@
 		text-decoration: none;
 		color: inherit;
 	}
-	nav.pagination a,
+	.pagination a,
 	nav .filter a,
 	nav .view a,
 	nav .back a,
@@ -284,9 +284,9 @@
 	nav .search a:hover,
 	nav .search a:active,
 	nav .search a:focus,
-	nav.pagination a:hover,
-	nav.pagination a:active,
-	nav.pagination a:focus,
+	.pagination a:hover,
+	.pagination a:active,
+	.pagination a:focus,
 	nav .filter a:hover,
 	nav .filter a:active,
 	nav .filter a:focus,
@@ -314,7 +314,7 @@
 		padding-bottom: 0.375em;
 		line-height: 1.5;
 	}
-	nav.pagination img,
+	.pagination img,
 	nav .back img {
 		height: 1.5em;
 		width: auto;
@@ -323,11 +323,11 @@
 		margin-right: 0.5em;
 		vertical-align: middle;
 	}
-	nav.pagination img {
+	.pagination img {
 		margin-right: 0;
 		margin-left: 0.5em;
 	}
-	nav.pagination span,
+	.pagination span,
 	nav .back span {
 		vertical-align: middle;
 	}
@@ -367,7 +367,7 @@
 
 	.has-map-location-summary .map-container {
 		height: calc(100vh - 30em);
-		min-height: 50vh;
+		min-height: 45vh;
 	}
 
 	.location-details .map-container {
@@ -378,7 +378,7 @@
 	}
 
 	.only-map main,
-	.only-map nav.pagination {
+	.only-map .pagination {
 		display: none !important;
 	}
 
@@ -729,7 +729,7 @@
 		vertical-align: middle;
 	}
 
-	nav.pagination {
+	.pagination {
 		padding-top: 1.5em;
 		padding-bottom: 4.5em;
 		text-align: center;

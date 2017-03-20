@@ -79,13 +79,30 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 
 	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
 
-</header>
+	</header>
+
+	{% if page.include_map_nav == true or layout.include_map_nav == true %}
+		{% include location-list-nav.html %}
+	{% endif %}
+
+	{% if page.include_back == true or layout.include_back == true %}
+	<nav>
+		<p class="back"><a href="/locations/" id="back-link"><img src="/assets/images/icons/back.svg" /> <span>Find more locations</span></a></p>
+	</nav>
+	{% endif %}
 
 </div>
+
+{% if page.include_map == true or layout.include_map == true %}
+<div id="map" class="map-container"></div>
+
+</div>
+<div id="map-location-summary" class="location-summary-container"></div>
+{% endif %}
+
 	{% if page.include_footer == false or layout.include_footer == false %}
 		{% assign include_footer = false %}
 	{% endif %}
-	
 
 	<main>
 		{{ content }}

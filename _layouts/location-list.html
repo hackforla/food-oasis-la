@@ -1,183 +1,16 @@
 ---
-layout: null
-classname: "map map-list"
+layout: default
+classname: "location-list"
+
+canonical_url: /locations/
+
+include_map: true
+include_map_nav: true
+include_footer: false
 
 stylesheets:
-  - "https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css"
-
-categories:
-    free:
-        headline: Free food
-        link_label: Food Pantries
-    grow:
-        headline: Grow food
-        link_label: Community Gardens
-    purchase:
-        headline: Food for sale
-        link_label: Farmers’ Markets
+  - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css"
 ---
-
-<!doctype html>
-<html lang="en" dir="ltr">
-<head>
-	<meta charset="utf-8" />
-	<title>{{ page.title | escape }}</title>
-
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Open+Sans:400,400i,600" />
-	{% comment %}
-	* Open Sans - Regular
-	* Open Sans - Italic
-	* Reem Kufi - Regular
-
-	You can choose more faces here:
-	https://fonts.google.com/selection?selection.family=Reem+Kufi|Open+Sans:400,400i,600
-	{% endcomment %}
-	<!--
-	<link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet" />
-	-->
-	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css" rel="stylesheet" />
-
-	<link href="/assets/css/beta.css" rel="stylesheet" />
-
-	<link rel="canonical" href="https://foodoasis.la/locations/" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- for general use -->
-	<link rel="icon" type="image/png"    href="/assets/images/favicon.png" />
-
-	<!-- for iOS -->
-	<link rel="apple-touch-icon"         href="/assets/images/favicon-rgb-240-240-240.png" />
-
-	<!-- for Windows 8 -->
-	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
-	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
-</head>
-<body class="location-list">
-
-<div class="sticky">
-
-<header>
-
-	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
-	<p class="tagline">Healthy Food for All Angelinos</p>
-
-	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
-
-	<!-- for general use -->
-	<link rel="icon" type="image/png"    href="/assets/images/favicon.png" />
-
-	<!-- for iOS -->
-	<link rel="apple-touch-icon"         href="/assets/images/favicon-rgb-240-240-240.png" />
-
-	<!-- for Windows 8 -->
-	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
-	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
-</header>
-
-
-<nav class="location-list-nav">
-	<ul class="options" id="search-views">
-		<li class="filter"><a href="/filters/" id="filters-link">Filter</a></li>
-		<li class="search">
-			<a href="/search/" id="search-link">
-				<img src="/assets/images/icons/search-black.svg" width="50" style="height: 1.5em; width: auto;" alt="Search" />
-				<span id="search-type">{{ page.category }}</span> <span id="search-near">near</span> <em id="search-location" style="font-style: normal;">Los Angeles</em>
-			</a>
-		</li>
-	</ul>
-
-	<script type="text/template" id="search-views-template">
-		<li id="list-button" class="view" style="display: none;"><a href="">List</button></a>
-		<li id="map-button" class="view" style="display: none;"><a href="">Map</button></a>
-	</script>
-
-	<script>
-	var PAGE_PARAMETERS;
-	var getParameterByName;
-	var updateLink;
-
-	(function() {
-		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-		getParameterByName = function(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-					results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, " "));
-		}
-
-		PAGE_PARAMETERS = {
-			type   : getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %},
-			address: getParameterByName('address'),
-			deserts: getParameterByName('deserts'),
-		};
-
-		// SHIM: Make the type persistent
-
-		updateLink = function(link) {
-			var params = [];
-			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
-			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
-			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
-
-			var queryString = params.join('&');
-			link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
-		}
-
-		if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
-			var filtersLink = document.getElementById('filters-link');
-			if (filtersLink) {
-				updateLink(filtersLink);
-			}
-
-			var searchLink = document.getElementById('search-link');
-			if (searchLink) {
-				updateLink(searchLink);
-			}
-		}
-
-		if (PAGE_PARAMETERS.type) {
-			var types = PAGE_PARAMETERS.type.split('|');
-
-			var searchType = document.getElementById('search-type');
-			var near = document.getElementById('search-near');
-
-			if (types.length === 1 || types.length === 2) {
-				// SHIM: Translate to a human readable version of the “type”.
-				var formattedTypes = [];
-				for (var index = 0; index < types.length; index++) {
-					formattedTypes.push((types[index] === 'food-pantry') ? 'food pantries' : types[index].replace(/\-/g, ' ') + 's');
-				}
-				searchType.innerText = formattedTypes.join(', ');
-				searchType.style.textTransform = 'capitalize';
-				//searchType.style.display = 'inline';
-				//near.style.display = 'inline';
-			} else {
-				//searchType.style.display = 'none';
-				//near.style.display = 'none';
-				searchType.innerText = 'Everything';
-				searchType.style.textTransform = 'capitalize';
-			}
-		}
-	})();
-	</script>
-</nav>
-
-<div id="map" class="map-container"></div>
-
-</div>
-<div id="map-location-summary" class="location-summary-container"></div>
-
-<main>
-
-<!--
-	<script type="text/template" id="larger-map-template">
-		<p class="larger-map"><button>Larger Map</button></p>
-	</script>
--->
 
 	<ul class="list" id="locations">
 	{% if page.collection %}
@@ -199,10 +32,8 @@ categories:
 	{% endif %}
 	</ul>
 
-</main>
-
 {% if page.next or page.previous %}
-<nav class="pagination" style="display: block;">
+<div class="pagination">
 	{% if page.next %}
 	<p><a href="{{ page.next }}"><span>Next {{ page.items_per_page }} results</span> <img src="/assets/images/icons/forward.svg" /></a></p>
 	{% endif %}
@@ -211,7 +42,7 @@ categories:
 	<p><a href="{{ page.previous }}">Previous Page</a></p>
 	{% endif %}
 {% endcomment %}
-</nav>
+</div>
 <script>
 (function() {
 	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
