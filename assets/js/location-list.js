@@ -215,7 +215,8 @@
 		map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/mapbox/basic-v9',
-			//style: 'mapbox://styles/mapbox/streets-v9'
+			//style: 'mapbox://styles/mapbox/streets-v9',
+			maxBounds: MAP_BOUNDS
 		});
 
 		/*

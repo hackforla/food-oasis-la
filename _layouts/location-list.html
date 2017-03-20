@@ -266,6 +266,11 @@ categories:
 
 <script>
 var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+
+var MAP_BOUNDS = [
+	[-119.9442369,32.7089729], // Southwest coordinates
+	[-116.63282912,35.8275538]  // Northeast coordinates
+];
 </script>
 
 <script>
@@ -318,6 +323,7 @@ var listOffset = {{ page.list_offset }};
 			e.preventDefault();
 		}, false);
 	} else {
+		if (console && console.log) console.log('MapboxGL doesn’t appear to be supported in this web browser. Showing the list instead…');
 		document.body.classList.add('only-list');
 	}
 })();

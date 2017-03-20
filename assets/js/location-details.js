@@ -1,4 +1,5 @@
 (function() {
+	if (mapboxgl.supported()) {
 
 	// Create the map
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
@@ -36,6 +37,11 @@
 		document.getElementById('map').addEventListener('click', expandMap, false);
 		// expandMap();
 	})();
+
+	} else {
+		if (console && console.log) console.log('MapboxGL doesn’t appear to be supported in this web browser. Hiding the map…');
+		document.getElementById('map').style.display = 'none';
+	}
 })();
 
 (function() {
