@@ -1,5 +1,16 @@
 (function() {
 
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, "\\$&");
+		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+				results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, " "));
+	}
+
 	var LOS_ANGELES = {
 		latitude: 34.052234,
 		longitude: -118.243685
@@ -166,19 +177,6 @@
 			addListItems(list);
 		}
 
-		// KUDOS: http://stackoverflow.com/questions/21279559/geolocation-closest-locationlat-long-from-my-position#answer-21297385
-		function getDistanceInKilometers_PythagorasEquirectangular(lat1, lon1, lat2, lon2) {
-			lat1 = deg2rad(lat1);
-			lat2 = deg2rad(lat2);
-			lon1 = deg2rad(lon1);
-			lon2 = deg2rad(lon2);
-			var R = 6371; // km
-			var x = (lon2-lon1) * Math.cos((lat1+lat2)/2);
-			var y = (lat2-lat1);
-			var d = Math.sqrt(x*x + y*y) * R;
-			return d;
-		}
-
 		// http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/27943#answer-27943
 		function getDistanceInKilometers_Haversine(lat1, lon1, lat2, lon2) {
 			var R = 6371; // Radius of the earth in km
@@ -199,143 +197,94 @@
 			return deg * (Math.PI/180)
 		}
 
-		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
-		function getParameterByName(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-					results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, " "));
-		}
-
 		findUserLocation();
 
 	})();
 
 
-	if ('L' in window) L.mapbox.accessToken = MAP_ACCESS_TOKEN;
+	if ('mapboxgl' in window) mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 	var map;
 	if (document.getElementById('map')) {
+
+		/*
 		map = L.mapbox.map('map', 'mapbox.light', {
 			zoomControl: false//,
 			//scrollWheelZoom: false
 		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 14);
+		*/
+		map = new mapboxgl.Map({
+			container: 'map', // container id
+			style: 'mapbox://styles/mapbox/basic-v9',
+			//style: 'mapbox://styles/mapbox/streets-v9'
+		});
 
+		/*
 		L.control.zoom({
 			position:'topright'
 		}).addTo(map);
-
-		/*
-		(function() {
-			var template = document.getElementById('larger-map-template');
-			if (template) {
-				var div = document.createElement('div');
-				div.innerHTML = template.innerHTML;
-				var button = div.querySelector('button');
-				//template.parentNode.insertBefore(div, template);
-				function expandMap() {
-					document.getElementById('map').className += ' expanded';
-					map.invalidateSize(false);
-					//div.parentNode.removeChild(div);
-					map.scrollWheelZoom.enable();
-				}
-				button.addEventListener('click', expandMap, false);
-				button.addEventListener('keypress', function(e) {
-					if (e.keyCode === 32 || // spacebar
-						e.keyCode === 13) { // enter
-						expandMap();
-					}
-				}, false);
-				document.getElementById('map').addEventListener('click', expandMap, false);
-				// expandMap();
-			}
-		})();
 		*/
+
+		// Add a zoom control
+		map.addControl(new mapboxgl.Navigation( { position: 'top-right' } )); // position is optional
 	}
 
 	// Define the icons
-	var icons;
-	if ('L' in window) {
-		icons = {
-			'Farmers Market': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'farmers-market-marker',
-				// Set marker width and height
-				iconSize: [30, 46],
-				iconAnchor: [15, 40],
-				popupAnchor: [0, -23]
-			}),
-			'Community Garden': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'community-garden-marker',
-				// Set marker width and height
-				iconSize: [30, 46],
-				iconAnchor: [15, 40],
-				popupAnchor: [0, -23]
-			}),
-			'Food Pantry': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'food-pantry-marker',
-				// Set marker width and height
-				iconSize: [30, 46],
-				iconAnchor: [15, 40],
-				popupAnchor: [0, -23]
-			})
-		};
-	}
+	var markerOptions = {
+		'Farmers Market': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker',
+			// Set marker width and height
+			iconSize: [30, 46],
+			iconAnchor: [15, 40],
+			popupAnchor: [0, -23]
+		},
+		'Community Garden': {
+			// Specify a class name we can refer to in CSS.
+			className: 'community-garden-marker',
+			// Set marker width and height
+			iconSize: [30, 46],
+			iconAnchor: [15, 40],
+			popupAnchor: [0, -23]
+		},
+		'Food Pantry': {
+			// Specify a class name we can refer to in CSS.
+			className: 'food-pantry-marker',
+			// Set marker width and height
+			iconSize: [30, 46],
+			iconAnchor: [15, 40],
+			popupAnchor: [0, -23]
+		}
+	};
 
-	var activeIcons;
-	if ('L' in window) {
-		activeIcons = {
-			'Farmers Market': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'farmers-market-marker-active',
-				// Set marker width and height
-				iconSize: [42, 70],
-				iconAnchor: [21, 70],
-				popupAnchor: [0, -35]
-			}),
-			'Community Garden': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'community-garden-marker-active',
-				// Set marker width and height
-				iconSize: [42, 70],
-				iconAnchor: [21, 70],
-				popupAnchor: [0, -35]
-			}),
-			'Food Pantry': L.divIcon({
-				// Specify a class name we can refer to in CSS.
-				className: 'food-pantry-marker-active',
-				// Set marker width and height
-				iconSize: [42, 70],
-				iconAnchor: [21, 70],
-				popupAnchor: [0, -35]
-			})
-		};
-	}
-
-	/*
-	function addMarker(position) {
-		var template = document.getElementById('marker-template');
-
-		var icon = icons[location.category];
-		var coordinates = [
-			location.latitude,
-			location.longitude
-		];
-		L.marker(coordinates, { icon: icon })
-			.bindPopup(template.innerHTML)
-			.addTo(map);
-
-		return new mapboxgl.Marker(marker)
-			.setLngLat(position)
-			.addTo(map);
-	}
-	*/
+	var activeMarkerOptions = {
+		'Farmers Market': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker-active',
+			// Set marker width and height
+			iconSize: [42, 70],
+			iconAnchor: [21, 70],
+			popupAnchor: [0, -35]
+		},
+		'Community Garden': {
+			// Specify a class name we can refer to in CSS.
+			className: 'community-garden-marker-active',
+			// Set marker width and height
+			iconSize: [42, 70],
+			iconAnchor: [21, 70],
+			popupAnchor: [0, -35]
+		},
+		'Food Pantry': {
+			// Specify a class name we can refer to in CSS.
+			className: 'food-pantry-marker-active',
+			// Set marker width and height
+			iconSize: [42, 70],
+			iconAnchor: [21, 70],
+			popupAnchor: [0, -35]
+		}
+	};
 
 	function addYouAreHere(coordinates) {
+		/*
 		var icon = L.divIcon({
 			html: '<div class="you-are-here"><span>You are here</span></div>',
 			// Set marker width and height
@@ -345,6 +294,16 @@
 
 		return L.marker(coordinates, { icon: icon })
 			.addTo(map);
+		*/
+
+		var template = document.getElementById('you-are-here-template');
+
+		var marker = document.createElement('div');
+		marker.innerHTML = template.innerHTML;
+
+		return new mapboxgl.Marker(marker)
+			.setLngLat(coordinates)
+			.addTo(map);
 	}
 
 	var markerResetMethods = [];
@@ -352,6 +311,16 @@
 		for (var index = 0; index < markerResetMethods.length; index++) {
 			markerResetMethods[index]();
 		}
+	}
+
+	function createMarker(options) {
+		var marker = document.createElement('div');
+		marker.className = options.className;
+		marker.width = options.iconSize[0] + 'px';
+		marker.height = options.iconSize[1] + 'px';
+		marker.backgroundRepeat = 'no-repeat';
+		marker.backgroundSize = 'contain';
+		return marker;
 	}
 
 	function addMarkers(locations, geolocated, latitude, longitude) {
@@ -369,11 +338,13 @@
 		if (map) {
 			for (var index = start; index < locations.length && index < limit; index++) {
 				(function(location) {
+					/*
 					var icon = icons[location.category];
 					var coordinates = [
 						location.latitude,
 						location.longitude
 					];
+
 					//var popup = L.popup({ maxWidth: INFINITY })
 					//	.setContent(createListItem(location, 'div'));
 
@@ -389,6 +360,24 @@
 					marker.addTo(map);
 					tooltip.addTo(map);
 					tooltip.closeTooltip();
+					*/
+
+					var options = markerOptions[location.category];
+					var coordinates = [
+						location.longitude,
+						location.latitude
+					];
+
+					var marker = createMarker(options);
+
+					new mapboxgl.Marker(marker, {
+							offset: [
+								-options.iconSize[0] / 2, // Center horizontally…
+								-options.iconSize[1]      // …but not vertically
+							]
+						})
+						.setLngLat(coordinates)
+						.addTo(map);
 
 					function showLocationSummary() {
 						var item = createListItem(location, 'div');
@@ -405,10 +394,10 @@
 						*/
 					}
 
-					marker.on('click', function() {
-						resetMarkers();
-						var icon = activeIcons[location.category];
-						marker.setIcon(icon);
+					marker.addEventListener('click', function(e) {
+						//resetMarkers();
+						//var icon = activeIcons[location.category];
+						//marker.setIcon(icon);
 						showLocationSummary();
 					});
 
@@ -418,7 +407,7 @@
 					});
 
 					bounds.push(coordinates);
-					tooltips.push(tooltip);
+					//tooltips.push(tooltip);
 				})(locations[index]);
 			}
 
@@ -465,37 +454,16 @@
 			})();
 		}
 
-		var limitTemplate = document.getElementById('limit-template');
-		if (limitTemplate) {
-			var div = document.createElement('div');
-			div.innerHTML = limitTemplate.innerHTML;
-			div.querySelector('.limit').textContent = limit;
-			div.querySelector('.location').innerHTML = (geolocated) ? 'near you' : 'near <em>' + (getParameterByName('address') || 'Downtown Los Angeles') + '</em>';
-			var address = getParameterByName('address') || '';
-			if (address != '') address = 'address=' + address + '&';
-			var type = getParameterByName('type') || '';
-			if (type != '') type = 'type=' + type + '&';
-			var link = div.querySelector('a');
-			if (limit < locations.length) {
-				link.href = '?' + address + type + 'limit=' + (limit * 2);
-			} else {
-				link.parentNode.removeChild(link);
-			}
-			limitTemplate.parentNode.insertBefore(div, limitTemplate);
-		}
+		if (map) addYouAreHere([longitude, latitude]);
 
-		//if (geolocated) {
-			if (map) addYouAreHere([latitude, longitude]);
-		//} else {
-			//addMarker([latitude, longitude]);
-		//}
+		bounds.unshift([longitude, latitude]);
 
-		bounds.unshift([latitude, longitude]);
-
-		bounds = bounds.slice(0, 5);
+		//bounds = bounds.slice(0, 5);
 
 		if (map) {
-			map.fitBounds(bounds);
+			map.setZoom(14);
+			map.setCenter([longitude, latitude]);
+			//map.fitBounds(bounds);
 		}
 
 		/*
@@ -603,82 +571,5 @@
 			}
 		}
 	}
-
-	/*
-	function addMoreListItems() {
-		var limit = getParameterByName('limit');
-		if (!limit) {
-			limit = 10;
-		}
-		limit = Number(limit);
-		var list = document.querySelector('.location-list');
-		var items = list.querySelectorAll('li');
-		limit += items.length;
-		if (limit >= sortedLocations.length) limit = sortedLocations.length;
-		if (list) {
-			for (var index = items.length; index < sortedLocations.length && index < limit; index++) {
-				list.appendChild(createListItem(sortedLocations[index]));
-			}
-		}
-	}
-	var nextPageLink = document.querySelector('.pagination a');
-	if (nextPageLink) {
-		nextPageLink.addEventListener('click', function(e) {
-			addMoreListItems();
-			e.preventDefault();
-		}, false);
-	}
-	*/
-
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-
-	function persistTypeParameter(type) {
-		if (!type) type = getParameterByName('type');
-
-		var address = getParameterByName('address');
-		var searchLink = document.querySelector('.search a[href]');
-		if (!searchLink) return;
-		var href = '/list';
-
-		if (type) {
-			/*
-			var form = document.querySelector('form.find');
-			var typeField = form.querySelector('input[name="type"]');
-			if (!typeField) {
-				typeField = document.createElement('input');
-				typeField.type = 'hidden';
-				typeField.name = 'type';
-				form.appendChild(typeField);
-			}
-			typeField.value = type;
-			*/
-
-			var typeArray = type.split('|');
-
-			// SHIM: Only persist the type if there’s only one, since the list page only supports one type at a time (or all types at once).
-			if (typeArray.length === 1) {
-				href = '/' + typeArray[0];
-			}
-		}
-		if (address) {
-			href += '?address=' + address;
-
-			//var addressField = document.querySelector('input[name="address"]');
-			//addressField.value = address;
-		}
-		searchLink.setAttribute('href', href);
-	}
-
-	// persistTypeParameter();
-	// addFilterButtons();
 
 })();

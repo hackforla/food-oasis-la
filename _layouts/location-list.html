@@ -32,7 +32,11 @@ categories:
 	You can choose more faces here:
 	https://fonts.google.com/selection?selection.family=Reem+Kufi|Open+Sans:400,400i,600
 	{% endcomment %}
+	<!--
 	<link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet" />
+	-->
+	<link href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.24.0/mapbox-gl.css" rel="stylesheet" />
+
 	<link href="/assets/css/beta.css" rel="stylesheet" />
 
 	<link rel="canonical" href="https://foodoasis.la/locations/" />
@@ -272,6 +276,12 @@ categories:
 	<div class="you-are-here"><span>You are here</span></div>
 </script>
 
+<script type="text/template" id="marker-template">
+	<div class="marker">
+		<img src="/assets/images/markers/purple.svg" alt="" />
+	</div>
+</script>
+
 <script type="text/template" id="list-item-template">
 	<a href="" class="location-summary">
 		<img src="" alt="" />
@@ -286,7 +296,10 @@ categories:
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
+<!--
 <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+-->
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.21.0/mapbox-gl.js"></script>
 
 <script>
 var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
