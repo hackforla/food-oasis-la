@@ -503,6 +503,7 @@
 	}
 	.hidden-marker-labels .marker-label {
 		opacity: 0;
+		display: none;
 	}
 	/*
 	@media (min-width: 30em) {
@@ -524,63 +525,69 @@
 	}
 
 	.farmers-market-marker {
-		border: none;
 		cursor: pointer;
 		height: 46px;
 		width: 30px;
 		background-image: url(/assets/images/map/pin-red-small.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(23px, 46px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
 	}
 
 	.community-garden-marker {
-		border: none;
 		cursor: pointer;
 		height: 46px;
 		width: 30px;
 		background-image: url(/assets/images/map/pin-green-small.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(23px, 46px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
 	}
 
 	.food-pantry-marker {
-		border: none;
 		cursor: pointer;
 		height: 46px;
 		width: 30px;
 		background-image: url(/assets/images/map/pin-yellow-small.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(23px, 46px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
 	}
 
-	.farmers-market-marker-active {
-		border: none;
+	.farmers-market-marker.active {
 		cursor: pointer;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-red-large.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(42px, 70px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -68px;
 	}
 
-	.community-garden-marker-active {
-		border: none;
+	.community-garden-marker.active {
 		cursor: pointer;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-green-large.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(42px, 70px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -68px;
 	}
 
-	.food-pantry-marker-active {
-		border: none;
+	.food-pantry-marker.active {
 		cursor: pointer;
 		height: 70px;
 		width: 42px;
 		background-image: url(/assets/images/map/pin-yellow-large.svg);
-		background-color: rgba(0, 0, 0, 0);
-		transform: translate(42px, 70px, 0);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -68px;
 	}
 
 

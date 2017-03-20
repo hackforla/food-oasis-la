@@ -225,7 +225,7 @@
 		*/
 
 		// Add a zoom control
-		map.addControl(new mapboxgl.Navigation( { position: 'top-right' } )); // position is optional
+		map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
 	}
 
 	// Define the icons
@@ -315,11 +315,7 @@
 
 	function createMarker(options, data) {
 		var marker = document.createElement('div');
-		marker.className = options.className;
-		marker.width = options.iconSize[0] + 'px';
-		marker.height = options.iconSize[1] + 'px';
-		marker.backgroundRepeat = 'no-repeat';
-		marker.backgroundSize = 'contain';
+		marker.className = 'marker ' + options.className;
 		var span = document.createElement('span');
 		span.textContent = data.name;
 		span.className = 'marker-label';
@@ -327,6 +323,7 @@
 		return marker;
 	}
 
+	var currentMarker;
 	function addMarkers(locations, geolocated, latitude, longitude) {
 		var limit = getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
@@ -374,12 +371,7 @@
 
 					var marker = createMarker(options, location);
 
-					new mapboxgl.Marker(marker, {
-							offset: [
-								-options.iconSize[0] / 2, // Center horizontally…
-								-options.iconSize[1]      // …but not vertically
-							]
-						})
+					new mapboxgl.Marker(marker)
 						.setLngLat(coordinates)
 						.addTo(map);
 
@@ -402,6 +394,9 @@
 						//resetMarkers();
 						//var icon = activeIcons[location.category];
 						//marker.setIcon(icon);
+						if (currentMarker) currentMarker.classList.remove('active');
+						currentMarker = marker;
+						currentMarker.classList.add('active');
 						showLocationSummary();
 					});
 
@@ -471,12 +466,19 @@
 
 		bounds.unshift([longitude, latitude]);
 
-		//bounds = bounds.slice(0, 5);
+		bounds = bounds.slice(0, 5);
 
 		if (map) {
 			map.setZoom(15);
 			map.setCenter([longitude, latitude]);
-			//map.fitBounds(bounds);
+
+			var mapLngLatBounds = new mapboxgl.LngLatBounds();
+
+			bounds.forEach(function(coordinates) {
+				mapLngLatBounds.extend(coordinates);
+			});
+
+			map.fitBounds(mapLngLatBounds, { padding: '20' });
 		}
 
 		/*
