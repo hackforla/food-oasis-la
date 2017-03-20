@@ -888,6 +888,7 @@
 		font-size: 1.25em;
 		line-height: 1.25;
 		padding-left: 3rem;
+		width:70%;
 	}
 	.list .address,
 	.location-summary .address,
@@ -961,7 +962,7 @@
 	.location-summary .type,
 	.leaflet-popup-content .location-summary .type {
 		font-style: italic;
-		margin-bottom: 2.25em;
+		/*margin-bottom: 2.25em;*/
 	}
 	.list .distance,
 	.location-summary .distance,
@@ -972,6 +973,7 @@
 		position: absolute;
 		bottom: 0.75rem;
 		right: 0;
+		top:8px;
 	}
 	.leaflet-popup-content .location-summary .distance {
 		right: 0.75rem;
