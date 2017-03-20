@@ -68,6 +68,9 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	</script>
 </head>
 <body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
+
+<div class="sticky">
+
 	
 	<header>
 
@@ -78,6 +81,7 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 
 </header>
 
+</div>
 	{% if page.include_footer == false or layout.include_footer == false %}
 		{% assign include_footer = false %}
 	{% endif %}

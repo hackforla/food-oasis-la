@@ -616,13 +616,22 @@
 	body {
 		background-color: rgb(241, 241, 241);
 	}
+	.sticky{
+			position: sticky;
+			position: -webkit-sticky;
+		z-index: 999;
+		width: 100%;
+		top:0px;
+	}
 	nav,
 	header {
 		background-color: rgb(241, 241, 241);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
 	}
+
 	header h2 {
 		flex-grow: 1;
 	}
@@ -746,7 +755,7 @@
 	nav {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
-	}
+			}
 
 	/*
 	main {
