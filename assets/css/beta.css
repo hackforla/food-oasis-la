@@ -145,10 +145,6 @@
 	}
 
 
-
-	.options.action {
-		justify-content: stretch;
-	}
 	.options.action li {
 		flex-basis: 100%;
 	}
