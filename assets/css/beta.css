@@ -372,13 +372,14 @@
 		height: 50vh;
 	}
 
-	.only-map main {
-		display: none;
+	.only-map main,
+	.only-map nav.pagination {
+		display: none !important;
 	}
 
 	.only-list #map,
 	.only-list .location-summary-container {
-		display: none;
+		display: none !important;
 	}
 
 
