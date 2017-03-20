@@ -1,14 +1,40 @@
 ---
-uid: ''
 name: Guadalupe Food Program
-category: Food Pantry
-address_1: 4018 East Hammel Street
-city: Los Angeles
-state: CA
-zipcode: '90063'
-phone: 323.261.8051
+Address_1: 4018 East Hammel Street
+Address_2: ''
+City: Los Angeles
+State: CA
+Zip: '90063'
+Phone: (323)261-8051
 latitude: '34.0421266'
 longitude: '-118.1794177'
+Category: Food Pantry
+Website: ''
+'': ''
+daycode1: Wed2nd
+day1_open: '7:00 AM'
+day1_close: '9:00 AM'
+daycode2: Wed4th
+day2_open: '7:00 AM'
+day2_close: '9:00 AM'
+daycode3: ''
+day3_open: ''
+day3_close: ''
+daycode4: ''
+day4_open: ''
+day4_close: ''
+daycode5: ''
+day5_open: ''
+day5_close: ''
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+Year_Round (Y/N): ''
+season_open: ''
+season_close: ''
+category: Food Pantry
 title: 'Guadalupe Food Program, Food Oasis Los Angeles'
 uri: /food-pantry/guadalupe-food-program/
 

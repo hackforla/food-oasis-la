@@ -6,8 +6,8 @@ city: Westchester
 state: CA
 zipcode: '90045'
 phone: ''
-latitude: '33.96923397100005'
-longitude: '-118.40476339999998'
+latitude: '33.96923397'
+longitude: '-118.4047634'
 category: Community Garden
 website: 'http://www.eacgc.org/'
 active: 'Y'

@@ -3,22 +3,21 @@ FM_ID: ''
 name: Topanga Canyon CFM
 address_1: 1440 North Topanga Canyon Blvd.
 address_2: ''
-city: Topanga
-state: California
-zipcode: '90503'
-phone: ''
+City: Topanga
+State: California
+Zip: '90503'
+Phone: ''
 latitude: '34.112172'
 longitude: '-118.589828'
-website: 'http://www.sfma.net/'
-day: Fri
-open: '900'
-close: '1300'
-'': ''
+Website: 'http://www.sfma.net/'
+daycode1: Fri
+day1_open: '900'
+day1_close: '1300'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Topanga Canyon CFM, Food Oasis Los Angeles'
 uri: /farmers-market/topanga-canyon-cfm/
-formatted_day: Friday
-formatted_open: 9am
-formatted_close: 1pm
 
 ---

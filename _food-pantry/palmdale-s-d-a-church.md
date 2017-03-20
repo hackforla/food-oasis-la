@@ -1,14 +1,40 @@
 ---
-uid: ''
 name: Palmdale S.D.A. Church
-category: Food Pantry
-address_1: 1758 East Avenue R
-city: Palmdale
-state: CA
-zipcode: '93550'
-phone: 661.947.8496
+Address_1: 1758 East Avenue R
+Address_2: ''
+City: Palmdale
+State: CA
+Zip: '93550'
+Phone: (661)947-8496
 latitude: '34.5722471'
 longitude: '-118.0963705'
+Category: Food Pantry
+Website: ''
+'': ''
+daycode1: Wed1st
+day1_open: '10:00 AM'
+day1_close: '12:00 PM'
+daycode2: Wed3rd
+day2_open: '10:00 AM'
+day2_close: '12:00 PM'
+daycode3: ''
+day3_open: ''
+day3_close: ''
+daycode4: ''
+day4_open: ''
+day4_close: ''
+daycode5: ''
+day5_open: ''
+day5_close: ''
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+Year_Round (Y/N): ''
+season_open: ''
+season_close: ''
+category: Food Pantry
 title: 'Palmdale S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/palmdale-s-d-a-church/
 

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90019'
 phone: ''
-latitude: '34.04619602500003'
-longitude: '-118.32762735099999'
+latitude: '34.04619603'
+longitude: '-118.3276274'
 category: Community Garden
 website: 'http://crenshawgarden.blogspot.com/'
 active: 'Y'

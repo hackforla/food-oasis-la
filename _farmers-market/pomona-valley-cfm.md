@@ -3,22 +3,21 @@ FM_ID: ''
 name: Pomona Valley CFM
 address_1: Corner of Pearl St & Garey Ave
 address_2: ''
-city: Pomona
-state: California
-zipcode: '91767'
-phone: ''
+City: Pomona
+State: California
+Zip: '91767'
+Phone: ''
 latitude: '34.064542'
 longitude: '-117.750371'
-website: ''
-day: Sat
-open: '730'
-close: '1130'
-'': ''
+Website: ''
+daycode1: Sat
+day1_open: '730'
+day1_close: '1130'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Pomona Valley CFM, Food Oasis Los Angeles'
 uri: /farmers-market/pomona-valley-cfm/
-formatted_day: Saturday
-formatted_open: '7:30am'
-formatted_close: '11:30am'
 
 ---

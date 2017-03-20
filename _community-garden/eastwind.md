@@ -6,8 +6,8 @@ city: Marina Del Rey
 state: CA
 zipcode: '90292'
 phone: ''
-latitude: '33.977245786000026'
-longitude: '-118.46316565099994'
+latitude: '33.97724579'
+longitude: '-118.4631657'
 category: Community Garden
 website: 'http://www.eastwindgarden.com/'
 active: 'Y'

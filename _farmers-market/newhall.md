@@ -3,22 +3,21 @@ FM_ID: ''
 name: Newhall Farmers Market
 address_1: 24500 Main Street
 address_2: ''
-city: Santa Clarita
-state: California
-zipcode: '91321'
-phone: (661) 250-3787
+City: Santa Clarita
+State: California
+Zip: '91321'
+Phone: (661)250-3787
 latitude: '34.3815'
 longitude: '-118.5293'
-website: 'http://oldtownnewhall.com/old-town-newhall-farmers-market/'
-day: Sat
-open: '830'
-close: '1230'
-'': ''
+Website: 'http://oldtownnewhall.com/old-town-newhall-farmers-market/'
+daycode1: Sat
+day1_open: '830'
+day1_close: '1230'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Newhall Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/newhall/
-formatted_day: Saturday
-formatted_open: '8:30am'
-formatted_close: '12:30pm'
 
 ---

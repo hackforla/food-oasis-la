@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90032'
 phone: ''
-latitude: '34.092496624000034'
-longitude: '-118.16162328499996'
+latitude: '34.09249662'
+longitude: '-118.1616233'
 category: Community Garden
 website: 'https://communitygarden.org/find-a-garden/gardens/el-sereno-community-garden/'
 active: 'Y'

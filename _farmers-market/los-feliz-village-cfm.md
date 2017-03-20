@@ -3,22 +3,21 @@ FM_ID: ''
 name: Los Feliz Village CFM
 address_1: 1825 North Vermont Avenue
 address_2: ''
-city: Los Angeles
-state: California
-zipcode: '90027'
-phone: ''
+City: Los Angeles
+State: California
+Zip: '90027'
+Phone: ''
 latitude: '34.104458'
 longitude: '-118.292219'
-website: 'https://www.yelp.com/biz/los-feliz-village-farmers-market-los-angeles'
-day: Sun
-open: '900'
-close: '1400'
-'': ''
+Website: 'https://www.yelp.com/biz/los-feliz-village-farmers-market-los-angeles'
+daycode1: Sun
+day1_open: '900'
+day1_close: '1400'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Los Feliz Village CFM, Food Oasis Los Angeles'
 uri: /farmers-market/los-feliz-village-cfm/
-formatted_day: Sunday
-formatted_open: 9am
-formatted_close: 2pm
 
 ---

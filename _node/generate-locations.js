@@ -98,6 +98,8 @@ ${yaml.safeDump(data)}
 
 function generateCollection(data_name, data_category) {
 
+  console.log('data name: ' + data_name);
+
   var writePath = '../_' + data_name; // Example: _/community-gardens
   var input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   var records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api

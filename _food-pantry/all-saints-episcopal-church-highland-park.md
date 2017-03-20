@@ -1,14 +1,40 @@
 ---
-uid: ''
 name: All Saints Episcopal Church Highland Park
-category: Food Pantry
-address_1: 5619 Monte Vista Street
-city: Los Angeles
-state: CA
-zipcode: '90042'
-phone: 323.255.6806
+Address_1: 5619 Monte Vista Street
+Address_2: ''
+City: Los Angeles
+State: CA
+Zip: '90042'
+Phone: (323)255-6806
 latitude: '34.1117075'
 longitude: '-118.1953492'
+Category: Food Pantry
+Website: 'http://www.allsaintsla.net/'
+'': ''
+daycode1: Sat4th
+day1_open: '8:30 AM'
+day1_close: '9:00 AM'
+daycode2: ''
+day2_open: ''
+day2_close: ''
+daycode3: ''
+day3_open: ''
+day3_close: ''
+daycode4: ''
+day4_open: ''
+day4_close: ''
+daycode5: ''
+day5_open: ''
+day5_close: ''
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+Year_Round (Y/N): ''
+season_open: ''
+season_close: ''
+category: Food Pantry
 title: 'All Saints Episcopal Church Highland Park, Food Oasis Los Angeles'
 uri: /food-pantry/all-saints-episcopal-church-highland-park/
 

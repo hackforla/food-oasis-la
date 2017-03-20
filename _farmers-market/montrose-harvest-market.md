@@ -1,24 +1,23 @@
 ---
-FM_ID: ''
-name: Montrose Harvest Market
-address_1: 3808 Ocean View Blvd
+FM_ID: '1002376'
+name: Montrose Harvest Market Farmers Market
+address_1: Honolulu & Ocean Avenue
 address_2: ''
-city: Montrose
-state: California
-zipcode: '91020'
-phone: (818) 646-2880
-latitude: '34.2054'
-longitude: '-118.2269'
-website: 'http://shopmontrose.com/harvest-market-and-marketplace/'
-day: Sun
-open: '900'
-close: '1400'
-'': ''
+City: Santa Barbara
+State: California
+Zip: '93101'
+Phone: (805)637-6635
+latitude: '34.4222'
+longitude: '-119.713'
+Website: ''
+daycode1: Mon
+day1_open: '1000'
+day1_close: '1500'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
-title: 'Montrose Harvest Market, Food Oasis Los Angeles'
+title: 'Montrose Harvest Market Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/montrose-harvest-market/
-formatted_day: Sunday
-formatted_open: 9am
-formatted_close: 2pm
 
 ---

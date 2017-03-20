@@ -1,14 +1,40 @@
 ---
-uid: ''
 name: Food Net-East Rancho Dominguez
-category: Food Pantry
-address_1: 4513 E. Compton Boulevard
-city: Compton
-state: CA
-zipcode: '90221'
-phone: 310.603.7401
+Address_1: 4513 E. Compton Boulevard
+Address_2: ''
+City: Compton
+State: CA
+Zip: '90221'
+Phone: (310)603-7401
 latitude: '33.8964368'
 longitude: '-118.1927524'
+Category: Food Pantry
+Website: ''
+'': ''
+daycode1: Fri2nd
+day1_open: '8:00 AM'
+day1_close: '10:00 AM'
+daycode2: Fri4th
+day2_open: '8:00 AM'
+day2_close: '10:00 AM'
+daycode3: ''
+day3_open: ''
+day3_close: ''
+daycode4: ''
+day4_open: ''
+day4_close: ''
+daycode5: ''
+day5_open: ''
+day5_close: ''
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+Year_Round (Y/N): ''
+season_open: ''
+season_close: ''
+category: Food Pantry
 title: 'Food Net-East Rancho Dominguez, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-east-rancho-dominguez/
 

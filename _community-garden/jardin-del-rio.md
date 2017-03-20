@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90031'
 phone: ''
-latitude: '34.09173305100006'
-longitude: '-118.23403902199999'
+latitude: '34.09173305'
+longitude: '-118.234039'
 category: Community Garden
 website: ''
 active: 'Y'
