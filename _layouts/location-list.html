@@ -94,10 +94,12 @@ categories:
 
 	<script>
 	var PAGE_PARAMETERS;
+	var getParameterByName;
+	var updateLink;
 
 	(function() {
 		// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-		function getParameterByName(name, url) {
+		getParameterByName = function(name, url) {
 			if (!url) url = window.location.href;
 			name = name.replace(/[\[\]]/g, "\\$&");
 			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -109,21 +111,23 @@ categories:
 
 		PAGE_PARAMETERS = {
 			type   : getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %},
-			address: getParameterByName('address')
+			address: getParameterByName('address'),
+			deserts: getParameterByName('deserts'),
 		};
 
 		// SHIM: Make the type persistent
 
-		function updateLink(link) {
+		updateLink = function(link) {
 			var params = [];
 			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
+			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 
 			var queryString = params.join('&');
 			link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 		}
 
-		if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address) {
+		if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
 			var filtersLink = document.getElementById('filters-link');
 			if (filtersLink) {
 				updateLink(filtersLink);
@@ -210,25 +214,13 @@ categories:
 </nav>
 <script>
 (function() {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
 
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-	function getParameterByName(name, url) {
-		if (!url) url = window.location.href;
-		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-
-	// SHIM: Make the address persistent
-	var paginationLink = document.querySelector('.pagination a[href]');
-	var address = getParameterByName('address');
-	if (address) {
-		var href = paginationLink.getAttribute('href');
-		href += '?address=' + address;
-		paginationLink.setAttribute('href', href);
+		// SHIM: Make the address persistent
+		var paginationLink = document.querySelector('.pagination a[href]');
+		if (paginationLink) {
+			updateLink(paginationLink);
+		}
 	}
 })();
 </script>

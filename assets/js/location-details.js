@@ -224,11 +224,12 @@
 
 	var PAGE_PARAMETERS = {
 		type   : getParameterByName('type'),
-		address: getParameterByName('address')
+		address: getParameterByName('address'),
+		deserts: getParameterByName('deserts')
 	};
 
 	// Distance
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address) { // If the user came from the search page
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) { // If the user came from the search page
 	var distance;
 	findUserLocation(function(userLocation) {
 		if (FOOD_SOURCE.latitude != null && FOOD_SOURCE.latitude != '' && userLocation && userLocation.latitude && userLocation.longitude) {
@@ -249,12 +250,13 @@
 		var params = [];
 		if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
+		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 
 		var queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address) {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
 		var link = document.getElementById('back-link');
 		if (link) {
 			updateLink(link);

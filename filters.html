@@ -147,20 +147,19 @@ layout: null
 				</ul>
 			</fieldset>
 
-			<del>
 			<fieldset>
 				<legend>Research Data</legend>
-				<mark>Coming soon!</mark>
-				<p>
+				<ul class="list">
+				<li>
 					<label>
 						<span>Food Deserts</span>
-						<input type="checkbox" disabled="disabled" />
+						<input type="checkbox" name="deserts" value="1" checked="checked" />
+						<span class="pseudo-checkbox"></span><br /><br />
+						<i>Food Deserts are low-income areas without easy access to healthy food.</i>
 					</label>
-					<br />
-					<i>Food Deserts are low-income areas without easy access to healthy food.</i>
-				</p>
+				</li>
+				</ul>
 			</fieldset>
-			</del>
 		</form>
 
 		<script>
@@ -216,6 +215,12 @@ layout: null
 				var addressField = document.querySelector('input[name="address"]');
 				addressField.value = address;
 			}
+
+			// SHIM: Make the food deserts option persistent
+			var deserts = getParameterByName('deserts');
+			var desertsField = document.querySelector('input[name="deserts"]');
+			desertsField.checked = (deserts && deserts != '') ? true : false;
+
 		})();
 		</script>
 
