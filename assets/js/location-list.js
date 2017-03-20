@@ -313,13 +313,17 @@
 		}
 	}
 
-	function createMarker(options) {
+	function createMarker(options, data) {
 		var marker = document.createElement('div');
 		marker.className = options.className;
 		marker.width = options.iconSize[0] + 'px';
 		marker.height = options.iconSize[1] + 'px';
 		marker.backgroundRepeat = 'no-repeat';
 		marker.backgroundSize = 'contain';
+		var span = document.createElement('span');
+		span.textContent = data.name;
+		span.className = 'marker-label';
+		marker.appendChild(span);
 		return marker;
 	}
 
@@ -368,7 +372,7 @@
 						location.latitude
 					];
 
-					var marker = createMarker(options);
+					var marker = createMarker(options, location);
 
 					new mapboxgl.Marker(marker, {
 							offset: [
@@ -411,7 +415,16 @@
 				})(locations[index]);
 			}
 
+			function updateMarkerLabels() {
+				if (map.getZoom() > 14) { // Zoomed In
+					document.body.classList.remove('hidden-marker-labels');
+				} else { // Zoomed Out
+					document.body.classList.add('hidden-marker-labels');
+				}
+			}
+
 			// KUDOS: http://stackoverflow.com/questions/27820338/how-do-i-show-a-label-beyond-a-certain-zoom-level-in-leaflet#answer-27822424
+			/*
 			(function() {
 
 				var visible;
@@ -444,14 +457,14 @@
 					}
 				}
 
-				setTimeout(function() {
-					updateTooltips();
-				}, 100);
-
-				// Attach map zoom handler
-				map.on('zoomend', updateTooltips);
-
 			})();
+			*/
+
+			setTimeout(function() {
+				updateMarkerLabels();
+			}, 100);
+
+			map.on('zoomend', updateMarkerLabels);
 		}
 
 		if (map) addYouAreHere([longitude, latitude]);
@@ -461,7 +474,7 @@
 		//bounds = bounds.slice(0, 5);
 
 		if (map) {
-			map.setZoom(14);
+			map.setZoom(15);
 			map.setCenter([longitude, latitude]);
 			//map.fitBounds(bounds);
 		}
