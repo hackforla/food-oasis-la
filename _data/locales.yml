@@ -3,7 +3,7 @@
 en:
     nav:
         link_label: Menu
-        headline: Helping Angelenos find healthy food
+        headline: Helping Angelinos find healthy food
         items:
             map_label: Map
             organizations_label: Organizations
@@ -23,7 +23,7 @@ en:
 es:
     nav:
         link_label: Menú
-        headline: Helping Angelenos find healthy food
+        headline: Helping Angelinos find healthy food
         items:
             map_label: Map
             organizations_label: Organizations

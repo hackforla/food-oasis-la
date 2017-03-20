@@ -83,7 +83,7 @@ FOLA’s platform is intended for use by:
 
 ## Our Mission
 
-To build a unified hub for Angelenos to easily find healthy food.
+To build a unified hub for Angelinos to easily find healthy food.
 
 ## Our Team
 

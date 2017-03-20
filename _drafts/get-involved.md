@@ -56,7 +56,7 @@ Whether you live in a food desert or not, there are ways for you to get involved
 
 Food Oasis Los Angeles provides a free map-based database of all the food resources in Los Angeles County categorized by type. These include community gardens, food pantries, farmers markets, and grocery stores.
 
-One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelenos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
+One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelinos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
 How do we make this happen?
 
 * [Organizations](https://foodoasis.la/organizations)
