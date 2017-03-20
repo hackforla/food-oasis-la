@@ -225,8 +225,32 @@
 		}).addTo(map);
 		*/
 
-		// Add a zoom control
-		map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
+		map.on('load', function() {
+
+			// Add a zoom control
+			map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
+
+			// Draw food desert census tracts
+			map.addSource('Food Deserts', {
+				'type': 'vector',
+				'url': 'mapbox://foodoasisla.d040onrj'
+			});
+
+			map.addLayer({
+				'id': 'Food Deserts',
+				'type': 'fill',
+				'source': 'Food Deserts',
+				'layout': {
+					'visibility': 'visible'
+				},
+				'paint': {
+					'fill-color': '#FF0000',
+					'fill-opacity': 0.1
+				},
+				'filter': ["==", "LI LA De_4", "1"],
+				'source-layer': 'USDA_Food_Desert_Tracts_2010-65gavx'
+			});
+		});
 	}
 
 	// Define the icons
