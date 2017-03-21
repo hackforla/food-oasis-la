@@ -171,6 +171,7 @@
 		.options.action a {
 			display: flex;
 			justify-content: center;
+			align-items: center;
 		}
 		.options.action a .icon {
 			margin-right: 0.5em;
@@ -1294,12 +1295,6 @@
 		width: 100%;
 		height: 100%;
 	}
-	@media (min-width: 30em) {
-		.home form {
-			margin-left: -3em;
-			margin-right: -3em;
-		}
-	}
 	.home .photo-credit {
 		position: absolute;
 		bottom: 1.5em;
@@ -1619,9 +1614,6 @@
 
 	@media (min-width: 30em) {
 		footer {
-			margin-left: -3em;
-			margin-right: -3em;
-			margin-bottom: -3em;
 			padding: 1.5em 3em 6em;
 		}
 	}
