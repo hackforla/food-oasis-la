@@ -1139,6 +1139,12 @@
 		position: absolute;
 	}
 
+	/* Prevent overlap with pseudo checkbox */
+	fieldset .list label {
+		padding-right: 3em;
+	}
+
+
 	/* =Home
 	----------------------------------------------- */
 	.home .sticky {
@@ -1329,12 +1335,6 @@
 	}
 	.home .photo-credit a {
 		color: inherit;
-	}
-	.home form div {
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-		position: relative;
-		z-index: 1;
 	}
 	.home form h1 {
 		margin-top: 0;
