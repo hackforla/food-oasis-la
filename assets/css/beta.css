@@ -1080,6 +1080,7 @@
 		/* Remove default */
 		-webkit-appearance: none;
 	}
+	/*
 	@media (max-width: 35em) {
 		input[type="text"],
 		input[type="search"],
@@ -1087,6 +1088,7 @@
 			width: 100%;
 		}
 	}
+	*/
 
 	.search-field {
 		/*
@@ -1379,6 +1381,7 @@
 		background: white;
 		color: #B1B1B1;
 	}
+	/*
 	@media (max-width: 35em) {
 		.pseudo-field,
 		input[type="text"],
@@ -1400,6 +1403,7 @@
 			text-align: center;
 		}
 	}
+	*/
 	.pseudo-field {
 		padding-right: 3em;
 		position: relative;
