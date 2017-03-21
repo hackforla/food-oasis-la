@@ -70,14 +70,13 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 <body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 
 <div class="sticky">
-
 	
 	<header>
 
 	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
 	<p class="tagline">Healthy Food for All Angelinos</p>
 
-	<p class="nav-link"><a href="/#navigation"><img src="/assets/images/icons/menu.svg" alt="Menu" width="50" /></a></p>
+	<p class="nav-link"><a href="{% if include_footer == false %}/{% endif %}#navigation"><img src="/assets/images/icons/menu.svg" alt="{{ site.data.locales[locale].nav.link_label }}" width="50" /></a></p>
 
 	</header>
 
