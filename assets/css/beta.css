@@ -1126,14 +1126,16 @@
 	.home header {
 		transition: background-color 0.2s, color 0.2s;
 	}
-	.home h2 {
+	.home h2,
+	.home .tagline {
 		transition: opacity 0.2s;
 	}
 	.scrolled-up.home header {
 		background-color: transparent;
 		color: white;
 	}
-	.scrolled-up.home header h2 {
+	.scrolled-up.home header h2,
+	.scrolled-up.home header .tagline {
 		opacity: 0;
 	}
 

@@ -65,8 +65,8 @@ classname: home
 (function() {
 	var images = [
 		'/assets/images/photos/daily-organics-apples.jpg',
-		'/assets/images/photos/daily-organics-apples-2.jpg',
-		'/assets/images/photos/daily-organics-carrots.jpg',
+		//'/assets/images/photos/daily-organics-apples-2.jpg',
+		//'/assets/images/photos/daily-organics-carrots.jpg',
 		//'/assets/images/photos/daily-organics-pears.jpg',
 		'/assets/images/photos/daily-organics-squash.jpg',
 		'/assets/images/photos/santa-monica/1.jpg',
@@ -153,7 +153,7 @@ classname: home
 
 		/* OPTIONAL: Add a class name of “scrolled-up” to the body if the 
 								 introduction (including the CTZN logo) is visible. */
-		if (scrollY < 50) {
+		if (scrollY < 300) {
 			addClassName(document.body, 'scrolled-up');
 			if (window._aboutImages) window._aboutImages.play();
 		} else {
