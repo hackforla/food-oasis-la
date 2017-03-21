@@ -1381,6 +1381,11 @@
 		background: white;
 		color: #B1B1B1;
 	}
+	@media (max-width: 35em) {
+		.pseudo-field {
+			width: 100%;
+		}
+	}
 	/*
 	@media (max-width: 35em) {
 		.pseudo-field,
