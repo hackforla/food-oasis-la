@@ -597,39 +597,6 @@
 	}
 
 
-	/* =Leaflet Location Summary
-	-----------------------------------------------
-	SHIM: Override the default leaflet styles to make the location summary appear the same way it does in the “list”
-	----------------------------------------------- */
-	.leaflet-popup-content .location-summary {
-		display: block;
-		max-width: 80vw;
-		font-size: 1rem;
-		line-height: 1.5;
-		padding: 0.75em;
-		color: inherit;
-	}
-	.leaflet-popup-content .location-summary img {
-		box-sizing: content-box;
-	}
-	.leaflet-popup-content .location-summary p {
-		margin-top: 0.75em;
-		margin-bottom: 0.75em;
-		font-size: inherit;
-		line-height: inherit;
-	}
-	.leaflet-popup-content .location-summary h2 {
-		margin-top: 0;
-		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
-		font-size: 1.25em;
-		line-height: 1.2;
-		font-style: inherit;
-	}
-	.leaflet-popup-content .location-summary p:last-child {
-		margin-bottom: 0;
-	}
-
-
 	/* =Header
 	----------------------------------------------- */
 	.sticky{
@@ -968,8 +935,7 @@
 		margin-bottom: 1.5em;
 	}
 	.list .open,
-	.location-summary .open,
-	.leaflet-popup-content .location-summary .open {
+	.location-summary .open {
 		color: rgb(66, 194, 231);
 		text-transform: uppercase;
 		font-size: 0.75em;
@@ -977,21 +943,16 @@
 		letter-spacing: 1px;
 		margin-bottom: 0;
 		position: absolute;
-		bottom: 0.75rem;
-		left: 0;
-	}
-	.leaflet-popup-content .location-summary .open {
-		left: 0.75rem;
+		bottom: 1.5rem;
+		right: 0;
 	}
 	.list .type,
-	.location-summary .type,
-	.leaflet-popup-content .location-summary .type {
+	.location-summary .type {
 		font-style: italic;
 		/*margin-bottom: 2.25em;*/
 	}
 	.list .distance,
-	.location-summary .distance,
-	.leaflet-popup-content .location-summary .distance {
+	.location-summary .distance {
 		font-size: 0.75em;
 		opacity: 0.5;
 		margin-bottom: 0;
@@ -999,9 +960,6 @@
 		bottom: 0.75rem;
 		right: 0;
 		top:8px;
-	}
-	.leaflet-popup-content .location-summary .distance {
-		right: 0.75rem;
 	}
 
 	.list .farmers-market .type,
