@@ -1827,6 +1827,7 @@
 		box-shadow: none;
 		border-top: none;
 	}
+
 	.nav-item {
 	text-decoration: none;
 	color: #232323;  
@@ -1931,6 +1932,7 @@
 	width: 300px;
 	margin: -100px 0 0 -58px;
 	padding: 125px 50px 50px 50px;
+	height:100vh;
 
 	background: rgb(241,241,241);
 	list-style-type: none;
