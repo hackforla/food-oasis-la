@@ -1160,17 +1160,22 @@
 
 	/* =Home
 	----------------------------------------------- */
-	.home header {
-		background-color: transparent;
-		position: absolute;
-		top: 0;
-		left: 0;
+	.home .sticky {
+		position: fixed;
 		width: 100%;
-		box-sizing: border-box;
+	}
+	.home header {
+		transition: background-color 0.2s, color 0.2s;
+	}
+	.home h2 {
+		transition: opacity 0.2s;
+	}
+	.scrolled-up.home header {
+		background-color: transparent;
 		color: white;
 	}
-	.home header h2 {
-		display: none;
+	.scrolled-up.home header h2 {
+		opacity: 0;
 	}
 
 	.home footer {
@@ -1196,7 +1201,7 @@
 	}
 	div.home-text {
 		max-width: 33em;
-		margin-top: 0.75em;
+		margin-top: 1.25em;
 		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 	}
 	.home-text p {
@@ -1322,6 +1327,7 @@
 		margin: 0;
 		font-size: 0.75em;
 		opacity: 0.5;
+		z-index: 9999; /* @infinity */
 	}
 	@media (min-width: 30em) {
 		.home .photo-credit {
@@ -1403,6 +1409,25 @@
 	}
 	.pseudo-field {
 		padding-right: 6.75em;
+		position: relative;
+		border-width: 0;
+	}
+	.pseudo-field::after {
+		content: "";
+		background: rgb(144, 194, 70); /* @lime */
+		background-image: url(/assets/images/icons/search.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		border-top-right-radius: 0.25em;
+		border-bottom-right-radius: 0.25em;
+		height: 100%;
+		width: 1.5em;
+		position: absolute;
+		padding-left: 0.375em;
+		padding-right: 0.375em;
+		top: 0;
+		right: 0;
 	}
 
 

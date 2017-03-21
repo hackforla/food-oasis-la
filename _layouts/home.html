@@ -11,13 +11,12 @@ classname: home
 	</h2>
 		<h1>
 			<a href="/search/">
-				<span class="pseudo-field" style="position: relative; border-width: 0;">{{ page.headline }} <img src="/assets/images/icons/search.svg" width="50" style="border-top-right-radius: 0.25em; border-bottom-right-radius: 0.25em; height: 100%; width: auto; vertical-align: middle; position: absolute; padding-left: 0.375em; padding-right: 0.375em; top: 0; right: 0; background: rgb(144, 194, 70); /* @lime */" /></span>
+				<span class="pseudo-field">{{ page.headline }}</span>
 			</a>
 		</h1>
 
 	<div class="home-text">
-
-		<p>Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles, whether you are looking to buy, grow, or need access to free food.</p>
+		<p>Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles, whether you are looking to buy, grow, or need access to free&nbsp;food.</p>
 	</div>
 
 	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
@@ -82,5 +81,97 @@ classname: home
 	} else {
 		document.querySelector('.photo-credit#daily-organics').style.display = 'block';
 	}
+})();
+</script>
+
+<script>
+(function() {
+
+	/* Do we have the features we need? */
+	if (!document.querySelector || !window.addEventListener) return;
+
+
+	/* =Utilities
+	----------------------------------------------- */
+
+	// KUDOS: http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element#answer-442474
+	function getOffset( el ) {
+		var _x = 0;
+		var _y = 0;
+		while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
+				_x += el.offsetLeft;
+				_y += el.offsetTop;
+				el = el.offsetParent;
+		}
+		return { top: _y, left: _x };
+	}
+
+	function hasClassName(element, className) {
+		if (!element || !className) return;
+		return element.className.indexOf(className) >= 0;
+	}
+
+	function addClassName(element, className) {
+		if (!element || !className) return;
+		if (hasClassName(element, className)) return;
+		element.className += ' ' + className;
+	}
+
+	function removeClassName(element, className) {
+		if (!element || !className) return;
+		var regex = eval('/[\s]*' + className + '/g');
+		element.className = element.className.replace(regex, '');
+	}
+
+	// KUDOS: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
+	function getScrollY() {
+		var supportPageOffset = window.pageXOffset !== undefined;
+		var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
+		return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
+	}
+
+
+	function update(e) {
+		var scrollY = getScrollY();
+
+		/* OPTIONAL: Add a class name of “scrolled-up” to the body if the 
+								 introduction (including the CTZN logo) is visible. */
+		if (scrollY < 50) {
+			addClassName(document.body, 'scrolled-up');
+			if (window._aboutImages) window._aboutImages.play();
+		} else {
+			removeClassName(document.body, 'scrolled-up');
+			if (window._aboutImages) window._aboutImages.pause();
+		}
+	}
+
+	update();
+
+	(function() {
+		var throttle;
+		window.addEventListener('scroll', function() {
+			if (throttle) clearTimeout(throttle);
+			throttle = setTimeout(update, 10);
+		}, false);
+	})();
+
+
+	/* OPTIONAL: Handle slow loading content and and resizing windows.
+	----------------------------------------------- */
+	window.addEventListener('load', function() {
+		updatePositions();
+		update();
+	}, false);
+
+	(function() {
+		var throttle;
+		window.addEventListener('resize', function() {
+			if (throttle) clearTimeout(throttle);
+			throttle = setTimeout(function() {
+				update();
+			}, 100);
+		}, false);
+	})();
+
 })();
 </script>
