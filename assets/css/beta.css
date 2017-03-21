@@ -218,17 +218,19 @@
 	.options.search {
 		background-color: rgb(241, 241, 241);
 		padding: 0.75em 1.5em;
+	}
+	.options.search {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	main .sticky {
 		margin-top: -1.5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
-		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
-	}
-	.options.search {
-		margin-bottom: 0;
+		width: 100vw;
 	}
 	@media (min-width: 46em) {
-		.filter-header,
-		.options.search {
+		main .sticky {
 			margin-top: -1.5em;
 			margin-left: calc(-50vw + 20em);
 			margin-right: calc(-50vw + 20em);
@@ -601,11 +603,12 @@
 	/* =Header
 	----------------------------------------------- */
 	.sticky{
-			position: sticky;
-			position: -webkit-sticky;
-		z-index: 999;
+		position: -webkit-sticky;
+		position: sticky;
+		z-index: 9999; /* @infinity */
 		width: 100%;
 		top:0px;
+		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
 	}
 	nav,
 	header {
@@ -627,6 +630,27 @@
 		flex-grow: 0;
 		padding-right: 1.5em;
 	}
+	header .nav-link a {
+		margin: -1.5em;
+		color: inherit;
+		padding: 1.5em;
+		opacity: 0.5;
+		transition: opacity 0.2s;
+	}
+	header .nav-link a:hover,
+	header .nav-link a:active,
+	header .nav-link a:focus {
+		opacity: 1;
+	}
+	header .nav-link svg {
+		vertical-align: middle;
+		height: 1.5em;
+		width: auto;
+	}
+	header .nav-link a svg polygon {
+		fill: currentColor;
+	}
+
 	header p:first-child {
 		width: 3em;
 	}
@@ -657,23 +681,12 @@
 		}
 	}
 
-	.nav-link img {
-		vertical-align: middle;
-		height: 1.25em;
-		width: auto;
-	}
-
-
 	/* =Nav
 	----------------------------------------------- */
 	nav {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
 		position: relative;
 		z-index: 1;
-	}
-	main + nav {
-		box-shadow: none;
 	}
 	nav .filter,
 	nav .view {
@@ -1074,10 +1087,14 @@
 	}
 
 	.search-field {
+		/*
 		margin: -0.75em -1.5em 0;
+		*/
+		margin: 0;
 		background-color: rgb(241, 241, 241);
 		padding: 0.75em 1.5em;
 	}
+	/*
 	@media (min-width: 46em) {
 		.search-field {
 			margin-top: -1.5em;
@@ -1085,6 +1102,7 @@
 			margin-right: calc(-50vw + 20em);
 		}
 	}
+	*/
 	.search-field label {
 		display: block;
 		max-width: 40em;
@@ -1130,6 +1148,9 @@
 	.home .tagline {
 		transition: opacity 0.2s;
 	}
+	.scrolled-up.home .sticky {
+		box-shadow: none;
+	}
 	.scrolled-up.home header {
 		background-color: transparent;
 		color: white;
@@ -1141,6 +1162,12 @@
 
 	.home footer {
 		margin-top: 0;
+	}
+	.home footer::before,
+	.home footer::after,
+	.home footer .link-list::before,
+	.home footer .link-list::after {
+		display: none;
 	}
 
 
@@ -1260,7 +1287,6 @@
 		display: block;
 		margin: -1.5em -1.5em 0;
 		min-height: 100vh;
-		min-height: calc(100vh - 1.5em);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -1288,7 +1314,6 @@
 		margin: 0;
 		font-size: 0.75em;
 		opacity: 0.5;
-		z-index: 9999; /* @infinity */
 	}
 	@media (min-width: 30em) {
 		.home .photo-credit {
@@ -1479,13 +1504,15 @@
 	.organization-list .tags li:last-child::after {
 		content: "";
 	}
+
+
 	/* =Footer
 	----------------------------------------------- */
 	footer {
 		background-color: rgb(144, 194, 70); /* @lime */
 		color: white;
 		margin-top: 5em;
-		padding: 1.5em 1.5em 4.5em;
+		padding: 4.5em 1.5em;
 		position: relative;
 		text-align: center;
 	}
@@ -1620,7 +1647,7 @@
 
 	@media (min-width: 30em) {
 		footer {
-			padding: 1.5em 3em 6em;
+			padding: 4.5em 3em;
 		}
 	}
 	footer section {
