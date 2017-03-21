@@ -1160,6 +1160,24 @@
 
 	/* =Home
 	----------------------------------------------- */
+	.home header {
+		background-color: transparent;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		box-sizing: border-box;
+		color: white;
+	}
+	.home header h2 {
+		display: none;
+	}
+
+	.home footer {
+		margin-top: -4.5em;
+	}
+
+
 	.home main {
 		max-width: 60em;
 		padding-bottom: 6em;
@@ -1177,12 +1195,10 @@
 		margin-top: 0;
 	}
 	div.home-text {
-		padding: 50px 0;
-
-
-
+		max-width: 33em;
+		margin-top: 0.75em;
 	}
-	.home-text p{
+	.home-text p {
 		margin:0 auto;
 		text-align: center;
 		max-width: 90%;
@@ -1276,13 +1292,16 @@
 		max-width: none;
 		display: block;
 		margin: -1.5em -1.5em 0;
-		min-height: 50vh;
+		min-height: 100vh;
+		min-height: calc(100vh + 3.75em);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		padding-top: 5.25em;
-		padding-bottom: 3.75em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		padding-top: 3em;
+		padding-bottom: 6em;
 		flex-direction: column;
 	}
 	.home form:before {
