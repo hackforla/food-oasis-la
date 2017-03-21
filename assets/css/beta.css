@@ -1201,6 +1201,9 @@
 		font-size: 105%;
 		padding-bottom: 2%;
 	}
+	.home-text a {
+		color: inherit;
+	}
 
 	@media (min-width: 35em) {
 		.home form {
@@ -1354,8 +1357,6 @@
 	.pseudo-field,
 	input[type="text"] {
 		display: inline-block;
-		background: white;
-		color: #B1B1B1;
 		line-height: inherit;
 		font-family: inherit;
 		font-size: inherit;
@@ -1373,6 +1374,10 @@
 		width: 20em;
 		max-width: 100%;
 		box-sizing: border-box;
+	}
+	.pseudo-field {
+		background: white;
+		color: #B1B1B1;
 	}
 	@media (max-width: 35em) {
 		.pseudo-field,
