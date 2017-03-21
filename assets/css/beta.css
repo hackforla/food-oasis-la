@@ -1174,7 +1174,7 @@
 	}
 
 	.home footer {
-		margin-top: -4.5em;
+		margin-top: 0;
 	}
 
 
@@ -1197,6 +1197,7 @@
 	div.home-text {
 		max-width: 33em;
 		margin-top: 0.75em;
+		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 	}
 	.home-text p {
 		margin:0 auto;
@@ -1293,7 +1294,7 @@
 		display: block;
 		margin: -1.5em -1.5em 0;
 		min-height: 100vh;
-		min-height: calc(100vh + 3.75em);
+		min-height: calc(100vh - 1.5em);
 		display: flex;
 		align-items: center;
 		justify-content: center;
