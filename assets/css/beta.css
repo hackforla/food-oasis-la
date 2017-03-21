@@ -271,6 +271,7 @@
 		text-decoration: none;
 		cursor: pointer;
 		transition: color 0.2s;
+		padding: 0;
 	}
 	a.location-summary:hover,
 	a.location-summary:active,
@@ -1366,7 +1367,7 @@
 		}
 	}
 	.pseudo-field {
-		padding-right: 6.75em;
+		padding-right: 3em;
 		position: relative;
 		border-width: 0;
 	}
