@@ -1201,6 +1201,8 @@
 		max-width: 33em;
 		margin-top: 1.25em;
 		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+		position: relative;
+		z-index: 1;
 	}
 	.home-text p {
 		margin:0 auto;
