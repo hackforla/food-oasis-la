@@ -11,7 +11,7 @@ include_footer: false
 			<div class="filter-header">
 				<h1>Filters</h1>
 
-				<p><button type="reset">Reset</button></p>
+				<p><button type="button" onclick="history.back();">Cancel</button></p>
 				<p><button type="submit" id="action-button" >Done</button></p>
 			</div>
 			</div>
@@ -19,7 +19,7 @@ include_footer: false
 			<input type="hidden" name="address" />
 			<input type="hidden" name="type" id="hidden-type" />
 
-			<del>
+			<!-- <del>
 			<fieldset>
 				<legend>Hours</legend>
 				<mark>Coming soon!</mark>
@@ -49,12 +49,12 @@ include_footer: false
 					<option>7pm – 8pm</option>
 					<option>8pm – 9pm</option>
 					<option>9pm – 10pm</option>
-				</select>
+				</select> -->
 				<!-- TBD:
 				<input type="text" value="2pm" />
 				-->
 
-				<select disabled="disabled">
+				<!-- <select disabled="disabled">
 					<option>Any Day</option>
 					<option>Sunday</option>
 					<option>Monday</option>
@@ -63,14 +63,14 @@ include_footer: false
 					<option>Thursday</option>
 					<option>Friday</option>
 					<option>Saturday</option>
-				</select>
+				</select> -->
 
 				<!--
 				TODO: Make a button that looks like a checkbox, that resets the “anytime” and “any day” select elements.
 				<input type="checkbox" />
 				-->
-			</fieldset>
-			</del>
+			<!-- </fieldset>
+			</del> -->
 
 			<fieldset>
 				<legend>Types</legend>
@@ -130,6 +130,11 @@ include_footer: false
 				</li>
 				</ul>
 			</fieldset>
+
+			<p style="display:flex;justify-content:center;align-items:center;" class='action'>
+       			<button type='reset' style='background-color: rgb(241, 95, 91);'>RESET</button>
+     		</p>
+
 		</form>
 
 		<script>
