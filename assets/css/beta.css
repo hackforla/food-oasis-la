@@ -17,16 +17,6 @@
 	32em  @page-max-width
 	*/
 
-	del {
-		display: block;
-		opacity: 0.25;
-	}
-	mark {
-		text-decoration: none;
-		display: inline-block;
-		transform: rotate(-15deg);
-	}
-
 	/* =Elements
 	----------------------------------------------- */
 	body {
@@ -376,7 +366,7 @@
 	}
 
 	.location-details .map-container {
-		height: 30vh;
+		height: 20vh;
 	}
 	.location-details .map-container.expanded {
 		height: 50vh;
