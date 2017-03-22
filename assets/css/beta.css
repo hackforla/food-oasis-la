@@ -701,6 +701,7 @@
 		background: white;
 		padding: 0.5em 0.75em 0.375em 0.375em;
 		border-radius: 0.25em;
+		/*width:100%;*/
 	}
 
 	nav p,
