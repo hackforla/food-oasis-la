@@ -54,11 +54,6 @@ assets/images
 assets/js
 ```
 
-### Third-party assets
-```
-assets/leaflet
-```
-
 ### Pages
 ```
 index.html
