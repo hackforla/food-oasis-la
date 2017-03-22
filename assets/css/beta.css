@@ -659,7 +659,8 @@
 	}
 	header h2 img {
 		width: 2.5em;
-		height: auto;
+		height: 1.3333333333em; /* (image width divided by image height) times desired width        (225 / 120) x 2.5em */
+		max-width: none;
 		display: block;
 		margin-top: 0em;
 	}
