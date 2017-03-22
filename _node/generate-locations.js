@@ -26,7 +26,7 @@ function stringToURI(str) {
     .replace(/\-\-/g, '-')
 }
 
-function formatTime(timeString) { // Example: 1430 ==> 2:30pm
+function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
   var hours   = Number(timeString.substring(0, timeString.length - 2));
   var minutes = timeString.substring(timeString.length - 2);
   var ampm = 'am';
