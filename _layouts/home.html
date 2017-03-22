@@ -16,10 +16,10 @@ classname: home
 		</h1>
 
 	<div class="home-text">
-		<p>Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles, whether you are looking to buy, grow, or need access to free&nbsp;food.</p>
+		<p>Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles, whether you are looking to buy, grow, or need access to free&nbsp;food. <a href="/about/">Learn more</a></p>
 	</div>
 
-	<p class="photo-credit" id="gemma-billings" style="display: none;">Photo by <a href="https://www.flickr.com/photos/gemmamei/6060629012/">Gemma Billings</a></p>
+	<p class="photo-credit" id="santa-monica" style="display: none;">Produce by <a href="https://www.smgov.net/portals/farmersmarket/">Santa Monica Farmers’ Market</a></p>
 	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
 </form>
 
@@ -65,19 +65,36 @@ classname: home
 (function() {
 	var images = [
 		'/assets/images/photos/daily-organics-apples.jpg',
-		'/assets/images/photos/daily-organics-apples-2.jpg',
-		'/assets/images/photos/daily-organics-carrots.jpg',
-		'/assets/images/photos/daily-organics-pears.jpg',
+		//'/assets/images/photos/daily-organics-apples-2.jpg',
+		//'/assets/images/photos/daily-organics-carrots.jpg',
+		//'/assets/images/photos/daily-organics-pears.jpg',
 		'/assets/images/photos/daily-organics-squash.jpg',
-		'/assets/images/photos/6060629012_d9dc1f7642_o.jpg'
+		'/assets/images/photos/santa-monica/1.jpg',
+		'/assets/images/photos/santa-monica/2.jpg',
+		'/assets/images/photos/santa-monica/3.jpg',
+		'/assets/images/photos/santa-monica/4.jpg',
+		'/assets/images/photos/santa-monica/5.jpg',
+		'/assets/images/photos/santa-monica/6.jpg',
+		'/assets/images/photos/santa-monica/7.jpg',
+		'/assets/images/photos/santa-monica/8.jpg',
+		'/assets/images/photos/santa-monica/9.jpg',
+		'/assets/images/photos/santa-monica/10.jpg',
+		'/assets/images/photos/santa-monica/11.jpg',
+		'/assets/images/photos/santa-monica/12.jpg',
+		'/assets/images/photos/santa-monica/13.jpg',
+		'/assets/images/photos/santa-monica/14.jpg',
+		'/assets/images/photos/santa-monica/15.jpg',
+		//'/assets/images/photos/santa-monica/16.jpg',
+		'/assets/images/photos/santa-monica/17.jpg',
+		'/assets/images/photos/santa-monica/18.jpg'
 	];
 	var min = 0;
 	var max = images.length - 1;
 	var random = Math.floor(Math.random() * (max - min + 1) + min);
 	var form = document.querySelector('form');
 	form.style.backgroundImage = 'url(' + images[random] + ')';
-	if (images[random] === '/assets/images/photos/6060629012_d9dc1f7642_o.jpg') {
-		document.querySelector('.photo-credit#gemma-billings').style.display = 'block';
+	if (images[random].indexOf('santa-monica') >= 0) {
+		document.querySelector('.photo-credit#santa-monica').style.display = 'block';
 	} else {
 		document.querySelector('.photo-credit#daily-organics').style.display = 'block';
 	}
@@ -136,7 +153,7 @@ classname: home
 
 		/* OPTIONAL: Add a class name of “scrolled-up” to the body if the 
 								 introduction (including the CTZN logo) is visible. */
-		if (scrollY < 50) {
+		if (scrollY < 300) {
 			addClassName(document.body, 'scrolled-up');
 			if (window._aboutImages) window._aboutImages.play();
 		} else {

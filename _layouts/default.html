@@ -69,8 +69,17 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 </head>
 <body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 
+{% if page.include_footer == false or layout.include_footer == false %}
+	{% assign include_footer = false %}
+{% endif %}
+
+{% if page.include_header == false or layout.include_header == false %}
+	{% assign include_header = false %}
+{% endif %}
+
+{% unless include_header == false %}
 <div class="sticky">
-	
+
 	<header>
 	<nav role="navigation" class="slideout-menu">
 		<div id="menuToggle">
@@ -93,7 +102,6 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
 	<p class="tagline">Healthy Food for All Angelinos</p>
 
-
 	</header>
 
 	{% if page.include_map_nav == true or layout.include_map_nav == true %}
@@ -107,6 +115,7 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 	{% endif %}
 
 </div>
+{% endunless %}
 
 {% if page.include_map == true or layout.include_map == true %}
 <div id="map" class="map-container"></div>
@@ -114,10 +123,6 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 </div>
 <div id="map-location-summary" class="location-summary-container"></div>
 {% endif %}
-
-	{% if page.include_footer == false or layout.include_footer == false %}
-		{% assign include_footer = false %}
-	{% endif %}
 
 	<main>
 		{{ content }}

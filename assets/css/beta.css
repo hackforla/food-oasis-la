@@ -218,17 +218,19 @@
 	.options.search {
 		background-color: rgb(241, 241, 241);
 		padding: 0.75em 1.5em;
+	}
+	.options.search {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	main .sticky {
 		margin-top: -1.5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
-		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
-	}
-	.options.search {
-		margin-bottom: 0;
+		width: 100vw;
 	}
 	@media (min-width: 46em) {
-		.filter-header,
-		.options.search {
+		main .sticky {
 			margin-top: -1.5em;
 			margin-left: calc(-50vw + 20em);
 			margin-right: calc(-50vw + 20em);
@@ -271,6 +273,8 @@
 		text-decoration: none;
 		cursor: pointer;
 		transition: color 0.2s;
+		padding: 1.5em;
+		margin: -1.5em;
 	}
 	a.location-summary:hover,
 	a.location-summary:active,
@@ -600,11 +604,12 @@
 	/* =Header
 	----------------------------------------------- */
 	.sticky{
-			position: sticky;
-			position: -webkit-sticky;
-		z-index: 999;
+		position: -webkit-sticky;
+		position: sticky;
+		z-index: 9999; /* @infinity */
 		width: 100%;
 		top:0px;
+		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
 	}
 	nav,
 	header {
@@ -626,6 +631,27 @@
 		flex-grow: 0;
 		padding-right: 1.5em;
 	}
+	header .nav-link a {
+		margin: -1.5em;
+		color: inherit;
+		padding: 1.5em;
+		opacity: 0.5;
+		transition: opacity 0.2s;
+	}
+	header .nav-link a:hover,
+	header .nav-link a:active,
+	header .nav-link a:focus {
+		opacity: 1;
+	}
+	header .nav-link svg {
+		vertical-align: middle;
+		height: 1.5em;
+		width: auto;
+	}
+	header .nav-link a svg polygon {
+		fill: currentColor;
+	}
+
 	header p:first-child {
 		width: 3em;
 	}
@@ -656,23 +682,12 @@
 		}
 	}
 
-	.nav-link img {
-		vertical-align: middle;
-		height: 1.25em;
-		width: auto;
-	}
-
-
 	/* =Nav
 	----------------------------------------------- */
 	nav {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
 		position: relative;
 		z-index: 1;
-	}
-	main + nav {
-		box-shadow: none;
 	}
 	nav .filter,
 	nav .view {
@@ -1033,7 +1048,8 @@
 
 	/* If a checkbox is checked, show the related number. */
 	.list input[type="checkbox"]:checked ~ .pseudo-checkbox {
-		background-image: url(/assets/images/icons/checkmark.svg);
+		/*background-image: url(/assets/images/icons/checkmark.svg);*/
+		background-image: url('data:image/svg+xml;utf8,<svg width="19px" height="13px" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><path d="M15.997,0.382847649 L6.50753061,9.86954153 L2.22214286,5.58415377 C1.71561224,5.07484765 0.888510204,5.07484765 0.381979592,5.58415377 C-0.127326531,6.09068438 -0.127326531,6.91501091 0.381979592,7.42431704 L5.58606122,12.6283987 C5.84071429,12.8830517 6.17446939,13.0107252 6.50753061,13.0107252 C6.84059184,13.0107252 7.17434694,12.8830517 7.42622449,12.6283987 L17.8343878,2.2202354 C18.3443878,1.71370479 18.3443878,0.889378261 17.8343878,0.380072139 C17.3278571,-0.127152351 16.5035306,-0.127152351 15.997,0.382847649 Z"></path></svg>');
 		background-position: center;
 		background-repeat: no-repeat;
 	}
@@ -1065,6 +1081,7 @@
 		/* Remove default */
 		-webkit-appearance: none;
 	}
+	/*
 	@media (max-width: 35em) {
 		input[type="text"],
 		input[type="search"],
@@ -1072,12 +1089,17 @@
 			width: 100%;
 		}
 	}
+	*/
 
 	.search-field {
+		/*
 		margin: -0.75em -1.5em 0;
+		*/
+		margin: 0;
 		background-color: rgb(241, 241, 241);
 		padding: 0.75em 1.5em;
 	}
+	/*
 	@media (min-width: 46em) {
 		.search-field {
 			margin-top: -1.5em;
@@ -1085,6 +1107,7 @@
 			margin-right: calc(-50vw + 20em);
 		}
 	}
+	*/
 	.search-field label {
 		display: block;
 		max-width: 40em;
@@ -1117,6 +1140,12 @@
 		position: absolute;
 	}
 
+	/* Prevent overlap with pseudo checkbox */
+	fieldset .list label {
+		padding-right: 3em;
+	}
+
+
 	/* =Home
 	----------------------------------------------- */
 	.home .sticky {
@@ -1126,19 +1155,30 @@
 	.home header {
 		transition: background-color 0.2s, color 0.2s;
 	}
-	.home h2 {
+	.home h2,
+	.home .tagline {
 		transition: opacity 0.2s;
+	}
+	.scrolled-up.home .sticky {
+		box-shadow: none;
 	}
 	.scrolled-up.home header {
 		background-color: transparent;
 		color: white;
 	}
-	.scrolled-up.home header h2 {
+	.scrolled-up.home header h2,
+	.scrolled-up.home header .tagline {
 		opacity: 0;
 	}
 
 	.home footer {
 		margin-top: 0;
+	}
+	.home footer::before,
+	.home footer::after,
+	.home footer .link-list::before,
+	.home footer .link-list::after {
+		display: none;
 	}
 
 
@@ -1162,6 +1202,8 @@
 		max-width: 33em;
 		margin-top: 1.25em;
 		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+		position: relative;
+		z-index: 1;
 	}
 	.home-text p {
 		margin:0 auto;
@@ -1169,6 +1211,9 @@
 		max-width: 90%;
 		font-size: 105%;
 		padding-bottom: 2%;
+	}
+	.home-text a {
+		color: inherit;
 	}
 
 	@media (min-width: 35em) {
@@ -1258,7 +1303,6 @@
 		display: block;
 		margin: -1.5em -1.5em 0;
 		min-height: 100vh;
-		min-height: calc(100vh - 1.5em);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -1286,7 +1330,6 @@
 		margin: 0;
 		font-size: 0.75em;
 		opacity: 0.5;
-		z-index: 9999; /* @infinity */
 	}
 	@media (min-width: 30em) {
 		.home .photo-credit {
@@ -1295,12 +1338,6 @@
 	}
 	.home .photo-credit a {
 		color: inherit;
-	}
-	.home form div {
-		padding-left: 1.5em;
-		padding-right: 1.5em;
-		position: relative;
-		z-index: 1;
 	}
 	.home form h1 {
 		margin-top: 0;
@@ -1325,8 +1362,6 @@
 	.pseudo-field,
 	input[type="text"] {
 		display: inline-block;
-		background: white;
-		color: #B1B1B1;
 		line-height: inherit;
 		font-family: inherit;
 		font-size: inherit;
@@ -1345,6 +1380,16 @@
 		max-width: 100%;
 		box-sizing: border-box;
 	}
+	.pseudo-field {
+		background: white;
+		color: #B1B1B1;
+	}
+	@media (max-width: 35em) {
+		.pseudo-field {
+			width: 100%;
+		}
+	}
+	/*
 	@media (max-width: 35em) {
 		.pseudo-field,
 		input[type="text"],
@@ -1366,8 +1411,9 @@
 			text-align: center;
 		}
 	}
+	*/
 	.pseudo-field {
-		padding-right: 6.75em;
+		padding-right: 3em;
 		position: relative;
 		border-width: 0;
 	}
@@ -1477,13 +1523,15 @@
 	.organization-list .tags li:last-child::after {
 		content: "";
 	}
+
+
 	/* =Footer
 	----------------------------------------------- */
 	footer {
 		background-color: rgb(144, 194, 70); /* @lime */
 		color: white;
 		margin-top: 5em;
-		padding: 1.5em 1.5em 4.5em;
+		padding: 4.5em 1.5em;
 		position: relative;
 		text-align: center;
 	}
@@ -1618,7 +1666,7 @@
 
 	@media (min-width: 30em) {
 		footer {
-			padding: 1.5em 3em 6em;
+			padding: 4.5em 3em;
 		}
 	}
 	footer section {
