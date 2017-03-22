@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90046'
 phone: (323) 663-7441
-latitude: '34.10199104600008'
-longitude: '-118.35501155199995'
+latitude: '34.10199105'
+longitude: '-118.3550116'
 category: Community Garden
 website: 'http://www.wattlesfarm.com/'
 active: 'Y'

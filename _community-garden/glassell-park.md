@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90065'
 phone: ''
-latitude: '34.12005433500008'
-longitude: '-118.24300594999994'
+latitude: '34.12005434'
+longitude: '-118.2430059'
 category: Community Garden
 website: 'http://glassellparknc.org/2015/03/community-garden-blooms-again/'
 active: 'Y'

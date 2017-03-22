@@ -10,15 +10,17 @@ phone: ''
 latitude: '34.1392'
 longitude: '-118.214'
 website: 'https://www.facebook.com/EagleRockFarmersMarket/'
-day: Fri
-open: '1600'
-close: '2000'
-'': ''
+daycode1: Fri
+day1_open: '1600'
+day1_close: '2000'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Eagle Rock Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/eagle-rock/
-formatted_day: Friday
-formatted_open: 4pm
-formatted_close: 8pm
+formatted_daycode1: Friday
+formatted_day1_open: 4pm
+formatted_day1_close: 8pm
 
 ---

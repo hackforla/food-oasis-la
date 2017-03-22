@@ -10,15 +10,17 @@ phone: ''
 latitude: '33.7867'
 longitude: '-118.263'
 website: ''
-day: Thu
-open: '900'
-close: '1300'
-'': ''
+daycode1: Thu
+day1_open: '900'
+day1_close: '1300'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Wilmington Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/wilmington/
-formatted_day: Thursday
-formatted_open: 9am
-formatted_close: 1pm
+formatted_daycode1: Thursday
+formatted_day1_open: 9am
+formatted_day1_close: 1pm
 
 ---

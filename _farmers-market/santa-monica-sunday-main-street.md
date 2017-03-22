@@ -6,19 +6,21 @@ address_2: (in Heritage Square)
 city: Santa Monica
 state: California
 zipcode: '90405'
-phone: 310 458-8712
+phone: (310)458-8712
 latitude: '34.0023'
 longitude: '-118.4833'
 website: 'http://www.smgov.net/portals/farmersmarket/'
-day: 'Sun '
-open: '830'
-close: '1330'
-'': ''
+daycode1: Sun
+day1_open: '830'
+day1_close: '1330'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Santa Monica Farmers Market - Sunday Main Street, Food Oasis Los Angeles'
 uri: /farmers-market/santa-monica-sunday-main-street/
-formatted_day: Sunday
-formatted_open: '8:30am'
-formatted_close: '1:30pm'
+formatted_daycode1: Sunday
+formatted_day1_open: '8:30am'
+formatted_day1_close: '1:30pm'
 
 ---

@@ -10,15 +10,17 @@ phone: ''
 latitude: '34.0398'
 longitude: '-118.3348'
 website: 'https://www.wellingtonsquarefarmersmarket.com/'
-day: Sun
-open: '900'
-close: '1300'
-'': ''
+daycode1: Sun
+day1_open: '900'
+day1_close: '1300'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Wellington Square Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/wellington-square/
-formatted_day: Sunday
-formatted_open: 9am
-formatted_close: 1pm
+formatted_daycode1: Sunday
+formatted_day1_open: 9am
+formatted_day1_close: 1pm
 
 ---

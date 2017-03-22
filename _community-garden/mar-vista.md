@@ -6,8 +6,8 @@ city: Culver City
 state: CA
 zipcode: '90230'
 phone: 310-915-1123
-latitude: '33.993487198000025'
-longitude: '-118.40685594399997'
+latitude: '33.9934872'
+longitude: '-118.4068559'
 category: Community Garden
 website: 'https://www.oceanviewfarms.net/location.php'
 active: 'Y'

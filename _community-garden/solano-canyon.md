@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90012'
 phone: ''
-latitude: '34.07418256500006'
-longitude: '-118.23143009599994'
+latitude: '34.07418257'
+longitude: '-118.2314301'
 category: Community Garden
 website: 'https://www.facebook.com/Solano-Canyon-Community-Garden-133534380050987/'
 active: 'Y'

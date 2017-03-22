@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90029'
 phone: (323) 533-3235
-latitude: '34.09348167700006'
-longitude: '-118.28090701699995'
+latitude: '34.09348168'
+longitude: '-118.280907'
 category: Community Garden
 website: >-
   https://www.facebook.com/pages/Manzanita-Street-Organic-Community-Garden/398760433516388

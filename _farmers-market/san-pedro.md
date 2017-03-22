@@ -6,19 +6,21 @@ address_2: ''
 city: San Pedro
 state: California
 zipcode: '90731'
-phone: (310) 832-2183
+phone: (310)832-2183
 latitude: '33.7388'
 longitude: '-118.2857'
 website: ''
-day: Fri
-open: '900'
-close: '1400'
-'': ''
+daycode1: Fri
+day1_open: '900'
+day1_close: '1400'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'San Pedro Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/san-pedro/
-formatted_day: Friday
-formatted_open: 9am
-formatted_close: 2pm
+formatted_daycode1: Friday
+formatted_day1_open: 9am
+formatted_day1_close: 2pm
 
 ---
