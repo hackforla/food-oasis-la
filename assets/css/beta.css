@@ -1871,3 +1871,20 @@ color: white;
 border-radius: 4px;
 }
 
+a.donate-button{
+		background-color: rgb(144, 194, 70);
+padding: 15px 20px;
+color: white;
+border-radius: 4px;
+width:50%;
+margin: 0 auto;
+text-decoration: none;
+}
+
+
+
+a.donate-button:hover{
+		background-color: rgb(124, 174, 50);
+
+
+}	
