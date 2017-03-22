@@ -708,6 +708,7 @@
 	----------------------------------------------- */
 	nav.location-list-nav {
 		display: block; /* SHIM: Reset display flex */
+		z-index: 0; /*makes it display under slideout menu*/
 	}
 	nav.location-list-nav .options {
 		display: flex;
