@@ -2014,18 +2014,24 @@
   margin-right:3px;
   color: white;
   border-radius: 4px;
+  font-weight: bold;
+
   }
 
 a.donate-button{
-		background-color: rgb(144, 194, 70);
-padding: 15px 20px;
-color: white;
-border-radius: 4px;
-width:50%;
-margin: 0 auto;
-text-decoration: none;
+	background-color: rgb(144, 194, 70);
+	padding: 15px 20px;
+	color: white;
+	border-radius: 4px;
+	width:50%;
+	margin: 0 auto;
+	text-decoration: none;
 }
 
+.home a.donate-button{
+background: rgb(241, 95, 91); 
+
+}
 
 
 a.donate-button:hover{
