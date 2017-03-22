@@ -12,13 +12,13 @@ category: Food Pantry
 website: http//wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/
 '': ''
 daycode1: Mon
-day1_open: '930'
+day1_open: 0930
 day1_close: '1200'
 daycode2: Mon
 day2_open: '1330'
 day2_close: '1600'
 daycode3: Thu
-day3_open: '930'
+day3_open: 0930
 day3_close: '1200'
 daycode4: Fri
 day4_open: '1330'

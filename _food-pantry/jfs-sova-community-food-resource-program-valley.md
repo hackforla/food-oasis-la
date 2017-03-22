@@ -12,7 +12,7 @@ category: Food Pantry
 website: https//www.jfsla.org/page.aspx?pid=300
 '': ''
 daycode1: Sun
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Mon
 day2_open: '1000'

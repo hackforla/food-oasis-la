@@ -15,10 +15,10 @@ daycode1: Sun
 day1_open: '1230'
 day1_close: '1300'
 daycode2: Tue
-day2_open: '900'
+day2_open: 0900
 day2_close: '1000'
 daycode3: Wed
-day3_open: '900'
+day3_open: 0900
 day3_close: '1000'
 daycode4: ''
 day4_open: ''

@@ -15,7 +15,7 @@ daycode1: Sun3rd
 day1_open: '1300'
 day1_close: '1400'
 daycode2: Sat
-day2_open: '900'
+day2_open: 0900
 day2_close: '1100'
 daycode3: ''
 day3_open: ''

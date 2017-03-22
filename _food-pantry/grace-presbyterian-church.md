@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri2nd
-day1_open: '930'
+day1_open: 0930
 day1_close: '1030'
 daycode2: Fri4th
-day2_open: '930'
+day2_open: 0930
 day2_close: '1030'
 daycode3: ''
 day3_open: ''

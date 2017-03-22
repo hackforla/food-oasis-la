@@ -12,8 +12,8 @@ category: Food Pantry
 website: http//fbcofla.org/community-outreach/hope-net/
 '': ''
 daycode1: Fri
-day1_open: '800'
-day1_close: '930'
+day1_open: 0800
+day1_close: 0930
 daycode2: ''
 day2_open: ''
 day2_close: ''

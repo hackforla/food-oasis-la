@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '830'
-day1_close: '930'
+day1_open: 0830
+day1_close: 0930
 daycode2: ''
 day2_open: ''
 day2_close: ''

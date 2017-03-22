@@ -12,10 +12,10 @@ category: Food Pantry
 website: http//catholiccharitiesla.org/where-we-are/program-directory-by-city/
 '': ''
 daycode1: Tue
-day1_open: '930'
+day1_open: 0930
 day1_close: '1500'
 daycode2: Thu
-day2_open: '930'
+day2_open: 0930
 day2_close: '1500'
 daycode3: ''
 day3_open: ''

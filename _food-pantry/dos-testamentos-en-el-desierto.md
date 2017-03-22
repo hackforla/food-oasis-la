@@ -15,7 +15,7 @@ daycode1: Wed
 day1_open: '1930'
 day1_close: '2030'
 daycode2: Sat
-day2_open: '815'
+day2_open: 0815
 day2_close: '1030'
 daycode3: Sat
 day3_open: '1930'

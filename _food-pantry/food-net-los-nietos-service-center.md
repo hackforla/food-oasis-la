@@ -15,7 +15,7 @@ daycode1: Thu
 day1_open: '1100'
 day1_close: '1400'
 daycode2: Fri
-day2_open: '100'
+day2_open: '1300'
 day2_close: '1330'
 daycode3: Fri
 day3_open: '1430'

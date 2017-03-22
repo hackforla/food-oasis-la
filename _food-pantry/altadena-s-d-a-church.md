@@ -12,10 +12,10 @@ category: Food Pantry
 website: http//altadenasdafamily.org/
 '': ''
 daycode1: Tue2nd
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Tue4th
-day2_open: '900'
+day2_open: 0900
 day2_close: '1200'
 daycode3: ''
 day3_open: ''
