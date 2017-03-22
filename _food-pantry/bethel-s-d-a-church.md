@@ -1,15 +1,15 @@
 ---
 name: Bethel S.D.A. Church
-Address_1: 1921 N. Garey Avenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91767'
-Phone: (909)630-5883
+address_1: 1921 N. Garey Avenue
+address_2: ''
+city: Pomona
+state: CA
+zip: '91767'
+phone: (909)630-5883
 latitude: '34.0812428'
 longitude: '-117.7531627'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun1st
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Bethel S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/bethel-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

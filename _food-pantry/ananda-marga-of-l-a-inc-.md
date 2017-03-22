@@ -1,15 +1,15 @@
 ---
 name: 'Ananda Marga of L.A., Inc.'
-Address_1: 1245 S. Norton Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90019'
-Phone: (818)414-7737
+address_1: 1245 S. Norton Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90019'
+phone: (818)414-7737
 latitude: '34.0483572'
 longitude: '-118.3238487'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Ananda Marga of L.A., Inc., Food Oasis Los Angeles'
 uri: /food-pantry/ananda-marga-of-l-a-inc-/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

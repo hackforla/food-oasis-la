@@ -1,15 +1,15 @@
 ---
 name: Centro Cristiano Las Buenas Nuevas
-Address_1: 11910 Alondra Blvd.
-Address_2: ''
-City: Norwalk
-State: CA
-Zip: '90650'
-Phone: (562)237-3114
+address_1: 11910 Alondra Blvd.
+address_2: ''
+city: Norwalk
+state: CA
+zip: '90650'
+phone: (562)237-3114
 latitude: '33.8873025'
 longitude: '-118.0795603'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '11:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Centro Cristiano Las Buenas Nuevas, Food Oasis Los Angeles'
 uri: /food-pantry/centro-cristiano-las-buenas-nuevas/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

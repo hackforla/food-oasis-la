@@ -1,15 +1,15 @@
 ---
 name: Life Deliverance Ministries
-Address_1: 9120 S. Western Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90044'
-Phone: (562)607-8780
+address_1: 9120 S. Western Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90044'
+phone: (562)607-8780
 latitude: '33.9538569'
 longitude: '-118.3087286'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Life Deliverance Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/life-deliverance-ministries/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

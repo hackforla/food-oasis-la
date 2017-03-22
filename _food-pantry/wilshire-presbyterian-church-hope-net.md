@@ -1,15 +1,15 @@
 ---
 name: Wilshire Presbyterian Church-Hope Net
-Address_1: 309 S. Oxford Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90020'
-Phone: (213)387-5387
+address_1: 309 S. Oxford Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90020'
+phone: (213)387-5387
 latitude: '34.0685889'
 longitude: '-118.308458'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Wilshire Presbyterian Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/wilshire-presbyterian-church-hope-net/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

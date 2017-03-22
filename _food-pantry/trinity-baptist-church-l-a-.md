@@ -1,15 +1,15 @@
 ---
 name: Trinity Baptist Church L.A.
-Address_1: 2040 W. Jefferson Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90018'
-Phone: (323)735-0044
+address_1: 2040 W. Jefferson Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90018'
+phone: (323)735-0044
 latitude: '34.0251148'
 longitude: '-118.3161'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Trinity Baptist Church L.A., Food Oasis Los Angeles'
 uri: /food-pantry/trinity-baptist-church-l-a-/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

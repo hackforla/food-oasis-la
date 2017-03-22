@@ -3,13 +3,13 @@ FM_ID: '1002890'
 name: Wellington Square Farmers Market
 address_1: 4394 W Washington Blvd.
 address_2: ''
-City: Los Angeles
-State: California
-Zip: '90016'
-Phone: ''
+city: Los Angeles
+state: California
+zipcode: '90016'
+phone: ''
 latitude: '34.0398'
 longitude: '-118.3348'
-Website: 'https://www.wellingtonsquarefarmersmarket.com/'
+website: 'https://www.wellingtonsquarefarmersmarket.com/'
 daycode1: Sun
 day1_open: '900'
 day1_close: '1300'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'Wellington Square Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/wellington-square/
+formatted_daycode1: Sunday
+formatted_day1_open: 9am
+formatted_day1_close: 1pm
 
 ---

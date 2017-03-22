@@ -1,15 +1,15 @@
 ---
 name: Eastmont Community Center
-Address_1: 701 Hoefner Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90022'
-Phone: (323)726-7998
+address_1: 701 Hoefner Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90022'
+phone: (323)726-7998
 latitude: '34.0209713'
 longitude: '-118.1500876'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Eastmont Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/eastmont-community-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

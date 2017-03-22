@@ -1,15 +1,15 @@
 ---
 name: Corys Kitchen-Iglesia Torre De Alabanza
-Address_1: 822 Bradbourne Ave.
-Address_2: ''
-City: Duarte
-State: CA
-Zip: '91010'
-Phone: (626)960-4639
+address_1: 822 Bradbourne Ave.
+address_2: ''
+city: Duarte
+state: CA
+zip: '91010'
+phone: (626)960-4639
 latitude: '34.1422404'
 longitude: '-117.9590196'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun1st
 day1_open: '5:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Corys Kitchen-Iglesia Torre De Alabanza, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-iglesia-torre-de-alabanza/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

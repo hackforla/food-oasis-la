@@ -1,15 +1,15 @@
 ---
 name: Chinese Community Service Center
-Address_1: 1725 Beverly Blvd
-Address_2: Ste 1-B
-City: Los Angeles
-State: CA
-Zip: '90026'
-Phone: (323)483-3035
+address_1: 1725 Beverly Blvd
+address_2: Ste 1-B
+city: Los Angeles
+state: CA
+zip: '90026'
+phone: (323)483-3035
 latitude: '34.065401'
 longitude: '-118.266495'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Chinese Community Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/chinese-community-service-center/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

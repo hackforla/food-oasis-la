@@ -1,15 +1,15 @@
 ---
 name: Sowing Seeds for Life
-Address_1: 1350 Arrow Hwy
-Address_2: ''
-City: La Verne
-State: CA
-Zip: '91750'
-Phone: (909)392-5777
+address_1: 1350 Arrow Hwy
+address_2: ''
+city: La Verne
+state: CA
+zip: '91750'
+phone: (909)392-5777
 latitude: '34.100366'
 longitude: '-117.785848'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed1st
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Sowing Seeds for Life, Food Oasis Los Angeles'
 uri: /food-pantry/sowing-seeds-for-life/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Nuevo Amanecer
-Address_1: 1035 N. Avalon Boulevard
-Address_2: ''
-City: Wilmington
-State: CA
-Zip: '90744'
-Phone: (310)847-6937
+address_1: 1035 N. Avalon Boulevard
+address_2: ''
+city: Wilmington
+state: CA
+zip: '90744'
+phone: (310)847-6937
 latitude: '33.784017'
 longitude: '-118.263126'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed1st
 day1_open: '6:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Nuevo Amanecer, Food Oasis Los Angeles'
 uri: /food-pantry/nuevo-amanecer/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

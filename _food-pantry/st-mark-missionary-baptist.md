@@ -1,15 +1,15 @@
 ---
 name: St. Mark Missionary Baptist
-Address_1: 5017 Compton Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90011'
-Phone: (323)231-1040
+address_1: 5017 Compton Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90011'
+phone: (323)231-1040
 latitude: '33.9970846'
 longitude: '-118.2481042'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Mark Missionary Baptist, Food Oasis Los Angeles'
 uri: /food-pantry/st-mark-missionary-baptist/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

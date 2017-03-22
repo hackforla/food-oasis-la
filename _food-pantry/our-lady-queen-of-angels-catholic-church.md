@@ -1,15 +1,15 @@
 ---
 name: Our Lady Queen of Angels Catholic Church
-Address_1: 535 N. Main Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90012'
-Phone: (213)629-3101
+address_1: 535 N. Main Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90012'
+phone: (213)629-3101
 latitude: '34.05707'
 longitude: '-118.239577'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Our Lady Queen of Angels Catholic Church, Food Oasis Los Angeles'
 uri: /food-pantry/our-lady-queen-of-angels-catholic-church/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

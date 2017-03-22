@@ -1,15 +1,15 @@
 ---
 name: Congregational Church of Chatsworth
-Address_1: 20440 Lassen Street
-Address_2: ''
-City: Chatsworth
-State: CA
-Zip: '91311'
-Phone: (818)882-3474
+address_1: 20440 Lassen Street
+address_2: ''
+city: Chatsworth
+state: CA
+zip: '91311'
+phone: (818)882-3474
 latitude: '34.2496259'
 longitude: '-118.5788499'
-Category: Food Pantry
-Website: 'http://chatsworthcongregational.church/'
+category: Food Pantry
+website: 'http://chatsworthcongregational.church/'
 '': ''
 daycode1: Sat
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Congregational Church of Chatsworth, Food Oasis Los Angeles'
 uri: /food-pantry/congregational-church-of-chatsworth/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

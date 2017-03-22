@@ -1,15 +1,15 @@
 ---
 name: Hope International Bible Fellowship
-Address_1: 4903 Fountain Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90029'
-Phone: (323)663-9394
+address_1: 4903 Fountain Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90029'
+phone: (323)663-9394
 latitude: '34.0955984'
 longitude: '-118.296546'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hope International Bible Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/hope-international-bible-fellowship/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

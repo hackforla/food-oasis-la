@@ -1,15 +1,15 @@
 ---
 name: St. Paul's Methodist Church
-Address_1: 2600 Nelson Avenue
-Address_2: ''
-City: Redondo Beach
-State: CA
-Zip: '90278'
-Phone: (310)370-4319
+address_1: 2600 Nelson Avenue
+address_2: ''
+city: Redondo Beach
+state: CA
+zip: '90278'
+phone: (310)370-4319
 latitude: '33.8745269'
 longitude: '-118.3641598'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu1st
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Paul''s Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-pauls-methodist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

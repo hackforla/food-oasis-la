@@ -3,13 +3,13 @@ FM_ID: ''
 name: San Pedro Farmers Market
 address_1: W 6Th St & S Mesa St
 address_2: ''
-City: San Pedro
-State: California
-Zip: '90731'
-Phone: (310)832-2183
+city: San Pedro
+state: California
+zipcode: '90731'
+phone: (310)832-2183
 latitude: '33.7388'
 longitude: '-118.2857'
-Website: ''
+website: ''
 daycode1: Fri
 day1_open: '900'
 day1_close: '1400'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'San Pedro Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/san-pedro/
+formatted_daycode1: Friday
+formatted_day1_open: 9am
+formatted_day1_close: 2pm
 
 ---

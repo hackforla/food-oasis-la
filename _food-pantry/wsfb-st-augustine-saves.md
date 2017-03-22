@@ -1,15 +1,15 @@
 ---
 name: WSFB- St. Augustine SAVES
-Address_1: 3820 Jasmine Avenue
-Address_2: ''
-City: Culver City
-State: CA
-Zip: '90232'
-Phone: (310)838-2702
+address_1: 3820 Jasmine Avenue
+address_2: ''
+city: Culver City
+state: CA
+zip: '90232'
+phone: (310)838-2702
 latitude: '34.0212852'
 longitude: '-118.4007884'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'WSFB- St. Augustine SAVES, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-st-augustine-saves/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

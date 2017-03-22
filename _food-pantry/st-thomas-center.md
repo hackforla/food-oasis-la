@@ -1,15 +1,15 @@
 ---
 name: St. Thomas Center
-Address_1: 2727 W.  Pico Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90006'
-Phone: (323)737-3325
+address_1: 2727 W.  Pico Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90006'
+phone: (323)737-3325
 latitude: '34.0243687'
 longitude: '-118.4608522'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat1st
 day1_open: '7:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Thomas Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-thomas-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

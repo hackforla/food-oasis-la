@@ -1,15 +1,15 @@
 ---
 name: Imperial Church of Christ
-Address_1: 11316 S. San Pedro Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90061'
-Phone: (323)756-0360
+address_1: 11316 S. San Pedro Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90061'
+phone: (323)756-0360
 latitude: '33.9315622'
 longitude: '-118.2691607'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '7:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Imperial Church of Christ, Food Oasis Los Angeles'
 uri: /food-pantry/imperial-church-of-christ/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

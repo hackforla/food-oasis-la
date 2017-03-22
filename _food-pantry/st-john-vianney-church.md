@@ -1,15 +1,15 @@
 ---
 name: St. John Vianney Church
-Address_1: 1345 Turnbull Canyon Road
-Address_2: ''
-City: Hacienda Heights
-State: CA
-Zip: '91745'
-Phone: (626)330-2269
+address_1: 1345 Turnbull Canyon Road
+address_2: ''
+city: Hacienda Heights
+state: CA
+zip: '91745'
+phone: (626)330-2269
 latitude: '34.0112629'
 longitude: '-117.980451'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '8:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. John Vianney Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-john-vianney-church/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

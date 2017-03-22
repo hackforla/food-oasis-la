@@ -1,15 +1,15 @@
 ---
 name: Sunland Tujunga T.A.C.
-Address_1: 7747 Foothill Boulevard
-Address_2: ''
-City: Tujunga
-State: CA
-Zip: '91042'
-Phone: (818)352-2421
+address_1: 7747 Foothill Boulevard
+address_2: ''
+city: Tujunga
+state: CA
+zip: '91042'
+phone: (818)352-2421
 latitude: '34.2577962'
 longitude: '-118.3009158'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Sunland Tujunga T.A.C., Food Oasis Los Angeles'
 uri: /food-pantry/sunland-tujunga-t-a-c-/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

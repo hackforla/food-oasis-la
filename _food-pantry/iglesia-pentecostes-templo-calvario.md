@@ -1,15 +1,15 @@
 ---
 name: Iglesia Pentecostes Templo Calvario
-Address_1: 8824 Long Beach Boulevard
-Address_2: ''
-City: South Gate
-State: CA
-Zip: '90280'
-Phone: (310)713-1428
+address_1: 8824 Long Beach Boulevard
+address_2: ''
+city: South Gate
+state: CA
+zip: '90280'
+phone: (310)713-1428
 latitude: '33.956026'
 longitude: '-118.220037'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Pentecostes Templo Calvario, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-pentecostes-templo-calvario/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

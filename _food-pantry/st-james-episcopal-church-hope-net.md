@@ -1,15 +1,15 @@
 ---
 name: St. James Episcopal Church-Hope Net
-Address_1: 3903 Wilshire Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90010'
-Phone: (323)934-5870
+address_1: 3903 Wilshire Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90010'
+phone: (323)934-5870
 latitude: '34.062042'
 longitude: '-118.3119697'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. James Episcopal Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/st-james-episcopal-church-hope-net/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

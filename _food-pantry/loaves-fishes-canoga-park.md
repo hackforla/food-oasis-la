@@ -1,15 +1,15 @@
 ---
 name: Loaves & Fishes-Canoga Park
-Address_1: 21600 Hart Street
-Address_2: ''
-City: Canoga Park
-State: CA
-Zip: '91303'
-Phone: (818)340-2050
+address_1: 21600 Hart Street
+address_2: ''
+city: Canoga Park
+state: CA
+zip: '91303'
+phone: (818)340-2050
 latitude: '34.1973704'
 longitude: '-118.6002723'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Loaves & Fishes-Canoga Park, Food Oasis Los Angeles'
 uri: /food-pantry/loaves-fishes-canoga-park/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

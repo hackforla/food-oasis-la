@@ -1,15 +1,15 @@
 ---
 name: Iglesia Bautista Renacer
-Address_1: 15950 Chatsworth St.
-Address_2: ''
-City: Granada Hills
-State: CA
-Zip: '91344'
-Phone: (818)277-9982
+address_1: 15950 Chatsworth St.
+address_2: ''
+city: Granada Hills
+state: CA
+zip: '91344'
+phone: (818)277-9982
 latitude: '34.264075'
 longitude: '-118.479712'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Bautista Renacer, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-bautista-renacer/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Church of the Valley
-Address_1: 6565 Vester blvd
-Address_2: ''
-City: Van Nuys
-State: CA
-Zip: '91411'
-Phone: (818)284-1331
+address_1: 6565 Vester blvd
+address_2: ''
+city: Van Nuys
+state: CA
+zip: '91411'
+phone: (818)284-1331
 latitude: '34.1898566'
 longitude: '-118.451357'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Church of the Valley, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-the-valley/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

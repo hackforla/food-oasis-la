@@ -1,15 +1,15 @@
 ---
 name: WSFB- St. Joseph's Center
-Address_1: 204 Hampton Drive
-Address_2: ''
-City: Venice
-State: CA
-Zip: '90291'
-Phone: (310)396-6468
+address_1: 204 Hampton Drive
+address_2: ''
+city: Venice
+state: CA
+zip: '90291'
+phone: (310)396-6468
 latitude: '33.9979527'
 longitude: '-118.4779718'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'WSFB- St. Joseph''s Center, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-st-josephs-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

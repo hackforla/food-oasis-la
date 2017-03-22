@@ -3,13 +3,13 @@ FM_ID: '1000052'
 name: Hollywood Farmers Market
 address_1: 1500 N Ivar Ave
 address_2: ''
-City: Hollywood
-State: California
-Zip: '90028'
-Phone: ''
+city: Hollywood
+state: California
+zipcode: '90028'
+phone: ''
 latitude: '34.0981'
 longitude: '-118.3287'
-Website: 'http://www.hollywoodfarmersmarket.net/'
+website: 'http://www.hollywoodfarmersmarket.net/'
 daycode1: Sun
 day1_open: '800'
 day1_close: '1300'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'Hollywood Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/hollywood/
+formatted_daycode1: Sunday
+formatted_day1_open: 8am
+formatted_day1_close: 1pm
 
 ---

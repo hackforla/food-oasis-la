@@ -1,15 +1,15 @@
 ---
 name: Holy Family Giving Bank
-Address_1: 1524 Fremont Avenue
-Address_2: ''
-City: South Pasadena
-State: CA
-Zip: '91030'
-Phone: (626)403-6140
+address_1: 1524 Fremont Avenue
+address_2: ''
+city: South Pasadena
+state: CA
+zip: '91030'
+phone: (626)403-6140
 latitude: '34.1080192'
 longitude: '-118.1527363'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Holy Family Giving Bank, Food Oasis Los Angeles'
 uri: /food-pantry/holy-family-giving-bank/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

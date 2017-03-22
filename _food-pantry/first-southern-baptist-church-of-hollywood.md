@@ -1,15 +1,15 @@
 ---
 name: First Southern Baptist Church of Hollywood
-Address_1: 1528 N. Wilton Place
-Address_2: ''
-City: Hollywood
-State: CA
-Zip: '90028'
-Phone: (323)466-9631
+address_1: 1528 N. Wilton Place
+address_2: ''
+city: Hollywood
+state: CA
+zip: '90028'
+phone: (323)466-9631
 latitude: '34.0991321'
 longitude: '-118.3132449'
-Category: Food Pantry
-Website: 'http://firstsouthernbaptist.church/'
+category: Food Pantry
+website: 'http://firstsouthernbaptist.church/'
 '': ''
 daycode1: Sat1st
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Southern Baptist Church of Hollywood, Food Oasis Los Angeles'
 uri: /food-pantry/first-southern-baptist-church-of-hollywood/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Esmirna Pentecostal Church
-Address_1: 5414 N. Figueroa Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90042'
-Phone: (323)254-0191
+address_1: 5414 N. Figueroa Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90042'
+phone: (323)254-0191
 latitude: '34.1072082'
 longitude: '-118.196609'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Esmirna Pentecostal Church, Food Oasis Los Angeles'
 uri: /food-pantry/esmirna-pentecostal-church/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

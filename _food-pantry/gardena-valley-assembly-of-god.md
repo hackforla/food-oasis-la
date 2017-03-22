@@ -1,15 +1,15 @@
 ---
 name: Gardena Valley Assembly of God
-Address_1: 1473 W. 182nd Street
-Address_2: ''
-City: Gardena
-State: CA
-Zip: '90248'
-Phone: (310)329-6933
+address_1: 1473 W. 182nd Street
+address_2: ''
+city: Gardena
+state: CA
+zip: '90248'
+phone: (310)329-6933
 latitude: '33.8659794'
 longitude: '-118.3018567'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '12:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Gardena Valley Assembly of God, Food Oasis Los Angeles'
 uri: /food-pantry/gardena-valley-assembly-of-god/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

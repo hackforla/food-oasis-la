@@ -1,15 +1,15 @@
 ---
 name: Good News Prayer Center
-Address_1: 1722 East Firestone Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90001'
-Phone: (323)753-0117
+address_1: 1722 East Firestone Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90001'
+phone: (323)753-0117
 latitude: '33.9599573'
 longitude: '-118.2423524'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Good News Prayer Center, Food Oasis Los Angeles'
 uri: /food-pantry/good-news-prayer-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

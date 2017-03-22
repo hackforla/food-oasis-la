@@ -1,15 +1,15 @@
 ---
 name: Travelers Rest Missionary B.C.
-Address_1: 1417 E. Florence Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90001'
-Phone: (323)582-7797
+address_1: 1417 E. Florence Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90001'
+phone: (323)582-7797
 latitude: '33.9750605'
 longitude: '-118.2493074'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Travelers Rest Missionary B.C., Food Oasis Los Angeles'
 uri: /food-pantry/travelers-rest-missionary-b-c-/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

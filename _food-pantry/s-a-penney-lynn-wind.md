@@ -1,15 +1,15 @@
 ---
 name: S.A. Penney Lynn Wind
-Address_1: 8300 Pearblossom Hwy
-Address_2: ''
-City: Littlerock
-State: CA
-Zip: '93543'
-Phone: (661)944-6100
+address_1: 8300 Pearblossom Hwy
+address_2: ''
+city: Littlerock
+state: CA
+zip: '93543'
+phone: (661)944-6100
 latitude: '34.5208321'
 longitude: '-117.9811848'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon3rd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'S.A. Penney Lynn Wind, Food Oasis Los Angeles'
 uri: /food-pantry/s-a-penney-lynn-wind/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: New Region For Christ
-Address_1: 520 S. La Brea Ave
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90301'
-Phone: (424)227-8657
+address_1: 520 S. La Brea Ave
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90301'
+phone: (424)227-8657
 latitude: '33.9569988'
 longitude: '-118.3527848'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '11:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'New Region For Christ, Food Oasis Los Angeles'
 uri: /food-pantry/new-region-for-christ/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

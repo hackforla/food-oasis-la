@@ -1,15 +1,15 @@
 ---
 name: Los Angeles Boys & Girls Club
-Address_1: 2635 Pasadena Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90031'
-Phone: (323)221-9111
+address_1: 2635 Pasadena Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90031'
+phone: (323)221-9111
 latitude: '34.0779999'
 longitude: '-118.215668'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '5:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Los Angeles Boys & Girls Club, Food Oasis Los Angeles'
 uri: /food-pantry/los-angeles-boys-girls-club/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

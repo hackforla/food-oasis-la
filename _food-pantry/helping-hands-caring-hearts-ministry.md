@@ -1,15 +1,15 @@
 ---
 name: 'Helping Hands, Caring Hearts Ministry'
-Address_1: 1750 W. Holt Avenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91768'
-Phone: (909)620-1601
+address_1: 1750 W. Holt Avenue
+address_2: ''
+city: Pomona
+state: CA
+zip: '91768'
+phone: (909)620-1601
 latitude: '34.0609388'
 longitude: '-117.7800069'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '4:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Helping Hands, Caring Hearts Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/helping-hands-caring-hearts-ministry/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Young Hwa United Methodist Church
-Address_1: 214 S. Loma Drive
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90026'
-Phone: (213)413-4154
+address_1: 214 S. Loma Drive
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90026'
+phone: (213)413-4154
 latitude: '34.0607514'
 longitude: '-118.2642047'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '3:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Young Hwa United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/young-hwa-united-methodist-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

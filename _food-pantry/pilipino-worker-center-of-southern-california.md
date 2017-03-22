@@ -1,15 +1,15 @@
 ---
 name: Pilipino Worker Center of Southern California
-Address_1: 153 Glendale Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90026'
-Phone: (213)250-4353
+address_1: 153 Glendale Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90026'
+phone: (213)250-4353
 latitude: '34.0634518'
 longitude: '-118.2602462'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '6:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Pilipino Worker Center of Southern California, Food Oasis Los Angeles'
 uri: /food-pantry/pilipino-worker-center-of-southern-california/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

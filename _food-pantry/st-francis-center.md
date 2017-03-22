@@ -1,15 +1,15 @@
 ---
 name: St. Francis Center
-Address_1: 1835 S. Hope Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90015'
-Phone: (213)747-5347
+address_1: 1835 S. Hope Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90015'
+phone: (213)747-5347
 latitude: '34.0339876'
 longitude: '-118.2697209'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Francis Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-francis-center/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

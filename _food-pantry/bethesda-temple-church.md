@@ -1,15 +1,15 @@
 ---
 name: Bethesda Temple Church
-Address_1: 4915 Crenshaw Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90043'
-Phone: (323)299-2591
+address_1: 4915 Crenshaw Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90043'
+phone: (323)299-2591
 latitude: '33.9979589'
 longitude: '-118.3308714'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat4th
 day1_open: '1:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Bethesda Temple Church, Food Oasis Los Angeles'
 uri: /food-pantry/bethesda-temple-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

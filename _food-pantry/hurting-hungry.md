@@ -1,15 +1,15 @@
 ---
 name: Hurting & Hungry
-Address_1: 8107 Loyola Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90045'
-Phone: (213)268-4820
+address_1: 8107 Loyola Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90045'
+phone: (213)268-4820
 latitude: '33.9643479'
 longitude: '-118.416965'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hurting & Hungry, Food Oasis Los Angeles'
 uri: /food-pantry/hurting-hungry/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

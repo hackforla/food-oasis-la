@@ -1,15 +1,15 @@
 ---
 name: East Palmdale Foursquare
-Address_1: '1817 E. Avenue Q., A-6'
-Address_2: ''
-City: Palmdale
-State: CA
-Zip: '93550'
-Phone: (661)874-8788
+address_1: '1817 E. Avenue Q., A-6'
+address_2: ''
+city: Palmdale
+state: CA
+zip: '93550'
+phone: (661)874-8788
 latitude: '34.5672827'
 longitude: '-118.0960249'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: SatLast
 day1_open: '8:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'East Palmdale Foursquare, Food Oasis Los Angeles'
 uri: /food-pantry/east-palmdale-foursquare/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

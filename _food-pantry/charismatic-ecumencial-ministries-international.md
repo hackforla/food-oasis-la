@@ -1,15 +1,15 @@
 ---
 name: Charismatic Ecumencial Ministries International
-Address_1: 4357 West 3rd Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90020'
-Phone: (213)219-3228
+address_1: 4357 West 3rd Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90020'
+phone: (213)219-3228
 latitude: '34.0691134'
 longitude: '-118.3094234'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun1st
 day1_open: '1:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Charismatic Ecumencial Ministries International, Food Oasis Los Angeles'
 uri: /food-pantry/charismatic-ecumencial-ministries-international/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

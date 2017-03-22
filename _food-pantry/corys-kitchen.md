@@ -1,15 +1,15 @@
 ---
 name: Cory's Kitchen
-Address_1: 1418 Arrow Highway
-Address_2: ''
-City: Irwindale
-State: CA
-Zip: '91706'
-Phone: (626)305-0392
+address_1: 1418 Arrow Highway
+address_2: ''
+city: Irwindale
+state: CA
+zip: '91706'
+phone: (626)305-0392
 latitude: '34.1146127'
 longitude: '-117.9746909'
-Category: Food Pantry
-Website: 'http://www.coryskitchen.org/'
+category: Food Pantry
+website: 'http://www.coryskitchen.org/'
 '': ''
 daycode1: Tues
 day1_open: '6:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Cory''s Kitchen, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

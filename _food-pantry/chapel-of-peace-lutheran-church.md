@@ -1,15 +1,15 @@
 ---
 name: Chapel of Peace Lutheran Church
-Address_1: 1009 N. Market Street
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90302'
-Phone: (310)673-2584
+address_1: 1009 N. Market Street
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90302'
+phone: (310)673-2584
 latitude: '33.9766895'
 longitude: '-118.3568641'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Chapel of Peace Lutheran Church, Food Oasis Los Angeles'
 uri: /food-pantry/chapel-of-peace-lutheran-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

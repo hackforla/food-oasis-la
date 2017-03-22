@@ -1,15 +1,15 @@
 ---
 name: Iglesia Cristiana El Shaddai USA
-Address_1: 5518 S. Broadway
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: (323)235-5988
+address_1: 5518 S. Broadway
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: (323)235-5988
 latitude: '33.9921017'
 longitude: '-118.2779982'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '7:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Cristiana El Shaddai USA, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-cristiana-el-shaddai-usa/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

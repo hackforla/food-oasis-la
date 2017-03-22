@@ -1,15 +1,15 @@
 ---
 name: Salvation Army Southeast Comm. Corp
-Address_1: 2965 E. Gage Avenue
-Address_2: ''
-City: Huntington Park
-State: CA
-Zip: '90255'
-Phone: (323)587-4221
+address_1: 2965 E. Gage Avenue
+address_2: ''
+city: Huntington Park
+state: CA
+zip: '90255'
+phone: (323)587-4221
 latitude: '33.9814284'
 longitude: '-118.2165004'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army Southeast Comm. Corp, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-southeast-comm-corp/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

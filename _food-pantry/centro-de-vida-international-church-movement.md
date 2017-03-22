@@ -1,15 +1,15 @@
 ---
 name: Centro de Vida International Church Movement
-Address_1: 9251 Burnet Avenue
-Address_2: ''
-City: North Hills
-State: CA
-Zip: '91343'
-Phone: (818)892-2838
+address_1: 9251 Burnet Avenue
+address_2: ''
+city: North Hills
+state: CA
+zip: '91343'
+phone: (818)892-2838
 latitude: '34.2387967'
 longitude: '-118.4635834'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Centro de Vida International Church Movement, Food Oasis Los Angeles'
 uri: /food-pantry/centro-de-vida-international-church-movement/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

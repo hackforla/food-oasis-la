@@ -1,15 +1,15 @@
 ---
 name: St. Stephen's Community Outreach Program
-Address_1: 122 Ramona Avenue
-Address_2: ''
-City: Monterey Park
-State: CA
-Zip: '91754'
-Phone: (626)573-9984
+address_1: 122 Ramona Avenue
+address_2: ''
+city: Monterey Park
+state: CA
+zip: '91754'
+phone: (626)573-9984
 latitude: '34.0616348'
 longitude: '-118.1251851'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Stephen''s Community Outreach Program, Food Oasis Los Angeles'
 uri: /food-pantry/st-stephens-community-outreach-program/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Islamic Center of Southern CA-Hope Net
-Address_1: 434 S. Vermont Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90020'
-Phone: (213)382-9200
+address_1: 434 S. Vermont Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90020'
+phone: (213)382-9200
 latitude: '34.0664143'
 longitude: '-118.291309'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Islamic Center of Southern CA-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/islamic-center-of-southern-ca-hope-net/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: St. Mary & St. Athanasius Coptic Church
-Address_1: 17431 Roscoe Blvd.
-Address_2: ''
-City: Northridge
-State: CA
-Zip: '91325'
-Phone: (818)342-4414
+address_1: 17431 Roscoe Blvd.
+address_2: ''
+city: Northridge
+state: CA
+zip: '91325'
+phone: (818)342-4414
 latitude: '34.2216778'
 longitude: '-118.513091'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Mary & St. Athanasius Coptic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-mary-st-athanasius-coptic-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

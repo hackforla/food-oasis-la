@@ -1,15 +1,15 @@
 ---
 name: Iglesia Piedra Angular
-Address_1: 2110 W. Francisquito Avenue
-Address_2: ''
-City: West Covina
-State: CA
-Zip: '91790'
-Phone: (626)833-8141
+address_1: 2110 W. Francisquito Avenue
+address_2: ''
+city: West Covina
+state: CA
+zip: '91790'
+phone: (626)833-8141
 latitude: '34.0597225'
 longitude: '-117.9630247'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '7:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Piedra Angular, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-piedra-angular/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Palmdale Foursquare Church
-Address_1: 38325 10th Street East
-Address_2: ''
-City: Palmdale
-State: CA
-Zip: '93550'
-Phone: (661)947-2938
+address_1: 38325 10th Street East
+address_2: ''
+city: Palmdale
+state: CA
+zip: '93550'
+phone: (661)947-2938
 latitude: '34.5784049'
 longitude: '-118.1120551'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue4th
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Palmdale Foursquare Church, Food Oasis Los Angeles'
 uri: /food-pantry/palmdale-foursquare-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

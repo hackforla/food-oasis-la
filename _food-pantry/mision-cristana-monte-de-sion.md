@@ -1,15 +1,15 @@
 ---
 name: Mision Cristana Monte de Sion
-Address_1: 6315 Eastern Avenue
-Address_2: ''
-City: Bell Gardens
-State: CA
-Zip: '90201'
-Phone: (562)544-4264
+address_1: 6315 Eastern Avenue
+address_2: ''
+city: Bell Gardens
+state: CA
+zip: '90201'
+phone: (562)544-4264
 latitude: '33.9768389'
 longitude: '-118.1637179'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '8:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Mision Cristana Monte de Sion, Food Oasis Los Angeles'
 uri: /food-pantry/mision-cristana-monte-de-sion/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -3,13 +3,13 @@ FM_ID: ''
 name: East LA Farmers' Market
 address_1: 4801 East 3rd Street
 address_2: ''
-City: Los Angeles
-State: California
-Zip: '90022'
-Phone: ''
+city: Los Angeles
+state: California
+zipcode: '90022'
+phone: ''
 latitude: '34.0334'
 longitude: '-118.16'
-Website: 'https://www.facebook.com/eastlafarmersmarket/'
+website: 'https://www.facebook.com/eastlafarmersmarket/'
 daycode1: Sat
 day1_open: '900'
 day1_close: '1400'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'East LA Farmers'' Market, Food Oasis Los Angeles'
 uri: /farmers-market/east-la-farmers-market/
+formatted_daycode1: Saturday
+formatted_day1_open: 9am
+formatted_day1_close: 2pm
 
 ---

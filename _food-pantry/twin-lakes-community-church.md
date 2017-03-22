@@ -1,15 +1,15 @@
 ---
 name: Twin Lakes Community Church
-Address_1: 17213 Lake Los Angeles Avenue
-Address_2: ''
-City: Lake Los Angeles
-State: CA
-Zip: '93591'
-Phone: (661)264-1215
+address_1: 17213 Lake Los Angeles Avenue
+address_2: ''
+city: Lake Los Angeles
+state: CA
+zip: '93591'
+phone: (661)264-1215
 latitude: '34.6072723'
 longitude: '-117.8233091'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Twin Lakes Community Church, Food Oasis Los Angeles'
 uri: /food-pantry/twin-lakes-community-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

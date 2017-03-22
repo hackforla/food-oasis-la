@@ -1,15 +1,15 @@
 ---
 name: Burbank Temporary Aid Center
-Address_1: 1304 W. Burbank Blvd.
-Address_2: ''
-City: Burbank
-State: CA
-Zip: '91506'
-Phone: (818)848-2822
+address_1: 1304 W. Burbank Blvd.
+address_2: ''
+city: Burbank
+state: CA
+zip: '91506'
+phone: (818)848-2822
 latitude: '34.1825214'
 longitude: '-118.3260622'
-Category: Food Pantry
-Website: 'http://www.burbanktemporaryaidcenter.org'
+category: Food Pantry
+website: 'http://www.burbanktemporaryaidcenter.org'
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Burbank Temporary Aid Center, Food Oasis Los Angeles'
 uri: /food-pantry/burbank-temporary-aid-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

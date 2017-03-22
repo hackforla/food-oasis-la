@@ -1,15 +1,15 @@
 ---
 name: Crenshaw United Methodist Church
-Address_1: 3740 Don Felipe Drive
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90008'
-Phone: (323)292-0141
+address_1: 3740 Don Felipe Drive
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90008'
+phone: (323)292-0141
 latitude: '34.0068523'
 longitude: '-118.3408663'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Crenshaw United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/crenshaw-united-methodist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

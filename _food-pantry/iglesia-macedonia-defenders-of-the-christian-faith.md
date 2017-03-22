@@ -1,15 +1,15 @@
 ---
 name: Iglesia Macedonia Defenders of the Christian Faith
-Address_1: 9228 S. Central Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90002'
-Phone: (323)804-6615
+address_1: 9228 S. Central Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90002'
+phone: (323)804-6615
 latitude: '33.952555'
 longitude: '-118.255771'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '7:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Macedonia Defenders of the Christian Faith, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-macedonia-defenders-of-the-christian-faith/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

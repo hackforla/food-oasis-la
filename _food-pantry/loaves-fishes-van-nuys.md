@@ -1,15 +1,15 @@
 ---
 name: Loaves & Fishes-Van Nuys
-Address_1: 14640 Keswick
-Address_2: ''
-City: Van Nuys
-State: CA
-Zip: '91405'
-Phone: (818)997-0943
+address_1: 14640 Keswick
+address_2: ''
+city: Van Nuys
+state: CA
+zip: '91405'
+phone: (818)997-0943
 latitude: '34.2100101'
 longitude: '-118.4523896'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Loaves & Fishes-Van Nuys, Food Oasis Los Angeles'
 uri: /food-pantry/loaves-fishes-van-nuys/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

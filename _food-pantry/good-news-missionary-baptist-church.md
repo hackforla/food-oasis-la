@@ -1,15 +1,15 @@
 ---
 name: Good News Missionary Baptist Church
-Address_1: 2400 W. Vernon Ave
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90008'
-Phone: (323)292-3589
+address_1: 2400 W. Vernon Ave
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90008'
+phone: (323)292-3589
 latitude: '34.003407'
 longitude: '-118.319388'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Good News Missionary Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/good-news-missionary-baptist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

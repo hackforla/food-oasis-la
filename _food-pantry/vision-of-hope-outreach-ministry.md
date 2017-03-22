@@ -1,15 +1,15 @@
 ---
 name: Vision of Hope Outreach Ministry
-Address_1: 5951 S. San Pedro
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90003'
-Phone: (323)233-4647
+address_1: 5951 S. San Pedro
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90003'
+phone: (323)233-4647
 latitude: '33.9859277'
 longitude: '-118.2697413'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '3:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Vision of Hope Outreach Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/vision-of-hope-outreach-ministry/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

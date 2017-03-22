@@ -1,15 +1,15 @@
 ---
 name: St. Luke Catholic Community
-Address_1: 9451 Broadway
-Address_2: ''
-City: Temple City
-State: CA
-Zip: '91780'
-Phone: (626)291-5900
+address_1: 9451 Broadway
+address_2: ''
+city: Temple City
+state: CA
+zip: '91780'
+phone: (626)291-5900
 latitude: '34.1001065'
 longitude: '-118.0635668'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Luke Catholic Community, Food Oasis Los Angeles'
 uri: /food-pantry/st-luke-catholic-community/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

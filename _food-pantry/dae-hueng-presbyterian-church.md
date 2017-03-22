@@ -1,15 +1,15 @@
 ---
 name: Dae Hueng Presbyterian Church
-Address_1: 15411 S. Figueroa Street
-Address_2: ''
-City: Gardena
-State: CA
-Zip: '90248'
-Phone: (310)719-2244
+address_1: 15411 S. Figueroa Street
+address_2: ''
+city: Gardena
+state: CA
+zip: '90248'
+phone: (310)719-2244
 latitude: '33.8913189'
 longitude: '-118.2836487'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Dae Hueng Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/dae-hueng-presbyterian-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

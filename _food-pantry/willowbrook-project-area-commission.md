@@ -1,15 +1,15 @@
 ---
 name: Willowbrook Project Area Commission
-Address_1: 11901 S. Willowbrook Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90059'
-Phone: (323)569-7676
+address_1: 11901 S. Willowbrook Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90059'
+phone: (323)569-7676
 latitude: '33.9244622'
 longitude: '-118.23627'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed3rd
 day1_open: '5:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Willowbrook Project Area Commission, Food Oasis Los Angeles'
 uri: /food-pantry/willowbrook-project-area-commission/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

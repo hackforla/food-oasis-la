@@ -1,15 +1,15 @@
 ---
 name: Foothill Unity Center
-Address_1: 415 W. Chestnut Avenue
-Address_2: ''
-City: Monrovia
-State: CA
-Zip: '91016'
-Phone: (626)359-1777
+address_1: 415 W. Chestnut Avenue
+address_2: ''
+city: Monrovia
+state: CA
+zip: '91016'
+phone: (626)359-1777
 latitude: '34.1427592'
 longitude: '-118.0081715'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Foothill Unity Center, Food Oasis Los Angeles'
 uri: /food-pantry/foothill-unity-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

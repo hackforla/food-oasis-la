@@ -1,15 +1,15 @@
 ---
 name: Salvation Army- Whittier Corp.
-Address_1: 7926 Pickering Avenue
-Address_2: ''
-City: Whittier
-State: CA
-Zip: '90602'
-Phone: (562)698-8348
+address_1: 7926 Pickering Avenue
+address_2: ''
+city: Whittier
+state: CA
+zip: '90602'
+phone: (562)698-8348
 latitude: '33.9691227'
 longitude: '-118.0417514'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army- Whittier Corp., Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-whittier-corp-/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

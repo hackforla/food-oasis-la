@@ -1,15 +1,15 @@
 ---
 name: Southeast Churches Service Center
-Address_1: 2780 E. Gage Avenue
-Address_2: ''
-City: Huntington Park
-State: CA
-Zip: '90255'
-Phone: (323)585-8254
+address_1: 2780 E. Gage Avenue
+address_2: ''
+city: Huntington Park
+state: CA
+zip: '90255'
+phone: (323)585-8254
 latitude: '33.9814503'
 longitude: '-118.2202826'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Southeast Churches Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/southeast-churches-service-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

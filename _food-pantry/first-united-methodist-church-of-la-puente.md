@@ -1,15 +1,15 @@
 ---
 name: First United Methodist Church of La Puente
-Address_1: 15701 E. Hill Street
-Address_2: ''
-City: La Puente
-State: CA
-Zip: '91744'
-Phone: (626)336-1927
+address_1: 15701 E. Hill Street
+address_2: ''
+city: La Puente
+state: CA
+zip: '91744'
+phone: (626)336-1927
 latitude: '34.0325929'
 longitude: '-118.2662632'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: SunLast
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First United Methodist Church of La Puente, Food Oasis Los Angeles'
 uri: /food-pantry/first-united-methodist-church-of-la-puente/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

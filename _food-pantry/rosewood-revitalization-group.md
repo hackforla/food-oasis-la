@@ -1,15 +1,15 @@
 ---
 name: Rosewood Revitalization Group
-Address_1: 4101 Rosewood Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90004'
-Phone: (323)662-1194
+address_1: 4101 Rosewood Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90004'
+phone: (323)662-1194
 latitude: '34.0793451'
 longitude: '-118.2932645'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri3rd
 day1_open: '3:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Rosewood Revitalization Group, Food Oasis Los Angeles'
 uri: /food-pantry/rosewood-revitalization-group/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

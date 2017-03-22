@@ -1,15 +1,15 @@
 ---
 name: S.V.P. All Souls Conference
-Address_1: 1500 W. Main Street
-Address_2: ''
-City: Alhambra
-State: CA
-Zip: '91803'
-Phone: (626)281-0466
+address_1: 1500 W. Main Street
+address_2: ''
+city: Alhambra
+state: CA
+zip: '91803'
+phone: (626)281-0466
 latitude: '34.0911399'
 longitude: '-118.1397892'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu3rd
 day1_open: '3:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'S.V.P. All Souls Conference, Food Oasis Los Angeles'
 uri: /food-pantry/s-v-p-all-souls-conference/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

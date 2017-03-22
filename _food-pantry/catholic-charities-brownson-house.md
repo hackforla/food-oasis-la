@@ -1,15 +1,15 @@
 ---
 name: Catholic Charities- Brownson House
-Address_1: 1307 Warren Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90033'
-Phone: ((21)) 2-3514
+address_1: 1307 Warren Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90033'
+phone: ((21)) 2-3514
 latitude: '34.0521281'
 longitude: '-118.2201373'
-Category: Food Pantry
-Website: 'http://catholiccharitiesla.org/where-we-are/program-directory-by-city/'
+category: Food Pantry
+website: 'http://catholiccharitiesla.org/where-we-are/program-directory-by-city/'
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Catholic Charities- Brownson House, Food Oasis Los Angeles'
 uri: /food-pantry/catholic-charities-brownson-house/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

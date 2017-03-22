@@ -1,15 +1,15 @@
 ---
 name: Berean S.D.A. Church
-Address_1: 4211 W. Adams Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90018'
-Phone: (323)735-0228
+address_1: 4211 W. Adams Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90018'
+phone: (323)735-0228
 latitude: '34.0329576'
 longitude: '-118.3310595'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Berean S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/berean-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

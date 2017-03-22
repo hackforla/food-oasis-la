@@ -1,15 +1,15 @@
 ---
 name: New Jerusalem C.O.G.I.C.
-Address_1: 420 S. Sante Fe Avenue
-Address_2: ''
-City: Compton
-State: CA
-Zip: '90221'
-Phone: (310)639-1013
+address_1: 420 S. Sante Fe Avenue
+address_2: ''
+city: Compton
+state: CA
+zip: '90221'
+phone: (310)639-1013
 latitude: '33.892894'
 longitude: '-118.215494'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri1st
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'New Jerusalem C.O.G.I.C., Food Oasis Los Angeles'
 uri: /food-pantry/new-jerusalem-c-o-g-i-c-/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

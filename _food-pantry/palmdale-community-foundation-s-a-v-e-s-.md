@@ -1,15 +1,15 @@
 ---
 name: Palmdale Community Foundation-S.A.V.E.S.
-Address_1: 1002 East Avenue Q12
-Address_2: ''
-City: Palmdale
-State: CA
-Zip: '93550'
-Phone: (661)267-5191
+address_1: 1002 East Avenue Q12
+address_2: ''
+city: Palmdale
+state: CA
+zip: '93550'
+phone: (661)267-5191
 latitude: '34.5755254'
 longitude: '-118.1114457'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Palmdale Community Foundation-S.A.V.E.S., Food Oasis Los Angeles'
 uri: /food-pantry/palmdale-community-foundation-s-a-v-e-s-/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Our Saviour Center
-Address_1: 4368 Santa Anita Avenue
-Address_2: ''
-City: EL Monte
-State: CA
-Zip: '91731'
-Phone: (626)579-2190
+address_1: 4368 Santa Anita Avenue
+address_2: ''
+city: EL Monte
+state: CA
+zip: '91731'
+phone: (626)579-2190
 latitude: '34.0853655'
 longitude: '-118.0293332'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Our Saviour Center, Food Oasis Los Angeles'
 uri: /food-pantry/our-saviour-center/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

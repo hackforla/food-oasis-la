@@ -1,15 +1,15 @@
 ---
 name: Wesley United Methodist Church
-Address_1: 112 West 52nd Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: (323)298-0727
+address_1: 112 West 52nd Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: (323)298-0727
 latitude: '33.9953651'
 longitude: '-118.2743249'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '10:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Wesley United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/wesley-united-methodist-church/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

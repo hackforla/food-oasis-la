@@ -1,15 +1,15 @@
 ---
 name: WSFB- St. Gerard's Social Services
-Address_1: 4439 Inglewood Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90066'
-Phone: (310)390-5034
+address_1: 4439 Inglewood Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90066'
+phone: (310)390-5034
 latitude: '33.9952899'
 longitude: '-118.4191511'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'WSFB- St. Gerard''s Social Services, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-st-gerards-social-services/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

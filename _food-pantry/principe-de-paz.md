@@ -1,15 +1,15 @@
 ---
 name: Principe de Paz
-Address_1: 6706 Vinevale Avenue
-Address_2: ''
-City: Bell
-State: CA
-Zip: '90201'
-Phone: (323)560-3780
+address_1: 6706 Vinevale Avenue
+address_2: ''
+city: Bell
+state: CA
+zip: '90201'
+phone: (323)560-3780
 latitude: '33.97426'
 longitude: '-118.1809218'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Principe de Paz, Food Oasis Los Angeles'
 uri: /food-pantry/principe-de-paz/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

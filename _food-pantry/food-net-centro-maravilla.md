@@ -1,15 +1,15 @@
 ---
 name: Food Net-Centro Maravilla
-Address_1: 4716 E. Cesar Chavez Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90022'
-Phone: (323)260-2804
+address_1: 4716 E. Cesar Chavez Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90022'
+phone: (323)260-2804
 latitude: '34.0402137'
 longitude: '-118.1643033'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Food Net-Centro Maravilla, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-centro-maravilla/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: City of Truth Ministries
-Address_1: '1139 E. Dominguez Street, Suite D'
-Address_2: ''
-City: Carson
-State: CA
-Zip: '90746'
-Phone: (310)669-8300
+address_1: '1139 E. Dominguez Street, Suite D'
+address_2: ''
+city: Carson
+state: CA
+zip: '90746'
+phone: (310)669-8300
 latitude: '33.8419672'
 longitude: '-118.253889'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun2nd
 day1_open: '12:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'City of Truth Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-truth-ministries/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

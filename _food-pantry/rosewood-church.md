@@ -1,15 +1,15 @@
 ---
 name: Rosewood Church
-Address_1: 10115 E. Rose Street
-Address_2: ''
-City: Bellflower
-State: CA
-Zip: '90706'
-Phone: (562)925-1443
+address_1: 10115 E. Rose Street
+address_2: ''
+city: Bellflower
+state: CA
+zip: '90706'
+phone: (562)925-1443
 latitude: '33.8705097'
 longitude: '-118.1180147'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri3rd
 day1_open: '3:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Rosewood Church, Food Oasis Los Angeles'
 uri: /food-pantry/rosewood-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

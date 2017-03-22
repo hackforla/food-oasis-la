@@ -1,15 +1,15 @@
 ---
 name: Salvation Army- Lancaster Corp
-Address_1: 44517 Sierra Highway
-Address_2: ''
-City: Lancaster
-State: CA
-Zip: '93534'
-Phone: (661)948-3418
+address_1: 44517 Sierra Highway
+address_2: ''
+city: Lancaster
+state: CA
+zip: '93534'
+phone: (661)948-3418
 latitude: '34.6914947'
 longitude: '-118.1362728'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon4th
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army- Lancaster Corp, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-lancaster-corp/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

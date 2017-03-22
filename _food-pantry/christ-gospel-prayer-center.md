@@ -1,15 +1,15 @@
 ---
 name: Christ Gospel Prayer Center
-Address_1: 4228 S. Vermont Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: (323)732-1394
+address_1: 4228 S. Vermont Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: (323)732-1394
 latitude: '34.0065425'
 longitude: '-118.2912726'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Christ Gospel Prayer Center, Food Oasis Los Angeles'
 uri: /food-pantry/christ-gospel-prayer-center/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

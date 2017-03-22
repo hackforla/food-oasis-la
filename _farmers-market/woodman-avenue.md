@@ -3,13 +3,13 @@ FM_ID: ''
 name: Woodman Avenue Farmers Market
 address_1: 14006 Riverside Dr
 address_2: ''
-City: Sherman Oaks
-State: California
-Zip: '91423'
-Phone: ''
+city: Sherman Oaks
+state: California
+zipcode: '91423'
+phone: ''
 latitude: '34.1571'
 longitude: '-118.4379'
-Website: ''
+website: ''
 daycode1: Tue
 day1_open: '1500'
 day1_close: '1900'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'Woodman Avenue Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/woodman-avenue/
+formatted_daycode1: Tuesday
+formatted_day1_open: 3pm
+formatted_day1_close: 7pm
 
 ---

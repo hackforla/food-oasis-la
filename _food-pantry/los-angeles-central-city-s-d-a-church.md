@@ -1,15 +1,15 @@
 ---
 name: Los Angeles Central City S.D.A. Church
-Address_1: 650 W. 21st Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90007'
-Phone: ((21)) 7-9646
+address_1: 650 W. 21st Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90007'
+phone: ((21)) 7-9646
 latitude: '34.0327067'
 longitude: '-118.2752257'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue3rd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Los Angeles Central City S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/los-angeles-central-city-s-d-a-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

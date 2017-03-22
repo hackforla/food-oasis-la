@@ -1,15 +1,15 @@
 ---
 name: Imani Economic & Community Development Corporation
-Address_1: 510 W. Monterey Avenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91768'
-Phone: (909)620-9161
+address_1: 510 W. Monterey Avenue
+address_2: ''
+city: Pomona
+state: CA
+zip: '91768'
+phone: (909)620-9161
 latitude: '34.0602663'
 longitude: '-117.7569861'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Imani Economic & Community Development Corporation, Food Oasis Los Angeles'
 uri: /food-pantry/imani-economic-community-development-corporation/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Fuller Theological Seminary
-Address_1: 135 North Oakland Avenue
-Address_2: ''
-City: Pasadena
-State: CA
-Zip: '91101'
-Phone: (626)584-5433
+address_1: 135 North Oakland Avenue
+address_2: ''
+city: Pasadena
+state: CA
+zip: '91101'
+phone: (626)584-5433
 latitude: '34.148218'
 longitude: '-118.1404603'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '12:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Fuller Theological Seminary, Food Oasis Los Angeles'
 uri: /food-pantry/fuller-theological-seminary/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

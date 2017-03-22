@@ -1,15 +1,15 @@
 ---
 name: S.A. Mayflower Gardens
-Address_1: 6570 West Avenue L-12
-Address_2: ''
-City: Quartz Hill
-State: CA
-Zip: '93536'
-Phone: (661)943-3228
+address_1: 6570 West Avenue L-12
+address_2: ''
+city: Quartz Hill
+state: CA
+zip: '93536'
+phone: (661)943-3228
 latitude: '34.6638843'
 longitude: '-118.2231208'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'S.A. Mayflower Gardens, Food Oasis Los Angeles'
 uri: /food-pantry/s-a-mayflower-gardens/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

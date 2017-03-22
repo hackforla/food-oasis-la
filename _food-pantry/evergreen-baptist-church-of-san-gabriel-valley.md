@@ -1,15 +1,15 @@
 ---
 name: Evergreen Baptist Church of San Gabriel Valley
-Address_1: 323 Workman Mill Road
-Address_2: ''
-City: La Puente
-State: CA
-Zip: '91746'
-Phone: (626)363-0300
+address_1: 323 Workman Mill Road
+address_2: ''
+city: La Puente
+state: CA
+zip: '91746'
+phone: (626)363-0300
 latitude: '34.0435729'
 longitude: '-117.9991561'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri1st
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Evergreen Baptist Church of San Gabriel Valley, Food Oasis Los Angeles'
 uri: /food-pantry/evergreen-baptist-church-of-san-gabriel-valley/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

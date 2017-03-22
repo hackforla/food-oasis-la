@@ -1,15 +1,15 @@
 ---
 name: Iglesia la Puerta Abierta
-Address_1: 5017 E. Olympic Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90022'
-Phone: (323)261-8397
+address_1: 5017 E. Olympic Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90022'
+phone: (323)261-8397
 latitude: '34.0173349'
 longitude: '-118.1621792'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '7:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia la Puerta Abierta, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-la-puerta-abierta/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

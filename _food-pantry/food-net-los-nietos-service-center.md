@@ -1,15 +1,15 @@
 ---
 name: Food Net-Los Nietos Service Center
-Address_1: 11640 W. Slauson Avenue
-Address_2: ''
-City: Whittier
-State: CA
-Zip: '90606'
-Phone: (562)699-9898
+address_1: 11640 W. Slauson Avenue
+address_2: ''
+city: Whittier
+state: CA
+zip: '90606'
+phone: (562)699-9898
 latitude: '33.9643446'
 longitude: '-118.0676089'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Food Net-Los Nietos Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-los-nietos-service-center/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

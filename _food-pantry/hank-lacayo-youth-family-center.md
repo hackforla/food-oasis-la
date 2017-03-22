@@ -1,15 +1,15 @@
 ---
 name: Hank Lacayo Youth & Family Center
-Address_1: 7915 Van Nuys Boulevard
-Address_2: ''
-City: Panorama City
-State: CA
-Zip: '91402'
-Phone: (818)644-9970
+address_1: 7915 Van Nuys Boulevard
+address_2: ''
+city: Panorama City
+state: CA
+zip: '91402'
+phone: (818)644-9970
 latitude: '34.2147105'
 longitude: '-118.4490873'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hank Lacayo Youth & Family Center, Food Oasis Los Angeles'
 uri: /food-pantry/hank-lacayo-youth-family-center/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

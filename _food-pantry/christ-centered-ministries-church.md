@@ -1,15 +1,15 @@
 ---
 name: Christ Centered Ministries Church
-Address_1: 742 N. La Brea Avenue
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90302'
-Phone: (310)676-1499
+address_1: 742 N. La Brea Avenue
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90302'
+phone: (310)676-1499
 latitude: '33.972923'
 longitude: '-118.357212'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Christ Centered Ministries Church, Food Oasis Los Angeles'
 uri: /food-pantry/christ-centered-ministries-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

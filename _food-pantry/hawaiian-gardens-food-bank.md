@@ -1,15 +1,15 @@
 ---
 name: Hawaiian Gardens Food Bank
-Address_1: 21411 Norwalk Blvd.
-Address_2: ''
-City: Hawaiian Gardens
-State: CA
-Zip: '90716'
-Phone: (562)860-9097
+address_1: 21411 Norwalk Blvd.
+address_2: ''
+city: Hawaiian Gardens
+state: CA
+zip: '90716'
+phone: (562)860-9097
 latitude: '33.8348574'
 longitude: '-118.0723646'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '2:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hawaiian Gardens Food Bank, Food Oasis Los Angeles'
 uri: /food-pantry/hawaiian-gardens-food-bank/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

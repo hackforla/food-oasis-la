@@ -1,15 +1,15 @@
 ---
 name: Childrens Hospital Los Angeles
-Address_1: 5000 Sunset Blvd. 7th Floor
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90027'
-Phone: (323)361-5981
+address_1: 5000 Sunset Blvd. 7th Floor
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90027'
+phone: (323)361-5981
 latitude: '34.0977874'
 longitude: '-118.2986107'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Childrens Hospital Los Angeles, Food Oasis Los Angeles'
 uri: /food-pantry/childrens-hospital-los-angeles/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

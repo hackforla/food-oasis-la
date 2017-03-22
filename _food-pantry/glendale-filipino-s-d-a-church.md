@@ -1,15 +1,15 @@
 ---
 name: Glendale Filipino S.D.A. Church
-Address_1: 310 E. Chestnut Street
-Address_2: ''
-City: Glendale
-State: CA
-Zip: '91205'
-Phone: (818)543-0110
+address_1: 310 E. Chestnut Street
+address_2: ''
+city: Glendale
+state: CA
+zip: '91205'
+phone: (818)543-0110
 latitude: '34.1395829'
 longitude: '-118.2520609'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Glendale Filipino S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/glendale-filipino-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

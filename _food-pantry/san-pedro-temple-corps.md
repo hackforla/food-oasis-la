@@ -1,15 +1,15 @@
 ---
 name: San Pedro Temple Corps
-Address_1: 138 S. Bandini Street
-Address_2: ''
-City: San Pedro
-State: CA
-Zip: '90731'
-Phone: (310)832-7228
+address_1: 138 S. Bandini Street
+address_2: ''
+city: San Pedro
+state: CA
+zip: '90731'
+phone: (310)832-7228
 latitude: '33.7426596'
 longitude: '-118.2986098'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'San Pedro Temple Corps, Food Oasis Los Angeles'
 uri: /food-pantry/san-pedro-temple-corps/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

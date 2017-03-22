@@ -1,15 +1,15 @@
 ---
 name: First Presbyterian Church
-Address_1: 1809 West Boulevard.
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90019'
-Phone: (323)935-5204
+address_1: 1809 West Boulevard.
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90019'
+phone: (323)935-5204
 latitude: '34.0405644'
 longitude: '-118.3372555'
-Category: Food Pantry
-Website: 'http://fpcofla.org/'
+category: Food Pantry
+website: 'http://fpcofla.org/'
 '': ''
 daycode1: Sun3rd
 day1_open: '1:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-presbyterian-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

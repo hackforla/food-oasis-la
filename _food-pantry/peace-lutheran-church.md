@@ -1,15 +1,15 @@
 ---
 name: Peace Lutheran Church
-Address_1: 11690 Fenton Avenue
-Address_2: ''
-City: Lake View Terrace
-State: CA
-Zip: '91342'
-Phone: (818)899-3950
+address_1: 11690 Fenton Avenue
+address_2: ''
+city: Lake View Terrace
+state: CA
+zip: '91342'
+phone: (818)899-3950
 latitude: '34.2823569'
 longitude: '-118.3916075'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Peace Lutheran Church, Food Oasis Los Angeles'
 uri: /food-pantry/peace-lutheran-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

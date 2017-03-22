@@ -1,15 +1,15 @@
 ---
 name: La Voz Sylmar S.D.A. Church
-Address_1: 13550 Herron Street
-Address_2: ''
-City: Sylmar
-State: CA
-Zip: '91342'
-Phone: (951)318-4420
+address_1: 13550 Herron Street
+address_2: ''
+city: Sylmar
+state: CA
+zip: '91342'
+phone: (951)318-4420
 latitude: '34.313473'
 longitude: '-118.427859'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '6:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'La Voz Sylmar S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/la-voz-sylmar-s-d-a-church/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

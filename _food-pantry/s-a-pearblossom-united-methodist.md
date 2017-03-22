@@ -1,15 +1,15 @@
 ---
 name: S.A. Pearblossom United Methodist
-Address_1: 34143 126th Street East
-Address_2: ''
-City: Pearblossom
-State: CA
-Zip: '93553'
-Phone: (661)839-6123
+address_1: 34143 126th Street East
+address_2: ''
+city: Pearblossom
+state: CA
+zip: '93553'
+phone: (661)839-6123
 latitude: '34.505958'
 longitude: '-117.905785'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'S.A. Pearblossom United Methodist, Food Oasis Los Angeles'
 uri: /food-pantry/s-a-pearblossom-united-methodist/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

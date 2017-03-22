@@ -1,15 +1,15 @@
 ---
 name: Hollywood Lutheran Church
-Address_1: 1733 N. New Hampshire Ave.
-Address_2: ''
-City: Hollywood
-State: CA
-Zip: '90027'
-Phone: (323)667-1212
+address_1: 1733 N. New Hampshire Ave.
+address_2: ''
+city: Hollywood
+state: CA
+zip: '90027'
+phone: (323)667-1212
 latitude: '34.102841'
 longitude: '-118.2936174'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hollywood Lutheran Church, Food Oasis Los Angeles'
 uri: /food-pantry/hollywood-lutheran-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Eastmont S.D.A. Spanish Church
-Address_1: 1021 Westside Drive
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90022'
-Phone: (323)396-7729
+address_1: 1021 Westside Drive
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90022'
+phone: (323)396-7729
 latitude: '34.0136274'
 longitude: '-118.1376064'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '7:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Eastmont S.D.A. Spanish Church, Food Oasis Los Angeles'
 uri: /food-pantry/eastmont-s-d-a-spanish-church/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

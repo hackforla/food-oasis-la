@@ -1,15 +1,15 @@
 ---
 name: Hope Chapel Foursquare Church
-Address_1: 2420 Pacific Coast Highway
-Address_2: ''
-City: Hermosa Beach
-State: CA
-Zip: '90254'
-Phone: (310)374-4673
+address_1: 2420 Pacific Coast Highway
+address_2: ''
+city: Hermosa Beach
+state: CA
+zip: '90254'
+phone: (310)374-4673
 latitude: '33.8715292'
 longitude: '-118.3942418'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hope Chapel Foursquare Church, Food Oasis Los Angeles'
 uri: /food-pantry/hope-chapel-foursquare-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: St. Gertrudes Conference
-Address_1: 7025 Garfield Avenue
-Address_2: ''
-City: Bell Gardens
-State: CA
-Zip: '90201'
-Phone: (562)927-4495
+address_1: 7025 Garfield Avenue
+address_2: ''
+city: Bell Gardens
+state: CA
+zip: '90201'
+phone: (562)927-4495
 latitude: '33.9678794'
 longitude: '-118.1506637'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Gertrudes Conference, Food Oasis Los Angeles'
 uri: /food-pantry/st-gertrudes-conference/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

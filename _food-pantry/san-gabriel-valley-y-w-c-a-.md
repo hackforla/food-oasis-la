@@ -1,15 +1,15 @@
 ---
 name: San Gabriel Valley Y.W.C.A.
-Address_1: 510 N. Vineland Avenue
-Address_2: ''
-City: La Puente
-State: CA
-Zip: '91746'
-Phone: (626)333-0294
+address_1: 510 N. Vineland Avenue
+address_2: ''
+city: La Puente
+state: CA
+zip: '91746'
+phone: (626)333-0294
 latitude: '34.051539'
 longitude: '-117.986823'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'San Gabriel Valley Y.W.C.A., Food Oasis Los Angeles'
 uri: /food-pantry/san-gabriel-valley-y-w-c-a-/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

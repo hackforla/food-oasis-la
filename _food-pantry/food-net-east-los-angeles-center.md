@@ -1,15 +1,15 @@
 ---
 name: Food Net- East Los Angeles Center
-Address_1: 133 N. Sunol Drive
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90063'
-Phone: (323)260-2801
+address_1: 133 N. Sunol Drive
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90063'
+phone: (323)260-2801
 latitude: '34.0370429'
 longitude: '-118.1792254'
-Category: Food Pantry
-Website: 'http://wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/'
+category: Food Pantry
+website: 'http://wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/'
 '': ''
 daycode1: Mon
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Food Net- East Los Angeles Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-east-los-angeles-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

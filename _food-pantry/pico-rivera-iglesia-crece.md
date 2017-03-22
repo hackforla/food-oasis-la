@@ -1,15 +1,15 @@
 ---
 name: Pico Rivera Iglesia Crece
-Address_1: 14832 Valley Blvd.
-Address_2: ''
-City: La Puente
-State: CA
-Zip: '91744'
-Phone: (562)895-4587
+address_1: 14832 Valley Blvd.
+address_2: ''
+city: La Puente
+state: CA
+zip: '91744'
+phone: (562)895-4587
 latitude: '34.0317917'
 longitude: '-117.970394'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '8:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Pico Rivera Iglesia Crece, Food Oasis Los Angeles'
 uri: /food-pantry/pico-rivera-iglesia-crece/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

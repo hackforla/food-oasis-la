@@ -1,15 +1,15 @@
 ---
 name: JFS/SOVA Community Food & Resource Program Valley
-Address_1: 16439 Vanowen Street
-Address_2: ''
-City: Van Nuys
-State: CA
-Zip: '91406'
-Phone: (818)988-7682
+address_1: 16439 Vanowen Street
+address_2: ''
+city: Van Nuys
+state: CA
+zip: '91406'
+phone: (818)988-7682
 latitude: '34.1942489'
 longitude: '-118.491725'
-Category: Food Pantry
-Website: 'https://www.jfsla.org/page.aspx?pid=300'
+category: Food Pantry
+website: 'https://www.jfsla.org/page.aspx?pid=300'
 '': ''
 daycode1: Sun
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'JFS/SOVA Community Food & Resource Program Valley, Food Oasis Los Angeles'
 uri: /food-pantry/jfs-sova-community-food-resource-program-valley/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

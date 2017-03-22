@@ -1,15 +1,15 @@
 ---
 name: Calvary Presbyterian Church
-Address_1: 13560 Hawthorne Boulevard
-Address_2: ''
-City: Hawthorne
-State: CA
-Zip: '90250'
-Phone: (310)676-1144
+address_1: 13560 Hawthorne Boulevard
+address_2: ''
+city: Hawthorne
+state: CA
+zip: '90250'
+phone: (310)676-1144
 latitude: '33.9088461'
 longitude: '-118.3520296'
-Category: Food Pantry
-Website: 'http://www.calvaryhawthorne.org/Calendar.html'
+category: Food Pantry
+website: 'http://www.calvaryhawthorne.org/Calendar.html'
 '': ''
 daycode1: Sat1st
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Calvary Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/calvary-presbyterian-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

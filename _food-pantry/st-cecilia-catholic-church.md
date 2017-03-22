@@ -1,15 +1,15 @@
 ---
 name: St. Cecilia Catholic Church
-Address_1: 4230 S. Normandie Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: ((32)) 2-6628
+address_1: 4230 S. Normandie Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: ((32)) 2-6628
 latitude: '34.0059447'
 longitude: '-118.2998211'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Cecilia Catholic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-cecilia-catholic-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

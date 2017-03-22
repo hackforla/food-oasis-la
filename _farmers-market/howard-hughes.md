@@ -3,13 +3,13 @@ FM_ID: ''
 name: Howard Hughes Farmers Market
 address_1: 6080 Center Drive
 address_2: ''
-City: Los Angeles
-State: California
-Zip: '90230'
-Phone: ''
+city: Los Angeles
+state: California
+zipcode: '90230'
+phone: ''
 latitude: '33.976'
 longitude: '-118.3867'
-Website: 'https://www.facebook.com/HowardHughesFarmersMarket/'
+website: 'https://www.facebook.com/HowardHughesFarmersMarket/'
 daycode1: Thu
 day1_open: '1000'
 day1_close: '1400'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'Howard Hughes Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/howard-hughes/
+formatted_daycode1: Thursday
+formatted_day1_open: 10am
+formatted_day1_close: 2pm
 
 ---

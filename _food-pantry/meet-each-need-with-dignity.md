@@ -1,15 +1,15 @@
 ---
 name: Meet Each Need with Dignity
-Address_1: 10641 San Fernando Road
-Address_2: ''
-City: Pacoima
-State: CA
-Zip: '91331'
-Phone: (818)686-7334
+address_1: 10641 San Fernando Road
+address_2: ''
+city: Pacoima
+state: CA
+zip: '91331'
+phone: (818)686-7334
 latitude: '34.2630434'
 longitude: '-118.4195782'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Meet Each Need with Dignity, Food Oasis Los Angeles'
 uri: /food-pantry/meet-each-need-with-dignity/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

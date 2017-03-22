@@ -1,15 +1,15 @@
 ---
 name: The Bible Tabernacle
-Address_1: 16301 Sierra Highway
-Address_2: ''
-City: Santa Clarita
-State: CA
-Zip: '91351'
-Phone: (661)252-5087
+address_1: 16301 Sierra Highway
+address_2: ''
+city: Santa Clarita
+state: CA
+zip: '91351'
+phone: (661)252-5087
 latitude: '34.4534526'
 longitude: '-118.4252723'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '12:30 PM'
@@ -34,8 +34,10 @@ day7_close: '5:00 PM'
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'The Bible Tabernacle, Food Oasis Los Angeles'
 uri: /food-pantry/the-bible-tabernacle/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

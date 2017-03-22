@@ -1,15 +1,15 @@
 ---
 name: Door of Hope Community Center
-Address_1: 1414 South Atlantic Blvd.
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90022'
-Phone: (323)262-2777
+address_1: 1414 South Atlantic Blvd.
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90022'
+phone: (323)262-2777
 latitude: '34.012313'
 longitude: '-118.1590196'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tues
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Door of Hope Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/door-of-hope-community-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

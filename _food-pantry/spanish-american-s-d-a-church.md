@@ -1,15 +1,15 @@
 ---
 name: Spanish American S.D.A. Church
-Address_1: 1815 E. Bridge Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90033'
-Phone: (323)222-7063
+address_1: 1815 E. Bridge Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90033'
+phone: (323)222-7063
 latitude: '34.051615'
 longitude: '-118.215201'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '6:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Spanish American S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/spanish-american-s-d-a-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: City of Commerce Community Center
-Address_1: 2555 Commerce Way
-Address_2: ''
-City: Commerce
-State: CA
-Zip: '90040'
-Phone: (323)887-4460
+address_1: 2555 Commerce Way
+address_2: ''
+city: Commerce
+state: CA
+zip: '90040'
+phone: (323)887-4460
 latitude: '34.0002991'
 longitude: '-118.1559376'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu3rd
 day1_open: '10:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'City of Commerce Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-commerce-community-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

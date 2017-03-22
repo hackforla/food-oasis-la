@@ -1,15 +1,15 @@
 ---
 name: Inglewood Southside Christian Church
-Address_1: 3947 W. 104th Street
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90303'
-Phone: (310)677-0446
+address_1: 3947 W. 104th Street
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90303'
+phone: (310)677-0446
 latitude: '33.9421196'
 longitude: '-118.3433323'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Inglewood Southside Christian Church, Food Oasis Los Angeles'
 uri: /food-pantry/inglewood-southside-christian-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

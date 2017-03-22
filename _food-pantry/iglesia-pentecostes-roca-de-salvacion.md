@@ -1,15 +1,15 @@
 ---
 name: Iglesia Pentecostes Roca de Salvacion
-Address_1: 122 South Evergreen Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90033'
-Phone: (323)832-5313
+address_1: 122 South Evergreen Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90033'
+phone: (323)832-5313
 latitude: '34.0396969'
 longitude: '-118.202409'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Pentecostes Roca de Salvacion, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-pentecostes-roca-de-salvacion/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

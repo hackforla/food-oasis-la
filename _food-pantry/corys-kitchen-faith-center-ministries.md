@@ -1,15 +1,15 @@
 ---
 name: Cory's Kitchen-Faith Center Ministries
-Address_1: '20470 # A Yellowbrick Road'
-Address_2: ''
-City: Walnut
-State: CA
-Zip: '91789'
-Phone: (626)825-9441
+address_1: '20470 # A Yellowbrick Road'
+address_2: ''
+city: Walnut
+state: CA
+zip: '91789'
+phone: (626)825-9441
 latitude: '33.999464'
 longitude: '-117.8575384'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Cory''s Kitchen-Faith Center Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-faith-center-ministries/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

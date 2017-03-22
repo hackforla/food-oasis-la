@@ -1,15 +1,15 @@
 ---
 name: Cory's Kitchen-Calvary Chapel Pico Rivera
-Address_1: 8110 Paramount Boulevard
-Address_2: ''
-City: Pico Rivera
-State: CA
-Zip: '90660'
-Phone: (626)622-9202
+address_1: 8110 Paramount Boulevard
+address_2: ''
+city: Pico Rivera
+state: CA
+zip: '90660'
+phone: (626)622-9202
 latitude: '33.969865'
 longitude: '-118.1127636'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '6:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Cory''s Kitchen-Calvary Chapel Pico Rivera, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-calvary-chapel-pico-rivera/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

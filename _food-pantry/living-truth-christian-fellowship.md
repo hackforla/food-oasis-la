@@ -1,15 +1,15 @@
 ---
 name: Living Truth Christian Fellowship
-Address_1: 5873 S. Normandie Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90044'
-Phone: (323)290-3909
+address_1: 5873 S. Normandie Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90044'
+phone: (323)290-3909
 latitude: '33.9877081'
 longitude: '-118.3002282'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue3rd
 day1_open: '11:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Living Truth Christian Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/living-truth-christian-fellowship/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

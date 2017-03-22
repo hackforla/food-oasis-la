@@ -1,15 +1,15 @@
 ---
 name: Living Springs Foursquare Church
-Address_1: 17134 E. Ave O
-Address_2: ''
-City: Palmdale
-State: CA
-Zip: '93591'
-Phone: (661)264-1717
+address_1: 17134 E. Ave O
+address_2: ''
+city: Palmdale
+state: CA
+zip: '93591'
+phone: (661)264-1717
 latitude: '34.616048'
 longitude: '-117.824428'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed1st
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Living Springs Foursquare Church, Food Oasis Los Angeles'
 uri: /food-pantry/living-springs-foursquare-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

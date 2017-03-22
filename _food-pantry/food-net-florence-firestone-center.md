@@ -1,15 +1,15 @@
 ---
 name: Food Net-Florence Firestone Center
-Address_1: 7807 S. Compton Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90001'
-Phone: (323)586-6502
+address_1: 7807 S. Compton Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90001'
+phone: (323)586-6502
 latitude: '33.9677438'
 longitude: '-118.2480784'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Food Net-Florence Firestone Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-florence-firestone-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

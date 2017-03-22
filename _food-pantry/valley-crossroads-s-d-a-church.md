@@ -1,15 +1,15 @@
 ---
 name: Valley Crossroads S.D.A. Church
-Address_1: 11350 Glenoaks Blvd.
-Address_2: ''
-City: Pacoima
-State: CA
-Zip: '91331'
-Phone: (818)896-4488
+address_1: 11350 Glenoaks Blvd.
+address_2: ''
+city: Pacoima
+state: CA
+zip: '91331'
+phone: (818)896-4488
 latitude: '34.2771851'
 longitude: '-118.4148709'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '2:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Valley Crossroads S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/valley-crossroads-s-d-a-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

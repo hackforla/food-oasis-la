@@ -1,15 +1,15 @@
 ---
 name: Salvation Army Santa Clarita Valley Corps
-Address_1: 22935 Lyons Avenue
-Address_2: ''
-City: Newhall
-State: CA
-Zip: '91321'
-Phone: (661)799-7486
+address_1: 22935 Lyons Avenue
+address_2: ''
+city: Newhall
+state: CA
+zip: '91321'
+phone: (661)799-7486
 latitude: '34.3805004'
 longitude: '-118.5341693'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army Santa Clarita Valley Corps, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-santa-clarita-valley-corps/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Crusaders for Christ Baptist Church
-Address_1: 3200 W. Temple Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90026'
-Phone: (323)681-3569
+address_1: 3200 W. Temple Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90026'
+phone: (323)681-3569
 latitude: '34.0752651'
 longitude: '-118.2816342'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '3:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Crusaders for Christ Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/crusaders-for-christ-baptist-church/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

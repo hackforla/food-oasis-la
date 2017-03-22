@@ -1,15 +1,15 @@
 ---
 name: St. Catherine Laboure Catholic
-Address_1: 3846 Redondo Beach Boulevard
-Address_2: ''
-City: Torrance
-State: CA
-Zip: '90504'
-Phone: (310)329-0993
+address_1: 3846 Redondo Beach Boulevard
+address_2: ''
+city: Torrance
+state: CA
+zip: '90504'
+phone: (310)329-0993
 latitude: '33.8781235'
 longitude: '-118.3402114'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: SatLast
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Catherine Laboure Catholic, Food Oasis Los Angeles'
 uri: /food-pantry/st-catherine-laboure-catholic/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

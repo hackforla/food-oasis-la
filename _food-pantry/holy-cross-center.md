@@ -1,15 +1,15 @@
 ---
 name: Holy Cross Center
-Address_1: 104 W. 47th Place
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: (323)232-3333
+address_1: 104 W. 47th Place
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: (323)232-3333
 latitude: '33.9997088'
 longitude: '-118.2742456'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Holy Cross Center, Food Oasis Los Angeles'
 uri: /food-pantry/holy-cross-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

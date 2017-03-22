@@ -1,15 +1,15 @@
 ---
 name: Children of the Shepherd
-Address_1: 1076 N. El Centro Avenue
-Address_2: ''
-City: Hollywood
-State: CA
-Zip: '90038'
-Phone: (323)953-4000
+address_1: 1076 N. El Centro Avenue
+address_2: ''
+city: Hollywood
+state: CA
+zip: '90038'
+phone: (323)953-4000
 latitude: '34.0905485'
 longitude: '-118.3243668'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Children of the Shepherd, Food Oasis Los Angeles'
 uri: /food-pantry/children-of-the-shepherd/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

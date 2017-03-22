@@ -1,15 +1,15 @@
 ---
 name: Montebello Watch
-Address_1: 1033 South Maple Avenue
-Address_2: ''
-City: Montebello
-State: CA
-Zip: '90640'
-Phone: (626)810-5833
+address_1: 1033 South Maple Avenue
+address_2: ''
+city: Montebello
+state: CA
+zip: '90640'
+phone: (626)810-5833
 latitude: '33.9953919'
 longitude: '-118.124677'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '3:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Montebello Watch, Food Oasis Los Angeles'
 uri: /food-pantry/montebello-watch/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

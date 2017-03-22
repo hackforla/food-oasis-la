@@ -1,15 +1,15 @@
 ---
 name: Vallejo Drive S.D.A. Church
-Address_1: 311-B Vallejo Drive
-Address_2: ''
-City: Glendale
-State: CA
-Zip: '91206'
-Phone: (818)409-8056
+address_1: 311-B Vallejo Drive
+address_2: ''
+city: Glendale
+state: CA
+zip: '91206'
+phone: (818)409-8056
 latitude: '34.1507659'
 longitude: '-118.2285903'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu3rd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Vallejo Drive S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/vallejo-drive-s-d-a-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

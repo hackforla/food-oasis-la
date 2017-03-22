@@ -1,15 +1,15 @@
 ---
 name: San Gabriel Mission
-Address_1: 428 South Mission Drive
-Address_2: ''
-City: San Gabriel
-State: CA
-Zip: '91776'
-Phone: (626)457-3035
+address_1: 428 South Mission Drive
+address_2: ''
+city: San Gabriel
+state: CA
+zip: '91776'
+phone: (626)457-3035
 latitude: '34.0971693'
 longitude: '-118.1074142'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'San Gabriel Mission, Food Oasis Los Angeles'
 uri: /food-pantry/san-gabriel-mission/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

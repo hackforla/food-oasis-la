@@ -1,15 +1,15 @@
 ---
 name: St. Peter and Paul Poverty Program
-Address_1: 943 Lagoon Avenue
-Address_2: ''
-City: Wilmington
-State: CA
-Zip: '90744'
-Phone: (310)952-0144
+address_1: 943 Lagoon Avenue
+address_2: ''
+city: Wilmington
+state: CA
+zip: '90744'
+phone: (310)952-0144
 latitude: '33.7823374'
 longitude: '-118.267995'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Peter and Paul Poverty Program, Food Oasis Los Angeles'
 uri: /food-pantry/st-peter-and-paul-poverty-program/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Trinity Pantry Ministry
-Address_1: 1450 West 7th Street
-Address_2: ''
-City: San Pedro
-State: CA
-Zip: '90732'
-Phone: (310)742-3279
+address_1: 1450 West 7th Street
+address_2: ''
+city: San Pedro
+state: CA
+zip: '90732'
+phone: (310)742-3279
 latitude: '33.738369'
 longitude: '-118.308972'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Trinity Pantry Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/trinity-pantry-ministry/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

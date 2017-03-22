@@ -1,15 +1,15 @@
 ---
 name: Baldwin Park Bilingual S.D.A.
-Address_1: 13965 East Ramona Parkway
-Address_2: ''
-City: Baldwin Park
-State: CA
-Zip: '91706'
-Phone: (626)338-4828
+address_1: 13965 East Ramona Parkway
+address_2: ''
+city: Baldwin Park
+state: CA
+zip: '91706'
+phone: (626)338-4828
 latitude: '34.085323'
 longitude: '-117.969546'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '6:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Baldwin Park Bilingual S.D.A., Food Oasis Los Angeles'
 uri: /food-pantry/baldwin-park-bilingual-s-d-a-/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

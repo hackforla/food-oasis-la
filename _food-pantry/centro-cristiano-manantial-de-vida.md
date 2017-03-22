@@ -1,15 +1,15 @@
 ---
 name: Centro Cristiano Manantial de vida
-Address_1: 10035 Washington Street
-Address_2: ''
-City: Bellflower
-State: CA
-Zip: '90706'
-Phone: (562)481-1642
+address_1: 10035 Washington Street
+address_2: ''
+city: Bellflower
+state: CA
+zip: '90706'
+phone: (562)481-1642
 latitude: '33.898644'
 longitude: '-118.1204073'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '6:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Centro Cristiano Manantial de vida, Food Oasis Los Angeles'
 uri: /food-pantry/centro-cristiano-manantial-de-vida/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

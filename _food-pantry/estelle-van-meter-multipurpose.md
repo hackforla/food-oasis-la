@@ -1,15 +1,15 @@
 ---
 name: Estelle Van Meter Multipurpose
-Address_1: 7600 S. Avalon Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90003'
-Phone: (323)753-3881
+address_1: 7600 S. Avalon Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90003'
+phone: (323)753-3881
 latitude: '33.9709509'
 longitude: '-118.2648597'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed1st
 day1_open: '10:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Estelle Van Meter Multipurpose, Food Oasis Los Angeles'
 uri: /food-pantry/estelle-van-meter-multipurpose/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

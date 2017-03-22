@@ -1,15 +1,15 @@
 ---
 name: Living Hope Community Partnership
-Address_1: 18500 Farjardo Street
-Address_2: ''
-City: Rowland Heights
-State: CA
-Zip: '91748'
-Phone: (714)202-7333
+address_1: 18500 Farjardo Street
+address_2: ''
+city: Rowland Heights
+state: CA
+zip: '91748'
+phone: (714)202-7333
 latitude: '33.979196'
 longitude: '-117.902383'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat1st
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Living Hope Community Partnership, Food Oasis Los Angeles'
 uri: /food-pantry/living-hope-community-partnership/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

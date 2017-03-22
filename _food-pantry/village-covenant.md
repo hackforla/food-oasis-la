@@ -1,15 +1,15 @@
 ---
 name: Village Covenant
-Address_1: 5607 N. Barranca Avenue
-Address_2: ''
-City: Azusa
-State: CA
-Zip: '91702'
-Phone: (626)335-4013
+address_1: 5607 N. Barranca Avenue
+address_2: ''
+city: Azusa
+state: CA
+zip: '91702'
+phone: (626)335-4013
 latitude: '34.11485'
 longitude: '-117.8821589'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Village Covenant, Food Oasis Los Angeles'
 uri: /food-pantry/village-covenant/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

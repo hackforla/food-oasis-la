@@ -1,15 +1,15 @@
 ---
 name: Love & Faith Christian Center
-Address_1: 8505 S. Western Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90047'
-Phone: (323)753-8300
+address_1: 8505 S. Western Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90047'
+phone: (323)753-8300
 latitude: '33.9606268'
 longitude: '-118.3093646'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Love & Faith Christian Center, Food Oasis Los Angeles'
 uri: /food-pantry/love-faith-christian-center/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

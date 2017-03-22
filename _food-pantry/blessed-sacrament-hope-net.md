@@ -1,15 +1,15 @@
 ---
 name: Blessed Sacrament Food Pantry-Hope Net
-Address_1: 6657 Sunset Blvd.
-Address_2: ''
-City: Hollywood
-State: CA
-Zip: '90028'
-Phone: (323)874-5577
+address_1: 6657 Sunset Blvd.
+address_2: ''
+city: Hollywood
+state: CA
+zip: '90028'
+phone: (323)874-5577
 latitude: '34.0985135'
 longitude: '-118.3351039'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Blessed Sacrament Food Pantry-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/blessed-sacrament-hope-net/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

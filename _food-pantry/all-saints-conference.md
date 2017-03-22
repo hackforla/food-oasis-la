@@ -1,15 +1,15 @@
 ---
 name: All Saints Conference
-Address_1: 3431 Portola Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90032'
-Phone: (323)675-4873
+address_1: 3431 Portola Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90032'
+phone: (323)675-4873
 latitude: '34.0856924'
 longitude: '-118.1729264'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri2nd
 day1_open: '3:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'All Saints Conference, Food Oasis Los Angeles'
 uri: /food-pantry/all-saints-conference/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

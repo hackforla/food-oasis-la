@@ -1,15 +1,15 @@
 ---
 name: Lutheran Social Services of Southern California
-Address_1: 21430 Strathern Street
-Address_2: ''
-City: Canoga Park
-State: CA
-Zip: '91304'
-Phone: (818)901-9480
+address_1: 21430 Strathern Street
+address_2: ''
+city: Canoga Park
+state: CA
+zip: '91304'
+phone: (818)901-9480
 latitude: '34.214903'
 longitude: '-118.5986508'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lutheran Social Services of Southern California, Food Oasis Los Angeles'
 uri: /food-pantry/lutheran-social-services-of-southern-california/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

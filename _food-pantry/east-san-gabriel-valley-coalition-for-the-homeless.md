@@ -1,15 +1,15 @@
 ---
 name: East San Gabriel Valley Coalition For the Homeless
-Address_1: 1345 Turnbull Canyon Blvd.
-Address_2: ''
-City: Hacienda Heights
-State: CA
-Zip: '91745'
-Phone: (626)333-.726
+address_1: 1345 Turnbull Canyon Blvd.
+address_2: ''
+city: Hacienda Heights
+state: CA
+zip: '91745'
+phone: (626)333-.726
 latitude: '34.0112629'
 longitude: '-117.980451'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'East San Gabriel Valley Coalition For the Homeless, Food Oasis Los Angeles'
 uri: /food-pantry/east-san-gabriel-valley-coalition-for-the-homeless/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

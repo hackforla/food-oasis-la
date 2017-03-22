@@ -1,15 +1,15 @@
 ---
 name: La Puente Spanish S.D.A. Church
-Address_1: 18047 Valley Boulevard
-Address_2: ''
-City: La Puente
-State: CA
-Zip: '91744'
-Phone: (626)912-9408
+address_1: 18047 Valley Boulevard
+address_2: ''
+city: La Puente
+state: CA
+zip: '91744'
+phone: (626)912-9408
 latitude: '34.0065174'
 longitude: '-117.9088863'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '8:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'La Puente Spanish S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/la-puente-spanish-s-d-a-church/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

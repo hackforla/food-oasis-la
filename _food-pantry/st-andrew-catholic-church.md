@@ -1,15 +1,15 @@
 ---
 name: St. Andrew Catholic Church
-Address_1: 140 Chestnut Street
-Address_2: ''
-City: Pasadena
-State: CA
-Zip: '91103'
-Phone: (626) 79-4183
+address_1: 140 Chestnut Street
+address_2: ''
+city: Pasadena
+state: CA
+zip: '91103'
+phone: (626) 79-4183
 latitude: '34.1501638'
 longitude: '-118.1474523'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Andrew Catholic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-andrew-catholic-church/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

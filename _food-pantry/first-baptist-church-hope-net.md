@@ -1,15 +1,15 @@
 ---
 name: First Baptist Church-Hope Net
-Address_1: 760 S. Westmoreland Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90005'
-Phone: (213)384-2151
+address_1: 760 S. Westmoreland Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90005'
+phone: (213)384-2151
 latitude: '34.0582323'
 longitude: '-118.2886022'
-Category: Food Pantry
-Website: 'http://fbcofla.org/community-outreach/hope-net/'
+category: Food Pantry
+website: 'http://fbcofla.org/community-outreach/hope-net/'
 '': ''
 daycode1: Fri
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Baptist Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/first-baptist-church-hope-net/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

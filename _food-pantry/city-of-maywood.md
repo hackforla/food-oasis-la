@@ -1,15 +1,15 @@
 ---
 name: City of Maywood
-Address_1: 4319 E. Slauson Avenue
-Address_2: ''
-City: Maywood
-State: CA
-Zip: '90270'
-Phone: (323)562-5755
+address_1: 4319 E. Slauson Avenue
+address_2: ''
+city: Maywood
+state: CA
+zip: '90270'
+phone: (323)562-5755
 latitude: '33.9878263'
 longitude: '-118.1891261'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu4th
 day1_open: '1:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'City of Maywood, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-maywood/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

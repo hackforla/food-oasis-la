@@ -1,15 +1,15 @@
 ---
 name: Iglesia Evangelica Camino de Santidad
-Address_1: 958 N. Maclay Ave
-Address_2: ''
-City: San Fernando
-State: CA
-Zip: '91340'
-Phone: (818)898-3848
+address_1: 958 N. Maclay Ave
+address_2: ''
+city: San Fernando
+state: CA
+zip: '91340'
+phone: (818)898-3848
 latitude: '34.2931026'
 longitude: '-118.4273834'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '7:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Evangelica Camino de Santidad, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-evangelica-camino-de-santidad/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

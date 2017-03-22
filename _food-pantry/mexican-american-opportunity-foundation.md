@@ -1,15 +1,15 @@
 ---
 name: Mexican-American Opportunity Foundation
-Address_1: 401 N. Garfield Ave
-Address_2: ''
-City: Montebello
-State: CA
-Zip: '90640'
-Phone: (323)890-9600
+address_1: 401 N. Garfield Ave
+address_2: ''
+city: Montebello
+state: CA
+zip: '90640'
+phone: (323)890-9600
 latitude: '34.0192364'
 longitude: '-118.1337064'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '7:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Mexican-American Opportunity Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/mexican-american-opportunity-foundation/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

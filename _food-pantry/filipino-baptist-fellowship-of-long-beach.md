@@ -1,15 +1,15 @@
 ---
 name: Filipino Baptist Fellowship of Long Beach
-Address_1: 2155 Atlantic Avenue
-Address_2: ''
-City: Long Beach
-State: CA
-Zip: '90806'
-Phone: (310)212-5175
+address_1: 2155 Atlantic Avenue
+address_2: ''
+city: Long Beach
+state: CA
+zip: '90806'
+phone: (310)212-5175
 latitude: '33.7963363'
 longitude: '-118.1853545'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Filipino Baptist Fellowship of Long Beach, Food Oasis Los Angeles'
 uri: /food-pantry/filipino-baptist-fellowship-of-long-beach/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

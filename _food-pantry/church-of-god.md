@@ -1,15 +1,15 @@
 ---
 name: Church of God
-Address_1: 4161 Baldwin Park Blvd
-Address_2: ''
-City: Baldwin Park
-State: CA
-Zip: '91706'
-Phone: (626)968-6716
+address_1: 4161 Baldwin Park Blvd
+address_2: ''
+city: Baldwin Park
+state: CA
+zip: '91706'
+phone: (626)968-6716
 latitude: '34.0873966'
 longitude: '-117.9652924'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Church of God, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-god/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

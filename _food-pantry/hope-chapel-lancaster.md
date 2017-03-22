@@ -1,15 +1,15 @@
 ---
 name: Hope Chapel Lancaster
-Address_1: 6015 W Avenue J8
-Address_2: ''
-City: Quartz Hill
-State: CA
-Zip: '93536'
-Phone: (661)943-1074
+address_1: 6015 W Avenue J8
+address_2: ''
+city: Quartz Hill
+state: CA
+zip: '93536'
+phone: (661)943-1074
 latitude: '34.6826776'
 longitude: '-118.2371694'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '9:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hope Chapel Lancaster, Food Oasis Los Angeles'
 uri: /food-pantry/hope-chapel-lancaster/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

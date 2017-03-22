@@ -1,15 +1,15 @@
 ---
 name: University S.D.A. Church
-Address_1: 1135 Martin Luther Kin Jr. Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90037'
-Phone: (323)766-9889
+address_1: 1135 Martin Luther Kin Jr. Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90037'
+phone: (323)766-9889
 latitude: '34.0111729'
 longitude: '-118.2955869'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'University S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/university-s-d-a-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

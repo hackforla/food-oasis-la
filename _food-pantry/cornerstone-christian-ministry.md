@@ -1,15 +1,15 @@
 ---
 name: Cornerstone Christian Ministry
-Address_1: 11449 Sproule Avenue
-Address_2: ''
-City: Pacoima
-State: CA
-Zip: '91331'
-Phone: (818)993-2988
+address_1: 11449 Sproule Avenue
+address_2: ''
+city: Pacoima
+state: CA
+zip: '91331'
+phone: (818)993-2988
 latitude: '34.2782812'
 longitude: '-118.4067452'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Cornerstone Christian Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/cornerstone-christian-ministry/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

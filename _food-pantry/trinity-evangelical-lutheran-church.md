@@ -1,15 +1,15 @@
 ---
 name: Trinity Evangelical Lutheran Church
-Address_1: 997 E. Walnut
-Address_2: ''
-City: Pasadena
-State: CA
-Zip: '91106'
-Phone: (626)792-1212
+address_1: 997 E. Walnut
+address_2: ''
+city: Pasadena
+state: CA
+zip: '91106'
+phone: (626)792-1212
 latitude: '34.1500129'
 longitude: '-118.1297586'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '12:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Trinity Evangelical Lutheran Church, Food Oasis Los Angeles'
 uri: /food-pantry/trinity-evangelical-lutheran-church/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

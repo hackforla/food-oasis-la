@@ -1,15 +1,15 @@
 ---
 name: Pilgrim's Hope Baptist Church
-Address_1: 7016 S. Compton Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90001'
-Phone: (323)581-7672
+address_1: 7016 S. Compton Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90001'
+phone: (323)581-7672
 latitude: '33.9759009'
 longitude: '-118.2473905'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Pilgrim''s Hope Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/pilgrims-hope-baptist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

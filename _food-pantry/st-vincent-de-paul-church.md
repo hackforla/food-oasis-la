@@ -1,15 +1,15 @@
 ---
 name: St. Vincent de Paul Church
-Address_1: 621 W. Adams Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90007'
-Phone: (213)749-8950
+address_1: 621 W. Adams Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90007'
+phone: (213)749-8950
 latitude: '34.0288543'
 longitude: '-118.2769163'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Vincent de Paul Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-vincent-de-paul-church/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

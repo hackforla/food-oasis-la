@@ -1,15 +1,15 @@
 ---
 name: First Missionary Baptist Church
-Address_1: 37721 N. 100th Street East
-Address_2: ''
-City: Sun Villiage
-State: CA
-Zip: '93543'
-Phone: (661)944-4128
+address_1: 37721 N. 100th Street East
+address_2: ''
+city: Sun Villiage
+state: CA
+zip: '93543'
+phone: (661)944-4128
 latitude: '34.56754'
 longitude: '-117.953277'
-Category: Food Pantry
-Website: 'http://www.livingstonecathedral.org/index.php'
+category: Food Pantry
+website: 'http://www.livingstonecathedral.org/index.php'
 '': ''
 daycode1: Wed2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Missionary Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-missionary-baptist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

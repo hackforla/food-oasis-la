@@ -1,15 +1,15 @@
 ---
 name: Bread of Life Community Outreach
-Address_1: 628 South Street
-Address_2: ''
-City: Long Beach
-State: CA
-Zip: '90805'
-Phone: (562)428-5422
+address_1: 628 South Street
+address_2: ''
+city: Long Beach
+state: CA
+zip: '90805'
+phone: (562)428-5422
 latitude: '33.8584858'
 longitude: '-118.0929072'
-Category: Food Pantry
-Website: 'http://www.longbeachbreadoflife.com'
+category: Food Pantry
+website: 'http://www.longbeachbreadoflife.com'
 '': ''
 daycode1: Wed2nd
 day1_open: '8:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Bread of Life Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/bread-of-life-community-outreach/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

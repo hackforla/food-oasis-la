@@ -1,15 +1,15 @@
 ---
 name: Jesus is the Answer Apostolic Church
-Address_1: '25100 S. Normandie Ave, Suite A'
-Address_2: ''
-City: Harbor City
-State: CA
-Zip: '90710'
-Phone: (310)667-0147
+address_1: '25100 S. Normandie Ave, Suite A'
+address_2: ''
+city: Harbor City
+state: CA
+zip: '90710'
+phone: (310)667-0147
 latitude: '33.7965619'
 longitude: '-118.2966541'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed3rd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Jesus is the Answer Apostolic Church, Food Oasis Los Angeles'
 uri: /food-pantry/jesus-is-the-answer-apostolic-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

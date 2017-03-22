@@ -1,15 +1,15 @@
 ---
 name: Belvue Presbyterian Church
-Address_1: 675 E. 118th Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90059'
-Phone: (323)757-9188
+address_1: 675 E. 118th Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90059'
+phone: (323)757-9188
 latitude: '33.9267262'
 longitude: '-118.2624581'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Belvue Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/belvue-presbyterian-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

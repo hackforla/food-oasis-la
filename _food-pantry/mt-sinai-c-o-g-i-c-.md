@@ -1,15 +1,15 @@
 ---
 name: Mt. Sinai C.O.G.I.C.
-Address_1: 936 W. Ninth Street
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91766'
-Phone: (909)868-0224
+address_1: 936 W. Ninth Street
+address_2: ''
+city: Pomona
+state: CA
+zip: '91766'
+phone: (909)868-0224
 latitude: '34.0510185'
 longitude: '-117.7596455'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Mt. Sinai C.O.G.I.C., Food Oasis Los Angeles'
 uri: /food-pantry/mt-sinai-c-o-g-i-c-/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

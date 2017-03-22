@@ -1,15 +1,15 @@
 ---
 name: Sacred Heart Church
-Address_1: 2210 Sichel Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90031'
-Phone: (323)221-3179
+address_1: 2210 Sichel Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90031'
+phone: (323)221-3179
 latitude: '34.0703284'
 longitude: '-118.2126261'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu1st
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Sacred Heart Church, Food Oasis Los Angeles'
 uri: /food-pantry/sacred-heart-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

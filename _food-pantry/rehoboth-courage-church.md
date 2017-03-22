@@ -1,15 +1,15 @@
 ---
 name: Rehoboth Courage Church
-Address_1: 425 E. Compton Boulevard
-Address_2: ''
-City: Compton
-State: CA
-Zip: '90220'
-Phone: (310)663-0789
+address_1: 425 E. Compton Boulevard
+address_2: ''
+city: Compton
+state: CA
+zip: '90220'
+phone: (310)663-0789
 latitude: '33.8962309'
 longitude: '-118.2185024'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Rehoboth Courage Church, Food Oasis Los Angeles'
 uri: /food-pantry/rehoboth-courage-church/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

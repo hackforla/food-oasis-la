@@ -1,15 +1,15 @@
 ---
 name: Fifty Fourth Street S.D.A. Church
-Address_1: 1973 West 54th Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90062'
-Phone: (323)292-2762
+address_1: 1973 West 54th Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90062'
+phone: (323)292-2762
 latitude: '33.9935442'
 longitude: '-118.3134514'
-Category: Food Pantry
-Website: 'http://54stsda.org/'
+category: Food Pantry
+website: 'http://54stsda.org/'
 '': ''
 daycode1: Tue2nd
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Fifty Fourth Street S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/fifty-fourth-street-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: St. Joseph Conference
-Address_1: 1150 W. Holt Avenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91768'
-Phone: (909)469-9773
+address_1: 1150 W. Holt Avenue
+address_2: ''
+city: Pomona
+state: CA
+zip: '91768'
+phone: (909)469-9773
 latitude: '34.0613107'
 longitude: '-117.7687845'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Joseph Conference, Food Oasis Los Angeles'
 uri: /food-pantry/st-joseph-conference/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

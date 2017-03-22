@@ -1,15 +1,15 @@
 ---
 name: St. John's Cathedral-Hope Net
-Address_1: 514 W. Adams Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90007'
-Phone: (213)747-6285
+address_1: 514 W. Adams Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90007'
+phone: (213)747-6285
 latitude: '34.02741'
 longitude: '-118.2756401'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '7:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. John''s Cathedral-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/st-johns-cathedral-hope-net/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

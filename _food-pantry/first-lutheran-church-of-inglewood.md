@@ -1,15 +1,15 @@
 ---
 name: First Lutheran Church of Inglewood
-Address_1: 600 West Queen Street
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90301'
-Phone: (310)674-5103
+address_1: 600 West Queen Street
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90301'
+phone: (310)674-5103
 latitude: '33.9624612'
 longitude: '-118.3665755'
-Category: Food Pantry
-Website: 'http://firstlutheranofinglewood.org/'
+category: Food Pantry
+website: 'http://firstlutheranofinglewood.org/'
 '': ''
 daycode1: Thu2nd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Lutheran Church of Inglewood, Food Oasis Los Angeles'
 uri: /food-pantry/first-lutheran-church-of-inglewood/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

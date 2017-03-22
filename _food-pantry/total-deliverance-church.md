@@ -1,15 +1,15 @@
 ---
 name: Total Deliverance Church
-Address_1: 45124 10th Street West
-Address_2: ''
-City: Lancaster
-State: CA
-Zip: '93535'
-Phone: (661)951-9881
+address_1: 45124 10th Street West
+address_2: ''
+city: Lancaster
+state: CA
+zip: '93535'
+phone: (661)951-9881
 latitude: '34.7030871'
 longitude: '-118.1472077'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri2nd
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Total Deliverance Church, Food Oasis Los Angeles'
 uri: /food-pantry/total-deliverance-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

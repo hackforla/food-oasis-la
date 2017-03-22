@@ -1,15 +1,15 @@
 ---
 name: Prince of Peace Coalition
-Address_1: 5700 Rudnick Avenue
-Address_2: ''
-City: Woodland Hills
-State: CA
-Zip: '91367'
-Phone: (818)346-5554
+address_1: 5700 Rudnick Avenue
+address_2: ''
+city: Woodland Hills
+state: CA
+zip: '91367'
+phone: (818)346-5554
 latitude: '34.1732527'
 longitude: '-118.6120677'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Prince of Peace Coalition, Food Oasis Los Angeles'
 uri: /food-pantry/prince-of-peace-coalition/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

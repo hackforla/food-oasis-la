@@ -1,15 +1,15 @@
 ---
 name: WSFB- Ocean Park Community Ctr
-Address_1: 503 Olympic Boulevard
-Address_2: ''
-City: Santa Monica
-State: CA
-Zip: '90401'
-Phone: (310)450-4050
+address_1: 503 Olympic Boulevard
+address_2: ''
+city: Santa Monica
+state: CA
+zip: '90401'
+phone: (310)450-4050
 latitude: '34.0135455'
 longitude: '-118.4890914'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'WSFB- Ocean Park Community Ctr, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-ocean-park-community-ctr/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

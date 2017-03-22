@@ -1,15 +1,15 @@
 ---
 name: Family Church Whittier
-Address_1: 8434 S. Greenleaf Avenue
-Address_2: ''
-City: Whittier
-State: CA
-Zip: '90602'
-Phone: (626)893-1236
+address_1: 8434 S. Greenleaf Avenue
+address_2: ''
+city: Whittier
+state: CA
+zip: '90602'
+phone: (626)893-1236
 latitude: '33.9627706'
 longitude: '-118.0395279'
-Category: Food Pantry
-Website: 'http://familychurch.co/'
+category: Food Pantry
+website: 'http://familychurch.co/'
 '': ''
 daycode1: Sun
 day1_open: '10:15 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Family Church Whittier, Food Oasis Los Angeles'
 uri: /food-pantry/family-church-whittier/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

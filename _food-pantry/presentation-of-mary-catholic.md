@@ -1,15 +1,15 @@
 ---
 name: Presentation of Mary Catholic
-Address_1: 6406 Parmelee Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90001'
-Phone: (323)585-0570
+address_1: 6406 Parmelee Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90001'
+phone: (323)585-0570
 latitude: '33.9813266'
 longitude: '-118.249548'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '7:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Presentation of Mary Catholic, Food Oasis Los Angeles'
 uri: /food-pantry/presentation-of-mary-catholic/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

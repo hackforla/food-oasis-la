@@ -1,15 +1,15 @@
 ---
 name: Our Lady of Victory Conference
-Address_1: 410 E. Palmer Street
-Address_2: ''
-City: Compton
-State: CA
-Zip: '90221'
-Phone: (310)631-5100
+address_1: 410 E. Palmer Street
+address_2: ''
+city: Compton
+state: CA
+zip: '90221'
+phone: (310)631-5100
 latitude: '33.8983065'
 longitude: '-118.2185064'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri3rd
 day1_open: '8:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Our Lady of Victory Conference, Food Oasis Los Angeles'
 uri: /food-pantry/our-lady-of-victory-conference/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

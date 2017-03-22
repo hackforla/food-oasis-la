@@ -1,15 +1,15 @@
 ---
 name: Lady Bug Ministry
-Address_1: 14725 Gramercy Place
-Address_2: ''
-City: Gardena
-State: CA
-Zip: '90247'
-Phone: ((32)) 7-3748
+address_1: 14725 Gramercy Place
+address_2: ''
+city: Gardena
+state: CA
+zip: '90247'
+phone: ((32)) 7-3748
 latitude: '33.897334'
 longitude: '-118.314122'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: TueLast
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lady Bug Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/lady-bug-ministry/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

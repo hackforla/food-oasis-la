@@ -1,15 +1,15 @@
 ---
 name: St. Lawrence of Brindisi
-Address_1: 10122 Compton Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90002'
-Phone: (323)567-1439
+address_1: 10122 Compton Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90002'
+phone: (323)567-1439
 latitude: '33.9443922'
 longitude: '-118.2459688'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '7:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Lawrence of Brindisi, Food Oasis Los Angeles'
 uri: /food-pantry/st-lawrence-of-brindisi/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

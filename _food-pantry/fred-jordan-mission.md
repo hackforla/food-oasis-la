@@ -1,15 +1,15 @@
 ---
 name: Fred Jordan Mission
-Address_1: 445  Towne Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90013'
-Phone: (213)489-7763
+address_1: 445  Towne Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90013'
+phone: (213)489-7763
 latitude: '34.0433355'
 longitude: '-118.2419919'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '12:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Fred Jordan Mission, Food Oasis Los Angeles'
 uri: /food-pantry/fred-jordan-mission/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

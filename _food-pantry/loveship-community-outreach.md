@@ -1,15 +1,15 @@
 ---
 name: Loveship Community Outreach
-Address_1: 836 E. Avenue I
-Address_2: ''
-City: Lancaster
-State: CA
-Zip: '93535'
-Phone: (661)729-4106
+address_1: 836 E. Avenue I
+address_2: ''
+city: Lancaster
+state: CA
+zip: '93535'
+phone: (661)729-4106
 latitude: '34.7039815'
 longitude: '-118.1135045'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '2:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Loveship Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/loveship-community-outreach/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

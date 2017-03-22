@@ -1,15 +1,15 @@
 ---
 name: Church of the Nazarene-Rosemead
-Address_1: 2703 Walnut Grove Avenue
-Address_2: ''
-City: Rosemead
-State: CA
-Zip: '91770'
-Phone: (562)695-0019
+address_1: 2703 Walnut Grove Avenue
+address_2: ''
+city: Rosemead
+state: CA
+zip: '91770'
+phone: (562)695-0019
 latitude: '34.0610322'
 longitude: '-118.0823275'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Church of the Nazarene-Rosemead, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-the-nazarene-rosemead/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

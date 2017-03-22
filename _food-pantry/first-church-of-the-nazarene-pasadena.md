@@ -1,15 +1,15 @@
 ---
 name: First Church of the Nazarene-Pasadena
-Address_1: 3700 E. Sierra Madre Boulevard
-Address_2: ''
-City: Pasadena
-State: CA
-Zip: '91107'
-Phone: (626)351-9631
+address_1: 3700 E. Sierra Madre Boulevard
+address_2: ''
+city: Pasadena
+state: CA
+zip: '91107'
+phone: (626)351-9631
 latitude: '34.1609763'
 longitude: '-118.0739988'
-Category: Food Pantry
-Website: 'http://www.paznaz.org/'
+category: Food Pantry
+website: 'http://www.paznaz.org/'
 '': ''
 daycode1: Wed
 day1_open: '2:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First Church of the Nazarene-Pasadena, Food Oasis Los Angeles'
 uri: /food-pantry/first-church-of-the-nazarene-pasadena/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

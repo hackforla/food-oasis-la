@@ -1,15 +1,15 @@
 ---
 name: Filipino Christian Church
-Address_1: 301 N. Union Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90026'
-Phone: (213)483-5821
+address_1: 301 N. Union Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90026'
+phone: (213)483-5821
 latitude: '34.0676498'
 longitude: '-118.2644293'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Filipino Christian Church, Food Oasis Los Angeles'
 uri: /food-pantry/filipino-christian-church/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

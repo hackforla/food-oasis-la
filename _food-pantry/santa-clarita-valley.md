@@ -1,15 +1,15 @@
 ---
 name: Santa Clarita Valley Food Pantry
-Address_1: 24133 Railroad Avenue
-Address_2: ''
-City: Newhall
-State: CA
-Zip: '91321'
-Phone: (661)255-9078
+address_1: 24133 Railroad Avenue
+address_2: ''
+city: Newhall
+state: CA
+zip: '91321'
+phone: (661)255-9078
 latitude: '34.3765012'
 longitude: '-118.5252054'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Santa Clarita Valley Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/santa-clarita-valley/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

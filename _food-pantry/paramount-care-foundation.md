@@ -1,15 +1,15 @@
 ---
 name: Paramount Care Foundation
-Address_1: 8303 Alondra Boulevard
-Address_2: ''
-City: Paramount
-State: CA
-Zip: '90723'
-Phone: (562)531-6820
+address_1: 8303 Alondra Boulevard
+address_2: ''
+city: Paramount
+state: CA
+zip: '90723'
+phone: (562)531-6820
 latitude: '33.889572'
 longitude: '-118.154455'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri1st
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Paramount Care Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/paramount-care-foundation/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

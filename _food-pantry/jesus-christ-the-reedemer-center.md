@@ -1,15 +1,15 @@
 ---
 name: Jesus Christ the Reedemer Center
-Address_1: 755 E. 223rd Street
-Address_2: ''
-City: Carson
-State: CA
-Zip: '90745'
-Phone: (424)264-9875
+address_1: 755 E. 223rd Street
+address_2: ''
+city: Carson
+state: CA
+zip: '90745'
+phone: (424)264-9875
 latitude: '33.8244169'
 longitude: '-118.2620021'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Jesus Christ the Reedemer Center, Food Oasis Los Angeles'
 uri: /food-pantry/jesus-christ-the-reedemer-center/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

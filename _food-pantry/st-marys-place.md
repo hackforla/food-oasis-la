@@ -1,15 +1,15 @@
 ---
 name: St. Mary's Place
-Address_1: 7215 Newlin Avenue
-Address_2: ''
-City: Whittier
-State: CA
-Zip: '90602'
-Phone: (562)698-0107
+address_1: 7215 Newlin Avenue
+address_2: ''
+city: Whittier
+state: CA
+zip: '90602'
+phone: (562)698-0107
 latitude: '33.9768912'
 longitude: '-118.0412114'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Mary''s Place, Food Oasis Los Angeles'
 uri: /food-pantry/st-marys-place/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Los Angeles Housing Partnership
-Address_1: 2614 W. 7th Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90057'
-Phone: (213)629-9172
+address_1: 2614 W. 7th Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90057'
+phone: (213)629-9172
 latitude: '34.0586006'
 longitude: '-118.2826812'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: FriLast
 day1_open: '4:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Los Angeles Housing Partnership, Food Oasis Los Angeles'
 uri: /food-pantry/los-angeles-housing-partnership/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

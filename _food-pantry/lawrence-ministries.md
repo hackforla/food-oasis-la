@@ -1,15 +1,15 @@
 ---
 name: Lawrence Ministries
-Address_1: 12441 E. Farlow Street
-Address_2: ''
-City: Hawaiian Gardens
-State: CA
-Zip: '90716'
-Phone: (310)764-4104
+address_1: 12441 E. Farlow Street
+address_2: ''
+city: Hawaiian Gardens
+state: CA
+zip: '90716'
+phone: (310)764-4104
 latitude: '33.832877'
 longitude: '-118.066341'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '10:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lawrence Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/lawrence-ministries/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

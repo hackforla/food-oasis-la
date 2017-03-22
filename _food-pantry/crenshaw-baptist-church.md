@@ -1,15 +1,15 @@
 ---
 name: Crenshaw Baptist Church
-Address_1: 18749 Crenshaw Boulevard
-Address_2: ''
-City: Torrance
-State: CA
-Zip: '90504'
-Phone: (310)323-2115
+address_1: 18749 Crenshaw Boulevard
+address_2: ''
+city: Torrance
+state: CA
+zip: '90504'
+phone: (310)323-2115
 latitude: '33.8599467'
 longitude: '-118.3274219'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Crenshaw Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/crenshaw-baptist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

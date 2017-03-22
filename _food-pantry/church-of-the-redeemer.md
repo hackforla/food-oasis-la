@@ -1,15 +1,15 @@
 ---
 name: Church of the Redeemer
-Address_1: 3739 North Monterey Avenue
-Address_2: ''
-City: Baldwin Park
-State: CA
-Zip: '91706'
-Phone: (626)960-9585
+address_1: 3739 North Monterey Avenue
+address_2: ''
+city: Baldwin Park
+state: CA
+zip: '91706'
+phone: (626)960-9585
 latitude: '34.0802977'
 longitude: '-117.9766557'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Church of the Redeemer, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-the-redeemer/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

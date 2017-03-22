@@ -1,15 +1,15 @@
 ---
 name: Loaves & Fishes-Glendale
-Address_1: 4322 San Fernando Road
-Address_2: ''
-City: Glendale
-State: CA
-Zip: '91204'
-Phone: (818)409-3080
+address_1: 4322 San Fernando Road
+address_2: ''
+city: Glendale
+state: CA
+zip: '91204'
+phone: (818)409-3080
 latitude: '34.1316156'
 longitude: '-118.261043'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Loaves & Fishes-Glendale, Food Oasis Los Angeles'
 uri: /food-pantry/loaves-fishes-glendale/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

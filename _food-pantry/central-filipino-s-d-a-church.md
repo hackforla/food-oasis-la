@@ -1,15 +1,15 @@
 ---
 name: Central Filipino S.D.A. Church
-Address_1: 777 Colorado Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90041'
-Phone: (323)255-7718
+address_1: 777 Colorado Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90041'
+phone: (323)255-7718
 latitude: '34.1410086'
 longitude: '-118.182682'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue3rd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Central Filipino S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/central-filipino-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

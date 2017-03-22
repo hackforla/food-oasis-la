@@ -1,15 +1,15 @@
 ---
 name: St. Ferdinand Church
-Address_1: 1109 Coronel Street
-Address_2: ''
-City: San Fernando
-State: CA
-Zip: '91340'
-Phone: (818)365-3194
+address_1: 1109 Coronel Street
+address_2: ''
+city: San Fernando
+state: CA
+zip: '91340'
+phone: (818)365-3194
 latitude: '34.2818972'
 longitude: '-118.4436663'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Ferdinand Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-ferdinand-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

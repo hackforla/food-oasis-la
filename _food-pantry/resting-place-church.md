@@ -1,15 +1,15 @@
 ---
 name: Resting Place Church
-Address_1: 10803 Cantara St.
-Address_2: ''
-City: Sun Valley
-State: CA
-Zip: '91352'
-Phone: (818)588-1024
+address_1: 10803 Cantara St.
+address_2: ''
+city: Sun Valley
+state: CA
+zip: '91352'
+phone: (818)588-1024
 latitude: '34.219583'
 longitude: '-118.365132'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Resting Place Church, Food Oasis Los Angeles'
 uri: /food-pantry/resting-place-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

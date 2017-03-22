@@ -1,15 +1,15 @@
 ---
 name: Hollywood Community Housing
-Address_1: 5020 W. Santa Monica Boulevard
-Address_2: ''
-City: Hollywood
-State: CA
-Zip: '90029'
-Phone: (323)469-0710
+address_1: 5020 W. Santa Monica Boulevard
+address_2: ''
+city: Hollywood
+state: CA
+zip: '90029'
+phone: (323)469-0710
 latitude: '34.0904073'
 longitude: '-118.2988528'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '3:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Hollywood Community Housing, Food Oasis Los Angeles'
 uri: /food-pantry/hollywood-community-housing/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

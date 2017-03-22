@@ -3,13 +3,13 @@ FM_ID: ''
 name: Riviera Village Farmers Market
 address_1: S Elena St & Avenida del Norte
 address_2: ''
-City: Redondo Beach
-State: California
-Zip: '90277'
-Phone: ''
+city: Redondo Beach
+state: California
+zipcode: '90277'
+phone: ''
 latitude: '33.8193'
 longitude: '-118.3884'
-Website: ''
+website: ''
 daycode1: Sun
 day1_open: '800'
 day1_close: '1300'
@@ -19,5 +19,8 @@ day2_close: ''
 category: Farmers Market
 title: 'Riviera Village Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/riviera-village/
+formatted_daycode1: Sunday
+formatted_day1_open: 8am
+formatted_day1_close: 1pm
 
 ---

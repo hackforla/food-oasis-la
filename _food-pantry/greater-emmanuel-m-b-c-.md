@@ -1,15 +1,15 @@
 ---
 name: Greater Emmanuel M.B.C.
-Address_1: 3727 West 111th Place
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90303'
-Phone: (310)677-9916
+address_1: 3727 West 111th Place
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90303'
+phone: (310)677-9916
 latitude: '33.934083'
 longitude: '-118.3384028'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat1st
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Greater Emmanuel M.B.C., Food Oasis Los Angeles'
 uri: /food-pantry/greater-emmanuel-m-b-c-/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

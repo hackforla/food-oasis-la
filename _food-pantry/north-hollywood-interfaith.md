@@ -1,15 +1,15 @@
 ---
 name: North Hollywood Interfaith Food Pantry
-Address_1: 4390 Colfax Avenue
-Address_2: ''
-City: North Hollywood
-State: CA
-Zip: '91604'
-Phone: (818)760-3575
+address_1: 4390 Colfax Avenue
+address_2: ''
+city: North Hollywood
+state: CA
+zip: '91604'
+phone: (818)760-3575
 latitude: '34.1501988'
 longitude: '-118.3872632'
-Category: Food Pantry
-Website: 'http://www.nhifp.org/'
+category: Food Pantry
+website: 'http://www.nhifp.org/'
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'North Hollywood Interfaith Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/north-hollywood-interfaith/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

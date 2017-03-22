@@ -1,15 +1,15 @@
 ---
 name: Lynwood United Methodist Church
-Address_1: 4207 Carlin Avenue
-Address_2: ''
-City: Lynwood
-State: CA
-Zip: '90262'
-Phone: (310)638-5163
+address_1: 4207 Carlin Avenue
+address_2: ''
+city: Lynwood
+state: CA
+zip: '90262'
+phone: (310)638-5163
 latitude: '33.91217'
 longitude: '-118.1966584'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lynwood United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/lynwood-united-methodist-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

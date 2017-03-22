@@ -1,15 +1,15 @@
 ---
 name: Estrada Courts Community Center
-Address_1: 3232 Hunter Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90023'
-Phone: (323)641-8943
+address_1: 3232 Hunter Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90023'
+phone: (323)641-8943
 latitude: '34.0211079'
 longitude: '-118.2082908'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Estrada Courts Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/estrada-courts-community-center/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

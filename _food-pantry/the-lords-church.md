@@ -1,15 +1,15 @@
 ---
 name: The Lord's Church
-Address_1: 9701 Flower Street
-Address_2: ''
-City: Bellflower
-State: CA
-Zip: '90706'
-Phone: (562)866-8283
+address_1: 9701 Flower Street
+address_2: ''
+city: Bellflower
+state: CA
+zip: '90706'
+phone: (562)866-8283
 latitude: '33.882343'
 longitude: '-118.12727'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '8:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'The Lord''s Church, Food Oasis Los Angeles'
 uri: /food-pantry/the-lords-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

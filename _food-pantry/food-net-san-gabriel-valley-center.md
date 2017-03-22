@@ -1,15 +1,15 @@
 ---
 name: Food Net-San Gabriel Valley Center
-Address_1: 1441 Santa Anita Avenue
-Address_2: ''
-City: South El Monte
-State: CA
-Zip: '91733'
-Phone: (626)575-5431
+address_1: 1441 Santa Anita Avenue
+address_2: ''
+city: South El Monte
+state: CA
+zip: '91733'
+phone: (626)575-5431
 latitude: '34.0451612'
 longitude: '-118.0455444'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '8:30'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Food Net-San Gabriel Valley Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-san-gabriel-valley-center/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:30am'
+formatted_day1_close: 'NaN:30am'
 
 ---

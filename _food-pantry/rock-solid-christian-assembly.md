@@ -1,15 +1,15 @@
 ---
 name: Rock Solid Christian Assembly
-Address_1: 867 W. 10th Street
-Address_2: ''
-City: San Pedro
-State: CA
-Zip: '90731'
-Phone: (310)832-2788
+address_1: 867 W. 10th Street
+address_2: ''
+city: San Pedro
+state: CA
+zip: '90731'
+phone: (310)832-2788
 latitude: '33.734896'
 longitude: '-118.296113'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '10:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Rock Solid Christian Assembly, Food Oasis Los Angeles'
 uri: /food-pantry/rock-solid-christian-assembly/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

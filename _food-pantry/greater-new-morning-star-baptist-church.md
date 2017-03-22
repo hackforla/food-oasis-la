@@ -1,15 +1,15 @@
 ---
 name: Greater New Morning Star Baptist Church
-Address_1: 210 W. Florence Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90003'
-Phone: (323)529-4446
+address_1: 210 W. Florence Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90003'
+phone: (323)529-4446
 latitude: '33.9745963'
 longitude: '-118.2767182'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Greater New Morning Star Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/greater-new-morning-star-baptist-church/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

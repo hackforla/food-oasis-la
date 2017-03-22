@@ -1,15 +1,15 @@
 ---
 name: First African Methodist Episcopal Church
-Address_1: 2270 S. Harvard Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90018'
-Phone: (323)735-1251
+address_1: 2270 S. Harvard Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90018'
+phone: (323)735-1251
 latitude: '34.0344082'
 longitude: '-118.3061942'
-Category: Food Pantry
-Website: 'http://www.famechurch.org/'
+category: Food Pantry
+website: 'http://www.famechurch.org/'
 '': ''
 daycode1: Sat4th
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'First African Methodist Episcopal Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-african-methodist-episcopal-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: H.O.P.E. Helping Other People Excel
-Address_1: 11163 S. Central Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90059'
-Phone: (323)567-8524
+address_1: 11163 S. Central Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90059'
+phone: (323)567-8524
 latitude: '33.933305'
 longitude: '-118.254577'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'H.O.P.E. Helping Other People Excel, Food Oasis Los Angeles'
 uri: /food-pantry/h-o-p-e-helping-other-people-excel/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

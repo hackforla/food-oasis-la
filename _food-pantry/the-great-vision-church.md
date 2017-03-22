@@ -1,15 +1,15 @@
 ---
 name: The Great Vision Church
-Address_1: 4465 W. Melrose Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90029'
-Phone: (213)675-8291
+address_1: 4465 W. Melrose Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90029'
+phone: (213)675-8291
 latitude: '34.0838228'
 longitude: '-118.2975894'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat1st
 day1_open: '7:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'The Great Vision Church, Food Oasis Los Angeles'
 uri: /food-pantry/the-great-vision-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

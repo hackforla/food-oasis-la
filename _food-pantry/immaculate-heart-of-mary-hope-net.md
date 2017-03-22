@@ -1,15 +1,15 @@
 ---
 name: Immaculate Heart of Mary-Hope Net
-Address_1: 4954 Santa Monica Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90029'
-Phone: (323)660-0034
+address_1: 4954 Santa Monica Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90029'
+phone: (323)660-0034
 latitude: '34.0905787'
 longitude: '-118.2976765'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Immaculate Heart of Mary-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/immaculate-heart-of-mary-hope-net/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

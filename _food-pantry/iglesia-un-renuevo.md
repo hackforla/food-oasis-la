@@ -1,15 +1,15 @@
 ---
 name: Iglesia Un Renuevo
-Address_1: 13216 Fairford Ave.
-Address_2: ''
-City: Norwalk
-State: CA
-Zip: '90650'
-Phone: (562)743-4611
+address_1: 13216 Fairford Ave.
+address_2: ''
+city: Norwalk
+state: CA
+zip: '90650'
+phone: (562)743-4611
 latitude: '33.9109635'
 longitude: '-118.0946044'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri3rd
 day1_open: '3:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Iglesia Un Renuevo, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-un-renuevo/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

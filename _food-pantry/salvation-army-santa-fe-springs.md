@@ -1,15 +1,15 @@
 ---
 name: Salvation Army- Santa Fe Springs
-Address_1: 12000 E. Washington Boulevard
-Address_2: ''
-City: Whittier
-State: CA
-Zip: '90606'
-Phone: (562)696-9562
+address_1: 12000 E. Washington Boulevard
+address_2: ''
+city: Whittier
+state: CA
+zip: '90606'
+phone: (562)696-9562
 latitude: '33.9676128'
 longitude: '-118.0553469'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '1:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army- Santa Fe Springs, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-santa-fe-springs/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

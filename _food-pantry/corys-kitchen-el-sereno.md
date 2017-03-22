@@ -1,15 +1,15 @@
 ---
 name: Cory's Kitchen-El Sereno
-Address_1: 4810 Huntington Drive South
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90032'
-Phone: (323)972-1330
+address_1: 4810 Huntington Drive South
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90032'
+phone: (323)972-1330
 latitude: '34.0851253'
 longitude: '-118.1796924'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '4:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Cory''s Kitchen-El Sereno, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-el-sereno/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

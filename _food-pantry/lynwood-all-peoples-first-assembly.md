@@ -1,15 +1,15 @@
 ---
 name: Lynwood All People's First Assembly
-Address_1: 4330 Martin Luther King Jr. Boulevard
-Address_2: ''
-City: Lynwood
-State: CA
-Zip: '90262'
-Phone: (310)639-2010
+address_1: 4330 Martin Luther King Jr. Boulevard
+address_2: ''
+city: Lynwood
+state: CA
+zip: '90262'
+phone: (310)639-2010
 latitude: '33.9211561'
 longitude: '-118.1884331'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '8:30 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lynwood All People''s First Assembly, Food Oasis Los Angeles'
 uri: /food-pantry/lynwood-all-peoples-first-assembly/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

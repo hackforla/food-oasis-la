@@ -1,15 +1,15 @@
 ---
 name: Ecumenical Council of Pasadena Area Congregations
-Address_1: 444 East Washington Boulevard
-Address_2: ''
-City: Pasadena
-State: CA
-Zip: '91104'
-Phone: (626)797-2402
+address_1: 444 East Washington Boulevard
+address_2: ''
+city: Pasadena
+state: CA
+zip: '91104'
+phone: (626)797-2402
 latitude: '34.1687151'
 longitude: '-118.1413359'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tues
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Ecumenical Council of Pasadena Area Congregations, Food Oasis Los Angeles'
 uri: /food-pantry/ecumenical-council-of-pasadena-area-congregations/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

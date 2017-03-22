@@ -1,15 +1,15 @@
 ---
 name: Gospel Mission Baptist Church
-Address_1: 7301 S. Avalon Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90003'
-Phone: (323)759-8087
+address_1: 7301 S. Avalon Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90003'
+phone: (323)759-8087
 latitude: '33.9735936'
 longitude: '-118.2655739'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed4th
 day1_open: '11:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Gospel Mission Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/gospel-mission-baptist-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

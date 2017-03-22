@@ -1,15 +1,15 @@
 ---
 name: New Life Community Church
-Address_1: 5009 W. 119th Street
-Address_2: ''
-City: Hawthorne
-State: CA
-Zip: '90250'
-Phone: (310)676-6859
+address_1: 5009 W. 119th Street
+address_2: ''
+city: Hawthorne
+state: CA
+zip: '90250'
+phone: (310)676-6859
 latitude: '33.9258706'
 longitude: '-118.3660822'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sun
 day1_open: '12:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'New Life Community Church, Food Oasis Los Angeles'
 uri: /food-pantry/new-life-community-church/
+formatted_daycode1: Sunday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Koreatown Multipurpose Senior
-Address_1: 2147 W. Washington Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90018'
-Phone: (213)247-cell
+address_1: 2147 W. Washington Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90018'
+phone: (213)247-cell
 latitude: '34.0399577'
 longitude: '-118.3075101'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '8:30 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Koreatown Multipurpose Senior, Food Oasis Los Angeles'
 uri: /food-pantry/koreatown-multipurpose-senior/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

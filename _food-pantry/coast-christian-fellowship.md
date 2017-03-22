@@ -1,15 +1,15 @@
 ---
 name: Coast Christian Fellowship
-Address_1: 4000 Pacific Coast Highway
-Address_2: ''
-City: Torrance
-State: CA
-Zip: '90505'
-Phone: (310)373-8573
+address_1: 4000 Pacific Coast Highway
+address_2: ''
+city: Torrance
+state: CA
+zip: '90505'
+phone: (310)373-8573
 latitude: '33.8065814'
 longitude: '-118.3566268'
-Category: Food Pantry
-Website: 'http://www.coastchristian.org/'
+category: Food Pantry
+website: 'http://www.coastchristian.org/'
 '': ''
 daycode1: Mon
 day1_open: '4:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Coast Christian Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/coast-christian-fellowship/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

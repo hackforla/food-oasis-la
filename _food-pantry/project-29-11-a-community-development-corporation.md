@@ -1,15 +1,15 @@
 ---
 name: 'Project 29:11, A Community Development Corporation'
-Address_1: 418 N. Second Avenue
-Address_2: ''
-City: Covina
-State: CA
-Zip: '91723'
-Phone: (626)373-2976
+address_1: 418 N. Second Avenue
+address_2: ''
+city: Covina
+state: CA
+zip: '91723'
+phone: (626)373-2976
 latitude: '34.0897447'
 longitude: '-117.8874932'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Tue
 day1_open: '2:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Project 29:11, A Community Development Corporation, Food Oasis Los Angeles'
 uri: /food-pantry/project-29-11-a-community-development-corporation/
+formatted_daycode1: Tuesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

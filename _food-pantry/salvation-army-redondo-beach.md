@@ -1,15 +1,15 @@
 ---
 name: Salvation Army Redondo Beach
-Address_1: 125 W. Beryl Street
-Address_2: ''
-City: Redondo Beach
-State: CA
-Zip: '90277'
-Phone: (310)318-2827
+address_1: 125 W. Beryl Street
+address_2: ''
+city: Redondo Beach
+state: CA
+zip: '90277'
+phone: (310)318-2827
 latitude: '33.8469008'
 longitude: '-118.3925479'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army Redondo Beach, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-redondo-beach/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Salvation Army-Pomona
-Address_1: 490 E. La Verne Anenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: 91767-2800
-Phone: (909)623-1579
+address_1: 490 E. La Verne Anenue
+address_2: ''
+city: Pomona
+state: CA
+zip: 91767-2800
+phone: (909)623-1579
 latitude: '34.0806833'
 longitude: '-117.7434276'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army-Pomona, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-pomona/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

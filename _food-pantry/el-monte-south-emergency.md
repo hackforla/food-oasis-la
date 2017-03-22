@@ -1,15 +1,15 @@
 ---
 name: El Monte/South Emergency
-Address_1: 10900 Mulhall Street
-Address_2: ''
-City: South El Monte
-State: CA
-Zip: '91731'
-Phone: (626)444-7269
+address_1: 10900 Mulhall Street
+address_2: ''
+city: South El Monte
+state: CA
+zip: '91731'
+phone: (626)444-7269
 latitude: '34.0888812'
 longitude: '-118.0288381'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'El Monte/South Emergency, Food Oasis Los Angeles'
 uri: /food-pantry/el-monte-south-emergency/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

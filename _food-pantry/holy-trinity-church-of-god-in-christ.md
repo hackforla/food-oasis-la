@@ -1,15 +1,15 @@
 ---
 name: Holy Trinity Church of God in Christ
-Address_1: 9706 S. Broadway Boulevard
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90003'
-Phone: (323)777-2965
+address_1: 9706 S. Broadway Boulevard
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90003'
+phone: (323)777-2965
 latitude: '33.9481075'
 longitude: '-118.2778577'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat
 day1_open: '12:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Holy Trinity Church of God in Christ, Food Oasis Los Angeles'
 uri: /food-pantry/holy-trinity-church-of-god-in-christ/
+formatted_daycode1: Saturday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

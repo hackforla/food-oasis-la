@@ -1,15 +1,15 @@
 ---
 name: 'Eliza Shanks Homes, Inc.'
-Address_1: 13055 Weidner Street
-Address_2: ''
-City: Pacoima
-State: CA
-Zip: '91331'
-Phone: (818)896-9304
+address_1: 13055 Weidner Street
+address_2: ''
+city: Pacoima
+state: CA
+zip: '91331'
+phone: (818)896-9304
 latitude: '34.2772191'
 longitude: '-118.4173919'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri4th
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Eliza Shanks Homes, Inc., Food Oasis Los Angeles'
 uri: /food-pantry/eliza-shanks-homes-inc-/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

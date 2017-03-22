@@ -1,15 +1,15 @@
 ---
 name: Centro Palabra de Fe
-Address_1: 107 W. Artesia Boulevard
-Address_2: ''
-City: Compton
-State: CA
-Zip: '90220'
-Phone: (310)632-7337
+address_1: 107 W. Artesia Boulevard
+address_2: ''
+city: Compton
+state: CA
+zip: '90220'
+phone: (310)632-7337
 latitude: '33.8749043'
 longitude: '-118.2243445'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '8:30 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Centro Palabra de Fe, Food Oasis Los Angeles'
 uri: /food-pantry/centro-palabra-de-fe/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

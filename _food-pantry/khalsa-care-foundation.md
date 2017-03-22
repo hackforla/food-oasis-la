@@ -1,15 +1,15 @@
 ---
 name: Khalsa Care Foundation
-Address_1: 9989 Laurel Canyon Blvd.
-Address_2: ''
-City: Pacoima
-State: CA
-Zip: '91331'
-Phone: (805)402-5050
+address_1: 9989 Laurel Canyon Blvd.
+address_2: ''
+city: Pacoima
+state: CA
+zip: '91331'
+phone: (805)402-5050
 latitude: '34.2511562'
 longitude: '-118.4252181'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '6:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Khalsa Care Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/khalsa-care-foundation/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

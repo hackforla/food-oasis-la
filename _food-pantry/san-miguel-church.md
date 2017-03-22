@@ -1,15 +1,15 @@
 ---
 name: San Miguel Church
-Address_1: 2214 E. 108th Street
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90059'
-Phone: (323)569-5951
+address_1: 2214 E. 108th Street
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90059'
+phone: (323)569-5951
 latitude: '33.9373243'
 longitude: '-118.2324792'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat3rd
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'San Miguel Church, Food Oasis Los Angeles'
 uri: /food-pantry/san-miguel-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Lifeline Community Services & Economic Development
-Address_1: 2556 N. Lake Avenue
-Address_2: ''
-City: Altadena
-State: CA
-Zip: '91001'
-Phone: (626)797-3585
+address_1: 2556 N. Lake Avenue
+address_2: ''
+city: Altadena
+state: CA
+zip: '91001'
+phone: (626)797-3585
 latitude: '34.1896939'
 longitude: '-118.1310706'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed2nd
 day1_open: '12:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Lifeline Community Services & Economic Development, Food Oasis Los Angeles'
 uri: /food-pantry/lifeline-community-services-economic-development/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

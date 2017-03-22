@@ -1,15 +1,15 @@
 ---
 name: CUSH Foundation
-Address_1: 2343 N. San Antonio Avenue
-Address_2: ''
-City: Pomona
-State: CA
-Zip: '91767'
-Phone: (909)621-5369
+address_1: 2343 N. San Antonio Avenue
+address_2: ''
+city: Pomona
+state: CA
+zip: '91767'
+phone: (909)621-5369
 latitude: '34.0852934'
 longitude: '-117.7371539'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '9:30 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'CUSH Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/cush-foundation/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

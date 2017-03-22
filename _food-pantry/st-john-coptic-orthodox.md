@@ -1,15 +1,15 @@
 ---
 name: St. John Coptic Orthodox
-Address_1: 21329 E. Cienega Avenue
-Address_2: ''
-City: Covina
-State: CA
-Zip: '91724'
-Phone: (562)691-0299
+address_1: 21329 E. Cienega Avenue
+address_2: ''
+city: Covina
+state: CA
+zip: '91724'
+phone: (562)691-0299
 latitude: '34.103353'
 longitude: '-117.838035'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '5:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. John Coptic Orthodox, Food Oasis Los Angeles'
 uri: /food-pantry/st-john-coptic-orthodox/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

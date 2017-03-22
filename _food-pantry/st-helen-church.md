@@ -1,15 +1,15 @@
 ---
 name: St. Helen Church
-Address_1: 9314 Madison Avenue
-Address_2: ''
-City: South Gate
-State: CA
-Zip: '90280'
-Phone: (323)563-3522
+address_1: 9314 Madison Avenue
+address_2: ''
+city: South Gate
+state: CA
+zip: '90280'
+phone: (323)563-3522
 latitude: '33.9506409'
 longitude: '-118.2138075'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat4th
 day1_open: '8:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. Helen Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-helen-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

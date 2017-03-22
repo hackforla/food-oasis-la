@@ -1,15 +1,15 @@
 ---
 name: St. George Church
-Address_1: 15721 Cornuta Avenue
-Address_2: ''
-City: Bellflower
-State: CA
-Zip: '90706'
-Phone: (562)862-0273
+address_1: 15721 Cornuta Avenue
+address_2: ''
+city: Bellflower
+state: CA
+zip: '90706'
+phone: (562)862-0273
 latitude: '33.8906177'
 longitude: '-118.1198573'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu2nd
 day1_open: '4:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'St. George Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-george-church/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

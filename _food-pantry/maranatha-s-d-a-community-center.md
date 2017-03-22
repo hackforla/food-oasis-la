@@ -1,15 +1,15 @@
 ---
 name: Maranatha S.D.A. Community Center
-Address_1: 3569 W. Manchester Blvd.
-Address_2: ''
-City: Inglewood
-State: CA
-Zip: '90305'
-Phone: (323)971-3511
+address_1: 3569 W. Manchester Blvd.
+address_2: ''
+city: Inglewood
+state: CA
+zip: '90305'
+phone: (323)971-3511
 latitude: '33.9602274'
 longitude: '-118.3348393'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Sat2nd
 day1_open: '2:00 PM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Maranatha S.D.A. Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/maranatha-s-d-a-community-center/
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

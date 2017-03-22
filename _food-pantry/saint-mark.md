@@ -1,15 +1,15 @@
 ---
 name: Saint Mark Food Pantry
-Address_1: 8305 S. Gramercy Place
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90047'
-Phone: (323)753-3535
+address_1: 8305 S. Gramercy Place
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90047'
+phone: (323)753-3535
 latitude: '33.9632286'
 longitude: '-118.3136076'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Saint Mark Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/saint-mark/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

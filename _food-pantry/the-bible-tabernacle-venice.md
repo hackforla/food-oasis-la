@@ -1,15 +1,15 @@
 ---
 name: The Bible Tabernacle (Venice)
-Address_1: 1761 Washington Way
-Address_2: ''
-City: Venice
-State: CA
-Zip: '90291'
-Phone: (310)821-6116
+address_1: 1761 Washington Way
+address_2: ''
+city: Venice
+state: CA
+zip: '90291'
+phone: (310)821-6116
 latitude: '33.9879884'
 longitude: '-118.4626862'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'The Bible Tabernacle (Venice), Food Oasis Los Angeles'
 uri: /food-pantry/the-bible-tabernacle-venice/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

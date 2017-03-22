@@ -1,15 +1,15 @@
 ---
 name: Altadena S.D.A. Church
-Address_1: 2609 N. Lincoln Avenue
-Address_2: ''
-City: Altadena
-State: CA
-Zip: '91001'
-Phone: (626)794-3953
+address_1: 2609 N. Lincoln Avenue
+address_2: ''
+city: Altadena
+state: CA
+zip: '91001'
+phone: (626)794-3953
 latitude: '34.1906878'
 longitude: '-118.1593398'
-Category: Food Pantry
-Website: 'http://altadenasdafamily.org/'
+category: Food Pantry
+website: 'http://altadenasdafamily.org/'
 '': ''
 daycode1: Tue2nd
 day1_open: '9:00 AM'
@@ -34,8 +34,9 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Altadena S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/altadena-s-d-a-church/
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Tujunga United Methodist Church
-Address_1: 9901 Tujunga Canyon Boulevard
-Address_2: ''
-City: Tujunga
-State: CA
-Zip: '91042'
-Phone: (818)352-1481
+address_1: 9901 Tujunga Canyon Boulevard
+address_2: ''
+city: Tujunga
+state: CA
+zip: '91042'
+phone: (818)352-1481
 latitude: '34.2480625'
 longitude: '-118.2772395'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '11:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Tujunga United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/tujunga-united-methodist-church/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

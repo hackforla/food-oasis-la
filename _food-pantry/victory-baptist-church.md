@@ -1,15 +1,15 @@
 ---
 name: Victory Baptist Church
-Address_1: 4802 South McKinley Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90011'
-Phone: (323)231-2424
+address_1: 4802 South McKinley Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90011'
+phone: (323)231-2424
 latitude: '33.9999755'
 longitude: '-118.2603428'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Fri
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Victory Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/victory-baptist-church/
+formatted_daycode1: Friday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

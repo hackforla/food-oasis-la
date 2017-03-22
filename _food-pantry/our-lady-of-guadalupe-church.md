@@ -1,15 +1,15 @@
 ---
 name: Our Lady of Guadalupe Church
-Address_1: 4509 Mercury Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90032'
-Phone: (323)225-4201
+address_1: 4509 Mercury Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90032'
+phone: (323)225-4201
 latitude: '34.0861589'
 longitude: '-118.1901472'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '8:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Our Lady of Guadalupe Church, Food Oasis Los Angeles'
 uri: /food-pantry/our-lady-of-guadalupe-church/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:AMam'
 
 ---

@@ -1,15 +1,15 @@
 ---
 name: Norwalk Church of the Nazarene
-Address_1: 15000 Studebaker Road
-Address_2: ''
-City: Norwalk
-State: CA
-Zip: '90650'
-Phone: (562)863-0911
+address_1: 15000 Studebaker Road
+address_2: ''
+city: Norwalk
+state: CA
+zip: '90650'
+phone: (562)863-0911
 latitude: '33.8944743'
 longitude: '-118.0995643'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Wed
 day1_open: '5:00 PM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Norwalk Church of the Nazarene, Food Oasis Los Angeles'
 uri: /food-pantry/norwalk-church-of-the-nazarene/
+formatted_daycode1: Wednesday
+formatted_day1_open: 'NaN:PMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

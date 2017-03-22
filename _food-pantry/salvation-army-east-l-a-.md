@@ -1,15 +1,15 @@
 ---
 name: Salvation Army- East L.A.
-Address_1: 140 N. Eastman Avenue
-Address_2: ''
-City: Los Angeles
-State: CA
-Zip: '90063'
-Phone: (323)263-7577
+address_1: 140 N. Eastman Avenue
+address_2: ''
+city: Los Angeles
+state: CA
+zip: '90063'
+phone: (323)263-7577
 latitude: '34.036961'
 longitude: '-118.1854747'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Mon
 day1_open: '9:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Salvation Army- East L.A., Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-east-l-a-/
+formatted_daycode1: Monday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---

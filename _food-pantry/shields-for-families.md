@@ -1,15 +1,15 @@
 ---
 name: Shields for Families
-Address_1: 11705 Deputy Yamamoto Place
-Address_2: ''
-City: Lynwood
-State: CA
-Zip: '90262'
-Phone: (323)242-5000
+address_1: 11705 Deputy Yamamoto Place
+address_2: ''
+city: Lynwood
+state: CA
+zip: '90262'
+phone: (323)242-5000
 latitude: '33.9268095'
 longitude: '-118.229051'
-Category: Food Pantry
-Website: ''
+category: Food Pantry
+website: ''
 '': ''
 daycode1: Thu
 day1_open: '10:00 AM'
@@ -34,8 +34,10 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-category: Food Pantry
 title: 'Shields for Families, Food Oasis Los Angeles'
 uri: /food-pantry/shields-for-families/
+formatted_daycode1: Thursday
+formatted_day1_open: 'NaN:AMam'
+formatted_day1_close: 'NaN:PMam'
 
 ---
