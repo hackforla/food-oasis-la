@@ -29,8 +29,15 @@ markdown: kramdown
 # gems:
 #  - jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - CNAME
+  - README
+
+keep_files:
+  - .git
+  - .gitignore
+  - .nojekyll
+  - CNAME
+  - README
 
 defaults:
   - scope:
