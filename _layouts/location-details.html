@@ -93,8 +93,8 @@ stylesheets:
 
 	<hr />
 
-	<h2>Hours</h2>
 	{% if page['formatted_daycode1'] %}
+	<h2>Hours</h2>
 	{% assign days = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" | split: ", " %}
 	<dl>
 	{% for day in days %}
