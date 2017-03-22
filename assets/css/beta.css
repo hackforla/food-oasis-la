@@ -1865,6 +1865,7 @@
 		}
 	}
 
+
 	/* = Slideout Menu
 	----------------------------------------------- */
 	.scrolled-up.home nav {
@@ -2007,3 +2008,13 @@
 	transform: scale(1.0, 1.0);
 	opacity: 1;
 	}
+
+  button#action-button {
+    background-color: rgb(144, 194, 70);
+  padding: 5px 10px;
+  margin-right:3px;
+  color: white;
+  border-radius: 4px;
+  }
+
+
