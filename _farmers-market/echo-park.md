@@ -10,15 +10,17 @@ phone: ''
 latitude: '34.0769'
 longitude: '-118.2586'
 website: 'https://www.facebook.com/Echo-Park-Farmers-Market-313522200882/'
-day: Fri
-open: '1500'
-close: '1930'
-'': ''
+daycode1: Fri
+day1_open: '1500'
+day1_close: '1930'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Echo Park Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/echo-park/
-formatted_day: Friday
-formatted_open: 3pm
-formatted_close: '7:30pm'
+formatted_daycode1: Friday
+formatted_day1_open: 3pm
+formatted_day1_close: '7:30pm'
 
 ---

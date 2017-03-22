@@ -6,8 +6,8 @@ city: Mar Vista
 state: CA
 zipcode: '90066'
 phone: ''
-latitude: '34.01472864200008'
-longitude: '-118.44193053599997'
+latitude: '34.01472864'
+longitude: '-118.4419305'
 category: Community Garden
 website: 'https://www.oceanviewfarms.net/'
 active: 'Y'

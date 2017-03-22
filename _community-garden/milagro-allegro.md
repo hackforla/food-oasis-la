@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90042'
 phone: 323-256-7122
-latitude: '34.08733119000004'
-longitude: '-118.32063535099996'
+latitude: '34.08733119'
+longitude: '-118.3206354'
 category: Community Garden
 website: >-
   https://communitygarden.org/find-a-garden/gardens/milagro-allegro-community-garden/

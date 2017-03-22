@@ -48,32 +48,32 @@ function createMarkdownFile(writePath, data, category_uri) {
 
   data.uri = '/' + category_uri + '/' + filename + '/';
 
-  if (data.day && data.open && data.close) {
-    switch (data.day.trim()) {
+  if (data.daycode1 && data.day1_open && data.day1_close) {
+    switch (data.daycode1.trim()) {
       case 'Mon':
-        data.formatted_day = 'Monday';
+        data.formatted_daycode1 = 'Monday';
         break;
       case 'Tue':
-        data.formatted_day = 'Tuesday';
+        data.formatted_daycode1 = 'Tuesday';
         break;
       case 'Wed':
-        data.formatted_day = 'Wednesday';
+        data.formatted_daycode1 = 'Wednesday';
         break;
       case 'Thu':
-        data.formatted_day = 'Thursday';
+        data.formatted_daycode1 = 'Thursday';
         break;
       case 'Fri':
-        data.formatted_day = 'Friday';
+        data.formatted_daycode1 = 'Friday';
         break;
       case 'Sat':
-        data.formatted_day = 'Saturday';
+        data.formatted_daycode1 = 'Saturday';
         break;
       case 'Sun':
-        data.formatted_day = 'Sunday';
+        data.formatted_daycode1 = 'Sunday';
         break;
     }
-    data.formatted_open  = formatTime(data.open);
-    data.formatted_close = formatTime(data.close);
+    data.formatted_day1_open  = formatTime(data.day1_open);
+    data.formatted_day1_close = formatTime(data.day1_close);
   }
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
@@ -97,6 +97,8 @@ ${yaml.safeDump(data)}
 }
 
 function generateCollection(data_name, data_category) {
+
+  console.log('data name: ' + data_name);
 
   var writePath = '../_' + data_name; // Example: _/community-gardens
   var input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options

@@ -6,8 +6,8 @@ city: Granada Hills
 state: CA
 zipcode: '91344'
 phone: 818-368-4533
-latitude: '34.27917819000004'
-longitude: '-118.48080939099998'
+latitude: '34.27917819'
+longitude: '-118.4808094'
 category: Community Garden
 website: ''
 active: 'Y'

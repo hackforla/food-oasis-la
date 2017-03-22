@@ -6,19 +6,21 @@ address_2: ''
 city: Los Angeles
 state: California
 zipcode: '90042'
-phone: (323) 449-4100
+phone: (323)449-4100
 latitude: '34.1106'
 longitude: '-118.1928'
 website: ''
-day: Tue
-open: '1500'
-close: '2000'
-'': ''
+daycode1: Tue
+day1_open: '1500'
+day1_close: '2000'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Old L.A. Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/old-l-a-/
-formatted_day: Tuesday
-formatted_open: 3pm
-formatted_close: 8pm
+formatted_daycode1: Tuesday
+formatted_day1_open: 3pm
+formatted_day1_close: 8pm
 
 ---

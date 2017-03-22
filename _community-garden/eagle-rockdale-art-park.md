@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90041'
 phone: ''
-latitude: '34.13392643900005'
-longitude: '-118.18878835899994'
+latitude: '34.13392644'
+longitude: '-118.1887884'
 category: Community Garden
 website: >-
   https://www.facebook.com/Eagle-Rockdale-Community-Garden-Art-Park-121724107876620/

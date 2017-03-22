@@ -12,18 +12,20 @@ phone: ''
 latitude: '33.8249'
 longitude: '-118.3284'
 website: 'http://www.torranceca.gov/6620.htm'
-day: Tue
-open: '800'
-close: '1300'
-'': ''
+daycode1: Tue
+day1_open: '800'
+day1_close: '1300'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: >-
   Torrance Farmers Market -Tuesday and saturday- 2200 Crenshaw Blvd
   Torrance,Ca.90501, Food Oasis Los Angeles
 uri: >-
   /farmers-market/torrance-tuesday-and-saturday-2200-crenshaw-blvd-torrance-ca-90501/
-formatted_day: Tuesday
-formatted_open: 8am
-formatted_close: 1pm
+formatted_daycode1: Tuesday
+formatted_day1_open: 8am
+formatted_day1_close: 1pm
 
 ---

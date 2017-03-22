@@ -94,44 +94,19 @@ stylesheets:
 	<hr />
 
 	<h2>Hours</h2>
-	{% if page['formatted_day'] %}
+	{% if page['formatted_daycode1'] %}
 	{% assign days = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" | split: ", " %}
 	<dl>
 	{% for day in days %}
-		<dt data-day="{{ page['day'] }}">{{ day }}</dt>
-		{% if page['formatted_day'] == day %}
-		<dd data-day="{{ page['day'] }}" data-open="{{ page['open'] }}" data-close="{{ page['close'] }}"><span>{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</span></dd>
+		<dt data-day="{{ page['daycode1'] }}">{{ day }}</dt>
+		{% if page['formatted_daycode1'] == day %}
+		<dd data-day="{{ page['daycode1'] }}" data-open="{{ page['day1_open'] }}" data-close="{{ page['day1_close'] }}"><span>{{ page['formatted_day1_open'] }} – {{ page['formatted_day1_close'] }}</span></dd>
 		{% else %}
 		<dd><i>Closed</i></dd>
 		{% endif %}
 	{% endfor %}
 	</dl>
 	{% else %}
-	<del>
-	<mark>Coming soon!</mark>
-	<dl>
-		<dt>Sunday</dt>
-		<dd><span>8am – 5pm</span></dd>
-
-		<dt>Monday</dt>
-		<dd><span>8am – 5pm</psan></dd>
-
-		<dt class="open">Tuesday</dt>
-		<dd class="open"><span>8am – 11am</span> <i>Open Now</i></dd>
-
-		<dt>Wednesday</dt>
-		<dd><i>Closed</i></dd>
-
-		<dt>Thursday</dt>
-		<dd><span>12pm – 6pm</span></dd>
-
-		<dt>Friday</dt>
-		<dd><span>12pm – 6pm</span></dd>
-
-		<dt>Saturday</dt>
-		<dd><span>1pm – 7pm</span></dd>
-	</dl>
-	</del>
 	{% endif %}
 
 	<hr />

@@ -6,19 +6,21 @@ address_2: ''
 city: Los Angeles
 state: California
 zipcode: '90008'
-phone: ' (323) 290-6636'
+phone: (323)290-6636
 latitude: '34.0112'
 longitude: '-118.3365'
 website: 'http://www.baldwinhillscrenshawplaza.com/farmersmarket'
-day: Sat
-open: '1000'
-close: '1500'
-'': ''
+daycode1: Sat
+day1_open: '1000'
+day1_close: '1500'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Crenshaw Baldwin Hill Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/crenshaw-baldwin-hill/
-formatted_day: Saturday
-formatted_open: 10am
-formatted_close: 3pm
+formatted_daycode1: Saturday
+formatted_day1_open: 10am
+formatted_day1_close: 3pm
 
 ---

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90004'
 phone: (323) 821-7748
-latitude: '34.075720587000035'
-longitude: '-118.30301712299996'
+latitude: '34.07572059'
+longitude: '-118.3030171'
 category: Community Garden
 website: ''
 active: 'Y'

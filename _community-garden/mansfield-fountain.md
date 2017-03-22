@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90038'
 phone: ''
-latitude: '34.09361321000006'
-longitude: '-118.340501873'
+latitude: '34.09361321'
+longitude: '-118.3405019'
 category: Community Garden
 website: >-
   https://www.facebook.com/Mansfield-Fountain-Community-Garden-Hollywood-CA-1062186980476336/
