@@ -11,6 +11,7 @@ latitude: '33.993487'
 longitude: '-118.406856'
 category: Community Garden
 hours: []
+website: ''
 title: 'Mar Vista Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/mar-vista/
 

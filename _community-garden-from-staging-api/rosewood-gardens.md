@@ -11,6 +11,7 @@ latitude: '34.075721'
 longitude: '-118.303017'
 category: Community Garden
 hours: []
+website: ''
 title: 'Rosewood Gardens, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/rosewood-gardens/
 

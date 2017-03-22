@@ -11,6 +11,7 @@ latitude: '33.968168'
 longitude: '-118.265197'
 category: Community Garden
 hours: []
+website: ''
 title: 'Fremont Wellness Center & Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/fremont-wellness-center-/
 

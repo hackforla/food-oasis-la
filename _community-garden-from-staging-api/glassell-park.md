@@ -11,6 +11,7 @@ latitude: '34.120054'
 longitude: '-118.243006'
 category: Community Garden
 hours: []
+website: ''
 title: 'Glassell Park Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/glassell-park/
 

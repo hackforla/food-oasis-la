@@ -11,6 +11,7 @@ latitude: '33.987262'
 longitude: '-118.461881'
 category: Community Garden
 hours: []
+website: ''
 title: 'Venice Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/venice/
 

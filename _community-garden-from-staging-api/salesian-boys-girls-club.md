@@ -11,6 +11,7 @@ latitude: '34.041225'
 longitude: '-118.213221'
 category: Community Garden
 hours: []
+website: ''
 title: 'Salesian Boys & Girls Club Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/salesian-boys-girls-club/
 

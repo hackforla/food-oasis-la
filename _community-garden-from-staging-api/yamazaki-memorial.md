@@ -11,6 +11,7 @@ latitude: '34.054261'
 longitude: '-118.299262'
 category: Community Garden
 hours: []
+website: ''
 title: 'Yamazaki Memorial Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/yamazaki-memorial/
 

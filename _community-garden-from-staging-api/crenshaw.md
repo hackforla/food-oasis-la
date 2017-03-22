@@ -11,6 +11,7 @@ latitude: '34.046196'
 longitude: '-118.327627'
 category: Community Garden
 hours: []
+website: ''
 title: 'Crenshaw Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/crenshaw/
 

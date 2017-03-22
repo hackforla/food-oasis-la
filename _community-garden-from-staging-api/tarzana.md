@@ -11,6 +11,7 @@ latitude: '34.183843'
 longitude: '-118.540669'
 category: Community Garden
 hours: []
+website: ''
 title: 'Tarzana Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/tarzana/
 

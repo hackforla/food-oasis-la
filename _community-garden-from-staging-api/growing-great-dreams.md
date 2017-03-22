@@ -11,6 +11,7 @@ latitude: '34.011177'
 longitude: '-118.272696'
 category: Community Garden
 hours: []
+website: ''
 title: 'Growing Great Dreams, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/growing-great-dreams/
 

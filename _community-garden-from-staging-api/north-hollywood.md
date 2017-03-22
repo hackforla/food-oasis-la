@@ -11,6 +11,7 @@ latitude: '34.166854'
 longitude: '-118.390595'
 category: Community Garden
 hours: []
+website: ''
 title: 'North Hollywood Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/north-hollywood/
 

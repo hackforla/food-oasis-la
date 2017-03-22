@@ -11,6 +11,7 @@ latitude: '34.229619'
 longitude: '-118.424512'
 category: Community Garden
 hours: []
+website: ''
 title: 'Arleta Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/arleta/
 

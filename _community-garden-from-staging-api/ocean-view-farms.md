@@ -11,6 +11,7 @@ latitude: '34.014729'
 longitude: '-118.441930'
 category: Community Garden
 hours: []
+website: ''
 title: 'Ocean View Farms, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/ocean-view-farms/
 

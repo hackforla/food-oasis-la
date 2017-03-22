@@ -11,6 +11,7 @@ latitude: '34.101991'
 longitude: '-118.355012'
 category: Community Garden
 hours: []
+website: ''
 title: 'Wattles Farm, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/wattles-farm/
 

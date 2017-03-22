@@ -11,6 +11,7 @@ latitude: '33.900159'
 longitude: '-118.285232'
 category: Community Garden
 hours: []
+website: ''
 title: 'Rosecrans Farms, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/rosecrans-farms/
 

@@ -11,6 +11,7 @@ latitude: '34.108472'
 longitude: '-118.193544'
 category: Community Garden
 hours: []
+website: ''
 title: 'Milagro Allegro Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/milagro-allegro/
 

@@ -113,6 +113,7 @@ function generateCollection(data_name, data_category) {
 var communityGardens = generateCollection('community-garden', 'Community Garden');
 var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
 var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
+var supermarkets     = generateCollection('supermarket', 'Supermarket');
 
 var ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {
@@ -184,11 +185,12 @@ generatePages('Healthy Food', 'locations', communityGardens.length + foodPantrie
 generatePages('Community Gardens', 'community-garden', communityGardens.length, 'lime');
 generatePages('Food Pantries', 'food-pantry', foodPantries.length, 'canteloupe');
 generatePages('Farmers’ Markets', 'farmers-market', farmersMarkets.length, 'strawberry');
+generatePages('Supermarkets', 'supermarket', supermarkets.length, 'strawberry');
 
 function generateLocationJSON() {
   var writePath = '../_data';
 
-  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets));
+  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets)));
   locations = locations.sort(function(a, b) {
     if (a.name < b.name) {
       return -1;
@@ -215,7 +217,7 @@ function generateLocationJSON() {
   });
 }
 
-generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets)), 'generated-locations-for-jekyll.json');
+generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets))), 'generated-locations-for-jekyll.json');
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118

@@ -11,6 +11,7 @@ latitude: '34.097225'
 longitude: '-118.242967'
 category: Community Garden
 hours: []
+website: ''
 title: 'Elysian Valley Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/elysian-valley/
 

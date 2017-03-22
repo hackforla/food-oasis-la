@@ -11,6 +11,7 @@ latitude: '34.224756'
 longitude: '-118.489646'
 category: Community Garden
 hours: []
+website: ''
 title: 'Van Nuys Garden Center, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/van-nuys-garden-center/
 

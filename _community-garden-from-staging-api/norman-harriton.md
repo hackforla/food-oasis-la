@@ -11,6 +11,7 @@ latitude: '34.104142'
 longitude: '-118.278653'
 category: Community Garden
 hours: []
+website: ''
 title: 'Norman Harriton Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/norman-harriton/
 

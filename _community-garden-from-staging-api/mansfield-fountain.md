@@ -11,6 +11,7 @@ latitude: '34.093613'
 longitude: '-118.340502'
 category: Community Garden
 hours: []
+website: ''
 title: 'Mansfield Fountain Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/mansfield-fountain/
 

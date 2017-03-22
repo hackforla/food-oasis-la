@@ -11,6 +11,7 @@ latitude: '34.031341'
 longitude: '-118.215340'
 category: Community Garden
 hours: []
+website: ''
 title: 'Mothers of East LA Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/mothers-of-east-la/
 

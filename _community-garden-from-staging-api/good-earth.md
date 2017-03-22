@@ -11,6 +11,7 @@ latitude: '34.030389'
 longitude: '-118.367678'
 category: Community Garden
 hours: []
+website: ''
 title: 'Good Earth Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/good-earth/
 

@@ -11,6 +11,7 @@ latitude: '33.926443'
 longitude: '-118.262999'
 category: Community Garden
 hours: []
+website: ''
 title: 'Greater Watts Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/greater-watts/
 

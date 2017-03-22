@@ -280,6 +280,14 @@ map.on('load', function() {
 			iconAnchor: [15, 40],
 			popupAnchor: [0, -23]
 		},
+		'Supermarket': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker',
+			// Set marker width and height
+			iconSize: [30, 46],
+			iconAnchor: [15, 40],
+			popupAnchor: [0, -23]
+		},
 		'Community Garden': {
 			// Specify a class name we can refer to in CSS.
 			className: 'community-garden-marker',
@@ -300,6 +308,14 @@ map.on('load', function() {
 
 	var activeMarkerOptions = {
 		'Farmers Market': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker-active',
+			// Set marker width and height
+			iconSize: [42, 70],
+			iconAnchor: [21, 70],
+			popupAnchor: [0, -35]
+		},
+		'Supermarket': {
 			// Specify a class name we can refer to in CSS.
 			className: 'farmers-market-marker-active',
 			// Set marker width and height

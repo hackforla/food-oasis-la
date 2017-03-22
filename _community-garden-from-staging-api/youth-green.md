@@ -11,6 +11,7 @@ latitude: '34.257773'
 longitude: '-118.404668'
 category: Community Garden
 hours: []
+website: ''
 title: 'Youth Green Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/youth-green/
 

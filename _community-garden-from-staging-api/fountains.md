@@ -11,6 +11,7 @@ latitude: '34.094742'
 longitude: '-118.311782'
 category: Community Garden
 hours: []
+website: ''
 title: 'Fountain Community Gardens, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/fountains/
 

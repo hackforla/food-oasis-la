@@ -11,6 +11,7 @@ latitude: '34.171943'
 longitude: '-118.586749'
 category: Community Garden
 hours: []
+website: ''
 title: 'Parkman Gardens, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/parkman-gardens/
 

@@ -11,6 +11,7 @@ latitude: '34.254750'
 longitude: '-118.603903'
 category: Community Garden
 hours: []
+website: ''
 title: 'Rosemary & Thyme Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/rosemary-thyme/
 

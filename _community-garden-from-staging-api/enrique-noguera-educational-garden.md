@@ -11,6 +11,7 @@ latitude: '34.094355'
 longitude: '-118.333714'
 category: Community Garden
 hours: []
+website: ''
 title: 'Enrique Noguera Educational Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/enrique-noguera-educational-garden/
 

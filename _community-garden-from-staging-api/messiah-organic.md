@@ -11,6 +11,7 @@ latitude: '33.959693'
 longitude: '-118.422549'
 category: Community Garden
 hours: []
+website: ''
 title: 'Messiah Organic Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/messiah-organic/
 

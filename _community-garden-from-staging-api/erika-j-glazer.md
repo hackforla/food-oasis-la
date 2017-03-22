@@ -11,6 +11,7 @@ latitude: '34.031700'
 longitude: '-118.298016'
 category: Community Garden
 hours: []
+website: ''
 title: 'Erika J. Glazer Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/erika-j-glazer/
 

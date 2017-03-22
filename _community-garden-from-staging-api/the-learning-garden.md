@@ -11,6 +11,7 @@ latitude: '34.042905'
 longitude: '-118.282220'
 category: Community Garden
 hours: []
+website: ''
 title: 'The Learning Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/the-learning-garden/
 

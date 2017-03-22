@@ -11,6 +11,7 @@ latitude: '33.934176'
 longitude: '-118.263771'
 category: Community Garden
 hours: []
+website: ''
 title: 'Stanford Avalon Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/stanford-avalon/
 

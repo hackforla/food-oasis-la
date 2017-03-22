@@ -53,6 +53,12 @@ defaults:
       color: strawberry
   - scope:
       path: ""
+      type: supermarket
+    values:
+      layout: location-details
+      color: strawberry
+  - scope:
+      path: ""
       type: food-pantry
     values:
       layout: location-details
@@ -72,6 +78,9 @@ collections:
   farmers-market:
     output: true
     permalink: /farmers-market/:path/
+  supermarket:
+    output: true
+    permalink: /supermarket/:path/
   food-pantry:
     output: true
     permalink: /food-pantry/:path/

@@ -11,6 +11,7 @@ latitude: '33.963433'
 longitude: '-118.406470'
 category: Community Garden
 hours: []
+website: ''
 title: 'Holy Nativity Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/holy-nativity/
 

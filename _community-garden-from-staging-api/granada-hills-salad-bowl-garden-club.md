@@ -11,6 +11,7 @@ latitude: '34.279178'
 longitude: '-118.480809'
 category: Community Garden
 hours: []
+website: ''
 title: 'Granada Hills Salad Bowl Garden Club, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/granada-hills-salad-bowl-garden-club/
 

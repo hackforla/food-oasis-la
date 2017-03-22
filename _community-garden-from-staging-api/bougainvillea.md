@@ -11,6 +11,7 @@ latitude: '33.942568'
 longitude: '-118.258870'
 category: Community Garden
 hours: []
+website: ''
 title: 'Bougainvillea Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/bougainvillea/
 

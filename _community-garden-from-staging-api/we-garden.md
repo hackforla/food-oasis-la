@@ -11,6 +11,7 @@ latitude: '33.992116'
 longitude: '-118.472189'
 category: Community Garden
 hours: []
+website: ''
 title: 'WE Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/we-garden/
 

@@ -11,6 +11,7 @@ latitude: '33.969234'
 longitude: '-118.404763'
 category: Community Garden
 hours: []
+website: ''
 title: 'Emerson Avenue Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/emerson-avenue/
 

@@ -11,6 +11,7 @@ latitude: '34.093482'
 longitude: '-118.280907'
 category: Community Garden
 hours: []
+website: ''
 title: 'Manzanita Street Community Garden, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/manzanita-street/
 

@@ -11,6 +11,7 @@ latitude: '34.091733'
 longitude: '-118.234039'
 category: Community Garden
 hours: []
+website: ''
 title: 'Jardin Del Rio, Food Oasis Los Angeles'
 uri: /community-garden-from-staging-api/jardin-del-rio/
 
