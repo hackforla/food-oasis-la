@@ -524,8 +524,6 @@ if (map) addYouAreHere([longitude, latitude]);
 
 bounds.unshift([longitude, latitude]);
 
-bounds = bounds.slice(0, 5);
-
 if (map) {
 	map.setZoom(15);
 	map.setCenter([longitude, latitude]);
