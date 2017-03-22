@@ -1222,7 +1222,7 @@
 			margin-right: auto;
 			margin-bottom: 3em;
 		}
-		
+
 	}
 	@media (min-width: 40em) {
 		.home .categories section {
@@ -1864,3 +1864,8 @@
 		}
 	}
 
+	/* =Utility (utility classes)
+	----------------------------------------------- */
+	.hidden {
+  	display: none !important;
+	}
