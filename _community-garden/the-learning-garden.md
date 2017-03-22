@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90006'
 phone: (310) 722-3656
-latitude: '34.04290510900006'
-longitude: '-118.28222053399998'
+latitude: '34.04290511'
+longitude: '-118.2822205'
 category: Community Garden
 website: 'http://www.thelearninggarden.org/'
 active: 'Y'

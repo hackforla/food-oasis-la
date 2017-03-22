@@ -11,15 +11,17 @@ latitude: '34.1709'
 longitude: '-118.5897'
 website: >-
   https://thrive.kaiserpermanente.org/care-near-you/southern-california/woodland-hills/shc_calendar_event/farmers-market/
-day: Thu
-open: '900'
-close: '1500'
-'': ''
+daycode1: Thu
+day1_open: '900'
+day1_close: '1500'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Kaiser Medical Center Woodland Hills, Food Oasis Los Angeles'
 uri: /farmers-market/kaiser-medical-center-woodland-hills/
-formatted_day: Thursday
-formatted_open: 9am
-formatted_close: 3pm
+formatted_daycode1: Thursday
+formatted_day1_open: 9am
+formatted_day1_close: 3pm
 
 ---

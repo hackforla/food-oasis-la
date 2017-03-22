@@ -6,8 +6,8 @@ city: San Pedro
 state: CA
 zipcode: '90731'
 phone: ''
-latitude: '33.73126012100005'
-longitude: '-118.29234678599994'
+latitude: '33.73126012'
+longitude: '-118.2923468'
 category: Community Garden
 website: ''
 active: 'Y'

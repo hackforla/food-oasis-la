@@ -6,20 +6,22 @@ address_2: ''
 city: Hollywood
 state: California
 zipcode: '90028'
-phone: (323) 463-3171
+phone: (323)463-3171
 latitude: '38.5706'
 longitude: '-121.448'
 website: >-
   https://www.facebook.com/pg/CentralAvenueFarmersMarket/about/?ref=page_internal
-day: Thu
-open: '1000'
-close: '1500'
-'': ''
+daycode1: Thu
+day1_open: '1000'
+day1_close: '1500'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'L.A. Central Avenue Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/l-a-central-avenue/
-formatted_day: Thursday
-formatted_open: 10am
-formatted_close: 3pm
+formatted_daycode1: Thursday
+formatted_day1_open: 10am
+formatted_day1_close: 3pm
 
 ---

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90039'
 phone: ''
-latitude: '34.09722482600006'
-longitude: '-118.24296690099999'
+latitude: '34.09722483'
+longitude: '-118.2429669'
 category: Community Garden
 website: 'http://lagardencouncil.org/elysianvalley/'
 active: 'Y'

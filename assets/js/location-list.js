@@ -1,11 +1,25 @@
-(function() {
+// deselects marker if blank on map is clicked
+var mapContainer = document.getElementById('map');
+mapContainer.addEventListener('click', function(e){
+	var target = e.target.getAttribute('class');
+	if (target === 'mapboxgl-canvas') {
+		var activeMarker = document.getElementsByClassName("active")[0]
+		activeMarker.classList.remove('active')
 
-	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
+		var summary = document.getElementById('map-location-summary');
+		summary.innerHTML = '';
+
+		document.body.classList.remove('has-map-location-summary');
+	}
+});
+
+(function() {
+	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
 	function getParameterByName(name, url) {
 		if (!url) url = window.location.href;
 		name = name.replace(/[\[\]]/g, "\\$&");
 		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
+		results = regex.exec(url);
 		if (!results) return null;
 		if (!results[2]) return '';
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
@@ -17,7 +31,7 @@
 	};
 
 	var INFINITY = 9999999;
-	function getDistanceForPresentation(kilometers) {	
+	function getDistanceForPresentation(kilometers) {
 		if (kilometers === INFINITY) return 'unknown';
 
 		var miles = kilometers / 1.609; // kilometers per mile
@@ -63,27 +77,27 @@
 				});
 
 			// Else if automatic geolocation is available
-			} else if ("geolocation" in navigator) {
+		} else if ("geolocation" in navigator) {
 
-				if (foodSourcesList) foodSourcesList.classList.add('sorting');
-				navigator.geolocation.getCurrentPosition(function(position) {
+			if (foodSourcesList) foodSourcesList.classList.add('sorting');
+			navigator.geolocation.getCurrentPosition(function(position) {
 
-					sortByClosest(position.coords.latitude, position.coords.longitude, true);
-					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'you';
+				sortByClosest(position.coords.latitude, position.coords.longitude, true);
+				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+				if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'you';
 
-				}, function() {
-					console.error("Unable to retrieve your location");
-					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
-					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
-				});
-			} else {
+			}, function() {
+				console.error("Unable to retrieve your location");
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 				if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
-			}
+			});
+		} else {
+			sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
+			if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+			if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
 		}
+	}
 
 		// http://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-in-javascript#12830454#answer-25075575
 		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Decimal_rounding
@@ -96,7 +110,7 @@
 			 * @param {Integer} exp   The exponent (the 10 logarithm of the adjustment base).
 			 * @returns {Number} The adjusted value.
 			 */
-			function decimalAdjust(type, value, exp) {
+			 function decimalAdjust(type, value, exp) {
 				// If the exp is undefined or zero...
 				if (typeof exp === 'undefined' || +exp === 0) {
 					return Math[type](value);
@@ -181,13 +195,13 @@
 		function getDistanceInKilometers_Haversine(lat1, lon1, lat2, lon2) {
 			var R = 6371; // Radius of the earth in km
 			var dLat = deg2rad(lat2-lat1);
-			var dLon = deg2rad(lon2-lon1); 
-			var a = 
-				Math.sin(dLat/2) * Math.sin(dLat/2) +
-				Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
-				Math.sin(dLon/2) * Math.sin(dLon/2)
-				; 
-			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+			var dLon = deg2rad(lon2-lon1);
+			var a =
+			Math.sin(dLat/2) * Math.sin(dLat/2) +
+			Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+			Math.sin(dLon/2) * Math.sin(dLon/2)
+			;
+			var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 			var d = R * c; // Distance in km
 			return d;
 		}
@@ -211,8 +225,8 @@
 			zoomControl: false//,
 			//scrollWheelZoom: false
 		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 14);
-		*/
-		map = new mapboxgl.Map({
+*/
+map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/mapbox/basic-v9',
 			//style: 'mapbox://styles/mapbox/streets-v9',
@@ -223,9 +237,9 @@
 		L.control.zoom({
 			position:'topright'
 		}).addTo(map);
-		*/
+*/
 
-		map.on('load', function() {
+map.on('load', function() {
 
 			// Add a zoom control
 			map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
@@ -254,7 +268,7 @@
 				});
 			}
 		});
-	}
+}
 
 	// Define the icons
 	var markerOptions = {
@@ -322,51 +336,51 @@
 
 		return L.marker(coordinates, { icon: icon })
 			.addTo(map);
-		*/
+			*/
 
-		var template = document.getElementById('you-are-here-template');
+			var template = document.getElementById('you-are-here-template');
 
-		var marker = document.createElement('div');
-		marker.innerHTML = template.innerHTML;
+			var marker = document.createElement('div');
+			marker.innerHTML = template.innerHTML;
 
-		return new mapboxgl.Marker(marker)
+			return new mapboxgl.Marker(marker)
 			.setLngLat(coordinates)
 			.addTo(map);
-	}
-
-	var markerResetMethods = [];
-	function resetMarkers() {
-		for (var index = 0; index < markerResetMethods.length; index++) {
-			markerResetMethods[index]();
 		}
-	}
 
-	function createMarker(options, data) {
-		var marker = document.createElement('div');
-		marker.className = 'marker ' + options.className;
-		var span = document.createElement('span');
-		span.textContent = data.name;
-		span.className = 'marker-label';
-		marker.appendChild(span);
-		return marker;
-	}
-
-	var currentMarker;
-	function addMarkers(locations, geolocated, latitude, longitude) {
-		var limit = getParameterByName('limit') || itemsPerPage;
-		if (!limit) {
-			limit = 10;
+		var markerResetMethods = [];
+		function resetMarkers() {
+			for (var index = 0; index < markerResetMethods.length; index++) {
+				markerResetMethods[index]();
+			}
 		}
-		limit = Number(limit);
-		var start = window.listOffset || 0;
-		limit += start;
-		if (limit >= locations.length) limit = locations.length;
-		var bounds = [];
-		var tooltips = [];
 
-		if (map) {
-			for (var index = start; index < locations.length && index < limit; index++) {
-				(function(location) {
+		function createMarker(options, data) {
+			var marker = document.createElement('div');
+			marker.className = 'marker ' + options.className;
+			var span = document.createElement('span');
+			span.textContent = data.name;
+			span.className = 'marker-label';
+			marker.appendChild(span);
+			return marker;
+		}
+
+		var currentMarker;
+		function addMarkers(locations, geolocated, latitude, longitude) {
+			var limit = getParameterByName('limit') || itemsPerPage;
+			if (!limit) {
+				limit = 10;
+			}
+			limit = Number(limit);
+			var start = window.listOffset || 0;
+			limit += start;
+			if (limit >= locations.length) limit = locations.length;
+			var bounds = [];
+			var tooltips = [];
+
+			if (map) {
+				for (var index = start; index < locations.length && index < limit; index++) {
+					(function(location) {
 					/*
 					var icon = icons[location.category];
 					var coordinates = [
@@ -393,15 +407,15 @@
 
 					var options = markerOptions[location.category];
 					var coordinates = [
-						location.longitude,
-						location.latitude
+					location.longitude,
+					location.latitude
 					];
 
 					var marker = createMarker(options, location);
 
 					new mapboxgl.Marker(marker)
-						.setLngLat(coordinates)
-						.addTo(map);
+					.setLngLat(coordinates)
+					.addTo(map);
 
 					function showLocationSummary() {
 						var item = createListItem(location, 'div');
@@ -415,10 +429,10 @@
 							bounds.push(coordinates);
 							map.fitBounds(bounds);
 						}, 100);
-						*/
-					}
+*/
+}
 
-					marker.addEventListener('click', function(e) {
+marker.addEventListener('click', function(e) {
 						//resetMarkers();
 						//var icon = activeIcons[location.category];
 						//marker.setIcon(icon);
@@ -428,12 +442,12 @@
 						showLocationSummary();
 					});
 
-					markerResetMethods.push(function() {
-						var icon = icons[location.category];
-						marker.setIcon(icon);
-					});
+markerResetMethods.push(function() {
+	var icon = icons[location.category];
+	marker.setIcon(icon);
+});
 
-					bounds.push(coordinates);
+bounds.push(coordinates);
 					//tooltips.push(tooltip);
 				})(locations[index]);
 			}
@@ -481,51 +495,52 @@
 				}
 
 			})();
-			*/
+*/
 
-			setTimeout(function() {
-				updateMarkerLabels();
-			}, 100);
+setTimeout(function() {
+	updateMarkerLabels();
+}, 100);
 
-			map.on('zoomend', updateMarkerLabels);
-		}
+map.on('zoomend', updateMarkerLabels);
+}
 
-		if (map) addYouAreHere([longitude, latitude]);
+if (map) addYouAreHere([longitude, latitude]);
 
-		bounds.unshift([longitude, latitude]);
+bounds.unshift([longitude, latitude]);
 
-		bounds = bounds.slice(0, 5);
+bounds = bounds.slice(0, 5);
 
-		if (map) {
-			map.setZoom(15);
-			map.setCenter([longitude, latitude]);
+if (map) {
+	map.setZoom(15);
+	map.setCenter([longitude, latitude]);
 
-			var mapLngLatBounds = new mapboxgl.LngLatBounds();
+	var mapLngLatBounds = new mapboxgl.LngLatBounds();
 
-			bounds.forEach(function(coordinates) {
-				mapLngLatBounds.extend(coordinates);
-			});
+	bounds.forEach(function(coordinates) {
+		mapLngLatBounds.extend(coordinates);
+	});
 
-			map.fitBounds(mapLngLatBounds, { padding: 20 });
-		}
+	map.fitBounds(mapLngLatBounds, { padding: 20 });
+}
 
 		/*
 		map.on('zoomend', function() {
 			var currentZoom = map.getZoom();
 			myMarker.setRadius(currentZoom);
 		});
-		*/
-	}
+*/
+}
 
-	var DAYS_OF_WEEK = [
-		'Sun',
-		'Mon',
-		'Tue',
-		'Wed',
-		'Thu',
-		'Fri',
-		'Sat'
-	];
+
+var DAYS_OF_WEEK = [
+'Sun',
+'Mon',
+'Tue',
+'Wed',
+'Thu',
+'Fri',
+'Sat'
+];
 	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
 		var hours   = Number(timeString.substring(0, timeString.length - 2));
 		var minutes = Number(timeString.substring(timeString.length - 2));
@@ -545,7 +560,7 @@
 				nowSeconds > getSeconds(data.open) &&
 				nowSeconds < getSeconds(data.close) ) {
 				return true;
-			}
+		}
 
 			// TBD: Should we show a special notice if it’s opening soon or closing soon?
 		}

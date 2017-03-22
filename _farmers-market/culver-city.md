@@ -10,15 +10,17 @@ phone: ''
 latitude: '34.0247'
 longitude: '-118.396'
 website: 'http://www.culvercity.org/live/get-involved/farmers-market'
-day: Tue
-open: '1400'
-close: '1900'
-'': ''
+daycode1: Tue
+day1_open: '1400'
+day1_close: '1900'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Culver City Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/culver-city/
-formatted_day: Tuesday
-formatted_open: 2pm
-formatted_close: 7pm
+formatted_daycode1: Tuesday
+formatted_day1_open: 2pm
+formatted_day1_close: 7pm
 
 ---

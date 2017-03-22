@@ -6,8 +6,8 @@ city: West Hills
 state: CA
 zipcode: '91304'
 phone: ''
-latitude: '34.219132785000056'
-longitude: '-118.64119895299996'
+latitude: '34.21913279'
+longitude: '-118.641199'
 category: Community Garden
 website: ''
 active: 'Y'

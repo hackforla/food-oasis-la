@@ -6,19 +6,21 @@ address_2: 'Inside City Place Shopping Center, on Promenade north between 3rd an
 city: Long Beach
 state: California
 zipcode: '90805'
-phone: (866) 466-3834
+phone: (866)466-3834
 latitude: '33.773432'
 longitude: '-118.169951'
 website: 'https://www.goodveg.org/friday-long-beach-downtown'
-day: Fri
-open: '1000'
-close: '1400'
-'': ''
+daycode1: Fri
+day1_open: '1000'
+day1_close: '1400'
+daycode2: ''
+day2_open: ''
+day2_close: ''
 category: Farmers Market
 title: 'Long Beach Downtown CFM, Food Oasis Los Angeles'
 uri: /farmers-market/long-beach-downtown-cfm/
-formatted_day: Friday
-formatted_open: 10am
-formatted_close: 2pm
+formatted_daycode1: Friday
+formatted_day1_open: 10am
+formatted_day1_close: 2pm
 
 ---

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zipcode: '90003'
 phone: 213-572-0188
-latitude: '33.968167884000025'
-longitude: '-118.26519727599998'
+latitude: '33.96816788'
+longitude: '-118.2651973'
 category: Community Garden
 website: 'http://www.fremontwccg.org/'
 active: 'Y'

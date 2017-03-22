@@ -688,6 +688,7 @@
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		position: relative;
 		z-index: 1;
+		/*padding-left:0.5em !important;*/
 	}
 	nav .filter,
 	nav .view {
@@ -1429,8 +1430,8 @@
 		height: 100%;
 		width: 1.5em;
 		position: absolute;
-		padding-left: 0.375em;
-		padding-right: 0.375em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
 		top: 0;
 		right: 0;
 	}
@@ -1895,6 +1896,7 @@
 	
 	-webkit-user-select: none;
 	user-select: none;
+	margin-left: -1.5em;
 	}
 
 	#menuToggle input
@@ -1980,7 +1982,7 @@
 	position: absolute;
 	width: 300px;
 	margin: -100px 0 0 -58px;
-	padding: 125px 50px 50px 50px;
+	padding: 125px 50px 50px 70px;
 	height:100vh;
 
 	background: rgb(241,241,241);
@@ -1999,6 +2001,10 @@
 	font-size: 22px;
 	}
 
+	#menu a.small li{
+		font-size:18px;
+		color:gray;
+	}
 	/*
 	* fade in from left
 	*/
@@ -2014,5 +2020,28 @@
   margin-right:3px;
   color: white;
   border-radius: 4px;
+  font-weight: bold;
+
   }
 
+a.donate-button{
+	background-color: rgb(144, 194, 70);
+	padding: 15px 20px;
+	color: white;
+	border-radius: 4px;
+	width:50%;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+.home a.donate-button{
+background: rgb(241, 95, 91); 
+
+}
+
+
+a.donate-button:hover{
+		background-color: rgb(124, 174, 50);
+
+
+}	

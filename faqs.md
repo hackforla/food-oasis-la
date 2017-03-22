@@ -19,6 +19,7 @@ color: grape
 [How can policy makers help address/eliminate food deserts?](#question9) <br>
 [What will happen if food deserts are not eliminated?](#question10) <br>
 [What is not in the map?](#question11) <br>
+[How can I support this project?](#question12)<br>
 
 
 <h2> <a name="question1"></a> What is a food desert? </h2>
@@ -70,3 +71,6 @@ Coming soon.
 
 <h2> <a name="question11"></a> What is not in the map? </h2>
 See our [Resources page](/resources/) for additional information.
+
+<h2> <a name="question12"></a> How can I support this project?</h2>
+<p >We are a volunteer-based project. We would love your donation! Please make sure to choose "Los Angeles Brigade" and make it in honor of "Food Oasis LA" with the email address info@foodoasis.la. <br/><br/><a class="donate-button" href="https://www.codeforamerica.org/donate" target="_blank">Donate </a></p>
