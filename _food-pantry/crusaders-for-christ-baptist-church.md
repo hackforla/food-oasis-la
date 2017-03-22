@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '3:30 PM'
-day1_close: '5:00 PM'
+day1_open: '1530'
+day1_close: '1700'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Crusaders for Christ Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/crusaders-for-christ-baptist-church/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '3:30pm'
+formatted_day1_close: 5pm
 
 ---

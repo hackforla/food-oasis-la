@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri2nd
-day1_open: '9:30'
-day1_close: '10:30'
+day1_open: '930'
+day1_close: '1030'
 daycode2: Fri4th
-day2_open: '9:30'
-day2_close: '10:30'
+day2_open: '930'
+day2_close: '1030'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Grace Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/grace-presbyterian-church/
-formatted_day1_open: 'NaN:30am'
-formatted_day1_close: 'NaN:30am'
+formatted_day1_open: '9:30am'
+formatted_day1_close: '10:30am'
 
 ---

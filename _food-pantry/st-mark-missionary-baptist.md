@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '8:00 AM'
-day1_close: '10:00 AM'
+day1_open: '800'
+day1_close: '1000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. Mark Missionary Baptist, Food Oasis Los Angeles'
 uri: /food-pantry/st-mark-missionary-baptist/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 8am
+formatted_day1_close: 10am
 
 ---

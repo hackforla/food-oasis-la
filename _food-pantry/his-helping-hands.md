@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu2nd
-day1_open: '6:00 PM'
-day1_close: '7:00 PM'
+day1_open: '1800'
+day1_close: '1900'
 daycode2: Thu4th
-day2_open: '6:00 PM'
-day2_close: '7:00 PM'
+day2_open: '1800'
+day2_close: '1900'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'His Helping Hands, Food Oasis Los Angeles'
 uri: /food-pantry/his-helping-hands/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 6pm
+formatted_day1_close: 7pm
 
 ---

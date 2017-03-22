@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: SunLast
-day1_open: '10:00 AM'
-day1_close: '12:30 PM'
+day1_open: '1000'
+day1_close: '1230'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'First United Methodist Church of La Puente, Food Oasis Los Angeles'
 uri: /food-pantry/first-united-methodist-church-of-la-puente/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: '12:30pm'
 
 ---

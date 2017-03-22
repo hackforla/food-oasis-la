@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '10:00 AM'
-day1_close: '11:00 AM'
+day1_open: '1000'
+day1_close: '1100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Childrens Hospital Los Angeles, Food Oasis Los Angeles'
 uri: /food-pantry/childrens-hospital-los-angeles/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 10am
+formatted_day1_close: 11am
 
 ---

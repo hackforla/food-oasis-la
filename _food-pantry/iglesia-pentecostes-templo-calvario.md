@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '1:00 PM'
-day1_close: '3:00 PM'
+day1_open: '1300'
+day1_close: '1500'
 daycode2: Tue
-day2_open: '7:00 PM'
-day2_close: '9:00 PM'
+day2_open: '1900'
+day2_close: '2100'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Iglesia Pentecostes Templo Calvario, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-pentecostes-templo-calvario/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: 3pm
 
 ---

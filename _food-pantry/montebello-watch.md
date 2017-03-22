@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '3:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1500'
+day1_close: '1800'
 daycode2: Wed
-day2_open: '3:00 PM'
-day2_close: '6:00 PM'
+day2_open: '1500'
+day2_close: '1800'
 daycode3: Thu
-day3_open: '3:00 PM'
-day3_close: '6:00 PM'
+day3_open: '1500'
+day3_close: '1800'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Montebello Watch, Food Oasis Los Angeles'
 uri: /food-pantry/montebello-watch/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 3pm
+formatted_day1_close: 6pm
 
 ---

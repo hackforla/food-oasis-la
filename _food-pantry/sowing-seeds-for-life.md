@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed1st
-day1_open: '11:00 AM'
-day1_close: '4:00 PM'
+day1_open: '1100'
+day1_close: '1600'
 daycode2: Wed3rd
-day2_open: '11:00 AM'
-day2_close: '4:00 PM'
+day2_open: '1100'
+day2_close: '1600'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Sowing Seeds for Life, Food Oasis Los Angeles'
 uri: /food-pantry/sowing-seeds-for-life/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 11am
+formatted_day1_close: 4pm
 
 ---

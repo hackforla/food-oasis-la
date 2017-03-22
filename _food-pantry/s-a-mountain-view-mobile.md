@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue2nd
-day1_open: '12:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1200'
+day1_close: '1400'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'S.A. Mountain View Mobile, Food Oasis Los Angeles'
 uri: /food-pantry/s-a-mountain-view-mobile/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 2pm
 
 ---

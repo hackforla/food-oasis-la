@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri3rd
-day1_open: '4:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1600'
+day1_close: '1800'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Hollywood West Tenant Action Committee, Food Oasis Los Angeles'
 uri: /food-pantry/hollywood-west-tenant-action-committee/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 4pm
+formatted_day1_close: 6pm
 
 ---

@@ -9,17 +9,17 @@ phone: (626)893-1236
 latitude: '33.9627706'
 longitude: '-118.0395279'
 category: Food Pantry
-website: 'http://familychurch.co/'
+website: http//familychurch.co/
 '': ''
 daycode1: Sun
-day1_open: '10:15 AM'
-day1_close: '10:45 AM'
+day1_open: '1015'
+day1_close: '1045'
 daycode2: Sun
-day2_open: '12:15 PM'
-day2_close: '12:30 PM'
+day2_open: '1215'
+day2_close: '1230'
 daycode3: Sun
-day3_open: '1:45 PM'
-day3_close: '2:15 PM'
+day3_open: '1345'
+day3_close: '1415'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Family Church Whittier, Food Oasis Los Angeles'
 uri: /food-pantry/family-church-whittier/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '10:15am'
+formatted_day1_close: '10:45am'
 
 ---

@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu2nd
-day1_open: '4:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1600'
+day1_close: '1800'
 daycode2: Thu4th
-day2_open: '4:00 PM'
-day2_close: '6:00 PM'
+day2_open: '1600'
+day2_close: '1800'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'St. George Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-george-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 4pm
+formatted_day1_close: 6pm
 
 ---

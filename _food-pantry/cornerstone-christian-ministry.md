@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '9:00 AM'
-day1_close: '10:00 AM'
+day1_open: '900'
+day1_close: '1000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Cornerstone Christian Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/cornerstone-christian-ministry/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: 10am
 
 ---

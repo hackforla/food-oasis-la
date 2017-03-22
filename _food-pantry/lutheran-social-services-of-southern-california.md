@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '10:00 AM'
-day1_close: '2:45 PM'
+day1_open: '1000'
+day1_close: '1445'
 daycode2: Wed
-day2_open: '10:00 AM'
-day2_close: '2:45 PM'
+day2_open: '1000'
+day2_close: '1445'
 daycode3: Thu
-day3_open: '10:00 AM'
-day3_close: '2:45 PM'
+day3_open: '1000'
+day3_close: '1445'
 daycode4: Fri
-day4_open: '10:00 AM'
-day4_close: '2:45 PM'
+day4_open: '1000'
+day4_close: '1445'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Lutheran Social Services of Southern California, Food Oasis Los Angeles'
 uri: /food-pantry/lutheran-social-services-of-southern-california/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: '2:45pm'
 
 ---

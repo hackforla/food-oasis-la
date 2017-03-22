@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '7:30 PM'
-day1_close: '9:00 PM'
+day1_open: '1930'
+day1_close: '2100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Iglesia Cristiana El Shaddai USA, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-cristiana-el-shaddai-usa/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '7:30pm'
+formatted_day1_close: 9pm
 
 ---

@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed3rd
-day1_open: '12:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1200'
+day1_close: '1600'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Jesus is the Answer Apostolic Church, Food Oasis Los Angeles'
 uri: /food-pantry/jesus-is-the-answer-apostolic-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 4pm
 
 ---

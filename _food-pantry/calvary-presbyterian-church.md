@@ -9,11 +9,11 @@ phone: (310)676-1144
 latitude: '33.9088461'
 longitude: '-118.3520296'
 category: Food Pantry
-website: 'http://www.calvaryhawthorne.org/Calendar.html'
+website: http//www.calvaryhawthorne.org/Calendar.html
 '': ''
 daycode1: Sat1st
-day1_open: '12:00 PM'
-day1_close: '3:00 PM'
+day1_open: '1200'
+day1_close: '1500'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Calvary Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/calvary-presbyterian-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 3pm
 
 ---

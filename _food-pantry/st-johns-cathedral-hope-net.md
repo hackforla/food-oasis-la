@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '7:00 AM'
-day1_close: '8:30 AM'
+day1_open: '700'
+day1_close: '830'
 daycode2: Thu
-day2_open: '7:00 AM'
-day2_close: '8:30 AM'
+day2_open: '700'
+day2_close: '830'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. John''s Cathedral-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/st-johns-cathedral-hope-net/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 7am
+formatted_day1_close: '8:30am'
 
 ---

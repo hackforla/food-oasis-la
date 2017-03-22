@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '6:30 PM'
-day1_close: '8:30 PM'
+day1_open: '1830'
+day1_close: '2030'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'La Voz Sylmar S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/la-voz-sylmar-s-d-a-church/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '6:30pm'
+formatted_day1_close: '8:30pm'
 
 ---

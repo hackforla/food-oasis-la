@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '5:00 PM'
-day1_close: '7:00 PM'
+day1_open: '1700'
+day1_close: '1900'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Corys Kitchen-New Beginnings, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-new-beginnings/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 5pm
+formatted_day1_close: 7pm
 
 ---

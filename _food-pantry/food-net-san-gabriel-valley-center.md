@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '8:30'
-day1_close: '10:30'
+day1_open: '830'
+day1_close: '1030'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Food Net-San Gabriel Valley Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-san-gabriel-valley-center/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:30am'
-formatted_day1_close: 'NaN:30am'
+formatted_day1_open: '8:30am'
+formatted_day1_close: '10:30am'
 
 ---

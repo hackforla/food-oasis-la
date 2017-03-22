@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '9:30 AM'
-day1_close: '11:00 AM'
+day1_open: '930'
+day1_close: '1100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Hope Chapel Lancaster, Food Oasis Los Angeles'
 uri: /food-pantry/hope-chapel-lancaster/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 11am
 
 ---

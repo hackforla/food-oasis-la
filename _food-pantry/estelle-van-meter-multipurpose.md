@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed1st
-day1_open: '10:30 AM'
-day1_close: '11:30 AM'
+day1_open: '1030'
+day1_close: '1130'
 daycode2: Wed3rd
-day2_open: '10:30 AM'
-day2_close: '11:30 AM'
+day2_open: '1030'
+day2_close: '1130'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Estelle Van Meter Multipurpose, Food Oasis Los Angeles'
 uri: /food-pantry/estelle-van-meter-multipurpose/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '10:30am'
+formatted_day1_close: '11:30am'
 
 ---

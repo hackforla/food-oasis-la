@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat2nd
-day1_open: '3:00 PM'
-day1_close: '3:45 PM'
+day1_open: '1500'
+day1_close: '1545'
 daycode2: Sat4th
-day2_open: '3:00 PM'
-day2_close: '4:45 PM'
+day2_open: '1500'
+day2_close: '1645'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Young Hwa United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/young-hwa-united-methodist-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 3pm
+formatted_day1_close: '3:45pm'
 
 ---

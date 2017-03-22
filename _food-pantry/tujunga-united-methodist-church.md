@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '11:00 AM'
-day1_close: '1:00 PM'
+day1_open: '1100'
+day1_close: '1300'
 daycode2: Fri
-day2_open: '11:00 AM'
-day2_close: '1:00 PM'
+day2_open: '1100'
+day2_close: '1300'
 daycode3: Sat2nd
-day3_open: '10:00 AM'
-day3_close: '12:00 PM'
+day3_open: '1000'
+day3_close: '1200'
 daycode4: Sat4th
-day4_open: '10:00 AM'
-day4_close: '12:00 PM'
+day4_open: '1000'
+day4_close: '1200'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Tujunga United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/tujunga-united-methodist-church/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 11am
+formatted_day1_close: 1pm
 
 ---

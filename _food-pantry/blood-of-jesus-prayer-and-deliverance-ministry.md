@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '3:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1500'
+day1_close: '1600'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Blood of Jesus Prayer and Deliverance Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/blood-of-jesus-prayer-and-deliverance-ministry/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 3pm
+formatted_day1_close: 4pm
 
 ---

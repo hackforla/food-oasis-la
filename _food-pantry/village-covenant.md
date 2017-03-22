@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '9:00 AM'
-day1_close: '3:00 PM'
+day1_open: '900'
+day1_close: '1500'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Village Covenant, Food Oasis Los Angeles'
 uri: /food-pantry/village-covenant/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 3pm
 
 ---

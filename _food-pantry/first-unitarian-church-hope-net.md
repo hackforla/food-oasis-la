@@ -9,11 +9,11 @@ phone: (213)389-1356
 latitude: '34.0574918'
 longitude: '-118.2904201'
 category: Food Pantry
-website: 'http://uula.org/'
+website: http//uula.org/
 '': ''
 daycode1: Sat
-day1_open: '8:00 AM'
-day1_close: '10:00 AM'
+day1_open: '800'
+day1_close: '1000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'First Unitarian Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/first-unitarian-church-hope-net/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 8am
+formatted_day1_close: 10am
 
 ---

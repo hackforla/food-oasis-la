@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '3:30 PM'
-day1_close: '5:30 PM'
+day1_open: '1530'
+day1_close: '1730'
 daycode2: Fri
-day2_open: '11:30 AM'
-day2_close: '1:30 PM'
+day2_open: '1130'
+day2_close: '1330'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Hollywood Community Housing, Food Oasis Los Angeles'
 uri: /food-pantry/hollywood-community-housing/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '3:30pm'
+formatted_day1_close: '5:30pm'
 
 ---

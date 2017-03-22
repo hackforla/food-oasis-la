@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '9:00 AM'
-day1_close: '4:00 PM'
+day1_open: '900'
+day1_close: '1600'
 daycode2: Wed
-day2_open: '9:00 AM'
-day2_close: '4:00 PM'
+day2_open: '900'
+day2_close: '1600'
 daycode3: Fri
-day3_open: '9:00 AM'
-day3_close: '4:00 PM'
+day3_open: '900'
+day3_close: '1600'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. Margaret''s Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-margarets-center/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 4pm
 
 ---

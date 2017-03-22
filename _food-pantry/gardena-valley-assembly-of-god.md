@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '12:30 PM'
-day1_close: '1:30 PM'
+day1_open: '1230'
+day1_close: '1330'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Gardena Valley Assembly of God, Food Oasis Los Angeles'
 uri: /food-pantry/gardena-valley-assembly-of-god/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '12:30pm'
+formatted_day1_close: '1:30pm'
 
 ---

@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri1st
-day1_open: '10:00 AM'
-day1_close: '1:00 PM'
+day1_open: '1000'
+day1_close: '1300'
 daycode2: Fri3rd
-day2_open: '10:00 AM'
-day2_close: '1:00 PM'
+day2_open: '1000'
+day2_close: '1300'
 daycode3: Sat1st
-day3_open: '10:00 AM'
-day3_close: '1:00 PM'
+day3_open: '1000'
+day3_close: '1300'
 daycode4: Sat3rd
-day4_open: '10:00 AM'
-day4_close: '1:00 PM'
+day4_open: '1000'
+day4_close: '1300'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Christian Association for Social Services, Food Oasis Los Angeles'
 uri: /food-pantry/christian-association-for-social-services/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: 1pm
 
 ---

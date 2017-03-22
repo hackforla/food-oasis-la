@@ -12,20 +12,20 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '9:00 AM'
-day1_close: '11:30 AM'
+day1_open: '900'
+day1_close: '1130'
 daycode2: Tue
-day2_open: '9:00 AM'
-day2_close: '11:30 AM'
+day2_open: '900'
+day2_close: '1130'
 daycode3: Wed
-day3_open: '9:00 AM'
-day3_close: '11:30 AM'
+day3_open: '900'
+day3_close: '1130'
 daycode4: Thu
-day4_open: '9:00 AM'
-day4_close: '11:30 AM'
+day4_open: '900'
+day4_close: '1130'
 daycode5: Fri
-day5_open: '9:00 AM'
-day5_close: '11:30 AM'
+day5_open: '900'
+day5_close: '1130'
 daycode6: ''
 day6_open: ''
 daycode7: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Salvation Army-Pasadena Tabernacle, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-pasadena-tabernacle/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: '11:30am'
 
 ---

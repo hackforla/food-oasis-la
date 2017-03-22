@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '9:30 AM'
-day1_close: '12:00 PM'
+day1_open: '930'
+day1_close: '1200'
 daycode2: Tue
-day2_open: '1:30 PM'
-day2_close: '3:30 PM'
+day2_open: '1330'
+day2_close: '1530'
 daycode3: Thu
-day3_open: '9:30 AM'
-day3_close: '12:00 PM'
+day3_open: '930'
+day3_close: '1200'
 daycode4: Thu
-day4_open: '1:30 PM'
-day4_close: '3:30 PM'
+day4_open: '1330'
+day4_close: '1530'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Helping In Services, Inc., Food Oasis Los Angeles'
 uri: /food-pantry/helping-in-services-inc-/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 12pm
 
 ---

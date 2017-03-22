@@ -9,11 +9,11 @@ phone: (213)384-2151
 latitude: '34.0582323'
 longitude: '-118.2886022'
 category: Food Pantry
-website: 'http://fbcofla.org/community-outreach/hope-net/'
+website: http//fbcofla.org/community-outreach/hope-net/
 '': ''
 daycode1: Fri
-day1_open: '8:00 AM'
-day1_close: '9:30 AM'
+day1_open: '800'
+day1_close: '930'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'First Baptist Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/first-baptist-church-hope-net/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 8am
+formatted_day1_close: '9:30am'
 
 ---

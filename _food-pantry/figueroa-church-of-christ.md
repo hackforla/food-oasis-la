@@ -9,11 +9,11 @@ phone: (323)753-2536
 latitude: '33.9908748'
 longitude: '-118.2822084'
 category: Food Pantry
-website: 'http://www.figueroacoc.com/'
+website: http//www.figueroacoc.com/
 '': ''
 daycode1: Tue
-day1_open: '7:30 AM'
-day1_close: '11:00 AM'
+day1_open: '730'
+day1_close: '1100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Figueroa Church of Christ, Food Oasis Los Angeles'
 uri: /food-pantry/figueroa-church-of-christ/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '7:30am'
+formatted_day1_close: 11am
 
 ---

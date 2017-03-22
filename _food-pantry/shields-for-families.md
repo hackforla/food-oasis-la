@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '10:00 AM'
-day1_close: '2:00 PM'
+day1_open: '1000'
+day1_close: '1400'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Shields for Families, Food Oasis Los Angeles'
 uri: /food-pantry/shields-for-families/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: 2pm
 
 ---

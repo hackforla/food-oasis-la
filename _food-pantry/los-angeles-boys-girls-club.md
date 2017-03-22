@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '5:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1700'
+day1_close: '1800'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Los Angeles Boys & Girls Club, Food Oasis Los Angeles'
 uri: /food-pantry/los-angeles-boys-girls-club/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 5pm
+formatted_day1_close: 6pm
 
 ---

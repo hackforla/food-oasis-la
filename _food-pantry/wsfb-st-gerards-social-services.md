@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '9:00 AM'
-day1_close: '12:00 PM'
+day1_open: '900'
+day1_close: '1200'
 daycode2: Tue
-day2_open: '1:00 PM'
-day2_close: '3:00 PM'
+day2_open: '1300'
+day2_close: '1500'
 daycode3: Thu
-day3_open: '1:00 PM'
-day3_close: '3:00 PM'
+day3_open: '1300'
+day3_close: '1500'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'WSFB- St. Gerard''s Social Services, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-st-gerards-social-services/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 12pm
 
 ---

@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun1st
-day1_open: '1:00 PM'
-day1_close: '1:30 PM'
+day1_open: '1300'
+day1_close: '1330'
 daycode2: Sun2nd
-day2_open: '1:00 PM'
-day2_close: '1:30 PM'
+day2_open: '1300'
+day2_close: '1330'
 daycode3: Sun3rd
-day3_open: '1:00 PM'
-day3_close: '1:30 PM'
+day3_open: '1300'
+day3_close: '1330'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Charismatic Ecumencial Ministries International, Food Oasis Los Angeles'
 uri: /food-pantry/charismatic-ecumencial-ministries-international/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: '1:30pm'
 
 ---

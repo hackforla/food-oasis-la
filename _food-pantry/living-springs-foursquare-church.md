@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed1st
-day1_open: '8:00 AM'
-day1_close: '10:00 AM'
+day1_open: '800'
+day1_close: '1000'
 daycode2: Wed3rd
-day2_open: '8:00 AM'
-day2_close: '10:00 AM'
+day2_open: '800'
+day2_close: '1000'
 daycode3: Wed4th
-day3_open: '8:00 AM'
-day3_close: '10:00 AM'
+day3_open: '800'
+day3_close: '1000'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Living Springs Foursquare Church, Food Oasis Los Angeles'
 uri: /food-pantry/living-springs-foursquare-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 8am
+formatted_day1_close: 10am
 
 ---

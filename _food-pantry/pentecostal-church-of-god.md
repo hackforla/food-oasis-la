@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '3:00 PM'
-day1_close: '5:00 PM'
+day1_open: '1500'
+day1_close: '1700'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Pentecostal Church of God, Food Oasis Los Angeles'
 uri: /food-pantry/pentecostal-church-of-god/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 3pm
+formatted_day1_close: 5pm
 
 ---

@@ -9,11 +9,11 @@ phone: (818)882-3474
 latitude: '34.2496259'
 longitude: '-118.5788499'
 category: Food Pantry
-website: 'http://chatsworthcongregational.church/'
+website: http//chatsworthcongregational.church/
 '': ''
 daycode1: Sat
-day1_open: '4:00 PM'
-day1_close: '5:00 PM'
+day1_open: '1600'
+day1_close: '1700'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Congregational Church of Chatsworth, Food Oasis Los Angeles'
 uri: /food-pantry/congregational-church-of-chatsworth/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 4pm
+formatted_day1_close: 5pm
 
 ---

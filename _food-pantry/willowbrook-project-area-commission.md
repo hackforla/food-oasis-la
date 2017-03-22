@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed3rd
-day1_open: '5:00 PM'
-day1_close: '7:00 PM'
+day1_open: '1700'
+day1_close: '1900'
 daycode2: Sat2nd
-day2_open: '10:00 AM'
-day2_close: '12:00 PM'
+day2_open: '1000'
+day2_close: '1200'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Willowbrook Project Area Commission, Food Oasis Los Angeles'
 uri: /food-pantry/willowbrook-project-area-commission/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 5pm
+formatted_day1_close: 7pm
 
 ---

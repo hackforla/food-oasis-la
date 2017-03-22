@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu2nd
-day1_open: '7:30 PM'
-day1_close: '8:15 PM'
+day1_open: '1930'
+day1_close: '2015'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Iglesia Piedra Angular, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-piedra-angular/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '7:30pm'
+formatted_day1_close: '8:15pm'
 
 ---

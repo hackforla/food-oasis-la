@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '7:30 PM'
-day1_close: '8:00 PM'
+day1_open: '1930'
+day1_close: '2000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Eastmont S.D.A. Spanish Church, Food Oasis Los Angeles'
 uri: /food-pantry/eastmont-s-d-a-spanish-church/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '7:30pm'
+formatted_day1_close: 8pm
 
 ---

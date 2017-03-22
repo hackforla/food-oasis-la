@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '7:30 AM'
-day1_close: '12:00 PM'
+day1_open: '730'
+day1_close: '1200'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Mexican-American Opportunity Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/mexican-american-opportunity-foundation/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '7:30am'
+formatted_day1_close: 12pm
 
 ---

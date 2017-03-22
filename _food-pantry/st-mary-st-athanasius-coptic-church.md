@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun3rd
-day1_open: '9:00 AM'
-day1_close: '2:00 PM'
+day1_open: '900'
+day1_close: '1400'
 daycode2: Tue3rd
-day2_open: '9:00 AM'
-day2_close: '2:00 PM'
+day2_open: '900'
+day2_close: '1400'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'St. Mary & St. Athanasius Coptic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-mary-st-athanasius-coptic-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 2pm
 
 ---

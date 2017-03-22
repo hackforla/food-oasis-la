@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '11:00 AM'
-day1_close: '1:00 PM'
+day1_open: '1100'
+day1_close: '1300'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Travelers Rest Missionary B.C., Food Oasis Los Angeles'
 uri: /food-pantry/travelers-rest-missionary-b-c-/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 11am
+formatted_day1_close: 1pm
 
 ---

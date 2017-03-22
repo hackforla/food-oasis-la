@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '7:30 AM'
-day1_close: '11:30 AM'
+day1_open: '730'
+day1_close: '1130'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Bethel AME Church- Richard Allen Center, Food Oasis Los Angeles'
 uri: /food-pantry/bethel-ame-church-richard-allen-center/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '7:30am'
+formatted_day1_close: '11:30am'
 
 ---

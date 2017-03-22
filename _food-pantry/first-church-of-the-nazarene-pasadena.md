@@ -9,11 +9,11 @@ phone: (626)351-9631
 latitude: '34.1609763'
 longitude: '-118.0739988'
 category: Food Pantry
-website: 'http://www.paznaz.org/'
+website: http//www.paznaz.org/
 '': ''
 daycode1: Wed
-day1_open: '2:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1400'
+day1_close: '1600'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'First Church of the Nazarene-Pasadena, Food Oasis Los Angeles'
 uri: /food-pantry/first-church-of-the-nazarene-pasadena/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 2pm
+formatted_day1_close: 4pm
 
 ---

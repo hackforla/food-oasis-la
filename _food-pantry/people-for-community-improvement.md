@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri2nd
-day1_open: '11:00 AM'
-day1_close: '1:30 PM'
+day1_open: '1100'
+day1_close: '1330'
 daycode2: Fri4th
-day2_open: '11:00 AM'
-day2_close: '3:00 PM'
+day2_open: '1100'
+day2_close: '1500'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'People for Community Improvement, Food Oasis Los Angeles'
 uri: /food-pantry/people-for-community-improvement/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 11am
+formatted_day1_close: '1:30pm'
 
 ---

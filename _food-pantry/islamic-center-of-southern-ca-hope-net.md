@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '11:00 AM'
-day1_close: '12:00 PM'
+day1_open: '1100'
+day1_close: '1200'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Islamic Center of Southern CA-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/islamic-center-of-southern-ca-hope-net/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 11am
+formatted_day1_close: 12pm
 
 ---

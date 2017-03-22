@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '9:30 AM'
-day1_close: '12:00 PM'
+day1_open: '930'
+day1_close: '1200'
 daycode2: Wed
-day2_open: '9:30 AM'
-day2_close: '12:00 PM'
+day2_open: '930'
+day2_close: '1200'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Church of the Valley, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-the-valley/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 12pm
 
 ---

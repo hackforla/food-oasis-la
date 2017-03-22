@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: SatLast
-day1_open: '1:30 PM'
-day1_close: '2:30 PM'
+day1_open: '1330'
+day1_close: '1430'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Shekinah Worship Center, Food Oasis Los Angeles'
 uri: /food-pantry/shekinah-worship-center/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '1:30pm'
+formatted_day1_close: '2:30pm'
 
 ---

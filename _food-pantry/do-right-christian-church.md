@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat1st
-day1_open: '8:30 AM'
-day1_close: '10:30 AM'
+day1_open: '830'
+day1_close: '1030'
 daycode2: Sat2nd
-day2_open: '8:30 AM'
-day2_close: '10:30 AM'
+day2_open: '830'
+day2_close: '1030'
 daycode3: Sat4th
-day3_open: '8:30 AM'
-day3_close: '10:30 AM'
+day3_open: '830'
+day3_close: '1030'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Do Right Christian Church, Food Oasis Los Angeles'
 uri: /food-pantry/do-right-christian-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '8:30am'
+formatted_day1_close: '10:30am'
 
 ---

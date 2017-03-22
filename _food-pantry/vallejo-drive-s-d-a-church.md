@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu3rd
-day1_open: '12:00 PM'
-day1_close: '3:00 PM'
+day1_open: '1200'
+day1_close: '1500'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Vallejo Drive S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/vallejo-drive-s-d-a-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 3pm
 
 ---

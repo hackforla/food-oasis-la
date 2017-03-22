@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat1st
-day1_open: '7:00 AM'
-day1_close: '9:00 AM'
+day1_open: '700'
+day1_close: '900'
 daycode2: Sat2nd
-day2_open: '7:00 AM'
-day2_close: '9:00 AM'
+day2_open: '700'
+day2_close: '900'
 daycode3: Sat3rd
-day3_open: '7:00 AM'
-day3_close: '9:00 AM'
+day3_open: '700'
+day3_close: '900'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'St. Thomas Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-thomas-center/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 7am
+formatted_day1_close: 9am
 
 ---

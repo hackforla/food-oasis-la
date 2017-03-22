@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat1st
-day1_open: '9:00 AM'
-day1_close: '11:00 AM'
+day1_open: '900'
+day1_close: '1100'
 daycode2: Sat3rd
-day2_open: '9:00 AM'
-day2_close: '11:00 AM'
+day2_open: '900'
+day2_close: '1100'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Living Hope Community Partnership, Food Oasis Los Angeles'
 uri: /food-pantry/living-hope-community-partnership/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: 11am
 
 ---

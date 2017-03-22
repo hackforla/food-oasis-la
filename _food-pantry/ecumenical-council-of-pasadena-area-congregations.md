@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tues
-day1_open: '9:00 AM'
-day1_close: '3:00 PM'
+day1_open: '900'
+day1_close: '1500'
 daycode2: Wed
-day2_open: '9:00 AM'
-day2_close: '3:00 PM'
+day2_open: '900'
+day2_close: '1500'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Ecumenical Council of Pasadena Area Congregations, Food Oasis Los Angeles'
 uri: /food-pantry/ecumenical-council-of-pasadena-area-congregations/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 3pm
 
 ---

@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '1:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1300'
+day1_close: '1600'
 daycode2: Wed
-day2_open: '1:00 PM'
-day2_close: '4:00 PM'
+day2_open: '1300'
+day2_close: '1600'
 daycode3: Thu
-day3_open: '1:00 PM'
-day3_close: '4:00 PM'
+day3_open: '1300'
+day3_close: '1600'
 daycode4: Fri
-day4_open: '1:00 PM'
-day4_close: '4:00 PM'
+day4_open: '1300'
+day4_close: '1600'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Salvation Army- Santa Fe Springs, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-santa-fe-springs/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: 4pm
 
 ---

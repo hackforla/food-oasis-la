@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun2nd
-day1_open: '1:00 PM'
-day1_close: '1:30 PM'
+day1_open: '1300'
+day1_close: '1330'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Family Mennonite Church, Food Oasis Los Angeles'
 uri: /food-pantry/family-mennonite-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: '1:30pm'
 
 ---

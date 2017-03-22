@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue3rd
-day1_open: '11:30 AM'
-day1_close: '1:30 PM'
+day1_open: '1130'
+day1_close: '1330'
 daycode2: Tue4th
-day2_open: '11:30 AM'
-day2_close: '1:30 PM'
+day2_open: '1130'
+day2_close: '1330'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Living Truth Christian Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/living-truth-christian-fellowship/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '11:30am'
+formatted_day1_close: '1:30pm'
 
 ---

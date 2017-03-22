@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '6:30 PM'
-day1_close: '7:30 PM'
+day1_open: '1830'
+day1_close: '1930'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Baldwin Park Bilingual S.D.A., Food Oasis Los Angeles'
 uri: /food-pantry/baldwin-park-bilingual-s-d-a-/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '6:30pm'
+formatted_day1_close: '7:30pm'
 
 ---

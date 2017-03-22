@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '6:00 PM'
-day1_close: '7:00 PM'
+day1_open: '1800'
+day1_close: '1900'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Pilipino Worker Center of Southern California, Food Oasis Los Angeles'
 uri: /food-pantry/pilipino-worker-center-of-southern-california/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 6pm
+formatted_day1_close: 7pm
 
 ---

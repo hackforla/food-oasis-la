@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '7:00 PM'
-day1_close: '8:00 PM'
+day1_open: '1900'
+day1_close: '2000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Iglesia Macedonia Defenders of the Christian Faith, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-macedonia-defenders-of-the-christian-faith/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 7pm
+formatted_day1_close: 8pm
 
 ---

@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '1:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1300'
+day1_close: '1400'
 daycode2: Sat
-day2_open: '3:00 PM'
-day2_close: '4:00 PM'
+day2_open: '1500'
+day2_close: '1600'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Iglesia Pentecostes Roca de Salvacion, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-pentecostes-roca-de-salvacion/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: 2pm
 
 ---

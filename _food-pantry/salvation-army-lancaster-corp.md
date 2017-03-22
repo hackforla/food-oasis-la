@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon4th
-day1_open: '12:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1200'
+day1_close: '1600'
 daycode2: Wed
-day2_open: '9:00 AM'
-day2_close: '10:30 AM'
+day2_open: '900'
+day2_close: '1030'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Salvation Army- Lancaster Corp, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-lancaster-corp/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 4pm
 
 ---

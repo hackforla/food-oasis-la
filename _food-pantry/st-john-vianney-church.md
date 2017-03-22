@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '8:30 AM'
-day1_close: '12:30 PM'
+day1_open: '830'
+day1_close: '1230'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. John Vianney Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-john-vianney-church/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '8:30am'
+formatted_day1_close: '12:30pm'
 
 ---

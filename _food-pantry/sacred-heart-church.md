@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu1st
-day1_open: '10:00 AM'
-day1_close: '12:30 PM'
+day1_open: '1000'
+day1_close: '1230'
 daycode2: Thu3rd
-day2_open: '10:00 AM'
-day2_close: '12:30 PM'
+day2_open: '1000'
+day2_close: '1230'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Sacred Heart Church, Food Oasis Los Angeles'
 uri: /food-pantry/sacred-heart-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: '12:30pm'
 
 ---

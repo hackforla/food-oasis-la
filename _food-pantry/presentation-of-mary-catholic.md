@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat3rd
-day1_open: '7:30 AM'
-day1_close: '8:30 AM'
+day1_open: '730'
+day1_close: '830'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Presentation of Mary Catholic, Food Oasis Los Angeles'
 uri: /food-pantry/presentation-of-mary-catholic/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '7:30am'
+formatted_day1_close: '8:30am'
 
 ---

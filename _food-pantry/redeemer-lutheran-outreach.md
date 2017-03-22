@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '10:00 AM'
-day1_close: '2:30 PM'
+day1_open: '1000'
+day1_close: '1430'
 daycode2: Thu
-day2_open: '10:00 AM'
-day2_close: '2:30 PM'
+day2_open: '1000'
+day2_close: '1430'
 daycode3: Fri
-day3_open: '10:00 AM'
-day3_close: '2:30 PM'
+day3_open: '1000'
+day3_close: '1430'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Redeemer Lutheran Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/redeemer-lutheran-outreach/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: '2:30pm'
 
 ---

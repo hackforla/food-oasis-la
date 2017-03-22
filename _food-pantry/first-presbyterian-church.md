@@ -9,14 +9,14 @@ phone: (323)935-5204
 latitude: '34.0405644'
 longitude: '-118.3372555'
 category: Food Pantry
-website: 'http://fpcofla.org/'
+website: http//fpcofla.org/
 '': ''
 daycode1: Sun3rd
-day1_open: '1:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1300'
+day1_close: '1400'
 daycode2: Sat
-day2_open: '9:00 AM'
-day2_close: '11:00 AM'
+day2_open: '900'
+day2_close: '1100'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'First Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-presbyterian-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: 2pm
 
 ---

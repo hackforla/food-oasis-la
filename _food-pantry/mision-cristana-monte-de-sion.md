@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '8:30 PM'
-day1_close: '9:30 PM'
+day1_open: '2030'
+day1_close: '2130'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Mision Cristana Monte de Sion, Food Oasis Los Angeles'
 uri: /food-pantry/mision-cristana-monte-de-sion/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '8:30pm'
+formatted_day1_close: '9:30pm'
 
 ---

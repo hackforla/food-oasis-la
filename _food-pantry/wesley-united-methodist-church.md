@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu
-day1_open: '10:30 AM'
-day1_close: '12:00 PM'
+day1_open: '1030'
+day1_close: '1200'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Wesley United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/wesley-united-methodist-church/
 formatted_daycode1: Thursday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '10:30am'
+formatted_day1_close: 12pm
 
 ---

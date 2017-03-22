@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: SatLast
-day1_open: '9:00 AM'
-day1_close: '11:00 AM'
+day1_open: '900'
+day1_close: '1100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Ascension''s Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/ascensions/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: 11am
 
 ---

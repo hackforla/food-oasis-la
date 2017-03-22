@@ -12,20 +12,20 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '3:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1500'
+day1_close: '1600'
 daycode2: Tue
-day2_open: '3:00 PM'
-day2_close: '4:00 PM'
+day2_open: '1500'
+day2_close: '1600'
 daycode3: Wed
-day3_open: '3:00 PM'
-day3_close: '4:00 PM'
+day3_open: '1500'
+day3_close: '1600'
 daycode4: Fri
-day4_open: '3:00 PM'
-day4_close: '4:00 PM'
+day4_open: '1500'
+day4_close: '1600'
 daycode5: Sat
-day5_open: '3:00 PM'
-day5_close: '4:00 PM'
+day5_open: '1500'
+day5_close: '1600'
 daycode6: ''
 day6_open: ''
 daycode7: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Catholic Rainbow Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/catholic-rainbow-outreach/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 3pm
+formatted_day1_close: 4pm
 
 ---

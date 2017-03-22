@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri1st
-day1_open: '12:00 PM'
-day1_close: '3:00 PM'
+day1_open: '1200'
+day1_close: '1500'
 daycode2: Fri3rd
-day2_open: '12:00 PM'
-day2_close: '3:00 PM'
+day2_open: '1200'
+day2_close: '1500'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Evergreen Baptist Church of San Gabriel Valley, Food Oasis Los Angeles'
 uri: /food-pantry/evergreen-baptist-church-of-san-gabriel-valley/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 3pm
 
 ---

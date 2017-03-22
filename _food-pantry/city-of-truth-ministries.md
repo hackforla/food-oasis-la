@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun2nd
-day1_open: '12:30 PM'
-day1_close: '2:00 PM'
+day1_open: '1230'
+day1_close: '1400'
 daycode2: Sun4th
-day2_open: '12:30 PM'
-day2_close: '2:00 PM'
+day2_open: '1230'
+day2_close: '1400'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'City of Truth Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-truth-ministries/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '12:30pm'
+formatted_day1_close: 2pm
 
 ---

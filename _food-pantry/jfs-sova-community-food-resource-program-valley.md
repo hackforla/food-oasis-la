@@ -9,23 +9,23 @@ phone: (818)988-7682
 latitude: '34.1942489'
 longitude: '-118.491725'
 category: Food Pantry
-website: 'https://www.jfsla.org/page.aspx?pid=300'
+website: https//www.jfsla.org/page.aspx?pid=300
 '': ''
 daycode1: Sun
-day1_open: '9:00 AM'
-day1_close: '12:00 PM'
+day1_open: '900'
+day1_close: '1200'
 daycode2: Mon
-day2_open: '10:00 AM'
-day2_close: '1:30 PM'
+day2_open: '1000'
+day2_close: '1330'
 daycode3: Tue
-day3_open: '10:00 AM'
-day3_close: '1:30 PM'
+day3_open: '1000'
+day3_close: '1330'
 daycode4: Wed
-day4_open: '10:00 AM'
-day4_close: '1:30 PM'
+day4_open: '1000'
+day4_close: '1330'
 daycode5: Thu
-day5_open: '10:00 AM'
-day5_close: '1:30 PM'
+day5_open: '1000'
+day5_close: '1330'
 daycode6: ''
 day6_open: ''
 daycode7: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'JFS/SOVA Community Food & Resource Program Valley, Food Oasis Los Angeles'
 uri: /food-pantry/jfs-sova-community-food-resource-program-valley/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 12pm
 
 ---

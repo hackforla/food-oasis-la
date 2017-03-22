@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '7:30 PM'
-day1_close: '8:30 PM'
+day1_open: '1930'
+day1_close: '2030'
 daycode2: Sat
-day2_open: '8:15 AM'
-day2_close: '10:30 AM'
+day2_open: '815'
+day2_close: '1030'
 daycode3: Sat
-day3_open: '7:30 PM'
-day3_close: '8:30 PM'
+day3_open: '1930'
+day3_close: '2030'
 daycode4: Sun
-day4_open: '10:30 AM'
-day4_close: '12:00 PM'
+day4_open: '1030'
+day4_close: '1200'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Dos Testamentos En El Desierto, Food Oasis Los Angeles'
 uri: /food-pantry/dos-testamentos-en-el-desierto/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '7:30pm'
+formatted_day1_close: '8:30pm'
 
 ---

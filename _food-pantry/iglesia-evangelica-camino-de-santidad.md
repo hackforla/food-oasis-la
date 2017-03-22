@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '7:00 PM'
-day1_close: '9:00 PM'
+day1_open: '1900'
+day1_close: '2100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Iglesia Evangelica Camino de Santidad, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-evangelica-camino-de-santidad/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 7pm
+formatted_day1_close: 9pm
 
 ---

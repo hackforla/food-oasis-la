@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat2nd
-day1_open: '10:00 AM'
-day1_close: '12:00 PM'
+day1_open: '1000'
+day1_close: '1200'
 daycode2: Sat4th
-day2_open: '10:00 AM'
-day2_close: '12:00 PM'
+day2_open: '1000'
+day2_close: '1200'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Visions Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/visions-community-outreach/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 10am
+formatted_day1_close: 12pm
 
 ---

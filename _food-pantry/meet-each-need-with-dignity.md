@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '8:00 AM'
-day1_close: '2:00 PM'
+day1_open: '800'
+day1_close: '1400'
 daycode2: Thu
-day2_open: '8:00 AM'
-day2_close: '2:00 PM'
+day2_open: '800'
+day2_close: '1400'
 daycode3: Fri
-day3_open: '8:00 AM'
-day3_close: '2:00 PM'
+day3_open: '800'
+day3_close: '1400'
 daycode4: Sat
-day4_open: '9:00 AM'
-day4_close: '12:00 PM'
+day4_open: '900'
+day4_close: '1200'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Meet Each Need with Dignity, Food Oasis Los Angeles'
 uri: /food-pantry/meet-each-need-with-dignity/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 8am
+formatted_day1_close: 2pm
 
 ---

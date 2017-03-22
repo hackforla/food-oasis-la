@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '4:00 PM'
-day1_close: '5:30 PM'
+day1_open: '1600'
+day1_close: '1730'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'WSFB-St. Anne''s Social Service, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-st-annes-social-service/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 4pm
+formatted_day1_close: '5:30pm'
 
 ---

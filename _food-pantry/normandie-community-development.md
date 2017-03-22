@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat4th
-day1_open: '11:45 AM'
-day1_close: '1:00 PM'
+day1_open: '1145'
+day1_close: '1300'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Normandie Community Development Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/normandie-community-development/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '11:45am'
+formatted_day1_close: 1pm
 
 ---

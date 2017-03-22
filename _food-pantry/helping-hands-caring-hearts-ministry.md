@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '4:30 PM'
-day1_close: '5:30 PM'
+day1_open: '1630'
+day1_close: '1730'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Helping Hands, Caring Hearts Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/helping-hands-caring-hearts-ministry/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '4:30pm'
+formatted_day1_close: '5:30pm'
 
 ---

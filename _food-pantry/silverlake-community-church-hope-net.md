@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '5:30 PM'
-day1_close: '6:30 PM'
+day1_open: '1730'
+day1_close: '1830'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Silverlake Community Church-Hope Net, Food Oasis Los Angeles'
 uri: /food-pantry/silverlake-community-church-hope-net/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '5:30pm'
+formatted_day1_close: '6:30pm'
 
 ---

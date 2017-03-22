@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '2:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1400'
+day1_close: '1800'
 daycode2: Thu
-day2_open: '9:30 AM'
-day2_close: '3:30 PM'
+day2_open: '930'
+day2_close: '1530'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Hawaiian Gardens Food Bank, Food Oasis Los Angeles'
 uri: /food-pantry/hawaiian-gardens-food-bank/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 2pm
+formatted_day1_close: 6pm
 
 ---

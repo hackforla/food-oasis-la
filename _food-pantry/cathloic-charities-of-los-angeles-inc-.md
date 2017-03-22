@@ -9,14 +9,14 @@ phone: (562)591-1641
 latitude: '33.7840547'
 longitude: '-118.1916668'
 category: Food Pantry
-website: 'http://catholiccharitiesla.org/where-we-are/program-directory-by-city/'
+website: http//catholiccharitiesla.org/where-we-are/program-directory-by-city/
 '': ''
 daycode1: Tue
-day1_open: '9:30 AM'
-day1_close: '3:00 PM'
+day1_open: '930'
+day1_close: '1500'
 daycode2: Thu
-day2_open: '9:30 AM'
-day2_close: '3:00 PM'
+day2_open: '930'
+day2_close: '1500'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Cathloic Charities of Los Angeles, Inc., Food Oasis Los Angeles'
 uri: /food-pantry/cathloic-charities-of-los-angeles-inc-/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 3pm
 
 ---

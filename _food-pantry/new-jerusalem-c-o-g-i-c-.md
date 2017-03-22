@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri1st
-day1_open: '10:00 AM'
-day1_close: '11:30 AM'
+day1_open: '1000'
+day1_close: '1130'
 daycode2: Fri3rd
-day2_open: '10:00 AM'
-day2_close: '11:30 AM'
+day2_open: '1000'
+day2_close: '1130'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'New Jerusalem C.O.G.I.C., Food Oasis Los Angeles'
 uri: /food-pantry/new-jerusalem-c-o-g-i-c-/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 10am
+formatted_day1_close: '11:30am'
 
 ---

@@ -9,11 +9,11 @@ phone: (310)373-8573
 latitude: '33.8065814'
 longitude: '-118.3566268'
 category: Food Pantry
-website: 'http://www.coastchristian.org/'
+website: http//www.coastchristian.org/
 '': ''
 daycode1: Mon
-day1_open: '4:00 PM'
-day1_close: '6:00 PM'
+day1_open: '1600'
+day1_close: '1800'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Coast Christian Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/coast-christian-fellowship/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 4pm
+formatted_day1_close: 6pm
 
 ---

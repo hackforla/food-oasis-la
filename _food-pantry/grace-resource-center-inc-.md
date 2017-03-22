@@ -12,22 +12,22 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '10:00 AM'
-day1_close: '11:00 AM'
+day1_open: '1000'
+day1_close: '1100'
 daycode2: Tue
-day2_open: '1:00 PM'
-day2_close: '2:00 PM'
+day2_open: '1300'
+day2_close: '1400'
 daycode3: Wed
-day3_open: '10:00 AM'
-day3_close: '11:00 AM'
+day3_open: '1000'
+day3_close: '1100'
 daycode4: Wed
-day4_open: '10:00 AM'
-day4_close: '11:00 AM'
+day4_open: '1000'
+day4_close: '1100'
 daycode5: Thu
-day5_open: '10:00 AM'
-day5_close: '11:00 AM'
+day5_open: '1000'
+day5_close: '1100'
 daycode6: Thu
-day6_open: '2:00 PM'
+day6_open: '1400'
 daycode7: ''
 day7_open: ''
 day7_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Grace Resource Center, Inc., Food Oasis Los Angeles'
 uri: /food-pantry/grace-resource-center-inc-/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 10am
+formatted_day1_close: 11am
 
 ---

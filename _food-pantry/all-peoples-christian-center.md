@@ -9,11 +9,11 @@ phone: (213)747-6357
 latitude: '34.0257601'
 longitude: '-118.256703'
 category: Food Pantry
-website: 'https://allpeoplescc.org/'
+website: https//allpeoplescc.org/
 '': ''
 daycode1: Fri
-day1_open: '12:00 PM'
-day1_close: '5:00 PM'
+day1_open: '1200'
+day1_close: '1700'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'All Peoples Christian Center, Food Oasis Los Angeles'
 uri: /food-pantry/all-peoples-christian-center/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 5pm
 
 ---

@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '1:00 PM'
-day1_close: '2:30 PM'
+day1_open: '1300'
+day1_close: '1430'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'WSFB- Ocean Park Community Ctr, Food Oasis Los Angeles'
 uri: /food-pantry/wsfb-ocean-park-community-ctr/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: '2:30pm'
 
 ---

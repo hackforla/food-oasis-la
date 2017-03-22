@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu3rd
-day1_open: '3:30 PM'
-day1_close: '5:30 PM'
+day1_open: '1530'
+day1_close: '1730'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'S.V.P. All Souls Conference, Food Oasis Los Angeles'
 uri: /food-pantry/s-v-p-all-souls-conference/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '3:30pm'
+formatted_day1_close: '5:30pm'
 
 ---

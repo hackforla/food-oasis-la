@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed2nd
-day1_open: '7:00 AM'
-day1_close: '9:00 AM'
+day1_open: '700'
+day1_close: '900'
 daycode2: Wed4th
-day2_open: '7:00 AM'
-day2_close: '9:00 AM'
+day2_open: '700'
+day2_close: '900'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Guadalupe Food Program, Food Oasis Los Angeles'
 uri: /food-pantry/guadalupe-food-program/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 7am
+formatted_day1_close: 9am
 
 ---

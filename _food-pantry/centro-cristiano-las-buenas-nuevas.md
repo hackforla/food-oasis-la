@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat3rd
-day1_open: '11:30 AM'
-day1_close: '1:00 PM'
+day1_open: '1130'
+day1_close: '1300'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Centro Cristiano Las Buenas Nuevas, Food Oasis Los Angeles'
 uri: /food-pantry/centro-cristiano-las-buenas-nuevas/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '11:30am'
+formatted_day1_close: 1pm
 
 ---

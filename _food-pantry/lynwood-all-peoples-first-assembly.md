@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '8:30 PM'
-day1_close: '9:30 PM'
+day1_open: '2030'
+day1_close: '2130'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Lynwood All People''s First Assembly, Food Oasis Los Angeles'
 uri: /food-pantry/lynwood-all-peoples-first-assembly/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '8:30pm'
+formatted_day1_close: '9:30pm'
 
 ---

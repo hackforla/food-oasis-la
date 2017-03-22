@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat2nd
-day1_open: '8:00 AM'
-day1_close: '9:00 AM'
+day1_open: '800'
+day1_close: '900'
 daycode2: Sat4th
-day2_open: '8:00 AM'
-day2_close: '9:00 AM'
+day2_open: '800'
+day2_close: '900'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Star Christian School, Food Oasis Los Angeles'
 uri: /food-pantry/star-christian-school/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 8am
+formatted_day1_close: 9am
 
 ---

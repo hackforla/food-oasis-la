@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '9:00 AM'
-day1_close: '12:00 PM'
+day1_open: '900'
+day1_close: '1200'
 daycode2: Wed
-day2_open: '7:00 PM'
-day2_close: '9:00 PM'
+day2_open: '1900'
+day2_close: '2100'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Church of God, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-god/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 12pm
 
 ---

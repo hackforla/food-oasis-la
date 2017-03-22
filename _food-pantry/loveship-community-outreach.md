@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat2nd
-day1_open: '2:30 PM'
-day1_close: '4:30 PM'
+day1_open: '1430'
+day1_close: '1630'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Loveship Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/loveship-community-outreach/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '2:30pm'
+formatted_day1_close: '4:30pm'
 
 ---

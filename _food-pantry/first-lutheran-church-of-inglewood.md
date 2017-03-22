@@ -9,14 +9,14 @@ phone: (310)674-5103
 latitude: '33.9624612'
 longitude: '-118.3665755'
 category: Food Pantry
-website: 'http://firstlutheranofinglewood.org/'
+website: http//firstlutheranofinglewood.org/
 '': ''
 daycode1: Thu2nd
-day1_open: '10:00 AM'
-day1_close: '11:30 AM'
+day1_open: '1000'
+day1_close: '1130'
 daycode2: Thu4th
-day2_open: '10:00 AM'
-day2_close: '11:30 AM'
+day2_open: '1000'
+day2_close: '1130'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'First Lutheran Church of Inglewood, Food Oasis Los Angeles'
 uri: /food-pantry/first-lutheran-church-of-inglewood/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 10am
+formatted_day1_close: '11:30am'
 
 ---

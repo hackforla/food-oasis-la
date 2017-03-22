@@ -9,20 +9,20 @@ phone: (323)260-2801
 latitude: '34.0370429'
 longitude: '-118.1792254'
 category: Food Pantry
-website: 'http://wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/'
+website: http//wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/
 '': ''
 daycode1: Mon
-day1_open: '9:30 AM'
-day1_close: '12:00 PM'
+day1_open: '930'
+day1_close: '1200'
 daycode2: Mon
-day2_open: '1:30 PM'
-day2_close: '4:00 PM'
+day2_open: '1330'
+day2_close: '1600'
 daycode3: Thu
-day3_open: '9:30 AM'
-day3_close: '12:00 PM'
+day3_open: '930'
+day3_close: '1200'
 daycode4: Fri
-day4_open: '1:30 PM'
-day4_close: '4:00 PM'
+day4_open: '1330'
+day4_close: '1600'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Food Net- East Los Angeles Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-east-los-angeles-center/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 12pm
 
 ---

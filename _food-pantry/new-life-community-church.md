@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '12:00 PM'
-day1_close: '1:30 PM'
+day1_open: '1200'
+day1_close: '1330'
 daycode2: Wed
-day2_open: '2:00 PM'
-day2_close: '3:30 PM'
+day2_open: '1400'
+day2_close: '1530'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'New Life Community Church, Food Oasis Los Angeles'
 uri: /food-pantry/new-life-community-church/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: '1:30pm'
 
 ---

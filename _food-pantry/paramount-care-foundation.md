@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri1st
-day1_open: '9:00 AM'
-day1_close: '10:00 AM'
+day1_open: '900'
+day1_close: '1000'
 daycode2: Fri2nd
-day2_open: '9:00 AM'
-day2_close: '10:00 AM'
+day2_open: '900'
+day2_close: '1000'
 daycode3: Fri3rd
-day3_open: '9:00 AM'
-day3_close: '10:00 AM'
+day3_open: '900'
+day3_close: '1000'
 daycode4: Fri4th
-day4_open: '9:00 AM'
-day4_close: '10:00 AM'
+day4_open: '900'
+day4_close: '1000'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Paramount Care Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/paramount-care-foundation/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: 10am
 
 ---

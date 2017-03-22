@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '8:30 AM'
-day1_close: '10:30 AM'
+day1_open: '830'
+day1_close: '1030'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Pico Rivera Iglesia Crece, Food Oasis Los Angeles'
 uri: /food-pantry/pico-rivera-iglesia-crece/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '8:30am'
+formatted_day1_close: '10:30am'
 
 ---

@@ -12,14 +12,14 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed1st
-day1_open: '5:30 PM'
-day1_close: '6:30 PM'
+day1_open: '1730'
+day1_close: '1830'
 daycode2: Wed3rd
-day2_open: '5:30 PM'
-day2_close: '6:30 PM'
+day2_open: '1730'
+day2_close: '1830'
 daycode3: Sat
-day3_open: '12:00 PM'
-day3_close: '12:45 PM'
+day3_open: '1200'
+day3_close: '1245'
 daycode4: ''
 day4_open: ''
 day4_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'East L.A. Bilingual S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/east-l-a-bilingual-s-d-a-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '5:30pm'
+formatted_day1_close: '6:30pm'
 
 ---

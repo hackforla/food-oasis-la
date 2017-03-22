@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '4:30 PM'
-day1_close: '6:30 PM'
+day1_open: '1630'
+day1_close: '1830'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Cory''s Kitchen-El Sereno, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-el-sereno/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '4:30pm'
+formatted_day1_close: '6:30pm'
 
 ---

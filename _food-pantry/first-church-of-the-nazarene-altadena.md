@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu1st
-day1_open: '2:00 PM'
-day1_close: '4:00 PM'
+day1_open: '1400'
+day1_close: '1600'
 daycode2: Thu3rd
-day2_open: '2:00 PM'
-day2_close: '4:00 PM'
+day2_open: '1400'
+day2_close: '1600'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'First Church of the Nazarene-Altadena, Food Oasis Los Angeles'
 uri: /food-pantry/first-church-of-the-nazarene-altadena/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 2pm
+formatted_day1_close: 4pm
 
 ---

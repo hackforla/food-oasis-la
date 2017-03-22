@@ -9,14 +9,14 @@ phone: (310)837-8782
 latitude: '33.9582157'
 longitude: '-118.3536215'
 category: Food Pantry
-website: 'http://www.breathla.org'
+website: http//www.breathla.org
 '': ''
 daycode1: Thu1st
-day1_open: '12:00 PM'
-day1_close: '3:00 PM'
+day1_open: '1200'
+day1_close: '1500'
 daycode2: Thu3rd
-day2_open: '12:00 PM'
-day2_close: '3:00 PM'
+day2_open: '1200'
+day2_close: '1500'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Breath of Life S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/breath-of-life-s-d-a-church/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 3pm
 
 ---

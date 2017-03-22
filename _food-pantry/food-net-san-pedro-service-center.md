@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue2nd
-day1_open: '2:00 PM'
-day1_close: '4:30 PM'
+day1_open: '1400'
+day1_close: '1630'
 daycode2: Wed
-day2_open: '2:00 PM'
-day2_close: '4:30 PM'
+day2_open: '1400'
+day2_close: '1630'
 daycode3: Thu
-day3_open: '2:00 PM'
-day3_close: '4:30 PM'
+day3_open: '1400'
+day3_close: '1630'
 daycode4: Fri
-day4_open: '2:00 PM'
-day4_close: '4:30 PM'
+day4_open: '1400'
+day4_close: '1630'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Food Net-San Pedro Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-san-pedro-service-center/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 2pm
+formatted_day1_close: '4:30pm'
 
 ---

@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '8:30 AM'
-day1_close: '11:30 AM'
+day1_open: '830'
+day1_close: '1130'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Koreatown Multipurpose Senior, Food Oasis Los Angeles'
 uri: /food-pantry/koreatown-multipurpose-senior/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '8:30am'
+formatted_day1_close: '11:30am'
 
 ---

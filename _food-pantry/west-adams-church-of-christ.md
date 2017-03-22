@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri3rd
-day1_open: '10:00 AM'
-day1_close: '11:00 AM'
+day1_open: '1000'
+day1_close: '1100'
 daycode2: Sat4th
-day2_open: '12:00 PM'
-day2_close: '2:00 PM'
+day2_open: '1200'
+day2_close: '1400'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'West Adams Church of Christ, Food Oasis Los Angeles'
 uri: /food-pantry/west-adams-church-of-christ/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 10am
+formatted_day1_close: 11am
 
 ---

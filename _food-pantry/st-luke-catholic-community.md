@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri
-day1_open: '1:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1300'
+day1_close: '1400'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. Luke Catholic Community, Food Oasis Los Angeles'
 uri: /food-pantry/st-luke-catholic-community/
 formatted_daycode1: Friday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 1pm
+formatted_day1_close: 2pm
 
 ---

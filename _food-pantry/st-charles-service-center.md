@@ -12,17 +12,17 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '9:00 AM'
-day1_close: '11:45 PM'
+day1_open: '900'
+day1_close: '2345'
 daycode2: Wed
-day2_open: '9:00 AM'
-day2_close: '11:45 AM'
+day2_open: '900'
+day2_close: '1145'
 daycode3: Thu
-day3_open: '9:00 AM'
-day3_close: '11:45 PM'
+day3_open: '900'
+day3_close: '2345'
 daycode4: Sat
-day4_open: '9:00 AM'
-day4_close: '11:45 AM'
+day4_open: '900'
+day4_close: '1145'
 daycode5: ''
 day5_open: ''
 day5_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. Charles Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-charles-service-center/
 formatted_daycode1: Tuesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: '11:45pm'
 
 ---

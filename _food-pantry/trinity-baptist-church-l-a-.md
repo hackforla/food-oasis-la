@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '9:30 AM'
-day1_close: '10:45 AM'
+day1_open: '930'
+day1_close: '1045'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Trinity Baptist Church L.A., Food Oasis Los Angeles'
 uri: /food-pantry/trinity-baptist-church-l-a-/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: '10:45am'
 
 ---

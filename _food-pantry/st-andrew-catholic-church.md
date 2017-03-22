@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '9:00 AM'
-day1_close: '11:00 AM'
+day1_open: '900'
+day1_close: '1100'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'St. Andrew Catholic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-andrew-catholic-church/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 9am
+formatted_day1_close: 11am
 
 ---

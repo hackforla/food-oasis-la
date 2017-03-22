@@ -12,32 +12,32 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '12:30 PM'
-day1_close: '5:00 PM'
+day1_open: '1230'
+day1_close: '1700'
 daycode2: Mon
-day2_open: '9:00 AM'
-day2_close: '5:00 PM'
+day2_open: '900'
+day2_close: '1700'
 daycode3: Tue
-day3_open: '9:00 AM'
-day3_close: '5:00 PM'
+day3_open: '900'
+day3_close: '1700'
 daycode4: Wed
-day4_open: '9:00 AM'
-day4_close: '5:00 PM'
+day4_open: '900'
+day4_close: '1700'
 daycode5: Thu
-day5_open: '9:00 AM'
-day5_close: '5:00 PM'
+day5_open: '900'
+day5_close: '1700'
 daycode6: Fri
-day6_open: '5:00 PM'
+day6_open: '1700'
 daycode7: Sat
-day7_open: '9:00 AM'
-day7_close: '5:00 PM'
+day7_open: '900'
+day7_close: '1700'
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
 title: 'The Bible Tabernacle, Food Oasis Los Angeles'
 uri: /food-pantry/the-bible-tabernacle/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '12:30pm'
+formatted_day1_close: 5pm
 
 ---

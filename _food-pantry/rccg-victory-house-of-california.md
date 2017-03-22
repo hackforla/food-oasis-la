@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '12:30 PM'
-day1_close: '2:00 PM'
+day1_open: '1230'
+day1_close: '1400'
 daycode2: Tue
-day2_open: '10:30 AM'
-day2_close: '12:30 PM'
+day2_open: '1030'
+day2_close: '1230'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'RCCG Victory House of California, Food Oasis Los Angeles'
 uri: /food-pantry/rccg-victory-house-of-california/
 formatted_daycode1: Sunday
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '12:30pm'
+formatted_day1_close: 2pm
 
 ---

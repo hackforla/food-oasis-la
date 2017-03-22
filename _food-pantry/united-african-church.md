@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun1st
-day1_open: '1:00 AM'
-day1_close: '2:00 AM'
+day1_open: '100'
+day1_close: '200'
 daycode2: Sun3rd
-day2_open: '1:00 AM'
-day2_close: '2:00 AM'
+day2_open: '100'
+day2_close: '200'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'United African Church, Food Oasis Los Angeles'
 uri: /food-pantry/united-african-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 1am
+formatted_day1_close: 2am
 
 ---

@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '7:00 AM'
-day1_close: '7:30 AM'
+day1_open: '700'
+day1_close: '730'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Houses of Light Church Corporation, Food Oasis Los Angeles'
 uri: /food-pantry/houses-of-light-church-corporation/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 7am
+formatted_day1_close: '7:30am'
 
 ---

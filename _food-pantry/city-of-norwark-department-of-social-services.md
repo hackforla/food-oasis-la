@@ -12,20 +12,20 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '8:00 AM'
-day1_close: '5:30 PM'
+day1_open: '800'
+day1_close: '1730'
 daycode2: Tue
-day2_open: '8:00 AM'
-day2_close: '5:30 PM'
+day2_open: '800'
+day2_close: '1730'
 daycode3: Wed
-day3_open: '8:00 AM'
-day3_close: '5:30 PM'
+day3_open: '800'
+day3_close: '1730'
 daycode4: Thu
-day4_open: '8:00 AM'
-day4_close: '5:30 PM'
+day4_open: '800'
+day4_close: '1730'
 daycode5: Fri
-day5_open: '8:00 AM'
-day5_close: '5:30 PM'
+day5_open: '800'
+day5_close: '1730'
 daycode6: ''
 day6_open: ''
 daycode7: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'City of Norwark/Department of Social Services, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-norwark-department-of-social-services/
 formatted_daycode1: Monday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 8am
+formatted_day1_close: '5:30pm'
 
 ---

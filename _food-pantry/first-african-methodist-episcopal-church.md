@@ -9,11 +9,11 @@ phone: (323)735-1251
 latitude: '34.0344082'
 longitude: '-118.3061942'
 category: Food Pantry
-website: 'http://www.famechurch.org/'
+website: http//www.famechurch.org/
 '': ''
 daycode1: Sat4th
-day1_open: '9:00 AM'
-day1_close: '12:00 PM'
+day1_open: '900'
+day1_close: '1200'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'First African Methodist Episcopal Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-african-methodist-episcopal-church/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 9am
+formatted_day1_close: 12pm
 
 ---

@@ -9,11 +9,11 @@ phone: (626)305-0392
 latitude: '34.1146127'
 longitude: '-117.9746909'
 category: Food Pantry
-website: 'http://www.coryskitchen.org/'
+website: http//www.coryskitchen.org/
 '': ''
 daycode1: Tues
-day1_open: '6:00 PM'
-day1_close: '8:00 PM'
+day1_open: '1800'
+day1_close: '2000'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Cory''s Kitchen, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 6pm
+formatted_day1_close: 8pm
 
 ---

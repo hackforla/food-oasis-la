@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat2nd
-day1_open: '8:30 PM'
-day1_close: '9:30 PM'
+day1_open: '2030'
+day1_close: '2130'
 daycode2: SatLast
-day2_open: '8:30 PM'
-day2_close: '9:30 PM'
+day2_open: '2030'
+day2_close: '2130'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Centro Palabra de Fe, Food Oasis Los Angeles'
 uri: /food-pantry/centro-palabra-de-fe/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '8:30pm'
+formatted_day1_close: '9:30pm'
 
 ---

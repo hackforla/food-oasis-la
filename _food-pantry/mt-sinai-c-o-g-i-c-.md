@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat3rd
-day1_open: '12:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1200'
+day1_close: '1400'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Mt. Sinai C.O.G.I.C., Food Oasis Los Angeles'
 uri: /food-pantry/mt-sinai-c-o-g-i-c-/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 2pm
 
 ---

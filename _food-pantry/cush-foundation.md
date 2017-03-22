@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu2nd
-day1_open: '9:30 AM'
-day1_close: '1:00 PM'
+day1_open: '930'
+day1_close: '1300'
 daycode2: Thu4th
-day2_open: '9:30 AM'
-day2_close: '1:00 PM'
+day2_open: '930'
+day2_close: '1300'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'CUSH Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/cush-foundation/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: '9:30am'
+formatted_day1_close: 1pm
 
 ---

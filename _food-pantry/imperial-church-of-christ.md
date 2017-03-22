@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat
-day1_open: '7:00 AM'
-day1_close: '8:30 AM'
+day1_open: '700'
+day1_close: '830'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Imperial Church of Christ, Food Oasis Los Angeles'
 uri: /food-pantry/imperial-church-of-christ/
 formatted_daycode1: Saturday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 7am
+formatted_day1_close: '8:30am'
 
 ---

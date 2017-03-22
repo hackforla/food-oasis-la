@@ -9,11 +9,11 @@ phone: (323)255-6806
 latitude: '34.1117075'
 longitude: '-118.1953492'
 category: Food Pantry
-website: 'http://www.allsaintsla.net/'
+website: http//www.allsaintsla.net/
 '': ''
 daycode1: Sat4th
-day1_open: '8:30 AM'
-day1_close: '9:00 AM'
+day1_open: '830'
+day1_close: '900'
 daycode2: ''
 day2_open: ''
 day2_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'All Saints Episcopal Church Highland Park, Food Oasis Los Angeles'
 uri: /food-pantry/all-saints-episcopal-church-highland-park/
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: '8:30am'
+formatted_day1_close: 9am
 
 ---

@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Thu1st
-day1_open: '12:00 PM'
-day1_close: '2:00 PM'
+day1_open: '1200'
+day1_close: '1400'
 daycode2: Thu3rd
-day2_open: '12:00 PM'
-day2_close: '2:00 PM'
+day2_open: '1200'
+day2_close: '1400'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -36,7 +36,7 @@ season_open: ''
 season_close: ''
 title: 'Shield of Faith Christian Center of Pasadena, Food Oasis Los Angeles'
 uri: /food-pantry/shield-of-faith-christian-center-of-pasadena/
-formatted_day1_open: 'NaN:PMam'
-formatted_day1_close: 'NaN:PMam'
+formatted_day1_open: 12pm
+formatted_day1_close: 2pm
 
 ---

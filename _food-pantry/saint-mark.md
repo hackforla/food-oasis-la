@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '11:00 AM'
-day1_close: '11:30 AM'
+day1_open: '1100'
+day1_close: '1130'
 daycode2: Wed3rd
-day2_open: '11:00 AM'
-day2_close: '11:30 AM'
+day2_open: '1100'
+day2_close: '1130'
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -37,7 +37,7 @@ season_close: ''
 title: 'Saint Mark Food Pantry, Food Oasis Los Angeles'
 uri: /food-pantry/saint-mark/
 formatted_daycode1: Wednesday
-formatted_day1_open: 'NaN:AMam'
-formatted_day1_close: 'NaN:AMam'
+formatted_day1_open: 11am
+formatted_day1_close: '11:30am'
 
 ---
