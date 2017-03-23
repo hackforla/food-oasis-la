@@ -599,6 +599,18 @@
 		margin-left: -21px;
 		margin-top: -64px;
 	}
+	
+	.supermarket-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-red-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+
 
 
 	/* =Header
