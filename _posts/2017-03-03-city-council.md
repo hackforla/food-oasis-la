@@ -8,7 +8,7 @@ categories: news
 
 In celebration of Open Data Day, Los Angeles City Controller Ron Galperin presented [Hack for LA](http://www.hackforla.org/) with an Award of Recognition for their efforts in developing civic technology.  Food Oasis Los Angeles (FOLA) was honored as an exemplary non-profit, volunteer project with a focus on open data for research, human rights, and the environment.
 
-* Read about FOLA’s achievements on [Controller Galperin’s website](http://www.lacontroller.org/open_data_day_pressrelease).
+Read about FOLA’s achievements on [Controller Galperin’s website](http://www.lacontroller.org/open_data_day_pressrelease).
 
 * [Ron Galperin](http://www.lacontroller.org/open_data_day_pressrelease).
 * [Hack for LA](http://www.hackforla.org/)
