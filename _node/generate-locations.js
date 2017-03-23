@@ -221,6 +221,7 @@ generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets.
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118
+/*
 var url = "https://fola-staging.herokuapp.com/locations";
 
 request({
@@ -237,3 +238,4 @@ request({
     generateLocationJSON(communityGardensFromStagingAPI, 'generated-locations-from-staging-api-for-jekyll.json');
   }
 });
+*/
