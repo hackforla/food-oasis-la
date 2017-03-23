@@ -22,8 +22,11 @@ stylesheets:
 				<br />
 				{{ page['address_2'] | escape }}
 			{% endif %}
+
+			{% if page['city'] != '' %}			
 			<br />
 			{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
+			{% endif %}
 		</p>
 		<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
 
