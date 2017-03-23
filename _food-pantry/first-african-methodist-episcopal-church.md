@@ -12,7 +12,7 @@ category: Food Pantry
 website: http//www.famechurch.org/
 '': ''
 daycode1: Sat4th
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: ''
 day2_open: ''

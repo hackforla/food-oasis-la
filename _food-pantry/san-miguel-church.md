@@ -12,8 +12,8 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat3rd
-day1_open: '800'
-day1_close: '930'
+day1_open: 0800
+day1_close: 0930
 daycode2: ''
 day2_open: ''
 day2_close: ''

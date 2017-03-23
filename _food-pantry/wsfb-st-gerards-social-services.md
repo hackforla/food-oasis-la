@@ -12,7 +12,7 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Tue
 day2_open: '1300'

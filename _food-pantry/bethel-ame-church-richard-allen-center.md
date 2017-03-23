@@ -12,7 +12,7 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '730'
+day1_open: '0730'
 day1_close: '1130'
 daycode2: ''
 day2_open: ''

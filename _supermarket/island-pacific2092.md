@@ -1,0 +1,41 @@
+---
+name: Island Pacific Supermarket
+address_1: 20922 Roscoe Blvd
+address_2: ''
+city: ''
+state: CA
+zip: '91304'
+phone: (818) 857-3400
+latitude: '34.219338'
+longitude: '-118.589369'
+category: Supermarket
+website: 'http://www.islandpacificmarket.com/'
+active: ''
+daycode1: Mon
+day1_open: '0700'
+day1_close: '2200'
+daycode2: Tue
+day2_open: '0700'
+day2_close: '2200'
+daycode3: Wed
+day3_open: '0700'
+day3_close: '2200'
+daycode4: Thu
+day4_open: '2200'
+daycode5: Fri
+day5_open: '0700'
+day5_close: '2200'
+daycode6: Sat
+day6_open: '0700'
+day6_close: '2000'
+daycode7: Sun
+day7_open: '0700'
+day7_close: '2000'
+'': ''
+title: 'Island Pacific Supermarket, Food Oasis Los Angeles'
+uri: /supermarket/island-pacific2092/
+formatted_daycode1: Monday
+formatted_day1_open: 7am
+formatted_day1_close: 10pm
+
+---

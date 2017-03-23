@@ -12,7 +12,7 @@ category: Food Pantry
 website: http//www.figueroacoc.com/
 '': ''
 daycode1: Tue
-day1_open: '730'
+day1_open: '0730'
 day1_close: '1100'
 daycode2: ''
 day2_open: ''
