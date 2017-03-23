@@ -24,6 +24,7 @@ function stringToURI(str) {
     .replace(/\-\-\-\-/g, '-')
     .replace(/\-\-\-/g, '-')
     .replace(/\-\-/g, '-')
+    .replace(' ', '');
 }
 
 function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
@@ -44,7 +45,7 @@ function createMarkdownFile(writePath, data, category_uri) {
   // Page title
   data.title = data.name + ', Food Oasis Los Angeles';
 
-  var filename = stringToURI(data.name.replace(' ' + data.category, ''));
+  var filename = stringToURI(data.name.replace(' ' + data.category, '') + data.address_1.substring(0,4));
 
   data.uri = '/' + category_uri + '/' + filename + '/';
 

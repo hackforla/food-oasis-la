@@ -1,0 +1,41 @@
+---
+name: Gelson's Market
+address_1: 15424 W Sunset Blvd
+address_2: ''
+city: ''
+state: CA
+zip: '90272'
+phone: (310) 459-4483
+latitude: '34.048013'
+longitude: '-118.527967'
+category: Supermarket
+website: 'http://gelsons.com/store-locations/pacific-palisades'
+active: ''
+daycode1: Mon
+day1_open: '0700'
+day1_close: '2200'
+daycode2: Tue
+day2_open: '0700'
+day2_close: '2200'
+daycode3: Wed
+day3_open: '0700'
+day3_close: '2200'
+daycode4: Thu
+day4_open: '2200'
+daycode5: Fri
+day5_open: '0700'
+day5_close: '2200'
+daycode6: Sat
+day6_open: '0700'
+day6_close: '2200'
+daycode7: Sun
+day7_open: '0700'
+day7_close: '2200'
+'': ''
+title: 'Gelson''s Market, Food Oasis Los Angeles'
+uri: /supermarket/gelsons-market1542/
+formatted_daycode1: Monday
+formatted_day1_open: 7am
+formatted_day1_close: 10pm
+
+---
