@@ -38,5 +38,7 @@ title: 'Breath of Life S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/breath-of-life-s-d-a-church425-/
 formatted_day1_open: 12pm
 formatted_day1_close: 3pm
+formatted_day2_open: 12pm
+formatted_day2_close: 3pm
 
 ---

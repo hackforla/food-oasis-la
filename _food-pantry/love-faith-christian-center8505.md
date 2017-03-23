@@ -39,5 +39,8 @@ uri: /food-pantry/love-faith-christian-center8505/
 formatted_daycode1: Monday
 formatted_day1_open: '8:30am'
 formatted_day1_close: 10am
+formatted_daycode2: Friday
+formatted_day2_open: '8:30am'
+formatted_day2_close: 10am
 
 ---

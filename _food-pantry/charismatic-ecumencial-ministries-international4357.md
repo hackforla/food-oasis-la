@@ -38,5 +38,9 @@ title: 'Charismatic Ecumencial Ministries International, Food Oasis Los Angeles'
 uri: /food-pantry/charismatic-ecumencial-ministries-international4357/
 formatted_day1_open: 1pm
 formatted_day1_close: '1:30pm'
+formatted_day2_open: 1pm
+formatted_day2_close: '1:30pm'
+formatted_day3_open: 1pm
+formatted_day3_close: '1:30pm'
 
 ---

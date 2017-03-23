@@ -39,5 +39,8 @@ uri: /food-pantry/church-of-the-valley6565/
 formatted_daycode1: Tuesday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: '9:30am'
+formatted_day2_close: 12pm
 
 ---

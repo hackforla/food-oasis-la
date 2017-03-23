@@ -38,5 +38,11 @@ title: 'Paramount Care Foundation, Food Oasis Los Angeles'
 uri: /food-pantry/paramount-care-foundation8303/
 formatted_day1_open: 9am
 formatted_day1_close: 10am
+formatted_day2_open: 9am
+formatted_day2_close: 10am
+formatted_day3_open: 9am
+formatted_day3_close: 10am
+formatted_day4_open: 9am
+formatted_day4_close: 10am
 
 ---

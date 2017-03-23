@@ -38,5 +38,7 @@ title: 'Sacred Heart Church, Food Oasis Los Angeles'
 uri: /food-pantry/sacred-heart-church2210/
 formatted_day1_open: 10am
 formatted_day1_close: '12:30pm'
+formatted_day2_open: 10am
+formatted_day2_close: '12:30pm'
 
 ---

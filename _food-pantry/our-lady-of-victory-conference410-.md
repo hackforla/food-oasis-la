@@ -38,5 +38,7 @@ title: 'Our Lady of Victory Conference, Food Oasis Los Angeles'
 uri: /food-pantry/our-lady-of-victory-conference410-/
 formatted_day1_open: '8:30am'
 formatted_day1_close: 10am
+formatted_day2_open: '8:30am'
+formatted_day2_close: 10am
 
 ---

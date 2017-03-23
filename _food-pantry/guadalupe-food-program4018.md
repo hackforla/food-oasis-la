@@ -38,5 +38,7 @@ title: 'Guadalupe Food Program, Food Oasis Los Angeles'
 uri: /food-pantry/guadalupe-food-program4018/
 formatted_day1_open: 7am
 formatted_day1_close: 9am
+formatted_day2_open: 7am
+formatted_day2_close: 9am
 
 ---

@@ -38,5 +38,9 @@ title: 'St. Thomas Center, Food Oasis Los Angeles'
 uri: /food-pantry/st-thomas-center2727/
 formatted_day1_open: 7am
 formatted_day1_close: 9am
+formatted_day2_open: 7am
+formatted_day2_close: 9am
+formatted_day3_open: 7am
+formatted_day3_close: 9am
 
 ---

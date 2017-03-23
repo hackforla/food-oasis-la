@@ -38,5 +38,7 @@ title: 'St. Ferdinand Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-ferdinand-church1109/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

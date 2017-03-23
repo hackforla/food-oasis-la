@@ -38,5 +38,9 @@ title: 'Do Right Christian Church, Food Oasis Los Angeles'
 uri: /food-pantry/do-right-christian-church9815/
 formatted_day1_open: '8:30am'
 formatted_day1_close: '10:30am'
+formatted_day2_open: '8:30am'
+formatted_day2_close: '10:30am'
+formatted_day3_open: '8:30am'
+formatted_day3_close: '10:30am'
 
 ---

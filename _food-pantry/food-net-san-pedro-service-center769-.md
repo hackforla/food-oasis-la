@@ -38,5 +38,14 @@ title: 'Food Net-San Pedro Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-san-pedro-service-center769-/
 formatted_day1_open: 2pm
 formatted_day1_close: '4:30pm'
+formatted_daycode2: Wednesday
+formatted_day2_open: 2pm
+formatted_day2_close: '4:30pm'
+formatted_daycode3: Thursday
+formatted_day3_open: 2pm
+formatted_day3_close: '4:30pm'
+formatted_daycode4: Friday
+formatted_day4_open: 2pm
+formatted_day4_close: '4:30pm'
 
 ---

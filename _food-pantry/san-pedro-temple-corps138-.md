@@ -39,5 +39,8 @@ uri: /food-pantry/san-pedro-temple-corps138-/
 formatted_daycode1: Friday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Friday
+formatted_day2_open: 2pm
+formatted_day2_close: 3pm
 
 ---

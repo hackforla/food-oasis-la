@@ -38,5 +38,7 @@ title: 'Corys Kitchen-Iglesia Torre De Alabanza, Food Oasis Los Angeles'
 uri: /food-pantry/corys-kitchen-iglesia-torre-de-alabanza822-/
 formatted_day1_open: 5pm
 formatted_day1_close: 7pm
+formatted_day2_open: 5pm
+formatted_day2_close: 7pm
 
 ---

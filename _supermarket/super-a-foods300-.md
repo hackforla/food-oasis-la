@@ -34,5 +34,8 @@ day7_close: ''
 '': ''
 title: 'Super A Foods, Food Oasis Los Angeles'
 uri: /supermarket/super-a-foods300-/
+formatted_daycode2: Tuesday
+formatted_day2_open: '8:30pm'
+formatted_day2_close: 10pm
 
 ---

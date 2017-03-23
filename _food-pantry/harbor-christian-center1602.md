@@ -38,5 +38,7 @@ title: 'Harbor Christian Center, Food Oasis Los Angeles'
 uri: /food-pantry/harbor-christian-center1602/
 formatted_day1_open: 6pm
 formatted_day1_close: '7:30pm'
+formatted_day2_open: 6pm
+formatted_day2_close: '7:30pm'
 
 ---

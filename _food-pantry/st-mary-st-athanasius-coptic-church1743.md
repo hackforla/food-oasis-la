@@ -38,5 +38,7 @@ title: 'St. Mary & St. Athanasius Coptic Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-mary-st-athanasius-coptic-church1743/
 formatted_day1_open: 9am
 formatted_day1_close: 2pm
+formatted_day2_open: 9am
+formatted_day2_close: 2pm
 
 ---

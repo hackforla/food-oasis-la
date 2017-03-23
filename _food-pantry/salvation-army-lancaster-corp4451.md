@@ -38,5 +38,8 @@ title: 'Salvation Army- Lancaster Corp, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-lancaster-corp4451/
 formatted_day1_open: 12pm
 formatted_day1_close: 4pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 9am
+formatted_day2_close: '10:30am'
 
 ---

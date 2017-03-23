@@ -39,5 +39,8 @@ uri: /food-pantry/north-hollywood-interfaith4390/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 1pm
+formatted_daycode2: Friday
+formatted_day2_open: 9am
+formatted_day2_close: 1pm
 
 ---

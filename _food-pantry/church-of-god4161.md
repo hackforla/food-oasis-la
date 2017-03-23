@@ -39,5 +39,8 @@ uri: /food-pantry/church-of-god4161/
 formatted_daycode1: Sunday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 7pm
+formatted_day2_close: 9pm
 
 ---

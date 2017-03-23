@@ -38,5 +38,7 @@ title: 'Lifeline Community Services & Economic Development, Food Oasis Los Angel
 uri: /food-pantry/lifeline-community-services-economic-development2556/
 formatted_day1_open: 12pm
 formatted_day1_close: 2pm
+formatted_day2_open: 12pm
+formatted_day2_close: 2pm
 
 ---

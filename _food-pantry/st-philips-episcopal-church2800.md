@@ -38,5 +38,7 @@ title: 'St. Philip''s Episcopal Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-philips-episcopal-church2800/
 formatted_day1_open: '7:30am'
 formatted_day1_close: '8:30am'
+formatted_day2_open: '7:30am'
+formatted_day2_close: '8:30am'
 
 ---

@@ -38,5 +38,7 @@ title: 'All Saints Conference, Food Oasis Los Angeles'
 uri: /food-pantry/all-saints-conference3431/
 formatted_day1_open: 3pm
 formatted_day1_close: 5pm
+formatted_day2_open: 3pm
+formatted_day2_close: 5pm
 
 ---

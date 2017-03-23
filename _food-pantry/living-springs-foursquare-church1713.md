@@ -38,5 +38,9 @@ title: 'Living Springs Foursquare Church, Food Oasis Los Angeles'
 uri: /food-pantry/living-springs-foursquare-church1713/
 formatted_day1_open: 8am
 formatted_day1_close: 10am
+formatted_day2_open: 8am
+formatted_day2_close: 10am
+formatted_day3_open: 8am
+formatted_day3_close: 10am
 
 ---

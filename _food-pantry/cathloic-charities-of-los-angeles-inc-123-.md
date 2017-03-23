@@ -39,5 +39,8 @@ uri: /food-pantry/cathloic-charities-of-los-angeles-inc-123-/
 formatted_daycode1: Tuesday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 3pm
+formatted_daycode2: Thursday
+formatted_day2_open: '9:30am'
+formatted_day2_close: 3pm
 
 ---

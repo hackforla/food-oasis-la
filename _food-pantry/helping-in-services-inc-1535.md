@@ -39,5 +39,14 @@ uri: /food-pantry/helping-in-services-inc-1535/
 formatted_daycode1: Tuesday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
+formatted_day2_open: '1:30pm'
+formatted_day2_close: '3:30pm'
+formatted_daycode3: Thursday
+formatted_day3_open: '9:30am'
+formatted_day3_close: 12pm
+formatted_daycode4: Thursday
+formatted_day4_open: '1:30pm'
+formatted_day4_close: '3:30pm'
 
 ---

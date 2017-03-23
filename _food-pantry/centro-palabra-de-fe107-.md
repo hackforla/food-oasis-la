@@ -38,5 +38,7 @@ title: 'Centro Palabra de Fe, Food Oasis Los Angeles'
 uri: /food-pantry/centro-palabra-de-fe107-/
 formatted_day1_open: '8:30pm'
 formatted_day1_close: '9:30pm'
+formatted_day2_open: '8:30pm'
+formatted_day2_close: '9:30pm'
 
 ---

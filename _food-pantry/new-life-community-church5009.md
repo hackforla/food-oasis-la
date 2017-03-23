@@ -39,5 +39,8 @@ uri: /food-pantry/new-life-community-church5009/
 formatted_daycode1: Sunday
 formatted_day1_open: 12pm
 formatted_day1_close: '1:30pm'
+formatted_daycode2: Wednesday
+formatted_day2_open: 2pm
+formatted_day2_close: '3:30pm'
 
 ---

@@ -38,5 +38,7 @@ title: 'Bethel Unspeakable Joy Christian Church, Food Oasis Los Angeles'
 uri: /food-pantry/bethel-unspeakable-joy-christian-church8724/
 formatted_day1_open: 8am
 formatted_day1_close: 10am
+formatted_day2_open: 8am
+formatted_day2_close: 10am
 
 ---

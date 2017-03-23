@@ -39,5 +39,8 @@ uri: /food-pantry/rccg-victory-house-of-california6640/
 formatted_daycode1: Sunday
 formatted_day1_open: '12:30pm'
 formatted_day1_close: 2pm
+formatted_daycode2: Tuesday
+formatted_day2_open: '10:30am'
+formatted_day2_close: '12:30pm'
 
 ---

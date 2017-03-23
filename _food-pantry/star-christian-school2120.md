@@ -38,5 +38,7 @@ title: 'Star Christian School, Food Oasis Los Angeles'
 uri: /food-pantry/star-christian-school2120/
 formatted_day1_open: 8am
 formatted_day1_close: 9am
+formatted_day2_open: 8am
+formatted_day2_close: 9am
 
 ---

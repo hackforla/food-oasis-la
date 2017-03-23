@@ -38,5 +38,8 @@ title: 'Door of Hope Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/door-of-hope-community-center1414/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_daycode2: Thursday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

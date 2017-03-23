@@ -38,5 +38,7 @@ title: 'Valley Crossroads S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/valley-crossroads-s-d-a-church1135/
 formatted_day1_open: '2:30pm'
 formatted_day1_close: 4pm
+formatted_day2_open: '2:30pm'
+formatted_day2_close: 4pm
 
 ---

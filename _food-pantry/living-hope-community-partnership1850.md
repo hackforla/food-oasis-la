@@ -38,5 +38,7 @@ title: 'Living Hope Community Partnership, Food Oasis Los Angeles'
 uri: /food-pantry/living-hope-community-partnership1850/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

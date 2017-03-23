@@ -37,5 +37,20 @@ uri: /supermarket/ralphs1745/
 formatted_daycode1: Monday
 formatted_day1_open: 0am
 formatted_day1_close: '11:59pm'
+formatted_daycode2: Tuesday
+formatted_day2_open: 0am
+formatted_day2_close: '11:59pm'
+formatted_daycode3: Wednesday
+formatted_day3_open: 0am
+formatted_day3_close: '11:59pm'
+formatted_daycode5: Friday
+formatted_day5_open: 0am
+formatted_day5_close: '11:59pm'
+formatted_daycode6: Saturday
+formatted_day6_open: 0am
+formatted_day6_close: '11:59pm'
+formatted_daycode7: Sunday
+formatted_day7_open: 0am
+formatted_day7_close: '11:59pm'
 
 ---

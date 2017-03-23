@@ -39,5 +39,14 @@ uri: /food-pantry/hope-chapel-foursquare-church2420/
 formatted_daycode1: Wednesday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 1pm
+formatted_day2_close: 4pm
+formatted_daycode3: Friday
+formatted_day3_open: 9am
+formatted_day3_close: 12pm
+formatted_daycode4: Friday
+formatted_day4_open: 1pm
+formatted_day4_close: 4pm
 
 ---

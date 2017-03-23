@@ -39,5 +39,17 @@ uri: /food-pantry/trinity-pantry-ministry1450/
 formatted_daycode1: Sunday
 formatted_day1_open: '9:30am'
 formatted_day1_close: '10:50am'
+formatted_daycode2: Sunday
+formatted_day2_open: 1pm
+formatted_day2_close: 3pm
+formatted_daycode3: Friday
+formatted_day3_open: '9:30am'
+formatted_day3_close: '10:50am'
+formatted_daycode4: Friday
+formatted_day4_open: 1pm
+formatted_day4_close: 3pm
+formatted_daycode5: Saturday
+formatted_day5_open: '9:30am'
+formatted_day5_close: '10:50am'
 
 ---

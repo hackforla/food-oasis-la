@@ -38,5 +38,7 @@ title: 'The Great Vision Church, Food Oasis Los Angeles'
 uri: /food-pantry/the-great-vision-church4465/
 formatted_day1_open: 7am
 formatted_day1_close: 8am
+formatted_day2_open: 7am
+formatted_day2_close: 8am
 
 ---

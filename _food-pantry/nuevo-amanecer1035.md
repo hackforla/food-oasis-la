@@ -38,5 +38,7 @@ title: 'Nuevo Amanecer, Food Oasis Los Angeles'
 uri: /food-pantry/nuevo-amanecer1035/
 formatted_day1_open: 6pm
 formatted_day1_close: '7:30pm'
+formatted_day2_open: 6pm
+formatted_day2_close: '7:30pm'
 
 ---

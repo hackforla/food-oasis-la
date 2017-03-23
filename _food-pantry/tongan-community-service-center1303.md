@@ -38,5 +38,7 @@ title: 'Tongan Community Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/tongan-community-service-center1303/
 formatted_day1_open: 7am
 formatted_day1_close: 10am
+formatted_day2_open: 7am
+formatted_day2_close: 10am
 
 ---

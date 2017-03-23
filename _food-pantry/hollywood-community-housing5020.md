@@ -39,5 +39,8 @@ uri: /food-pantry/hollywood-community-housing5020/
 formatted_daycode1: Thursday
 formatted_day1_open: '3:30pm'
 formatted_day1_close: '5:30pm'
+formatted_daycode2: Friday
+formatted_day2_open: '11:30am'
+formatted_day2_close: '1:30pm'
 
 ---

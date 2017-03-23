@@ -38,5 +38,7 @@ title: 'People for Community Improvement, Food Oasis Los Angeles'
 uri: /food-pantry/people-for-community-improvement1300/
 formatted_day1_open: 11am
 formatted_day1_close: '1:30pm'
+formatted_day2_open: 11am
+formatted_day2_close: 3pm
 
 ---

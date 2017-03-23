@@ -38,5 +38,8 @@ title: 'Ecumenical Council of Pasadena Area Congregations, Food Oasis Los Angele
 uri: /food-pantry/ecumenical-council-of-pasadena-area-congregations444-/
 formatted_day1_open: 9am
 formatted_day1_close: 3pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 9am
+formatted_day2_close: 3pm
 
 ---

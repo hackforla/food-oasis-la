@@ -38,5 +38,7 @@ title: 'Young Hwa United Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/young-hwa-united-methodist-church214-/
 formatted_day1_open: 3pm
 formatted_day1_close: '3:45pm'
+formatted_day2_open: 3pm
+formatted_day2_close: '4:45pm'
 
 ---

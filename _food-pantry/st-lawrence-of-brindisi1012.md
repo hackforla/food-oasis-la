@@ -39,5 +39,8 @@ uri: /food-pantry/st-lawrence-of-brindisi1012/
 formatted_daycode1: Tuesday
 formatted_day1_open: 7am
 formatted_day1_close: '8:30am'
+formatted_daycode2: Thursday
+formatted_day2_open: 7am
+formatted_day2_close: '8:30am'
 
 ---

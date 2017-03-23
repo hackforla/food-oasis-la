@@ -37,5 +37,20 @@ uri: /supermarket/pavilions7-pe/
 formatted_daycode1: Monday
 formatted_day1_open: 1pm
 formatted_day1_close: 9pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 12pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 11am
+formatted_day3_close: 9pm
+formatted_daycode5: Friday
+formatted_day5_open: 12pm
+formatted_day5_close: 9pm
+formatted_daycode6: Saturday
+formatted_day6_open: 10am
+formatted_day6_close: 9pm
+formatted_daycode7: Sunday
+formatted_day7_open: 8am
+formatted_day7_close: 8pm
 
 ---

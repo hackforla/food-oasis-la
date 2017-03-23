@@ -39,5 +39,11 @@ uri: /food-pantry/family-church-whittier8434/
 formatted_daycode1: Sunday
 formatted_day1_open: '10:15am'
 formatted_day1_close: '10:45am'
+formatted_daycode2: Sunday
+formatted_day2_open: '12:15pm'
+formatted_day2_close: '12:30pm'
+formatted_daycode3: Sunday
+formatted_day3_open: '1:45pm'
+formatted_day3_close: '2:15pm'
 
 ---

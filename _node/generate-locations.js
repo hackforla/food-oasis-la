@@ -49,32 +49,41 @@ function createMarkdownFile(writePath, data, category_uri) {
 
   data.uri = '/' + category_uri + '/' + filename + '/';
 
-  if (data.daycode1 && data.day1_open && data.day1_close) {
-    switch (data.daycode1.trim()) {
-      case 'Mon':
-        data.formatted_daycode1 = 'Monday';
-        break;
-      case 'Tue':
-        data.formatted_daycode1 = 'Tuesday';
-        break;
-      case 'Wed':
-        data.formatted_daycode1 = 'Wednesday';
-        break;
-      case 'Thu':
-        data.formatted_daycode1 = 'Thursday';
-        break;
-      case 'Fri':
-        data.formatted_daycode1 = 'Friday';
-        break;
-      case 'Sat':
-        data.formatted_daycode1 = 'Saturday';
-        break;
-      case 'Sun':
-        data.formatted_daycode1 = 'Sunday';
-        break;
+// loop thru days 1 - 7
+  for (var i = 1; i <= 7; i++) {
+    // replace hardcoded day1 & daycode 1 with __i
+    var daycodeKey = 'daycode' + i;
+    var formattedKey = 'formatted_daycode' + i;
+    var openKey = 'day' + i + '_open';
+    var closeKey = 'day' + i + '_close';
+
+    if (data[ daycodeKey ] && data[ openKey ] && data[ closeKey ] ) {
+      switch (data[ daycodeKey ].trim()) {
+        case 'Mon':
+          data[formattedKey] = 'Monday';
+          break;
+        case 'Tue':
+          data[formattedKey] = 'Tuesday';
+          break;
+        case 'Wed':
+          data[formattedKey] = 'Wednesday';
+          break;
+        case 'Thu':
+          data[formattedKey] = 'Thursday';
+          break;
+        case 'Fri':
+          data[formattedKey] = 'Friday';
+          break;
+        case 'Sat':
+          data[formattedKey] = 'Saturday';
+          break;
+        case 'Sun':
+          data[formattedKey] = 'Sunday';
+          break;
+      }
+      data['formatted_day' + i + '_open']  = formatTime(data[ openKey ]);
+      data['formatted_day' + i + '_close'] = formatTime(data[ closeKey ]);
     }
-    data.formatted_day1_open  = formatTime(data.day1_open);
-    data.formatted_day1_close = formatTime(data.day1_close);
   }
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-

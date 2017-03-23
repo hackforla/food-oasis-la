@@ -38,5 +38,7 @@ title: 'Food Net-East Rancho Dominguez, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-east-rancho-dominguez4513/
 formatted_day1_open: 8am
 formatted_day1_close: 10am
+formatted_day2_open: 8am
+formatted_day2_close: 10am
 
 ---

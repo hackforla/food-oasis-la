@@ -39,5 +39,8 @@ uri: /food-pantry/iglesia-pentecostes-roca-de-salvacion122-/
 formatted_daycode1: Sunday
 formatted_day1_open: 1pm
 formatted_day1_close: 2pm
+formatted_daycode2: Saturday
+formatted_day2_open: 3pm
+formatted_day2_close: 4pm
 
 ---

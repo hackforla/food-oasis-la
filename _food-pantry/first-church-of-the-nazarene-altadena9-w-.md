@@ -38,5 +38,7 @@ title: 'First Church of the Nazarene-Altadena, Food Oasis Los Angeles'
 uri: /food-pantry/first-church-of-the-nazarene-altadena9-w-/
 formatted_day1_open: 2pm
 formatted_day1_close: 4pm
+formatted_day2_open: 2pm
+formatted_day2_close: 4pm
 
 ---

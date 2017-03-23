@@ -39,5 +39,11 @@ uri: /food-pantry/iglesia-fuente-de-vida-community-center1113/
 formatted_daycode1: Sunday
 formatted_day1_open: '12:30pm'
 formatted_day1_close: 1pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 10am
+formatted_daycode3: Wednesday
+formatted_day3_open: 9am
+formatted_day3_close: 10am
 
 ---

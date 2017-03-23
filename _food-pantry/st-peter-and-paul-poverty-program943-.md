@@ -39,5 +39,11 @@ uri: /food-pantry/st-peter-and-paul-poverty-program943-/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
+formatted_daycode3: Thursday
+formatted_day3_open: 9am
+formatted_day3_close: 11am
 
 ---

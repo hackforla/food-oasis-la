@@ -38,5 +38,7 @@ title: 'Bread of Life Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/bread-of-life-community-outreach628-/
 formatted_day1_open: '8:30am'
 formatted_day1_close: 12pm
+formatted_day2_open: '8:30am'
+formatted_day2_close: 12pm
 
 ---

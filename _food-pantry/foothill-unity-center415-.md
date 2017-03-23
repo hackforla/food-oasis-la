@@ -39,5 +39,11 @@ uri: /food-pantry/foothill-unity-center415-/
 formatted_daycode1: Monday
 formatted_day1_open: 1pm
 formatted_day1_close: '3:30pm'
+formatted_daycode2: Wednesday
+formatted_day2_open: 9am
+formatted_day2_close: '11:30am'
+formatted_daycode3: Friday
+formatted_day3_open: 9am
+formatted_day3_close: '11:30am'
 
 ---

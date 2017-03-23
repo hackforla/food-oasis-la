@@ -38,5 +38,7 @@ title: 'Willowbrook Project Area Commission, Food Oasis Los Angeles'
 uri: /food-pantry/willowbrook-project-area-commission1190/
 formatted_day1_open: 5pm
 formatted_day1_close: 7pm
+formatted_day2_open: 10am
+formatted_day2_close: 12pm
 
 ---

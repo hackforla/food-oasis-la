@@ -39,5 +39,14 @@ uri: /food-pantry/meet-each-need-with-dignity1064/
 formatted_daycode1: Tuesday
 formatted_day1_open: 8am
 formatted_day1_close: 2pm
+formatted_daycode2: Thursday
+formatted_day2_open: 8am
+formatted_day2_close: 2pm
+formatted_daycode3: Friday
+formatted_day3_open: 8am
+formatted_day3_close: 2pm
+formatted_daycode4: Saturday
+formatted_day4_open: 9am
+formatted_day4_close: 12pm
 
 ---

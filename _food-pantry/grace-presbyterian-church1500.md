@@ -38,5 +38,7 @@ title: 'Grace Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/grace-presbyterian-church1500/
 formatted_day1_open: '9:30am'
 formatted_day1_close: '10:30am'
+formatted_day2_open: '9:30am'
+formatted_day2_close: '10:30am'
 
 ---

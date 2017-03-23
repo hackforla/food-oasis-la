@@ -39,5 +39,11 @@ uri: /food-pantry/st-margarets-center1021/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 4pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 9am
+formatted_day2_close: 4pm
+formatted_daycode3: Friday
+formatted_day3_open: 9am
+formatted_day3_close: 4pm
 
 ---

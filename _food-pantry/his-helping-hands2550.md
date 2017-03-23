@@ -38,5 +38,7 @@ title: 'His Helping Hands, Food Oasis Los Angeles'
 uri: /food-pantry/his-helping-hands2550/
 formatted_day1_open: 6pm
 formatted_day1_close: 7pm
+formatted_day2_open: 6pm
+formatted_day2_close: 7pm
 
 ---

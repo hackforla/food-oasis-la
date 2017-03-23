@@ -39,5 +39,14 @@ uri: /food-pantry/food-net-east-los-angeles-center133-/
 formatted_daycode1: Monday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 12pm
+formatted_daycode2: Monday
+formatted_day2_open: '1:30pm'
+formatted_day2_close: 4pm
+formatted_daycode3: Thursday
+formatted_day3_open: '9:30am'
+formatted_day3_close: 12pm
+formatted_daycode4: Friday
+formatted_day4_open: '1:30pm'
+formatted_day4_close: 4pm
 
 ---

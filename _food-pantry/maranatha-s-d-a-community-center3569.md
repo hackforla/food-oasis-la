@@ -38,5 +38,7 @@ title: 'Maranatha S.D.A. Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/maranatha-s-d-a-community-center3569/
 formatted_day1_open: 2pm
 formatted_day1_close: 3pm
+formatted_day2_open: 2pm
+formatted_day2_close: 3pm
 
 ---

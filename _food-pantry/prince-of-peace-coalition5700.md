@@ -39,5 +39,17 @@ uri: /food-pantry/prince-of-peace-coalition5700/
 formatted_daycode1: Monday
 formatted_day1_open: 10am
 formatted_day1_close: 3pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 10am
+formatted_day2_close: 3pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 10am
+formatted_day3_close: 3pm
+formatted_daycode4: Thursday
+formatted_day4_open: 10am
+formatted_day4_close: 3pm
+formatted_daycode5: Friday
+formatted_day5_open: 10am
+formatted_day5_close: 12pm
 
 ---

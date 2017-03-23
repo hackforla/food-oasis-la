@@ -39,5 +39,11 @@ uri: /food-pantry/sunland-tujunga-t-a-c-7747/
 formatted_daycode1: Wednesday
 formatted_day1_open: 9am
 formatted_day1_close: '11:30am'
+formatted_daycode2: Thursday
+formatted_day2_open: 9am
+formatted_day2_close: '11:30am'
+formatted_daycode3: Friday
+formatted_day3_open: 9am
+formatted_day3_close: '11:30am'
 
 ---

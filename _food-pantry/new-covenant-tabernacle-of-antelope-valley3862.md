@@ -38,5 +38,7 @@ title: 'New Covenant Tabernacle of Antelope Valley, Food Oasis Los Angeles'
 uri: /food-pantry/new-covenant-tabernacle-of-antelope-valley3862/
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_day2_open: 9am
+formatted_day2_close: 12pm
 
 ---

@@ -39,5 +39,7 @@ uri: /food-pantry/saint-mark8305/
 formatted_daycode1: Wednesday
 formatted_day1_open: 11am
 formatted_day1_close: '11:30am'
+formatted_day2_open: 11am
+formatted_day2_close: '11:30am'
 
 ---

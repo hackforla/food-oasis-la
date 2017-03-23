@@ -37,5 +37,20 @@ uri: /supermarket/jons-marketplace600-/
 formatted_daycode1: Monday
 formatted_day1_open: 11am
 formatted_day1_close: 2pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 11am
+formatted_day2_close: 9pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 8am
+formatted_day3_close: 9am
+formatted_daycode5: Friday
+formatted_day5_open: 7am
+formatted_day5_close: 8am
+formatted_daycode6: Saturday
+formatted_day6_open: 11am
+formatted_day6_close: 7pm
+formatted_daycode7: Sunday
+formatted_day7_open: 11am
+formatted_day7_close: 10pm
 
 ---

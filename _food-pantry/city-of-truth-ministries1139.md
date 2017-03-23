@@ -38,5 +38,7 @@ title: 'City of Truth Ministries, Food Oasis Los Angeles'
 uri: /food-pantry/city-of-truth-ministries1139/
 formatted_day1_open: '12:30pm'
 formatted_day1_close: 2pm
+formatted_day2_open: '12:30pm'
+formatted_day2_close: 2pm
 
 ---

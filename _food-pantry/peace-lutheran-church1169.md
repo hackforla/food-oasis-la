@@ -38,5 +38,7 @@ title: 'Peace Lutheran Church, Food Oasis Los Angeles'
 uri: /food-pantry/peace-lutheran-church1169/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

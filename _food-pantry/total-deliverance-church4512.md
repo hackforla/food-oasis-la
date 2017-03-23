@@ -38,5 +38,7 @@ title: 'Total Deliverance Church, Food Oasis Los Angeles'
 uri: /food-pantry/total-deliverance-church4512/
 formatted_day1_open: 11am
 formatted_day1_close: '12:30pm'
+formatted_day2_open: 11am
+formatted_day2_close: '12:30pm'
 
 ---

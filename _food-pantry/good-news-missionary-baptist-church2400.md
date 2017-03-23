@@ -38,5 +38,7 @@ title: 'Good News Missionary Baptist Church, Food Oasis Los Angeles'
 uri: /food-pantry/good-news-missionary-baptist-church2400/
 formatted_day1_open: 11am
 formatted_day1_close: 1pm
+formatted_day2_open: 11am
+formatted_day2_close: 1pm
 
 ---

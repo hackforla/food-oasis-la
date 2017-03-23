@@ -37,5 +37,20 @@ uri: /supermarket/albertsons1300/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
 formatted_day1_close: 3pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 12pm
+formatted_day2_close: 3pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 12pm
+formatted_day3_close: 3pm
+formatted_daycode5: Friday
+formatted_day5_open: 12pm
+formatted_day5_close: 3pm
+formatted_daycode6: Saturday
+formatted_day6_open: 12pm
+formatted_day6_close: 3pm
+formatted_daycode7: Sunday
+formatted_day7_open: 12pm
+formatted_day7_close: 3pm
 
 ---

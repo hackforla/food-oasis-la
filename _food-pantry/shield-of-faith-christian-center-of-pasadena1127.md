@@ -38,5 +38,7 @@ title: 'Shield of Faith Christian Center of Pasadena, Food Oasis Los Angeles'
 uri: /food-pantry/shield-of-faith-christian-center-of-pasadena1127/
 formatted_day1_open: 12pm
 formatted_day1_close: 2pm
+formatted_day2_open: 12pm
+formatted_day2_close: 2pm
 
 ---

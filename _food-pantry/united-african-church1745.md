@@ -38,5 +38,7 @@ title: 'United African Church, Food Oasis Los Angeles'
 uri: /food-pantry/united-african-church1745/
 formatted_day1_open: 1pm
 formatted_day1_close: 2pm
+formatted_day2_open: 1pm
+formatted_day2_close: 2pm
 
 ---

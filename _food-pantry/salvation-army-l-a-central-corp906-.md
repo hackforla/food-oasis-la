@@ -39,5 +39,14 @@ uri: /food-pantry/salvation-army-l-a-central-corp906-/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 4pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 4pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 12pm
+formatted_day3_close: 4pm
+formatted_daycode4: Thursday
+formatted_day4_open: 12pm
+formatted_day4_close: 4pm
 
 ---

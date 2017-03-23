@@ -37,5 +37,14 @@ uri: /supermarket/smart-final1521/
 formatted_daycode1: Monday
 formatted_day1_open: 8am
 formatted_day1_close: 5pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 8am
+formatted_day2_close: 5pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 8am
+formatted_day3_close: 5pm
+formatted_daycode5: Friday
+formatted_day5_open: 8am
+formatted_day5_close: 5pm
 
 ---

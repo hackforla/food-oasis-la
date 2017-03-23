@@ -38,5 +38,7 @@ title: 'Fifty Fourth Street S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/fifty-fourth-street-s-d-a-church1973/
 formatted_day1_open: 8am
 formatted_day1_close: 10am
+formatted_day2_open: 8am
+formatted_day2_close: 10am
 
 ---

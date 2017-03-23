@@ -38,5 +38,8 @@ title: 'First Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-presbyterian-church1809/
 formatted_day1_open: 1pm
 formatted_day1_close: 2pm
+formatted_daycode2: Saturday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

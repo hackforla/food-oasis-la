@@ -22,5 +22,8 @@ uri: /farmers-market/l-a-silverlake3700/
 formatted_daycode1: Tuesday
 formatted_day1_open: 2pm
 formatted_day1_close: '7:30pm'
+formatted_daycode2: Saturday
+formatted_day2_open: 8am
+formatted_day2_close: '1:30pm'
 
 ---

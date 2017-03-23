@@ -39,5 +39,20 @@ uri: /food-pantry/the-bible-tabernacle1630/
 formatted_daycode1: Sunday
 formatted_day1_open: '12:30pm'
 formatted_day1_close: 5pm
+formatted_daycode2: Monday
+formatted_day2_open: 9am
+formatted_day2_close: 5pm
+formatted_daycode3: Tuesday
+formatted_day3_open: 9am
+formatted_day3_close: 5pm
+formatted_daycode4: Wednesday
+formatted_day4_open: 9am
+formatted_day4_close: 5pm
+formatted_daycode5: Thursday
+formatted_day5_open: 9am
+formatted_day5_close: 5pm
+formatted_daycode7: Saturday
+formatted_day7_open: 9am
+formatted_day7_close: 5pm
 
 ---

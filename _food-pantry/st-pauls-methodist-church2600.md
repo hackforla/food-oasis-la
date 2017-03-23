@@ -38,5 +38,7 @@ title: 'St. Paul''s Methodist Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-pauls-methodist-church2600/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

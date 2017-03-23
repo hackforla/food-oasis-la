@@ -39,5 +39,8 @@ uri: /food-pantry/our-saviour-center4368/
 formatted_daycode1: Tuesday
 formatted_day1_open: 10am
 formatted_day1_close: 1pm
+formatted_daycode2: Thursday
+formatted_day2_open: 10am
+formatted_day2_close: 1pm
 
 ---
