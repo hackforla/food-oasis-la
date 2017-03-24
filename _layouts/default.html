@@ -81,6 +81,10 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 <div class="sticky">
 
 	<header>
+{% comment %}
+<!--
+TODO: Consider replacing the “nav-link” with “slideout-menu” in browsers that support advanced CSS.
+-->
 	<nav role="navigation" class="slideout-menu">
 		<div id="menuToggle">
 			<input type="checkbox" />
@@ -100,14 +104,11 @@ KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jeky
 			</ul>
 		</div>
 	</nav>
+{% endcomment %}
 
 	<h2><a href="/"><img src="/assets/images/fola.svg" alt="Food Oasis Los Angeles" /></a></h2>
 	<p class="tagline">Healthy Food for All Angelinos</p>
 
-{% comment %}
-<!--
-TODO: Consider showing this link to the footer menu by default, and then replace with “slideout-menu” in browsers that support advanced CSS.
--->
 	<p class="nav-link">
 		<a href="{% if include_footer == false %}/{% endif %}#navigation">
 			<svg width="22" height="19" viewBox="0 0 22 19">
@@ -124,7 +125,6 @@ TODO: Consider showing this link to the footer menu by default, and then replace
 			</svg>
 		</a>
 	</p>
-{% endcomment %}
 
 	</header>
 
@@ -155,7 +155,6 @@ TODO: Consider showing this link to the footer menu by default, and then replace
 	{% unless include_footer == false %}
 	<footer id="navigation">
 		<h2>{{ site.data.locales[locale].nav_headline }}</h2>
-		<p >Support this project! &nbsp;&nbsp;&nbsp;&nbsp;<a class="donate-button" href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p><br/><br/>
 
 		<ul class="link-list has-icons">
 			<li>
@@ -176,6 +175,7 @@ TODO: Consider showing this link to the footer menu by default, and then replace
 			<li><a href="/team"><span>{{ site.data.locales[locale].nav.items.team_label }}</span></a></li>
 			<li><a href="/news"><span>{{ site.data.locales[locale].nav.items.news_label }}</span></a></li>
 			<li><a href="/faqs"><span><abbr title="{{ site.data.locales[locale].nav.items.faqs_label }}">{{ site.data.locales[locale].nav.items.faqs_abbreviated_label }}</abbr></a></span></li>
+			<li><a href="#donate"><span>Donate</span></a></li>
 		</ul>
 
 		<section class="sponsors">
@@ -190,6 +190,13 @@ TODO: Consider showing this link to the footer menu by default, and then replace
 				</a>
 				{% endcomment %}
 			</div>
+		</section>
+
+		<section class="donate" id="donate">
+			<h2>Support this project</h2>
+			<p>We’re a volunteer-based project and would love your donation!</p>
+			<p>On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Food Oasis LA</em> with the email address <em>info@foodoasis.la</em></p>
+			<p class="action"><a href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p>
 		</section>
 
 		<section class="contact">
