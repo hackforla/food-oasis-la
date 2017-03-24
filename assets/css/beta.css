@@ -1554,6 +1554,9 @@
 		position: relative;
 		text-align: center;
 	}
+	footer .link-list {
+		max-width: none;
+	}
 	footer .link-list li {
 		display: inline-block;
 		margin-left: 0.75em;
@@ -1742,9 +1745,9 @@
 	footer .action a:hover,
 	footer .action a:active,
 	footer .action a:focus {
-		background: white;
-		color: black;
-		border-color: white;
+		background: white !important;
+		color: black !important;
+		border-color: white !important;
 	}
 
 
@@ -1762,10 +1765,12 @@
 		border-radius: 50%;
 	}
 	footer .sponsors h2,
+	footer .donate h2,
 	footer .contact h2 {
 		text-align: center;
 	}
 
+	footer .donate div,
 	footer .contact div {
 		margin-top: 3em;
 		text-align: center;
@@ -1813,7 +1818,7 @@
 	footer .contact a svg path {
 		transition: all 0.2s;
 	}
-	footer .contact div a {
+	footer .donate div a {
 		margin-top: -0.5em;
 		padding-top: 0.5em;
 	}

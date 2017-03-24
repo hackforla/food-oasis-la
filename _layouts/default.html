@@ -155,7 +155,6 @@ TODO: Consider replacing the “nav-link” with “slideout-menu” in browsers
 	{% unless include_footer == false %}
 	<footer id="navigation">
 		<h2>{{ site.data.locales[locale].nav_headline }}</h2>
-		<p >Support this project! &nbsp;&nbsp;&nbsp;&nbsp;<a class="donate-button" href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p><br/><br/>
 
 		<ul class="link-list has-icons">
 			<li>
@@ -176,6 +175,7 @@ TODO: Consider replacing the “nav-link” with “slideout-menu” in browsers
 			<li><a href="/team"><span>{{ site.data.locales[locale].nav.items.team_label }}</span></a></li>
 			<li><a href="/news"><span>{{ site.data.locales[locale].nav.items.news_label }}</span></a></li>
 			<li><a href="/faqs"><span><abbr title="{{ site.data.locales[locale].nav.items.faqs_label }}">{{ site.data.locales[locale].nav.items.faqs_abbreviated_label }}</abbr></a></span></li>
+			<li><a href="#donate"><span>Donate</span></a></li>
 		</ul>
 
 		<section class="sponsors">
@@ -190,6 +190,13 @@ TODO: Consider replacing the “nav-link” with “slideout-menu” in browsers
 				</a>
 				{% endcomment %}
 			</div>
+		</section>
+
+		<section class="donate" id="donate">
+			<h2>Support this project</h2>
+			<p>We’re a volunteer-based project and would love your donation!</p>
+			<p>On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Food Oasis LA</em> with the email address <em>info@foodoasis.la</em></p>
+			<p class="action"><a href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p>
 		</section>
 
 		<section class="contact">

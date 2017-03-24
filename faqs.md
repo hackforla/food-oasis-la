@@ -73,4 +73,6 @@ Coming soon.
 See our [Resources page](/resources/) for additional information.
 
 <h2> <a name="question12"></a> How can I support this project?</h2>
-<p >We are a volunteer-based project. We would love your donation! Please make sure to choose "Los Angeles Brigade" and make it in honor of "Food Oasis LA" with the email address info@foodoasis.la. <br/><br/><a class="donate-button" href="https://www.codeforamerica.org/donate" target="_blank">Donate </a></p>
+<p>We’re a volunteer-based project and would love your donation!</p>
+<p>On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Food Oasis LA</em> with the email address <em>info@foodoasis.la</em></p>
+<p class="action"><a href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p>
