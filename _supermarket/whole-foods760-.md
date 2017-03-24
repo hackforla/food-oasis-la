@@ -21,7 +21,8 @@ daycode3: Wed
 day3_open: '1000'
 day3_close: '2100'
 daycode4: Thu
-day4_open: '2100'
+day4_open: '1000'
+day4_close: '2100'
 daycode5: Fri
 day5_open: '1000'
 day5_close: '2100'
@@ -43,6 +44,9 @@ formatted_day2_close: 9pm
 formatted_daycode3: Wednesday
 formatted_day3_open: 10am
 formatted_day3_close: 9pm
+formatted_daycode4: Thursday
+formatted_day4_open: 10am
+formatted_day4_close: 9pm
 formatted_daycode5: Friday
 formatted_day5_open: 10am
 formatted_day5_close: 9pm

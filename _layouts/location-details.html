@@ -98,12 +98,20 @@ stylesheets:
 
 	{% if page['formatted_daycode1'] %}
 	<h2>Hours</h2>
-	{% assign days = "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday" | split: ", " %}
+	{% assign days = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" | split: ", " %}
 	<dl>
+	{% assign i = 0 %}
 	{% for day in days %}
-		<dt data-day="{{ page['daycode1'] }}">{{ day }}</dt>
-		{% if page['formatted_daycode1'] == day %}
-		<dd data-day="{{ page['daycode1'] }}" data-open="{{ page['day1_open'] }}" data-close="{{ page['day1_close'] }}"><span>{{ page['formatted_day1_open'] }} – {{ page['formatted_day1_close'] }}</span></dd>
+		{% assign i = i | plus:1 %}
+		{% assign daycodei = 'daycode' | append: i %}
+		{% assign formatted_daycodei = 'formatted_daycode' | append: i %}
+		{% assign dayi_open = 'day' | append: i | append: '_open' %}
+		{% assign dayi_close = 'day' | append: i | append: '_close' %}
+		{% assign formatted_dayi_open = 'formatted_day' | append: i | append: '_open' %}
+		{% assign formatted_dayi_close = 'formatted_day' | append: i | append: '_close' %}
+		<dt data-day="{{ page[daycodei] }}">{{ day }}</dt>
+		{% if page[formatted_daycodei] == day %}
+		<dd data-day="{{ page[daycodei] }}" data-open="{{ page[dayi_open] }}" data-close="{{ page[dayi_close] }}"><span>{{ page[formatted_dayi_open] }} – {{ page[formatted_dayi_close] }}</span></dd>
 		{% else %}
 		<dd><i>Closed</i></dd>
 		{% endif %}

@@ -22,6 +22,7 @@ day3_open: ''
 day3_close: ''
 daycode4: Thu
 day4_open: ''
+day4_close: ''
 daycode5: Fri
 day5_open: ''
 day5_close: ''
