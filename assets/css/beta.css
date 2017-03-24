@@ -171,8 +171,8 @@
 
 	.action.secondary a,
 	.action.secondary button {
-		background: white;
-		color: black;
+		background: white !important;
+		color: black !important;
 	}
 
 	.action.secondary a:hover,
@@ -181,7 +181,7 @@
 	.action.secondary button:hover,
 	.action.secondary button:active
 	.action.secondary button:focus {
-		color: rgb(124, 174, 50); /* @dark-lime */
+		color: rgb(124, 174, 50) !important; /* @dark-lime */
 	}
 
 	a.disabled {
