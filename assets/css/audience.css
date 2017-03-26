@@ -1,0 +1,29 @@
+
+
+	/* =Audience (about page)
+	----------------------------------------------- */
+	.audience section h2 {
+		margin-top: 0.6666666667em; /* half the usual margin top for h2 */
+		margin-bottom: 0;
+	}
+	.audience section h3 {
+		margin-top: 0.75em;
+	}
+	@media (min-width: 55em) {
+		.audience {
+			margin-top: 3em;
+		}
+		.audience:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+		.audience section {
+			margin-top: 0;
+			float: left;
+			width: 30%;
+		}
+		.audience section + section {
+			margin-left: 5%;
+		}
+	}

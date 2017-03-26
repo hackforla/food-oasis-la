@@ -1,0 +1,85 @@
+
+
+	/* =Elements
+	----------------------------------------------- */
+	body {
+		background: rgb(253, 254, 255);
+		color: rgb(49, 50, 51);
+		margin: 0;
+		padding: 0;
+		font: 100%/1.375 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+	}
+
+	/* OPTIONAL: Increase the font size on big screens. */
+	@media screen and (min-width: 600px) and (min-height: 600px) {
+		html {
+			font-size: 112.5%;
+		}
+	}
+	@media screen and (min-width: 800px) and (min-height: 800px) {
+		html {
+			font-size: 125%;
+		}
+	}
+	@media screen and (min-width: 1000px) and (min-height: 1000px) {
+		html {
+			font-size: 137.5%;
+		}
+	}
+	@media screen and (min-width: 1200px) and (min-height: 1200px) {
+		html {
+			font-size: 150%;
+		}
+	}
+
+	a {
+		color: rgb(77, 85, 148); /* @grape */
+		transition: color 0.2s;
+	}
+	a:hover,
+	a:active,
+	a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+
+	.icon {
+		vertical-align: text-top;
+		width: 1.5em;
+		height: 1.5em;
+		margin-right: 0.25em;
+	}
+
+	/* Shrink images to fit the available space */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	/* =Type
+	----------------------------------------------- */
+	h1, h2, h3, h4, h5, h6, p, dl, ul, ol, table {
+		margin-top: 0.75em;
+		margin-bottom: 0.75em;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: normal;
+		margin-top: 1.5em;
+	}
+
+
+	/* =Main
+	----------------------------------------------- */
+	main {
+		padding: 1.5em 1.5em 4.5em;
+	}
+
+	main > * {
+		max-width: 40rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+

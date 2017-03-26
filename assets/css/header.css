@@ -1,0 +1,37 @@
+
+
+	/* =Header
+	----------------------------------------------- */
+	.header {
+		background-color: rgb(241, 241, 241);
+		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
+		box-sizing: border-box;
+	}
+	@supports (position: sticky) or (position: -webkit-sticky) {
+		.header {
+			top: 0;
+			position: -webkit-sticky;
+			position: sticky;
+			z-index: 9999; /* @infinity */
+			width: 100%;
+		}
+	}
+
+	main .header {
+		margin-top: -1.5em;
+		margin-left: -1.5em;
+		margin-right: -1.5em;
+	}
+	@supports (position: sticky) or (position: -webkit-sticky) {
+		main .header {
+			width: 100vw;
+		}
+		@media (min-width: 46em) {
+			main .header {
+				margin-top: -1.5em;
+				margin-left: calc(-50vw + 20em);
+				margin-right: calc(-50vw + 20em);
+			}
+		}
+	}
+

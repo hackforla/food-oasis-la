@@ -1,0 +1,121 @@
+
+
+	/* =Location List
+	----------------------------------------------- */
+	ul.location-list {
+		list-style: none;
+		padding-left: 0;
+	}
+	ul.location-list li + li {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	main > ul.location-list:first-child {
+		margin-top: 0;
+	}
+
+	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
+	.sorting ul.location-list li {
+		visibility: hidden;
+	}
+	.sorting ul.location-list::before {
+		content: "Finding nearest locations…";
+		display: block;
+	}
+
+
+	/* =Location Summary
+	----------------------------------------------- */
+	.location-summary {
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+	}
+	a.location-summary {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+	a.location-summary:hover,
+	a.location-summary:active,
+	a.location-summary:focus {
+		color: inherit;
+	}
+	a.location-summary:hover h2,
+	a.location-summary:active h2,
+	a.location-summary:focus h2 {
+		text-decoration: underline;
+	}
+	.location-summary h1,
+	.location-summary h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: 1.25em;
+		line-height: 1.25;
+		padding-left: 3rem;
+		width:70%;
+	}
+	.location-summary .address {
+		margin-top: 0;
+	}
+	.location-summary .type a,
+	.location-summary .address a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.location-summary .open {
+		color: rgb(66, 194, 231);
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: bold;
+		letter-spacing: 1px;
+		margin-bottom: 0;
+		position: absolute;
+		bottom: 1.5rem;
+		right: 0;
+	}
+	.location-summary .type {
+		font-style: italic;
+		/*margin-bottom: 2.25em;*/
+	}
+	.location-summary .distance {
+		font-size: 0.75em;
+		opacity: 0.5;
+		margin-bottom: 0;
+		position: absolute;
+		bottom: 0.75rem;
+		right: 0;
+		top:8px;
+	}
+
+	.farmers-market .location-summary .type,
+	.supermarket    .location-summary .type {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.community-garden .location-summary .type {
+		color: rgb(144, 194, 70); /* @lime */
+	}
+	.food-pantry .location-summary .type {
+		color: rgb(249, 192, 88); /* @canteloupe */
+	}
+
+	.location-summary {
+		position: relative;
+	}
+	.location-summary img {
+		position: absolute;
+		top: 1.125em;
+		height: 2.25em;
+		width: auto;
+	}
+	.location-summary img ~ span,
+	.location-summary img ~ p {
+		padding-left: 3rem;
+	}
+
+	.location-summary img {
+		width: auto;
+		height: 2.25em;
+		vertical-align: middle;
+		margin-right: 0.375em;
+	}
+
