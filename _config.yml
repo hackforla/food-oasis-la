@@ -45,30 +45,35 @@ defaults:
       type: community-garden
     values:
       layout: location-details
+      classname: location-details community-garden
       color: lime
   - scope:
       path: ""
       type: community-garden-from-staging-api
     values:
       layout: location-details
+      classname: location-details community-garden
       color: lime
   - scope:
       path: ""
       type: farmers-market
     values:
       layout: location-details
+      classname: location-details farmers-market
       color: strawberry
   - scope:
       path: ""
       type: supermarket
     values:
       layout: location-details
+      classname: location-details supermarket
       color: strawberry
   - scope:
       path: ""
       type: food-pantry
     values:
       layout: location-details
+      classname: location-details food-pantry
       color: canteloupe
   - scope:
       path: ""

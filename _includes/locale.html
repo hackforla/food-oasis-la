@@ -1,0 +1,7 @@
+{% comment %}
+Set “locale” to “es” (Spanish) automatically, if we’re inside the “es” folder
+
+KUDOS: http://stackoverflow.com/questions/6392677/include-different-file-in-jekyll-depending-on-the-locale#answer-6423895
+{% endcomment %}
+
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}{% if locale != "es" %}{% assign locale = "en" %}{% endif %}

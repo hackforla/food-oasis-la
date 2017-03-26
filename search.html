@@ -6,124 +6,63 @@ include_header: false
 include_footer: false
 ---
 
-		<form action="/locations/" method="get">
-			<input type="hidden" name="type" id="hidden-type" />
-			<input type="hidden" name="deserts" value="1" />
+<form action="/locations/" method="get">
+	<input type="hidden" name="type" />
+	<input type="hidden" name="deserts" value="1" />
 
-	<div class="sticky">
-			<ul class="options search">
-				<li><a  onclick="history.go(-1);">Cancel</a></li>
-				<li><button id="action-button" type="submit">Search</button></li>
-			</ul>
+	<header class="header">
+		<div class="search-nav">
+			<h1 style="position: absolute; left: -9999px; /* @hidden-accessible */">Search</h1>
 
+			<p><a href="/" onclick="history.back();">Cancel</a></p>
+			<p><button type="submit">Search</button></p>
+		</div>
+		<p class="search-field">
+			<label>
+				<span>Near Address, ZIP, or Intersection</span><br />
+				<input type="search" name="address" placeholder="Near Address, ZIP, or Intersection" />
+			</label>
+		</p>
+	</header>
 
-			<p class="search-field">
-				<label>
-					<!--
-					<img src="/assets/images/icons/search-black.svg" width="50" alt="Search" style="vertical-align: middle;" />
-					Address, ZIP or Intersection
-					-->
-					<input style="width: 100%" type="search" name="address" placeholder="Near Address, ZIP, or Intersection" />
-				</label>
-			</p>
-			</div>
+	<ul>
+		<li>
+			<label>
+				<img src="/assets/images/home/food-pantry.svg" width="100" alt="" />
+				<span class="classification" style="color: rgb(249, 192, 88); /* @canteloupe */">Free</span><br />
+				<span class="option">Food Pantries</span>
+				<input type="checkbox" data-name="type_option" value="food-pantry" checked="checked" />
+				<span class="pseudo-checkbox"></span>
+			</label>
+		</li>
+		<li>
+			<label>
+				<img src="/assets/images/home/community-garden.svg" width="100" alt="" />
+				<span class="classification" style="color: rgb(144, 194, 70); /* @lime */">Grow</span><br />
+				<span class="option">Community Gardens</span>
+				<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
+				<span class="pseudo-checkbox"></span>
+			</label>
+		</li>
+		<li>
+			<label>
+				<img src="/assets/images/home/farmers-market.svg" width="100" alt="" />
+				<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
+				<span class="option">Farmers Markets</span>
+				<input type="checkbox" data-name="type_option" value="farmers-market" checked="checked" />
+				<span class="pseudo-checkbox"></span>
+			</label>
+		</li>
+		<li>
+			<label>
+				<img src="/assets/images/home/grocery-store.svg" width="100" alt="" />
+				<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
+				<span class="option">Supermarkets</span>
+				<input type="checkbox" data-name="type_option" value="supermarket" checked="checked" />
+				<span class="pseudo-checkbox"></span>
+			</label>
+		</li>
+	</ul>
+</form>
 
-			<ul class="list">
-				<li>
-					<label>
-						<img src="/assets/images/home/food-pantry.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(249, 192, 88); /* @canteloupe */">Free</span><br />
-						<span class="option">Food Pantries</span>
-						<input type="checkbox" data-name="type_option" value="food-pantry" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/community-garden.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(144, 194, 70); /* @lime */">Grow</span><br />
-						<span class="option">Community Gardens</span>
-						<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/farmers-market.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
-						<span class="option">Farmers Markets</span>
-						<input type="checkbox" data-name="type_option" value="farmers-market" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/grocery-store.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
-						<span class="option">Supermarkets</span>
-						<input type="checkbox" data-name="type_option" value="supermarket" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-			</ul>
-
-			<!--
-			<p style="margin-top: 1.5em; max-width: 30em; margin-left: auto; margin-right: auto;"><button type="submit" style="width: 100%;">Search</button></p>
-			-->
-		</form>
-
-		<script>
-		(function() {
-			// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-			function getParameterByName(name, url) {
-				if (!url) url = window.location.href;
-				name = name.replace(/[\[\]]/g, "\\$&");
-				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-						results = regex.exec(url);
-				if (!results) return null;
-				if (!results[2]) return '';
-				return decodeURIComponent(results[2].replace(/\+/g, " "));
-			}
-
-			// SHIM: Make the type persistent
-			var type = getParameterByName('type');
-			if (type) {
-				var types = type.split('|');
-				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
-				for (var index = 0; index < typeFields.length; index++) {
-					(function() {
-						var field = typeFields[index];
-						for (var j = 0; j < types.length; j++) {
-							if (types[j] === field.value) {
-								field.checked = true;
-								return;
-							}
-						}
-						field.checked = false;
-					})();
-				}
-			}
-
-			// SHIM: Pass the type onto the next page as one pipe-delimited query string value
-			var form = document.querySelector('form');
-			form.addEventListener('submit', function(e) {
-				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
-				var types = [];
-				for (var index = 0; index < typeFields.length; index++) {
-					types.push(typeFields[index].value);
-					//typeFields[index].checked = false;
-				}
-				var hiddenType = document.getElementById('hidden-type');
-				hiddenType.value = types.join('|');
-				form.submit();
-				e.preventDefault();
-			}, false);
-
-			// SHIM: Make the address persistent
-			var address = getParameterByName('address');
-			if (address) {
-				var addressField = document.querySelector('input[name="address"]');
-				addressField.value = address;
-			}
-		})();
-		</script>
+<script src="/assets/js/search.js"></script>

@@ -26,11 +26,6 @@
 		padding: 0;
 		font: 100%/1.375 "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 	}
-	/*
-	body {
-		background-color: rgb(241, 241, 241);
-	}
-	*/
 	.icon {
 		vertical-align: text-top;
 		width: 1.5em;
@@ -189,6 +184,13 @@
 		cursor: default;
 	}
 
+	.action.reset {
+		text-align: center;
+	}
+	.action.reset button {
+		background-color: rgb(241, 95, 91);
+	}
+
 
 	/* =Options
 	----------------------------------------------- */
@@ -204,48 +206,35 @@
 		margin-left: 1em;
 	}
 
-	.filter-header,
-	.options.search {
-		background-color: rgb(241, 241, 241);
-		padding: 0.75em 1.5em;
-	}
-	.options.search {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-	main .sticky {
+	main .header {
 		margin-top: -1.5em;
 		margin-left: -1.5em;
 		margin-right: -1.5em;
 	}
 	@supports (position: sticky) or (position: -webkit-sticky) {
-		main .sticky {
+		main .header {
 			width: 100vw;
 		}
 		@media (min-width: 46em) {
-			main .sticky {
+			main .header {
 				margin-top: -1.5em;
 				margin-left: calc(-50vw + 20em);
 				margin-right: calc(-50vw + 20em);
 			}
 		}
 	}
-	.filter-header {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.filter-header h1 {
+
+	.search-nav h1 {
 		margin: 0;
 		font-size: 1.25em;
 	}
-	.filter-header p {
+	.search-nav p {
 		margin: 0;
 	}
-	.filter-header p:first-of-type {
+	.search-nav p:first-of-type {
 		order: -1;
 	}
+
 	nav .search a {
 		text-decoration: none;
 		color: inherit;
@@ -253,10 +242,9 @@
 	.pagination a,
 	nav .filter a,
 	nav .view a,
-	nav .back a,
-	.options.search a,
-	.options.search button,
-	.filter-header button {
+	.secondary-nav .back a,
+	.search-nav a,
+	.search-nav button {
 		background: transparent;
 		border-width: 0;
 		font-family: inherit;
@@ -267,9 +255,19 @@
 		text-decoration: none;
 		cursor: pointer;
 		transition: color 0.2s;
-		padding: 1.5em;
-		margin: -1.5em;
+		padding: 0.75em;
+		margin: -0.75em;
 	}
+	.search-nav button {
+		/*background-color: rgb(144, 194, 70);*/
+		/*padding: 2px 10px;*/
+		/*margin-right:3px;*/
+		color: rgb(144, 194, 70);
+		/*border-radius: 4px;*/
+		letter-spacing: 0;
+		font-weight: bold;
+	}
+
 	a.location-summary:hover,
 	a.location-summary:active,
 	a.location-summary:focus {
@@ -292,29 +290,26 @@
 	nav .view a:hover,
 	nav .view a:active,
 	nav .view a:focus,
-	nav .back a:hover,
-	nav .back a:active,
-	nav .back a:focus,
-	.options.search a:hover,
-	.options.search a:active,
-	.options.search a:focus,
-	.options.search button:hover,
-	.options.search button:active,
-	.options.search button:focus,
-	.filter-header  button:hover,
-	.filter-header  button:active,
-	.filter-header  button:focus {
+	.secondary-nav .back a:hover,
+	.secondary-nav .back a:active,
+	.secondary-nav .back a:focus,
+	.search-nav a:hover,
+	.search-nav a:active,
+	.search-nav a:focus,
+	.search-nav button:hover,
+	.search-nav button:active,
+	.search-nav button:focus {
 		color: rgb(241, 95, 91); /* @strawberry */
 		color: rgb(144, 194, 70); /* @lime */
 		color: rgb(124, 174, 50); /* @dark-lime */
 	}
-	nav .back {
+	.secondary-nav .back {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
-		line-height: 1.5;
+		margin: 0;
 	}
 	.pagination img,
-	nav .back img {
+	.secondary-nav .back img {
 		height: 1.5em;
 		width: auto;
 		border: 1px solid rgba(0, 0, 0, 0.5);
@@ -327,7 +322,7 @@
 		margin-left: 0.5em;
 	}
 	.pagination span,
-	nav .back span {
+	.secondary-nav .back span {
 		vertical-align: middle;
 	}
 
@@ -474,23 +469,6 @@
 
 	/* =Marker
 	----------------------------------------------- */
-	/*
-	.marker {
-		position: relative;
-		font-size: 1rem;
-		line-height: 1.5;
-	}
-	.marker img {
-		position: absolute;
-		bottom: 0;
-		left: -1em;
-		width: 2em;
-		max-width: none;
-		height: 2em;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	*/
 	.marker-label {
 		margin: 0;
 		position: absolute;
@@ -509,13 +487,6 @@
 		opacity: 0;
 		display: none;
 	}
-	/*
-	@media (min-width: 30em) {
-		.marker {
-			font-size: 1.5rem;
-		}
-	}
-	*/
 
 	.has-map-location-summary .location-summary-container {
 		background: rgb(253, 254, 255);
@@ -609,75 +580,73 @@
 
 	/* =Header
 	----------------------------------------------- */
-	.sticky{
+	.header {
+		background-color: rgb(241, 241, 241);
 		box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.125);
+		box-sizing: border-box;
 	}
 	@supports (position: sticky) or (position: -webkit-sticky) {
-		.sticky {
-			top:0px;
+		.header {
+			top: 0;
 			position: -webkit-sticky;
 			position: sticky;
 			z-index: 9999; /* @infinity */
 			width: 100%;
 		}
 	}
-	nav,
-	header {
-		background-color: rgb(241, 241, 241);
+	.primary-nav,
+	.secondary-nav,
+	.search-nav {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
 	}
 
-	header h2 {
+	.primary-nav h2 {
 		flex-grow: 1;
 	}
-	header .tagline {
+	.primary-nav .tagline {
 		flex-grow: 0;
 	}
-	header .nav-link {
+	.primary-nav .nav-link {
 		order: -1;
 		flex-grow: 0;
 		padding-right: 1.5em;
 	}
-	header .nav-link a {
+	.primary-nav .nav-link a {
 		margin: -1.5em;
 		color: inherit;
 		padding: 1.5em;
 		opacity: 0.5;
 		transition: opacity 0.2s;
 	}
-	header .nav-link a:hover,
-	header .nav-link a:active,
-	header .nav-link a:focus {
+	.primary-nav .nav-link a:hover,
+	.primary-nav .nav-link a:active,
+	.primary-nav .nav-link a:focus {
 		opacity: 1;
 	}
-	header .nav-link svg {
+	.primary-nav .nav-link svg {
 		vertical-align: middle;
 		height: 1.5em;
 		width: auto;
 	}
-	header .nav-link a svg polygon {
+	.primary-nav .nav-link a svg polygon {
 		fill: currentColor;
 	}
 
-	header p:first-child {
+	.primary-nav p:first-child {
 		width: 3em;
 	}
-	main {
-		background: rgb(253, 254, 255);
-	}
-	header h2,
-	header p {
+	.primary-nav h2,
+	.primary-nav p {
 		margin: 0;
 	}
-	header .tagline {
+	.primary-nav .tagline {
 		font-style: italic;
 		font-size: 0.875em;
 		opacity: 0.5;
 	}
-	header h2 img {
+	.primary-nav h2 img {
 		width: 2.5em;
 		height: 1.3333333333em; /* (image width divided by image height) times desired width        (225 / 120) x 2.5em */
 		max-width: none;
@@ -687,25 +656,26 @@
 
 	/* SHIM: Hide the tagline on small screens */
 	@media (max-width: 21em) {
-		header .tagline {
+		.primary-nav .tagline {
 			position: absolute;
 			left: -9909px
 		}
 	}
 
-	/* =Nav
+
+	/* =Secondary Nav
 	----------------------------------------------- */
-	nav {
+	.secondary-nav {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		position: relative;
 		z-index: 1;
 		/*padding-left:0.5em !important;*/
 	}
-	nav .filter,
-	nav .view {
+	.secondary-nav .filter,
+	.secondary-nav .view {
 		text-transform: uppercase;
 	}
-	nav .search {
+	.secondary-nav .search {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -715,13 +685,13 @@
 		/*width:100%;*/
 	}
 
-	nav p,
-	nav ul {
+	.secondary-nav p,
+	.secondary-nav ul {
 		margin: 0;
 	}
 
 	/* icon */
-	nav img {
+	.secondary-nav img {
 		vertical-align: middle;
 	}
 
@@ -748,20 +718,43 @@
 	}
 
 	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
-	.sorting .list li {
+	.sorting ul.location-list li {
 		visibility: hidden;
 	}
-	.sorting .list::before {
+	.sorting ul.location-list::before {
 		content: "Finding nearest locations…";
 		display: block;
 	}
 
 
+	/* =Location Details
+	----------------------------------------------- */
+	.location-details main > section {
+		margin-top: 1.5em;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding-top: 1.5em;
+	}
+	.location-details section h2 {
+		margin-top: 0;
+	}
+	.location-details .location-details-options h2,
+	.location-details .information              h2 {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
+	.location-details .location-details-option h2 + ul,
+	.location-details .information             h2 + dl {
+		margin-top: 0;
+	}
+
+
 	/* =Layout
 	----------------------------------------------- */
-	header,
-	nav,
 	main,
+	.primary-nav,
+	.secondary-nav,
+	.search-nav,
 	footer {
 		padding: 1.5em;
 	}
@@ -769,14 +762,15 @@
 		padding-bottom: 4.5em;
 	}
 
-	header {
+	.primary-nav,
+	.search-nav {
 		padding-top: 0.75em;
 		padding-bottom: 0.75em;
 	}
-	nav {
+	.secondary-nav {
 		padding-top: 0.375em;
 		padding-bottom: 0.375em;
-			}
+	}
 
 	/*
 	main {
@@ -791,15 +785,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-
-	hr {
-		margin-top: 1.5em;
-		margin-bottom: 1.5em;
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		border-width: 1px 0 0 0;
-	}
-
 
 	/* =Description List
 	----------------------------------------------- */
@@ -879,18 +864,23 @@
 
 	/* =List
 	----------------------------------------------- */
-	.list {
+	ul.location-list {
 		list-style: none;
 		padding-left: 0;
 	}
-	main > .list:first-child {
+	main > ul.location-list:first-child {
 		margin-top: 0;
 	}
-	.list li + li {
+	form ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	form li + li,
+	ul.location-list li + li {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	.list a,
-	.list label,
+	ul.location-list a,
+	li label,
 	.location-summary {
 		display: block;
 		color: inherit;
@@ -898,10 +888,10 @@
 		padding-bottom: 0.75em;
 		text-decoration: none;
 	}
-	.list input[type="checkbox"] {
+	li input[type="checkbox"] {
 		font-size: inherit;
 	}
-	.list h2,
+	ul.location-list h2,
 	.location-summary h1,
 	.location-summary h2 {
 		margin-top: 0;
@@ -911,7 +901,7 @@
 		padding-left: 3rem;
 		width:70%;
 	}
-	.list .address,
+	ul.location-list .address,
 	.location-summary .address,
 	.leaflet-popup-content .location-summary .address {
 		margin-top: 0;
@@ -959,10 +949,10 @@
 		animation: fade-in 0.6s;
 	}
 
-	.header .location-summary {
+	.location-header .location-summary {
 		margin-top: -0.75em;
 	}
-	.list .open,
+	ul.location-list .open,
 	.location-summary .open {
 		color: rgb(66, 194, 231);
 		text-transform: uppercase;
@@ -974,12 +964,12 @@
 		bottom: 1.5rem;
 		right: 0;
 	}
-	.list .type,
+	ul.location-list .type,
 	.location-summary .type {
 		font-style: italic;
 		/*margin-bottom: 2.25em;*/
 	}
-	.list .distance,
+	ul.location-list .distance,
 	.location-summary .distance {
 		font-size: 0.75em;
 		opacity: 0.5;
@@ -990,42 +980,45 @@
 		top:8px;
 	}
 
-	.list .farmers-market .type,
-	.list .supermarket    .type,
+	ul.location-list .farmers-market .type,
+	ul.location-list .supermarket    .type,
 	.farmers-market .location-summary .type,
 	.supermarket    .location-summary .type {
 		color: rgb(241, 95, 91); /* @strawberry */
 	}
-	.list .community-garden .type,
+	ul.location-list .community-garden .type,
 	.community-garden .location-summary .type {
 		color: rgb(144, 194, 70); /* @lime */
 	}
-	.list .food-pantry .type,
+	ul.location-list .food-pantry .type,
 	.food-pantry .location-summary .type {
 		color: rgb(249, 192, 88); /* @canteloupe */
 	}
 
-	.list .classification {
+	ul.location-list .classification {
 		font-size: 0.875em;
 	}
-	.list li,
+	form li,
+	ul.location-list li,
 	.location-summary {
 		position: relative;
 	}
-	.list li img,
+	form li img,
+	ul.location-list li img,
 	.location-summary img {
 		position: absolute;
 		top: 1.125em;
 		height: 2.25em;
 		width: auto;
 	}
-	.list li img ~ span,
-	.list li img ~ p,
+	form li img ~ span,
+	ul.location-list li img ~ span,
+	ul.location-list li img ~ p,
 	.location-summary img ~ span,
 	.location-summary img ~ p {
 		padding-left: 3rem;
 	}
-	.list li input[type="checkbox"] {
+	li input[type="checkbox"] {
 		position: absolute;
 		top: 50%;
 		right: 1.5em;
@@ -1039,13 +1032,13 @@
 	}
 
 	/* If advanced selectors are supported, hide the checkboxes… */
-	.list input[type="checkbox"]:checked,
-	.list input[type="checkbox"]:not(:checked) {
+	li input[type="checkbox"]:checked,
+	li input[type="checkbox"]:not(:checked) {
 		opacity: 0;
 	}
 	/* …and hint that the numbers are push-able. */
-	.list input[type="checkbox"]:checked       ~ .pseudo-checkbox,
-	.list input[type="checkbox"]:not(:checked) ~ .pseudo-checkbox {
+	li input[type="checkbox"]:checked       ~ .pseudo-checkbox,
+	li input[type="checkbox"]:not(:checked) ~ .pseudo-checkbox {
 		padding: 0; /* SHIM: Reset */
 
 		display: block;
@@ -1060,7 +1053,7 @@
 	}
 
 	/* If a checkbox is checked, show the related number. */
-	.list input[type="checkbox"]:checked ~ .pseudo-checkbox {
+	li input[type="checkbox"]:checked ~ .pseudo-checkbox {
 		/* background-image: url(/assets/images/icons/checkmark.svg); */
 		/* background-image: url(data:image/svg+xml;utf8,<svg width="19px" height="13px" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><path d="M15.997,0.382847649 L6.50753061,9.86954153 L2.22214286,5.58415377 C1.71561224,5.07484765 0.888510204,5.07484765 0.381979592,5.58415377 C-0.127326531,6.09068438 -0.127326531,6.91501091 0.381979592,7.42431704 L5.58606122,12.6283987 C5.84071429,12.8830517 6.17446939,13.0107252 6.50753061,13.0107252 C6.84059184,13.0107252 7.17434694,12.8830517 7.42622449,12.6283987 L17.8343878,2.2202354 C18.3443878,1.71370479 18.3443878,0.889378261 17.8343878,0.380072139 C17.3278571,-0.127152351 16.5035306,-0.127152351 15.997,0.382847649 Z"></path></svg>); */
 		background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTlweCIgaGVpZ2h0PSIxM3B4IiB2aWV3Qm94PSIwIDAgMTkgMTMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE1Ljk5NywwLjM4Mjg0NzY0OSBMNi41MDc1MzA2MSw5Ljg2OTU0MTUzIEwyLjIyMjE0Mjg2LDUuNTg0MTUzNzcgQzEuNzE1NjEyMjQsNS4wNzQ4NDc2NSAwLjg4ODUxMDIwNCw1LjA3NDg0NzY1IDAuMzgxOTc5NTkyLDUuNTg0MTUzNzcgQy0wLjEyNzMyNjUzMSw2LjA5MDY4NDM4IC0wLjEyNzMyNjUzMSw2LjkxNTAxMDkxIDAuMzgxOTc5NTkyLDcuNDI0MzE3MDQgTDUuNTg2MDYxMjIsMTIuNjI4Mzk4NyBDNS44NDA3MTQyOSwxMi44ODMwNTE3IDYuMTc0NDY5MzksMTMuMDEwNzI1MiA2LjUwNzUzMDYxLDEzLjAxMDcyNTIgQzYuODQwNTkxODQsMTMuMDEwNzI1MiA3LjE3NDM0Njk0LDEyLjg4MzA1MTcgNy40MjYyMjQ0OSwxMi42MjgzOTg3IEwxNy44MzQzODc4LDIuMjIwMjM1NCBDMTguMzQ0Mzg3OCwxLjcxMzcwNDc5IDE4LjM0NDM4NzgsMC44ODkzNzgyNjEgMTcuODM0Mzg3OCwwLjM4MDA3MjEzOSBDMTcuMzI3ODU3MSwtMC4xMjcxNTIzNTEgMTYuNTAzNTMwNiwtMC4xMjcxNTIzNTEgMTUuOTk3LDAuMzgyODQ3NjQ5IFoiPjwvcGF0aD48L3N2Zz4=);
@@ -1069,10 +1062,10 @@
 	}
 
 	/* If a checkbox is focused, highlight the related number. */
-	.list input[type="checkbox"]:focus ~ .pseudo-checkbox {
+	li input[type="checkbox"]:focus ~ .pseudo-checkbox {
 		border-color: rgb(40, 137, 187); /* @blueberry */
 	}
-	.list input[type="checkbox"]:checked:focus ~ .pseudo-checkbox {
+	li input[type="checkbox"]:checked:focus ~ .pseudo-checkbox {
 		border-color: rgb(40, 137, 187); /* @blueberry */
 	}
 
@@ -1095,15 +1088,6 @@
 		/* Remove default */
 		-webkit-appearance: none;
 	}
-	/*
-	@media (max-width: 35em) {
-		input[type="text"],
-		input[type="search"],
-		form button {
-			width: 100%;
-		}
-	}
-	*/
 
 	.search-field {
 		/*
@@ -1113,15 +1097,7 @@
 		background-color: rgb(241, 241, 241);
 		padding: 0.75em 1.5em;
 	}
-	/*
-	@media (min-width: 46em) {
-		.search-field {
-			margin-top: -1.5em;
-			margin-left: calc(-50vw + 20em);
-			margin-right: calc(-50vw + 20em);
-		}
-	}
-	*/
+
 	.search-field label {
 		display: block;
 		max-width: 40em;
@@ -1136,6 +1112,15 @@
 		background-size: auto 1.5em;
 		background-repeat: no-repeat;
 		border: none;
+		width: 100%;
+	}
+	.search-field label span {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
+	.search-field label br {
+		display: none;
 	}
 
 	fieldset {
@@ -1155,7 +1140,7 @@
 	}
 
 	/* Prevent overlap with pseudo checkbox */
-	fieldset .list label {
+	fieldset label {
 		padding-right: 3em;
 	}
 
@@ -1163,26 +1148,23 @@
 	/* =Home
 	----------------------------------------------- */
 	@supports (position: sticky) or (position: -webkit-sticky) {
-		.home .sticky {
+		.home .header {
 			position: fixed;
-			width: 100%;
 		}
-		.home h2,
-		.home .tagline {
+		.home .primary-nav h2,
+		.home .primary-nav .tagline {
 			transition: opacity 0.2s;
 		}
-		.home header {
+		.home .header {
 			transition: background-color 0.2s, color 0.2s;
 		}
-		.scrolled-up.home .sticky {
+		.scrolled-up.home .header {
 			box-shadow: none;
-		}
-		.scrolled-up.home header {
 			background-color: transparent;
 			color: white;
 		}
-		.scrolled-up.home header h2,
-		.scrolled-up.home header .tagline {
+		.scrolled-up.home .header h2,
+		.scrolled-up.home .header .tagline {
 			opacity: 0;
 		}
 	}
@@ -1207,33 +1189,29 @@
 		display: table;
 		clear: both;
 	}
-	h2.home-headline{
-		color:white;
-		text-align: center;
-		z-index:100;
-		padding-bottom: 10px;
-		margin-top: 0;
-	}
-	div.home-text {
-		max-width: 33em;
-		margin-top: 1.25em;
-		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+	.home .introduction > * {
 		position: relative;
 		z-index: 1;
-	}
-	.home-text p {
-		margin:0 auto;
 		text-align: center;
-		max-width: 90%;
-		font-size: 105%;
-		padding-bottom: 2%;
+		color: white;
 	}
-	.home-text a {
+	.home .introduction h1 {
+		margin-top: 0;
+	}
+	.home .introduction a {
 		color: inherit;
+	}
+	.home .introduction .about {
+		max-width: 33em;
+		margin-top: 1.25em;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 	}
 
 	@media (min-width: 35em) {
-		.home form {
+		.home .introduction {
 			display: table;
 			margin-left: auto;
 			margin-right: auto;
@@ -1308,7 +1286,7 @@
 		display: table;
 		clear: both;
 	}
-	.home form {
+	.home .introduction {
 		box-sizing: border-box;
 		background-color: rgb(51, 51, 51);
 		background-color: rgb(77, 85, 148); /* @grape */
@@ -1333,7 +1311,7 @@
 		padding-bottom: 6em;
 		flex-direction: column;
 	}
-	.home form:before {
+	.home .introduction:before {
 		content: "";
 		background: rgba(0, 0, 0, 0.25);
 		background: rgba(0, 0, 0, 0.25) linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0));
@@ -1359,27 +1337,25 @@
 	.home .photo-credit a {
 		color: inherit;
 	}
-	.home form h1 {
+	.home .introduction h1 {
 		margin-top: 0;
 		color: inherit;
 		font-size: 1.25em;
 	}
+	.home .introduction h1 img {
+		width: 3.75em;
+		height: auto;
+	}
 	@media (min-width: 30em) {
-		.home form h1 {
+		.home .introduction h1 {
 			font-size: 1.5em;
 		}
 	}
-	.home .header {
-		position: absolute;
-		z-index: 1;
-	}
-	.home .header h2 span {
-		color: white;
-	}
 
-/* =Field
+
+	/* =Field
 	----------------------------------------------- */
-	.pseudo-field,
+	.home .search a,
 	input[type="text"] {
 		display: inline-block;
 		line-height: inherit;
@@ -1400,44 +1376,25 @@
 		max-width: 100%;
 		box-sizing: border-box;
 	}
-	.pseudo-field {
+	.home .search a {
 		background: white;
 		color: #B1B1B1;
-	}
-	@media (max-width: 35em) {
-		.pseudo-field {
-			width: 100%;
-		}
-	}
-	/*
-	@media (max-width: 35em) {
-		.pseudo-field,
-		input[type="text"],
-		.home form button,
-		header button,
-		form.find button,
-		.map-filters button {
-			margin-top: 0.25em;
-			box-sizing: border-box;
-			width: 100%;
-		}
-		.home form button,
-		header button,
-		form.find button,
-		.map-filters button {
-			margin-top: 0.375em;
-		}
-		.home form {
-			text-align: center;
-		}
-	}
-	*/
-	.pseudo-field {
 		padding-right: 5em;
 		position: relative;
 		border-width: 0;
+		text-decoration: none;
+		font-size: 1.5em;
+		text-align: left;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
 	}
-	.pseudo-field::after {
+
+	@media (max-width: 35em) {
+		.home .search a {
+			width: 100%;
+		}
+	}
+
+	.home .search a::after {
 		content: "";
 		background: rgb(144, 194, 70); /* @lime */
 		background-image: url(/assets/images/icons/search.svg);
@@ -1900,6 +1857,8 @@
 	.slideout-menu {
 		box-shadow: none;
 		border-top: none;
+		width: 3.375em;
+		position: relative;
 	}
 
 	.nav-item {
@@ -1920,17 +1879,19 @@
 	
 	-webkit-user-select: none;
 	user-select: none;
-	margin-left: -1.5em;
 	}
 
 	#menuToggle input
 	{
+	font-size: 0.875em;
 	display: block;
 	width: 40px;
 	height: 32px;
 	position: absolute;
+	z-index: 9999; /* @infinity */
 	top: -7px;
 	left: -5px;
+	font-size: inherit;
 	
 	cursor: pointer;
 	
@@ -1943,6 +1904,7 @@
 	/* CSS for the hamburger */
 	#menuToggle span
 	{
+	font-size: 0.875em;
 	display: block;
 	width: 33px;
 	height: 4px;
@@ -1954,7 +1916,7 @@
 	
 	z-index: 1;
 	
-	transform-origin: 4px 0px;
+	transform-origin: 0.25em 0; /* 4px / 16px */
 	
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
 				background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -2038,17 +2000,6 @@
 	opacity: 1;
 	}
 
-  button#action-button {
-    /*background-color: rgb(144, 194, 70);*/
-  /*padding: 2px 10px;*/
-  /*margin-right:3px;*/
-  color: rgb(144, 194, 70);
-  /*border-radius: 4px;*/
-  letter-spacing: 0;
-  font-weight: bold;
-
-  }
-
 a.donate-button{
 	background-color: rgb(144, 194, 70);
 	padding: 15px 20px;
@@ -2070,3 +2021,4 @@ a.donate-button:hover{
 
 
 }	
+

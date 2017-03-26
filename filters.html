@@ -6,192 +6,133 @@ include_header: false
 include_footer: false
 ---
 
-		<form action="/locations/" method="get">
-		<div class="sticky">
-			<div class="filter-header">
-				<h1>Filters</h1>
+<form action="/locations/" method="get">
+	<header class="header">
+		<div class="search-nav">
+			<h1>Filters</h1>
 
-				<p><button type="button" onclick="history.back();">Cancel</button></p>
-				<p><button type="submit" id="action-button" >Done</button></p>
-			</div>
-			</div>
+			<p><a href="/locations/" onclick="history.back();">Cancel</a></p>
+			<p><button type="submit">Done</button></p>
+		</div>
+	</header>
 
-			<input type="hidden" name="address" />
-			<input type="hidden" name="type" id="hidden-type" />
+	{% comment %}
 
-			<!-- <del>
-			<fieldset>
-				<legend>Hours</legend>
-				<mark>Coming soon!</mark>
+	TODO: Add a filter for open hours
 
-				<p>
-					<label>
-						Open Now
-						<input type="checkbox" disabled="disabled" />
-					</label>
-				</p>
+	<fieldset>
+		<legend>Hours</legend>
 
-				<h3>Open At</h3>
-				<select disabled="disabled">
-					<option>Anytime</option>
-					<option>5am – 6am</option>
-					<option>6am – 7am</option>
-					<option>7am – 8am</option>
-					<option>8am – 9am</option>
-					<option>10am – 11am</option>
-					<option>11am – noon</option>
-					<option>noon – 1pm</option>
-					<option>1pm – 2pm</option>
-					<option>2pm – 3pm</option>
-					<option>4pm – 5pm</option>
-					<option>5pm – 6pm</option>
-					<option>6pm – 7pm</option>
-					<option>7pm – 8pm</option>
-					<option>8pm – 9pm</option>
-					<option>9pm – 10pm</option>
-				</select> -->
-				<!-- TBD:
-				<input type="text" value="2pm" />
-				-->
+		<p>
+			<label>
+				Open Now
+				<input type="checkbox" disabled="disabled" />
+			</label>
+		</p>
 
-				<!-- <select disabled="disabled">
-					<option>Any Day</option>
-					<option>Sunday</option>
-					<option>Monday</option>
-					<option>Tuesday</option>
-					<option>Wednesday</option>
-					<option>Thursday</option>
-					<option>Friday</option>
-					<option>Saturday</option>
-				</select> -->
+		<h3>Open At</h3>
+		<select disabled="disabled">
+			<option>Anytime</option>
+			<option>5am – 6am</option>
+			<option>6am – 7am</option>
+			<option>7am – 8am</option>
+			<option>8am – 9am</option>
+			<option>10am – 11am</option>
+			<option>11am – noon</option>
+			<option>noon – 1pm</option>
+			<option>1pm – 2pm</option>
+			<option>2pm – 3pm</option>
+			<option>4pm – 5pm</option>
+			<option>5pm – 6pm</option>
+			<option>6pm – 7pm</option>
+			<option>7pm – 8pm</option>
+			<option>8pm – 9pm</option>
+			<option>9pm – 10pm</option>
+		</select>
+		<!-- TBD:
+		<input type="text" value="2pm" />
+		-->
 
-				<!--
-				TODO: Make a button that looks like a checkbox, that resets the “anytime” and “any day” select elements.
-				<input type="checkbox" />
-				-->
-			<!-- </fieldset>
-			</del> -->
+		<select disabled="disabled">
+			<option>Any Day</option>
+			<option>Sunday</option>
+			<option>Monday</option>
+			<option>Tuesday</option>
+			<option>Wednesday</option>
+			<option>Thursday</option>
+			<option>Friday</option>
+			<option>Saturday</option>
+		</select>
 
-			<fieldset>
-				<legend>Types</legend>
-				<ul class="list">
-				<li>
-					<label>
-						<img src="/assets/images/home/food-pantry.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(249, 192, 88); /* @canteloupe */">Free</span><br />
-						<span class="option">Food Pantries</span>
-						<input type="checkbox" data-name="type_option" value="food-pantry" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/community-garden.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(144, 194, 70); /* @lime */">Grow</span><br />
-						<span class="option">Community Gardens</span>
-						<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/farmers-market.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
-						<span class="option">Farmers Markets</span>
-						<input type="checkbox" data-name="type_option" value="farmers-market" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				<li>
-					<label>
-						<img src="/assets/images/home/grocery-store.svg" width="100" alt="" />
-						<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
-						<span class="option">Supermarkets</span>
-						<input type="checkbox" data-name="type_option" value="supermarket" checked="checked" />
-						<span class="pseudo-checkbox"></span>
-					</label>
-				</li>
-				</ul>
-			</fieldset>
+		<!--
+		TODO: Make a button that looks like a checkbox, that resets the “anytime” and “any day” select elements.
+		<input type="checkbox" />
+		-->
+	</fieldset>
+	{% endcomment %}
 
-			<fieldset>
-				<legend>Research Data</legend>
-				<ul class="list">
-				<li>
-					<label>
-						<span>Food Deserts</span>
-						<input type="checkbox" name="deserts" value="1" checked="checked" />
-						<span class="pseudo-checkbox"></span><br /><br />
-						<i>Food Deserts are low-income areas without easy access to healthy food.</i>
-					</label>
-				</li>
-				</ul>
-			</fieldset>
+	<fieldset>
+		<legend>Types</legend>
+		<ul>
+			<li>
+				<label>
+					<img src="/assets/images/home/food-pantry.svg" width="100" alt="" />
+					<span class="classification" style="color: rgb(249, 192, 88); /* @canteloupe */">Free</span><br />
+					<span class="option">Food Pantries</span>
+					<input type="checkbox" data-name="type_option" value="food-pantry" checked="checked" />
+					<span class="pseudo-checkbox"></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<img src="/assets/images/home/community-garden.svg" width="100" alt="" />
+					<span class="classification" style="color: rgb(144, 194, 70); /* @lime */">Grow</span><br />
+					<span class="option">Community Gardens</span>
+					<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
+					<span class="pseudo-checkbox"></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<img src="/assets/images/home/farmers-market.svg" width="100" alt="" />
+					<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
+					<span class="option">Farmers Markets</span>
+					<input type="checkbox" data-name="type_option" value="farmers-market" checked="checked" />
+					<span class="pseudo-checkbox"></span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<img src="/assets/images/home/grocery-store.svg" width="100" alt="" />
+					<span class="classification" style="color: rgb(241, 95, 91); /* @strawberry */">Buy</span><br />
+					<span class="option">Supermarkets</span>
+					<input type="checkbox" data-name="type_option" value="supermarket" checked="checked" />
+					<span class="pseudo-checkbox"></span>
+				</label>
+			</li>
+		</ul>
+	</fieldset>
 
-			<p style="display:flex;justify-content:center;align-items:center;" class='action'>
-       			<button type='reset' style='background-color: rgb(241, 95, 91);'>RESET</button>
-     		</p>
+	<fieldset>
+		<legend>Research Data</legend>
+		<ul>
+			<li>
+				<label>
+					<span>Food Deserts</span>
+					<input type="checkbox" name="deserts" value="1" checked="checked" />
+					<span class="pseudo-checkbox"></span><br /><br />
+					<i>Food Deserts are low-income areas without easy access to healthy food.</i>
+				</label>
+			</li>
+		</ul>
+	</fieldset>
 
-		</form>
+	<p class="action reset">
+		<button type="reset">Reset</button>
+	</p>
 
-		<script>
-		(function() {
-			// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144	
-			function getParameterByName(name, url) {
-				if (!url) url = window.location.href;
-				name = name.replace(/[\[\]]/g, "\\$&");
-				var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-						results = regex.exec(url);
-				if (!results) return null;
-				if (!results[2]) return '';
-				return decodeURIComponent(results[2].replace(/\+/g, " "));
-			}
+	<input type="hidden" name="address" />
+	<input type="hidden" name="type" />
+</form>
 
-			// SHIM: Make the type persistent
-			var type = getParameterByName('type');
-			if (type) {
-				var types = type.split('|');
-				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
-				for (var index = 0; index < typeFields.length; index++) {
-					(function() {
-						var field = typeFields[index];
-						for (var j = 0; j < types.length; j++) {
-							if (types[j] === field.value) {
-								field.checked = true;
-								return;
-							}
-						}
-						field.checked = false;
-					})();
-				}
-			}
-
-			// SHIM: Pass the type onto the next page as one pipe-delimited query string value
-			var form = document.querySelector('form');
-			form.addEventListener('submit', function(e) {
-				var typeFields = document.querySelectorAll('input[data-name="type_option"]:checked');
-				var types = [];
-				for (var index = 0; index < typeFields.length; index++) {
-					types.push(typeFields[index].value);
-					//typeFields[index].checked = false;
-				}
-				var hiddenType = document.getElementById('hidden-type');
-				hiddenType.value = types.join('|');
-				form.submit();
-				e.preventDefault();
-			}, false);
-
-			// SHIM: Make the address persistent
-			var address = getParameterByName('address');
-			if (address) {
-				var addressField = document.querySelector('input[name="address"]');
-				addressField.value = address;
-			}
-
-			// SHIM: Make the food deserts option persistent
-			var deserts = getParameterByName('deserts');
-			var desertsField = document.querySelector('input[name="deserts"]');
-			desertsField.checked = (deserts && deserts != '') ? true : false;
-
-		})();
-		</script>
+<script src="/assets/js/search.js"></script>

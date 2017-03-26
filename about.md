@@ -84,13 +84,13 @@ On the donation page, please choose *Los Angeles Brigade* and make it in honor o
 		<h2>Volunteers</h2>
 		<h3>Concerned citizens who want to get involved</h3>
 
-		<p>Many Angelinos – those affected by Food Insecurity and those not – are asking: How can I help? FOLA’s platform aims to connect concerned individuals with opportunities to volunteer, donate and get involved in Food Security activism.</p>
+		<p>Many Angelenos – those affected by Food Insecurity and those not – are asking: How can I help? FOLA’s platform aims to connect concerned individuals with opportunities to volunteer, donate and get involved in Food Security activism.</p>
 	</section>
 </div>
 
 ## Our Mission
 
-To build a unified hub for Angelinos to easily find healthy food.
+To build a unified hub for Angelenos to easily find healthy food.
 
 ## Our Team
 

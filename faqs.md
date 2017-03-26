@@ -63,7 +63,7 @@ A Food Oasis is an area where healthy food options are plentiful and readily ava
 - Partner with neighborhood schools to establish new, or support existing, healthy eating campaigns 
 
 ## How can policy makers help address/eliminate food deserts?
-One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelinos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
+One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelenos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
 How do we make this happen?
 
 ## What will happen if food deserts are not eliminated?

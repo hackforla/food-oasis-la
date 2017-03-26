@@ -44,7 +44,7 @@ mapContainer.addEventListener('click', function(e){
 
 		function findUserLocation() {
 			var address = getParameterByName('address');
-			var foodSourcesList = document.querySelector('.location-list');
+			var foodSourcesList = document.querySelector('ul.location-list');
 
 			// If the user passed in an address, and if the Google Maps geocoder is available
 			if (address && "google" in window) {
@@ -635,7 +635,7 @@ var DAYS_OF_WEEK = [
 		var start = window.listOffset || 0;
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
-		var list = document.getElementById('locations');
+		var list = document.querySelector('ul.location-list');
 		if (list) {
 			list.innerHTML = '';
 			for (var index = start; index < sortedLocations.length && index < limit; index++) {
@@ -645,3 +645,45 @@ var DAYS_OF_WEEK = [
 	}
 
 })();
+
+// Toggle between the map and list views
+(function() {
+	if (mapboxgl.supported()) {
+
+		var views = document.getElementById('search-views');
+		var template = document.getElementById('search-views-template');
+		views.insertAdjacentHTML('beforeend', template.innerHTML);
+
+		var mapButton = document.getElementById('map-button');
+		var listButton = document.getElementById('list-button');
+
+		listButton.style.display = "block";
+
+		document.body.classList.add('only-map');
+		document.body.classList.remove('only-list');
+
+		mapButton.addEventListener('click', function(e) {
+			mapButton.style.display = "none";
+			listButton.style.display = "block";
+
+			document.body.classList.add('only-map');
+			document.body.classList.remove('only-list');
+
+			e.preventDefault();
+		}, false);
+
+		listButton.addEventListener('click', function(e) {
+			mapButton.style.display = "block";
+			listButton.style.display = "none";
+
+			document.body.classList.remove('only-map');
+			document.body.classList.add('only-list');
+
+			e.preventDefault();
+		}, false);
+	} else {
+		if (console && console.log) console.log('MapboxGL doesn’t appear to be supported in this web browser. Showing the list instead…');
+		document.body.classList.add('only-list');
+	}
+})();
+
