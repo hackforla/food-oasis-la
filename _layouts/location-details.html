@@ -38,6 +38,7 @@ stylesheets:
 
 {% include location-details-options.html %}
 
+{% comment %}
 {% if page['formatted_daycode1'] %}
 <section class="hours">
 	<h2>Hours</h2>
@@ -56,6 +57,82 @@ stylesheets:
 		{% if page[formatted_daycodei] == day %}
 		<dd data-day="{{ page[daycodei] }}" data-open="{{ page[dayi_open] }}" data-close="{{ page[dayi_close] }}"><span>{{ page[formatted_dayi_open] }} – {{ page[formatted_dayi_close] }}</span></dd>
 		{% else %}
+		<dd><i>Closed</i></dd>
+		{% endif %}
+	{% endfor %}
+	</dl>
+</section>
+{% endif %}
+{% endcomment %}
+
+{% comment %}
+
+TODO: Consider updating generate-locations.js to make a simple loop like this possible (and then replace the “SHIM” below)…
+
+{% if page['formatted_days'] %}
+<section class="hours">
+	<h2>Hours</h2>
+	<dl>
+	{% for day in page['formatted_days'] %}
+		{% if page['daycode'] %}
+		<dt data-day="{{ page['daycode'] }}">{{ page['formatted_daycode'] }}</dt>
+		<dd data-day="{{ page['daycode'] }}" data-open="{{ day['open'] }}" data-close="{{ day['close'] }}"><span>{{ page['formatted_open'] }} – {{ page['formatted_close'] }}</span></dd>
+		{% else %}
+		<dd><i>Closed</i></dd>
+		{% endif %}
+	{% endfor %}
+	</dl>
+</section>
+{% endif %}
+{% endcomment %}
+
+{% comment %}
+SHIM: Support days in any order, in the spreadsheet.
+{% endcomment %}
+{% if 
+	page['formatted_daycode1'] or 
+	page['formatted_daycode2'] or
+	page['formatted_daycode3'] or
+	page['formatted_daycode4'] or
+	page['formatted_daycode5'] or
+	page['formatted_daycode6'] or
+	page['formatted_daycode7'] %}
+<section class="hours">
+	<h2>Hours</h2>
+	{% assign days = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" | split: ", " %}
+	<dl>
+	{% for day in days %}
+
+		{% if page['formatted_daycode1'] == day %}
+		<dt data-day="{{ page['daycode1'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode1'] }}" data-open="{{ page['day1_open'] }}" data-close="{{ page['day1_close'] }}"><span>{{ page['formatted_day1_open'] }} – {{ page['formatted_day1_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode2'] == day %}
+		<dt data-day="{{ page['daycode2'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode2'] }}" data-open="{{ page['day2_open'] }}" data-close="{{ page['day2_close'] }}"><span>{{ page['formatted_day2_open'] }} – {{ page['formatted_day2_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode3'] == day %}
+		<dt data-day="{{ page['daycode3'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode3'] }}" data-open="{{ page['day3_open'] }}" data-close="{{ page['day3_close'] }}"><span>{{ page['formatted_day3_open'] }} – {{ page['formatted_day3_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode4'] == day %}
+		<dt data-day="{{ page['daycode4'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode4'] }}" data-open="{{ page['day4_open'] }}" data-close="{{ page['day4_close'] }}"><span>{{ page['formatted_day4_open'] }} – {{ page['formatted_day4_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode5'] == day %}
+		<dt data-day="{{ page['daycode5'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode5'] }}" data-open="{{ page['day5_open'] }}" data-close="{{ page['day5_close'] }}"><span>{{ page['formatted_day5_open'] }} – {{ page['formatted_day5_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode6'] == day %}
+		<dt data-day="{{ page['daycode6'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode6'] }}" data-open="{{ page['day6_open'] }}" data-close="{{ page['day6_close'] }}"><span>{{ page['formatted_day6_open'] }} – {{ page['formatted_day6_close'] }}</span></dd>
+
+		{% elsif page['formatted_daycode7'] == day %}
+		<dt data-day="{{ page['daycode7'] }}">{{ day }}</dt>
+		<dd data-day="{{ page['daycode7'] }}" data-open="{{ page['day7_open'] }}" data-close="{{ page['day7_close'] }}"><span>{{ page['formatted_day7_open'] }} – {{ page['formatted_day7_close'] }}</span></dd>
+
+		{% else %}
+		<dt>{{ day }}</dt>
 		<dd><i>Closed</i></dd>
 		{% endif %}
 	{% endfor %}
