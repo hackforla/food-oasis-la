@@ -612,7 +612,13 @@ var DAYS_OF_WEEK = [
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
 			// Open Now
-			if (!isOpenNow(data)) {
+			var open = false;
+			for (var index = 0; index < data.hours.length; index++) {
+				if (isOpenNow(data.hours[index])) {
+					open = true;
+				}
+			}
+			if (!open) {
 				var openNowElement = element.querySelector('.open');
 				openNowElement.parentNode.removeChild(openNowElement);
 			}
