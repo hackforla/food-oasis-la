@@ -45,7 +45,13 @@ function createMarkdownFile(writePath, data, category_uri) {
   // Page title
   data.title = data.name + ', Food Oasis Los Angeles';
 
-  var filename = stringToURI(data.name.replace(' ' + data.category, '') + data.address_1.substring(0,4));
+  var filename = data.name.replace(' ' + data.category, '');
+
+  if (category_uri === 'supermarket') {
+    filename += '-' + data.address_1;
+  }
+
+  filename = stringToURI(filename);
 
   data.uri = '/' + category_uri + '/' + filename + '/';
 
