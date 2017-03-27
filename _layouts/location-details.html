@@ -27,7 +27,7 @@ stylesheets:
 	</p>
 	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
 
-	<script type="text/template" class="open-template" data-day="{{ data['day'] }}" data-open="{{ data['open'] }}" data-close="{{ data['close'] }}">
+	<script type="text/template" class="open-template">
 		<p class="open">Open Now</p>
 	</script>
 	<script type="text/template" class="distance-template" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
@@ -176,10 +176,7 @@ SHIM: Support days in any order, in the spreadsheet.
 <script>
 	var FOOD_SOURCE = {
 		latitude: {{ page['latitude'] }},
-		longitude: {{ page['longitude'] }},
-		day: "{{ page['day'] }}",
-		open: "{{ page['open'] }}",
-		close: "{{ page['close'] }}"
+		longitude: {{ page['longitude'] }}
 	}
 </script>
 

@@ -12,6 +12,7 @@
 		border-top: none;
 		width: 3.375em;
 		position: relative;
+		z-index: 2; /* Just above the .seconary-nav element */
 	}
 
 	.nav-item {
