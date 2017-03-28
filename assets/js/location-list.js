@@ -664,6 +664,16 @@ var DAYS_OF_WEEK = [
 				list.appendChild(createListItem(sortedLocations[index], 'li'));
 			}
 		}
+
+		if (sortedLocations.length < 1) {
+			var template = document.getElementById('no-results-template');
+			var map = document.getElementById('map');
+			if (template && map) {
+				var div = document.createElement('div');
+				div.innerHTML = template.innerHTML;
+				map.parentNode.insertBefore(div, map);
+			}
+		}
 	}
 
 })();
