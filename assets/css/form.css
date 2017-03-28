@@ -58,6 +58,19 @@
 	}
 
 
+	/* =Open Now
+	----------------------------------------------- */
+	/*
+	form .open {
+		color: rgb(66, 194, 231);
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	*/
+
+
 	/* =Fieldset
 	----------------------------------------------- */
 	fieldset {

@@ -35,6 +35,7 @@ var updateLink;
 		type   : getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %},
 		address: getParameterByName('address'),
 		deserts: getParameterByName('deserts'),
+		open: getParameterByName('open')
 	};
 
 	// SHIM: Make the type persistent
@@ -44,12 +45,13 @@ var updateLink;
 		if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
+		if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
 
 		var queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) {
 		var filtersLink = document.getElementById('filters-link');
 		if (filtersLink) {
 			updateLink(filtersLink);

@@ -177,13 +177,27 @@ mapContainer.addEventListener('click', function(e){
 			var type = getParameterByName('type');
 			if (type) {
 				var types = type.split('|');
-				list = list.filter(function(element) {
+				list = list.filter(function(item) {
 					for (var index = 0; index < types.length; index++) {
-						if (element.category.toLowerCase().replace(' ', '-') === types[index]) {
+						if (item.category.toLowerCase().replace(' ', '-') === types[index]) {
 							return true;
 						}
 					}
 					return false;
+				});
+			}
+
+			var open = getParameterByName('open');
+			if (open) {
+				list = list.filter(function(item) {
+					var open = false;
+					for (var index = 0; index < item.hours.length; index++) {
+						if (isOpenNow(item.hours[index])) {
+							open = true;
+						}
+					}
+
+					return open;
 				});
 			}
 
@@ -596,6 +610,8 @@ var DAYS_OF_WEEK = [
 			var params = [];
 			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
+			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
+			if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
 
 			var queryString = params.join('&');
 

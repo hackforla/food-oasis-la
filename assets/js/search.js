@@ -62,4 +62,15 @@
 		}
 	}
 
+	// SHIM: Make the “open now” option persistent
+	var open = getParameterByName('open');
+	if (open) {
+		var openField = document.querySelector('input[name="open"]');
+		if (openField.type === 'checkbox') {
+			openField.checked = (open && open != '') ? true : false;
+		} else {
+			openField.value = open;
+		}
+	}
+
 })();
