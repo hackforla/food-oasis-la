@@ -11,6 +11,7 @@ color: grape
 * [What is a food desert?](#what-is-a-food-desert)
 * [What are low income areas?](#what-are-low-income-areas)
 * [What are low access areas?](#what-are-low-access-areas)
+* [What is Cal Fresh?](#what-is-cal-fresh)
 * [What is food insecurity?](#what-is-food-insecurity)
 * [I live in a food desert. What can I do?](#i-live-in-a-food-desert-what-can-i-do)
 * [I don’t live in a food desert, but am interested in helping. What can I do to help?](#i-dont-live-in-a-food-desert-but-am-interested-in-helping-what-can-i-do-to-help)
@@ -30,6 +31,9 @@ Areas with either a poverty rate of 20 percent or more, or a median family incom
 
 ## What are low access areas?
 A low-income tract with at least 500 people or 33 percent of the population living more than 1 mile (urban areas) or more than 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store. [[source]](http://www.ers.usda.gov/data-products/food-access-research-atlas/documentation.aspx)
+
+## What is Cal Fresh?
+CalFresh, federally known as the Supplemental Nutrition Assistance Program (SNAP), can add to your food budget to put healthy and nutritious food on the table. The program issues monthly electronic benefits that can be used to buy most foods at many markets and food stores. [[Learn more]](https://getcalfresh.org/)
 
 ## What is food insecurity?
 Access to nutritionally adequate food is limited or uncertain. [[source]](http://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/measurement.aspx)
