@@ -153,3 +153,13 @@
 	transform: scale(1.0, 1.0);
 	opacity: 1;
 	}
+
+	/* Replace the default menu with a slide-out menu. If browser supports transform:translate */
+	@supports (transform: translate(-105%, 0)) {
+		.nav-link {
+	  		display: none;
+		}
+		.slideout-menu {
+  			display: block !important; /* !important will override any inline style applied to this element. */
+		}
+	}
