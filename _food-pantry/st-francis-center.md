@@ -39,5 +39,14 @@ uri: /food-pantry/st-francis-center/
 formatted_daycode1: Tuesday
 formatted_day1_open: 11am
 formatted_day1_close: '12:30pm'
+formatted_daycode2: Wednesday
+formatted_day2_open: 11am
+formatted_day2_close: '12:30pm'
+formatted_daycode3: Thursday
+formatted_day3_open: 11am
+formatted_day3_close: '12:30pm'
+formatted_daycode4: Saturday
+formatted_day4_open: 11am
+formatted_day4_close: '12:30pm'
 
 ---

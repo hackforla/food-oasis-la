@@ -38,5 +38,7 @@ title: 'Food Net-Willowbrook Senior Center, Food Oasis Los Angeles'
 uri: /food-pantry/food-net-willowbrook-senior-center/
 formatted_day1_open: 10am
 formatted_day1_close: 12pm
+formatted_day2_open: 10am
+formatted_day2_close: 12pm
 
 ---

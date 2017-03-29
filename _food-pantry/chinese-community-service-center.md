@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Tue
-day2_open: '900'
+day2_open: 0900
 day2_close: '1200'
 daycode3: ''
 day3_open: ''
@@ -39,5 +39,8 @@ uri: /food-pantry/chinese-community-service-center/
 formatted_daycode1: Sunday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 12pm
 
 ---

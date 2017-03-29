@@ -38,5 +38,7 @@ title: 'Vision of Hope Outreach Ministry, Food Oasis Los Angeles'
 uri: /food-pantry/vision-of-hope-outreach-ministry/
 formatted_day1_open: 3pm
 formatted_day1_close: 4pm
+formatted_day2_open: 3pm
+formatted_day2_close: 4pm
 
 ---

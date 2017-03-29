@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue1st
-day1_open: '700'
+day1_open: '0700'
 day1_close: '1000'
 daycode2: Tue3rd
-day2_open: '700'
+day2_open: '0700'
 day2_close: '1000'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,7 @@ title: 'Tongan Community Service Center, Food Oasis Los Angeles'
 uri: /food-pantry/tongan-community-service-center/
 formatted_day1_open: 7am
 formatted_day1_close: 10am
+formatted_day2_open: 7am
+formatted_day2_close: 10am
 
 ---

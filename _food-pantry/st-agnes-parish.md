@@ -12,16 +12,16 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '900'
+day1_open: 0900
 day1_close: '1030'
 daycode2: Tue
-day2_open: '900'
+day2_open: 0900
 day2_close: '1030'
 daycode3: Thu
-day3_open: '900'
+day3_open: 0900
 day3_close: '1030'
 daycode4: Fri
-day4_open: '900'
+day4_open: 0900
 day4_close: '1030'
 daycode5: ''
 day5_open: ''
@@ -39,5 +39,14 @@ uri: /food-pantry/st-agnes-parish/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: '10:30am'
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: '10:30am'
+formatted_daycode3: Thursday
+formatted_day3_open: 9am
+formatted_day3_close: '10:30am'
+formatted_daycode4: Friday
+formatted_day4_open: 9am
+formatted_day4_close: '10:30am'
 
 ---

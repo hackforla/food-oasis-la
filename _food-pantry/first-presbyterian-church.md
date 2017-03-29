@@ -15,7 +15,7 @@ daycode1: Sun3rd
 day1_open: '1300'
 day1_close: '1400'
 daycode2: Sat
-day2_open: '900'
+day2_open: 0900
 day2_close: '1100'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,8 @@ title: 'First Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/first-presbyterian-church/
 formatted_day1_open: 1pm
 formatted_day1_close: 2pm
+formatted_daycode2: Saturday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

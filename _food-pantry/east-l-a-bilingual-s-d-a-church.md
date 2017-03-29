@@ -38,5 +38,10 @@ title: 'East L.A. Bilingual S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/east-l-a-bilingual-s-d-a-church/
 formatted_day1_open: '5:30pm'
 formatted_day1_close: '6:30pm'
+formatted_day2_open: '5:30pm'
+formatted_day2_close: '6:30pm'
+formatted_daycode3: Saturday
+formatted_day3_open: 12pm
+formatted_day3_close: '12:45pm'
 
 ---

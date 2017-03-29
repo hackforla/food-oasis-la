@@ -29,8 +29,15 @@ markdown: kramdown
 # gems:
 #  - jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - CNAME
+  - README
+
+keep_files:
+  - .git
+  - .gitignore
+  - .nojekyll
+  - CNAME
+  - README
 
 defaults:
   - scope:
@@ -38,24 +45,35 @@ defaults:
       type: community-garden
     values:
       layout: location-details
+      classname: location-details community-garden
       color: lime
   - scope:
       path: ""
       type: community-garden-from-staging-api
     values:
       layout: location-details
+      classname: location-details community-garden
       color: lime
   - scope:
       path: ""
       type: farmers-market
     values:
       layout: location-details
+      classname: location-details farmers-market
+      color: strawberry
+  - scope:
+      path: ""
+      type: supermarket
+    values:
+      layout: location-details
+      classname: location-details supermarket
       color: strawberry
   - scope:
       path: ""
       type: food-pantry
     values:
       layout: location-details
+      classname: location-details food-pantry
       color: canteloupe
   - scope:
       path: ""
@@ -72,6 +90,9 @@ collections:
   farmers-market:
     output: true
     permalink: /farmers-market/:path/
+  supermarket:
+    output: true
+    permalink: /supermarket/:path/
   food-pantry:
     output: true
     permalink: /food-pantry/:path/

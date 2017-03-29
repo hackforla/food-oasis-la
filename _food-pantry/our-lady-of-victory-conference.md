@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Fri3rd
-day1_open: '830'
+day1_open: 0830
 day1_close: '1000'
 daycode2: SatLast
-day2_open: '830'
+day2_open: 0830
 day2_close: '1000'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,7 @@ title: 'Our Lady of Victory Conference, Food Oasis Los Angeles'
 uri: /food-pantry/our-lady-of-victory-conference/
 formatted_day1_open: '8:30am'
 formatted_day1_close: 10am
+formatted_day2_open: '8:30am'
+formatted_day2_close: 10am
 
 ---

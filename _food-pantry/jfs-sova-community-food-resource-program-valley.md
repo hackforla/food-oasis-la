@@ -12,7 +12,7 @@ category: Food Pantry
 website: https//www.jfsla.org/page.aspx?pid=300
 '': ''
 daycode1: Sun
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Mon
 day2_open: '1000'
@@ -39,5 +39,17 @@ uri: /food-pantry/jfs-sova-community-food-resource-program-valley/
 formatted_daycode1: Sunday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Monday
+formatted_day2_open: 10am
+formatted_day2_close: '1:30pm'
+formatted_daycode3: Tuesday
+formatted_day3_open: 10am
+formatted_day3_close: '1:30pm'
+formatted_daycode4: Wednesday
+formatted_day4_open: 10am
+formatted_day4_close: '1:30pm'
+formatted_daycode5: Thursday
+formatted_day5_open: 10am
+formatted_day5_close: '1:30pm'
 
 ---

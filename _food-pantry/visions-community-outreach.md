@@ -38,5 +38,7 @@ title: 'Visions Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/visions-community-outreach/
 formatted_day1_open: 10am
 formatted_day1_close: 12pm
+formatted_day2_open: 10am
+formatted_day2_close: 12pm
 
 ---

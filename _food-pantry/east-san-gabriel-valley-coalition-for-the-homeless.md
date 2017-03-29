@@ -12,19 +12,19 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '830'
+day1_open: 0830
 day1_close: '1330'
 daycode2: Tue
-day2_open: '830'
+day2_open: 0830
 day2_close: '1330'
 daycode3: Wed
-day3_open: '830'
+day3_open: 0830
 day3_close: '1330'
 daycode4: Thu
-day4_open: '830'
+day4_open: 0830
 day4_close: '1330'
 daycode5: Fri
-day5_open: '830'
+day5_open: 0830
 day5_close: '1330'
 daycode6: ''
 day6_open: ''
@@ -39,5 +39,17 @@ uri: /food-pantry/east-san-gabriel-valley-coalition-for-the-homeless/
 formatted_daycode1: Monday
 formatted_day1_open: '8:30am'
 formatted_day1_close: '1:30pm'
+formatted_daycode2: Tuesday
+formatted_day2_open: '8:30am'
+formatted_day2_close: '1:30pm'
+formatted_daycode3: Wednesday
+formatted_day3_open: '8:30am'
+formatted_day3_close: '1:30pm'
+formatted_daycode4: Thursday
+formatted_day4_open: '8:30am'
+formatted_day4_close: '1:30pm'
+formatted_daycode5: Friday
+formatted_day5_open: '8:30am'
+formatted_day5_close: '1:30pm'
 
 ---

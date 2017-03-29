@@ -1,0 +1,172 @@
+
+
+	/* =Field
+	----------------------------------------------- */
+	input[type="text"],
+	input[type="search"] {
+		display: inline-block;
+		line-height: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0.375em 0.75em;
+		border-radius: 0.25em;
+		border: 1px solid black;
+		border-color: rgba(0, 0, 0, 0.25);
+		width: 20em;
+		max-width: 100%;
+		box-sizing: border-box;
+
+		/* Remove default */
+		-webkit-appearance: none;
+	}
+
+
+	/* =Search
+	----------------------------------------------- */
+	.search-field {
+		/*
+		margin: -0.75em -1.5em 0;
+		*/
+		margin: 0;
+		background-color: rgb(241, 241, 241);
+		padding: 0.75em 1.5em;
+	}
+
+	.search-field label {
+		display: block;
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.search-field input[type="search"] {
+		padding-left: 2.25em;
+		background-image: url(/assets/images/icons/location.svg);
+		background-position: 0.75em 50%;
+		background-size: auto 1.5em;
+		background-repeat: no-repeat;
+		border: none;
+		width: 100%;
+	}
+	.search-field label span {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
+	.search-field label br {
+		display: none;
+	}
+
+
+	/* =Open Now
+	----------------------------------------------- */
+	/*
+	form .open {
+		color: rgb(66, 194, 231);
+		text-transform: uppercase;
+		font-size: 0.75em;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	*/
+
+
+	/* =Fieldset
+	----------------------------------------------- */
+	fieldset {
+		border-width: 0;
+		border-top: 2.25em solid rgb(241, 241, 241);
+		margin: 0 -1.5em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+	fieldset legend {
+		margin-top: -2.375em;
+		background: transparent;
+		text-transform: uppercase;
+		font-size: 0.875em;
+		font-weight: bold;
+		position: absolute;
+	}
+
+	/* Prevent overlap with pseudo checkbox */
+	fieldset label {
+		padding-right: 3em;
+	}
+
+
+	/* =List
+	----------------------------------------------- */
+	form ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	form li {
+		position: relative;
+	}
+	form li + li {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	form li img {
+		position: absolute;
+		top: 1.125em;
+		height: 2.25em;
+		width: auto;
+	}
+	form li img ~ span {
+		padding-left: 3rem;
+	}
+	li label {
+		display: block;
+		color: inherit;
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+		text-decoration: none;
+	}
+	li input[type="checkbox"] {
+		font-size: inherit;
+	}
+	li input[type="checkbox"] {
+		position: absolute;
+		top: 50%;
+		right: 1.5em;
+	}
+
+	/* If advanced selectors are supported, hide the checkboxes… */
+	li input[type="checkbox"]:checked,
+	li input[type="checkbox"]:not(:checked) {
+		opacity: 0;
+	}
+	/* …and hint that the numbers are push-able. */
+	li input[type="checkbox"]:checked       ~ .pseudo-checkbox,
+	li input[type="checkbox"]:not(:checked) ~ .pseudo-checkbox {
+		padding: 0; /* SHIM: Reset */
+
+		display: block;
+		width: 1.875em;
+		height: 1.875em;
+		border: 0.125em solid black;
+		position: absolute;
+		top: 50%;
+		top: calc(50% - 0.9375em);
+		right: 0;
+		border-radius: 0.375em;
+	}
+
+	/* If a checkbox is checked, show the related number. */
+	li input[type="checkbox"]:checked ~ .pseudo-checkbox {
+		/* background-image: url(/assets/images/icons/checkmark.svg); */
+		/* background-image: url(data:image/svg+xml;utf8,<svg width="19px" height="13px" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><path d="M15.997,0.382847649 L6.50753061,9.86954153 L2.22214286,5.58415377 C1.71561224,5.07484765 0.888510204,5.07484765 0.381979592,5.58415377 C-0.127326531,6.09068438 -0.127326531,6.91501091 0.381979592,7.42431704 L5.58606122,12.6283987 C5.84071429,12.8830517 6.17446939,13.0107252 6.50753061,13.0107252 C6.84059184,13.0107252 7.17434694,12.8830517 7.42622449,12.6283987 L17.8343878,2.2202354 C18.3443878,1.71370479 18.3443878,0.889378261 17.8343878,0.380072139 C17.3278571,-0.127152351 16.5035306,-0.127152351 15.997,0.382847649 Z"></path></svg>); */
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTlweCIgaGVpZ2h0PSIxM3B4IiB2aWV3Qm94PSIwIDAgMTkgMTMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE1Ljk5NywwLjM4Mjg0NzY0OSBMNi41MDc1MzA2MSw5Ljg2OTU0MTUzIEwyLjIyMjE0Mjg2LDUuNTg0MTUzNzcgQzEuNzE1NjEyMjQsNS4wNzQ4NDc2NSAwLjg4ODUxMDIwNCw1LjA3NDg0NzY1IDAuMzgxOTc5NTkyLDUuNTg0MTUzNzcgQy0wLjEyNzMyNjUzMSw2LjA5MDY4NDM4IC0wLjEyNzMyNjUzMSw2LjkxNTAxMDkxIDAuMzgxOTc5NTkyLDcuNDI0MzE3MDQgTDUuNTg2MDYxMjIsMTIuNjI4Mzk4NyBDNS44NDA3MTQyOSwxMi44ODMwNTE3IDYuMTc0NDY5MzksMTMuMDEwNzI1MiA2LjUwNzUzMDYxLDEzLjAxMDcyNTIgQzYuODQwNTkxODQsMTMuMDEwNzI1MiA3LjE3NDM0Njk0LDEyLjg4MzA1MTcgNy40MjYyMjQ0OSwxMi42MjgzOTg3IEwxNy44MzQzODc4LDIuMjIwMjM1NCBDMTguMzQ0Mzg3OCwxLjcxMzcwNDc5IDE4LjM0NDM4NzgsMC44ODkzNzgyNjEgMTcuODM0Mzg3OCwwLjM4MDA3MjEzOSBDMTcuMzI3ODU3MSwtMC4xMjcxNTIzNTEgMTYuNTAzNTMwNiwtMC4xMjcxNTIzNTEgMTUuOTk3LDAuMzgyODQ3NjQ5IFoiPjwvcGF0aD48L3N2Zz4=);
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	/* If a checkbox is focused, highlight the related number. */
+	li input[type="checkbox"]:focus ~ .pseudo-checkbox {
+		border-color: rgb(40, 137, 187); /* @blueberry */
+	}
+	li input[type="checkbox"]:checked:focus ~ .pseudo-checkbox {
+		border-color: rgb(40, 137, 187); /* @blueberry */
+	}
+

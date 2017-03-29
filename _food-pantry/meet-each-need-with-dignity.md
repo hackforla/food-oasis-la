@@ -12,16 +12,16 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '800'
+day1_open: 0800
 day1_close: '1400'
 daycode2: Thu
-day2_open: '800'
+day2_open: 0800
 day2_close: '1400'
 daycode3: Fri
-day3_open: '800'
+day3_open: 0800
 day3_close: '1400'
 daycode4: Sat
-day4_open: '900'
+day4_open: 0900
 day4_close: '1200'
 daycode5: ''
 day5_open: ''
@@ -39,5 +39,14 @@ uri: /food-pantry/meet-each-need-with-dignity/
 formatted_daycode1: Tuesday
 formatted_day1_open: 8am
 formatted_day1_close: 2pm
+formatted_daycode2: Thursday
+formatted_day2_open: 8am
+formatted_day2_close: 2pm
+formatted_daycode3: Friday
+formatted_day3_open: 8am
+formatted_day3_close: 2pm
+formatted_daycode4: Saturday
+formatted_day4_open: 9am
+formatted_day4_close: 12pm
 
 ---

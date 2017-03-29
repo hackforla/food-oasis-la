@@ -12,8 +12,8 @@ category: Food Pantry
 website: http//www.allsaintsla.net/
 '': ''
 daycode1: Sat4th
-day1_open: '830'
-day1_close: '900'
+day1_open: 0830
+day1_close: 0900
 daycode2: ''
 day2_open: ''
 day2_close: ''

@@ -39,5 +39,8 @@ uri: /food-pantry/iglesia-pentecostes-templo-calvario/
 formatted_daycode1: Sunday
 formatted_day1_open: 1pm
 formatted_day1_close: 3pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 7pm
+formatted_day2_close: 9pm
 
 ---

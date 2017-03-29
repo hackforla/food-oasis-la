@@ -12,7 +12,7 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sun
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Wed
 day2_open: '1900'
@@ -39,5 +39,8 @@ uri: /food-pantry/church-of-god/
 formatted_daycode1: Sunday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 7pm
+formatted_day2_close: 9pm
 
 ---

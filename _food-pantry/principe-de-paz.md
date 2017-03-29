@@ -38,5 +38,7 @@ title: 'Principe de Paz, Food Oasis Los Angeles'
 uri: /food-pantry/principe-de-paz/
 formatted_day1_open: 11am
 formatted_day1_close: 1pm
+formatted_day2_open: 11am
+formatted_day2_close: 1pm
 
 ---

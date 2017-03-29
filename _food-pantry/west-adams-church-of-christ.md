@@ -38,5 +38,7 @@ title: 'West Adams Church of Christ, Food Oasis Los Angeles'
 uri: /food-pantry/west-adams-church-of-christ/
 formatted_day1_open: 10am
 formatted_day1_close: 11am
+formatted_day2_open: 12pm
+formatted_day2_close: 2pm
 
 ---

@@ -21,5 +21,7 @@ title: 'Inglewood Farmers Market, Food Oasis Los Angeles'
 uri: /farmers-market/inglewood/
 formatted_day1_open: 3pm
 formatted_day1_close: 7pm
+formatted_day2_open: 3pm
+formatted_day2_close: 7pm
 
 ---

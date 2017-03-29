@@ -44,7 +44,7 @@ mapContainer.addEventListener('click', function(e){
 
 		function findUserLocation() {
 			var address = getParameterByName('address');
-			var foodSourcesList = document.querySelector('.location-list');
+			var foodSourcesList = document.querySelector('ul.location-list');
 
 			// If the user passed in an address, and if the Google Maps geocoder is available
 			if (address && "google" in window) {
@@ -177,13 +177,27 @@ mapContainer.addEventListener('click', function(e){
 			var type = getParameterByName('type');
 			if (type) {
 				var types = type.split('|');
-				list = list.filter(function(element) {
+				list = list.filter(function(item) {
 					for (var index = 0; index < types.length; index++) {
-						if (element.category.toLowerCase().replace(' ', '-') === types[index]) {
+						if (item.category.toLowerCase().replace(' ', '-') === types[index]) {
 							return true;
 						}
 					}
 					return false;
+				});
+			}
+
+			var open = getParameterByName('open');
+			if (open) {
+				list = list.filter(function(item) {
+					var open = false;
+					for (var index = 0; index < item.hours.length; index++) {
+						if (isOpenNow(item.hours[index])) {
+							open = true;
+						}
+					}
+
+					return open;
 				});
 			}
 
@@ -280,6 +294,14 @@ map.on('load', function() {
 			iconAnchor: [15, 40],
 			popupAnchor: [0, -23]
 		},
+		'Supermarket': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker',
+			// Set marker width and height
+			iconSize: [30, 46],
+			iconAnchor: [15, 40],
+			popupAnchor: [0, -23]
+		},
 		'Community Garden': {
 			// Specify a class name we can refer to in CSS.
 			className: 'community-garden-marker',
@@ -300,6 +322,14 @@ map.on('load', function() {
 
 	var activeMarkerOptions = {
 		'Farmers Market': {
+			// Specify a class name we can refer to in CSS.
+			className: 'farmers-market-marker-active',
+			// Set marker width and height
+			iconSize: [42, 70],
+			iconAnchor: [21, 70],
+			popupAnchor: [0, -35]
+		},
+		'Supermarket': {
 			// Specify a class name we can refer to in CSS.
 			className: 'farmers-market-marker-active',
 			// Set marker width and height
@@ -508,8 +538,6 @@ if (map) addYouAreHere([longitude, latitude]);
 
 bounds.unshift([longitude, latitude]);
 
-bounds = bounds.slice(0, 5);
-
 if (map) {
 	map.setZoom(15);
 	map.setCenter([longitude, latitude]);
@@ -582,6 +610,8 @@ var DAYS_OF_WEEK = [
 			var params = [];
 			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
+			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
+			if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
 
 			var queryString = params.join('&');
 
@@ -598,7 +628,13 @@ var DAYS_OF_WEEK = [
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
 
 			// Open Now
-			if (!isOpenNow(data)) {
+			var open = false;
+			for (var index = 0; index < data.hours.length; index++) {
+				if (isOpenNow(data.hours[index])) {
+					open = true;
+				}
+			}
+			if (!open) {
 				var openNowElement = element.querySelector('.open');
 				openNowElement.parentNode.removeChild(openNowElement);
 			}
@@ -621,13 +657,65 @@ var DAYS_OF_WEEK = [
 		var start = window.listOffset || 0;
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
-		var list = document.getElementById('locations');
+		var list = document.querySelector('ul.location-list');
 		if (list) {
 			list.innerHTML = '';
 			for (var index = start; index < sortedLocations.length && index < limit; index++) {
 				list.appendChild(createListItem(sortedLocations[index], 'li'));
 			}
 		}
+
+		if (sortedLocations.length < 1) {
+			var template = document.getElementById('no-results-template');
+			var map = document.getElementById('map');
+			if (template && map) {
+				var div = document.createElement('div');
+				div.innerHTML = template.innerHTML;
+				map.parentNode.insertBefore(div, map);
+			}
+		}
 	}
 
 })();
+
+// Toggle between the map and list views
+(function() {
+	if (mapboxgl.supported()) {
+
+		var views = document.getElementById('search-views');
+		var template = document.getElementById('search-views-template');
+		views.insertAdjacentHTML('beforeend', template.innerHTML);
+
+		var mapButton = document.getElementById('map-button');
+		var listButton = document.getElementById('list-button');
+
+		listButton.style.display = "block";
+
+		document.body.classList.add('only-map');
+		document.body.classList.remove('only-list');
+
+		mapButton.addEventListener('click', function(e) {
+			mapButton.style.display = "none";
+			listButton.style.display = "block";
+
+			document.body.classList.add('only-map');
+			document.body.classList.remove('only-list');
+
+			e.preventDefault();
+		}, false);
+
+		listButton.addEventListener('click', function(e) {
+			mapButton.style.display = "block";
+			listButton.style.display = "none";
+
+			document.body.classList.remove('only-map');
+			document.body.classList.add('only-list');
+
+			e.preventDefault();
+		}, false);
+	} else {
+		if (console && console.log) console.log('MapboxGL doesn’t appear to be supported in this web browser. Showing the list instead…');
+		document.body.classList.add('only-list');
+	}
+})();
+

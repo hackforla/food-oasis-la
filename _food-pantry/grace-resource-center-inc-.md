@@ -39,5 +39,17 @@ uri: /food-pantry/grace-resource-center-inc-/
 formatted_daycode1: Tuesday
 formatted_day1_open: 10am
 formatted_day1_close: 11am
+formatted_daycode2: Tuesday
+formatted_day2_open: 1pm
+formatted_day2_close: 2pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 10am
+formatted_day3_close: 11am
+formatted_daycode4: Wednesday
+formatted_day4_open: 10am
+formatted_day4_close: 11am
+formatted_daycode5: Thursday
+formatted_day5_open: 10am
+formatted_day5_close: 11am
 
 ---

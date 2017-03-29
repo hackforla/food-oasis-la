@@ -38,5 +38,7 @@ title: 'New Jerusalem C.O.G.I.C., Food Oasis Los Angeles'
 uri: /food-pantry/new-jerusalem-c-o-g-i-c-/
 formatted_day1_open: 10am
 formatted_day1_close: '11:30am'
+formatted_day2_open: 10am
+formatted_day2_close: '11:30am'
 
 ---

@@ -1,0 +1,348 @@
+
+	/* =Link List (only used in the footer?)
+	----------------------------------------------- */
+	.link-list,
+	.link-list li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.link-list {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.link-list a {
+		display: block;
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+		color: inherit;
+	}
+	.link-list a:hover,
+	.link-list a:active,
+	.link-list a:focus {
+		color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.link-list.has-icons a {
+		text-decoration: none;
+	}
+	.link-list.has-icons a span {
+		text-decoration: underline;
+	}
+
+
+	/* =Footer
+	----------------------------------------------- */
+	footer {
+		background-color: rgb(144, 194, 70); /* @lime */
+		color: white;
+		margin-top: 5em;
+		padding: 4.5em 1.5em;
+		position: relative;
+		text-align: center;
+	}
+	footer .link-list {
+		max-width: none;
+	}
+	footer .link-list li {
+		display: inline-block;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+	}
+
+	footer .action a {
+		text-transform: none;
+	}
+
+	.canteloupe footer {
+		background-color: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer {
+		background-color: rgb(144, 194, 70); /* @lime */
+	}
+	.strawberry footer {
+		background-color: rgb(241, 95, 91); /* @strawberry */
+	}
+	.grape footer {
+		background-color: rgb(77, 85, 148); /* @grape */
+	}
+	.blueberry footer {
+		background-color: rgb(40, 137, 187); /* @blueberry */
+	}
+	.dragonfruit footer {
+		background-color: rgb(211, 16, 134); /* @dragonfruit */
+	}
+
+	.canteloupe footer .link-list::before,
+	.canteloupe footer .link-list::after,
+	.canteloupe footer::before,
+	.canteloupe footer::after {
+		background-image: url(/assets/images/footer/pear.svg);
+	}
+	.strawberry footer .link-list::before,
+	.strawberry footer .link-list::after,
+	.strawberry footer::before,
+	.strawberry footer::after {
+		background-image: url(/assets/images/footer/carrot.svg);
+	}
+	.grape footer .link-list::before,
+	.grape footer .link-list::after,
+	.grape footer::before,
+	.grape footer::after {
+		background-image: url(/assets/images/footer/pumpkin.svg);
+	}
+	.blueberry footer .link-list::before,
+	.blueberry footer .link-list::after,
+	.blueberry footer::before,
+	.blueberry footer::after {
+		background-image: url(/assets/images/footer/palm-tree-blueberry.svg);
+	}
+	.dragonfruit footer .link-list::before,
+	.dragonfruit footer .link-list::after,
+	.dragonfruit footer::before,
+	.dragonfruit footer::after {
+		background-image: url(/assets/images/footer/palm-tree-dragonfruit.svg);
+	}
+	/*
+	.apple footer .link-list::before,
+	.apple footer .link-list::after,
+	.apple footer::before,
+	.apple footer::after {
+		background-image: url(/assets/images/footer/watermelon.svg);
+	}
+	*/
+
+	footer .link-list::before,
+	footer .link-list::after,
+	footer::before,
+	footer::after {
+		content: "";
+		background-image: url(/assets/images/footer/palm-tree.svg);
+		display: block;
+		position: absolute;
+		width: 4.5em;
+		height: 4.5em;
+		margin-top: -4.5em;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		top: 0.25em;
+		left: 50%;
+		margin-left: -5em;
+		opacity: 0.75;
+	}
+	footer::after {
+		margin-left: 0;
+		width: 4.25em;
+		height: 4.25em;
+		margin-top: -4.25em;
+		opacity: 0.7;
+	}
+	footer .link-list::before {
+		margin-left: -8.5em;
+		width: 5em;
+		height: 5em;
+		margin-top: -5em;
+		opacity: 1;
+	}
+	footer .link-list::after {
+		margin-left: 2.5em;
+		width: 4.75em;
+		height: 4.75em;
+		margin-top: -4.75em;
+		opacity: 1;
+	}
+
+	.canteloupe footer .link-list::before,
+	.canteloupe footer::before,
+	.canteloupe footer::after,
+	.grape footer .link-list::before,
+	.grape footer::before,
+	.grape footer::after,
+	.strawberry footer .link-list::before,
+	.strawberry footer::before,
+	.strawberry footer::after {
+		display: none;
+	}
+	.canteloupe footer .link-list::after,
+	.grape footer .link-list::after,
+	.strawberry footer .link-list::after {
+		margin: 0;
+		margin-top: -4.75em;
+		width: 15em;
+		margin-left: -7.5em;
+	}
+
+	@media (min-width: 30em) {
+		footer {
+			padding: 4.5em 3em;
+		}
+	}
+	footer section {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer section {
+		margin-top: 4.5em;
+	}
+	footer a,
+	footer a:hover,
+	footer a:active,
+	footer a:focus,
+	footer .link-list a,
+	footer .link-list a:hover,
+	footer .link-list a:active,
+	footer .link-list a:focus {
+		color: inherit;
+	}
+	footer a {
+		text-decoration: none;
+	}
+	footer a:hover,
+	footer a:active,
+	footer a:focus {
+		text-decoration: underline;
+	}
+	footer section h2:first-child {
+		margin-top: 0;
+	}
+	footer section h2 + p {
+		margin-top: 0;
+	}
+	footer section p:last-child {
+		margin-bottom: 0;
+	}
+	footer section h2,
+	footer section h3 {
+		color: inherit;
+	}
+	footer section a {
+		color: inherit;
+		text-decoration: underline;
+		display: inline-block; /* @avoid-break */
+	}
+
+	footer .action {
+		text-align: center;
+		font-size: 1.25em;
+		margin-top: 2.4em; /* 3em / 1.25em */
+	}
+	footer .action a,
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		background: white !important;
+		color: black !important;
+		border-color: white !important;
+	}
+
+
+	footer .sponsors h2 {
+		margin-bottom: 0;
+	}
+	footer .sponsors div {
+		text-align: center;
+	}
+	footer .sponsors a {
+		margin: 0.75em;
+	}
+	footer .sponsors a img {
+		width: 10em;
+		border-radius: 50%;
+	}
+	footer .sponsors h2,
+	footer .donate h2,
+	footer .contact h2 {
+		text-align: center;
+	}
+
+	footer .donate div,
+	footer .contact div {
+		margin-top: 3em;
+		text-align: center;
+	}
+
+	footer .contact svg {
+		overflow: visible;
+		display: inline-block;
+		width: 2.5em;
+		height: 2.5em;
+		border-radius: 50%;
+		margin-left: 0.75em;
+		margin-right: 0.75em;
+	}
+
+	footer .circle {
+		fill: white;
+	}
+	footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+
+	.canteloupe footer .icon {
+		fill: rgb(249, 192, 88); /* @canteloupe */
+	}
+	.lime footer .icon {
+		fill: rgb(144, 194, 70); /* @lime */
+	}
+	.grape footer .icon {
+		fill: rgb(77, 85, 148); /* @grape */
+	}
+	.blueberry footer .icon {
+		fill: rgb(40, 137, 187); /* @blueberry */
+	}
+	.strawberry footer .icon {
+		fill: rgb(241, 95, 91); /* @strawberry */
+	}
+	.dragonfruit footer .icon {
+		fill: rgb(211, 16, 134); /* @dragonfruit */
+	}
+
+	footer .action a,
+	footer .sponsors a,
+	footer .contact a svg path {
+		transition: all 0.2s;
+	}
+	footer .donate div a {
+		margin-top: -0.5em;
+		padding-top: 0.5em;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus,
+	footer .sponsors a:hover,
+	footer .sponsors a:active,
+	footer .sponsors a:focus,
+	footer .contact a:hover  svg,
+	footer .contact a:active svg,
+	footer .contact a:focus  svg {
+		color: black;
+	}
+
+	footer a:hover  .facebook .icon,
+	footer a:active .facebook .icon,
+	footer a:focus  .facebook .icon {
+		fill: #3B5998;
+	}
+	footer a:hover  .twitter .icon,
+	footer a:active .twitter .icon,
+	footer a:focus  .twitter .icon {
+		fill: #55ACEE;
+	}
+
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus {
+		text-decoration: underline;
+	}
+
+	footer a .icon {
+		transition: all 0.2s;
+	}
+	footer a:hover  .icon,
+	footer a:active .icon,
+	footer a:focus  .icon {
+		fill: black;
+	}
+

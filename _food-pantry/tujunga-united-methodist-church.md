@@ -39,5 +39,12 @@ uri: /food-pantry/tujunga-united-methodist-church/
 formatted_daycode1: Wednesday
 formatted_day1_open: 11am
 formatted_day1_close: 1pm
+formatted_daycode2: Friday
+formatted_day2_open: 11am
+formatted_day2_close: 1pm
+formatted_day3_open: 10am
+formatted_day3_close: 12pm
+formatted_day4_open: 10am
+formatted_day4_close: 12pm
 
 ---

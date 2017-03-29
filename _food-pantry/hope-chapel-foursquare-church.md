@@ -12,13 +12,13 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Wed
 day2_open: '1300'
 day2_close: '1600'
 daycode3: Fri
-day3_open: '900'
+day3_open: 0900
 day3_close: '1200'
 daycode4: Fri
 day4_open: '1300'
@@ -39,5 +39,14 @@ uri: /food-pantry/hope-chapel-foursquare-church/
 formatted_daycode1: Wednesday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 1pm
+formatted_day2_close: 4pm
+formatted_daycode3: Friday
+formatted_day3_open: 9am
+formatted_day3_close: 12pm
+formatted_daycode4: Friday
+formatted_day4_open: 1pm
+formatted_day4_close: 4pm
 
 ---

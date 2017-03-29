@@ -38,5 +38,7 @@ title: 'St. John Coptic Orthodox, Food Oasis Los Angeles'
 uri: /food-pantry/st-john-coptic-orthodox/
 formatted_day1_open: 5pm
 formatted_day1_close: 7pm
+formatted_day2_open: 5pm
+formatted_day2_close: 7pm
 
 ---

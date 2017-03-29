@@ -39,5 +39,14 @@ uri: /food-pantry/salvation-army-santa-fe-springs/
 formatted_daycode1: Tuesday
 formatted_day1_open: 1pm
 formatted_day1_close: 4pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 1pm
+formatted_day2_close: 4pm
+formatted_daycode3: Thursday
+formatted_day3_open: 1pm
+formatted_day3_close: 4pm
+formatted_daycode4: Friday
+formatted_day4_open: 1pm
+formatted_day4_close: 4pm
 
 ---

@@ -12,13 +12,13 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '800'
+day1_open: 0800
 day1_close: '1600'
 daycode2: Tue
-day2_open: '800'
+day2_open: 0800
 day2_close: '1600'
 daycode3: Fri
-day3_open: '800'
+day3_open: 0800
 day3_close: '1600'
 daycode4: ''
 day4_open: ''
@@ -39,5 +39,11 @@ uri: /food-pantry/food-net-centro-maravilla/
 formatted_daycode1: Monday
 formatted_day1_open: 8am
 formatted_day1_close: 4pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 8am
+formatted_day2_close: 4pm
+formatted_daycode3: Friday
+formatted_day3_open: 8am
+formatted_day3_close: 4pm
 
 ---

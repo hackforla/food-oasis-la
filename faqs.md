@@ -8,33 +8,33 @@ color: grape
 
 # Frequently Asked Questions
 
-[What is a food desert?](#question1) <br>
-[What are low income areas?](#question2) <br>
-[What are low access areas?](#question3) <br>
-[What is food insecurity?](#question4) <br>
-[I live in a food desert. What can I do?](#question5) <br>
-[I don’t live in a food desert, but am interested in helping. What can I do to help?](#question6) <br>
-[What is a food oasis?](#question7) <br>
-[What are some ideas for transforming a food desert into a food oasis?](#question8) <br>
-[How can policy makers help address/eliminate food deserts?](#question9) <br>
-[What will happen if food deserts are not eliminated?](#question10) <br>
-[What is not in the map?](#question11) <br>
-[How can I support this project?](#question12)<br>
+* [What is a food desert?](#what-is-a-food-desert)
+* [What are low income areas?](#what-are-low-income-areas)
+* [What are low access areas?](#what-are-low-access-areas)
+* [What is food insecurity?](#what-is-food-insecurity)
+* [I live in a food desert. What can I do?](#i-live-in-a-food-desert-what-can-i-do)
+* [I don’t live in a food desert, but am interested in helping. What can I do to help?](#i-dont-live-in-a-food-desert-but-am-interested-in-helping-what-can-i-do-to-help)
+* [What is a food oasis?](#what-is-a-food-oasis)
+* [What are some ideas for transforming a food desert into a food oasis?](#what-are-some-ideas-for-transforming-a-food-desert-into-a-food-oasis)
+* [How can policy makers help address/eliminate food deserts?](#how-can-policy-makers-help-addresseliminate-food-deserts)
+* [What will happen if food deserts are not eliminated?](#what-will-happen-if-food-deserts-are-not-eliminated)
+* [What is not in the map?](#what-is-not-in-the-map)
+* [How can I support this project?](#how-can-i-support-this-project)
 
 
-<h2> <a name="question1"></a> What is a food desert? </h2>
+## What is a food desert?
 A low-income, low-access area with people living more than 1 mile (10 miles in rural areas) from the nearest supermarket.
 
-<h2> <a name="question2"></a> What are low income areas? </h2>
+## What are low income areas?
 Areas with either a poverty rate of 20 percent or more, or a median family income less than 80 percent of the State-wide median family income; or a tract in a metropolitan area with a median family income less than 80 percent of the surrounding metropolitan area median family income. [[source]](http://www.ers.usda.gov/data-products/food-access-research-atlas/documentation.aspx)	
 
-<h2> <a name="question3"></a> What are low access areas?  </h2>
+## What are low access areas?
 A low-income tract with at least 500 people or 33 percent of the population living more than 1 mile (urban areas) or more than 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store. [[source]](http://www.ers.usda.gov/data-products/food-access-research-atlas/documentation.aspx)
 
-<h2> <a name="question4"></a> What is food insecurity? </h2>
+## What is food insecurity?
 Access to nutritionally adequate food is limited or uncertain. [[source]](http://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/measurement.aspx)
 
-<h2> <a name="question5"></a> I live in a Food Desert. What can I do?  </h2>
+## I live in a Food Desert. What can I do?
 - Reach out to your elected representatives and ask, “What is your vision and plan for ensuring food equity for all residents?”
 - Take advantage of healthy food sources such as farmers markets, food pantries and community gardens (that share yield).
 - Grow your own fresh fruits and vegetables. 
@@ -44,7 +44,7 @@ Access to nutritionally adequate food is limited or uncertain. [[source]](http:/
 - Purchase frozen produce if fresh is not available
 - Search the internet for healthy recipe ideas 
 
-<h2> <a name="question6"></a> I don’t live in a food desert, but am interested in helping. What can I do to help? </h2>
+## I don’t live in a food desert, but am interested in helping. What can I do to help?
 - Help someone in a food desert grow food
 - Volunteer at a community garden that shares its yield with the community
 - Volunteer at a food pantry 
@@ -52,25 +52,29 @@ Access to nutritionally adequate food is limited or uncertain. [[source]](http:/
 - Help map edibles on public lands 
 - Contact your elected representatives and advocate for food access equity 
 
-<h2> <a name="question7"></a> What is a food oasis? </h2>
+## What is a food oasis?
 A Food Oasis is an area where healthy food options are plentiful and readily available for all.
 
-<h2> <a name="question8"></a> What are some ideas for transforming a food desert into a food oasis? </h2>
+## What are some ideas for transforming a food desert into a food oasis?
 - Engage community, government officials, public policy groups, academic stakeholders, and other civic investors to develop a strategy and implementation plan for transformation
 - Develop an education campaign encouraging residents to prepare healthy meals at home
 - Start an education campaign encouraging residents to grow their own fruits and vegetables 
 - Encourage government leaders to sponsor challenges reinforcing healthy lifestyle choices 
 - Partner with neighborhood schools to establish new, or support existing, healthy eating campaigns 
 
-<h2> <a name="question9"></a> How can policy makers help address/eliminate food deserts? </h2>
-One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelinos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
+## How can policy makers help address/eliminate food deserts?
+One of the stated goals of the City of Los Angeles’ Sustainability Plan is to “Ensure all low-income Angelenos live within a half mile of fresh food by 2035.” [[source]](https://performance.lacity.org/en/stat/goals/yn4r-yz4i/6bka-tmpz/96td-rgkv)
 How do we make this happen?
 
-<h2> <a name="question10"></a> What will happen if food deserts are not eliminated? </h2>
+## What will happen if food deserts are not eliminated?
 Coming soon.
 
-<h2> <a name="question11"></a> What is not in the map? </h2>
+## What is not in the map?
 See our [Resources page](/resources/) for additional information.
 
-<h2> <a name="question12"></a> How can I support this project?</h2>
-<p >We are a volunteer-based project. We would love your donation! Please make sure to choose "Los Angeles Brigade" and make it in honor of "Food Oasis LA" with the email address info@foodoasis.la. <br/><br/><a class="donate-button" href="https://www.codeforamerica.org/donate" target="_blank">Donate </a></p>
+## How can I support this project?
+We’re a volunteer-based project and would love your donation!
+
+On the donation page, please choose <em>Los Angeles Brigade</em> and make it in honor of <em>Food Oasis LA</em> with the email address <em>info@foodoasis.la</em>
+
+<p class="action"><a href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p>

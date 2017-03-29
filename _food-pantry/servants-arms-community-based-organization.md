@@ -39,5 +39,8 @@ uri: /food-pantry/servants-arms-community-based-organization/
 formatted_daycode1: Tuesday
 formatted_day1_open: 3pm
 formatted_day1_close: 6pm
+formatted_daycode2: Thursday
+formatted_day2_open: 3pm
+formatted_day2_close: 6pm
 
 ---

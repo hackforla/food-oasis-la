@@ -38,5 +38,11 @@ title: 'Imani Unidos A.I.D.S. Project, Food Oasis Los Angeles'
 uri: /food-pantry/imani-unidos-a-i-d-s-project/
 formatted_day1_open: 10am
 formatted_day1_close: 1pm
+formatted_day2_open: 10am
+formatted_day2_close: 1pm
+formatted_day3_open: 10am
+formatted_day3_close: 1pm
+formatted_day4_open: 10am
+formatted_day4_close: 1pm
 
 ---

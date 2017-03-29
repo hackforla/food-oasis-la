@@ -39,5 +39,14 @@ uri: /food-pantry/lutheran-social-services-of-southern-california/
 formatted_daycode1: Tuesday
 formatted_day1_open: 10am
 formatted_day1_close: '2:45pm'
+formatted_daycode2: Wednesday
+formatted_day2_open: 10am
+formatted_day2_close: '2:45pm'
+formatted_daycode3: Thursday
+formatted_day3_open: 10am
+formatted_day3_close: '2:45pm'
+formatted_daycode4: Friday
+formatted_day4_open: 10am
+formatted_day4_close: '2:45pm'
 
 ---

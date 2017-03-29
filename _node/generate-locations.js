@@ -24,9 +24,10 @@ function stringToURI(str) {
     .replace(/\-\-\-\-/g, '-')
     .replace(/\-\-\-/g, '-')
     .replace(/\-\-/g, '-')
+    .replace(' ', '');
 }
 
-function formatTime(timeString) { // Example: 1430 ==> 2:30pm
+function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
   var hours   = Number(timeString.substring(0, timeString.length - 2));
   var minutes = timeString.substring(timeString.length - 2);
   var ampm = 'am';
@@ -44,36 +45,51 @@ function createMarkdownFile(writePath, data, category_uri) {
   // Page title
   data.title = data.name + ', Food Oasis Los Angeles';
 
-  var filename = stringToURI(data.name.replace(' ' + data.category, ''));
+  var filename = data.name.replace(' ' + data.category, '');
+
+  if (category_uri === 'supermarket') {
+    filename += '-' + data.address_1;
+  }
+
+  filename = stringToURI(filename);
 
   data.uri = '/' + category_uri + '/' + filename + '/';
 
-  if (data.daycode1 && data.day1_open && data.day1_close) {
-    switch (data.daycode1.trim()) {
-      case 'Mon':
-        data.formatted_daycode1 = 'Monday';
-        break;
-      case 'Tue':
-        data.formatted_daycode1 = 'Tuesday';
-        break;
-      case 'Wed':
-        data.formatted_daycode1 = 'Wednesday';
-        break;
-      case 'Thu':
-        data.formatted_daycode1 = 'Thursday';
-        break;
-      case 'Fri':
-        data.formatted_daycode1 = 'Friday';
-        break;
-      case 'Sat':
-        data.formatted_daycode1 = 'Saturday';
-        break;
-      case 'Sun':
-        data.formatted_daycode1 = 'Sunday';
-        break;
+// loop thru days 1 - 7
+  for (var i = 1; i <= 7; i++) {
+    // replace hardcoded day1 & daycode 1 with __i
+    var daycodeKey = 'daycode' + i;
+    var formattedKey = 'formatted_daycode' + i;
+    var openKey = 'day' + i + '_open';
+    var closeKey = 'day' + i + '_close';
+
+    if (data[ daycodeKey ] && data[ openKey ] && data[ closeKey ] ) {
+      switch (data[ daycodeKey ].trim()) {
+        case 'Mon':
+          data[formattedKey] = 'Monday';
+          break;
+        case 'Tue':
+          data[formattedKey] = 'Tuesday';
+          break;
+        case 'Wed':
+          data[formattedKey] = 'Wednesday';
+          break;
+        case 'Thu':
+          data[formattedKey] = 'Thursday';
+          break;
+        case 'Fri':
+          data[formattedKey] = 'Friday';
+          break;
+        case 'Sat':
+          data[formattedKey] = 'Saturday';
+          break;
+        case 'Sun':
+          data[formattedKey] = 'Sunday';
+          break;
+      }
+      data['formatted_day' + i + '_open']  = formatTime(data[ openKey ]);
+      data['formatted_day' + i + '_close'] = formatTime(data[ closeKey ]);
     }
-    data.formatted_day1_open  = formatTime(data.day1_open);
-    data.formatted_day1_close = formatTime(data.day1_close);
   }
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
@@ -113,6 +129,7 @@ function generateCollection(data_name, data_category) {
 var communityGardens = generateCollection('community-garden', 'Community Garden');
 var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
 var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
+var supermarkets     = generateCollection('supermarket', 'Supermarket');
 
 var ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {
@@ -184,11 +201,12 @@ generatePages('Healthy Food', 'locations', communityGardens.length + foodPantrie
 generatePages('Community Gardens', 'community-garden', communityGardens.length, 'lime');
 generatePages('Food Pantries', 'food-pantry', foodPantries.length, 'canteloupe');
 generatePages('Farmers’ Markets', 'farmers-market', farmersMarkets.length, 'strawberry');
+generatePages('Supermarkets', 'supermarket', supermarkets.length, 'strawberry');
 
 function generateLocationJSON() {
   var writePath = '../_data';
 
-  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets));
+  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets)));
   locations = locations.sort(function(a, b) {
     if (a.name < b.name) {
       return -1;
@@ -215,10 +233,11 @@ function generateLocationJSON() {
   });
 }
 
-generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets)), 'generated-locations-for-jekyll.json');
+generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets))), 'generated-locations-for-jekyll.json');
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118
+/*
 var url = "https://fola-staging.herokuapp.com/locations";
 
 request({
@@ -235,3 +254,4 @@ request({
     generateLocationJSON(communityGardensFromStagingAPI, 'generated-locations-from-staging-api-for-jekyll.json');
   }
 });
+*/

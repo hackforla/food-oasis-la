@@ -39,5 +39,8 @@ uri: /food-pantry/shepherds-pantry/
 formatted_daycode1: Wednesday
 formatted_day1_open: 5pm
 formatted_day1_close: 7pm
+formatted_daycode2: Thursday
+formatted_day2_open: 5pm
+formatted_day2_close: 7pm
 
 ---

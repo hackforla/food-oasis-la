@@ -1,3 +1,116 @@
+
+(function() {
+	var DAYS_OF_WEEK = [
+		'Sun',
+		'Mon',
+		'Tue',
+		'Wed',
+		'Thu',
+		'Fri',
+		'Sat'
+	];
+	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
+		var hours   = Number(timeString.substring(0, timeString.length - 2));
+		var minutes = Number(timeString.substring(timeString.length - 2));
+		return (hours * 60 * 60) + (minutes * 60);
+	}
+	function isOpenNow(data) {
+		if (data.day && data.open && data.close) {
+
+			var now = new Date();
+			var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
+
+			var time = now.toTimeString();
+			var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+
+			if (pacificTime &&
+				DAYS_OF_WEEK[now.getDay()] === data.day &&
+				nowSeconds > getSeconds(data.open) &&
+				nowSeconds < getSeconds(data.close) ) {
+				return true;
+			}
+
+			// TBD: Should we show a special notice if it’s opening soon or closing soon?
+		}
+		return false;
+	}
+
+
+	// TODO…
+	/*
+	Loop through the list of hours
+	For each day, check to see if it matches the current date
+	If there’s a match
+		If the store is open
+			Show an open indicator inline and at the top of the page
+		Else
+			Show a closed indicator inline and at the top of the page
+	*/
+
+	var headerOpenNowShowing = false;
+	function showOpenNowInHeader() {
+		if (headerOpenNowShowing) return;
+		var openTemplate = document.querySelector('.open-template');
+		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
+		headerOpenNowShowing = true;
+	}
+
+	(function() {
+		var dtElements = document.querySelectorAll('dt[data-day]');
+		var ddElements = document.querySelectorAll('dd[data-day]');
+
+		for (var index = 0; index < dtElements.length; index++) {
+			(function() {
+				var dt = dtElements[index];
+				var dd = ddElements[index];
+				var data = {
+					day: dd.getAttribute('data-day'),
+					open: dd.getAttribute('data-open'),
+					close: dd.getAttribute('data-close')
+				};
+				console.dir(data);
+				if (isOpenNow(data)) {
+					dt.classList.add('open');
+					dd.classList.add('open');
+					var notice = document.createElement('i');
+					notice.textContent = 'Open Now';
+					dd.appendChild(document.createTextNode(' '));
+					dd.appendChild(notice);
+					showOpenNowInHeader();
+				}
+			})();
+		}
+	})();
+
+
+
+	/*
+	// Show “Open Now” indicator in the list of hours
+
+	var dt = document.querySelector('dt[data-day]');
+	var dd = document.querySelector('dd[data-day]');
+	if (dd) {
+		if (isOpenNow()) {
+			dt.classList.add('open');
+			dd.classList.add('open');
+			var notice = document.createElement('i');
+			notice.textContent = 'Open Now';
+			dd.appendChild(document.createTextNode(' '));
+			dd.appendChild(notice);
+		}
+	}
+
+
+	// Show “Open Now” indicator at the top of the page
+	if (isOpenNow()) {
+		var openTemplate = document.querySelector('.open-template');
+		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
+	}
+	*/
+
+})();
+
+
 (function() {
 	if (mapboxgl.supported()) {
 
@@ -181,55 +294,15 @@
 		return parseFloat(miles.toFixed(1));
 	}
 
-	var DAYS_OF_WEEK = [
-		'Sun',
-		'Mon',
-		'Tue',
-		'Wed',
-		'Thu',
-		'Fri',
-		'Sat'
-	];
-	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
-		var hours   = Number(timeString.substring(0, timeString.length - 2));
-		var minutes = Number(timeString.substring(timeString.length - 2));
-		return (hours * 60 * 60) + (minutes * 60);
-	}
-	function isOpenNow(data) {
-		if (data.day && data.open && data.close) {
-
-			var now = new Date();
-			var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
-
-			var time = now.toTimeString();
-			var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
-
-			if (pacificTime &&
-				DAYS_OF_WEEK[now.getDay()] === data.day &&
-				nowSeconds > getSeconds(data.open) &&
-				nowSeconds < getSeconds(data.close) ) {
-				return true;
-			}
-
-			// TBD: Should we show a special notice if it’s opening soon or closing soon?
-		}
-		return false;
-	}
-
-	// Open Now
-	if (isOpenNow(FOOD_SOURCE)) {
-		var openTemplate = document.querySelector('.open-template');
-		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
-	}
-
 	var PAGE_PARAMETERS = {
 		type   : getParameterByName('type'),
 		address: getParameterByName('address'),
-		deserts: getParameterByName('deserts')
+		deserts: getParameterByName('deserts'),
+		open: getParameterByName('open')
 	};
 
 	// Distance
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) { // If the user came from the search page
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) { // If the user came from the search page
 	var distance;
 	findUserLocation(function(userLocation) {
 		if (FOOD_SOURCE.latitude != null && FOOD_SOURCE.latitude != '' && userLocation && userLocation.latitude && userLocation.longitude) {
@@ -251,12 +324,13 @@
 		if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
+		if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
 
 		var queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) {
 		var link = document.getElementById('back-link');
 		if (link) {
 			updateLink(link);
@@ -265,60 +339,3 @@
 	}
 
 })();
-
-
-// Show “Open Now” indicator in the list of hours
-(function() {
-	var DAYS_OF_WEEK = [
-		'Sun',
-		'Mon',
-		'Tue',
-		'Wed',
-		'Thu',
-		'Fri',
-		'Sat'
-	];
-	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
-		var hours   = Number(timeString.substring(0, timeString.length - 2));
-		var minutes = Number(timeString.substring(timeString.length - 2));
-		return (hours * 60 * 60) + (minutes * 60);
-	}
-	function isOpenNow(data) {
-		if (data.day && data.open && data.close) {
-
-			var now = new Date();
-			var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
-
-			var time = now.toTimeString();
-			var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
-
-			if (pacificTime &&
-				DAYS_OF_WEEK[now.getDay()] === data.day &&
-				nowSeconds > getSeconds(data.open) &&
-				nowSeconds < getSeconds(data.close) ) {
-				return true;
-			}
-
-			// TBD: Should we show a special notice if it’s opening soon or closing soon?
-		}
-		return false;
-	}
-	var dt = document.querySelector('dt[data-day]');
-	var dd = document.querySelector('dd[data-day]');
-	if (dd) {
-		var data = {
-			day: dd.getAttribute('data-day'),
-			open: dd.getAttribute('data-open'),
-			close: dd.getAttribute('data-close')
-		};
-		if (isOpenNow(data)) {
-			dt.classList.add('open');
-			dd.classList.add('open');
-			var notice = document.createElement('i');
-			notice.textContent = 'Open Now';
-			dd.appendChild(document.createTextNode(' '));
-			dd.appendChild(notice);
-		}
-	}
-})();
-

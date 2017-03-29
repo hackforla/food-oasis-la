@@ -38,5 +38,7 @@ title: 'Gardena S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/gardena-s-d-a-church/
 formatted_day1_open: 3pm
 formatted_day1_close: 6pm
+formatted_day2_open: 3pm
+formatted_day2_close: 6pm
 
 ---

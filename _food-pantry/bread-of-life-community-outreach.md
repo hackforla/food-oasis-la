@@ -12,10 +12,10 @@ category: Food Pantry
 website: http//www.longbeachbreadoflife.com
 '': ''
 daycode1: Wed2nd
-day1_open: '830'
+day1_open: 0830
 day1_close: '1200'
 daycode2: Wed4th
-day2_open: '830'
+day2_open: 0830
 day2_close: '1200'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,7 @@ title: 'Bread of Life Community Outreach, Food Oasis Los Angeles'
 uri: /food-pantry/bread-of-life-community-outreach/
 formatted_day1_open: '8:30am'
 formatted_day1_close: 12pm
+formatted_day2_open: '8:30am'
+formatted_day2_close: 12pm
 
 ---

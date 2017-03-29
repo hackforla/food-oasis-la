@@ -38,5 +38,7 @@ title: 'Palmdale S.D.A. Church, Food Oasis Los Angeles'
 uri: /food-pantry/palmdale-s-d-a-church/
 formatted_day1_open: 10am
 formatted_day1_close: 12pm
+formatted_day2_open: 10am
+formatted_day2_close: 12pm
 
 ---

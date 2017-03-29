@@ -3,72 +3,32 @@ layout: default
 classname: home
 ---
 
-<form action="/locations/" method="get">
-	<h2 class="home-headline">
-			<img  src="/assets/images/home/logo-fola.svg" alt="" /><br/>
-			Welcome to your Food Oasis,<br/>
-			Los Angeles.
-	</h2>
-		<h1>
-			<a href="/search/">
-				<span class="pseudo-field">{{ page.headline }}</span>
-			</a>
-		</h1>
+<section class="introduction">
+	<h1>
+		<img src="/assets/images/fola.svg" width="100" alt="FOLA" /><br />
+		Welcome to your Food Oasis,<br />
+		Los Angeles.
+	</h1>
+	<p class="search"><a href="/search/">{{ page.headline }}</a></p>
+	<p class="about">
+		Food Oasis LA (FOLA) shows you the best places to find healthy
+		food in Los Angeles, whether you are looking to buy, grow, or
+		need access to free&nbsp;food. <a href="/about/">Learn more</a>
+	</p>
 
-	<div class="home-text">
-		<p>Food Oasis LA (FOLA) shows you the best places to find healthy food in Los Angeles, whether you are looking to buy, grow, or need access to free&nbsp;food. <a href="/about/">Learn more</a></p>
-	</div>
-
-	<p class="photo-credit" id="santa-monica" style="display: none;">Produce by <a href="https://www.smgov.net/portals/farmersmarket/">Santa Monica Farmers’ Market</a></p>
-	<p class="photo-credit" id="daily-organics" style="display: none;">Produce by <a href="https://dailyorganicsla.com">Daily Organics</a></p>
-</form>
-
-
-<!-- <div class="categories">
-	<section>
-		<h2>{{ page.categories.free.headline }}</h2>
-		<ul class="food-pantry link-list has-icons">
-			<li>
-				<a href="/food-pantry">
-					<img class="icon" src="/assets/images/home/food-pantry.svg" alt="" />
-					<span>{{ page.categories.free.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ page.categories.grow.headline }}</h2>
-		<ul class="community-garden link-list has-icons">
-			<li>
-				<a href="/community-garden">
-					<img class="icon" src="/assets/images/home/community-garden.svg" alt="" />
-					<span>{{ page.categories.grow.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-	<section>
-		<h2>{{ page.categories.purchase.headline }}</h2>
-		<ul class="farmers-market link-list has-icons">
-			<li>
-				<a href="/farmers-market">
-					<img class="icon" src="/assets/images/home/farmers-market.svg" alt="" />
-					<span>{{ page.categories.purchase.link_label }}</span>
-				</a>
-			</li>
-		</ul>
-	</section>
-</div>-->
-<!-- /.categories --> 
+	<script type="text/template" id="photo-credit-template">
+		<p class="photo-credit">Produce by <a href=""></a></p>
+	</script>
+</section>
 
 <script>
 (function() {
+
+	/* OPTIONAL: Show a random image behind the introduction
+	----------------------------------------------- */
 	var images = [
-		'/assets/images/photos/daily-organics-apples.jpg',
-		//'/assets/images/photos/daily-organics-apples-2.jpg',
-		//'/assets/images/photos/daily-organics-carrots.jpg',
-		//'/assets/images/photos/daily-organics-pears.jpg',
-		'/assets/images/photos/daily-organics-squash.jpg',
+		'/assets/images/photos/daily-organics/1.jpg',
+		'/assets/images/photos/daily-organics/2.jpg',
 		'/assets/images/photos/santa-monica/1.jpg',
 		'/assets/images/photos/santa-monica/2.jpg',
 		'/assets/images/photos/santa-monica/3.jpg',
@@ -84,81 +44,51 @@ classname: home
 		'/assets/images/photos/santa-monica/13.jpg',
 		'/assets/images/photos/santa-monica/14.jpg',
 		'/assets/images/photos/santa-monica/15.jpg',
-		//'/assets/images/photos/santa-monica/16.jpg',
-		'/assets/images/photos/santa-monica/17.jpg',
-		'/assets/images/photos/santa-monica/18.jpg'
+		'/assets/images/photos/santa-monica/16.jpg',
+		'/assets/images/photos/santa-monica/17.jpg'
 	];
 	var min = 0;
 	var max = images.length - 1;
 	var random = Math.floor(Math.random() * (max - min + 1) + min);
-	var form = document.querySelector('form');
-	form.style.backgroundImage = 'url(' + images[random] + ')';
-	if (images[random].indexOf('santa-monica') >= 0) {
-		document.querySelector('.photo-credit#santa-monica').style.display = 'block';
-	} else {
-		document.querySelector('.photo-credit#daily-organics').style.display = 'block';
+	var introduction = document.querySelector('.introduction');
+	introduction.style.backgroundImage = 'url(' + images[random] + ')';
+
+	var template = document.getElementById('photo-credit-template');
+	introduction.insertAdjacentHTML('beforeend', template.innerHTML);
+	var creditLink = document.querySelector('.photo-credit a');
+
+	var data = {
+		'santa-monica': {
+			url: 'https://www.smgov.net/portals/farmersmarket/',
+			name: 'Santa Monica Farmers’ Market'
+		},
+		'daily-organics': {
+			url: 'https://dailyorganicsla.com',
+			name: 'Daily Organics'
+		}
 	}
+
+	var id = (images[random].indexOf('santa-monica') >= 0) ? 'santa-monica' : 'daily-organics';
+
+	creditLink.textContent = data[id].name;
+	creditLink.href        = data[id].url;
+
 })();
 </script>
 
 <script>
 (function() {
 
-	/* Do we have the features we need? */
-	if (!document.querySelector || !window.addEventListener) return;
-
-
-	/* =Utilities
+	/* OPTIONAL: Add a class name of “scrolled-up” to the body if the introduction (including the logo) is visible.
 	----------------------------------------------- */
 
-	// KUDOS: http://stackoverflow.com/questions/442404/retrieve-the-position-x-y-of-an-html-element#answer-442474
-	function getOffset( el ) {
-		var _x = 0;
-		var _y = 0;
-		while( el && !isNaN( el.offsetLeft ) && !isNaN( el.offsetTop ) ) {
-				_x += el.offsetLeft;
-				_y += el.offsetTop;
-				el = el.offsetParent;
-		}
-		return { top: _y, left: _x };
-	}
-
-	function hasClassName(element, className) {
-		if (!element || !className) return;
-		return element.className.indexOf(className) >= 0;
-	}
-
-	function addClassName(element, className) {
-		if (!element || !className) return;
-		if (hasClassName(element, className)) return;
-		element.className += ' ' + className;
-	}
-
-	function removeClassName(element, className) {
-		if (!element || !className) return;
-		var regex = eval('/[\s]*' + className + '/g');
-		element.className = element.className.replace(regex, '');
-	}
-
-	// KUDOS: https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY
-	function getScrollY() {
-		var supportPageOffset = window.pageXOffset !== undefined;
-		var isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
-		return supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-	}
-
+	if (!('addEventListener' in window) || !('scrollY' in window) || !('classList' in document.body)) return; // Do we have the features we need?
 
 	function update(e) {
-		var scrollY = getScrollY();
-
-		/* OPTIONAL: Add a class name of “scrolled-up” to the body if the 
-								 introduction (including the CTZN logo) is visible. */
-		if (scrollY < 300) {
-			addClassName(document.body, 'scrolled-up');
-			if (window._aboutImages) window._aboutImages.play();
+		if (window.scrollY < 300) {
+			document.body.classList.add('scrolled-up');
 		} else {
-			removeClassName(document.body, 'scrolled-up');
-			if (window._aboutImages) window._aboutImages.pause();
+			document.body.classList.remove('scrolled-up');
 		}
 	}
 
@@ -173,20 +103,15 @@ classname: home
 	})();
 
 
-	/* OPTIONAL: Handle slow loading content and and resizing windows.
+	/* OPTIONAL: Handle slow loading content and resizing windows.
 	----------------------------------------------- */
-	window.addEventListener('load', function() {
-		updatePositions();
-		update();
-	}, false);
+	window.addEventListener('load', update, false);
 
 	(function() {
 		var throttle;
 		window.addEventListener('resize', function() {
 			if (throttle) clearTimeout(throttle);
-			throttle = setTimeout(function() {
-				update();
-			}, 100);
+			throttle = setTimeout(update, 100);
 		}, false);
 	})();
 

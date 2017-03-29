@@ -1,0 +1,251 @@
+
+
+	/* =Map
+	----------------------------------------------- */
+	.map-container {
+		height: 500px;
+		height: 50vh;
+		height: calc(100vh - 14.625em);
+		width: 100%;
+		overflow: hidden;
+	}
+
+	/* OPTIONAL: Increase the font size on big screens. */
+	@media screen and (min-width: 600px) and (min-height: 600px) {
+		.map-container {
+			height: calc(100vh - 16em);
+		}
+	}
+	@media screen and (min-width: 800px) and (min-height: 800px) {
+		.map-container {
+			height: calc(100vh - 16.75em);
+		}
+	}
+	@media screen and (min-width: 1000px) and (min-height: 1000px) {
+		.map-container {
+			height: calc(100vh - 17.75em);
+		}
+	}
+	@media screen and (min-width: 1200px) and (min-height: 1200px) {
+		.map-container {
+			height: calc(100vh - 18.75em);
+		}
+	}
+
+	.has-map-location-summary .map-container {
+		height: calc(100vh - 30em);
+		min-height: 45vh;
+	}
+
+	.location-details .map-container {
+		height: 20vh;
+	}
+	.location-details .map-container.expanded {
+		height: 50vh;
+	}
+
+	.only-map main,
+	.only-map .pagination {
+		display: none !important;
+	}
+
+	.only-list #map,
+	.only-list .location-summary-container {
+		display: none !important;
+	}
+
+
+	/* =You are here
+	----------------------------------------------- */
+	@keyframes you-are-here-sonar {
+		0% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		50% {
+			transform: scale(1);
+			opacity: 1;
+		}
+		100% {
+			transform: scale(3);
+			opacity: 0;
+		}
+	}
+
+	@keyframes you-are-here-shrink {
+		0% {
+			transform: scale(1);
+		}
+		50% {
+			transform: scale(0.875);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+
+
+	.you-are-here::before {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		background-color: rgb(0, 128, 255);
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+
+		animation: you-are-here-sonar 3s infinite ease-out;
+	}
+	.you-are-here::after {
+		content: "";
+		display: block;
+		border-radius: 50%;
+		position: absolute;
+		top: -20%;
+		left: -20%;
+		z-index: -1;
+		width: 140%;
+		height: 140%;
+		background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 40%, transparent 60%, transparent 100%);
+		background-size: contain;
+	}
+
+	.you-are-here {
+		position: relative;
+		font-size: 1rem;
+		margin-top: -1.25em;
+		margin-right: -1.25em;
+		background: white;
+		padding: 0.2em;
+		border-radius: 50%;
+		display: inline-block;
+		width: auto !important;
+		height: auto !important;
+	}
+	.you-are-here span {
+		display: block;
+		width: 1.05em;
+		height: 1.05em;
+		background-color: rgb(0, 128, 255);
+		border-radius: 50%;
+		animation: you-are-here-shrink 3s 1.5s infinite both;
+
+		/* @hidden-accessible-text */
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+
+
+	/* =Marker
+	----------------------------------------------- */
+	.marker-label {
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		white-space: nowrap;
+		text-align: center;
+		padding: 0.375em 0.75em;
+		background: white;
+		background: rgba(255, 255, 255, 0.5);
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		transform: translateX(-50%);
+		transition: opacity 0.2s;
+	}
+	.hidden-marker-labels .marker:not(.active) .marker-label {
+		opacity: 0;
+		display: none;
+	}
+
+	.has-map-location-summary .location-summary-container {
+		background: rgb(253, 254, 255);
+		padding: 0.75em 1.5em;
+	}
+	.location-summary-container > div {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+		animation: fade-in 0.6s;
+	}
+
+	.farmers-market-marker {
+		cursor: pointer;
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-red-small.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
+	}
+
+	.community-garden-marker {
+		cursor: pointer;
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-green-small.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
+	}
+
+	.food-pantry-marker {
+		cursor: pointer;
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-yellow-small.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
+	}
+
+	.farmers-market-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-red-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+
+	.community-garden-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-green-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+
+	.food-pantry-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-yellow-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+	
+	.supermarket-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-red-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+

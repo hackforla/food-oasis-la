@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '700'
-day1_close: '830'
+day1_open: '0700'
+day1_close: 0830
 daycode2: Thu
-day2_open: '700'
-day2_close: '830'
+day2_open: '0700'
+day2_close: 0830
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -39,5 +39,8 @@ uri: /food-pantry/st-johns-cathedral-hope-net/
 formatted_daycode1: Tuesday
 formatted_day1_open: 7am
 formatted_day1_close: '8:30am'
+formatted_daycode2: Thursday
+formatted_day2_open: 7am
+formatted_day2_close: '8:30am'
 
 ---

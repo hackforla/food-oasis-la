@@ -15,7 +15,7 @@ daycode1: Mon4th
 day1_open: '1200'
 day1_close: '1600'
 daycode2: Wed
-day2_open: '900'
+day2_open: 0900
 day2_close: '1030'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,8 @@ title: 'Salvation Army- Lancaster Corp, Food Oasis Los Angeles'
 uri: /food-pantry/salvation-army-lancaster-corp/
 formatted_day1_open: 12pm
 formatted_day1_close: 4pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 9am
+formatted_day2_close: '10:30am'
 
 ---

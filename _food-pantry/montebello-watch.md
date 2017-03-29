@@ -39,5 +39,11 @@ uri: /food-pantry/montebello-watch/
 formatted_daycode1: Tuesday
 formatted_day1_open: 3pm
 formatted_day1_close: 6pm
+formatted_daycode2: Wednesday
+formatted_day2_open: 3pm
+formatted_day2_close: 6pm
+formatted_daycode3: Thursday
+formatted_day3_open: 3pm
+formatted_day3_close: 6pm
 
 ---

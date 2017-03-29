@@ -39,5 +39,11 @@ uri: /food-pantry/loaves-fishes-van-nuys/
 formatted_daycode1: Monday
 formatted_day1_open: 10am
 formatted_day1_close: '1:30am'
+formatted_daycode2: Wednesday
+formatted_day2_open: 10am
+formatted_day2_close: '1:30pm'
+formatted_daycode3: Friday
+formatted_day3_open: 10am
+formatted_day3_close: '1:30pm'
 
 ---

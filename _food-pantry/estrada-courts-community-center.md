@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Wed2nd
-day1_open: '800'
+day1_open: 0800
 day1_close: '1000'
 daycode2: Wed4th
-day2_open: '800'
+day2_open: 0800
 day2_close: '1000'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,7 @@ title: 'Estrada Courts Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/estrada-courts-community-center/
 formatted_day1_open: 8am
 formatted_day1_close: 10am
+formatted_day2_open: 8am
+formatted_day2_close: 10am
 
 ---

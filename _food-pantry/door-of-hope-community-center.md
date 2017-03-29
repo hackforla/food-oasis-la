@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tues
-day1_open: '900'
+day1_open: 0900
 day1_close: '1100'
 daycode2: Thu
-day2_open: '900'
+day2_open: 0900
 day2_close: '1100'
 daycode3: ''
 day3_open: ''
@@ -38,5 +38,8 @@ title: 'Door of Hope Community Center, Food Oasis Los Angeles'
 uri: /food-pantry/door-of-hope-community-center/
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_daycode2: Thursday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
 
 ---

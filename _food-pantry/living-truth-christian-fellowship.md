@@ -38,5 +38,7 @@ title: 'Living Truth Christian Fellowship, Food Oasis Los Angeles'
 uri: /food-pantry/living-truth-christian-fellowship/
 formatted_day1_open: '11:30am'
 formatted_day1_close: '1:30pm'
+formatted_day2_open: '11:30am'
+formatted_day2_close: '1:30pm'
 
 ---

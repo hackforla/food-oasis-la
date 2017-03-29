@@ -38,5 +38,7 @@ title: 'The Lord''s Church, Food Oasis Los Angeles'
 uri: /food-pantry/the-lords-church/
 formatted_day1_open: 8pm
 formatted_day1_close: 9pm
+formatted_day2_open: 8pm
+formatted_day2_close: 9pm
 
 ---

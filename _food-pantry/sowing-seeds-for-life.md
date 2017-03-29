@@ -38,5 +38,7 @@ title: 'Sowing Seeds for Life, Food Oasis Los Angeles'
 uri: /food-pantry/sowing-seeds-for-life/
 formatted_day1_open: 11am
 formatted_day1_close: 4pm
+formatted_day2_open: 11am
+formatted_day2_close: 4pm
 
 ---

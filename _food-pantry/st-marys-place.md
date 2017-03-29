@@ -12,13 +12,13 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Tue
-day2_open: '900'
+day2_open: 0900
 day2_close: '1200'
 daycode3: Wed
-day3_open: '900'
+day3_open: 0900
 day3_close: '1200'
 daycode4: Sat3rd
 day4_open: '1200'
@@ -39,5 +39,13 @@ uri: /food-pantry/st-marys-place/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 12pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 9am
+formatted_day3_close: 12pm
+formatted_day4_open: 12pm
+formatted_day4_close: 2pm
 
 ---

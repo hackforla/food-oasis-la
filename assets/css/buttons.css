@@ -1,0 +1,141 @@
+
+	/* =Button
+	----------------------------------------------- */
+	.action button,
+	.action a {
+		display: inline-block;
+		background: rgb(144, 194, 70); /* @lime */
+		color: white;
+		padding: 0.375em 1.5em;
+		border-radius: 0.25em;
+		font-family: "Reem Kufi", "Helvetica Neue", Helvetica, sans-serif;
+		border: 1px solid;
+		text-decoration: none;
+		cursor: pointer;
+		font-size: inherit;
+		text-transform: uppercase;
+		line-height: inherit;
+		text-align: center;
+		box-sizing: border-box;
+	}
+	.action button:hover,
+	.action button:active,
+	.action button:focus,
+	.action a:hover,
+	.action a:active,
+	.action a:focus {
+		background: rgb(124, 174, 50); /* @dark-lime */
+		text-decoration: none;
+		color: white;
+	}
+
+	.strawberry .action a {
+		background: rgb(241, 95, 91); /* @strawberry */
+	}
+
+	.strawberry .action a:hover,
+	.strawberry .action a:active,
+	.strawberry .action a:focus {
+		background: rgb(221, 75, 71); /* @dark-strawberry */
+	}
+
+	.canteloupe .action a {
+		background: rgb(249, 192, 88); /* @canteloupe */
+	}
+
+	.canteloupe .action a:hover,
+	.canteloupe .action a:active,
+	.canteloupe .action a:focus {
+		background: rgb(229, 172, 68); /* @dark-canteloupe */
+	}
+
+
+	/* =Secondary Button
+	----------------------------------------------- */
+	.action.secondary a,
+	.action.secondary button {
+		background: white !important;
+		color: black !important;
+	}
+
+	.action.secondary a:hover,
+	.action.secondary a:active,
+	.action.secondary a:focus,
+	.action.secondary button:hover,
+	.action.secondary button:active
+	.action.secondary button:focus {
+		color: rgb(124, 174, 50) !important; /* @dark-lime */
+	}
+
+
+	/* =Reset Button
+	----------------------------------------------- */
+	.action.reset {
+		text-align: center;
+	}
+	.action.reset button {
+		background-color: rgb(241, 95, 91);
+	}
+
+
+	/* =Options (List of links or buttons)
+	----------------------------------------------- */
+	.options {
+		display: flex;
+		list-style: none;
+		padding-left: 0;
+
+		justify-content: space-between;
+		align-items: center;
+	}
+	.options li + li {
+		margin-left: 1em;
+	}
+
+	.options.action li {
+		flex-basis: 100%;
+	}
+	.options.action a {
+		width: 100%;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+	}
+
+	.options.action a .icon {
+		height: 1.5em;
+		width: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0.25em;
+	}
+	@media (min-width: 21em) {
+		.options.action a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.options.action a .icon {
+			margin-right: 0.5em;
+			margin-bottom: 0;
+		}
+	}
+
+
+	/*
+	a.donate-button {
+		background-color: rgb(144, 194, 70);
+		padding: 15px 20px;
+		color: white;
+		border-radius: 4px;
+		width:50%;
+		margin: 0 auto;
+		text-decoration: none;
+	}
+	.home a.donate-button {
+		background: rgb(241, 95, 91); 
+	}
+	a.donate-button:hover{
+		background-color: rgb(124, 174, 50);
+	}	
+	*/

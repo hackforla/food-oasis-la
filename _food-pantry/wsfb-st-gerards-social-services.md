@@ -12,7 +12,7 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '900'
+day1_open: 0900
 day1_close: '1200'
 daycode2: Tue
 day2_open: '1300'
@@ -39,5 +39,11 @@ uri: /food-pantry/wsfb-st-gerards-social-services/
 formatted_daycode1: Tuesday
 formatted_day1_open: 9am
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 1pm
+formatted_day2_close: 3pm
+formatted_daycode3: Thursday
+formatted_day3_open: 1pm
+formatted_day3_close: 3pm
 
 ---

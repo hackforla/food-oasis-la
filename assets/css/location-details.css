@@ -1,0 +1,142 @@
+
+
+	/* =Location Details
+	----------------------------------------------- */
+	.location-details main > section {
+		margin-top: 1.5em;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding-top: 1.5em;
+	}
+	.location-details section h2 {
+		margin-top: 0;
+	}
+	.location-details .location-details-options h2,
+	.location-details .information              h2 {
+		/* @hidden-accessible */
+		position: absolute;
+		left: -9999px;
+	}
+	.location-details .location-details-option h2 + ul,
+	.location-details .information             h2 + dl {
+		margin-top: 0;
+	}
+
+	@keyframes location-details-fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.location-details .directions.inactive,
+	.location-details .shareable-link.inactive {
+		display: none;
+	}
+	.location-details .directions.active,
+	.location-details .shareable-link.active {
+		display: block;
+		animation: location-details-fade-in 0.6s;
+	}
+
+	.location-details .location-summary {
+		margin-top: -0.75em;
+	}
+
+	.location-details .copy-paste input[type="text"],
+	.location-details .copy-paste textarea {
+		margin: 0.725em 0 0 0;
+		font-size: inherit;
+		font-family: inherit;
+		padding: 0;
+		border: 2px solid rgb(242, 244, 242);
+		background: rgb(242, 244, 242);
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0.725em 1.45em;
+		line-height: 1.45;
+	}
+	.location-details .copy-paste textarea {
+		min-height: 5.8em;
+		text-align: center;
+	}
+
+
+	/* =Description List
+	-----------------------------------------------
+	(only used on the location details page, at present)
+	----------------------------------------------- */
+	dt {
+		/*
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		*/
+		padding-top: 0.375em;
+		padding-bottom: 0.375em;
+		/*
+		padding-left: 1.5em;
+		*/
+	}
+	dd {
+		padding-bottom: 0.375em;
+		margin-left: 0;
+		padding-left: 1.5em;
+
+		/* For long URLs on the detail page */
+		/* @wrap-long-words */
+		word-wrap     : break-word;
+		overflow-wrap : break-word;
+	}
+	@media (min-width: 20em) {
+		dl:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		dt {
+			clear: both;
+			float: left;
+			width: 8em;
+			text-align: left;
+			padding-bottom: 0.375em;
+			box-sizing: border-box;
+			white-space: nowrap;
+		}
+		dt + dd {
+			/*
+			border-top: 1px solid rgba(0, 0, 0, 0.1);
+			*/
+			padding-top: 0.375em;
+		}
+		dd {
+			padding-left: 1.45em;
+			margin-left: 8em;
+		}
+	}
+
+	dt.open {
+		font-weight: bold;
+	}
+	dd.open {
+		background: rgb(221, 247, 254);
+		font-weight: bold;
+	}
+	dd.open span {
+		margin-right: 1.5em;
+	}
+	dd.open i {
+		font-style: normal;
+		font-weight: normal;
+		text-transform: uppercase;
+		color: rgb(93, 205, 232);
+		font-size: 0.875em;
+		display: inline-block;
+	}
+	dd i {
+		font-style: normal;
+		text-transform: uppercase;
+		color: rgb(153, 153, 153);
+		font-size: 0.875em;
+		display: inline-block;
+	}
+

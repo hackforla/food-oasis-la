@@ -38,5 +38,7 @@ title: 'Rock Solid Christian Assembly, Food Oasis Los Angeles'
 uri: /food-pantry/rock-solid-christian-assembly/
 formatted_day1_open: '10:30am'
 formatted_day1_close: '11:30am'
+formatted_day2_open: '10:30am'
+formatted_day2_close: '11:30am'
 
 ---

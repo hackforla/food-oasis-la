@@ -1,0 +1,56 @@
+
+	/* =Organization List
+	----------------------------------------------- */
+	.organization-list,
+	.organization-list ul,
+	.organization-list li {
+		list-style: none;
+		padding-left: 0;
+		margin-left: 0;
+	}
+	.organization-list {
+		max-width: 40em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.organization-list a {
+		display: block;
+		color: inherit;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+		text-decoration: none;
+	}
+	.organization-list li + li a {
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.organization-list h2 {
+		margin-top: 0;
+		text-decoration: underline;
+		margin-bottom: 0.25em;
+		color: rgb(144, 194, 70); /* @lime */
+		color: rgb(241, 95, 91); /* @strawberry */
+		color: rgb(77, 85, 148); /* @grape */
+	}
+	.organization-list .type,
+	.organization-list .tags {
+		opacity: 0.5;
+	}
+	.organization-list .type {
+		font-style: italic;
+	}
+	.organization-list .tags {
+		margin-bottom: 0;
+	}
+	.organization-list .tags li {
+		display: inline;
+	}
+	.organization-list .tags li + li {
+		text-transform: lowercase;
+	}
+	.organization-list .tags li::after {
+		content: ", ";
+	}
+	.organization-list .type li:last-child::after,
+	.organization-list .tags li:last-child::after {
+		content: "";
+	}

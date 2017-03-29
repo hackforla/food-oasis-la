@@ -15,7 +15,7 @@ daycode1: Thu
 day1_open: '1100'
 day1_close: '1400'
 daycode2: Fri
-day2_open: '100'
+day2_open: '1300'
 day2_close: '1330'
 daycode3: Fri
 day3_open: '1430'
@@ -39,5 +39,11 @@ uri: /food-pantry/food-net-los-nietos-service-center/
 formatted_daycode1: Thursday
 formatted_day1_open: 11am
 formatted_day1_close: 2pm
+formatted_daycode2: Friday
+formatted_day2_open: 1pm
+formatted_day2_close: '1:30pm'
+formatted_daycode3: Friday
+formatted_day3_open: '2:30pm'
+formatted_day3_close: 4pm
 
 ---

@@ -15,7 +15,7 @@ daycode1: Wed
 day1_open: '1400'
 day1_close: '1800'
 daycode2: Thu
-day2_open: '930'
+day2_open: 0930
 day2_close: '1530'
 daycode3: ''
 day3_open: ''
@@ -39,5 +39,8 @@ uri: /food-pantry/hawaiian-gardens-food-bank/
 formatted_daycode1: Wednesday
 formatted_day1_open: 2pm
 formatted_day1_close: 6pm
+formatted_daycode2: Thursday
+formatted_day2_open: '9:30am'
+formatted_day2_close: '3:30pm'
 
 ---

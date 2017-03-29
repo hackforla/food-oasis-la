@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Sat1st
-day1_open: '700'
-day1_close: '800'
+day1_open: '0700'
+day1_close: 0800
 daycode2: Sat3rd
-day2_open: '700'
-day2_close: '800'
+day2_open: '0700'
+day2_close: 0800
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -38,5 +38,7 @@ title: 'The Great Vision Church, Food Oasis Los Angeles'
 uri: /food-pantry/the-great-vision-church/
 formatted_day1_open: 7am
 formatted_day1_close: 8am
+formatted_day2_open: 7am
+formatted_day2_close: 8am
 
 ---

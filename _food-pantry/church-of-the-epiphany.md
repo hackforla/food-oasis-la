@@ -38,5 +38,7 @@ title: 'Church of the Epiphany, Food Oasis Los Angeles'
 uri: /food-pantry/church-of-the-epiphany/
 formatted_day1_open: '10:30am'
 formatted_day1_close: '11:30am'
+formatted_day2_open: '10:30am'
+formatted_day2_close: '11:30am'
 
 ---

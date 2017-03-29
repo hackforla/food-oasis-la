@@ -38,5 +38,7 @@ title: 'Evergreen Baptist Church of San Gabriel Valley, Food Oasis Los Angeles'
 uri: /food-pantry/evergreen-baptist-church-of-san-gabriel-valley/
 formatted_day1_open: 12pm
 formatted_day1_close: 3pm
+formatted_day2_open: 12pm
+formatted_day2_close: 3pm
 
 ---

@@ -12,13 +12,13 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Mon
-day1_open: '900'
+day1_open: 0900
 day1_close: '1100'
 daycode2: Tue
-day2_open: '900'
+day2_open: 0900
 day2_close: '1100'
 daycode3: Wed
-day3_open: '900'
+day3_open: 0900
 day3_close: '1100'
 daycode4: ''
 day4_open: ''
@@ -39,5 +39,11 @@ uri: /food-pantry/eastmont-community-center/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 11am
+formatted_daycode2: Tuesday
+formatted_day2_open: 9am
+formatted_day2_close: 11am
+formatted_daycode3: Wednesday
+formatted_day3_open: 9am
+formatted_day3_close: 11am
 
 ---

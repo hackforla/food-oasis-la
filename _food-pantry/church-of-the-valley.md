@@ -12,10 +12,10 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue
-day1_open: '930'
+day1_open: 0930
 day1_close: '1200'
 daycode2: Wed
-day2_open: '930'
+day2_open: 0930
 day2_close: '1200'
 daycode3: ''
 day3_open: ''
@@ -39,5 +39,8 @@ uri: /food-pantry/church-of-the-valley/
 formatted_daycode1: Tuesday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 12pm
+formatted_daycode2: Wednesday
+formatted_day2_open: '9:30am'
+formatted_day2_close: 12pm
 
 ---

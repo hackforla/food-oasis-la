@@ -39,5 +39,17 @@ uri: /food-pantry/catholic-rainbow-outreach/
 formatted_daycode1: Monday
 formatted_day1_open: 3pm
 formatted_day1_close: 4pm
+formatted_daycode2: Tuesday
+formatted_day2_open: 3pm
+formatted_day2_close: 4pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 3pm
+formatted_day3_close: 4pm
+formatted_daycode4: Friday
+formatted_day4_open: 3pm
+formatted_day4_close: 4pm
+formatted_daycode5: Saturday
+formatted_day5_open: 3pm
+formatted_day5_close: 4pm
 
 ---

@@ -12,10 +12,10 @@ category: Food Pantry
 website: http//www.nhifp.org/
 '': ''
 daycode1: Mon
-day1_open: '900'
+day1_open: 0900
 day1_close: '1300'
 daycode2: Fri
-day2_open: '900'
+day2_open: 0900
 day2_close: '1300'
 daycode3: ''
 day3_open: ''
@@ -39,5 +39,8 @@ uri: /food-pantry/north-hollywood-interfaith/
 formatted_daycode1: Monday
 formatted_day1_open: 9am
 formatted_day1_close: 1pm
+formatted_daycode2: Friday
+formatted_day2_open: 9am
+formatted_day2_close: 1pm
 
 ---

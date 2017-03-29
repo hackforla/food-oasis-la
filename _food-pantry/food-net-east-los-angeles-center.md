@@ -12,13 +12,13 @@ category: Food Pantry
 website: http//wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/
 '': ''
 daycode1: Mon
-day1_open: '930'
+day1_open: 0930
 day1_close: '1200'
 daycode2: Mon
 day2_open: '1330'
 day2_close: '1600'
 daycode3: Thu
-day3_open: '930'
+day3_open: 0930
 day3_close: '1200'
 daycode4: Fri
 day4_open: '1330'
@@ -39,5 +39,14 @@ uri: /food-pantry/food-net-east-los-angeles-center/
 formatted_daycode1: Monday
 formatted_day1_open: '9:30am'
 formatted_day1_close: 12pm
+formatted_daycode2: Monday
+formatted_day2_open: '1:30pm'
+formatted_day2_close: 4pm
+formatted_daycode3: Thursday
+formatted_day3_open: '9:30am'
+formatted_day3_close: 12pm
+formatted_daycode4: Friday
+formatted_day4_open: '1:30pm'
+formatted_day4_close: 4pm
 
 ---

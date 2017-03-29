@@ -12,42 +12,38 @@ stylesheets:
   - "https://api.tiles.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.css"
 ---
 
-	<ul class="list" id="locations">
+<ul class="location-list">
 	{% if page.collection %}
 
 		{% assign data_collection = site.collections | where: "label", page.collection | first %}
 		{% assign data_list = data_collection.docs %}
 		{% assign list_limit = page.items_per_page %}
 		{% assign list_offset = page.list_offset %}
+
 		{% include list.html %}
 
 	{% else %}
 
 		{% assign data_list = site.data['generated-locations-for-jekyll'] %}
-
 		{% assign list_limit = page.items_per_page %}
 		{% assign list_offset = page.list_offset %}
+
 		{% include list.html %}
 
 	{% endif %}
-	</ul>
+</ul>
 
-{% if page.next or page.previous %}
+{% if page.next %}
+
 <div class="pagination">
-	{% if page.next %}
 	<p><a href="{{ page.next }}"><span>Next {{ page.items_per_page }} results</span> <img src="/assets/images/icons/forward.svg" /></a></p>
-	{% endif %}
-{% comment %}
-	{% if page.previous %}
-	<p><a href="{{ page.previous }}">Previous Page</a></p>
-	{% endif %}
-{% endcomment %}
 </div>
+
 <script>
 (function() {
 	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
 
-		// SHIM: Make the address persistent
+		// SHIM: Pass the query string onto the next page
 		var paginationLink = document.querySelector('.pagination a[href]');
 		if (paginationLink) {
 			updateLink(paginationLink);
@@ -55,17 +51,12 @@ stylesheets:
 	}
 })();
 </script>
+
 {% endif %}
 
 <!-- For location-list.js -->
 <script type="text/template" id="you-are-here-template">
 	<div class="you-are-here"><span>You are here</span></div>
-</script>
-
-<script type="text/template" id="marker-template">
-	<div class="marker">
-		<img src="/assets/images/markers/purple.svg" alt="" />
-	</div>
 </script>
 
 <script type="text/template" id="list-item-template">
@@ -75,21 +66,27 @@ stylesheets:
 		<p class="address"></p>
 		<p class="type"></p>
 		<p class="open">Open Now</p>
-		<p class="distance"><span></span> m</p>
+		<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
 	</a>
+</script>
+
+<script type="text/template" id="no-results-template">
+	<section role="status" class="message">
+		<h1>Oops! We couldn’t find any matching locations.</h1>
+		<p>You may want to <a href="/search/">try a new search</a></p>
+	</section>
 </script>
 
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
-<!--
-<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
--->
 <script src="https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js"></script>
 
 <script>
+// FOLA’s Mapbox API key
 var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 
+// Los Angeles County boundaries
 var MAP_BOUNDS = [
 	[-119.9442369,32.7089729], // Southwest coordinates
 	[-116.63282912,35.8275538]  // Northeast coordinates
@@ -108,49 +105,6 @@ var listOffset = {{ page.list_offset }};
 {% endif %}
 
 <script src="/assets/js/location-list.js"></script>
-
-<script>
-// Toggle between the map and list views
-(function() {
-	if (mapboxgl.supported()) {
-
-		var views = document.getElementById('search-views');
-		var template = document.getElementById('search-views-template');
-		views.insertAdjacentHTML('beforeend', template.innerHTML);
-
-		var mapButton = document.getElementById('map-button');
-		var listButton = document.getElementById('list-button');
-
-		listButton.style.display = "block";
-
-		document.body.classList.add('only-map');
-		document.body.classList.remove('only-list');
-
-		mapButton.addEventListener('click', function(e) {
-			mapButton.style.display = "none";
-			listButton.style.display = "block";
-
-			document.body.classList.add('only-map');
-			document.body.classList.remove('only-list');
-
-			e.preventDefault();
-		}, false);
-
-		listButton.addEventListener('click', function(e) {
-			mapButton.style.display = "block";
-			listButton.style.display = "none";
-
-			document.body.classList.remove('only-map');
-			document.body.classList.add('only-list');
-
-			e.preventDefault();
-		}, false);
-	} else {
-		if (console && console.log) console.log('MapboxGL doesn’t appear to be supported in this web browser. Showing the list instead…');
-		document.body.classList.add('only-list');
-	}
-})();
-</script>
 
 </body>
 </html>

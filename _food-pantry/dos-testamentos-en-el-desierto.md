@@ -15,7 +15,7 @@ daycode1: Wed
 day1_open: '1930'
 day1_close: '2030'
 daycode2: Sat
-day2_open: '815'
+day2_open: 0815
 day2_close: '1030'
 daycode3: Sat
 day3_open: '1930'
@@ -39,5 +39,14 @@ uri: /food-pantry/dos-testamentos-en-el-desierto/
 formatted_daycode1: Wednesday
 formatted_day1_open: '7:30pm'
 formatted_day1_close: '8:30pm'
+formatted_daycode2: Saturday
+formatted_day2_open: '8:15am'
+formatted_day2_close: '10:30am'
+formatted_daycode3: Saturday
+formatted_day3_open: '7:30pm'
+formatted_day3_close: '8:30pm'
+formatted_daycode4: Sunday
+formatted_day4_open: '10:30am'
+formatted_day4_close: 12pm
 
 ---

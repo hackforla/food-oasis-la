@@ -38,5 +38,7 @@ title: 'Iglesia de la Comunidad Presbyterian Church, Food Oasis Los Angeles'
 uri: /food-pantry/iglesia-de-la-comunidad-presbyterian-church/
 formatted_day1_open: '10:30am'
 formatted_day1_close: '11:30am'
+formatted_day2_open: '10:30am'
+formatted_day2_close: '11:30am'
 
 ---

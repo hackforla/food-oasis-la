@@ -22,5 +22,8 @@ uri: /farmers-market/green-acres/
 formatted_daycode1: Thursday
 formatted_day1_open: 11am
 formatted_day1_close: '5:30pm'
+formatted_daycode2: Sunday
+formatted_day2_open: '8:30am'
+formatted_day2_close: '2:30pm'
 
 ---

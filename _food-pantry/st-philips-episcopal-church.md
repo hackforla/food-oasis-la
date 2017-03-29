@@ -12,11 +12,11 @@ category: Food Pantry
 website: ''
 '': ''
 daycode1: Tue2nd
-day1_open: '730'
-day1_close: '830'
+day1_open: '0730'
+day1_close: 0830
 daycode2: Tue4th
-day2_open: '730'
-day2_close: '830'
+day2_open: '0730'
+day2_close: 0830
 daycode3: ''
 day3_open: ''
 day3_close: ''
@@ -38,5 +38,7 @@ title: 'St. Philip''s Episcopal Church, Food Oasis Los Angeles'
 uri: /food-pantry/st-philips-episcopal-church/
 formatted_day1_open: '7:30am'
 formatted_day1_close: '8:30am'
+formatted_day2_open: '7:30am'
+formatted_day2_close: '8:30am'
 
 ---
