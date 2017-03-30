@@ -131,7 +131,7 @@
             // be accurate to the user.
             addressField.value = results[1] ? results[1].formatted_address :
                 results[0].formatted_address;
-            form.submit();
+            //form.submit();
           }
           button.disabled = false;
         }).catch(function() {
