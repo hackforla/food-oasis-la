@@ -6,7 +6,7 @@ include_header: false
 include_footer: false
 ---
 
-<form action="/locations/" method="get">
+<form action="/locations/" method="get" id="search-form">
 	<input type="hidden" name="type" />
 	<input type="hidden" name="deserts" value="1" />
 	<input type="hidden" name="open" />
@@ -14,8 +14,8 @@ include_footer: false
 	<header class="header">
 		<div class="search-nav">
 			<h1>Search</h1>
-
 			<p><a href="/" onclick="history.back();">Cancel</a></p>
+			<p><button type="button" class="hidden js-current-location">Use current location</button></p>
 			<p><button type="submit">Search</button></p>
 		</div>
 		<p class="search-field">
@@ -66,4 +66,5 @@ include_footer: false
 	</ul>
 </form>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 <script src="/assets/js/search.js"></script>

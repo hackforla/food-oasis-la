@@ -93,4 +93,9 @@
 		margin-right: auto;
 	}
 
+/* =Utility (utility classes)
+----------------------------------------------- */
+.hidden {
+	display: none !important;
+}
 
