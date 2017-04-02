@@ -14,10 +14,10 @@
 	}
 
 	/* SHIM: Avoid showing the unsorted content while the sorting is taking place */
-	.sorting ul.location-list li {
+	ul.location-list.sorting li {
 		visibility: hidden;
 	}
-	.sorting ul.location-list::before {
+	ul.location-list.sorting::before {
 		content: "Finding nearest locations…";
 		display: block;
 	}
