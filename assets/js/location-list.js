@@ -338,6 +338,8 @@
 		var tooltips = [];
 
 		if (map) {
+			document.body.classList.add('hidden-marker-labels');
+
 			for (var index = start; index < locations.length && index < limit; index++) {
 				(function(location) {
 
@@ -385,14 +387,6 @@
 				}
 			}
 
-
-			setTimeout(function() {
-				updateMarkerLabels();
-			}, 100);
-
-			map.on('zoomend', updateMarkerLabels);
-
-
 			// deselects marker if blank on map is clicked
 			var mapContainer = document.getElementById('map');
 			mapContainer.addEventListener('click', function(e){
@@ -414,15 +408,26 @@
 
 		if (map) {
 			map.setZoom(15);
-			map.setCenter([longitude, latitude]);
 
 			var mapLngLatBounds = new mapboxgl.LngLatBounds();
 
-			bounds.forEach(function(coordinates) {
-				mapLngLatBounds.extend(coordinates);
-			});
+			var limit = 10;
+			for (var index = 0; index < limit && index < bounds.length; index++) {
+				mapLngLatBounds.extend(bounds[index]);
+			}
 
-			map.fitBounds(mapLngLatBounds, { padding: 20 });
+			map.fitBounds(mapLngLatBounds, { padding: 10, easing: function() { return 1; } });
+			/*
+			setTimeout(function() {
+				map.setCenter([longitude, latitude]);
+			}, 100);
+			*/
+
+			setTimeout(function() {
+				updateMarkerLabels();
+			}, 1000);
+
+			map.on('zoomend', updateMarkerLabels);
 		}
 
 	}
@@ -455,7 +460,7 @@
 				nowSeconds > getSeconds(data.open) &&
 				nowSeconds < getSeconds(data.close) ) {
 				return true;
-		}
+			}
 
 			// TBD: Should we show a special notice if it’s opening soon or closing soon?
 		}
