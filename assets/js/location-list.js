@@ -1,19 +1,5 @@
-// deselects marker if blank on map is clicked
-var mapContainer = document.getElementById('map');
-mapContainer.addEventListener('click', function(e){
-	var target = e.target.getAttribute('class');
-	if (target === 'mapboxgl-canvas') {
-		var activeMarker = document.getElementsByClassName("active")[0]
-		activeMarker.classList.remove('active')
-
-		var summary = document.getElementById('map-location-summary');
-		summary.innerHTML = '';
-
-		document.body.classList.remove('has-map-location-summary');
-	}
-});
-
 (function() {
+
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
 	function getParameterByName(name, url) {
 		if (!url) url = window.location.href;
@@ -30,6 +16,56 @@ mapContainer.addEventListener('click', function(e){
 		longitude: -118.243685
 	};
 
+	// http://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-in-javascript#12830454#answer-25075575
+	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Decimal_rounding
+	(function() {
+		/**
+		 * Decimal adjustment of a number.
+		 *
+		 * @param {String}  type  The type of adjustment.
+		 * @param {Number}  value The number.
+		 * @param {Integer} exp   The exponent (the 10 logarithm of the adjustment base).
+		 * @returns {Number} The adjusted value.
+		 */
+		 function decimalAdjust(type, value, exp) {
+			// If the exp is undefined or zero...
+			if (typeof exp === 'undefined' || +exp === 0) {
+				return Math[type](value);
+			}
+			value = +value;
+			exp = +exp;
+			// If the value is not a number or the exp is not an integer...
+			if (isNaN(value) || !(typeof exp === 'number' && exp % 1 === 0)) {
+				return NaN;
+			}
+			// Shift
+			value = value.toString().split('e');
+			value = Math[type](+(value[0] + 'e' + (value[1] ? (+value[1] - exp) : -exp)));
+			// Shift back
+			value = value.toString().split('e');
+			return +(value[0] + 'e' + (value[1] ? (+value[1] + exp) : exp));
+		}
+
+		// Decimal round
+		if (!Math.round10) {
+			Math.round10 = function(value, exp) {
+				return decimalAdjust('round', value, exp);
+			};
+		}
+		// Decimal floor
+		if (!Math.floor10) {
+			Math.floor10 = function(value, exp) {
+				return decimalAdjust('floor', value, exp);
+			};
+		}
+		// Decimal ceil
+		if (!Math.ceil10) {
+			Math.ceil10 = function(value, exp) {
+				return decimalAdjust('ceil', value, exp);
+			};
+		}
+	})();
+
 	var INFINITY = 9999999;
 	function getDistanceForPresentation(kilometers) {
 		if (kilometers === INFINITY) return 'unknown';
@@ -38,7 +74,6 @@ mapContainer.addEventListener('click', function(e){
 		miles = Math.round10(miles, -1); // Round to one decimal place
 		return parseFloat(miles.toFixed(1));
 	}
-
 
 	(function() {
 
@@ -77,77 +112,27 @@ mapContainer.addEventListener('click', function(e){
 				});
 
 			// Else if automatic geolocation is available
-		} else if ("geolocation" in navigator) {
+			} else if ("geolocation" in navigator) {
 
-			if (foodSourcesList) foodSourcesList.classList.add('sorting');
-			navigator.geolocation.getCurrentPosition(function(position) {
+				if (foodSourcesList) foodSourcesList.classList.add('sorting');
+				navigator.geolocation.getCurrentPosition(function(position) {
 
-				sortByClosest(position.coords.latitude, position.coords.longitude, true);
-				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-				if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'you';
+					sortByClosest(position.coords.latitude, position.coords.longitude, true);
+					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'you';
 
-			}, function() {
-				console.error("Unable to retrieve your location");
+				}, function() {
+					console.error("Unable to retrieve your location");
+					sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
+					if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+					if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
+				});
+			} else {
 				sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
 				if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 				if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
-			});
-		} else {
-			sortByClosest(LOS_ANGELES.latitude, LOS_ANGELES.longitude, false);
-			if (foodSourcesList) foodSourcesList.classList.remove('sorting');
-			if (document.getElementById('search-location')) document.getElementById('search-location').textContent = 'Downtown Los Angeles';
+			}
 		}
-	}
-
-		// http://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-in-javascript#12830454#answer-25075575
-		// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Decimal_rounding
-		(function() {
-			/**
-			 * Decimal adjustment of a number.
-			 *
-			 * @param {String}  type  The type of adjustment.
-			 * @param {Number}  value The number.
-			 * @param {Integer} exp   The exponent (the 10 logarithm of the adjustment base).
-			 * @returns {Number} The adjusted value.
-			 */
-			 function decimalAdjust(type, value, exp) {
-				// If the exp is undefined or zero...
-				if (typeof exp === 'undefined' || +exp === 0) {
-					return Math[type](value);
-				}
-				value = +value;
-				exp = +exp;
-				// If the value is not a number or the exp is not an integer...
-				if (isNaN(value) || !(typeof exp === 'number' && exp % 1 === 0)) {
-					return NaN;
-				}
-				// Shift
-				value = value.toString().split('e');
-				value = Math[type](+(value[0] + 'e' + (value[1] ? (+value[1] - exp) : -exp)));
-				// Shift back
-				value = value.toString().split('e');
-				return +(value[0] + 'e' + (value[1] ? (+value[1] + exp) : exp));
-			}
-
-			// Decimal round
-			if (!Math.round10) {
-				Math.round10 = function(value, exp) {
-					return decimalAdjust('round', value, exp);
-				};
-			}
-			// Decimal floor
-			if (!Math.floor10) {
-				Math.floor10 = function(value, exp) {
-					return decimalAdjust('floor', value, exp);
-				};
-			}
-			// Decimal ceil
-			if (!Math.ceil10) {
-				Math.ceil10 = function(value, exp) {
-					return decimalAdjust('ceil', value, exp);
-				};
-			}
-		})();
 
 		function sortByClosest(latitude, longitude, geolocated) {
 			var list = [];
@@ -231,29 +216,19 @@ mapContainer.addEventListener('click', function(e){
 
 
 	if ('mapboxgl' in window) mapboxgl.accessToken = MAP_ACCESS_TOKEN;
+
 	var map;
+
 	if (document.getElementById('map') && 'mapboxgl' in window && mapboxgl.supported()) {
 
-		/*
-		map = L.mapbox.map('map', 'mapbox.light', {
-			zoomControl: false//,
-			//scrollWheelZoom: false
-		}).setView([LOS_ANGELES.latitude, LOS_ANGELES.longitude], 14);
-*/
-map = new mapboxgl.Map({
+		map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: 'mapbox://styles/mapbox/basic-v9',
 			//style: 'mapbox://styles/mapbox/streets-v9',
 			maxBounds: MAP_BOUNDS
 		});
 
-		/*
-		L.control.zoom({
-			position:'topright'
-		}).addTo(map);
-*/
-
-map.on('load', function() {
+		map.on('load', function() {
 
 			// Add a zoom control
 			map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
@@ -282,7 +257,7 @@ map.on('load', function() {
 				});
 			}
 		});
-}
+	}
 
 	// Define the icons
 	var markerOptions = {
@@ -320,132 +295,63 @@ map.on('load', function() {
 		}
 	};
 
-	var activeMarkerOptions = {
-		'Farmers Market': {
-			// Specify a class name we can refer to in CSS.
-			className: 'farmers-market-marker-active',
-			// Set marker width and height
-			iconSize: [42, 70],
-			iconAnchor: [21, 70],
-			popupAnchor: [0, -35]
-		},
-		'Supermarket': {
-			// Specify a class name we can refer to in CSS.
-			className: 'farmers-market-marker-active',
-			// Set marker width and height
-			iconSize: [42, 70],
-			iconAnchor: [21, 70],
-			popupAnchor: [0, -35]
-		},
-		'Community Garden': {
-			// Specify a class name we can refer to in CSS.
-			className: 'community-garden-marker-active',
-			// Set marker width and height
-			iconSize: [42, 70],
-			iconAnchor: [21, 70],
-			popupAnchor: [0, -35]
-		},
-		'Food Pantry': {
-			// Specify a class name we can refer to in CSS.
-			className: 'food-pantry-marker-active',
-			// Set marker width and height
-			iconSize: [42, 70],
-			iconAnchor: [21, 70],
-			popupAnchor: [0, -35]
-		}
-	};
-
 	function addYouAreHere(coordinates) {
-		/*
-		var icon = L.divIcon({
-			html: '<div class="you-are-here"><span>You are here</span></div>',
-			// Set marker width and height
-			iconSize: [0, 0],
-			//iconAnchor: [0, 0]
-		})
 
-		return L.marker(coordinates, { icon: icon })
-			.addTo(map);
-			*/
+		var template = document.getElementById('you-are-here-template');
 
-			var template = document.getElementById('you-are-here-template');
+		var marker = document.createElement('div');
+		marker.innerHTML = template.innerHTML;
 
-			var marker = document.createElement('div');
-			marker.innerHTML = template.innerHTML;
+		return new mapboxgl.Marker(marker)
+		.setLngLat(coordinates)
+		.addTo(map);
+	}
 
-			return new mapboxgl.Marker(marker)
-			.setLngLat(coordinates)
-			.addTo(map);
+	var markerResetMethods = [];
+	function resetMarkers() {
+		for (var index = 0; index < markerResetMethods.length; index++) {
+			markerResetMethods[index]();
 		}
+	}
 
-		var markerResetMethods = [];
-		function resetMarkers() {
-			for (var index = 0; index < markerResetMethods.length; index++) {
-				markerResetMethods[index]();
-			}
+	function createMarker(options, data) {
+		var marker = document.createElement('div');
+		marker.className = 'marker ' + options.className;
+		var span = document.createElement('span');
+		span.textContent = data.name;
+		span.className = 'marker-label';
+		marker.appendChild(span);
+		return marker;
+	}
+
+	var currentMarker;
+	function addMarkers(locations, geolocated, latitude, longitude) {
+		var limit = getParameterByName('limit') || itemsPerPage;
+		if (!limit) {
+			limit = 10;
 		}
+		limit = Number(limit);
+		var start = window.listOffset || 0;
+		limit += start;
+		if (limit >= locations.length) limit = locations.length;
+		var bounds = [];
+		var tooltips = [];
 
-		function createMarker(options, data) {
-			var marker = document.createElement('div');
-			marker.className = 'marker ' + options.className;
-			var span = document.createElement('span');
-			span.textContent = data.name;
-			span.className = 'marker-label';
-			marker.appendChild(span);
-			return marker;
-		}
-
-		var currentMarker;
-		function addMarkers(locations, geolocated, latitude, longitude) {
-			var limit = getParameterByName('limit') || itemsPerPage;
-			if (!limit) {
-				limit = 10;
-			}
-			limit = Number(limit);
-			var start = window.listOffset || 0;
-			limit += start;
-			if (limit >= locations.length) limit = locations.length;
-			var bounds = [];
-			var tooltips = [];
-
-			if (map) {
-				for (var index = start; index < locations.length && index < limit; index++) {
-					(function(location) {
-					/*
-					var icon = icons[location.category];
-					var coordinates = [
-						location.latitude,
-						location.longitude
-					];
-
-					//var popup = L.popup({ maxWidth: INFINITY })
-					//	.setContent(createListItem(location, 'div'));
-
-					var marker = L.marker(coordinates, { icon: icon });
-
-					//marker.bindPopup(popup);
-					var tooltip = marker.bindTooltip(location.name, {
-						direction: 'center',
-						offset: [0, -20],
-						permanent: true,
-						interactive: true
-					});
-					marker.addTo(map);
-					tooltip.addTo(map);
-					tooltip.closeTooltip();
-					*/
+		if (map) {
+			for (var index = start; index < locations.length && index < limit; index++) {
+				(function(location) {
 
 					var options = markerOptions[location.category];
 					var coordinates = [
-					location.longitude,
-					location.latitude
+						location.longitude,
+						location.latitude
 					];
 
 					var marker = createMarker(options, location);
 
 					new mapboxgl.Marker(marker)
-					.setLngLat(coordinates)
-					.addTo(map);
+						.setLngLat(coordinates)
+						.addTo(map);
 
 					function showLocationSummary() {
 						var item = createListItem(location, 'div');
@@ -453,32 +359,21 @@ map.on('load', function() {
 						summary.innerHTML = '';
 						summary.appendChild(item);
 						document.body.classList.add('has-map-location-summary');
-						/*
-						setTimeout(function() {
-							map.invalidateSize();
-							bounds.push(coordinates);
-							map.fitBounds(bounds);
-						}, 100);
-*/
-}
+					}
 
-marker.addEventListener('click', function(e) {
-						//resetMarkers();
-						//var icon = activeIcons[location.category];
-						//marker.setIcon(icon);
+					marker.addEventListener('click', function(e) {
 						if (currentMarker) currentMarker.classList.remove('active');
 						currentMarker = marker;
 						currentMarker.classList.add('active');
 						showLocationSummary();
 					});
 
-markerResetMethods.push(function() {
-	var icon = icons[location.category];
-	marker.setIcon(icon);
-});
+					markerResetMethods.push(function() {
+						var icon = icons[location.category];
+						marker.setIcon(icon);
+					});
 
-bounds.push(coordinates);
-					//tooltips.push(tooltip);
+					bounds.push(coordinates);
 				})(locations[index]);
 			}
 
@@ -490,85 +385,57 @@ bounds.push(coordinates);
 				}
 			}
 
-			// KUDOS: http://stackoverflow.com/questions/27820338/how-do-i-show-a-label-beyond-a-certain-zoom-level-in-leaflet#answer-27822424
-			/*
-			(function() {
 
-				var visible;
+			setTimeout(function() {
+				updateMarkerLabels();
+			}, 100);
 
-				function updateTooltips(doShow) {
-					// Check zoom level
-					if (map.getZoom() > 14 || doShow === true) {
-						// Check if not already shown
-						if (!visible) {
+			map.on('zoomend', updateMarkerLabels);
 
-							// Loop over layers
-							for (var index = 0; index < tooltips.length; index++) {
-								// Show label
-								tooltips[index].openTooltip();
-							};
-							// Set visibility flag
-							visible = true;
-						}
-					} else {
-						// Check if not already hidden
-						if (visible) {
-							// Loop over layers
-							for (var index = 0; index < tooltips.length; index++) {
-								// Hide label
-								tooltips[index].closeTooltip();
-							};
-							// Set visibility flag
-							visible = false;
-						}
-					}
+
+			// deselects marker if blank on map is clicked
+			var mapContainer = document.getElementById('map');
+			mapContainer.addEventListener('click', function(e){
+				var target = e.target.getAttribute('class');
+				if (target === 'mapboxgl-canvas') {
+					if (currentMarker) currentMarker.classList.remove('active')
+
+					var summary = document.getElementById('map-location-summary');
+					summary.innerHTML = '';
+
+					document.body.classList.remove('has-map-location-summary');
 				}
+			});
+		}
 
-			})();
-*/
+		if (map) addYouAreHere([longitude, latitude]);
 
-setTimeout(function() {
-	updateMarkerLabels();
-}, 100);
+		bounds.unshift([longitude, latitude]);
 
-map.on('zoomend', updateMarkerLabels);
-}
+		if (map) {
+			map.setZoom(15);
+			map.setCenter([longitude, latitude]);
 
-if (map) addYouAreHere([longitude, latitude]);
+			var mapLngLatBounds = new mapboxgl.LngLatBounds();
 
-bounds.unshift([longitude, latitude]);
+			bounds.forEach(function(coordinates) {
+				mapLngLatBounds.extend(coordinates);
+			});
 
-if (map) {
-	map.setZoom(15);
-	map.setCenter([longitude, latitude]);
+			map.fitBounds(mapLngLatBounds, { padding: 20 });
+		}
 
-	var mapLngLatBounds = new mapboxgl.LngLatBounds();
+	}
 
-	bounds.forEach(function(coordinates) {
-		mapLngLatBounds.extend(coordinates);
-	});
-
-	map.fitBounds(mapLngLatBounds, { padding: 20 });
-}
-
-		/*
-		map.on('zoomend', function() {
-			var currentZoom = map.getZoom();
-			myMarker.setRadius(currentZoom);
-		});
-*/
-}
-
-
-var DAYS_OF_WEEK = [
-'Sun',
-'Mon',
-'Tue',
-'Wed',
-'Thu',
-'Fri',
-'Sat'
-];
+	var DAYS_OF_WEEK = [
+		'Sun',
+		'Mon',
+		'Tue',
+		'Wed',
+		'Thu',
+		'Fri',
+		'Sat'
+	];
 	function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
 		var hours   = Number(timeString.substring(0, timeString.length - 2));
 		var minutes = Number(timeString.substring(timeString.length - 2));
