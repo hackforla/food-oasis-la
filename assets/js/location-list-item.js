@@ -2,14 +2,6 @@ window.oasis = window.oasis || {};
 
 (function() {
 
-	function getDistanceForPresentation(kilometers) {
-		if (kilometers === window.oasis.INFINITY) return 'unknown';
-
-		var miles = kilometers / 1.609; // kilometers per mile
-		miles = Math.round10(miles, -1); // Round to one decimal place
-		return parseFloat(miles.toFixed(1));
-	}
-
 	function createListItem(data, containerTagName) {
 
 		var template = document.getElementById('list-item-template');
@@ -56,7 +48,7 @@ window.oasis = window.oasis || {};
 			}
 
 			// Distance
-			if (data.distance) element.querySelector('.distance span').innerHTML = getDistanceForPresentation(data.distance);
+			if (data.distance) element.querySelector('.distance span').innerHTML = window.oasis.getDistanceForPresentation(data.distance);
 
 			return element;
 		}

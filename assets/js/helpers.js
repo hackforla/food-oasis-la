@@ -14,6 +14,34 @@ window.oasis = window.oasis || {};
 		return decodeURIComponent(results[2].replace(/\+/g, " "));
 	}
 
+	// http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/27943#answer-27943
+	function getDistanceInKilometers_Haversine(lat1, lon1, lat2, lon2) {
+		var R = 6371; // Radius of the earth in km
+		var dLat = deg2rad(lat2-lat1);
+		var dLon = deg2rad(lon2-lon1);
+		var a =
+		Math.sin(dLat/2) * Math.sin(dLat/2) +
+		Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+		Math.sin(dLon/2) * Math.sin(dLon/2)
+		;
+		var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+		var d = R * c; // Distance in km
+		return d;
+	}
+
+	// Convert Degress to Radians
+	function deg2rad(deg) {
+		return deg * (Math.PI/180)
+	}
+
+
+	function getDistanceForPresentation(kilometers) {
+		if (kilometers === window.oasis.INFINITY) return 'unknown';
+
+		var miles = kilometers / 1.609; // kilometers per mile
+		miles = Math.round10(miles, -1); // Round to one decimal place
+		return parseFloat(miles.toFixed(1));
+	}
 
 	// http://stackoverflow.com/questions/11832914/round-to-at-most-2-decimal-places-in-javascript#12830454#answer-25075575
 	// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round#Decimal_rounding
@@ -104,7 +132,9 @@ window.oasis = window.oasis || {};
 		}
 	})();
 
-	window.oasis.isOpenNow = isOpenNow;
-	window.oasis.getParameterByName = getParameterByName;
 	window.oasis.INFINITY = INFINITY;
+	window.oasis.getParameterByName = getParameterByName;
+	window.oasis.getDistanceInKilometers = getDistanceInKilometers_Haversine;
+	window.oasis.getDistanceForPresentation = getDistanceForPresentation;
+	window.oasis.isOpenNow = isOpenNow;
 })();

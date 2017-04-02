@@ -174,13 +174,20 @@ SHIM: Support days in any order, in the spreadsheet.
 </script>
 
 <script>
-	var FOOD_SOURCE = {
-		latitude: {{ page['latitude'] }},
-		longitude: {{ page['longitude'] }}
-	}
+// FOLA’s Mapbox API key
+var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+
+var MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
+
+var LOCATION_DETAILS = {
+	latitude: {{ page['latitude'] }},
+	longitude: {{ page['longitude'] }}
+}
 </script>
 
 <!-- Jim’s Google Maps API key -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4"></script>
 
+<script src="/assets/js/helpers.js"></script>
+<script src="/assets/js/geolocate.js"></script>
 <script src="/assets/js/location-details.js"></script>

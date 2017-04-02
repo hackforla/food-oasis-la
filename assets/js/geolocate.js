@@ -21,7 +21,12 @@ window.oasis = window.oasis || {};
 			getCoordinatesFromDevice(callback);
 			
 		} else {
-			if (callback) callback(LOS_ANGELES.latitude, LOS_ANGELES.longitude, 'Downtown Los Angeles', false);
+			if (callback) callback({
+				latitude: LOS_ANGELES.latitude,
+				longitude: LOS_ANGELES.longitude,
+				label: 'Downtown Los Angeles',
+				geolocated: false
+			});
 		}
 	}
 
@@ -40,11 +45,21 @@ window.oasis = window.oasis || {};
 				var latitude  = results[0].geometry.location.lat();
 				var longitude = results[0].geometry.location.lng();
 
-				if (callback) callback(latitude, longitude, window.oasis.getParameterByName('address'), false);
+				if (callback) callback({
+					latitude: latitude,
+					longitude: longitude,
+					label: window.oasis.getParameterByName('address'),
+					geolocated: false
+				});
 
 			} else {
 				console.error('Geocode was not successful for the following reason: ' + status);
-				if (callback) callback(LOS_ANGELES.latitude, LOS_ANGELES.longitude, 'Downtown Los Angeles', false);
+				if (callback) callback({
+					latitude: LOS_ANGELES.latitude,
+					longitude: LOS_ANGELES.longitude,
+					label: 'Downtown Los Angeles', 
+					geolocated: false
+				});
 			}
 		});
 	}
@@ -56,7 +71,12 @@ window.oasis = window.oasis || {};
 
 		}, function() {
 			console.error("Unable to retrieve your location");
-			if (callback) callback(LOS_ANGELES.latitude, LOS_ANGELES.longitude, 'Downtown Los Angeles', false);
+			if (callback) callback({
+				latitude: LOS_ANGELES.latitude,
+				longitude: LOS_ANGELES.longitude,
+				label: 'Downtown Los Angeles',
+				geolocated: false
+			});
 		});
 	}
 

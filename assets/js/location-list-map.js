@@ -4,9 +4,10 @@ window.oasis = window.oasis || {};
 
 	var map;
 	function createMap() {
-		if ('mapboxgl' in window) mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 
 		if (document.getElementById('map') && 'mapboxgl' in window && mapboxgl.supported()) {
+
+			mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 
 			map = new mapboxgl.Map({
 				container: 'map', // container id
