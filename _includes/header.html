@@ -25,9 +25,18 @@
 		<nav role="navigation" class="slideout-menu" style="display:none">
 			<div id="menuToggle">
 				<input type="checkbox" />
-				<span></span>
-				<span></span>
-				<span></span>
+				<svg width="22" height="19" viewBox="0 0 22 19">
+					<switch>
+						<g>
+							<polygon points="0.450127877 18.1050725 21.5498721 18.1050725 21.5498721 13.9746377 0.450127877 13.9746377"></polygon>
+							<polygon points="0.450127877 5.02536232 21.5498721 5.02536232 21.5498721 0.894927536 0.450127877 0.894927536"></polygon>
+							<polygon points="0.450127877 11.5652174 21.5498721 11.5652174 21.5498721 7.43478261 0.450127877 7.43478261"></polygon>
+						</g>
+						<foreignobject>
+							{{ site.data.locales[locale].nav.link_label }}
+						</foreignobject>
+					</switch>
+				</svg>
 				<div id="menu">
 					<ul>
 						<li><a class="nav-item" href="/">Home</a></li>

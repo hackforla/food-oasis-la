@@ -177,7 +177,7 @@
 	.primary-nav .nav-link svg {
 		vertical-align: middle;
 		height: 1.5em;
-		width: auto;
+		width: 1.5em;
 	}
 	.primary-nav .nav-link a svg polygon {
 		fill: currentColor;
