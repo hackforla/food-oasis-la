@@ -156,6 +156,7 @@
 	.primary-nav .tagline {
 		flex-grow: 0;
 	}
+	.primary-nav .slideout-menu,
 	.primary-nav .nav-link {
 		order: -1;
 		flex-grow: 0;

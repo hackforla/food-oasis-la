@@ -1,27 +1,6 @@
 <header class="header">
 
 	<div class="primary-nav">
-		
-		<nav role="navigation" class="slideout-menu" style="display:none">
-			<div id="menuToggle">
-				<input type="checkbox" />
-				<span></span>
-				<span></span>
-				<span></span>
-				<ul id="menu">
-				<a href="/#" class="nav-item"><li>Home</li></a>
-				<a href="/locations" class="nav-item"><li>Map</li></a>
-				<hr/>
-				<a href="/organizations" class="nav-item small"><li>Organizations</li></a>
-				<a href="/resources" class="nav-item small"><li>Resources</li></a>
-				<a href="/about" class="nav-item small"><li>About</li></a>
-				<a href="/team" class="nav-item small"><li>Team</li></a>
-				<a href="/news" class="nav-item small"><li>News</li></a>
-				<a href="/faqs" class="nav-item small"><li>FAQs</li></a>
-				</ul>
-			</div>
-		</nav>
-		
 
 		<h2><a href="/"><img src="/assets/images/fola.svg" width="100" alt="Food Oasis Los Angeles" /></a></h2>
 		<p class="tagline">Healthy Food for All Angelenos</p>
@@ -42,6 +21,31 @@
 				</svg>
 			</a>
 		</p>
+
+		<nav role="navigation" class="slideout-menu" style="display:none">
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<div id="menu">
+					<ul>
+						<li><a class="nav-item" href="/">Home</a></li>
+						<li><a class="nav-item" href="/locations">Map</a></li>
+					</ul>
+					<hr />
+					<ul>
+						<li><a class="nav-item small" href="/organizations">Organizations</a></li>
+						<li><a class="nav-item small" href="/resources">Resources</a></li>
+						<li><a class="nav-item small" href="/about">About</a></li>
+						<li><a class="nav-item small" href="/team">Team</a></li>
+						<li><a class="nav-item small" href="/news">News</a></li>
+						<li><a class="nav-item small" href="/faqs">FAQs</a></li>
+						<li><a class="nav-item small" href="{% if include_footer == false %}/{% endif %}#donate">Donate</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
 	</div><!-- /.primary -->
 

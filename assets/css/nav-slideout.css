@@ -10,19 +10,8 @@
 	.slideout-menu {
 		box-shadow: none;
 		border-top: none;
-		width: 3.375em;
 		position: relative;
 		z-index: 2; /* Just above the .seconary-nav element */
-	}
-
-	.nav-item {
-	text-decoration: none;
-	color: #232323;  
-	transition: color 0.3s ease;
-	}
-
-	.nav-item:hover {
-  	color: tomato;
 	}
 
 	#menuToggle {
@@ -126,7 +115,6 @@
 	height:100vh;
 
 	background: rgb(241,241,241);
-	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	
 	transform-origin: 0% 0%;
@@ -134,21 +122,36 @@
 	
 	transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	}
-
-	#menu li
-	{
-	padding: 10px 0;
-	font-size: 22px;
+	#menu ul,
+	#menu li {
+	list-style-type: none;
+	padding-left: 0;
 	}
 
-	#menu a.small li{
+	.nav-item
+	{
+	display: block;
+	padding: 10px 0;
+	font-size: 22px;
+	text-decoration: none;
+	color: #232323;  
+	transition: color 0.3s ease;
+	}
+
+	.nav-item:hover,
+	.nav-item:active,
+	.nav-item:focus {
+	color: tomato;
+	}
+
+	.nav-item.small {
 		font-size:18px;
 		color:gray;
 	}
 	/*
 	* fade in from left
 	*/
-	#menuToggle input:checked ~ ul
+	#menuToggle input:checked ~ #menu
 	{
 	transform: scale(1.0, 1.0);
 	opacity: 1;
