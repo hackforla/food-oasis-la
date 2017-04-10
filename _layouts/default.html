@@ -8,7 +8,9 @@
 
 	<title>{% if page.title %}{{ page.title | escape }}{% elsif layout.title %}{{ layout.title | escape }}{% elsif page.name %}{{ page.name | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-	<meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}" />
+	{% if page.description %}
+	<meta name="description" content="{{ page.description | escape }}" />
+	{% endif %}
 
 	{% if page.canonical_url %}
 	<link rel="canonical" href="https://foodoasis.la{{ page.canonical_url }}" />
