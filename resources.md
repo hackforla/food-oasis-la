@@ -9,7 +9,7 @@ color: canteloupe
 # Healthy Food Resources
 
 <p class="action">
-<a href="#add">Add a resource</a>
+	<a href="#add">Add a resource</a>
 </p>
 
 ## Non-Profit and Policy Groups
