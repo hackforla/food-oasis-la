@@ -6,7 +6,11 @@ title: Resources, Food Oasis Los Angeles
 color: canteloupe
 ---
 
-# Resources
+# Healthy Food Resources
+
+<p class="action">
+<a href="#add">Add a resource</a>
+</p>
 
 ## Non-Profit and Policy Groups
 
@@ -35,3 +39,42 @@ color: canteloupe
 *   [Food Deserts, Societal Impacts, and Potential Solutions (PDF)](https://www.emich.edu/mcnair/documents/1_i-got-99-problems-and-nutrition-is-one.pdf)
 *   [The Grocery Gap, Who Has Access to Health Food and Why It Matters (PolicyLink)](http://thefoodtrust.org/uploads/media_items/grocerygap.original.pdf)
 *   [Studies Question the Pairing of Food Deserts and Obesity (The New York Times)](http://www.nytimes.com/2012/04/18/health/research/pairing-of-food-deserts-and-obesity-challenged-in-studies.html?_r=0)
+
+<h2 id="add">Want to add your organization or resource to the list?</h2>
+<form action="https://formspree.io/contact@foodoasis.la" method="post">
+	<p>
+		<label>
+			<span>Your Name</span><br />
+			<input type="text" name="name" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Your Email</span><br />
+			<input type="email" name="_replyto" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Resource</span><br />
+			<input type="text" name="resource_title" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>URL</span><br />
+			<input type="text" name="resource_url" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Is there anything else you’d like to tell us?</span><br />
+			<textarea name="message"></textarea>
+		</label>
+	</p>
+    <p class="action">
+    	<button type="submit">Send Message</button>
+    </p>
+
+    <input type="text" name="_gotcha" style="display:none" />
+</form>

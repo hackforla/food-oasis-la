@@ -2,7 +2,9 @@
 
 	/* =Field
 	----------------------------------------------- */
+	textarea,
 	input[type="text"],
+	input[type="email"],
 	input[type="search"] {
 		display: inline-block;
 		line-height: inherit;
