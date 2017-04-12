@@ -8,7 +8,7 @@ color: strawberry
 
 # About this project
 
-In 2015, Feeding America reported that 1.5 million people in Los Angeles County lack sufficient funds to buy food, making it home to the US’s largest population of individuals affected by Food Insecurity. Today, there are hundreds of efforts – spanning the non-profit, community-based, governmental, educational and for-profit sectors – that are currently planning and implementing solutions for Food Insecurity in Los Angeles. 
+In 2015, Feeding America reported that 1.5 million people in Los Angeles County lack sufficient funds to buy food, making it home to the US’s largest population of individuals affected by Food Insecurity. Today, there are hundreds of efforts – spanning the non-profit, community-based, governmental, educational and for-profit sectors – that are currently planning and implementing solutions for Food Insecurity in Los Angeles.
 
 Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the complex landscape of these often disparate solutions on one map.
 
@@ -17,7 +17,7 @@ Food Oasis Los Angeles (FOLA) is creating a web/mobile platform to visualize the
 We’re a volunteer-based project and would love your donation!
 On the donation page, please choose *Los Angeles Brigade* and make it in honor of *Food Oasis LA* with the email address *info@foodoasis.la*
 
-<p class="action"><a href="https://www.codeforamerica.org/donate" target="_blank">Donate</a></p>
+<p class="action"><a href="https://www.hackforla.org/donate" target="_blank">Donate</a></p>
 
 ## FOLA’s platform is intended for use by:
 
@@ -60,8 +60,8 @@ On the donation page, please choose *Los Angeles Brigade* and make it in honor o
 				<ellipse cx="54.9" cy="31.8" rx="29" ry="31.8"/>
 		</svg>
 
-		<h2>Policy-makers</h2>
-		<h3>Politicians, non-profit organizations and community members</h3>
+		<h2>Advocates</h2>
+		<h3>Government staff, non-profit organizations and community members</h3>
 
 		<p>Find existing solutions along with “Food Deserts” and outcomes like health metrics and poverty rates. Take advantage of the visual information to fight Food Insecurity in your communities.</p>
 	</section>
