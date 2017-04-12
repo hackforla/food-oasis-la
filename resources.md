@@ -8,9 +8,11 @@ color: canteloupe
 
 # Healthy Food Resources
 
+<!--
 <p class="action">
 	<a href="#add">Add a resource</a>
 </p>
+-->
 
 ## Non-Profit and Policy Groups
 
@@ -40,6 +42,7 @@ color: canteloupe
 *   [The Grocery Gap, Who Has Access to Health Food and Why It Matters (PolicyLink)](http://thefoodtrust.org/uploads/media_items/grocerygap.original.pdf)
 *   [Studies Question the Pairing of Food Deserts and Obesity (The New York Times)](http://www.nytimes.com/2012/04/18/health/research/pairing-of-food-deserts-and-obesity-challenged-in-studies.html?_r=0)
 
+<!--
 <h2 id="add">Want to add your organization or resource to the list?</h2>
 <form action="https://formspree.io/contact@foodoasis.la" method="post">
 	<p>
@@ -76,5 +79,7 @@ color: canteloupe
     	<button type="submit">Send Message</button>
     </p>
 
+    <input type="hidden" name="_subject" value="Add a resource to foodoasis.la/resources" />
     <input type="text" name="_gotcha" style="display:none" />
 </form>
+-->
