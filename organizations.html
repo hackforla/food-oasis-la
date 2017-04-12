@@ -8,9 +8,11 @@ color: grape
 
 <h1>Food Organizations in Los Angeles</h1>
 
+<!--
 <p class="action">
 	<a href="#add">Add an organization</a>
 </p>
+-->
 
 <ul class="organization-list">
 {% for organization in site.data['organization'] %}
@@ -52,6 +54,7 @@ color: grape
 {% endfor %}
 </ul>
 
+<!--
 <h2 id="add">Want to add your organization or resource to the list?</h2>
 <form action="https://formspree.io/contact@foodoasis.la" method="post">
 	<p>
@@ -88,5 +91,7 @@ color: grape
     	<button type="submit">Send Message</button>
     </p>
 
+    <input type="hidden" name="_subject" value="Add an organization to foodoasis.la/organizations" />
     <input type="text" name="_gotcha" style="display:none" />
 </form>
+-->
