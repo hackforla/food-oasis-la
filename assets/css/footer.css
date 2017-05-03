@@ -226,15 +226,25 @@
 	footer .action {
 		text-align: center;
 		font-size: 1.25em;
+	}
+	footer form .action {
+		margin-top: 0;
+	}
+	footer form {
 		margin-top: 2.4em; /* 3em / 1.25em */
 	}
 	footer .action a,
 	footer .action a:hover,
 	footer .action a:active,
-	footer .action a:focus {
+	footer .action a:focus,
+	footer .action button,
+	footer .action button:hover,
+	footer .action button:active,
+	footer .action button:focus {
 		background: white !important;
 		color: black !important;
 		border-color: white !important;
+		text-transform: unset;
 	}
 
 
