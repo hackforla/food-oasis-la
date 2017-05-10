@@ -33,7 +33,9 @@ Areas with either a poverty rate of 20 percent or more, or a median family incom
 A low-income tract with at least 500 people or 33 percent of the population living more than 1 mile (urban areas) or more than 10 miles (rural areas) from the nearest supermarket, supercenter, or large grocery store. [[source]](http://www.ers.usda.gov/data-products/food-access-research-atlas/documentation.aspx)
 
 ## What is Cal Fresh?
-CalFresh, federally known as the Supplemental Nutrition Assistance Program (SNAP), can add to your food budget to put healthy and nutritious food on the table. The program issues monthly electronic benefits that can be used to buy most foods at many markets and food stores. [[Learn more]](https://getcalfresh.org/)
+CalFresh, federally known as the Supplemental Nutrition Assistance Program (SNAP), can add to your food budget to put healthy and nutritious food on the table. The program issues monthly electronic benefits that can be used to buy most foods at many markets and food stores.
+
+<p class="action"><a href="https://getcalfresh.org/" target="_blank">Learn More</a></p>
 
 ## What is food insecurity?
 Access to nutritionally adequate food is limited or uncertain. [[source]](http://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/measurement.aspx)
