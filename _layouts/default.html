@@ -32,9 +32,6 @@
 		{% assign stylesheets = layout.stylesheets %}
 	{% endif %}
 	{% for url in stylesheets %}
-	
-	<!-- Google Tag Manager -->
-	{% include google-tag-mgr-head.html %}
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
 
@@ -57,6 +54,8 @@
 	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
 	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
 
+	<!-- Google Tag Manager -->
+	{% include google-tag-mgr-head.html %}
 </head>
 <body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 
