@@ -261,13 +261,7 @@
 		width: 10em;
 		border-radius: 50%;
 	}
-	footer .sponsors h2,
-	footer .donate h2,
-	footer .contact h2 {
-		text-align: center;
-	}
 
-	footer .donate div,
 	footer .contact div {
 		margin-top: 3em;
 		text-align: center;
