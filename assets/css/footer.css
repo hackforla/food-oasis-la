@@ -234,17 +234,22 @@
 		margin-top: 2.4em; /* 3em / 1.25em */
 	}
 	footer .action a,
-	footer .action a:hover,
-	footer .action a:active,
-	footer .action a:focus,
-	footer .action button,
-	footer .action button:hover,
-	footer .action button:active,
-	footer .action button:focus {
+	footer .action button {
 		background: white !important;
 		color: black !important;
 		border-color: white !important;
 		text-transform: unset;
+	}
+	footer .action a:hover,
+	footer .action a:active,
+	footer .action a:focus,
+	footer .action button:hover,
+	footer .action button:active,
+	footer .action button:focus {
+		background: white !important;
+		background: rgba(255, 255, 255, 0.8) !important;
+		color: black !important;
+		border-color: white !important;
 	}
 
 
@@ -333,12 +338,6 @@
 	footer a:active .twitter .icon,
 	footer a:focus  .twitter .icon {
 		fill: #55ACEE;
-	}
-
-	footer .action a:hover,
-	footer .action a:active,
-	footer .action a:focus {
-		text-decoration: underline;
 	}
 
 	footer a .icon {
