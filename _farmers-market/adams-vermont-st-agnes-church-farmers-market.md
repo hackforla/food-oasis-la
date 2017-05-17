@@ -1,6 +1,6 @@
 ---
 FM_ID: ''
-name: Adams - Vermont Farmers Market / St. Agnes Church Farmer's Market
+name: Adams - Vermont Farmers Market / Saint Agnes Church Farmer's Market
 address_1: 1432 W Adams Blvd
 address_2: ''
 city: Los Angeles
