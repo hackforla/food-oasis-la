@@ -1,11 +1,11 @@
 ---
 name: Everytable
-address_1:1101 West 23rd Street
+address_1: 1101 West 23rd Street
 address_2:
 city: Los Angeles
 state: California
-zipcode:90007
-phone:213-973-5095
+zipcode: 90007
+phone: 213-973-5095
 website: https://www.everytable.com
 
 daily: true
