@@ -63,6 +63,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 ## Contributors (Thanks everyone!)
 
 * Ahmed Abdulkarim
+* Lori Abichandani
 * Jessica Ayunani
 * Dan Benson
 * Ebrahim Bhaiji
@@ -74,6 +75,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Melissa Halim
 * Raven Hardison
 * Regan Hutson
+* Jon Kim
 * Stella Kim
 * Michael Kunc
 * Hannah Lazarus
@@ -82,14 +84,13 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Danny Prikaz
 * Joshua Robins
 * Johnny Romano
+* JR Ruiz
 * Jon Schleuss
 * George Syrop
 * Wes Tawfik
 * Jim Thoburn
 * Arlene Waclawek
 * Halina Zarate
-* JR Ruiz
-* Jon Kim
 
 ## Want to contribute?
 Join us at [Hack for LA](http://www.hackforla.org/), Tuesdays at 6pm!
