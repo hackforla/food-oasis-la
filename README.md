@@ -14,7 +14,9 @@ As you make changes and commit/push them to GitHub, the [staging website](https:
 
 If you want to see a preview of your changes while you work, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) is a good place to start.
 
-Since it takes a while to generate the whole site, you may want to run Jekyll in “incremenetal” mode, like this… ```jekyll serve --incremental```. 
+Since it takes a while to generate the whole site, you may want to run Jekyll in “incremenetal” mode, like this…
+
+```jekyll serve --incremental```. 
 
 ## A summary of the project files
 
