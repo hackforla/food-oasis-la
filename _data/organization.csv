@@ -1,94 +1,94 @@
-name,website,type,map-layer,for-sale,wholesale,csa,free,garden-space,garden-supply,farming-education,advocacy,farming-research,inprogress,adopted,education,mapping,research,policy,fundraising,affordability,food-culture,advocacy,coll-dist,leadership,math-science-humanities,entrepreneur,job,economic,community,groups
-"California Department of Public Health, Nutrition Education and Obesity Prevention Branch",https://www.cdph.ca.gov/programs/NEOPB/Pages/Default.aspx,Governmental Agency,?,,,,,,,,,,,,x,,x,x,,,x,,,,,,,,,Individuals and Families
-"Los Angeles Regional Food Bank, Brown Bag Program",https://www.lafoodbank.org/get-help/programs-services/senior-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,Seniors
-"Los Angeles Regional Food Bank, Commodity Supplemental Food Program",https://www.lafoodbank.org/get-help/programs-services/senior-nutrition-programs/,Non-Profit Organization,?,,,,x,,,,,,,,,,,,,,,,,,,,,,,Seniors
-Seniors Farmers' Market Nutrition Program,https://www.cdfa.ca.gov/seniorfarmersmrktnutritionprgm/,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,,Seniors
-"Women, Infants & Children Farmers' Market Nutrition Program",http://www.cdph.ca.gov/programs/wicworks/pages/farmers'market-programoverview.aspx,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,,WIC
-"Women, Infants & Children Fruit and Vegetable Checks",http://www.cdph.ca.gov/programs/wicworks/pages/farmers'market-programoverview.aspx,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,,WIC
-"California Department of Education, Commodity Supplemental Food Program",http://www.cde.ca.gov/ls/nu/fd/csfp.asp,Governmental Agency,?,,,,,,,,,,,x,,,,,,,,,,,,,,,,WIC; Senior
-"American Friends Service Committee, Roots for Peace: Building Healthy Communities program",http://www.afsc.org/office/los-angeles-ca,"Non-Profit Organization, Religious",?,,,,,x,,x,,,,,,,,,,,,,,x,,,,,,Youth
-"Community Services Unlimited, From the Ground Up",http://csuinc.org/programs/from-the-ground-up/,Non-Profit Organization,Y,,,,,,,x,,,,,,,,,,,,,,x,,x,,,,Youth
-"Community Services Unlimited, Growing Healthy",http://csuinc.org/programs/growing-healthy/,Non-Profit Organization,Y,,,,,,,x,,x,,,x,,x,,,,x,,,x,,,,,,Youth
-"Los Angeles Conservation Corps, Clean & Green",http://lacorps.org/programs/clean-green/,Non-Profit Organization,?,,,,,,,x,,,,,,,,,,,,,,x,,,x,,,Youth
-"Los Angeles Conservation Corps, Little Green Fingers",http://lacorps.org/programs/little-green-fingers/,Non-Profit Organization,Y,,,,,,,x,x,,,,,,,,,,,,,,,,,,,Youth
-"Los Angeles Conservation Corps, Young Adult Corps Land Management Pat",http://lacorps.org/land-management/,Non-Profit Organization,?,,,,,,,,,,,,,,,,,,,,,x,,,x,,,Youth
-"Los Angeles Food Policy Council, School Garden Working Group",http://goodfoodla.org/policymaking/working-groups-2/school-garden-working-group/,Non-Profit Organization,Y,,,,,,,,x,,,,x,,,x,,,,,,,,,,,,Youth
-"Los Angeles Regional Food Bank, After-School Meal and Summer Lunch Program",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,x,,,,,Youth
-"Los Angeles Regional Food Bank, Backpack Program",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,Youth
-"Los Angeles Regional Food Bank, Kantry",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,Youth
-"Los Angeles Regional Food Bank, Produce 2 Kids",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,Youth
-Root Down LA,http://www.rootdownla.org/,Community Based Organization,?,,,,,,,,,,,,x,,,,,,x,,,,,,,,,Youth
-"Sustainable Economic Enterprises of Los Angeles, Farm to School",http://www.seela.org/bring-the-farmer-to-your-school-program/,Non-Profit Organization,N,,,,,,,x,,,,,,,,,,,x,,,,,,,,,Youth
-The Kitchen Community,https://thekitchencommunity.org/,Non-Profit Organization,Y,,,,,x,,x,,,,,,,,,,,,,,,x,,,,,Youth
-"Social Justice Learning Institute, 100 Seeds of Change",http://www.sjli.org/program/health-equity/100-seeds-change,Non-Profit Organization,,,,,,x,,x,x,,,,,,,,,,,,,,,,,,,Youth +
-American Community Gardening Association,https://communitygarden.org/,Non-Profit Organization,Y,,,,,x,,x,,x,,,,,,,,,,,,,,,,,x,
-California Association of Food Banks,http://www.cafoodbanks.org/advocacy,Non-Profit Organization,?,,,,,,,,,,,,x,,,x,,,,,,,,,,,,
-"California Association of Food Banks, Farm to Family",http://www.cafoodbanks.org/farm-family,Non-Profit Organization,?,,,,,,,,,,,,,,,,,,,,x,,,,,,,
-"California Department of Public Health, Nutrition Education and Obesity Prevention Branch",http://www.dss.cahwnet.gov/efap/,Governmental Agency,?,,,,,,,,,,,x,,,,,,,,,,,,,,,,
-"California Department of Public Health, WIC Centers",https://m.wic.ca.gov/WICMobile/Clinics/ClinicSearch.aspx,"Governmental Agency, Subsidy",Y,,,,,,,,,,,,,,,,,,,,,,,,,,,WIC
-"California Department of Public Health, Women Infants and Children Program",https://www.cdph.ca.gov/programs/wicworks/pages/default.aspx,"Governmental Agency, Subsidy",N,,,,,,,,,,,,,,,,,,,,,,,,,,,WIC
-California Market Match,http://marketmatch.org/,Subsidy,Y,,,,,,,,,,,x,,,,,,x,,,,,,,,,,
-California WIC Association,http://www.calwic.org/,Non-Profit Organization,,,,,,,,,,,,,,,,x,,,,,,,,,,,,WIC
-"Child and Adult Care Food Program (See Los Angeles Regional Food Bank, After-School Meal and Summer Lunch Program)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cityscape Seeds,https://www.change-making.com/gardens/cityscape-seeds/,For-Profit,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Community Redevelopment Agency of the City of Los Angeles, Community Market Conversion Program",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,Y,x,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Community Redevelopment Agency of the City of Los Angeles, Food Retailers Incentive Program",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,,,,,,,,,,,,,,,,x,,,,,,,,,,,,
-"Community Redevelopment Agency of the City of Los Angeles, Fresh Works Fund",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,?,,,,,,,,,,,,,,,,,,,,,,,,x,,,
-"Community Services Unlimited, Village Market Place",http://csuinc.org/programs/village-market-place/,Non-Profit Organization,Y,x,x,x,,,,,,,,,,,,,,,,,,,,,x,,,
-Earthbox,http://earthbox.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,,
-"Fallen Fruit, Del Aire Public Fruit Park",http://fallenfruit.org/projects/public-fruit-park-los-angeles/,Community Activist,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
-Farmer's Market CalFresh/EBT,,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,,
-Farmscape,http://farmscapegardens.com/,For-Profit,?,,,,,x,,,,,,,,,,,,,,,,,,,,,,
-Food Finders,http://www.foodfinders.org/,Non-Profit Organization,N,,,,,,,,,,,,,,,,,,,x,,,,,,,,
-"Food Finders, Food Pantries",http://www.foodfinders.org/wp-content/uploads/2016/05/WEBlistDec2015.pdf,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
-Food Forward,https://foodforward.org/,Non-Profit Organization,?,,,,,,,,,,,,x,,,,,,x,,x,,,,,,,
+name,website,type,map-layer,for-sale,wholesale,csa,free,garden-space,garden-supply,farming-education,advocacy,farming-research,inprogress,adopted,education,mapping,research,policy,fundraising,affordability,food-culture,coll-dist,leadership,math-science-humanities,entrepreneur,job,economic,community,groups
+" Hello!",https://www.cdph.ca.gov/programs/NEOPB/Pages/Default.aspx,Governmental Agency,?,,,,,,,,,,,,x,,x,x,,,x,,,,,,,,Individuals and Families
+"Los Angeles Regional Food Bank, Brown Bag Program",https://www.lafoodbank.org/get-help/programs-services/senior-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,Seniors
+"Los Angeles Regional Food Bank, Commodity Supplemental Food Program",https://www.lafoodbank.org/get-help/programs-services/senior-nutrition-programs/,Non-Profit Organization,?,,,,x,,,,,,,,,,,,,,,,,,,,,,Seniors
+Seniors Farmers' Market Nutrition Program,https://www.cdfa.ca.gov/seniorfarmersmrktnutritionprgm/,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,Seniors
+"Women, Infants & Children Farmers' Market Nutrition Program",http://www.cdph.ca.gov/programs/wicworks/pages/farmers'market-programoverview.aspx,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,WIC
+"Women, Infants & Children Fruit and Vegetable Checks",http://www.cdph.ca.gov/programs/wicworks/pages/farmers'market-programoverview.aspx,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,WIC
+"California Department of Education, Commodity Supplemental Food Program",http://www.cde.ca.gov/ls/nu/fd/csfp.asp,Governmental Agency,?,,,,,,,,,,,x,,,,,,,,,,,,,,,WIC; Senior
+"American Friends Service Committee, Roots for Peace: Building Healthy Communities program",http://www.afsc.org/office/los-angeles-ca,"Non-Profit Organization, Religious",?,,,,,x,,x,,,,,,,,,,,,,x,,,,,,Youth
+"Community Services Unlimited, From the Ground Up",http://csuinc.org/programs/from-the-ground-up/,Non-Profit Organization,Y,,,,,,,x,,,,,,,,,,,,,x,,x,,,,Youth
+"Community Services Unlimited, Growing Healthy",http://csuinc.org/programs/growing-healthy/,Non-Profit Organization,Y,,,,,,,x,,x,,,x,,x,,,,x,,x,,,,,,Youth
+"Los Angeles Conservation Corps, Clean & Green",http://lacorps.org/programs/clean-green/,Non-Profit Organization,?,,,,,,,x,,,,,,,,,,,,,x,,,x,,,Youth
+"Los Angeles Conservation Corps, Little Green Fingers",http://lacorps.org/programs/little-green-fingers/,Non-Profit Organization,Y,,,,,,,x,,,,,,,,,,,,,,,,,,,Youth
+"Los Angeles Conservation Corps, Young Adult Corps Land Management Pat",http://lacorps.org/land-management/,Non-Profit Organization,?,,,,,,,,,,,,,,,,,,,,x,,,x,,,Youth
+"Los Angeles Food Policy Council, School Garden Working Group",http://goodfoodla.org/policymaking/working-groups-2/school-garden-working-group/,Non-Profit Organization,Y,,,,,,,,,,,,x,,,x,,,,,,,,,,,Youth
+"Los Angeles Regional Food Bank, After-School Meal and Summer Lunch Program",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,x,,,,,Youth
+"Los Angeles Regional Food Bank, Backpack Program",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,Youth
+"Los Angeles Regional Food Bank, Kantry",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,Youth
+"Los Angeles Regional Food Bank, Produce 2 Kids",https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,Youth
+Root Down LA,http://www.rootdownla.org/,Community Based Organization,?,,,,,,,,,,,,x,,,,,,x,,,,,,,,Youth
+"Sustainable Economic Enterprises of Los Angeles, Farm to School",http://www.seela.org/bring-the-farmer-to-your-school-program/,Non-Profit Organization,N,,,,,,,x,,,,,,,,,,,x,,,,,,,,Youth
+The Kitchen Community,https://thekitchencommunity.org/,Non-Profit Organization,Y,,,,,x,,x,,,,,,,,,,,,,,x,,,,,Youth
+"Social Justice Learning Institute, 100 Seeds of Change",http://www.sjli.org/program/health-equity/100-seeds-change,Non-Profit Organization,,,,,,x,,x,,,,,,,,,,,,,,,,,,,Youth +
+American Community Gardening Association,https://communitygarden.org/,Non-Profit Organization,Y,,,,,x,,x,,x,,,,,,,,,,,,,,,,x,
+California Association of Food Banks,http://www.cafoodbanks.org/advocacy,Non-Profit Organization,?,,,,,,,,,,,,x,,,x,,,,,,,,,,,
+"California Association of Food Banks, Farm to Family",http://www.cafoodbanks.org/farm-family,Non-Profit Organization,?,,,,,,,,,,,,,,,,,,,x,,,,,,,
+"California Department of Public Health, Nutrition Education and Obesity Prevention Branch",http://www.dss.cahwnet.gov/efap/,Governmental Agency,?,,,,,,,,,,,x,,,,,,,,,,,,,,,
+"California Department of Public Health, WIC Centers",https://m.wic.ca.gov/WICMobile/Clinics/ClinicSearch.aspx,"Governmental Agency, Subsidy",Y,,,,,,,,,,,,,,,,,,,,,,,,,,WIC
+"California Department of Public Health, Women Infants and Children Program",https://www.cdph.ca.gov/programs/wicworks/pages/default.aspx,"Governmental Agency, Subsidy",N,,,,,,,,,,,,,,,,,,,,,,,,,,WIC
+California Market Match,http://marketmatch.org/,Subsidy,Y,,,,,,,,,,,x,,,,,,x,,,,,,,,,
+California WIC Association,http://www.calwic.org/,Non-Profit Organization,,,,,,,,,,,,,,,,x,,,,,,,,,,,WIC
+"Child and Adult Care Food Program (See Los Angeles Regional Food Bank, After-School Meal and Summer Lunch Program)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cityscape Seeds,https://www.change-making.com/gardens/cityscape-seeds/,For-Profit,Y,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Community Redevelopment Agency of the City of Los Angeles, Community Market Conversion Program",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,Y,x,,,,,,,,,,,,,,,,,,,,,,,,,
+"Community Redevelopment Agency of the City of Los Angeles, Food Retailers Incentive Program",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,,,,,,,,,,,,,,,,x,,,,,,,,,,,
+"Community Redevelopment Agency of the City of Los Angeles, Fresh Works Fund",http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm,Governmental Agency,?,,,,,,,,,,,,,,,,,,,,,,,x,,,
+"Community Services Unlimited, Village Market Place",http://csuinc.org/programs/village-market-place/,Non-Profit Organization,Y,x,x,x,,,,,,,,,,,,,,,,,,,,x,,,
+Earthbox,http://earthbox.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,
+"Fallen Fruit, Del Aire Public Fruit Park",http://fallenfruit.org/projects/public-fruit-park-los-angeles/,Community Activist,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
+Farmer's Market CalFresh/EBT,,Subsidy,Y,,,,,,,,,,,x,,,,,,,,,,,,,,,
+Farmscape,http://farmscapegardens.com/,For-Profit,?,,,,,x,,,,,,,,,,,,,,,,,,,,,
+Food Finders,http://www.foodfinders.org/,Non-Profit Organization,N,,,,,,,,x,,,,,,,,,,,,,,,,,,
+"Food Finders, Food Pantries",http://www.foodfinders.org/wp-content/uploads/2016/05/WEBlistDec2015.pdf,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
+Food Forward,https://foodforward.org/,Non-Profit Organization,?,,,,,,,,,,,,x,,,,,,x,x,,,,,,,
 "Hildemar Cruz, ""A Geospatial Analysis of Income Level, Food Deserts and
-Urban Agriculture Hot Spots""",http://spatial.usc.edu/wp-content/uploads/2016/03/Cruz-Hildemar.pdf,Research Paper,Y,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hunger Action LA,http://www.hungeractionla.org/,Non-Profit Organization,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Juice Plus+ Tower Gardens,http://ds92016.towergarden.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,,
-LA Green Grounds,http://www.lagreengrounds.org/,Community Based Organization,Y,,,,,,,x,,,,,,,,,,,,,,,,,,,,
-"Leadership for Urban Renewal Networ, The Semi’a Fund",http://lurnetwork.org/work/capital/,Non-Profit Organization,N,,,,,,,,,,,,,,,,x,,x,,,,,,,,,
-Local Roots Farms,http://www.localrootsfarms.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,,
-Locol,http://www.welocol.com/,For-Profit,Y,,,,,,,,,,,,,,,,,x,,,,,,,x,,x,
-"Los Angeles Alliance for a New Economy, Shop Well LA",http://www.laane.org/what-we-do/projects/shopwellla/,Non-Profit Organization,N,,,,,,,,,,,,,,,x,,,,,,,,,x,,,
-"Los Angeles Community Action Network, Community Health",http://cangress.org/our-work/community-health/,Non-Profit Organization,?,,,,x,,,x,x,,,,x,,,x,,,,,,,,,,,,
-"Los Angeles Community Action Network, South LA Pop-Up Product Market",http://cangress.org/our-work/la-can-south-la-pop-up-market/,Non-Profit Organization,Y,x,,,,,,,,,,,x,,,,,x,x,,,,,,,,,
-Los Angeles Community Garden Council,http://lagardencouncil.org/,Non-Profit Organization,Y,,,,,x,,x,x,,,,,,,,,,,,,,,,,,,
-"Los Angeles County Department of Social Services, CalFresh",http://www.dss.cahwnet.gov/foodstamps/,Subsidy,N,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Los Angeles County Health Department,http://publichealth.lacounty.gov/,Governmental Agency,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Los Angeles Food Policy Council,http://goodfoodla.org/,Non-Profit Organization,,,,,,,,,,,,,x,,x,x,,,x,,,x,,,,x,,
-"Los Angeles Food Policy Council, Farmer' Markets for All Working Group",http://goodfoodla.org/policymaking/working-groups-2/farmers-markets-for-all/,Non-Profit Organization,N,,,,,,,,,,x,x,,,,x,,x,,,,,,,,,,
-"Los Angeles Food Policy Council, Food Resource Recovery Working Group",http://goodfoodla.org/policymaking/working-groups-2/food-resource-recovery-working-group/,Non-Profit Organization,?,,,,,,,,,,,,,,,x,,x,,x,,,,,,,,
-"Los Angeles Food Policy Council, Healthy Food Retail + Food Equity Working Group",http://goodfoodla.org/policymaking/working-groups-2/healthy-food-retail/,Non-Profit Organization,Y,,,,,,,,,,,,,,x,x,,,x,,,,,,,,,
-"Los Angeles Food Policy Council, Street Food Working Group",http://goodfoodla.org/policymaking/working-groups-2/street-food/,Non-Profit Organization,?,,,,,,,,,,,,x,,x,x,,x,,,,,,,,,,
-"Los Angeles Food Policy Council, Sustainable Seafood Working Group",http://goodfoodla.org/policymaking/working-groups-2/sustainable-seafood/,Non-Profit Organization,Y,,,,,,,,,,,,x,,x,x,,,,,,,,,,,,
-"Los Angeles Food Policy Council, Urban Agriculture Working Group",http://goodfoodla.org/policymaking/working-groups-2/urban-agriculture/,Non-Profit Organization,?,,,,,,,,x,x,x,,,,x,x,,,,,,,,,,,,
-Los Angeles Neighborhood Land Trust,http://www.lanlt.org/,Non-Profit Organization,Y,,,,,x,,x,x,,,,,,,,,,,,,x,,,x,,,
-Los Angeles Regional Food Bank,https://www.lafoodbank.org/,Non-Profit Organization,Y,,,,,,,,,,,,x,,,x,x,,,,,,,,,,,
-"Los Angeles Regional Food Bank, Mobile Food Pantry",https://www.lafoodbank.org/get-help/programs-services/food-distribution/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
-"Los Angeles Regional Food Bank, Partner Agencies",https://www.lafoodbank.org/get-help/pantry-locator/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
-"Los Angeles Regional Food Bank, Rapid Food Distribution",https://www.lafoodbank.org/get-help/programs-services/food-distribution/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
-"Meet Each Need with Dignity, Grow Together Project",http://mendpoverty.org/programs/home-garden-program,Non-Profit Organization,Y,,,,,x,,,x,,,,,,,,,,,,,,,,,,,
-Metabolic Studio,http://www.metabolicstudio.org/,Community Based Organization,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Proyecto Jardin,http://www.proyectojardin.org/#welcome,Community Based Organization,?,,,,,x,,,,,,,,,,,,,,,,,,,,,,
-"Ride South LA, Healthy Food Map",http://ridesouthla.com/food-map/,Community Based Organization,N,,,,,,,,,,,,,x,,,,,,,,,,,,,,
-Ron Finley Project,http://ronfinley.com/,Community Activist,?,,,,x,x,,x,,,,,,,,,,,,,,,,,,,,
-Seed Library of Los Angeles,http://slola.org/,Non-Profit Organization,Y,,,,,,x,,,,,,,,,,,,,,,,,,,,,
-Seeds of Change,https://www.seedsofchange.com/Home.aspx,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,,
-Social Justice Learning Institute,http://www.sjli.org/program/health-equity,Non-Profit Organization,?,,,,,,,,,,,,,,x,,,,,,,,,,,,,
-"Social Justice Learning Institute, Community Supported Agriculture",http://www.sjli.org/program/health-equity/hsic,Non-Profit Organization,Y,,,,,,,,,,,,,,x,x,,,,,,,,,,,,
-"Social Justice Learning Institute, Healthy and Sustainable Inglewood Collaborative",http://www.sjli.org/program/health-equity/community-supported-agriculture,Non-Profit Organization,Y,x,,x,,,,,,,,,,,,,,,,,,,,,,,,
-"Social Justice Learning Institute, Healthy Lifestyle Education",http://www.sjli.org/program/health-equity/healthy-lifestyle-education,Non-Profit Organization,N,,,,,,,,,,,,x,,,,,,x,,,,,,,,,
-"Social Justice Learning Institute, Research",http://sjli.org/sites/default/files/PG_and_SJLI_Final_Paper.pdf#overlay-context=program/health-equity/research-and-resources,Research Paper,N,,,,,,,,,,,,,,,,,,,,,,,,,,,
-South Central Farmers Cooperative,http://www.scfcoop.southcentralfarmers.com/,Non-Profit Organization,Y,x,,x,,,,,,,,,,,,,,,,,,,,,,,,
-"Sustainable Economic Enterprises of Los Angeles, Farmer's Markets",http://www.seela.org/,Non-Profit Organization,Y,x,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Sustainable Economic Enterprises of Los Angeles, Pompea Smith Good Cooking/ Buena Cocina Nutrition Education Program",http://www.seela.org/programs/pompea-smith-good-cooking-buena-cocina-nutrition-education-program/,Non-Profit Organization,Y,,,,,,,,,,,,x,,,,,,x,,,,,,,,,
-"The California Endowment, Neighborhoods Initiative",http://www.calendow.org/neighborhoods/,Non-Profit Organization,?,,,,,,,,,,,,,,,x,,,,,,,,,,,,
-The Urban Agriculture Incentive Zones Act (AB551),http://ucanr.edu/sites/UrbanAg/Laws_Zoning_and_Regulations/The_Urban_Agriculture_Incentive_Zones_Act_AB551/,Legislation,Y,,,,,x,,,,,,x,,,,,,,,,,,,,,,,
-Thrive Market,https://thrivemarket.com/,For-Profit,N,x,,,,,,,,,,,,,,,,x,x,,,,,,,,,
-"U. S. Department of Housing and Urban Development, Community Development Block Grant Program",http://portal.hud.gov/hudportal/HUD?src=/program_offices/comm_planning/communitydevelopment/programs,Government Agency,,,,,,,,,,,,,,,,,x,,,,,,,,,,,
-"UCLA and UC Cooperative Extension LA, Cultivate LA",https://cultivatelosangeles.org/,Educational Institution,N,,,,,,,,,x,,,x,x,x,,,,,,,,,,,x,,
-"University of California Cooperative Extension, Master Gardener Program",http://celosangeles.ucanr.edu/UC_Master_Gardener_Program/,Educational Institution,Y,,,,,,,x,,,,,,,,,,,,,,,,,,,,
-"University of California Davis, Agricultural Sustainability Institute",http://asi.ucdavis.edu/,Educational Institution,,,,,,,,,,x,,,,,,,,,,,,x,,,,,,
-"University of California Davis, Russell Ranch Sustainable Agriculture Facility",http://asi.ucdavis.edu/programs/rr/,Educational Institution,?,,,,,,,x,,x,,,,,,,,,,,,,,,,,,
-Westside Food Bank,http://www.westsidefoodbankca.org/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,,
+Urban Agriculture Hot Spots""",http://spatial.usc.edu/wp-content/uploads/2016/03/Cruz-Hildemar.pdf,Research Paper,Y,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hunger Action LA,http://www.hungeractionla.org/,Non-Profit Organization,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Juice Plus+ Tower Gardens,http://ds92016.towergarden.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,
+LA Green Grounds,http://www.lagreengrounds.org/,Community Based Organization,Y,,,,,,,x,,,,,,,,,,,,,,,,,,,
+"Leadership for Urban Renewal Networ, The Semi’a Fund",http://lurnetwork.org/work/capital/,Non-Profit Organization,N,,,,,,,,,,,,,,,,x,,x,,,,,,,,
+Local Roots Farms,http://www.localrootsfarms.com/,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,
+Locol,http://www.welocol.com/,For-Profit,Y,,,,,,,,,,,,,,,,,x,,,,,,x,,x,
+"Los Angeles Alliance for a New Economy, Shop Well LA",http://www.laane.org/what-we-do/projects/shopwellla/,Non-Profit Organization,N,,,,,,,,,,,,,,,x,,,,,,,,x,,,
+"Los Angeles Community Action Network, Community Health",http://cangress.org/our-work/community-health/,Non-Profit Organization,?,,,,x,,,x,,,,,x,,,x,,,,,,,,,,,
+"Los Angeles Community Action Network, South LA Pop-Up Product Market",http://cangress.org/our-work/la-can-south-la-pop-up-market/,Non-Profit Organization,Y,x,,,,,,,,,,,x,,,,,x,x,,,,,,,,
+Los Angeles Community Garden Council,http://lagardencouncil.org/,Non-Profit Organization,Y,,,,,x,,x,,,,,,,,,,,,,,,,,,,
+"Los Angeles County Department of Social Services, CalFresh",http://www.dss.cahwnet.gov/foodstamps/,Subsidy,N,,,,,,,,,,,,,,,,,,,,,,,,,,
+Los Angeles County Health Department,http://publichealth.lacounty.gov/,Governmental Agency,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Los Angeles Food Policy Council,http://goodfoodla.org/,Non-Profit Organization,,,,,,,,,,,,,x,,x,x,,,x,,x,,,,x,,
+"Los Angeles Food Policy Council, Farmer' Markets for All Working Group",http://goodfoodla.org/policymaking/working-groups-2/farmers-markets-for-all/,Non-Profit Organization,N,,,,,,,,,,x,x,,,,x,,x,,,,,,,,,
+"Los Angeles Food Policy Council, Food Resource Recovery Working Group",http://goodfoodla.org/policymaking/working-groups-2/food-resource-recovery-working-group/,Non-Profit Organization,?,,,,,,,,x,,,,,,,x,,x,,,,,,,,,
+"Los Angeles Food Policy Council, Healthy Food Retail + Food Equity Working Group",http://goodfoodla.org/policymaking/working-groups-2/healthy-food-retail/,Non-Profit Organization,Y,,,,,,,,,,,,,,x,x,,,x,,,,,,,,
+"Los Angeles Food Policy Council, Street Food Working Group",http://goodfoodla.org/policymaking/working-groups-2/street-food/,Non-Profit Organization,?,,,,,,,,,,,,x,,x,x,,x,,,,,,,,,
+"Los Angeles Food Policy Council, Sustainable Seafood Working Group",http://goodfoodla.org/policymaking/working-groups-2/sustainable-seafood/,Non-Profit Organization,Y,,,,,,,,,,,,x,,x,x,,,,,,,,,,,
+"Los Angeles Food Policy Council, Urban Agriculture Working Group",http://goodfoodla.org/policymaking/working-groups-2/urban-agriculture/,Non-Profit Organization,?,,,,,,,,,x,x,,,,x,x,,,,,,,,,,,
+Los Angeles Neighborhood Land Trust,http://www.lanlt.org/,Non-Profit Organization,Y,,,,,x,,x,,,,,,,,,,,,,x,,,x,,,
+Los Angeles Regional Food Bank,https://www.lafoodbank.org/,Non-Profit Organization,Y,,,,,,,,,,,,x,,,x,x,,,,,,,,,,
+"Los Angeles Regional Food Bank, Mobile Food Pantry",https://www.lafoodbank.org/get-help/programs-services/food-distribution/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
+"Los Angeles Regional Food Bank, Partner Agencies",https://www.lafoodbank.org/get-help/pantry-locator/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
+"Los Angeles Regional Food Bank, Rapid Food Distribution",https://www.lafoodbank.org/get-help/programs-services/food-distribution/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
+"Meet Each Need with Dignity, Grow Together Project",http://mendpoverty.org/programs/home-garden-program,Non-Profit Organization,Y,,,,,x,,,,,,,,,,,,,,,,,,,,,
+Metabolic Studio,http://www.metabolicstudio.org/,Community Based Organization,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Proyecto Jardin,http://www.proyectojardin.org/#welcome,Community Based Organization,?,,,,,x,,,,,,,,,,,,,,,,,,,,,
+"Ride South LA, Healthy Food Map",http://ridesouthla.com/food-map/,Community Based Organization,N,,,,,,,,,,,,,x,,,,,,,,,,,,,
+Ron Finley Project,http://ronfinley.com/,Community Activist,?,,,,x,x,,x,,,,,,,,,,,,,,,,,,,
+Seed Library of Los Angeles,http://slola.org/,Non-Profit Organization,Y,,,,,,x,,,,,,,,,,,,,,,,,,,,
+Seeds of Change,https://www.seedsofchange.com/Home.aspx,For-Profit,N,,,,,,x,,,,,,,,,,,,,,,,,,,,
+Social Justice Learning Institute,http://www.sjli.org/program/health-equity,Non-Profit Organization,?,,,,,,,,,,,,,,x,,,,,,,,,,,,
+"Social Justice Learning Institute, Community Supported Agriculture",http://www.sjli.org/program/health-equity/hsic,Non-Profit Organization,Y,,,,,,,,,,,,,,x,x,,,,,,,,,,,
+"Social Justice Learning Institute, Healthy and Sustainable Inglewood Collaborative",http://www.sjli.org/program/health-equity/community-supported-agriculture,Non-Profit Organization,Y,x,,x,,,,,,,,,,,,,,,,,,,,,,,
+"Social Justice Learning Institute, Healthy Lifestyle Education",http://www.sjli.org/program/health-equity/healthy-lifestyle-education,Non-Profit Organization,N,,,,,,,,,,,,x,,,,,,x,,,,,,,,
+"Social Justice Learning Institute, Research",http://sjli.org/sites/default/files/PG_and_SJLI_Final_Paper.pdf#overlay-context=program/health-equity/research-and-resources,Research Paper,N,,,,,,,,,,,,,,,,,,,,,,,,,,
+South Central Farmers Cooperative,http://www.scfcoop.southcentralfarmers.com/,Non-Profit Organization,Y,x,,x,,,,,,,,,,,,,,,,,,,,,,,
+"Sustainable Economic Enterprises of Los Angeles, Farmer's Markets",http://www.seela.org/,Non-Profit Organization,Y,x,,,,,,,,,,,,,,,,,,,,,,,,,
+"Sustainable Economic Enterprises of Los Angeles, Pompea Smith Good Cooking/ Buena Cocina Nutrition Education Program",http://www.seela.org/programs/pompea-smith-good-cooking-buena-cocina-nutrition-education-program/,Non-Profit Organization,Y,,,,,,,,,,,,x,,,,,,x,,,,,,,,
+"The California Endowment, Neighborhoods Initiative",http://www.calendow.org/neighborhoods/,Non-Profit Organization,?,,,,,,,,,,,,,,,x,,,,,,,,,,,
+The Urban Agriculture Incentive Zones Act (AB551),http://ucanr.edu/sites/UrbanAg/Laws_Zoning_and_Regulations/The_Urban_Agriculture_Incentive_Zones_Act_AB551/,Legislation,Y,,,,,x,,,,,,x,,,,,,,,,,,,,,,
+Thrive Market,https://thrivemarket.com/,For-Profit,N,x,,,,,,,,,,,,,,,,x,x,,,,,,,,
+"U. S. Department of Housing and Urban Development, Community Development Block Grant Program",http://portal.hud.gov/hudportal/HUD?src=/program_offices/comm_planning/communitydevelopment/programs,Government Agency,,,,,,,,,,,,,,,,,x,,,,,,,,,,
+"UCLA and UC Cooperative Extension LA, Cultivate LA",https://cultivatelosangeles.org/,Educational Institution,N,,,,,,,,,x,,,x,x,x,,,,,,,,,,x,,
+"University of California Cooperative Extension, Master Gardener Program",http://celosangeles.ucanr.edu/UC_Master_Gardener_Program/,Educational Institution,Y,,,,,,,x,,,,,,,,,,,,,,,,,,,
+"University of California Davis, Agricultural Sustainability Institute",http://asi.ucdavis.edu/,Educational Institution,,,,,,,,,,x,,,,,,,,,,,x,,,,,,
+"University of California Davis, Russell Ranch Sustainable Agriculture Facility",http://asi.ucdavis.edu/programs/rr/,Educational Institution,?,,,,,,,x,,x,,,,,,,,,,,,,,,,,
+Westside Food Bank,http://www.westsidefoodbankca.org/,Non-Profit Organization,Y,,,,x,,,,,,,,,,,,,,,,,,,,,,
