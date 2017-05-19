@@ -8,13 +8,13 @@ https://foodoasis.la
 
 The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
-As you make changes and commit/push them to GitHub, the website will automatically update.
+As you make changes and commit/push them to GitHub, the [staging website](https://staging.foodoasis.la) will automatically update.
 
 ## How to develop locally
 
-If you want to see a preview of your changes before they appear on the live site, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) is a good place to start.
+If you want to see a preview of your changes while you work, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) is a good place to start.
 
-To run the server, you can ```jekyll serve```. 
+Since it takes a while to generate the whole site, you may want to run Jekyll in “incremenetal” mode, like this… ```jekyll serve --incremental```. 
 
 ## A summary of the project files
 
