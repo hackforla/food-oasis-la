@@ -16,7 +16,7 @@ If you want to see a preview of your changes while you work, you can [run a Jeky
 
 Since it takes a while to generate the whole site, you may want to run Jekyll in “incremenetal” mode, like this…
 
-```jekyll serve --incremental```. 
+```jekyll serve --incremental```
 
 ## A summary of the project files
 
