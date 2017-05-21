@@ -44,7 +44,6 @@
 		height: 50vh;
 	}
 
-	/*
 	.only-map main,
 	.only-map .pagination {
 		display: none !important;
@@ -54,8 +53,8 @@
 	.only-list .location-summary-container {
 		display: none !important;
 	}
-	*/
 
+	/*
 	@media screen and (max-width: 800px) {
 		.only-map main, .only-map .pagination {
 			display: none !important;
@@ -97,6 +96,7 @@
 			display: none !important;
 		}
 	}
+	*/
 
 
 	/* =You are here
