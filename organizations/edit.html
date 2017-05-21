@@ -1,0 +1,103 @@
+---
+layout: default
+
+title: Food Organizations in Los Angeles
+
+color: grape
+
+stylesheets:
+  - "https://get.mavo.io/mavo.css"
+---
+
+<h1>Food Organizations in Los Angeles</h1>
+
+<!--
+<p class="action">
+	<a href="#add">Add an organization</a>
+</p>
+-->
+
+<script src="https://get.mavo.io/mavo.js"></script>
+
+<ul class="organization-list" mv-app="organization" mv-storage="https://github.com/foodoasisla/site/blob/master/_data/organization.csv" mv-format="csv">
+{% for organization in site.data['organization'] %}
+	<li property="organization" mv-multiple>
+		<a href="{{ organization['website'] }}" property="website">
+			<h2 property="name">{{ organization['name'] }}</h2>
+			{% if organization['type'] %}<p class="type" property="type">{{ organization['type'] }}{% if organization['groups'] %}
+					for 
+					{% if organization['groups'] == 'WIC' %} Women, Infants and Children{% endif %}{% if organization['groups'] != 'WIC' %} {{ organization['groups'] }}{% endif %}{% endif %}</p>{% endif %}<ul class="tags">
+				{% if organization['for-sale'] %}<li>Food for sale</li>{% endif %}
+				{% if organization['wholesale'] %}<li>Wholesale food</li>{% endif %}
+				{% if organization['csa'] %}<li>Community garden</li>{% endif %}
+				{% if organization['free'] %}<li>Free food</li>{% endif %}
+				{% if organization['garden-space'] %}<li>Garden space</li>{% endif %}
+				{% if organization['garden-supply'] %}<li>Garden supply</li>{% endif %}
+				{% if organization['farming-education'] %}<li>Farming education</li>{% endif %}
+				{% if organization['advocacy'] %}<li>Farming/Gardening advocacy</li>{% endif %}
+				{% if organization['farming-research'] %}<li>Farming/Gardening research</li>{% endif %}
+				{% if organization['inprogress'] %}<li>In progress legislation</li>{% endif %}
+				{% if organization['adopted'] %}<li>Adopted legislation</li>{% endif %}
+				{% if organization['education'] %}<li>Food equity education</li>{% endif %}
+				{% if organization['mapping'] %}<li>Food equity mapping</li>{% endif %}
+				{% if organization['research'] %}<li>Food equity research</li>{% endif %}
+				{% if organization['policy'] %}<li>Food equity policy</li>{% endif %}
+				{% if organization['fundraising'] %}<li>Fundraising for food equity advocacy</li>{% endif %}
+				{% if organization['affordability'] %}<li>Food affordability</li>{% endif %}
+				{% if organization['food-culture'] %}<li>Food culture</li>{% endif %}
+				{% if organization['advocacy'] %}<li>Food waste advocacy</li>{% endif %}
+				{% if organization['coll-dist'] %}<li>Food waste collection/distribution</li>{% endif %}
+				{% if organization['leadership'] %}<li>Leadership skills</li>{% endif %}
+				{% if organization['math-science-humanities'] %}<li>Math, science &amp; humanities skills</li>{% endif %}
+				{% if organization['entrepreneur'] %}<li>Entrepreneur skills</li>{% endif %}
+				{% if organization['job'] %}<li>Job development</li>{% endif %}
+				{% if organization['economic'] %}<li>Economic development</li>{% endif %}
+				{% if organization['community'] %}<li>Community development</li>{% endif %}
+
+			</ul>
+		</a>
+	</li>
+{% endfor %}
+</ul>
+
+<!--
+<h2 id="add">Want to add your organization or resource to the list?</h2>
+<form action="https://formspree.io/contact@foodoasis.la" method="post">
+	<p>
+		<label>
+			<span>Your Name</span><br />
+			<input type="text" name="name" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Your Email</span><br />
+			<input type="email" name="_replyto" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Resource</span><br />
+			<input type="text" name="resource_title" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>URL</span><br />
+			<input type="text" name="resource_url" />
+		</label>
+	</p>
+	<p>
+		<label>
+			<span>Is there anything else you’d like to tell us?</span><br />
+			<textarea name="message"></textarea>
+		</label>
+	</p>
+    <p class="action">
+    	<button type="submit">Send Message</button>
+    </p>
+
+    <input type="hidden" name="_subject" value="Add an organization to foodoasis.la/organizations" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+-->
