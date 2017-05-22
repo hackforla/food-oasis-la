@@ -187,6 +187,9 @@ organization:
     tags:
       - Food Waste Collection/Distribution
   - website: 'http://www.dss.cahwnet.gov/efap/'
+    name: >-
+      California Department of Public Health, Nutrition Education and Obesity
+      Prevention Branch
     tags:
       - Adopted Legislation
   - website: 'https://m.wic.ca.gov/WICMobile/Clinics/ClinicSearch.aspx'
