@@ -17,6 +17,7 @@ organization:
     groups: Seniors
     tags:
       - Free Food
+      - Leadership Skills
   - website: >-
       https://www.lafoodbank.org/get-help/programs-services/senior-nutrition-programs/
     name: 'Los Angeles Regional Food Bank, Commodity Supplemental Food Program'
@@ -49,6 +50,7 @@ organization:
     groups: 'Women, Infants, Children, and Seniors'
     tags:
       - Adopted Legislation
+      - Food Equity Policy
   - website: 'http://www.afsc.org/office/los-angeles-ca'
     name: >-
       American Friends Service Committee, Roots for Peace: Building Healthy
@@ -120,6 +122,7 @@ organization:
     groups: Youth
     tags:
       - Free Food
+      - Entrepreneur Skills
   - website: >-
       https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/
     name: 'Los Angeles Regional Food Bank, Kantry'
@@ -127,6 +130,8 @@ organization:
     groups: Youth
     tags:
       - Free Food
+      - Food Equity Research
+      - Leadership Skills
   - website: >-
       https://www.lafoodbank.org/get-help/programs-services/childrens-nutrition-programs/
     name: 'Los Angeles Regional Food Bank, Produce 2 Kids'
@@ -134,6 +139,7 @@ organization:
     groups: Youth
     tags:
       - Free Food
+      - Community Garden
   - website: 'http://www.rootdownla.org/'
     name: Root Down LA
     type: Community Based Organization
@@ -193,6 +199,8 @@ organization:
       Program
     type: 'Governmental Agency, Subsidy'
     groups: 'Women, Infants and Children'
+    tags:
+      - Garden Supply
   - website: 'http://marketmatch.org/'
     name: California Market Match
     type: Subsidy
@@ -208,12 +216,15 @@ organization:
   - website: 'https://www.change-making.com/gardens/cityscape-seeds/'
     name: Cityscape Seeds
     type: For-Profit
+    tags:
+      - Garden Supply
   - website: 'http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm'
     name: >-
       Community Redevelopment Agency of the City of Los Angeles, Community
       Market Conversion Program
     tags:
       - Food for Sale
+      - Community Development
   - website: 'http://www.crala.org/internet-site/Other/Healthy_Food_Access.cfm'
     name: >-
       Community Redevelopment Agency of the City of Los Angeles, Food Retailers
@@ -226,6 +237,7 @@ organization:
       Fund
     tags:
       - Job Development
+      - Food Equity Policy
   - website: 'http://csuinc.org/programs/village-market-place/'
     name: 'Community Services Unlimited, Village Market Place'
     type: Non-Profit Organization
@@ -244,6 +256,7 @@ organization:
     type: Community Activist
     tags:
       - Free Food
+      - Job Development
   - name: Farmer's Market CalFresh/EBT
     type: Subsidy
     tags:
@@ -269,19 +282,30 @@ organization:
     tags:
       - Food Culture
       - Food Waste Collection/Distribution
+      - Leadership Skills
   - website: 'http://spatial.usc.edu/wp-content/uploads/2016/03/Cruz-Hildemar.pdf'
     name: |-
       Hildemar Cruz, "A Geospatial Analysis of Income Level, Food Deserts and
       Urban Agriculture Hot Spots"
     type: Research Paper
+    tags:
+      - In Progress Legislation
+      - Adopted Legislation
+      - Food Equity Policy
+      - Food Affordability
   - website: 'http://www.hungeractionla.org/'
     name: Hunger Action LA
     type: Non-Profit Organization
+    tags:
+      - Food Waste Advocacy
+      - Food Equity Policy
+      - Food Affordability
   - website: 'http://ds92016.towergarden.com/'
     name: Juice Plus+ Tower Gardens
     type: For-Profit
     tags:
       - Garden Supply
+      - Food Culture
   - website: 'http://www.lagreengrounds.org/'
     name: LA Green Grounds
     type: Community Based Organization
@@ -311,6 +335,7 @@ organization:
     tags:
       - Food Equity Policy
       - Job Development
+      - Job Development
   - website: 'http://cangress.org/our-work/community-health/'
     name: 'Los Angeles Community Action Network, Community Health'
     type: Non-Profit Organization
@@ -334,8 +359,12 @@ organization:
   - website: 'http://www.dss.cahwnet.gov/foodstamps/'
     name: 'Los Angeles County Department of Social Services, CalFresh'
     type: Subsidy
+    tags:
+      - Free Food
   - website: 'http://publichealth.lacounty.gov/'
     name: Los Angeles County Health Department
+    tags:
+      - Free Food
   - website: 'http://goodfoodla.org/'
     name: Los Angeles Food Policy Council
     type: Non-Profit Organization
@@ -411,6 +440,7 @@ organization:
     type: Non-Profit Organization
     tags:
       - Free Food
+      - Farming Education
   - website: 'https://www.lafoodbank.org/get-help/pantry-locator/'
     name: 'Los Angeles Regional Food Bank, Partner Agencies'
     type: Non-Profit Organization
@@ -429,6 +459,8 @@ organization:
   - website: 'http://www.metabolicstudio.org/'
     name: Metabolic Studio
     type: Community Based Organization
+    tags:
+      - Adopted Legislation
   - website: 'http://www.proyectojardin.org/#welcome'
     name: Proyecto Jardin
     type: Community Based Organization
@@ -484,6 +516,8 @@ organization:
       http://sjli.org/sites/default/files/PG_and_SJLI_Final_Paper.pdf#overlay-context=program/health-equity/research-and-resources
     name: 'Social Justice Learning Institute, Research'
     type: Research Paper
+    tags:
+      - Food Culture
   - website: 'http://www.scfcoop.southcentralfarmers.com/'
     name: South Central Farmers Cooperative
     type: Non-Profit Organization
@@ -495,6 +529,7 @@ organization:
     type: Non-Profit Organization
     tags:
       - Food for Sale
+      - 'Math, Science & Humanities Skills'
   - website: >-
       http://www.seela.org/programs/pompea-smith-good-cooking-buena-cocina-nutrition-education-program/
     name: >-
@@ -508,6 +543,7 @@ organization:
     type: Non-Profit Organization
     tags:
       - Food Equity Policy
+      - Food Culture
   - website: >-
       http://ucanr.edu/sites/UrbanAg/Laws_Zoning_and_Regulations/The_Urban_Agriculture_Incentive_Zones_Act_AB551/
     name: The Urban Agriculture Incentive Zones Act (AB551)
