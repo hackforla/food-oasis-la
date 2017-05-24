@@ -99,7 +99,7 @@ function submitToGitHub() {
   // Encode into base64
   fileContents = window.btoa(fileContents);
   
-  var newFileName = '_people/' + userName + '.md';
+  var newFileName = '_locations/' + userName + '.md';
   var updateFileData = {"path": newFileName, "message": "Test creaeting file via GitHub API", "content": fileContents};      
 
   // Step 3: Commit to the repo, creating new file
