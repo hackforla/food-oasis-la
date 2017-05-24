@@ -5,7 +5,7 @@
 // For testing, we'll use this as the master repo:
 var GITHUB_REPO = 'site';
 var GITHUB_OWNER = 'foodoasisla';
-var GATEKEEPER_URL = 'https://jimchat-learntocode.herokuapp.com/';
+var GATEKEEPER_URL = 'https://jimchat-learntocode.herokuapp.com/authenticate/';
 
 // VARIABLES FOR CURRENT USER:
 var gitHubAccessToken;	
