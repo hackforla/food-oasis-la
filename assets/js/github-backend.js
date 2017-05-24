@@ -32,7 +32,7 @@ var gitHubTemporaryCodeArray = window.location.href.match(/\?code=(.*)/);
 
 // If code exists (meaning the user clicked the login button, gave access in GitHub, and was redirected):
 if (gitHubTemporaryCodeArray) {
-
+  console.log('gitHubTemporaryCodeArray: ' + gitHubTemporaryCodeArray);
   // Hide login section if user has started the login process
   loginSection.classList.add('hidden');
 
