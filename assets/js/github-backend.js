@@ -94,7 +94,7 @@ function submitToGitHub() {
 
 
   // Create and format content for new file with user input
-  var fileContents = '---\r\nusername: ' + userName + '\r\n---\r\n**[' + userName + '](' + userProfileLink + '):** ' + userText + '\r\n';
+  var fileContents = userText + '\r\n';
 
   // Encode into base64
   fileContents = window.btoa(fileContents);
