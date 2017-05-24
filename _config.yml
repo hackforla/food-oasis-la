@@ -79,6 +79,13 @@ defaults:
       path: ""
     values:
       layout: default
+  - scope:
+      path: ""
+      type: locations
+    values:
+      layout: location-details
+      classname: location-details
+      color: canteloupe
 
 collections:
   community-garden:
@@ -96,3 +103,6 @@ collections:
   food-pantry:
     output: true
     permalink: /food-pantry/:path/
+  locations:
+    output: true
+    permalink: /locations/:path/
