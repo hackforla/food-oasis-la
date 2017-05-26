@@ -9,4 +9,5 @@
 _site/
 _data/old/
 /.jekyll-metadata
-/_node/node_modules
+node_modules
+_node/node_modules

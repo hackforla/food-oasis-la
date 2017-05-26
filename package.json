@@ -1,0 +1,38 @@
+{
+  "name": "food-oasis-la",
+  "version": "1.0.0",
+  "description": "Finding produce",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && jekyll serve --incremental --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allizad/jekyll-webpack.git"
+  },
+  "keywords": [
+    "jekyll",
+    "webpack",
+    "react"
+  ],
+  "author": "Hack For LA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allizad/jekyll-webpack/issues"
+  },
+  "homepage": "https://github.com/allizad/jekyll-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.5.4",
+    "react-addons-update": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
