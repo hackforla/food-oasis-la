@@ -24,6 +24,7 @@ After sign in
     <p>
       <label>
         <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span><br />
+        <input type="text" id="locationTitle" placeholder="Location Title">
         <textarea id="userText">
 ---
 name: Everytable
