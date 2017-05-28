@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Listplaces from './Listplaces'
 
 class Hello extends Component {
   render() {
     return (
-      <div>Hey, y’all!!</div>
+      <div>
+        <Listplaces />
+      </div>
     )
   }
 }
 export default Hello;
+
