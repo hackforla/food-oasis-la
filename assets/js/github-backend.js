@@ -16,7 +16,7 @@ var userForkedRepoName;
 var pullRequestLink;
 
 // VARIABLES FOR GIT COMMIT PROCESS
-var pullRequestTitle = "Suggesting a New Healthy Food Location!"; // for testing!
+var pullRequestTitle = "Suggesting New Location: "; // for testing!
 var pullRequestBody = '';
 var notesFileSha;
 var newCommitSha;
@@ -87,6 +87,13 @@ function submitToGitHub() {
 
   // Get user input
   var userText = document.getElementById("userText").value;
+  var locationTitle = document.getElementById("locationTitle").value;
+	
+  pullRequestTitle += locationTitle;
+	
+  // Convert to safe (well, safe ENOUGH for now) file name.
+  // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
+  var newFileName = '_locations/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
 
   // Display loading message
   messageSection.innerHTML = "<p><em>...Loading...</em></p>";
@@ -99,7 +106,6 @@ function submitToGitHub() {
   // Encode into base64
   fileContents = window.btoa(fileContents);
   
-  var newFileName = '_locations/' + userName + '.md';
   var updateFileData = {"path": newFileName, "message": "Test creaeting file via GitHub API", "content": fileContents};      
 
   // Step 3: Commit to the repo, creating new file
