@@ -75,10 +75,9 @@ if (gitHubTemporaryCodeArray) {
 
 }
 
-// When user clicks "submit" button, post to GitHub!
-document.getElementById('submit').addEventListener('click', submitToGitHub);
+function submitToGitHub(e) {
+  e.preventDefault();
 
-function submitToGitHub() {
   // If user hasn't signed in first, notify user to do so before submitting notes!
   if (!gitHubAccessToken) {    
   	messageSection.innerHTML = "<p><strong>Please log in with GitHub first! Then you can submit your suggestion.</strong></p>";
@@ -159,6 +158,9 @@ function submitToGitHub() {
   }).catch(logAndDisplayError); // Log error to console and display on the web page too
 
 } // end of submitToGitHub function
+
+// When user clicks "submit" button, post to GitHub!
+document.getElementById('addForm').addEventListener('submit', submitToGitHub);
 
 function logAndDisplayError (errorMessage) {
 	console.log(errorMessage);
