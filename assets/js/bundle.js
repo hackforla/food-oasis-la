@@ -9612,6 +9612,13 @@ var ListItem = function (_Component) {
   }
 
   _createClass(ListItem, [{
+    key: 'categoryImage',
+    value: function categoryImage(name) {
+      console.log('running categoryImage!!');
+      var result = name.split(' ').join('-').toLowerCase();
+      return '/assets/images/home/' + result + '.svg';
+    }
+  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -9623,7 +9630,7 @@ var ListItem = function (_Component) {
           _react2.default.createElement(
             'a',
             { href: this.props.uri, className: 'location-summary' },
-            _react2.default.createElement('img', { src: '/assets/images/home/supermarket.svg', alt: '' }),
+            _react2.default.createElement('img', { src: this.categoryImage(this.props.category), alt: '' }),
             _react2.default.createElement(
               'h2',
               null,
