@@ -67,10 +67,37 @@ layout: null
   <url>
     <loc>https://foodoasis.la/food-pantry/</loc>
   </url>
-{% assign locations = site.data['generated-locations-for-jekyll'] %}
-{% for location in locations %}
+
+{% assign data_collection = site.collections | where: "label", "food-pantry" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
   </url>
 {% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "farmers-market" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "community-garden" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "supermarket" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
 </urlset>
