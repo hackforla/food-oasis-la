@@ -9612,56 +9612,54 @@ var ListItem = function (_Component) {
   }
 
   _createClass(ListItem, [{
-    key: "render",
+    key: 'render',
     value: function render() {
-      console.log(this.props);
-
       return _react2.default.createElement(
-        "div",
+        'div',
         null,
         _react2.default.createElement(
-          "li",
-          { className: "community-garden", "data-latitude": this.props.latitude, "data-longitude": this.props.longitude },
+          'li',
+          { className: 'community-garden', 'data-latitude': this.props.latitude, 'data-longitude': this.props.longitude, style: { borderTop: 1 + 'px solid rgba(0,0,0,0.1)' } },
           _react2.default.createElement(
-            "a",
-            { href: this.props.uri, className: "location-summary" },
-            _react2.default.createElement("img", { src: "/assets/images/home/supermarket.svg", alt: "" }),
+            'a',
+            { href: this.props.uri, className: 'location-summary' },
+            _react2.default.createElement('img', { src: '/assets/images/home/supermarket.svg', alt: '' }),
             _react2.default.createElement(
-              "h2",
+              'h2',
               null,
               this.props.name
             ),
             _react2.default.createElement(
-              "p",
-              { className: "address" },
+              'p',
+              { className: 'address' },
               this.props.address
             ),
             _react2.default.createElement(
-              "p",
-              { className: "type" },
+              'p',
+              { className: 'type' },
               this.props.category
             ),
             _react2.default.createElement(
-              "script",
-              { type: "text/template", className: "open-template", "data-day": "", "data-open": "", "data-close": "" },
+              'script',
+              { type: 'text/template', className: 'open-template', 'data-day': '', 'data-open': '', 'data-close': '' },
               _react2.default.createElement(
-                "p",
-                { className: "open" },
-                "Open Now"
+                'p',
+                { className: 'open' },
+                'Open Now'
               )
             ),
             _react2.default.createElement(
-              "script",
-              { type: "text/template", className: "distance-template" },
+              'script',
+              { type: 'text/template', className: 'distance-template' },
               _react2.default.createElement(
-                "p",
-                { className: "distance" },
-                _react2.default.createElement("span", null),
-                " ",
+                'p',
+                { className: 'distance' },
+                _react2.default.createElement('span', null),
+                ' ',
                 _react2.default.createElement(
-                  "abbr",
-                  { title: "miles" },
-                  "m"
+                  'abbr',
+                  { title: 'miles' },
+                  'm'
                 )
               )
             )
@@ -9720,16 +9718,6 @@ var Listplaces = function (_Component) {
     key: 'render',
     value: function render() {
       console.log('locations:', locations);
-      // let articles = store.getState().articles.data;
-      // const following = store.getState().following;
-      // let newArticles = [];
-      // articles.forEach(el => {
-      //   let included = false;
-      //   el.topics.forEach(e => {
-      //     if (following.includes(e.id)) included = true;
-      //   })
-      //   if (included) newArticles.push(el)
-      // })
       var articlesData = locations.map(function (obj) {
         return _react2.default.createElement(_Listitem2.default, { address: obj.address_1, category: obj.category, latitude: obj.latitude, longitude: obj.longitude, name: obj.name, uri: obj.uri });
       });
