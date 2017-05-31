@@ -88,20 +88,43 @@ function submitToGitHub() {
   // Get user input
   var userText = document.getElementById("userText").value;
   var locationTitle = document.getElementById("locationTitle").value;
+  var locationCategory = document.getElementById("locationCategory").value;
+  var locationAddress1 = document.getElementById("locationAddress1").value;
+  var locationAddress2 = document.getElementById("locationAddress2").value;
+  var locationCity = document.getElementById("locationCity").value;
+  var locationZip = document.getElementById("locationZip").value;
 	
   pullRequestTitle += locationTitle;
 	
+  var folderName = '_locations/';
+  if (locationCategory && locationCategory != '') {
+    folderName = '_' + String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()) + '/';
+  }
+
   // Convert to safe (well, safe ENOUGH for now) file name.
   // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
-  var newFileName = '_locations/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
+  var newFileName = folderName + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
 
   // Display loading message
   messageSection.innerHTML = "<p><em>...Loading...</em></p>";
   messageSection.classList.remove('hidden');
 
-
   // Create and format content for new file with user input
-  var fileContents = userText + '\r\n';
+  var fileContents =
+  '---' + '\r\n' + 
+  'name: ' + locationTitle + '\r\n' + 
+  'address_1: ' + locationAddress1 + '\r\n' + 
+  'address_2: ' + locationAddress2 + '\r\n' + 
+  'city: ' + locationCity + '\r\n' + 
+  'state: CA' + '\r\n' + 
+  'zip: ' + locationZip + '\r\n' + 
+  'latitude: ' + '34.0257601' + '\r\n' + 
+  'longitude: ' + '-118.256703' + '\r\n' + 
+  'title: ' + locationTitle + ', Food Oasis Los Angeles' + '\r\n' + 
+  'uri: ' + '/' + String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()) + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
+  '---' + '\r\n' + 
+  + '\r\n' + 
+  userText + '\r\n';
 
   // Encode into base64
   fileContents = window.btoa(fileContents);

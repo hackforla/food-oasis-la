@@ -20,51 +20,57 @@ Before sign in
 <!--
 After sign in
 -->
-<section id="inputSection" class="hidden">  
+<section id="inputSection" class="hidden">
+    <p>
+      <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span>
+    </p>
     <p>
       <label>
-        <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span><br />
-        <input type="text" id="locationTitle" placeholder="Location Title">
-        <textarea id="userText">
----
-name: Everytable
-address_1: 1101 West 23rd Street
-address_2:
-city: Los Angeles
-state: California
-zipcode: 90007
-phone: 213-973-5095
-website: https://www.everytable.com
-
-daily: true
-daily_open: 8am
-daily_close: 11pm
-
-day1:
-day1_open:
-day1_close:
-day2:
-day2_open:
-day2_close:
-day3:
-day3_open:
-day3_close:
-day4:
-day4_open:
-day4_close:
-day5:
-day5_open:
-day5_close:
-day6:
-day6_open:
-day6_close:
-day7:
-day7_open:
-day7_close:
-
----
-
-      </textarea>
+        Location Title<br />
+        <input type="text" id="locationTitle" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Category<br />
+        <select id="locationCategory">
+          <option value="farmers-market">Farmer’s Market</option>
+          <option value="community-garden">Community Garden</option>
+          <option value="food-pantry">Food Pantry</option>
+          <option value="supermarket">Supermarket</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <label>
+        Street Address<br />
+        <input type="text" id="locationAddress1" />
+      </label><br />
+      <label>
+        Street Address 2<br />
+        <input type="text" id="locationAddress2" />
+      </label>
+    </p>
+    <p>
+      <label>
+        City<br />
+        <input type="text" id="locationCity" />
+      </label>
+    </p>
+    <p>
+      State<br />
+      <input type="text" value="CA" disabled />
+    </p>
+    <p>
+      <label>
+        ZIP Code<br />
+        <input type="text" id="locationZip" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Is there anything else you’d like to tell us about this location?<br />
+        <textarea id="userText"></textarea>
       </label>
     </p>
 
