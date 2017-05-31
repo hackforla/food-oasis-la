@@ -95,18 +95,47 @@ function submitToGitHub(e) {
 	
   pullRequestTitle += locationTitle;
 	
-  var folderName = '_locations/';
+  var folderName = 'locations';
   if (locationCategory && locationCategory != '') {
-    folderName = '_' + String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()) + '/';
+    folderName = String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase());
   }
 
   // Convert to safe (well, safe ENOUGH for now) file name.
   // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
-  var newFileName = folderName + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
+  var newFileName = '_' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
 
   // Display loading message
   messageSection.innerHTML = "<p><em>...Loading...</em></p>";
   messageSection.classList.remove('hidden');
+
+  var latitude = '';
+  var longitude = '';
+
+  var addressForGeocoding = locationAddress1 + ' ' + locationAddress2 + ' ' + locationCity + ' California ' + locationZip;
+
+  var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+
+  var MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+
+  get(MAPBOX_URL)
+  .then(JSON.parse).then(function (mapboxResponse){
+    longitude = mapboxResponse.features[0].center[0];
+    latitude  = mapboxResponse.features[0].center[1];
+    doTheRest();
+  }).catch(logAndDisplayError);
+
+  /*
+  var client = new MapboxClient(MAP_ACCESS_TOKEN);
+  client.geocodeForward(addressForGeocoding, function(err, data, res) {
+    // data is the geocoding result as parsed JSON
+    // res is the http response, including: status, headers and entity properties
+    var latitude  = data.features[0].center[0];
+    var longitude = data.features[0].center[1];
+    doTheRest();
+   });
+   */
+
+function doTheRest() {
 
   // Create and format content for new file with user input
   var fileContents =
@@ -117,16 +146,17 @@ function submitToGitHub(e) {
   'city: ' + locationCity + '\r\n' + 
   'state: CA' + '\r\n' + 
   'zip: ' + locationZip + '\r\n' + 
-  'latitude: ' + '34.0257601' + '\r\n' + 
-  'longitude: ' + '-118.256703' + '\r\n' + 
+  'latitude: ' + latitude + '\r\n' + 
+  'longitude: ' + longitude + '\r\n' + 
   'title: ' + locationTitle + ', Food Oasis Los Angeles' + '\r\n' + 
-  'uri: ' + '/' + String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()) + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
+  'uri: ' + '/' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
   '---' + '\r\n' + 
   + '\r\n' + 
   userText + '\r\n';
 
-  // Encode into base64
-  fileContents = window.btoa(fileContents);
+  // Encode into base64, and convert the string to ASCII
+  // https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa#Unicode_strings
+  fileContents = window.btoa(unescape(encodeURIComponent(fileContents)));
   
   var updateFileData = {"path": newFileName, "message": "Test creaeting file via GitHub API", "content": fileContents};      
 
@@ -156,6 +186,8 @@ function submitToGitHub(e) {
     // TODO: Prevent "pull request already exists" error?
 
   }).catch(logAndDisplayError); // Log error to console and display on the web page too
+
+}
 
 } // end of submitToGitHub function
 

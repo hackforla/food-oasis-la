@@ -86,4 +86,5 @@ window.oasis = window.oasis || {};
 	}
 
 	window.oasis.findUserLocation = findUserLocation;
+	window.oasis.getCoordinatesFromAddress = getCoordinatesFromAddress;
 })();

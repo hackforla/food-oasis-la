@@ -18,7 +18,7 @@ Before sign in
 After sign in
 -->
 <section id="inputSection" class="hidden">
-  <form id="addForm" action="/add" method="get">
+  <form id="addForm" action="/add" method="post">
     <p>
       <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span>
     </p>
@@ -84,5 +84,12 @@ After sign in
 
 <section class="success hidden" role="status" id="messageSection">      
 </section>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js"></script>
+
+<script>
+// FOLA’s Mapbox API key
+var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+</script>
 
 <script src="/assets/js/github-backend.js"></script>
