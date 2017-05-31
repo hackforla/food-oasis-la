@@ -18,7 +18,7 @@ Before sign in
 After sign in
 -->
 <section id="inputSection" class="hidden">
-  <form id="addForm" action="/add/" method="post">
+  <form id="addForm" action="/add" method="get">
     <p>
       <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span>
     </p>

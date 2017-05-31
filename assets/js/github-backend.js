@@ -75,9 +75,6 @@ if (gitHubTemporaryCodeArray) {
 
 }
 
-// When user clicks "submit" button, post to GitHub!
-document.getElementById('addForm').addEventListener('submit', submitToGitHub);
-
 function submitToGitHub(e) {
   e.preventDefault();
 
@@ -161,6 +158,9 @@ function submitToGitHub(e) {
   }).catch(logAndDisplayError); // Log error to console and display on the web page too
 
 } // end of submitToGitHub function
+
+// When user clicks "submit" button, post to GitHub!
+document.getElementById('addForm').addEventListener('submit', submitToGitHub);
 
 function logAndDisplayError (errorMessage) {
 	console.log(errorMessage);
