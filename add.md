@@ -14,9 +14,6 @@ Before sign in
   </p>
 </section>
 
-<section class="success hidden" role="status" id="messageSection">      
-</section>
-
 <!--
 After sign in
 -->
@@ -73,10 +70,12 @@ After sign in
         <textarea id="userText"></textarea>
       </label>
     </p>
-
     <p>
       <button id="submit">Add Location</button>
     </p>  
+</section>
+
+<section class="success hidden" role="status" id="messageSection">      
 </section>
 
 <script src="/assets/js/github-backend.js"></script>
