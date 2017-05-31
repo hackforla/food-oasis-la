@@ -8,7 +8,7 @@ https://foodoasis.la
 
 The website is published with [GitHub Pages](https://pages.github.com), and the files are generated with [Jekyll](http://jekyllrb.com).
 
-As you make changes and commit/push them to GitHub, the [staging website](https://staging.foodoasis.la) will automatically update.
+As you make changes and commit/push them to GitHub, the [staging website](https://staging.foodoasis.la) will automatically update. You can also manually push your changes to the [live website](https://github.com/foodoasisla/foodoasis.la).
 
 ## How to develop locally
 
