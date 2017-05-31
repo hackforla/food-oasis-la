@@ -76,9 +76,11 @@ if (gitHubTemporaryCodeArray) {
 }
 
 // When user clicks "submit" button, post to GitHub!
-document.getElementById('submit').addEventListener('click', submitToGitHub);
+document.getElementById('addForm').addEventListener('submit', submitToGitHub);
 
-function submitToGitHub() {
+function submitToGitHub(e) {
+  e.preventDefault();
+
   // If user hasn't signed in first, notify user to do so before submitting notes!
   if (!gitHubAccessToken) {    
   	messageSection.innerHTML = "<p><strong>Please log in with GitHub first! Then you can submit your suggestion.</strong></p>";

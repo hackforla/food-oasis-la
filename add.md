@@ -18,6 +18,7 @@ Before sign in
 After sign in
 -->
 <section id="inputSection" class="hidden">
+  <form id="addForm">
     <p>
       <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span>
     </p>
@@ -30,12 +31,17 @@ After sign in
     <p>
       <label>
         Category<br />
+        <input type="text" id="locationCategory" /><br />
+        <small>Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
+        <!--
         <select id="locationCategory">
+          <option value="other">Other</option>
           <option value="farmers-market">Farmer’s Market</option>
           <option value="community-garden">Community Garden</option>
           <option value="food-pantry">Food Pantry</option>
           <option value="supermarket">Supermarket</option>
         </select>
+        -->
       </label>
     </p>
     <p>
@@ -70,9 +76,10 @@ After sign in
         <textarea id="userText"></textarea>
       </label>
     </p>
-    <p>
-      <button id="submit">Add Location</button>
-    </p>  
+    <p class="action">
+      <button type="submit" id="submit">Add Location</button>
+    </p>
+  </form>
 </section>
 
 <section class="success hidden" role="status" id="messageSection">      
