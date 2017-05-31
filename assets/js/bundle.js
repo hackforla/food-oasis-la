@@ -9724,8 +9724,8 @@ var Listplaces = function (_Component) {
   _createClass(Listplaces, [{
     key: 'render',
     value: function render() {
-      console.log('locations:', locations);
-      var articlesData = locations.map(function (obj) {
+      var sortedList = window.oasis.sortByClosest("34.220399", "-118.572512").slice(0, 19);
+      var articlesData = sortedList.map(function (obj) {
         return _react2.default.createElement(_Listitem2.default, { address: obj.address_1, category: obj.category, latitude: obj.latitude, longitude: obj.longitude, name: obj.name, uri: obj.uri });
       });
 
@@ -9785,7 +9785,6 @@ var App = function (_Component) {
   _createClass(App, [{
     key: 'render',
     value: function render() {
-      console.log('yo!!');
       return _react2.default.createElement(_Hello2.default, null);
     }
   }]);

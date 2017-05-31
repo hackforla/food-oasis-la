@@ -4,8 +4,8 @@ import Listitem from './Listitem';
 
 class Listplaces extends Component {
   render() {
-  console.log('locations:', locations);
-    let articlesData = locations.map(obj => {
+    const sortedList = window.oasis.sortByClosest("34.220399", "-118.572512").slice(0,19);
+    const articlesData = sortedList.map(obj => {
       return <Listitem address={ obj.address_1 } category={ obj.category } latitude={ obj.latitude } longitude={ obj.longitude } name={ obj.name } uri={ obj.uri } />
     })
 

@@ -5,7 +5,6 @@ import Hello from './components/Hello';
 class App extends Component {
 
   render() {
-    console.log('yo!!')
     return (
       <Hello />
     )

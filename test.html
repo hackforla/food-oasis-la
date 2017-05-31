@@ -7,84 +7,15 @@ layout: default
 <script src='/api/food-pantry.js'></script>
 <script src='/api/supermarket.js'></script>-->
 <script src='/api/locations.js'></script>
+<script src="/assets/js/helpers.js"></script>
+<script src="/assets/js/geolocate.js"></script>
+<script src="/assets/js/location-list-sort.js"></script>
 <script type="text/javascript" src="/assets/js/bundle.js" charset="utf-8"></script>
 
-
-
-  <!--<ul class="location-list">
-
-	<li class="farmers-market" data-latitude="34.0326" data-longitude="-118.2926">
-		<a href="/farmers-market/adams-vermont-st-agnes-church-farmers-market/" class="location-summary">
-			<img src="/assets/images/home/farmers-market.svg" alt="" />
-			<h2>Adams - Vermont Farmers Market / St. Agnes Church Farmer's Market</h2>
-			<p class="address">1432 W Adams Blvd</p>
-			<p class="type">Farmers Market</p>
-			<script type="text/template" class="open-template" data-day="" data-open="" data-close="">
-				<p class="open">Open Now</p>
-			</script>
-			<script type="text/template" class="distance-template">
-				<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
-			</script>
-		</a>
-	</li>
-
-	<li class="supermarket" data-latitude="33.789053" data-longitude="-118.318066">
-		<a href="/supermarket/albertsons-2130-pacific-coast-hwy/" class="location-summary">
-			<img src="/assets/images/home/supermarket.svg" alt="" />
-			<h2>Albertsons</h2>
-			<p class="address">2130 Pacific Coast Hwy</p>
-			<p class="type">Supermarket</p>
-			<script type="text/template" class="open-template" data-day="" data-open="" data-close="">
-				<p class="open">Open Now</p>
-			</script>
-			<script type="text/template" class="distance-template">
-				<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
-			</script>
-		</a>
-	</li>
-
-	<li class="supermarket" data-latitude="34.105878" data-longitude="-117.747508">
-		<a href="/supermarket/albertsons-3180-n-garey-ave/" class="location-summary">
-			<img src="/assets/images/home/supermarket.svg" alt="" />
-			<h2>Albertsons</h2>
-			<p class="address">3180 N Garey Ave</p>
-			<p class="type">Supermarket</p>
-			<script type="text/template" class="open-template" data-day="" data-open="" data-close="">
-				<p class="open">Open Now</p>
-			</script>
-			<script type="text/template" class="distance-template">
-				<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
-			</script>
-		</a>
-	</li>
-
-	<li class="supermarket" data-latitude="34.141509" data-longitude="-117.988782">
-		<a href="/supermarket/albertsons-725-e-huntington-dr/" class="location-summary">
-			<img src="/assets/images/home/supermarket.svg" alt="" />
-			<h2>Albertsons</h2>
-			<p class="address">725 E Huntington Dr</p>
-			<p class="type">Supermarket</p>
-			<script type="text/template" class="open-template" data-day="" data-open="" data-close="">
-				<p class="open">Open Now</p>
-			</script>
-			<script type="text/template" class="distance-template">
-				<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
-			</script>
-		</a>
-	</li>
-
-	<li class="supermarket" data-latitude="33.811269" data-longitude="-118.109734">
-		<a href="/supermarket/albertsons-6235-e-spring-st/" class="location-summary">
-			<img src="/assets/images/home/supermarket.svg" alt="" />
-			<h2>Albertsons</h2>
-			<p class="address">6235 E Spring St</p>
-			<p class="type">Supermarket</p>
-			<script type="text/template" class="open-template" data-day="" data-open="" data-close="">
-				<p class="open">Open Now</p>
-			</script>
-			<script type="text/template" class="distance-template">
-				<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
-			</script>
-		</a>
-	</li>	
-  </ul>-->
+<!--
+window.oasis.findUserLocation(function(userLocation) {
+		var list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
+		if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+		if (document.getElementById('search-location')) document.getElementById('search-location').textContent = userLocation.label;
+		window.oasis.addMarkers(list, userLocation.geolocated, userLocation.latitude, userLocation.longitude);
+		window.oasis.addListItems(list);-->
