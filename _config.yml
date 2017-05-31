@@ -32,6 +32,9 @@ exclude:
   - CNAME
   - README
   - node_modules
+  - package.json
+  - webpack.config.js
+  - webpack
 
 keep_files:
   - .git
