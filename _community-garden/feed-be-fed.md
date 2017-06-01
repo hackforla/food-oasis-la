@@ -7,7 +7,8 @@ state: CA
 zip: 90731
 latitude: 33.738497
 longitude: -118.286374
+category: Community Garden
 title: Feed & Be Fed, Food Oasis Los Angeles
-uri: /community-garden/feed---be-fed/
+uri: /community-garden/feed-be-fed/
+website: http://www.feedandbefed.org
 ---
-0
