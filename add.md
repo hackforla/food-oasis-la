@@ -8,9 +8,10 @@ title: Add Healthy Food Location, Food Oasis Los Angeles
 <!--
 Before sign in
 -->
-<section id="loginSection">  
-  <p>
-    <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Sign in with GitHub</a>        
+<section id="loginSection">
+  <p>Sign up for a free account on GitHub, to add a new location to the <a href="/locations/">map</a>!</p>
+  <p class="action">
+    <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Sign Up</a>        
   </p>
 </section>
 
@@ -18,9 +19,10 @@ Before sign in
 After sign in
 -->
 <section id="inputSection" class="hidden">
+  <p>Please complete this form, to add a new location to the <a href="/locations/">map</a>!</p>
   <form id="addForm" action="/add" method="post">
     <p>
-      <span class="label">Hi, <span id="userNameSpan">friend</span>! Add a healthy food location:</span>
+      <span class="label">Hi, <span id="userNameSpan">friend</span>!</span>
     </p>
     <p>
       <label>

@@ -182,7 +182,7 @@ function doTheRest() {
 
     // Step 5: Display success message with link to pull request
     messageSection.classList.remove('hidden');
-  	messageSection.innerHTML = '<h1>Thanks! Your suggestion has been submitted!</h1><p><a href="' + pullRequestLink + '">View your suggestion on GitHub here!</a> Once approved, your suggestion will appear on our map.</p>';    
+  	messageSection.innerHTML = '<h1>Thanks! Your suggestion has been submitted!</h1><p><a href="' + pullRequestLink + '">View your suggestion on GitHub here!</a><br />Once approved, your suggestion will appear on our map.</p>';    
 
     // TODO: Prevent "pull request already exists" error?
 
@@ -198,7 +198,7 @@ document.getElementById('addForm').addEventListener('submit', submitToGitHub);
 function logAndDisplayError (errorMessage) {
 	console.log(errorMessage);
   messageSection.classList.remove('hidden');
-	messageSection.innerHTML = '<p><strong>' + errorMessage + '</strong></p>';
+	messageSection.innerHTML = '<p><strong>' + errorMessage + '</strong></p><p class="action"><a href="/add/">Start Over</a></p>';
 }
 
 /* -------------------------------------------------
