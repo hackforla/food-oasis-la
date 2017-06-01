@@ -8,10 +8,12 @@ zip: 90008
 latitude: 34.0066
 longitude: -118.3691
 category: Restaurant
+website: https://www.everytable.com
+phone: 323-296-0311
 title: Everytable Baldwin Hills, Food Oasis Los Angeles
-uri: /restaurant/everytable-baldwin-hills/
+uri: /locations/everytable-baldwin-hills/
 ---
-0Phone: 323-296-0311
-Hours:
-10:30am - 9pm Mon - Sat,
+
+### Hours
+10:30am - 9pm Mon - Sat,<br />
 11am - 7pm Sun

@@ -8,8 +8,11 @@ zip:  90401
 latitude: 34.016794
 longitude: -118.49745
 category: Restaurant
+website: https://www.everytable.com
+phone: 424-296-1619
 title: Everytable Santa Monica, Food Oasis Los Angeles
-uri: /restaurant/everytable-santa-monica/
+uri: /locations/everytable-santa-monica/
 ---
-Phone: 424-296-1619
-Hours: 10:30am - 9pm daily
+
+### Hours
+10:30am - 9pm daily

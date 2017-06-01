@@ -8,9 +8,10 @@ zip: 90016
 latitude: 34.032181
 longitude: -118.368756
 category: Pop-up Market
+website: https://dailyorganicsla.com
 title: Daily Organics, Food Oasis Los Angeles
-uri: /pop-up-market/daily-organics/
+uri: /locations/daily-organics/
 ---
-0Website: https://dailyorganicsla.com
 
-Hours: Thursday Friday and Saturday 11 to 6
+### Hours
+Thursday Friday and Saturday 11 to 6
