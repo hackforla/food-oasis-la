@@ -36,6 +36,12 @@ window.oasis = window.oasis || {};
 						return true;
 					}
 				}
+
+				// SHIM: Always show misc locations, if we’re showing all types
+				if (item.uri.indexOf('locations/') >= 0 && (types.length === 4 || types.length === 0)) {
+					return true;
+				}
+
 				return false;
 			});
 		}

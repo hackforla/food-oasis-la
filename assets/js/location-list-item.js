@@ -30,7 +30,12 @@ window.oasis = window.oasis || {};
 			var typeElement = element.querySelector('.type');
 			typeElement.textContent = data.category;
 			var img = element.querySelector('img');
-			img.src = "/assets/images/home/" + category + ".svg"; // SHIM: Should we handle this in the CSS instead?
+
+			if (category == 'food-pantry' || category == 'community-garden' || category == 'farmers-market' || category == 'supermarket') {
+				img.src = "/assets/images/home/" + category + ".svg"; // SHIM: Should we handle this in the CSS instead?
+			} else {
+				img.src = "/assets/images/home/supermarket.svg";
+			}
 
 			// Address
 			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;

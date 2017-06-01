@@ -76,6 +76,18 @@ After sign in
     </p>
     <p>
       <label>
+        Website<br />
+        <input type="text" id="locationWebsite" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Phone<br />
+        <input type="text" id="locationPhone" />
+      </label>
+    </p>
+    <p>
+      <label>
         Is there anything else you’d like to tell us about this location?<br />
         <textarea id="userText"></textarea>
       </label>

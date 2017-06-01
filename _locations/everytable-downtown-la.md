@@ -10,7 +10,7 @@ longitude: -118.258943
 category: Restaurant
 website: https://www.everytable.com
 title: Everytable Downtown LA, Food Oasis Los Angeles
-uri: /locations/everytable-dtla/
+uri: /locations/everytable-downtown-la/
 ---
 
 Everytable is located on the lower level of “The Bloc” mall.

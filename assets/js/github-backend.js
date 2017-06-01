@@ -92,6 +92,8 @@ function submitToGitHub(e) {
   var locationAddress2 = document.getElementById("locationAddress2").value;
   var locationCity = document.getElementById("locationCity").value;
   var locationZip = document.getElementById("locationZip").value;
+  var locationWebsite = document.getElementById("locationWebsite").value;
+  var locationPhone = document.getElementById("locationPhone").value;
 	
   pullRequestTitle += locationTitle;
 	
@@ -100,7 +102,7 @@ function submitToGitHub(e) {
     folderName = String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase());
   }
 
-  // Convert to safe (well, safe ENOUGH for now) file name.
+  // Convert to safe (well, safe ENOUGH for now) file name. ❤️
   // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
   var newFileName = '_' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
 
@@ -149,6 +151,8 @@ function doTheRest() {
   'latitude: ' + latitude + '\r\n' + 
   'longitude: ' + longitude + '\r\n' + 
   'category: ' + locationCategory + '\r\n' + 
+  'website: ' + locationWebsite + '\r\n' + 
+  'phone: ' + locationPhone + '\r\n' + 
   'title: ' + locationTitle + ', Food Oasis Los Angeles' + '\r\n' + 
   'uri: ' + '/' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
   '---' + '\r\n' + 

@@ -88,6 +88,17 @@ window.oasis = window.oasis || {};
 
 		var options = MARKER_OPTIONS[location.category];
 
+		if (!options) {
+			options = {
+				// Specify a class name we can refer to in CSS.
+				className: '',
+				// Set marker width and height
+				iconSize: [30, 46],
+				iconAnchor: [15, 40],
+				popupAnchor: [0, -23]
+			}
+		}
+
 		var marker = createMarker(options, location);
 
 		new mapboxgl.Marker(marker)
