@@ -102,6 +102,11 @@ function submitToGitHub(e) {
     folderName = String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase());
   }
 
+  // SHIM: Use the “locations” folder if this an unknown category
+  if (category != 'food-pantry' && category != 'community-garden' && category != 'farmers-market' && category != 'supermarket') {
+    folderName = 'locations';
+  }
+
   // Convert to safe (well, safe ENOUGH for now) file name. ❤️
   // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
   var newFileName = '_' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
