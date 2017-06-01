@@ -159,7 +159,7 @@ function doTheRest() {
   // https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa#Unicode_strings
   fileContents = window.btoa(unescape(encodeURIComponent(fileContents)));
   
-  var updateFileData = {"path": newFileName, "message": "Test creaeting file via GitHub API", "content": fileContents};      
+  var updateFileData = {"path": newFileName, "message": pullRequestTitle, "content": fileContents};      
 
   // Step 3: Commit to the repo, creating new file
   postWithToken('https://api.github.com/repos/' + userName + '/' + userForkedRepoName + '/contents/' + newFileName, updateFileData, gitHubAccessToken, "PUT")
