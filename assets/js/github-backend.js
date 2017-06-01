@@ -148,6 +148,7 @@ function doTheRest() {
   'zip: ' + locationZip + '\r\n' + 
   'latitude: ' + latitude + '\r\n' + 
   'longitude: ' + longitude + '\r\n' + 
+  'category: ' + locationCategory + '\r\n' + 
   'title: ' + locationTitle + ', Food Oasis Los Angeles' + '\r\n' + 
   'uri: ' + '/' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
   '---' + '\r\n' + 
