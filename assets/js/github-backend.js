@@ -103,7 +103,7 @@ function submitToGitHub(e) {
   }
 
   // SHIM: Use the “locations” folder if this an unknown category
-  if (category != 'food-pantry' && category != 'community-garden' && category != 'farmers-market' && category != 'supermarket') {
+  if (folderName != 'food-pantry' && folderName != 'community-garden' && folderName != 'farmers-market' && folderName != 'supermarket') {
     folderName = 'locations';
   }
 
@@ -161,7 +161,6 @@ function doTheRest() {
   'title: ' + locationTitle + ', Food Oasis Los Angeles' + '\r\n' + 
   'uri: ' + '/' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '/' + '\r\n' + 
   '---' + '\r\n' + 
-  + '\r\n' + 
   userText + '\r\n';
 
   // Encode into base64, and convert the string to ASCII

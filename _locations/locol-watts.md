@@ -11,8 +11,8 @@ category: Restaurant
 website: http://www.welocol.com
 phone: 
 title: Locol, Watts, Food Oasis Los Angeles
-uri: /restaurant/locol--watts/
+uri: /restaurant/locol-watts/
 ---
-0### Hours
+### Hours
 
 Open everyday from 11am–8pm
