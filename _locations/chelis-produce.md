@@ -11,4 +11,4 @@ category: Pop-up Market
 title: Cheli’s Produce, Food Oasis Los Angeles
 uri: /pop-up-market/cheli-s-produce/
 ---
-0You can buy produce from this grocery truck, located on a residential street.
+You can buy produce from this grocery truck, located on a residential street.

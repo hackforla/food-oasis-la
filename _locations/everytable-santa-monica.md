@@ -11,5 +11,5 @@ category: Restaurant
 title: Everytable Santa Monica, Food Oasis Los Angeles
 uri: /restaurant/everytable-santa-monica/
 ---
-0Phone: 424-296-1619
+Phone: 424-296-1619
 Hours: 10:30am - 9pm daily
