@@ -9,9 +9,9 @@ title: Add Healthy Food Location, Food Oasis Los Angeles
 Before sign in
 -->
 <section id="loginSection">
-  <p>Sign up for a free account on GitHub, to add a new location to the <a href="/locations/">map</a>!</p>
+  <p>Create a free account on GitHub, and then add a new location on the <a href="/locations/">map</a>!</p>
   <p class="action">
-    <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Sign Up</a>        
+    <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Start</a>        
   </p>
 </section>
 
@@ -19,11 +19,11 @@ Before sign in
 After sign in
 -->
 <section id="inputSection" class="hidden">
-  <p>Please complete this form, to add a new location to the <a href="/locations/">map</a>!</p>
-  <form id="addForm" action="/add" method="post">
-    <p>
-      <span class="label">Hi, <span id="userNameSpan">friend</span>!</span>
-    </p>
+  <h2>
+    <span class="label">Hi, <span id="userNameSpan">friend</span>!</span>
+  </h2>
+  <p>Please complete this form, to add a new location on the <a href="/locations/">map</a>!</p>
+  <form id="addForm" action="/add" method="post" style="margin-top: 3em;">
     <p>
       <label>
         Location Title<br />
@@ -34,7 +34,7 @@ After sign in
       <label>
         Category<br />
         <input type="text" id="locationCategory" /><br />
-        <small>Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
+        <small style="font-style: italic;">Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
         <!--
         <select id="locationCategory">
           <option value="other">Other</option>
@@ -50,7 +50,9 @@ After sign in
       <label>
         Street Address<br />
         <input type="text" id="locationAddress1" />
-      </label><br />
+      </label>
+    </p>
+    <p>
       <label>
         Street Address 2<br />
         <input type="text" id="locationAddress2" />
