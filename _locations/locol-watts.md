@@ -11,7 +11,7 @@ category: Restaurant
 website: http://www.welocol.com
 phone: 
 title: Locol, Watts, Food Oasis Los Angeles
-uri: /restaurant/locol-watts/
+uri: /locations/locol-watts/
 ---
 ### Hours
 

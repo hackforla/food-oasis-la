@@ -100,4 +100,12 @@ layout: null
   </url>
 {% endfor %}
 
+{% assign data_collection = site.collections | where: "label", "locations" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
 </urlset>
