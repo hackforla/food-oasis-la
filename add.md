@@ -10,7 +10,7 @@ Before sign in
 -->
 <section id="loginSection">  
   <p>
-    <a class="action" id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Sign in with GitHub</a>        
+    <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Sign in with GitHub</a>        
   </p>
 </section>
 
@@ -84,12 +84,5 @@ After sign in
 
 <section class="success hidden" role="status" id="messageSection">      
 </section>
-
-<script src="https://api.mapbox.com/mapbox-gl-js/v0.33.1/mapbox-gl.js"></script>
-
-<script>
-// FOLA’s Mapbox API key
-var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
-</script>
 
 <script src="/assets/js/github-backend.js"></script>

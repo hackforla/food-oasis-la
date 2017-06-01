@@ -9,7 +9,12 @@ stylesheets:
 ---
 <header class="location-summary">
 
+	{% assign category = page['category'] | downcase | replace: ' ', '-'  %}
+	{% if category == 'food-pantry' or category == 'community-garden' or category == 'farmers-market' or category == 'supermarket' %}
 	<img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" alt="" />
+	{% else %}
+	<img src="/assets/images/home/supermarket.svg" width="100" alt="" />
+	{% endif %}
 
 	<h1>{{ page.name }}</h1>
 
@@ -149,13 +154,15 @@ SHIM: Support days in any order, in the spreadsheet.
 		<dd><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></dd>
 		{% endif %}
 
-		{% if page['phone'] != '' %}
+		{% if page['phone'] and page['phone'] != '' %}
 		<dt>Phone</dt>
 		<dd>{{ page['phone'] | escape }}</dd>
 		{% endif %}
 	</dl>
 </section>
 {% endif %}
+
+{{ content }}
 
 <section class="location-details-options">
 	<h2>Options</h2>

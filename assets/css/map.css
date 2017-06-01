@@ -216,6 +216,17 @@
 		animation: fade-in 0.6s;
 	}
 
+	.marker {
+		cursor: pointer;
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-red-small.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
+	}
+
 	.farmers-market-marker {
 		cursor: pointer;
 		height: 46px;
@@ -247,6 +258,17 @@
 		background-size: contain;
 		margin-left: -15px;
 		margin-top: -40px;
+	}
+
+	.marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-red-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
 	}
 
 	.farmers-market-marker.active {
