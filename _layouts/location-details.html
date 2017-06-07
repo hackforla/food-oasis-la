@@ -149,7 +149,7 @@ SHIM: Support days in any order, in the spreadsheet.
 <section class="information">
 	<h2>Information</h2>
 	<dl>
-		{% if page['website'] != '' %}
+		{% if page['website'] and page['website'] != '' %}
 		<dt>Web</dt>
 		<dd><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></dd>
 		{% endif %}
