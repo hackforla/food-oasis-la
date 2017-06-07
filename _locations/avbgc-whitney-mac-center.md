@@ -1,5 +1,5 @@
 ---
-name: AVBGC, Whitney Mac Center
+name: Boys & Girls Clubs of the Antelope Valley, Whitney Mac Center
 address_1: 45404 N. Division
 address_2: 
 city: Lancaster
@@ -10,7 +10,7 @@ longitude: -118.131102
 category: Free Summer Lunch
 website: 
 phone: (661) 951-1400
-title: AVBGC, Whitney Mac Center, Food Oasis Los Angeles
+title: Boys & Girls Clubs of the Antelope Valley, Whitney Mac Center, Food Oasis Los Angeles
 uri: /locations/avbgc-whitney-mac-center/
 ---
 Open

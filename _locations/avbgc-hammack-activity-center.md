@@ -1,5 +1,5 @@
 ---
-name: AVBGC, Hammack Activity Center
+name: Boys & Girls Clubs of the Antelope Valley, Hammack Activity Center
 address_1: 815 E. Ave Q-6
 address_2: 
 city: Pamdale
@@ -10,7 +10,7 @@ longitude: -118.115534
 category: Free Summer Lunch
 website: 
 phone: (213) 747-6357
-title: AVBGC, Hammack Activity Center, Food Oasis Los Angeles
+title: Boys & Girls Clubs of the Antelope Valley, Hammack Activity Center, Food Oasis Los Angeles
 uri: /locations/avbgc-hammack-activity-center/
 ---
 Open
