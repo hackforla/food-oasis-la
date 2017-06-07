@@ -220,7 +220,7 @@
 		cursor: pointer;
 		height: 46px;
 		width: 30px;
-		background-image: url(/assets/images/map/pin-red-small.svg);
+		background-image: url(/assets/images/map/pin-purple-small.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		margin-left: -15px;
@@ -264,7 +264,7 @@
 		cursor: default;
 		height: 70px;
 		width: 42px;
-		background-image: url(/assets/images/map/pin-red-large.svg);
+		background-image: url(/assets/images/map/pin-purple-large.svg);
 		background-repeat: no-repeat;
 		background-size: contain;
 		margin-left: -21px;

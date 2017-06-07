@@ -1,7 +1,13 @@
 {% for data in data_list limit:list_limit offset:list_offset %}
 	<li class="{{ data['category'] | downcase | replace: ' ', '-' }}" data-latitude="{{ data['latitude'] }}" data-longitude="{{ data['longitude'] }}">
 		<a href="{{ data.uri }}" class="location-summary">
-			<img src="/assets/images/home/{{ data['category'] | downcase | replace: ' ', '-' }}.svg" alt="" />
+
+			{% if category == 'food-pantry' or category == 'community-garden' or category == 'farmers-market' or category == 'supermarket' %}
+			<img src="/assets/images/home/{{ page['category'] | downcase | replace: ' ', '-' }}.svg" width="100" alt="" />
+			{% else %}
+			<img src="/assets/images/home/supermarket.svg" width="100" alt="" />
+			{% endif %}
+
 			<h2>{{ data['name'] }}</h2>
 			<p class="address">{{ data['address_1'] | escape }}</p>
 			<p class="type">{{ data['category'] }}</p>

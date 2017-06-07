@@ -88,8 +88,8 @@ defaults:
       type: locations
     values:
       layout: location-details
-      classname: location-details supermarket
-      color: strawberry
+      classname: location-details
+      color: grape
 
 collections:
   community-garden:
