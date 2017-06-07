@@ -1,6 +1,6 @@
 ---
 name: Boys & Girls Clubs of the Antelope Valley, Hammack Activity Center
-address_1: 815 E. Ave Q-6
+address_1: 815 East Avenue Q-6
 address_2: 
 city: Pamdale
 state: CA

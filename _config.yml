@@ -89,7 +89,7 @@ defaults:
     values:
       layout: location-details
       classname: location-details
-      color: grape
+      color: lime
 
 collections:
   community-garden:

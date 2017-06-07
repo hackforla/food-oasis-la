@@ -7,7 +7,7 @@ window.oasis = window.oasis || {};
 		var template = document.getElementById('list-item-template');
 		if (template) {
 			var element = document.createElement(containerTagName);
-			var category = data.category.toLowerCase().replace(' ', '-'); // Example: farmers-market
+			var category = data.category.toLowerCase().replace(/\s/g, '-'); // Example: farmers-market
 			element.innerHTML = template.innerHTML;
 			element.className = category;
 
@@ -31,8 +31,10 @@ window.oasis = window.oasis || {};
 			typeElement.textContent = data.category;
 			var img = element.querySelector('img');
 
-			if (category == 'food-pantry' || category == 'community-garden' || category == 'farmers-market' || category == 'supermarket') {
+			if (category == 'food-pantry' || category == 'community-garden' || category == 'farmers-market' || category == 'supermarket' || category == 'restaurant' || category == 'orchard' || category == 'pop-up-market') {
 				img.src = "/assets/images/home/" + category + ".svg"; // SHIM: Should we handle this in the CSS instead?
+			} else if (category == 'free-summer-lunch') {
+				img.src = "/assets/images/home/school-lunches.svg";
 			} else {
 				img.src = "/assets/images/home/supermarket.svg";
 			}

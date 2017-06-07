@@ -7,7 +7,7 @@ state: CA
 zip: 90011
 latitude: 34.016602
 longitude: -118.270964
-category: Pop-up Market
+category: Pop Up Market
 title: Cheli’s Produce, Food Oasis Los Angeles
 uri: /locations/chelis-produce/
 ---

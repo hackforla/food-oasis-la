@@ -227,6 +227,8 @@
 		margin-top: -40px;
 	}
 
+	.pop-up-market-marker,
+	.restaurant-marker,
 	.farmers-market-marker {
 		cursor: pointer;
 		height: 46px;
@@ -249,6 +251,8 @@
 		margin-top: -40px;
 	}
 
+	.free-summer-lunch-marker,
+	.orchard-marker,
 	.food-pantry-marker {
 		cursor: pointer;
 		height: 46px;
@@ -271,6 +275,8 @@
 		margin-top: -64px;
 	}
 
+	.pop-up-market-marker.active,
+	.restaurant-marker.active,
 	.farmers-market-marker.active {
 		cursor: default;
 		height: 70px;
@@ -293,6 +299,8 @@
 		margin-top: -64px;
 	}
 
+	.free-summer-lunch-marker.active,
+	.orchard-marker.active,
 	.food-pantry-marker.active {
 		cursor: default;
 		height: 70px;

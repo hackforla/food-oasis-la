@@ -7,7 +7,7 @@ state: CA
 zip: 90016
 latitude: 34.032181
 longitude: -118.368756
-category: Pop-up Market
+category: Pop Up Market
 website: https://dailyorganicsla.com
 title: Daily Organics, Food Oasis Los Angeles
 uri: /locations/daily-organics/

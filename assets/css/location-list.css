@@ -87,6 +87,8 @@
 		top:8px;
 	}
 
+	.pop-up-market .location-summary .type,
+	.restaurant .location-summary .type,
 	.farmers-market .location-summary .type,
 	.supermarket    .location-summary .type {
 		color: rgb(241, 95, 91); /* @strawberry */
@@ -94,6 +96,8 @@
 	.community-garden .location-summary .type {
 		color: rgb(144, 194, 70); /* @lime */
 	}
+	.free-summer-lunch .location-summary .type,
+	.orchard .location-summary .type,
 	.food-pantry .location-summary .type {
 		color: rgb(249, 192, 88); /* @canteloupe */
 	}

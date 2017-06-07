@@ -32,7 +32,7 @@ window.oasis = window.oasis || {};
 			var types = type.split('|');
 			list = list.filter(function(item) {
 				for (var index = 0; index < types.length; index++) {
-					if (item.category.toLowerCase().replace(' ', '-') === types[index]) {
+					if (item.category.toLowerCase().replace(/\s/g, '-') === types[index]) {
 						return true;
 					}
 				}

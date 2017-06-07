@@ -1,6 +1,6 @@
 ---
 name: Boys & Girls Clubs of the Antelope Valley, Whitney Mac Center
-address_1: 45404 N. Division
+address_1: 45404 North Division Street
 address_2: 
 city: Lancaster
 state: CA
