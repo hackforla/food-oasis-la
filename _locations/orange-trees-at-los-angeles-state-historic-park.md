@@ -5,8 +5,8 @@ address_2:
 city: Los Angeles
 state: CA
 zip: 90012
-latitude: 34.063588
-longitude: -118.236106
+latitude: 34.067136
+longitude: -118.232630
 category: Orchard
 website: http://lashp.com/2017/05/12/fallen-fruit-a-monument-to-sharing/
 phone: 
