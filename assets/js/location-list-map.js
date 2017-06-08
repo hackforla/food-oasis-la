@@ -9,8 +9,11 @@ window.oasis = window.oasis || {};
 
 			mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 
+			var container = document.getElementById('map');
+			container.classList.add('active');
+
 			map = new mapboxgl.Map({
-				container: 'map', // container id
+				container: container,
 				style: MAP_STYLE,
 				maxBounds: MAP_BOUNDS
 			});

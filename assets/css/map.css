@@ -2,7 +2,7 @@
 
 	/* =Map
 	----------------------------------------------- */
-	.map-container {
+	.map-container.active {
 		height: 500px;
 		height: 50vh;
 		height: calc(100vh - 14.625em);
@@ -12,22 +12,22 @@
 
 	/* OPTIONAL: Increase the font size on big screens. */
 	@media screen and (min-width: 600px) and (min-height: 600px) {
-		.map-container {
+		.map-container.active {
 			height: calc(100vh - 16em);
 		}
 	}
 	@media screen and (min-width: 800px) and (min-height: 800px) {
-		.map-container {
+		.map-container.active {
 			height: calc(100vh - 16.75em);
 		}
 	}
 	@media screen and (min-width: 1000px) and (min-height: 1000px) {
-		.map-container {
+		.map-container.active {
 			height: calc(100vh - 17.75em);
 		}
 	}
 	@media screen and (min-width: 1200px) and (min-height: 1200px) {
-		.map-container {
+		.map-container.active {
 			height: calc(100vh - 18.75em);
 		}
 	}
