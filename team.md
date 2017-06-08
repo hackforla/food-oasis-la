@@ -79,11 +79,13 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Stella Kim
 * Michael Kunc
 * Hannah Lazarus
+* Jason Lipshin
 * Amanda McGlothlin
 * Rebecca Pizano
 * Danny Prikaz
 * Joshua Robins
 * Johnny Romano
+* Wesley Rowe
 * JR Ruiz
 * Jon Schleuss
 * George Syrop
