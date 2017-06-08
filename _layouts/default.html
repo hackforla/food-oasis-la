@@ -37,7 +37,19 @@
 	<link rel="stylesheet" href="{{ url }}" />
 	{% endfor %}
 
-	<link rel="stylesheet" href="/assets/css/oasis.css" />
+	<link rel="stylesheet" href="/assets/css/elements.css" />
+	<link rel="stylesheet" href="/assets/css/buttons.css" />
+	<link rel="stylesheet" href="/assets/css/form.css" />
+	<link rel="stylesheet" href="/assets/css/header.css" />
+	<link rel="stylesheet" href="/assets/css/footer.css" />
+	<link rel="stylesheet" href="/assets/css/nav.css" />
+	<link rel="stylesheet" href="/assets/css/nav-slideout.css" />
+	<link rel="stylesheet" href="/assets/css/map.css" />
+	<link rel="stylesheet" href="/assets/css/location-list.css" />
+	<link rel="stylesheet" href="/assets/css/location-details.css" />
+	<link rel="stylesheet" href="/assets/css/audience.css" />
+	<link rel="stylesheet" href="/assets/css/organizations.css" />
+	<link rel="stylesheet" href="/assets/css/home.css" />
 
 	{% if page.redirect %}
 	<meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
@@ -48,13 +60,22 @@
 
 	<!-- for iOS -->
 	<link rel="apple-touch-icon"         href="/assets/images/favicon-rgb-240-240-240.png" />
-	<meta name="apple-mobile-web-app-title" content="Food Oasis LA">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-touch-fullscreen" content="yes" />
 
 	<!-- for Windows 8 -->
 	<meta name="msapplication-TileImage" content="/assets/images/favicon.png" />
 	<meta name="msapplication-TileColor" content="rgb(240, 240, 240)" />
+
+	{% comment %}
+	Commented out by Jim, until we have a single page app (i.e. no page refreshes)
+	<meta name="apple-mobile-web-app-title" content="Food Oasis LA">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	{% endcomment %}
+
+	<!-- KUDOS: https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/ -->
+	<script>
+	{% include dnt-helper.js %}
+	</script>
 
 	<!-- Google Tag Manager -->
 	{% include google-tag-mgr-head.html %}
