@@ -9,7 +9,7 @@ title: Add Healthy Food Location, Food Oasis Los Angeles
 Before sign in
 -->
 <section id="loginSection">
-  <p>Create a free account on GitHub, and then add a new location on the <a href="/locations/">map</a>!</p>
+  <p>Create a free account on <a href="https://github.com">GitHub</a>, and then add a new location on the <a href="/locations/">map</a>!</p>
   <p class="action">
     <a id="login" href="https://github.com/login/oauth/authorize?client_id=7ebf83bd679d38d56577&amp;scope=public_repo">Start</a>        
   </p>
@@ -66,7 +66,7 @@ After sign in
     </p>
     <p>
       State<br />
-      <input type="text" value="CA" disabled />
+      <input type="text" value="California" disabled />
     </p>
     <p>
       <label>

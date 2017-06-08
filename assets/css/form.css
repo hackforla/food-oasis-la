@@ -21,6 +21,11 @@
 		/* Remove default */
 		-webkit-appearance: none;
 	}
+	textarea[disabled],
+	input[disabled] {
+		border-color: rgba(0, 0, 0, 0.1);
+		opacity: 0.5;
+	}
 
 
 	/* =Search
