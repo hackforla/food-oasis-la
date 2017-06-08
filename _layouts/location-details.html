@@ -160,6 +160,21 @@ SHIM: Support days in any order, in the spreadsheet.
 		<dt>Phone</dt>
 		<dd>{{ page['phone'] | escape }}</dd>
 		{% endif %}
+
+		{% if page['facebook'] and page['facebook'] != '' %}
+		<dt>Facebook</dt>
+		<dd><a href="{{ page['facebook'] | escape }}">{{ page['facebook'] | escape }}</a></dd>
+		{% endif %}
+
+		{% if page['instagram'] and page['instagram'] != '' %}
+		<dt>Instagram</dt>
+		<dd><a href="{{ page['instagram'] | escape }}">{{ page['instagram'] | escape }}</a></dd>
+		{% endif %}
+
+		{% if page['twitter'] and page['twitter'] != '' %}
+		<dt>Twitter</dt>
+		<dd><a href="{{ page['twitter'] | escape }}">{{ page['twitter'] | escape }}</a></dd>
+		{% endif %}
 	</dl>
 </section>
 {% endif %}

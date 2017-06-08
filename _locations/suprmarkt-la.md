@@ -9,20 +9,21 @@ latitude: 34.004253
 longitude: -118.330749
 category: Pop Up Market
 website: http://suprmarkt.la
+facebook: https://www.facebook.com/suprmarkt
+instagram: https://www.instagram.com/supr.mrkt
 phone: 424.261.7877
 title: SÜPRMARKT LA, Food Oasis Los Angeles
 uri: /locations/suprmarkt-la/
 ---
-* 100% organic food for sale
-* EBT Accepted
-* [Facebook](https://www.facebook.com/suprmarkt)
-* [Instagram](https://www.instagram.com/supr.mrkt/)
 
 ## Hours
 
 Sunday
-: _2-6 PM_
+: 2pm – 6pm
 
-_The information on this page is subject to change._ Please visit [suprmarkt.la/next-suprmarkt](http://suprmarkt.la/next-suprmarkt/) to find out where and when to find the market.
+_The market’s location and hours may have changed._ Please visit [suprmarkt.la/next-suprmarkt](http://suprmarkt.la/next-suprmarkt/) to find out where and when to find the market.
 
+## Features
 
+* 100% organic food for sale
+* EBT Accepted
