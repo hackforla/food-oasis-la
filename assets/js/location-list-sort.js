@@ -34,11 +34,14 @@ window.oasis = window.oasis || {};
 				for (var index = 0; index < types.length; index++) {
 					if (item.category.toLowerCase().replace(/\s/g, '-') === types[index]) {
 						return true;
+					// SHIM: Assume “Free Summer Lunch” is the same as “Kids Lunch”
+					} else if (item.category.toLowerCase().replace(/\s/g, '-') === 'free-summer-lunch' && types[index] === 'kids-lunch') {
+						return true;
 					}
 				}
 
 				// SHIM: Always show misc locations, if we’re showing all types
-				if (item.uri.indexOf('locations/') >= 0 && (types.length === 4 || types.length === 0)) {
+				if (item.uri.indexOf('locations/') >= 0 && (types.length === 8 || types.length === 0)) {
 					return true;
 				}
 

@@ -73,7 +73,7 @@ var updateLink;
 			// SHIM: Translate to a human readable version of the “type”.
 			var formattedTypes = [];
 			for (var index = 0; index < types.length; index++) {
-				formattedTypes.push((types[index] === 'food-pantry') ? 'food pantries' : types[index].replace(/\-/g, ' ') + 's');
+				formattedTypes.push((types[index] === 'food-pantry') ? 'food pantries' : (types[index] === 'kids-lunch') ? 'kids lunches' : types[index].replace(/\-/g, ' ') + 's');
 			}
 			searchType.innerText = formattedTypes.join(', ');
 			searchType.style.textTransform = 'capitalize';
