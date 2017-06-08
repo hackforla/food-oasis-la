@@ -11,7 +11,7 @@ category: Community Garden
 website: http://www.cityofchino.org/government-services/community-services/healthy-chino/community-garden
 phone: 909-334-3478
 title: Chino Community Garden & Park, Food Oasis Los Angeles
-uri: /community-garden/chino-community-garden---park/
+uri: /community-garden/chino-community-garden-park/
 ---
 ## Schedule a Group Tour
 
