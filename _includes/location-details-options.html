@@ -43,7 +43,7 @@ toggleDetailsOnPress('shareable-link');
 			<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly">
 {{ page['name'] | escape }}
 {{ page['address_1'] | escape }}{% if page['address_2'] and page['address_2'] != '' %},
-{{ page['address_2'] | escape }}{% endif %},
+{{ page['address_2'] | escape }}{% endif %}
 {{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
 </textarea>
 		</label>
