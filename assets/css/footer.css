@@ -26,9 +26,11 @@
 	.link-list.has-icons a {
 		text-decoration: none;
 	}
+	/*
 	.link-list.has-icons a span {
 		text-decoration: underline;
 	}
+	*/
 
 
 	/* =Footer
@@ -44,11 +46,13 @@
 	footer .link-list {
 		max-width: none;
 	}
+	/*
 	footer .link-list li {
 		display: inline-block;
 		margin-left: 0.75em;
 		margin-right: 0.75em;
 	}
+	*/
 
 	footer .action a {
 		text-transform: none;
