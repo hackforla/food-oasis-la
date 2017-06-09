@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 13715 Vanowen St
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91405'
 phone: (818) 782-8266
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

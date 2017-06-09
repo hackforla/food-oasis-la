@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2725 Agoura Rd
 address_2: ''
-city: ''
+city: Westlake Village
 state: CA
 zip: '91361'
 phone: (805) 497-1921
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

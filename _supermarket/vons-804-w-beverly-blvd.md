@@ -2,7 +2,7 @@
 name: Vons
 address_1: 804 W Beverly Blvd
 address_2: ''
-city: ''
+city: Montebello
 state: CA
 zip: '90640'
 phone: (323) 722-1706
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

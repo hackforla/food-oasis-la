@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1025 E Amar Rd
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91792'
 phone: (626) 968-6005
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

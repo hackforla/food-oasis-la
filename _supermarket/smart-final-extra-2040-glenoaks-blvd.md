@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 2040 Glenoaks Blvd
 address_2: ''
-city: ''
+city: San Fernando
 state: CA
 zip: '91340'
 phone: (818) 838-9187
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

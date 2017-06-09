@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4030 S Centinela Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90066'
 phone: (310) 391-1503
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

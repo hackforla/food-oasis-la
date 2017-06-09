@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 12765 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 890-1151
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

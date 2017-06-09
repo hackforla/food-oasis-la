@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 8640 Alondra Blvd
 address_2: ''
-city: ''
+city: Paramount
 state: CA
 zip: '90723'
 phone: (562) 633-5721
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

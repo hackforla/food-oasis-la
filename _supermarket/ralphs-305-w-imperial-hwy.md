@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 305 W Imperial Hwy
 address_2: ''
-city: ''
+city: Brea
 state: CA
 zip: '92821'
 phone: (714) 529-4505
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

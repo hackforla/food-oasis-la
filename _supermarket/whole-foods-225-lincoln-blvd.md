@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 225 Lincoln Blvd
 address_2: ''
-city: ''
+city: Venice
 state: CA
 zip: '90291'
 phone: (310) 566-9480
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

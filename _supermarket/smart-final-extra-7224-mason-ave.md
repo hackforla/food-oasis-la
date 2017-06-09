@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 7224 Mason Ave
 address_2: ''
-city: ''
+city: Winnetka
 state: CA
 zip: '91306'
 phone: (818) 274-0111
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1023 N Grand Ave
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91724'
 phone: (626) 543-1104
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

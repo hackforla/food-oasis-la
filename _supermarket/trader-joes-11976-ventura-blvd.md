@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 11976 Ventura Blvd
 address_2: ''
-city: ''
+city: Studio City
 state: CA
 zip: '91604'
 phone: (818) 509-0168
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

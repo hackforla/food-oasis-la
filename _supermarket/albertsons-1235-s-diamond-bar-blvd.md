@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1235 S Diamond Bar Blvd
 address_2: ''
-city: ''
+city: Diamond Bar
 state: CA
 zip: '91765'
 phone: (909) 861-6207
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

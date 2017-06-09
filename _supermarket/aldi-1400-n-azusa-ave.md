@@ -2,7 +2,7 @@
 name: Aldi
 address_1: 1400 N Azusa Ave
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91722'
 phone: (626) 331-1112
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

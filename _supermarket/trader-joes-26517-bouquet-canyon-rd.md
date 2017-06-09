@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 26517 Bouquet Canyon Rd
 address_2: ''
-city: ''
+city: Santa Clarita
 state: CA
 zip: '91350'
 phone: (661) 263-3796
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

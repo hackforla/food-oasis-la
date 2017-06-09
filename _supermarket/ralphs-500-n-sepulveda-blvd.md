@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 500 N Sepulveda Blvd
 address_2: ''
-city: ''
+city: El Segundo
 state: CA
 zip: '90245'
 phone: (310) 615-0537
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

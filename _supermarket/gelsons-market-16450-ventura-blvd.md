@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 16450 Ventura Blvd
 address_2: ''
-city: ''
+city: Encino
 state: CA
 zip: '91436'
 phone: (818) 906-5780
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

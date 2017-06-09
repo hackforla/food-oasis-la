@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2035 Hillhurst Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 660-0687
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

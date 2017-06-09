@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 11840 Wilmington Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90059'
 phone: (323) 564-3986
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1600 Vine St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90028'
 phone: (323) 856-0689
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

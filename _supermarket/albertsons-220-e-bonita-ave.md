@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 220 E Bonita Ave
 address_2: ''
-city: ''
+city: San Dimas
 state: CA
 zip: '91773'
 phone: (909) 599-8836
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

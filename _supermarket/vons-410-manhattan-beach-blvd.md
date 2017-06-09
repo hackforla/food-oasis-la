@@ -2,7 +2,7 @@
 name: Vons
 address_1: 410 Manhattan Beach Blvd
 address_2: ''
-city: ''
+city: Manhattan Beach
 state: CA
 zip: '90266'
 phone: (310) 379-3051
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

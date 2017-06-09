@@ -2,7 +2,7 @@
 name: El Super
 address_1: 7000 S Alameda St
 address_2: ''
-city: ''
+city: Huntington Park
 state: CA
 zip: '90255'
 phone: (323) 983-7777
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 214 E Alameda Ave
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91502'
 phone: (818) 848-4299
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

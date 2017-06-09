@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 7227 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91405'
 phone: (818) 464-4322
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

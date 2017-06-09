@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1770 W Carson St
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90501'
 phone: (310) 787-8786
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

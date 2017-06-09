@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 11030 Jefferson Blvd
 address_2: ''
-city: ''
+city: Culver City
 state: CA
 zip: '90230'
 phone: (310) 398-1945
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1010 E Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93535'
 phone: (661) 948-7332
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

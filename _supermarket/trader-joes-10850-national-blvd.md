@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 10850 National Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90064'
 phone: (310) 470-1917
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

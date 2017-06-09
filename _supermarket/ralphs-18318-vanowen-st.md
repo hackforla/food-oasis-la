@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 18318 Vanowen St
 address_2: ''
-city: ''
+city: Reseda
 state: CA
 zip: '91335'
 phone: (818) 343-3492
@@ -51,3 +51,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 8pm
 
 ---
+
+

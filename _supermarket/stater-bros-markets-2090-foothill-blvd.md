@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 2090 Foothill Blvd
 address_2: ''
-city: ''
+city: La Verne
 state: CA
 zip: '91750'
 phone: (909) 593-1591
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 1801 W Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93534'
 phone: (661) 945-3034
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

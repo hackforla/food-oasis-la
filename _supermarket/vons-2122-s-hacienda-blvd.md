@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2122 S Hacienda Blvd
 address_2: ''
-city: ''
+city: Hacienda Heights
 state: CA
 zip: '91745'
 phone: (626) 330-4216
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

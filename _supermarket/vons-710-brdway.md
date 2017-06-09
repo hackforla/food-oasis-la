@@ -2,7 +2,7 @@
 name: Vons
 address_1: 710 Brdway
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90401'
 phone: (310) 260-0260
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

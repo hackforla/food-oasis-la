@@ -2,7 +2,7 @@
 name: Island Pacific Supermarket
 address_1: 8340 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Panorama City
 state: CA
 zip: '91402'
 phone: (818) 895-2423
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

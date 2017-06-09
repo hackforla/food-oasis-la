@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 4520 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Sherman Oaks
 state: CA
 zip: '91403'
 phone: (818) 377-4140
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

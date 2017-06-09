@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 175 S Fairfax Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90036'
 phone: (323) 931-4012
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

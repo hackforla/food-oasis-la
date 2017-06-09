@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 5420 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 871-8011
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 200 E Sepulveda Blvd
 address_2: ''
-city: ''
+city: Carson
 state: CA
 zip: '90745'
 phone: (310) 513-1900
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

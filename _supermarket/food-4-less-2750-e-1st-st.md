@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 2750 E 1st St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90033'
 phone: (323) 268-0461
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

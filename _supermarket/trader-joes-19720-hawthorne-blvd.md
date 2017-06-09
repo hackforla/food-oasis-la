@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 19720 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90503'
 phone: (310) 793-8585
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

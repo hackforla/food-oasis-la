@@ -2,7 +2,7 @@
 name: Vons
 address_1: 18439 Ventura Blvd
 address_2: ''
-city: ''
+city: Tarzana
 state: CA
 zip: '91356'
 phone: (818) 881-5527
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

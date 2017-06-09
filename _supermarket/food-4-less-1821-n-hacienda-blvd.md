@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 1821 N Hacienda Blvd
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91744'
 phone: (626) 916-1120
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

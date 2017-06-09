@@ -2,7 +2,7 @@
 name: Vallarta Supermarkets
 address_1: 12881 Bradley Ave
 address_2: ''
-city: ''
+city: Sylmar
 state: CA
 zip: '91342'
 phone: (818) 898-0088
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

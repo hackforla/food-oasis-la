@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 11737 San Vicente Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90049'
 phone: (310) 826-4433
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

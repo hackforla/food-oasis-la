@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 6700 Cherry Ave
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90805'
 phone: (562) 220-2373
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

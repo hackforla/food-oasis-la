@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2627 Lincoln Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90405'
 phone: (310) 452-3811
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

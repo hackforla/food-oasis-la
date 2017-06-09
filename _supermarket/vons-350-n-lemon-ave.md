@@ -2,7 +2,7 @@
 name: Vons
 address_1: 350 N Lemon Ave
 address_2: ''
-city: ''
+city: Walnut
 state: CA
 zip: '91789'
 phone: (909) 595-6465
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 2845 W Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93536'
 phone: (661) 943-2545
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

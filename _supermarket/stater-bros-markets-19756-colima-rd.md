@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 19756 Colima Rd
 address_2: ''
-city: ''
+city: Rowland Heights
 state: CA
 zip: '91748'
 phone: (909) 598-6619
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

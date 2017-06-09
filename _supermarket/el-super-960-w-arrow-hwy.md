@@ -2,7 +2,7 @@
 name: El Super
 address_1: 960 W Arrow Hwy
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91722'
 phone: (626) 334-4261
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

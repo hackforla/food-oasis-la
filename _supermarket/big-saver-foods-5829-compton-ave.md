@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 5829 Compton Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90001'
 phone: (323) 582-8295
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: El Super
 address_1: 120 W Anaheim St
 address_2: ''
-city: ''
+city: Wilmington
 state: CA
 zip: '90744'
 phone: (310) 513-4270
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

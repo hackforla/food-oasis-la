@@ -2,7 +2,7 @@
 name: El Super
 address_1: 1285 N Hacienda Blvd
 address_2: ''
-city: ''
+city: La Puente
 state: CA
 zip: '91744'
 phone: (626) 869-5124
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

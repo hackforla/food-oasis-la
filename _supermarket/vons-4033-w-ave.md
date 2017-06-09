@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4033 W Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93536'
 phone: (661) 722-7291
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

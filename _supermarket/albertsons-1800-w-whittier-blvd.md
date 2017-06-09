@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1800 W Whittier Blvd
 address_2: ''
-city: ''
+city: La Habra
 state: CA
 zip: '90631'
 phone: (562) 697-6442
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 2734 Townsgate Rd
 address_2: ''
-city: ''
+city: Westlake Village
 state: CA
 zip: '91361'
 phone: (805) 496-0353
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

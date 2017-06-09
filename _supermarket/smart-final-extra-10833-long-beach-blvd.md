@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 10833 Long Beach Blvd
 address_2: ''
-city: ''
+city: Lynwood
 state: CA
 zip: '90262'
 phone: (310) 631-8639
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 561 N Glendale Ave
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91206'
 phone: (818) 242-5926
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

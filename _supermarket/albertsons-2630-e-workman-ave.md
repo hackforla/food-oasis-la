@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2630 E Workman Ave
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91791'
 phone: (626) 915-5555
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

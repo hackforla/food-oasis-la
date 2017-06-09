@@ -2,7 +2,7 @@
 name: El Super
 address_1: 14103 Ramona Blvd
 address_2: ''
-city: ''
+city: Baldwin Park
 state: CA
 zip: '91706'
 phone: (626) 869-5140
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

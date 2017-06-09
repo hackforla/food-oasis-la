@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4520 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 662-8107
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

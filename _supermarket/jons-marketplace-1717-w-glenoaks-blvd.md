@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 1717 W Glenoaks Blvd
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91201'
 phone: (818) 244-2575
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

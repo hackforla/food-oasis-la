@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2250 E Carson St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90807'
 phone: (562) 424-2012
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

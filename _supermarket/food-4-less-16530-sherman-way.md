@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 16530 Sherman Way
 address_2: ''
-city: ''
+city: Santa Clarita
 state: CA
 zip: '91406'
 phone: (818) 997-0170
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 7200 Dominion Cir
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90040'
 phone: (323) 869-0600
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

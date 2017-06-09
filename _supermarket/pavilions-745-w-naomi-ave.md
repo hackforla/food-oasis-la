@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 745 W Naomi Ave
 address_2: ''
-city: ''
+city: Arcadia
 state: CA
 zip: '91007'
 phone: (626) 446-9483
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

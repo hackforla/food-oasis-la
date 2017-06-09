@@ -2,7 +2,7 @@
 name: Lassens Natural Foods & Vitamins
 address_1: 2857 E Thousand Oaks Blvd
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 495-2609
@@ -54,3 +54,5 @@ formatted_day6_open: 8am
 formatted_day6_close: 9pm
 
 ---
+
+

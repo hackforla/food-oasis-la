@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 4308 Slauson Ave
 address_2: ''
-city: ''
+city: Maywood
 state: CA
 zip: '90270'
 phone: (323) 560-1501
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

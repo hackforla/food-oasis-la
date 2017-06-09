@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 9320 Slauson Ave
 address_2: ''
-city: ''
+city: Pico Rivera
 state: CA
 zip: '90660'
 phone: (562) 948-4519
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

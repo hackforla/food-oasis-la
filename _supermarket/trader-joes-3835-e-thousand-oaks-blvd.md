@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 3835 E Thousand Oaks Blvd
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 494-5040
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

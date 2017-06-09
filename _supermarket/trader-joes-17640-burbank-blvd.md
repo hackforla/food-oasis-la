@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 17640 Burbank Blvd
 address_2: ''
-city: ''
+city: Encino
 state: CA
 zip: '91316'
 phone: (818) 990-7751
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

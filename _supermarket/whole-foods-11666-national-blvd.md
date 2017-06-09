@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 11666 National Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90064'
 phone: (310) 996-8840
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

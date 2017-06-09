@@ -2,7 +2,7 @@
 name: Vallarta Supermarkets
 address_1: 9134 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Panorama City
 state: CA
 zip: '91402'
 phone: (818) 894-4949
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

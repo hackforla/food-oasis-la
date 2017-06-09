@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 3827 Culver Ctr
 address_2: ''
-city: ''
+city: Culver City
 state: CA
 zip: '90232'
 phone: (310) 558-4027
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

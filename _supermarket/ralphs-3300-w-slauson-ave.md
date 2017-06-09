@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 3300 W Slauson Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90043'
 phone: (323) 293-0199
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

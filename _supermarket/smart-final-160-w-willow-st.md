@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 160 W Willow St
 address_2: ''
-city: ''
+city: Pomona
 state: CA
 zip: '91768'
 phone: (909) 622-3321
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

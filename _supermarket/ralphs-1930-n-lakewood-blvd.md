@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1930 N Lakewood Blvd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90815'
 phone: (562) 494-4371
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

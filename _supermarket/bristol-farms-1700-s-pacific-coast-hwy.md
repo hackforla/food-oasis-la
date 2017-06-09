@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 1700 S Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 303-3922
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 6pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2600 W Victory Blvd
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91505'
 phone: (818) 845-5914
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

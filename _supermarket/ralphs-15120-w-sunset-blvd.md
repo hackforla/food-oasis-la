@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 15120 W Sunset Blvd
 address_2: ''
-city: ''
+city: Pacific Palisades
 state: CA
 zip: '90272'
 phone: (310) 454-3001
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

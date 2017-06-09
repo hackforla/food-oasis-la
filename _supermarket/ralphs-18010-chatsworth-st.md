@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 18010 Chatsworth St
 address_2: ''
-city: ''
+city: Granada Hills
 state: CA
 zip: '91344'
 phone: (818) 831-6556
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

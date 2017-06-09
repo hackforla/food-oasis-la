@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 29675 the Old Rd
 address_2: ''
-city: ''
+city: Castaic
 state: CA
 zip: '91384'
 phone: (661) 702-6911
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 1570 Rosecrans Ave
 address_2: ''
-city: ''
+city: Manhattan Beach
 state: CA
 zip: '90266'
 phone: (310) 643-5229
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

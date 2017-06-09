@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 14440 Burbank Blvd
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91401'
 phone: (818) 989-5640
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

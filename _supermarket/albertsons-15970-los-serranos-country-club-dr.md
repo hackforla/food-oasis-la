@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 15970 Los Serranos Country Club Dr
 address_2: ''
-city: ''
+city: Chino Hills
 state: CA
 zip: '91709'
 phone: (909) 606-8184
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: El Super
 address_1: 5610 York Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90042'
 phone: (323) 916-8218
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

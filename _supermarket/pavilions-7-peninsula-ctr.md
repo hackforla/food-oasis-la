@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 7 Peninsula Ctr
 address_2: ''
-city: ''
+city: Palos Verdes Peninsula
 state: CA
 zip: '90274'
 phone: (310) 377-1994
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 8pm
 
 ---
+
+

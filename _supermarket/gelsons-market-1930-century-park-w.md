@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 1930 Century Park W
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90067'
 phone: (310) 277-4288
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

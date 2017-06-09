@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1516 S Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 540-6157
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

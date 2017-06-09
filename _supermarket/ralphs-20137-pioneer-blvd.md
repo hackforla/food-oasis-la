@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 20137 Pioneer Blvd
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90715'
 phone: (562) 860-5468
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: '5:30pm'
 
 ---
+
+

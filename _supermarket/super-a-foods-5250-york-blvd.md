@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 5250 York Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90042'
 phone: (323) 551-6884
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

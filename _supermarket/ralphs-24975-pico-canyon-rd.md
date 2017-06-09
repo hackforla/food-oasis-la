@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 24975 Pico Canyon Rd
 address_2: ''
-city: ''
+city: Stevenson Ranch
 state: CA
 zip: '91381'
 phone: (661) 253-0656
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

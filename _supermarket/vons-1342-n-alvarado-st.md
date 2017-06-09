@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1342 N Alvarado St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90026'
 phone: (213) 483-5573
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

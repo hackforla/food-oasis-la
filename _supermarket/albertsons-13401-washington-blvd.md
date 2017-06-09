@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 13401 Washington Blvd
 address_2: ''
-city: ''
+city: Venice
 state: CA
 zip: '90292'
 phone: (310) 574-0606
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

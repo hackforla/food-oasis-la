@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1425 W Arrow Hwy
 address_2: ''
-city: ''
+city: San Dimas
 state: CA
 zip: '91773'
 phone: (909) 599-1374
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

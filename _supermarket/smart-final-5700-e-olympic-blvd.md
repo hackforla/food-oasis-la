@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 5700 E Olympic Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90022'
 phone: (323) 888-4204
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

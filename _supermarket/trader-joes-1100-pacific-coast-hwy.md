@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1100 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Hermosa Beach
 state: CA
 zip: '90254'
 phone: ''
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

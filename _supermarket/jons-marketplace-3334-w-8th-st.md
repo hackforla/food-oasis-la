@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 3334 W 8th St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90005'
 phone: (213) 383-6891
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

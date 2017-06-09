@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 1050 Gayley Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90024'
 phone: (310) 824-0858
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

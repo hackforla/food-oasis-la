@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 2201 Wilshire Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90403'
 phone: (310) 315-0662
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

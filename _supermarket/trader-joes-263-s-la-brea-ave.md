@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 263 S La Brea Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90036'
 phone: (323) 965-1989
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

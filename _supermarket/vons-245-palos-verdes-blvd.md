@@ -2,7 +2,7 @@
 name: Vons
 address_1: 245 Palos Verdes Blvd
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 378-7434
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

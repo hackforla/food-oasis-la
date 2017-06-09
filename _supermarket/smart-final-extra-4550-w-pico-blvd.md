@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 4550 W Pico Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90019'
 phone: (323) 549-9586
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 25930 McBean Pkwy
 address_2: ''
-city: ''
+city: Valencia
 state: CA
 zip: '91355'
 phone: (661) 254-3440
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

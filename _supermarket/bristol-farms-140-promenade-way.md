@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 140 Promenade Way
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 370-9197
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

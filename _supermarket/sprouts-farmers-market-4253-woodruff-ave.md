@@ -2,7 +2,7 @@
 name: Sprouts Farmers Market
 address_1: 4253 Woodruff Ave
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 739-2541
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

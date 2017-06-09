@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 6235 E Spring St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90808'
 phone: (562) 425-8456
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

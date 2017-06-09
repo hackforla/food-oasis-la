@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1212 Beryl St
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 374-7987
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

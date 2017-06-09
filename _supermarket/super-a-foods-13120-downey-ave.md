@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 13120 Downey Ave
 address_2: ''
-city: ''
+city: Paramount
 state: CA
 zip: '90723'
 phone: (562) 634-3162
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

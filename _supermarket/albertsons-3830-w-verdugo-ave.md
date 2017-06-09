@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 3830 W Verdugo Ave
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91505'
 phone: (818) 954-0817
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

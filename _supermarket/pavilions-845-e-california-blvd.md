@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 845 E California Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91106'
 phone: (626) 449-3968
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

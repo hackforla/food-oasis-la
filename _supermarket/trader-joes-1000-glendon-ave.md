@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1000 Glendon Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90024'
 phone: (310) 824-1495
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

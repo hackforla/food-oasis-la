@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 8330 Santa Monica Blvd
 address_2: ''
-city: ''
+city: West Hollywood
 state: CA
 zip: '90069'
 phone: (323) 656-5580
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

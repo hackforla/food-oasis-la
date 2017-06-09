@@ -2,7 +2,7 @@
 name: Yummy.com
 address_1: 6020 Seabluff Dr
 address_2: ''
-city: ''
+city: Playa Vista
 state: CA
 zip: '90094'
 phone: (310) 862-9790
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

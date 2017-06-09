@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 8626 Firestone Blvd
 address_2: ''
-city: ''
+city: Downey
 state: CA
 zip: '90241'
 phone: (562) 869-2733
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

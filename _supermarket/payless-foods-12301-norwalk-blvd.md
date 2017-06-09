@@ -2,7 +2,7 @@
 name: Payless Foods
 address_1: 12301 Norwalk Blvd
 address_2: ''
-city: ''
+city: Norwalk
 state: CA
 zip: '90650'
 phone: (562) 929-2255
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

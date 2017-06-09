@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 5500 Reseda Blvd
 address_2: ''
-city: ''
+city: Tarzana
 state: CA
 zip: '91356'
 phone: (818) 906-5752
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

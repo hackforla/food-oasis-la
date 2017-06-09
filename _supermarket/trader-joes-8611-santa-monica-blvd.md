@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 8611 Santa Monica Blvd
 address_2: ''
-city: ''
+city: West Hollywood
 state: CA
 zip: '90069'
 phone: (310) 657-0152
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

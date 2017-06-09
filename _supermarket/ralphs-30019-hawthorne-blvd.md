@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 30019 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Rancho Palos Verdes
 state: CA
 zip: '90275'
 phone: (310) 377-6941
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

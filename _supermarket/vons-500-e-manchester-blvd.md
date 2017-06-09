@@ -2,7 +2,7 @@
 name: Vons
 address_1: 500 E Manchester Blvd
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90301'
 phone: (310) 677-0286
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

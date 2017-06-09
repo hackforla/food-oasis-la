@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 13003 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90602'
 phone: (562) 907-7037
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1636 W 25th St
 address_2: ''
-city: ''
+city: San Pedro
 state: CA
 zip: '90732'
 phone: (310) 831-1161
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

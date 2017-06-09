@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 239 N Crescent Dr
 address_2: ''
-city: ''
+city: Beverly Hills
 state: CA
 zip: '90210'
 phone: (310) 274-3360
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

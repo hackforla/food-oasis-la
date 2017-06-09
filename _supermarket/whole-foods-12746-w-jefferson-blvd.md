@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 12746 W Jefferson Blvd
 address_2: ''
-city: ''
+city: Playa del Rey
 state: CA
 zip: '90094'
 phone: (310) 862-9900
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 405 N Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 376-6931
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

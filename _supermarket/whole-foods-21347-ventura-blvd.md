@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 21347 Ventura Blvd
 address_2: ''
-city: ''
+city: Woodland Hills
 state: CA
 zip: '91364'
 phone: (818) 610-0000
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1575 Centinela Ave
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90302'
 phone: (310) 673-4997
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

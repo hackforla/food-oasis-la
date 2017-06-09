@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2510 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Hermosa Beach
 state: CA
 zip: '90254'
 phone: (310) 379-7437
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: '9:30pm'
 
 ---
+
+

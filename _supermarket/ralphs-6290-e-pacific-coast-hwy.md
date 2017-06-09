@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 6290 E Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90803'
 phone: (562) 795-0167
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

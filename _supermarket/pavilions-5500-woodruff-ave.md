@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 5500 Woodruff Ave
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 866-3781
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

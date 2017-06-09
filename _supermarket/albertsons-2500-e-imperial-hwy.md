@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2500 E Imperial Hwy
 address_2: ''
-city: ''
+city: Brea
 state: CA
 zip: '92821'
 phone: (714) 671-1180
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

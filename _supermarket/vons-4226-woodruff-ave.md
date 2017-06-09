@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4226 Woodruff Ave
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 496-4144
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

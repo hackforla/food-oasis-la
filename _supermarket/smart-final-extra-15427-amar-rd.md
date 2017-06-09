@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 15427 Amar Rd
 address_2: ''
-city: ''
+city: La Puente
 state: CA
 zip: '91744'
 phone: (626) 330-2495
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

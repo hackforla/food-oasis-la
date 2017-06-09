@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 12800 La Mirada Blvd
 address_2: ''
-city: ''
+city: La Mirada
 state: CA
 zip: '90638'
 phone: (562) 943-3783
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

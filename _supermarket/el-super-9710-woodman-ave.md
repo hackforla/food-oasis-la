@@ -2,7 +2,7 @@
 name: El Super
 address_1: 9710 Woodman Ave
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 834-1810
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

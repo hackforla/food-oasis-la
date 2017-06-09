@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4033 Laurel Canyon Blvd
 address_2: ''
-city: ''
+city: Studio City
 state: CA
 zip: '91604'
 phone: (818) 985-5401
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

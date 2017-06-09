@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 114 N Azusa Ave
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91722'
 phone: (626) 915-6619
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

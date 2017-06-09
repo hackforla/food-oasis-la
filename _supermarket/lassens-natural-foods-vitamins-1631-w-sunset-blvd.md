@@ -2,7 +2,7 @@
 name: Lassens Natural Foods & Vitamins
 address_1: 1631 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90026'
 phone: (213) 542-6535
@@ -54,3 +54,5 @@ formatted_day6_open: 7am
 formatted_day6_close: 10pm
 
 ---
+
+

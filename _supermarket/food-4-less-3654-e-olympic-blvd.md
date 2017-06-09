@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 3654 E Olympic Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90023'
 phone: (323) 980-5067
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

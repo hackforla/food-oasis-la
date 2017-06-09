@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 12210 Santa Monica Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90025'
 phone: (310) 207-8688
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

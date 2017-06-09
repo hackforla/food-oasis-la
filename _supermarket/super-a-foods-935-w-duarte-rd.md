@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 935 W Duarte Rd
 address_2: ''
-city: ''
+city: Monrovia
 state: CA
 zip: '91016'
 phone: (626) 574-9077
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

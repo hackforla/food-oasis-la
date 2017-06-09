@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2700 N Sepulveda Blvd
 address_2: ''
-city: ''
+city: Manhattan Beach
 state: CA
 zip: '90266'
 phone: (310) 546-2472
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

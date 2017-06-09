@@ -2,7 +2,7 @@
 name: Payless Foods
 address_1: 23501 Avalon Blvd
 address_2: ''
-city: ''
+city: Carson
 state: CA
 zip: '90745'
 phone: (310) 830-8241
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

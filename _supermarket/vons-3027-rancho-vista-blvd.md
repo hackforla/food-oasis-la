@@ -2,7 +2,7 @@
 name: Vons
 address_1: 3027 Rancho Vista Blvd
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93551'
 phone: (661) 265-9285
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

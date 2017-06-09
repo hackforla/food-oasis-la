@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 3480 S La Brea Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90016'
 phone: (323) 294-4309
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

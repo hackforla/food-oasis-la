@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 2545 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90505'
 phone: (310) 326-9520
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1260 W Redondo Beach Blvd
 address_2: ''
-city: ''
+city: Gardena
 state: CA
 zip: '90247'
 phone: (310) 767-7920
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

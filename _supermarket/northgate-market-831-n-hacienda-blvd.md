@@ -2,7 +2,7 @@
 name: Northgate Market
 address_1: 831 N Hacienda Blvd
 address_2: ''
-city: ''
+city: La Puente
 state: CA
 zip: '91744'
 phone: (626) 435-1440
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

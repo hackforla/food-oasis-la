@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 4237 Woodruff Ave
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 429-0500
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

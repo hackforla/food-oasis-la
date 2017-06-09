@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 11727 W Olympic Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90064'
 phone: (310) 473-5238
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

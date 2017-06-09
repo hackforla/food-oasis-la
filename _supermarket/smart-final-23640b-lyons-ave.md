@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 23640B Lyons Ave
 address_2: ''
-city: ''
+city: Newhall
 state: CA
 zip: '91321'
 phone: (661) 255-9822
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

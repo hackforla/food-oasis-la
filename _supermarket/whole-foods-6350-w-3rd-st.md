@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 6350 W 3rd St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90036'
 phone: (323) 964-6800
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

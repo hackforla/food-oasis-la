@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 151 S Hacienda Blvd
 address_2: ''
-city: ''
+city: La Puente
 state: CA
 zip: '91745'
 phone: (626) 855-4432
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

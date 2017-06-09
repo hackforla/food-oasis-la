@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 8116 California Ave
 address_2: ''
-city: ''
+city: South Gate
 state: CA
 zip: '90280'
 phone: (323) 563-6072
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

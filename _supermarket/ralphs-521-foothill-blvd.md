@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 521 Foothill Blvd
 address_2: ''
-city: ''
+city: La Canada Flintridge
 state: CA
 zip: '91011'
 phone: (818) 790-0584
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 8453 Reseda Blvd
 address_2: ''
-city: ''
+city: Northridge
 state: CA
 zip: '91324'
 phone: (818) 576-1280
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

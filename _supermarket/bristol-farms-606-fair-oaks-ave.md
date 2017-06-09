@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 606 Fair Oaks Ave
 address_2: ''
-city: ''
+city: South Pasadena
 state: CA
 zip: '91030'
 phone: (626) 441-5450
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

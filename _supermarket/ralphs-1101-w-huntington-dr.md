@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1101 W Huntington Dr
 address_2: ''
-city: ''
+city: Arcadia
 state: CA
 zip: '91007'
 phone: (626) 447-3548
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 22631 Ventura Blvd
 address_2: ''
-city: ''
+city: Woodland Hills
 state: CA
 zip: '91364'
 phone: (818) 225-9590
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

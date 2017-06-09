@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 110 E Carson St
 address_2: ''
-city: ''
+city: Carson
 state: CA
 zip: '90745'
 phone: (310) 835-6402
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

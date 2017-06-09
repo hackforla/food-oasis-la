@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 2775 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90505'
 phone: (310) 539-3526
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Gelsons Market
 address_1: 635 Foothill Blvd
 address_2: ''
-city: ''
+city: La Canada Flintridge
 state: CA
 zip: '91011'
 phone: (818) 790-0563
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 43543 20th St W
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93534'
 phone: (661) 940-4747
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

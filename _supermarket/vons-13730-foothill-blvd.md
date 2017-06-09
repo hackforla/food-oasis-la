@@ -2,7 +2,7 @@
 name: Vons
 address_1: 13730 Foothill Blvd
 address_2: ''
-city: ''
+city: Sylmar
 state: CA
 zip: '91342'
 phone: (818) 367-1849
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

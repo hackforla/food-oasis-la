@@ -2,7 +2,7 @@
 name: Northgate Gonzalez Markets
 address_1: 425 S Soto St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90033'
 phone: (323) 262-0595
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

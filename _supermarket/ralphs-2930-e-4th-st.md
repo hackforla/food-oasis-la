@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2930 E 4th St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90814'
 phone: (562) 434-3899
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

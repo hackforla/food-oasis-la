@@ -2,7 +2,7 @@
 name: Vons
 address_1: 8201 Topanga Canyon Blvd
 address_2: ''
-city: ''
+city: Canoga Park
 state: CA
 zip: '91304'
 phone: (818) 703-5959
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

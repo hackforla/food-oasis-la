@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 1135 Lindero Canyon Rd
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (818) 597-1261
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

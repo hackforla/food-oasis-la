@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 1651 E 103rd St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90002'
 phone: (323) 564-3753
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

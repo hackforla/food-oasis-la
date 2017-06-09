@@ -2,7 +2,7 @@
 name: El Super
 address_1: 5646 Whittier Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90022'
 phone: (323) 720-5060
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vallarta Supermarkets
 address_1: 815 E Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93535'
 phone: (661) 974-7002
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

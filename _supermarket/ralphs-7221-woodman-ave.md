@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 7221 Woodman Ave
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91405'
 phone: (818) 785-6136
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

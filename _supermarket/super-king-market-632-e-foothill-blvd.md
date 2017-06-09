@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 632 E Foothill Blvd
 address_2: ''
-city: ''
+city: Azusa
 state: CA
 zip: '91702'
 phone: (626) 334-5097
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

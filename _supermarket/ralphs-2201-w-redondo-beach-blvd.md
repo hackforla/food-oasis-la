@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2201 W Redondo Beach Blvd
 address_2: ''
-city: ''
+city: Gardena
 state: CA
 zip: '90247'
 phone: (310) 538-9008
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 29211 Heathercliff Rd
 address_2: ''
-city: ''
+city: Malibu
 state: CA
 zip: '90265'
 phone: (310) 457-2401
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

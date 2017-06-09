@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 23841 Malibu Rd
 address_2: ''
-city: ''
+city: Malibu
 state: CA
 zip: '90265'
 phone: (310) 456-2917
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

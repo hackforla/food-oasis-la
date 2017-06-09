@@ -2,7 +2,7 @@
 name: El Super
 address_1: 315 San Fernando Mission Blvd
 address_2: ''
-city: ''
+city: San Fernando
 state: CA
 zip: '91340'
 phone: (818) 336-5081
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

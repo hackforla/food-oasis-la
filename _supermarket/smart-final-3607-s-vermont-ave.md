@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 3607 S Vermont Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90007'
 phone: (323) 733-5875
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

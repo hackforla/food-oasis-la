@@ -2,7 +2,7 @@
 name: Northgate Super Market
 address_1: 9101 Telegraph Rd
 address_2: ''
-city: ''
+city: Pico Rivera
 state: CA
 zip: '90660'
 phone: (562) 949-6143
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

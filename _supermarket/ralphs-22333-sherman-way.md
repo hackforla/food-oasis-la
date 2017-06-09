@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 22333 Sherman Way
 address_2: ''
-city: ''
+city: Canoga Park
 state: CA
 zip: '91303'
 phone: (818) 883-1230
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

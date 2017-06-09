@@ -2,7 +2,7 @@
 name: Numero Uno Market
 address_1: 1831 W 3rd St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90057'
 phone: (213) 989-0950
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

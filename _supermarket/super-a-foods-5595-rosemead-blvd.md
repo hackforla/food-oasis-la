@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 5595 Rosemead Blvd
 address_2: ''
-city: ''
+city: Temple City
 state: CA
 zip: '91780'
 phone: (626) 248-0383
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

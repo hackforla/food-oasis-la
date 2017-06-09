@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1311 Wilshire Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90403'
 phone: (310) 394-1414
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

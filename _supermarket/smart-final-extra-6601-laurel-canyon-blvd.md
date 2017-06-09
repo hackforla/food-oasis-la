@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 6601 Laurel Canyon Blvd
 address_2: ''
-city: ''
+city: North Hollywood
 state: CA
 zip: '91606'
 phone: (818) 982-6202
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

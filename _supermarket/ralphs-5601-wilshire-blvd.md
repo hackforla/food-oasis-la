@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 5601 Wilshire Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90036'
 phone: (323) 936-4954
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

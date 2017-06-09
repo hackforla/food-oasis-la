@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2230 S Atlantic Blvd
 address_2: ''
-city: ''
+city: Monterey Park
 state: CA
 zip: '91754'
 phone: (323) 721-3367
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 655 N Fair Oaks Ave
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91103'
 phone: (626) 578-1233
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

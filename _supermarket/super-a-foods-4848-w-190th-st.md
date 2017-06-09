@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 4848 W 190th St
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90503'
 phone: (310) 793-9114
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 19340 Soledad Canyon Rd
 address_2: ''
-city: ''
+city: Canyon Country
 state: CA
 zip: '91351'
 phone: (661) 252-6226
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

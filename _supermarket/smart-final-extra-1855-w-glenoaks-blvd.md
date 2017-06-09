@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 1855 W Glenoaks Blvd
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91201'
 phone: (818) 242-2486
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 9470 Las Tunas Dr
 address_2: ''
-city: ''
+city: Temple City
 state: CA
 zip: '91780'
 phone: (626) 286-0898
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 615 N Azusa Ave
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91791'
 phone: (626) 967-5244
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

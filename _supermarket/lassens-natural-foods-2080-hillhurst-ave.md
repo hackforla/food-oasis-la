@@ -2,7 +2,7 @@
 name: Lassens Natural Foods
 address_1: 2080 Hillhurst Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 660-0052
@@ -54,3 +54,5 @@ formatted_day6_open: 7am
 formatted_day6_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 17380 W Sunset Blvd
 address_2: ''
-city: ''
+city: Pacific Palisades
 state: CA
 zip: '90272'
 phone: (310) 454-2502
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

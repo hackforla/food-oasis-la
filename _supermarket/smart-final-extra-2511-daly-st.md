@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 2511 Daly St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90031'
 phone: (323) 539-2400
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

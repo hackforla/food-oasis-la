@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1413 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90278'
 phone: (310) 370-9446
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

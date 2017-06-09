@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 1010 E Ave
 address_2: ''
-city: ''
+city: Lancaster
 state: CA
 zip: '93535'
 phone: (661) 802-0063
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

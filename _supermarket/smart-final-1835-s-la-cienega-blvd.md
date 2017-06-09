@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1835 S La Cienega Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90035'
 phone: (310) 558-0576
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

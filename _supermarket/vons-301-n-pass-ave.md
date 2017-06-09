@@ -2,7 +2,7 @@
 name: Vons
 address_1: 301 N Pass Ave
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91505'
 phone: (818) 848-9542
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

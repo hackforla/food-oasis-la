@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 8000 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90046'
 phone: (323) 822-7663
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 103 E Glenoaks Blvd
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91207'
 phone: (818) 507-8192
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 3400 E South St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90805'
 phone: (562) 529-6098
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 16210 Devonshire St
 address_2: ''
-city: ''
+city: North Hills
 state: CA
 zip: '91344'
 phone: (818) 892-3338
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

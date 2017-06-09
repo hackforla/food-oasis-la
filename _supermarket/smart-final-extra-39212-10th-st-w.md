@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 39212 10th St W
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93551'
 phone: (661) 947-2121
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

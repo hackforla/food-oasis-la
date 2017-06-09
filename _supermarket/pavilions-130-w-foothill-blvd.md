@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 130 W Foothill Blvd
 address_2: ''
-city: ''
+city: Monrovia
 state: CA
 zip: '91016'
 phone: (626) 303-4547
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

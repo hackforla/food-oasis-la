@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 5429 Hollywood Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 957-9657
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

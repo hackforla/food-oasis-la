@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 10330 Mason Ave
 address_2: ''
-city: ''
+city: Chatsworth
 state: CA
 zip: '91311'
 phone: (818) 341-3010
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 123 Metropole Ave
 address_2: ''
-city: ''
+city: Avalon
 state: CA
 zip: '90704'
 phone: (310) 510-0280
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

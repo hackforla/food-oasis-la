@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1050 N Western Ave
 address_2: ''
-city: ''
+city: San Pedro
 state: CA
 zip: '90732'
 phone: (310) 833-3506
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

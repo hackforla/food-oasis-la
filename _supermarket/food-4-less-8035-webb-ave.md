@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 8035 Webb Ave
 address_2: ''
-city: ''
+city: North Hollywood
 state: CA
 zip: '91605'
 phone: (818) 252-4855
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

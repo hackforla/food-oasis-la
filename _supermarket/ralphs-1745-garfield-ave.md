@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1745 Garfield Ave
 address_2: ''
-city: ''
+city: South Pasadena
 state: CA
 zip: '91030'
 phone: (626) 403-0082
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

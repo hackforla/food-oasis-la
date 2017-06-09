@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 5029 Florence Ave
 address_2: ''
-city: ''
+city: Bell Gardens
 state: CA
 zip: '90201'
 phone: (323) 562-3421
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

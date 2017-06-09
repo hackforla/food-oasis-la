@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 37218 47th St E
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93552'
 phone: (661) 285-9184
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

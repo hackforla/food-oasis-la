@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 2308 E 4th St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90033'
 phone: (323) 268-9179
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

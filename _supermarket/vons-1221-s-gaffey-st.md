@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1221 S Gaffey St
 address_2: ''
-city: ''
+city: San Pedro
 state: CA
 zip: '90731'
 phone: (310) 832-7063
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

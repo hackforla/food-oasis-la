@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 670 S Western Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90005'
 phone: (213) 383-5058
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

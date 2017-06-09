@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 5925 Carson St
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 425-0666
@@ -51,3 +51,5 @@ formatted_day5_open: 8am
 formatted_day5_close: 5pm
 
 ---
+
+

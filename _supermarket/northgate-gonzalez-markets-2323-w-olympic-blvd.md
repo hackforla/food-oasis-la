@@ -2,7 +2,7 @@
 name: Northgate Gonzalez Markets
 address_1: 2323 W Olympic Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90006'
 phone: (213) 249-9173
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

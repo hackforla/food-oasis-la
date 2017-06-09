@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 17120 Colima Rd
 address_2: ''
-city: ''
+city: Hacienda Heights
 state: CA
 zip: '91745'
 phone: (626) 964-7737
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

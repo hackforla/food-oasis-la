@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 3123 Baldwin Park Blvd
 address_2: ''
-city: ''
+city: Baldwin Park
 state: CA
 zip: '91706'
 phone: (626) 337-1434
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

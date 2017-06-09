@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 4365 Glencoe Ave
 address_2: ''
-city: ''
+city: Marina del Rey
 state: CA
 zip: '90292'
 phone: (310) 821-7208
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

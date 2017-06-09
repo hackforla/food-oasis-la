@@ -2,7 +2,7 @@
 name: Northgate Gonzalez Markets
 address_1: 944 E Slauson Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90011'
 phone: (323) 846-8804
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 11460 Washington Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90606'
 phone: (562) 695-1093
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

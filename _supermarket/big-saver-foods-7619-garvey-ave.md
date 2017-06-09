@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 7619 Garvey Ave
 address_2: ''
-city: ''
+city: Rosemead
 state: CA
 zip: '91770'
 phone: (626) 571-7816
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 910 Lincoln Blvd
 address_2: ''
-city: ''
+city: Venice
 state: CA
 zip: '90291'
 phone: (310) 392-4854
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 5824 S Vermont Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90044'
 phone: (323) 541-0107
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 10pm
 
 ---
+
+

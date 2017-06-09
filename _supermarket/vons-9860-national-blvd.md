@@ -2,7 +2,7 @@
 name: Vons
 address_1: 9860 National Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90034'
 phone: (310) 836-4161
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

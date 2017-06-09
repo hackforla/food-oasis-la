@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 5038 W Avenue N
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93551'
 phone: (661) 718-3732
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 3601 E Foothill Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91107'
 phone: (626) 351-8806
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

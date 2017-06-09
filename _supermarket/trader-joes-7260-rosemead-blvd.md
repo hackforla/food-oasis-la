@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 7260 Rosemead Blvd
 address_2: ''
-city: ''
+city: San Gabriel
 state: CA
 zip: '91775'
 phone: (626) 285-5862
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Sprouts Farmers Market
 address_1: 1012 S Westlake Blvd
 address_2: ''
-city: ''
+city: Westlake Village
 state: CA
 zip: '91361'
 phone: (805) 917-4200
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

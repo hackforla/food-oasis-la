@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 6751 Fallbrook Ave
 address_2: ''
-city: ''
+city: West Hills
 state: CA
 zip: '91307'
 phone: (818) 347-2591
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

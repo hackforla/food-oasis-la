@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 3456 S Sepulveda Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90034'
 phone: (310) 836-2458
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

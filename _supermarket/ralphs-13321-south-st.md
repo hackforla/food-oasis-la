@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 13321 South St
 address_2: ''
-city: ''
+city: Cerritos
 state: CA
 zip: '90703'
 phone: (562) 860-5635
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

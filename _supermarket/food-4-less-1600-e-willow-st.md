@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 1600 E Willow St
 address_2: ''
-city: ''
+city: Signal Hill
 state: CA
 zip: '90755'
 phone: (562) 989-7576
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

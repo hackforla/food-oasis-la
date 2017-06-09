@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 760 S Sepulveda Blvd
 address_2: ''
-city: ''
+city: El Segundo
 state: CA
 zip: '90245'
 phone: (310) 333-1900
@@ -57,3 +57,5 @@ formatted_day7_open: 11am
 formatted_day7_close: 7pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Family Market
 address_1: 4304 Floral Dr
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90022'
 phone: (323) 261-8445
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

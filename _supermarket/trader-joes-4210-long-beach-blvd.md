@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 4210 Long Beach Blvd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90807'
 phone: (562) 422-1020
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

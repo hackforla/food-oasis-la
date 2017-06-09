@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 725 E Main St
 address_2: ''
-city: ''
+city: Alhambra
 state: CA
 zip: '91801'
 phone: (626) 281-2049
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

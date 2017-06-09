@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 11221 W Pico Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90064'
 phone: (310) 473-0344
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Yummy.com
 address_1: 3607 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90026'
 phone: (323) 912-9188
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

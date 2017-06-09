@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1566 Colorado Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90041'
 phone: (323) 257-6422
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

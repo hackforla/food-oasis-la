@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 21035 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90503'
 phone: (310) 540-6824
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

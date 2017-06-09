@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4001 Inglewood Ave
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90278'
 phone: (310) 349-0860
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

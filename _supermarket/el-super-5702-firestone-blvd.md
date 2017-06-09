@@ -2,7 +2,7 @@
 name: El Super
 address_1: 5702 Firestone Blvd
 address_2: ''
-city: ''
+city: South Gate
 state: CA
 zip: '90280'
 phone: (562) 927-7901
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

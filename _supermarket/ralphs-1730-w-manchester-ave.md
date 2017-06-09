@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1730 W Manchester Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90047'
 phone: (323) 750-3151
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

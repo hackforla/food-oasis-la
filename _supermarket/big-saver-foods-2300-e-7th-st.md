@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 2300 E 7th St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90804'
 phone: (562) 438-4499
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

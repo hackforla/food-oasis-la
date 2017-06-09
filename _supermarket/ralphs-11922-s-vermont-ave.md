@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 11922 S Vermont Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90044'
 phone: (323) 757-4147
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 12842 Ventura Blvd
 address_2: ''
-city: ''
+city: Studio City
 state: CA
 zip: '91604'
 phone: (818) 761-6196
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 600 Citadel Dr
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90040'
 phone: (323) 869-7500
@@ -51,3 +51,5 @@ formatted_day5_open: 9am
 formatted_day5_close: 5pm
 
 ---
+
+

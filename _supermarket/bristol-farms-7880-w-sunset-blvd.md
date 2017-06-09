@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 7880 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90046'
 phone: (323) 874-6301
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

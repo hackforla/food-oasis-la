@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 5877 Franklin Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90028'
 phone: (323) 464-7316
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

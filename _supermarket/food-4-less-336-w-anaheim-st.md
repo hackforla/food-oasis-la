@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 336 W Anaheim St
 address_2: ''
-city: ''
+city: Wilmington
 state: CA
 zip: '90744'
 phone: (310) 847-7488
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

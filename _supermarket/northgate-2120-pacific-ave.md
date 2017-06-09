@@ -2,7 +2,7 @@
 name: Northgate Supermarket
 address_1: 2120 Pacific Ave
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90806'
 phone: (562) 599-5075
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

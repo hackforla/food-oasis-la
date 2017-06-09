@@ -2,7 +2,7 @@
 name: Aldi
 address_1: 11530 South St
 address_2: ''
-city: ''
+city: Cerritos
 state: CA
 zip: '90703'
 phone: (562) 860-8224
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

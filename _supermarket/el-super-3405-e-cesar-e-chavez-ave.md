@@ -2,7 +2,7 @@
 name: El Super
 address_1: 3405 E Cesar E Chavez Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90063'
 phone: (323) 526-0120
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 9pm
 
 ---
+
+

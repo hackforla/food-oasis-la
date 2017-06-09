@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 18204 Gale Ave
 address_2: ''
-city: ''
+city: Rowland Heights
 state: CA
 zip: '91748'
 phone: (626) 965-0483
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: El Super
 address_1: 14620 Parthenia St
 address_2: ''
-city: ''
+city: Panorama City
 state: CA
 zip: '91402'
 phone: (818) 830-5725
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

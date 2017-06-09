@@ -2,7 +2,7 @@
 name: Northgate Gonzalez Markets
 address_1: 4700 Inglewood Blvd
 address_2: ''
-city: ''
+city: Culver City
 state: CA
 zip: '90230'
 phone: (310) 390-9639
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

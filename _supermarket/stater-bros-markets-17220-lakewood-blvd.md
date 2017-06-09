@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 17220 Lakewood Blvd
 address_2: ''
-city: ''
+city: Bellflower
 state: CA
 zip: '90706'
 phone: (562) 866-2474
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

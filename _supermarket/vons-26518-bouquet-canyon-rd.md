@@ -2,7 +2,7 @@
 name: Vons
 address_1: 26518 Bouquet Canyon Rd
 address_2: ''
-city: ''
+city: Santa Clarita
 state: CA
 zip: '91350'
 phone: (661) 296-0031
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

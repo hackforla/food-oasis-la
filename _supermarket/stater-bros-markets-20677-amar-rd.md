@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 20677 Amar Rd
 address_2: ''
-city: ''
+city: Walnut
 state: CA
 zip: '91789'
 phone: (909) 598-6534
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

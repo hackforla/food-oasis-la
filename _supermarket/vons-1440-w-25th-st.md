@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1440 W 25th St
 address_2: ''
-city: ''
+city: San Pedro
 state: CA
 zip: '90732'
 phone: (310) 832-8459
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 5245 W Centinela Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90045'
 phone: (310) 641-2813
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

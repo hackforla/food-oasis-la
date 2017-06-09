@@ -2,7 +2,7 @@
 name: El Super
 address_1: 14601 Lakewood Blvd
 address_2: ''
-city: ''
+city: Paramount
 state: CA
 zip: '90723'
 phone: (562) 748-0221
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

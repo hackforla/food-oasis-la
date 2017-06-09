@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 13820 Foothill Blvd
 address_2: ''
-city: ''
+city: Sylmar
 state: CA
 zip: '91342'
 phone: (818) 362-7577
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

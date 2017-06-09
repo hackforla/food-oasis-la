@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 644 Redondo Ave
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90814'
 phone: (562) 438-0450
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

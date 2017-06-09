@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 133 W Avenue 45
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90065'
 phone: (323) 223-3878
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

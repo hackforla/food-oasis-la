@@ -2,7 +2,7 @@
 name: Island Pacific Supermarket
 address_1: 11481 South St
 address_2: ''
-city: ''
+city: Cerritos
 state: CA
 zip: '90703'
 phone: (562) 809-8889
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 9pm
 
 ---
+
+

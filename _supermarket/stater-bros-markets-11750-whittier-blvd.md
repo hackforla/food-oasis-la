@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 11750 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90601'
 phone: (562) 696-3212
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

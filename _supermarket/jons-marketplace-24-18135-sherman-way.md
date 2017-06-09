@@ -2,7 +2,7 @@
 name: Jons Marketplace 24
 address_1: 18135 Sherman Way
 address_2: ''
-city: ''
+city: Reseda
 state: CA
 zip: '91335'
 phone: (818) 758-3422
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

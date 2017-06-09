@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1055 W Foothill Blvd
 address_2: ''
-city: ''
+city: Claremont
 state: CA
 zip: '91711'
 phone: (909) 624-0619
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

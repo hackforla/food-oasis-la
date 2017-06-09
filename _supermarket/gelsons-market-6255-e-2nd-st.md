@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 6255 E 2nd St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90803'
 phone: (562) 430-6042
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

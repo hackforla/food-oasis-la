@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 6240 Foothill Blvd
 address_2: ''
-city: ''
+city: Tujunga
 state: CA
 zip: '91042'
 phone: (818) 248-2745
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

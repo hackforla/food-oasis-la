@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1233 N La Brea Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90038'
 phone: (323) 876-8790
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

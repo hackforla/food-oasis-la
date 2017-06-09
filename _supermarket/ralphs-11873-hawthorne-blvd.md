@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 11873 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Hawthorne
 state: CA
 zip: '90250'
 phone: (310) 679-9164
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '0:0am'
 
 ---
+
+

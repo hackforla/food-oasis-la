@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 2725 Hyperion Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90027'
 phone: (323) 660-0387
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

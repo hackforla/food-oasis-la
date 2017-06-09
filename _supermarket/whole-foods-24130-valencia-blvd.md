@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 24130 Valencia Blvd
 address_2: ''
-city: ''
+city: Valencia
 state: CA
 zip: '91355'
 phone: (661) 260-2377
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

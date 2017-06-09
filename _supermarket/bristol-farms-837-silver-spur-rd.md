@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 837 Silver Spur Rd
 address_2: ''
-city: ''
+city: Palos Verdes Peninsula
 state: CA
 zip: '90274'
 phone: (310) 541-9157
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

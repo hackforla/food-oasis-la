@@ -2,7 +2,7 @@
 name: Vons
 address_1: 932 E Badillo St
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91724'
 phone: (626) 967-0072
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

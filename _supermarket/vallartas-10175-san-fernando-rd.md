@@ -2,7 +2,7 @@
 name: Vallarta Supermarkets
 address_1: 10175 San Fernando Rd
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 897-9700
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

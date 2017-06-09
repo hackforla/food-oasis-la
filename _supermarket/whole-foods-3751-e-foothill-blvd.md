@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 3751 E Foothill Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91107'
 phone: (626) 351-5994
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

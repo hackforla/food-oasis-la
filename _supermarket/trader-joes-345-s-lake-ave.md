@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 345 S Lake Ave
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91101'
 phone: (626) 395-9553
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Northgate Market
 address_1: 16259 Paramount Blvd
 address_2: ''
-city: ''
+city: Paramount
 state: CA
 zip: '90723'
 phone: (562) 259-9950
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

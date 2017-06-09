@@ -2,7 +2,7 @@
 name: Yummy.com
 address_1: 5520 San Vicente Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90019'
 phone: (323) 965-0600
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

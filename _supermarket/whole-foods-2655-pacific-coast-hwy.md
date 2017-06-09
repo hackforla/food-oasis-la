@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 2655 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90505'
 phone: (310) 257-8700
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

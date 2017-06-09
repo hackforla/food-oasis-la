@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2355 E Colorado Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91107'
 phone: (626) 744-2615
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 10683 Valley Blvd
 address_2: ''
-city: ''
+city: El Monte
 state: CA
 zip: '91731'
 phone: (626) 401-2469
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

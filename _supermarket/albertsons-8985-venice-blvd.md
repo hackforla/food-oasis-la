@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 8985 Venice Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90034'
 phone: (310) 202-6167
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

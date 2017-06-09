@@ -2,7 +2,7 @@
 name: Vons
 address_1: 777 S Glendora Ave
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91790'
 phone: (626) 337-5615
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 25850 the Old Rd
 address_2: ''
-city: ''
+city: Stevenson Ranch
 state: CA
 zip: '91381'
 phone: (661) 254-3570
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

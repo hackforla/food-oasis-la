@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 3963 E Thousand Oaks Blvd
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 496-2469
@@ -51,3 +51,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 8pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 5315 Santa Monica Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90029'
 phone: (323) 461-9382
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

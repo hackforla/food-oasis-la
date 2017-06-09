@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 16123 Bellflower Blvd
 address_2: ''
-city: ''
+city: Bellflower
 state: CA
 zip: '90706'
 phone: (562) 925-5529
@@ -51,3 +51,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 8pm
 
 ---
+
+

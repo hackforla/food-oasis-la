@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 950 N La Brea Ave
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90302'
 phone: (310) 673-6365
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

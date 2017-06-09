@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1830 E Route 66
 address_2: ''
-city: ''
+city: Glendora
 state: CA
 zip: '91740'
 phone: (626) 963-0513
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

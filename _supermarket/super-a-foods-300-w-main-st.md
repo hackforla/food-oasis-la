@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 300 W Main St
 address_2: ''
-city: ''
+city: Alhambra
 state: CA
 zip: '91801'
 phone: (626) 282-0605
@@ -39,3 +39,5 @@ formatted_day2_open: '8:30pm'
 formatted_day2_close: 10pm
 
 ---
+
+

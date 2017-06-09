@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2675 Foothill Blvd
 address_2: ''
-city: ''
+city: La Crescenta
 state: CA
 zip: '91214'
 phone: (818) 249-5448
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

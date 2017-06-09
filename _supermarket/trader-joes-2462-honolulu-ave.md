@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 2462 Honolulu Ave
 address_2: ''
-city: ''
+city: Montrose
 state: CA
 zip: '91020'
 phone: (818) 957-3613
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

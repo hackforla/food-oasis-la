@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 845 S Figueroa St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90017'
 phone: (213) 629-0039
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

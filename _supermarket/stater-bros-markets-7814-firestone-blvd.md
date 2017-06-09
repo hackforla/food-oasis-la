@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 7814 Firestone Blvd
 address_2: ''
-city: ''
+city: Downey
 state: CA
 zip: '90241'
 phone: (562) 923-0394
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

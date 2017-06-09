@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 2619 N Figueroa St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90065'
 phone: (323) 222-0113
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

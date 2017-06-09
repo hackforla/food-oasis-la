@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 436 Auto Center Dr
 address_2: ''
-city: ''
+city: Claremont
 state: CA
 zip: '91711'
 phone: (909) 625-3841
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

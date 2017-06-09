@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 10772 Jefferson Blvd
 address_2: ''
-city: ''
+city: Culver City
 state: CA
 zip: '90230'
 phone: (310) 839-4107
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

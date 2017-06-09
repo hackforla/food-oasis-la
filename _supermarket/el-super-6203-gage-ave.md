@@ -2,7 +2,7 @@
 name: El Super
 address_1: 6203 Gage Ave
 address_2: ''
-city: ''
+city: Bell Gardens
 state: CA
 zip: '90201'
 phone: (323) 560-1148
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9am
 
 ---
+
+

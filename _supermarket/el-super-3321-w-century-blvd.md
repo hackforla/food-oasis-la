@@ -2,7 +2,7 @@
 name: El Super
 address_1: 3321 W Century Blvd
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90303'
 phone: (310) 672-3210
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

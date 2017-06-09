@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 17250 Saticoy St
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91406'
 phone: (818) 609-8425
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

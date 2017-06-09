@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 4738 Laurel Canyon Blvd
 address_2: ''
-city: ''
+city: Valley Village
 state: CA
 zip: '91607'
 phone: (818) 906-5743
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

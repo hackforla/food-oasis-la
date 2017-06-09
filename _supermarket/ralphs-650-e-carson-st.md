@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 650 E Carson St
 address_2: ''
-city: ''
+city: Carson
 state: CA
 zip: '90745'
 phone: (310) 518-4191
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

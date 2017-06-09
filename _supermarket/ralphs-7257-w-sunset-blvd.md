@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 7257 W Sunset Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90046'
 phone: (323) 512-8382
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

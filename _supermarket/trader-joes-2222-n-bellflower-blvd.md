@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 2222 N Bellflower Blvd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90815'
 phone: (562) 596-2514
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

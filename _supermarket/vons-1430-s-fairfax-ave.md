@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1430 S Fairfax Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90019'
 phone: (323) 939-9335
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

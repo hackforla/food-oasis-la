@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 3828 Peck Rd
 address_2: ''
-city: ''
+city: El Monte
 state: CA
 zip: '91732'
 phone: (626) 442-4020
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

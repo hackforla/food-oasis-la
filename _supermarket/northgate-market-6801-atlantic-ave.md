@@ -2,7 +2,7 @@
 name: Northgate Market
 address_1: 6801 Atlantic Ave
 address_2: ''
-city: ''
+city: Bell Gardens
 state: CA
 zip: '90201'
 phone: (323) 562-2188
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Island Pacific Supermarket
 address_1: 20922 Roscoe Blvd
 address_2: ''
-city: ''
+city: Canoga Park
 state: CA
 zip: '91304'
 phone: (818) 857-3400
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 8pm
 
 ---
+
+

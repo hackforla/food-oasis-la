@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 11110 Ramona Blvd
 address_2: ''
-city: ''
+city: El Monte
 state: CA
 zip: '91731'
 phone: (626) 443-1381
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

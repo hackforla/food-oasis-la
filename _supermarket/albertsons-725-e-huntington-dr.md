@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 725 E Huntington Dr
 address_2: ''
-city: ''
+city: Monrovia
 state: CA
 zip: '91016'
 phone: (626) 305-4231
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

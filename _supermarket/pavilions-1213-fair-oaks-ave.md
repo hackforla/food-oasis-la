@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 1213 Fair Oaks Ave
 address_2: ''
-city: ''
+city: South Pasadena
 state: CA
 zip: '91030'
 phone: (626) 799-2261
@@ -57,3 +57,5 @@ formatted_day7_open: '5:30am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

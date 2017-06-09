@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 21208 Sherman Way
 address_2: ''
-city: ''
+city: Canoga Park
 state: CA
 zip: '91303'
 phone: (818) 346-1665
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

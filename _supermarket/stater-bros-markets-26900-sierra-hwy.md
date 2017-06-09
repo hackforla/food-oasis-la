@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 26900 Sierra Hwy
 address_2: ''
-city: ''
+city: Newhall
 state: CA
 zip: '91321'
 phone: (661) 298-7988
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 10893 San Fernando Rd
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 896-6212
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

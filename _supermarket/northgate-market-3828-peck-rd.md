@@ -2,7 +2,7 @@
 name: Northgate Market
 address_1: 3828 Peck Rd
 address_2: ''
-city: ''
+city: El Monte
 state: CA
 zip: '91732'
 phone: (626) 442-8200
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

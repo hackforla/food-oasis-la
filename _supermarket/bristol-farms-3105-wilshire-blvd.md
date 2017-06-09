@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 3105 Wilshire Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90403'
 phone: (310) 829-3137
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

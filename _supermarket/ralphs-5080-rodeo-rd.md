@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 5080 Rodeo Rd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90016'
 phone: (323) 292-0633
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: 10pm
 
 ---
+
+

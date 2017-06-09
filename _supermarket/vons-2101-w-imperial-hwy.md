@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2101 W Imperial Hwy
 address_2: ''
-city: ''
+city: La Habra
 state: CA
 zip: '90631'
 phone: (562) 905-2800
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

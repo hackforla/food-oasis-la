@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 3425 Whittier Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90023'
 phone: (323) 980-4400
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

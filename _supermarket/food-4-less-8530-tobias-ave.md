@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 8530 Tobias Ave
 address_2: ''
-city: ''
+city: Panorama City
 state: CA
 zip: '91402'
 phone: (818) 830-7085
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

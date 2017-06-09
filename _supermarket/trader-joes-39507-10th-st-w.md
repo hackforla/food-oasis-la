@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 39507 10th St W
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93551'
 phone: (661) 947-2890
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 12013 Central Ave
 address_2: ''
-city: ''
+city: Chino
 state: CA
 zip: '91710'
 phone: (909) 464-1594
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

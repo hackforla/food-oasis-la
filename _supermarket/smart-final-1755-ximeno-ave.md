@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1755 Ximeno Ave
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90815'
 phone: (562) 494-6208
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

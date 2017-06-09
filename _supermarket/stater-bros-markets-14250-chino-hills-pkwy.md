@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 14250 Chino Hills Pkwy
 address_2: ''
-city: ''
+city: Chino Hills
 state: CA
 zip: '91709'
 phone: (909) 591-5405
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 298 E Live Oak Ave
 address_2: ''
-city: ''
+city: Arcadia
 state: CA
 zip: '91006'
 phone: (626) 446-1416
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

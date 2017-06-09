@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 17500 Crenshaw Blvd
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90504'
 phone: (310) 327-3277
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

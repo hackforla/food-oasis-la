@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 14845 Ventura Blvd
 address_2: ''
-city: ''
+city: Sherman Oaks
 state: CA
 zip: '91403'
 phone: (818) 986-7213
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

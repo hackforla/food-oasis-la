@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 28901 S Western Ave
 address_2: ''
-city: ''
+city: Rancho Palos Verdes
 state: CA
 zip: '90275'
 phone: (310) 832-1241
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

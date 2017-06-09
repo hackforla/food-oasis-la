@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 1803 E Palmdale Blvd
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93550'
 phone: (661) 273-1120
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

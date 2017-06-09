@@ -2,7 +2,7 @@
 name: Vons
 address_1: 155 W California Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91105'
 phone: (626) 577-7149
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

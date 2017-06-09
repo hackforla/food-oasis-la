@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 450 Long Beach Blvd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90802'
 phone: (562) 436-0678
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

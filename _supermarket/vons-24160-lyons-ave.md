@@ -2,7 +2,7 @@
 name: Vons
 address_1: 24160 Lyons Ave
 address_2: ''
-city: ''
+city: Newhall
 state: CA
 zip: '91321'
 phone: (661) 259-9214
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

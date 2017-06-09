@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 320 W Colorado Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91105'
 phone: (626) 793-4179
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

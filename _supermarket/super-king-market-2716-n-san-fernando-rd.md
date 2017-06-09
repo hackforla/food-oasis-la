@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 2716 N San Fernando Rd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90065'
 phone: (323) 225-0044
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

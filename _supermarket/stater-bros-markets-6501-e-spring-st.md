@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 6501 E Spring St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90808'
 phone: (562) 429-5611
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

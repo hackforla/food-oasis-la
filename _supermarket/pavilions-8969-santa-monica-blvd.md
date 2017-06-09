@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 8969 Santa Monica Blvd
 address_2: ''
-city: ''
+city: West Hollywood
 state: CA
 zip: '90069'
 phone: (310) 595-1730
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

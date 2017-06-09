@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 15424 W Sunset Blvd
 address_2: ''
-city: ''
+city: Pacific Palisades
 state: CA
 zip: '90272'
 phone: (310) 459-4483
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

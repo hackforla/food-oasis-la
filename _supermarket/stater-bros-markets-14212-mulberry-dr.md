@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 14212 Mulberry Dr
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90604'
 phone: (562) 941-7711
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

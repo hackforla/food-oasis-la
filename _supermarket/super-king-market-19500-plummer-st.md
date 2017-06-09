@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 19500 Plummer St
 address_2: ''
-city: ''
+city: Northridge
 state: CA
 zip: '91324'
 phone: (818) 350-5970
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

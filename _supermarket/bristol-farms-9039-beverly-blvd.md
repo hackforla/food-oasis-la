@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 9039 Beverly Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90048'
 phone: (310) 248-2804
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

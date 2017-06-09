@@ -2,7 +2,7 @@
 name: Gelson's Market
 address_1: 13455 Maxella Ave
 address_2: ''
-city: ''
+city: Marina del Rey
 state: CA
 zip: '90292'
 phone: (310) 306-2952
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

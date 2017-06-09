@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 210 N Verdugo Rd
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91206'
 phone: (818) 243-4239
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

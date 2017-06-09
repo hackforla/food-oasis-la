@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 12122 Magnolia Blvd
 address_2: ''
-city: ''
+city: Valley Village
 state: CA
 zip: '91607'
 phone: (818) 985-4780
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

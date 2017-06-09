@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 375 N Azusa Ave
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91791'
 phone: (626) 915-4951
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

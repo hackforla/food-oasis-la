@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 15205 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Lawndale
 state: CA
 zip: '90260'
 phone: (310) 973-2355
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 4721 Riverside Dr
 address_2: ''
-city: ''
+city: Chino
 state: CA
 zip: '91710'
 phone: (909) 627-3015
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

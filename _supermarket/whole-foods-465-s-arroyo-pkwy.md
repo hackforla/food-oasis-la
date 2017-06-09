@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 465 S Arroyo Pkwy
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91105'
 phone: (626) 204-2266
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

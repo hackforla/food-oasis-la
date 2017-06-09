@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 467 N Rosemead Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91107'
 phone: (626) 351-3399
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

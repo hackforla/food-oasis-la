@@ -2,7 +2,7 @@
 name: Vons
 address_1: 10321 Sepulveda Blvd
 address_2: ''
-city: ''
+city: Mission Hills
 state: CA
 zip: '91345'
 phone: (818) 891-1352
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

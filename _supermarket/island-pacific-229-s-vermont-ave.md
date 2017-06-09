@@ -2,7 +2,7 @@
 name: Island Pacific Supermarket
 address_1: 229 S Vermont Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90004'
 phone: (213) 674-2980
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 8701 Lincoln Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90045'
 phone: (310) 649-1526
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

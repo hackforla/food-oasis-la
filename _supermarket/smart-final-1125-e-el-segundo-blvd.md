@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1125 E El Segundo Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90059'
 phone: (323) 569-7148
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

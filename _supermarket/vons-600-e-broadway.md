@@ -2,7 +2,7 @@
 name: Vons
 address_1: 600 E Broadway
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90802'
 phone: (562) 491-1210
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

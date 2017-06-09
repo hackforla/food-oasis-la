@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 500 Wilshire Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90401'
 phone: (310) 395-4510
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

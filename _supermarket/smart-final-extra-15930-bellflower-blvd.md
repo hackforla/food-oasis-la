@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 15930 Bellflower Blvd
 address_2: ''
-city: ''
+city: Bellflower
 state: CA
 zip: '90706'
 phone: (562) 920-6268
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

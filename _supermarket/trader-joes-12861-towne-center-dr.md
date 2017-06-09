@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 12861 Towne Center Dr
 address_2: ''
-city: ''
+city: Cerritos
 state: CA
 zip: '90703'
 phone: (562) 402-5148
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1600 Foothill Blvd
 address_2: ''
-city: ''
+city: La Verne
 state: CA
 zip: '91750'
 phone: (909) 593-2572
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

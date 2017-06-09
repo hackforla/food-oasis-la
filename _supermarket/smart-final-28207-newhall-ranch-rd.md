@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 28207 Newhall Ranch Rd
 address_2: ''
-city: ''
+city: Valencia
 state: CA
 zip: '91355'
 phone: (661) 775-1416
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

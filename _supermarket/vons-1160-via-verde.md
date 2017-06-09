@@ -2,7 +2,7 @@
 name: Vons
 address_1: 1160 Via Verde
 address_2: ''
-city: ''
+city: San Dimas
 state: CA
 zip: '91773'
 phone: (909) 592-3261
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

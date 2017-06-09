@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 23449 Lyons Ave
 address_2: ''
-city: ''
+city: Valencia
 state: CA
 zip: '91355'
 phone: (661) 260-1110
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

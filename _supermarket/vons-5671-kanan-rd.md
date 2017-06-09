@@ -2,7 +2,7 @@
 name: Vons
 address_1: 5671 Kanan Rd
 address_2: ''
-city: ''
+city: Agoura Hills
 state: CA
 zip: '91301'
 phone: (818) 991-2857
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 715 Pier Ave
 address_2: ''
-city: ''
+city: Hermosa Beach
 state: CA
 zip: '90254'
 phone: (310) 374-4484
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

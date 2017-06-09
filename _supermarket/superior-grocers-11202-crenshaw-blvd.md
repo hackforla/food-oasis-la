@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 11202 Crenshaw Blvd
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90303'
 phone: (323) 757-6012
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

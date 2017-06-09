@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 2550 E 25th St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90058'
 phone: (323) 826-9477
@@ -57,3 +57,5 @@ formatted_day7_open: 2am
 formatted_day7_close: 9pm
 
 ---
+
+

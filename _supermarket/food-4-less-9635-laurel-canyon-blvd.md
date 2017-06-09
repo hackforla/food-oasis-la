@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 9635 Laurel Canyon Blvd
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 897-3545
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

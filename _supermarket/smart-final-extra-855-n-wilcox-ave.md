@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 855 N Wilcox Ave
 address_2: ''
-city: ''
+city: Montebello
 state: CA
 zip: '90640'
 phone: (323) 888-4204
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

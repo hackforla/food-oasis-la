@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 8448 Lincoln Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90045'
 phone: (310) 410-0593
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

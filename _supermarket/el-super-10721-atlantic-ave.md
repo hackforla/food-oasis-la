@@ -2,7 +2,7 @@
 name: El Super
 address_1: 10721 Atlantic Ave
 address_2: ''
-city: ''
+city: Lynwood
 state: CA
 zip: '90262'
 phone: (310) 438-4660
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

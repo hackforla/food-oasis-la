@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 727 Vine St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90038'
 phone: (323) 461-4167
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '0:0am'
 
 ---
+
+

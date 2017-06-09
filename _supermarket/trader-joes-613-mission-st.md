@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 613 Mission St
 address_2: ''
-city: ''
+city: South Pasadena
 state: CA
 zip: '91030'
 phone: (626) 441-6263
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

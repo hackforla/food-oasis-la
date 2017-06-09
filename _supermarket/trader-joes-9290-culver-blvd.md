@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 9290 Culver Blvd
 address_2: ''
-city: ''
+city: Culver City
 state: CA
 zip: '90232'
 phone: (310) 202-1108
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 21431 Devonshire St
 address_2: ''
-city: ''
+city: Chatsworth
 state: CA
 zip: '91311'
 phone: (818) 341-0950
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

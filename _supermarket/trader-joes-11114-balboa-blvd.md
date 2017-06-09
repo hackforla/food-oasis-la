@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 11114 Balboa Blvd
 address_2: ''
-city: ''
+city: Granada Hills
 state: CA
 zip: '91344'
 phone: (818) 368-6461
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

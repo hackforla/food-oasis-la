@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 13940 Ramona Blvd
 address_2: ''
-city: ''
+city: Baldwin Park
 state: CA
 zip: '91706'
 phone: (626) 480-8960
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

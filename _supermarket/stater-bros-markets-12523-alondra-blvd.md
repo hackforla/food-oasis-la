@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 12523 Alondra Blvd
 address_2: ''
-city: ''
+city: Norwalk
 state: CA
 zip: '90650'
 phone: (562) 921-3908
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

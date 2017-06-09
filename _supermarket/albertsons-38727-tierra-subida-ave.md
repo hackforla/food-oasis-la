@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 38727 Tierra Subida Ave
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93551'
 phone: (661) 274-9557
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

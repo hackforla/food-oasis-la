@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 856 W Arrow Hwy
 address_2: ''
-city: ''
+city: San Dimas
 state: CA
 zip: '91773'
 phone: (909) 305-4757
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 431 E Arrow Hwy
 address_2: ''
-city: ''
+city: Glendora
 state: CA
 zip: '91740'
 phone: (626) 914-6015
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

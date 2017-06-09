@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1821 Manhattan Beach Blvd
 address_2: ''
-city: ''
+city: Manhattan Beach
 state: CA
 zip: '90266'
 phone: (310) 372-1274
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

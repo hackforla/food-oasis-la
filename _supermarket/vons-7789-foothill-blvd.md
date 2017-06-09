@@ -2,7 +2,7 @@
 name: Vons
 address_1: 7789 Foothill Blvd
 address_2: ''
-city: ''
+city: Sunland
 state: CA
 zip: '91042'
 phone: (818) 353-4917
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

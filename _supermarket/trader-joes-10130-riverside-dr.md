@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 10130 Riverside Dr
 address_2: ''
-city: ''
+city: North Hollywood
 state: CA
 zip: '91602'
 phone: (818) 762-2787
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

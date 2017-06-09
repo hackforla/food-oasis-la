@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 22915 Victory Blvd
 address_2: ''
-city: ''
+city: West Hills
 state: CA
 zip: '91307'
 phone: (818) 716-8199
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

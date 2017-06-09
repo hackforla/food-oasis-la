@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 915 E 230th St
 address_2: ''
-city: ''
+city: Carson
 state: CA
 zip: '90745'
 phone: (310) 233-4700
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Vons
 address_1: 6571 W 80th St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90045'
 phone: (310) 641-9423
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 3255 Grand Ave
 address_2: ''
-city: ''
+city: Chino Hills
 state: CA
 zip: '91709'
 phone: (909) 590-3660
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

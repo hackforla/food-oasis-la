@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 13003 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90602'
 phone: (562) 696-5025
@@ -57,3 +57,5 @@ formatted_day7_open: 12pm
 formatted_day7_close: 3pm
 
 ---
+
+

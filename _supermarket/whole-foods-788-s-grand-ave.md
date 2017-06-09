@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 788 S Grand Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90017'
 phone: (213) 873-4745
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

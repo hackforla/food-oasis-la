@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 10950 Sherman Way
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91505'
 phone: (818) 846-1717
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

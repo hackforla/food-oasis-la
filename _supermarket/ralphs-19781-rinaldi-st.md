@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 19781 Rinaldi St
 address_2: ''
-city: ''
+city: Porter Ranch
 state: CA
 zip: '91326'
 phone: (818) 832-5955
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

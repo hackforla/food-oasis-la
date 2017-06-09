@@ -2,7 +2,7 @@
 name: Super King Market
 address_1: 2260 Lincoln Ave
 address_2: ''
-city: ''
+city: Altadena
 state: CA
 zip: '91001'
 phone: (626) 296-9311
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

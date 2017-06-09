@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 6255 E 2nd St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90803'
 phone: (562) 430-4822
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

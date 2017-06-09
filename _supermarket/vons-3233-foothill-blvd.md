@@ -2,7 +2,7 @@
 name: Vons
 address_1: 3233 Foothill Blvd
 address_2: ''
-city: ''
+city: La Crescenta
 state: CA
 zip: '91214'
 phone: (818) 658-1018
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 12921 Magnolia Blvd
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91423'
 phone: (818) 986-2293
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

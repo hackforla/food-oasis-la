@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 2245 Yosemite Dr
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90041'
 phone: (323) 254-7341
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

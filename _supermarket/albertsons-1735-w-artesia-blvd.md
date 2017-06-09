@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1735 W Artesia Blvd
 address_2: ''
-city: ''
+city: Gardena
 state: CA
 zip: '90248'
 phone: (310) 380-4620
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

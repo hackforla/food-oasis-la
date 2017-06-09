@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 10859 Oxnard St
 address_2: ''
-city: ''
+city: North Hollywood
 state: CA
 zip: '91606'
 phone: (818) 509-2932
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

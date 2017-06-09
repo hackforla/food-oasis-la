@@ -2,7 +2,7 @@
 name: Vons
 address_1: 435 FOOTHILL Blvd
 address_2: ''
-city: ''
+city: Glendora
 state: CA
 zip: '91740'
 phone: (626) 963-2913
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

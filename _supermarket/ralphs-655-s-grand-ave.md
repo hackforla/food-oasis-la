@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 655 S Grand Ave
 address_2: ''
-city: ''
+city: Glendora
 state: CA
 zip: '91740'
 phone: (626) 857-7700
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

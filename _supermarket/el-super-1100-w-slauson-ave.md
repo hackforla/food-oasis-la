@@ -2,7 +2,7 @@
 name: El Super
 address_1: 1100 W Slauson Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90044'
 phone: (323) 565-4005
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

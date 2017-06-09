@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 21555 Roscoe Blvd
 address_2: ''
-city: ''
+city: Canoga Park
 state: CA
 zip: '91304'
 phone: (818) 704-1717
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

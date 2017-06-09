@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 266 E Huntington Dr
 address_2: ''
-city: ''
+city: Monrovia
 state: CA
 zip: '91016'
 phone: (626) 358-3261
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 1329 N Lake Ave
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91104'
 phone: (626) 791-7412
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

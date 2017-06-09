@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 8510 Painter Ave
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90602'
 phone: (562) 758-6464
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 9pm
 
 ---
+
+

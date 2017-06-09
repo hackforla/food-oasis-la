@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 13911 Peyton Dr
 address_2: ''
-city: ''
+city: Chino Hills
 state: CA
 zip: '91709'
 phone: (909) 627-1404
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

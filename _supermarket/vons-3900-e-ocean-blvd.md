@@ -2,7 +2,7 @@
 name: Vons
 address_1: 3900 E Ocean Blvd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90803'
 phone: (562) 987-3122
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Whole Foods
 address_1: 331 N Glendale Ave
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91206'
 phone: (818) 548-3695
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

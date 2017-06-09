@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 600 E Colorado St
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91205'
 phone: (818) 956-0999
@@ -57,3 +57,5 @@ formatted_day7_open: 11am
 formatted_day7_close: 10pm
 
 ---
+
+

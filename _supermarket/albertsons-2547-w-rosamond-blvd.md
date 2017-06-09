@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2547 W Rosamond Blvd
 address_2: ''
-city: ''
+city: Rosamond
 state: CA
 zip: '93560'
 phone: (661) 256-0756
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

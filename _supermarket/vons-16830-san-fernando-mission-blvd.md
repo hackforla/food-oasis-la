@@ -2,7 +2,7 @@
 name: Vons
 address_1: 16830 San Fernando Mission Blvd
 address_2: ''
-city: ''
+city: Granada Hills
 state: CA
 zip: '91344'
 phone: (818) 831-8511
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

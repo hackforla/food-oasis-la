@@ -2,7 +2,7 @@
 name: El Super
 address_1: 1575 E Holt Ave
 address_2: ''
-city: ''
+city: Pomona
 state: CA
 zip: '91767'
 phone: (909) 461-4179
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 5pm
 
 ---
+
+

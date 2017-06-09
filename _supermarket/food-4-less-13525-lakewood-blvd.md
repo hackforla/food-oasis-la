@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 13525 Lakewood Blvd
 address_2: ''
-city: ''
+city: Downey
 state: CA
 zip: '90242'
 phone: (562) 633-0830
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

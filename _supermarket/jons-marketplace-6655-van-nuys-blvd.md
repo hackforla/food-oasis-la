@@ -2,7 +2,7 @@
 name: Jons Marketplace
 address_1: 6655 Van Nuys Blvd
 address_2: ''
-city: ''
+city: Van Nuys
 state: CA
 zip: '91405'
 phone: (818) 781-1772
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 13413 Telegraph Rd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90605'
 phone: (562) 946-1425
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

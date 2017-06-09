@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 3299 E Colorado Blvd
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91107'
 phone: (626) 396-9677
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

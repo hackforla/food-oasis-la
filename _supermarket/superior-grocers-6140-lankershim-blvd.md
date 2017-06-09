@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 6140 Lankershim Blvd
 address_2: ''
-city: ''
+city: North Hollywood
 state: CA
 zip: '91606'
 phone: (818) 763-1235
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

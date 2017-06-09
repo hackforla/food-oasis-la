@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 266 E Palmdale Blvd
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93550'
 phone: (661) 274-9686
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

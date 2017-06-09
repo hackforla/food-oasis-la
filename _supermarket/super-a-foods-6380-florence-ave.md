@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 6380 Florence Ave
 address_2: ''
-city: ''
+city: Bell Gardens
 state: CA
 zip: '90201'
 phone: (562) 927-8784
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

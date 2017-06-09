@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 12057 Wilshire Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90025'
 phone: (310) 477-8746
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

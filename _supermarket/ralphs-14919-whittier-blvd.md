@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 14919 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90605'
 phone: (562) 945-3779
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

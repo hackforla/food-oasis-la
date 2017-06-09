@@ -2,7 +2,7 @@
 name: Vons
 address_1: 4550 Atlantic Ave
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90807'
 phone: (562) 984-1421
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

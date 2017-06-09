@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 9616 W Pico Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90035'
 phone: (310) 271-2672
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

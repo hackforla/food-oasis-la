@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 4260 Charter St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90058'
 phone: (323) 582-7222
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

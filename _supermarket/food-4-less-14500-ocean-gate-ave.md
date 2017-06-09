@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 14500 Ocean Gate Ave
 address_2: ''
-city: ''
+city: Hawthorne
 state: CA
 zip: '90250'
 phone: (310) 644-1183
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

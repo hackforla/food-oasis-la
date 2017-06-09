@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 820 Montana Ave
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90403'
 phone: (310) 395-1682
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '1:30am'
 
 ---
+
+

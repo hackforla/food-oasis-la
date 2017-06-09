@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 2185 E South St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90805'
 phone: (562) 422-9646
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

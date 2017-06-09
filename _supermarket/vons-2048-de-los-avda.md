@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2048 De Los Avda
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 492-2497
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

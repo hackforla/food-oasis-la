@@ -2,7 +2,7 @@
 name: Sprouts Farmers Market
 address_1: 4230 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90505'
 phone: (424) 903-7062
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

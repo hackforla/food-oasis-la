@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 5951 Del Amo Blvd
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90713'
 phone: (562) 867-7282
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

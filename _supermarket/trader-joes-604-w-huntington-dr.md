@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 604 W Huntington Dr
 address_2: ''
-city: ''
+city: Monrovia
 state: CA
 zip: '91016'
 phone: (626) 358-8884
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

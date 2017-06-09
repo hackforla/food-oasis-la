@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 19725 Vanowen St
 address_2: ''
-city: ''
+city: Winnetka
 state: CA
 zip: '91306'
 phone: (818) 716-5704
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

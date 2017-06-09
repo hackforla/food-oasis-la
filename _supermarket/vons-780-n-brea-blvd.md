@@ -2,7 +2,7 @@
 name: Vons
 address_1: 780 N Brea Blvd
 address_2: ''
-city: ''
+city: Brea
 state: CA
 zip: '92821'
 phone: (714) 529-4941
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

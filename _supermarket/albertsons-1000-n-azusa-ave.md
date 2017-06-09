@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 1000 N Azusa Ave
 address_2: ''
-city: ''
+city: Covina
 state: CA
 zip: '91722'
 phone: (626) 974-4582
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

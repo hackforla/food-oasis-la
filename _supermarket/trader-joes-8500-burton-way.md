@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 8500 Burton Way
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90048'
 phone: (310) 248-2984
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 10pm
 
 ---
+
+

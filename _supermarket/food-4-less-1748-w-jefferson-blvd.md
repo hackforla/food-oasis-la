@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 1748 W Jefferson Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90018'
 phone: (323) 735-8317
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

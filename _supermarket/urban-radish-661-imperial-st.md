@@ -2,7 +2,7 @@
 name: Urban Radish
 address_1: 661 Imperial St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90021'
 phone: (213) 892-1570
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

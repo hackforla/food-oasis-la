@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 475 W Foothill Blvd
 address_2: ''
-city: ''
+city: Claremont
 state: CA
 zip: '91711'
 phone: (909) 625-8784
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

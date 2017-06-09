@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 18730 Amar Rd
 address_2: ''
-city: ''
+city: Walnut
 state: CA
 zip: '91789'
 phone: (626) 965-7377
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

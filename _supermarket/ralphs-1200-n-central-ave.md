@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1200 N Central Ave
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91202'
 phone: (818) 246-1752
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

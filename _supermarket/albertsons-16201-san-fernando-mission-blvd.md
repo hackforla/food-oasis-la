@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 16201 San Fernando Mission Blvd
 address_2: ''
-city: ''
+city: Granada Hills
 state: CA
 zip: '91344'
 phone: (818) 366-9555
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

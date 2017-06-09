@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 9011 Woodman Ave
 address_2: ''
-city: ''
+city: Pacoima
 state: CA
 zip: '91331'
 phone: (818) 920-2700
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

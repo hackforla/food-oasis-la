@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 11815 Artesia Blvd
 address_2: ''
-city: ''
+city: Artesia
 state: CA
 zip: '90701'
 phone: (562) 924-9429
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

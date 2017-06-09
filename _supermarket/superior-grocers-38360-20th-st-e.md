@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 38360 20th St E
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93550'
 phone: (661) 538-2260
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

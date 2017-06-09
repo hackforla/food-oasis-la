@@ -2,7 +2,7 @@
 name: Super A Foods
 address_1: 2924 W Beverly Blvd
 address_2: ''
-city: ''
+city: Montebello
 state: CA
 zip: '90640'
 phone: (323) 725-1559
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

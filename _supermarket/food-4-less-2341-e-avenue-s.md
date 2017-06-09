@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 2341 E Avenue S
 address_2: ''
-city: ''
+city: Palmdale
 state: CA
 zip: '93550'
 phone: (661) 266-9091
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 401 N Fair
 address_2: ''
-city: ''
+city: Pasadena
 state: CA
 zip: '91103'
 phone: (626) 568-8446
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

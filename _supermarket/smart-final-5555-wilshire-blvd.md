@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 5555 Wilshire Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90036'
 phone: (323) 939-0946
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

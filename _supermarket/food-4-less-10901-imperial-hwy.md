@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 10901 Imperial Hwy
 address_2: ''
-city: ''
+city: Norwalk
 state: CA
 zip: '90650'
 phone: (562) 868-6685
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

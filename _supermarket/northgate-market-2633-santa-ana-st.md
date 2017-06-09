@@ -2,7 +2,7 @@
 name: Northgate Market
 address_1: 2633 Santa Ana St
 address_2: ''
-city: ''
+city: South Gate
 state: CA
 zip: '90280'
 phone: (323) 277-3000
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

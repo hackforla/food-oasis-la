@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 1216 Compton Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90021'
 phone: (213) 747-6697
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 9pm
 
 ---
+
+

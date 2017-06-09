@@ -2,7 +2,7 @@
 name: Vons
 address_1: 20440 Devonshire St
 address_2: ''
-city: ''
+city: Chatsworth
 state: CA
 zip: '91311'
 phone: (818) 341-7151
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

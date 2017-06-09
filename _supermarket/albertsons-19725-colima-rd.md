@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 19725 Colima Rd
 address_2: ''
-city: ''
+city: Rowland Heights
 state: CA
 zip: '91748'
 phone: (909) 869-7886
@@ -57,3 +57,5 @@ formatted_day7_open: 10am
 formatted_day7_close: 6pm
 
 ---
+
+

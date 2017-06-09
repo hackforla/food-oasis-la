@@ -2,7 +2,7 @@
 name: Vons
 address_1: 15740 La Forge St
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90603'
 phone: (562) 943-0516
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

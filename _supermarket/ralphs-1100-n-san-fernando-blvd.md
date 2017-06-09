@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1100 N San Fernando Blvd
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91504'
 phone: (818) 845-6424
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

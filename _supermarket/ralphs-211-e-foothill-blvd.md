@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 211 E Foothill Blvd
 address_2: ''
-city: ''
+city: Arcadia
 state: CA
 zip: '91006'
 phone: (626) 357-1942
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

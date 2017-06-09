@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 8320 Firestone Blvd
 address_2: ''
-city: ''
+city: Downey
 state: CA
 zip: '90241'
 phone: (562) 862-7513
@@ -54,3 +54,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

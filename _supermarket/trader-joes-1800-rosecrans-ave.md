@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 1800 Rosecrans Ave
 address_2: ''
-city: ''
+city: Manhattan Beach
 state: CA
 zip: '90266'
 phone: (310) 725-9800
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

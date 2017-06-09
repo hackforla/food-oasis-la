@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 20410 S Susana Rd
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90810'
 phone: (310) 762-2536
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

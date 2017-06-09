@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 1500 W Willow St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90810'
 phone: (562) 595-7595
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

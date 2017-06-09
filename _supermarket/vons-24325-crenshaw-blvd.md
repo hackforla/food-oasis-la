@@ -2,7 +2,7 @@
 name: Vons
 address_1: 24325 Crenshaw Blvd
 address_2: ''
-city: ''
+city: Torrance
 state: CA
 zip: '90505'
 phone: (310) 784-1020
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

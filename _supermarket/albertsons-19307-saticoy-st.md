@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 19307 Saticoy St
 address_2: ''
-city: ''
+city: Reseda
 state: CA
 zip: '91335'
 phone: (818) 772-0010
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

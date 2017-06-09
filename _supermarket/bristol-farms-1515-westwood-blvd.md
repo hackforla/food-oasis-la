@@ -2,7 +2,7 @@
 name: Bristol Farms
 address_1: 1515 Westwood Blvd
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90024'
 phone: (310) 481-0100
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

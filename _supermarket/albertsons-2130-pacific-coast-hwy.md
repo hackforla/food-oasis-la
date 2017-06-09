@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2130 Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Lomita
 state: CA
 zip: '90717'
 phone: (310) 326-3351
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

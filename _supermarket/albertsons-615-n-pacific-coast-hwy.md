@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 615 N Pacific Coast Hwy
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90277'
 phone: (310) 376-2170
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

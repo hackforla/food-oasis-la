@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 15025 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90603'
 phone: (562) 698-1642
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 9pm
 
 ---
+
+

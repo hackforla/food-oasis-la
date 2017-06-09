@@ -2,7 +2,7 @@
 name: Northgate Supermarkets
 address_1: 1222 N AVALON Blvd
 address_2: ''
-city: ''
+city: Wilmington
 state: CA
 zip: '90744'
 phone: (310) 549-9882
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '10:30pm'
 
 ---
+
+

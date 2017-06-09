@@ -2,7 +2,7 @@
 name: Island Pacific Supermarket
 address_1: 1512 E Amar Rd
 address_2: ''
-city: ''
+city: West Covina
 state: CA
 zip: '91792'
 phone: (626) 964-4858
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 9pm
 
 ---
+
+

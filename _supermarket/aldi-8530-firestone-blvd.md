@@ -2,7 +2,7 @@
 name: Aldi
 address_1: 8530 Firestone Blvd
 address_2: ''
-city: ''
+city: Downey
 state: CA
 zip: '90241'
 phone: (562) 622-4713
@@ -57,3 +57,5 @@ formatted_day7_open: 9am
 formatted_day7_close: 9pm
 
 ---
+
+

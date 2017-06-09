@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 15200 Rosecrans Ave
 address_2: ''
-city: ''
+city: La Mirada
 state: CA
 zip: '90638'
 phone: (714) 521-2310
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

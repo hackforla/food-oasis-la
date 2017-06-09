@@ -2,7 +2,7 @@
 name: Vons
 address_1: 2039 Verdugo Blvd
 address_2: ''
-city: ''
+city: Montrose
 state: CA
 zip: '91020'
 phone: (818) 249-4595
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

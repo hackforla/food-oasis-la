@@ -2,7 +2,7 @@
 name: Vons
 address_1: 311 W Los Feliz Rd
 address_2: ''
-city: ''
+city: Glendale
 state: CA
 zip: '91204'
 phone: (818) 246-7161
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

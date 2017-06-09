@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 2270 Lake Ave
 address_2: ''
-city: ''
+city: Altadena
 state: CA
 zip: '91001'
 phone: (626) 794-1175
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

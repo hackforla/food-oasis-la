@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 12630 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Hawthorne
 state: CA
 zip: '90250'
 phone: (310) 675-9494
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

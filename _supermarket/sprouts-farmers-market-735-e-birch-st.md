@@ -2,7 +2,7 @@
 name: Sprouts Farmers Market
 address_1: 735 E Birch St
 address_2: ''
-city: ''
+city: Brea
 state: CA
 zip: '92821'
 phone: (714) 482-1000
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 4400 Slauson Ave
 address_2: ''
-city: ''
+city: Maywood
 state: CA
 zip: '90270'
 phone: (323) 773-2214
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

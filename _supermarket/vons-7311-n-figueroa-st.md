@@ -2,7 +2,7 @@
 name: Vons
 address_1: 7311 N Figueroa St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90041'
 phone: (323) 254-5716
@@ -57,3 +57,5 @@ formatted_day7_open: 5am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

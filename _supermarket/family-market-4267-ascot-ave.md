@@ -2,7 +2,7 @@
 name: Family Market
 address_1: 4267 Ascot Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90011'
 phone: (323) 233-8801
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

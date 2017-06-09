@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 1145 E Alosta Ave
 address_2: ''
-city: ''
+city: Azusa
 state: CA
 zip: '91702'
 phone: (626) 335-2310
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

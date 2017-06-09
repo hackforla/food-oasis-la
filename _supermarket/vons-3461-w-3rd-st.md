@@ -2,7 +2,7 @@
 name: Vons
 address_1: 3461 W 3rd St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90020'
 phone: (213) 384-6552
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Sprouts Farmers Market
 address_1: 1011 N San Fernando Blvd
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91504'
 phone: (818) 566-4089
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

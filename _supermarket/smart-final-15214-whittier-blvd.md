@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 15214 Whittier Blvd
 address_2: ''
-city: ''
+city: Whittier
 state: CA
 zip: '90603'
 phone: (562) 945-7769
@@ -51,3 +51,5 @@ formatted_day5_open: 8am
 formatted_day5_close: 5pm
 
 ---
+
+

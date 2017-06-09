@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 16208 Parthenia St
 address_2: ''
-city: ''
+city: North Hills
 state: CA
 zip: '91343'
 phone: (818) 830-0249
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

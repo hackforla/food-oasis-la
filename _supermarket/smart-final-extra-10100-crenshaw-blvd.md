@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 10100 Crenshaw Blvd
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90303'
 phone: (323) 779-9966
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

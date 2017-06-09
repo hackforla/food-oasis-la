@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 25 E Alameda Ave
 address_2: ''
-city: ''
+city: Burbank
 state: CA
 zip: '91502'
 phone: (818) 556-1558
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

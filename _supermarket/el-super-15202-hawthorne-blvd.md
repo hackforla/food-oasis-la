@@ -2,7 +2,7 @@
 name: El Super
 address_1: 15202 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Lawndale
 state: CA
 zip: '90260'
 phone: (310) 848-1930
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

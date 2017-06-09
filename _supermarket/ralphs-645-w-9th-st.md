@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 645 W 9th St
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90015'
 phone: (213) 452-0840
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 2am
 
 ---
+
+

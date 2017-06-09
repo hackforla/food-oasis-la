@@ -2,7 +2,7 @@
 name: Vallarta Supermarket
 address_1: 18571 Soledad Canyon Rd
 address_2: ''
-city: ''
+city: Canyon Country
 state: CA
 zip: '91351'
 phone: (661) 347-7390
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

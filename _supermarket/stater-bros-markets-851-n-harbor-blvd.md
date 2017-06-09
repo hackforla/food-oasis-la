@@ -2,7 +2,7 @@
 name: Stater Bros. Markets
 address_1: 851 N Harbor Blvd
 address_2: ''
-city: ''
+city: La Habra
 state: CA
 zip: '90631'
 phone: (562) 694-3896
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

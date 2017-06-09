@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2115 Artesia Blvd
 address_2: ''
-city: ''
+city: Redondo Beach
 state: CA
 zip: '90278'
 phone: (310) 542-2122
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

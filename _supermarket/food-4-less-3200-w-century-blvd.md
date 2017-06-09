@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 3200 W Century Blvd
 address_2: ''
-city: ''
+city: Inglewood
 state: CA
 zip: '90303'
 phone: (310) 677-2520
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

@@ -2,7 +2,7 @@
 name: Smart & Final
 address_1: 8137 S Vermont Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90044'
 phone: (323) 758-5734
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

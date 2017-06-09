@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 23850 Copperhill Dr
 address_2: ''
-city: ''
+city: Valencia
 state: CA
 zip: '91354'
 phone: (661) 775-0163
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 11pm
 
 ---
+
+

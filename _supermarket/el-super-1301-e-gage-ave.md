@@ -2,7 +2,7 @@
 name: El Super
 address_1: 1301 E Gage Ave
 address_2: ''
-city: ''
+city: Los Angeles
 state: CA
 zip: '90001'
 phone: (323) 584-0432
@@ -57,3 +57,5 @@ formatted_day7_open: '11:30am'
 formatted_day7_close: '11:30pm'
 
 ---
+
+

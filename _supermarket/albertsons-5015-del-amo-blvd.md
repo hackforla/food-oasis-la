@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 5015 Del Amo Blvd
 address_2: ''
-city: ''
+city: Lakewood
 state: CA
 zip: '90712'
 phone: (562) 634-0405
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

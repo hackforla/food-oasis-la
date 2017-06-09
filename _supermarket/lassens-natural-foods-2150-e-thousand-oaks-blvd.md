@@ -2,7 +2,7 @@
 name: Lassen's Natural Foods
 address_1: 2150 E Thousand Oaks Blvd
 address_2: ''
-city: ''
+city: Thousand Oaks
 state: CA
 zip: '91362'
 phone: (805) 413-1990
@@ -54,3 +54,5 @@ formatted_day6_open: 8am
 formatted_day6_close: 9pm
 
 ---
+
+

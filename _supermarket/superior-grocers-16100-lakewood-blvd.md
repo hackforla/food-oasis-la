@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 16100 Lakewood Blvd
 address_2: ''
-city: ''
+city: Bellflower
 state: CA
 zip: '90706'
 phone: (562) 202-9066
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

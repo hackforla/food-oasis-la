@@ -2,7 +2,7 @@
 name: Albertsons
 address_1: 2469 Via Campo
 address_2: ''
-city: ''
+city: Montebello
 state: CA
 zip: '90640'
 phone: (323) 888-2250
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 11pm
 
 ---
+
+

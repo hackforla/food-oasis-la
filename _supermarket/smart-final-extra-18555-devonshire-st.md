@@ -2,7 +2,7 @@
 name: Smart & Final Extra
 address_1: 18555 Devonshire St
 address_2: ''
-city: ''
+city: Porter Ranch
 state: CA
 zip: '91324'
 phone: (818) 368-6409
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: 10pm
 
 ---
+
+

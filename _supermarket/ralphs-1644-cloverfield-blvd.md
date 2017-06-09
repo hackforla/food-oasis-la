@@ -2,7 +2,7 @@
 name: Ralphs
 address_1: 1644 Cloverfield Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90404'
 phone: (310) 582-3900
@@ -57,3 +57,5 @@ formatted_day7_open: '0:0am'
 formatted_day7_close: 1am
 
 ---
+
+

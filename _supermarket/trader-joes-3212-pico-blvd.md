@@ -2,7 +2,7 @@
 name: Trader Joe's
 address_1: 3212 Pico Blvd
 address_2: ''
-city: ''
+city: Santa Monica
 state: CA
 zip: '90405'
 phone: (310) 581-0253
@@ -57,3 +57,5 @@ formatted_day7_open: 8am
 formatted_day7_close: 10pm
 
 ---
+
+

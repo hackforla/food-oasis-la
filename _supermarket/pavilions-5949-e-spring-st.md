@@ -2,7 +2,7 @@
 name: Pavilions
 address_1: 5949 E Spring St
 address_2: ''
-city: ''
+city: Long Beach
 state: CA
 zip: '90808'
 phone: (562) 496-2151
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+

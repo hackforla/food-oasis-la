@@ -2,7 +2,7 @@
 name: Superior Grocers
 address_1: 14433 Ramona Blvd
 address_2: ''
-city: ''
+city: Baldwin Park
 state: CA
 zip: '91706'
 phone: (626) 646-1835
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+

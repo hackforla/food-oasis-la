@@ -2,7 +2,7 @@
 name: Vallarta Supermarkets
 address_1: 757 S Workman St
 address_2: ''
-city: ''
+city: San Fernando
 state: CA
 zip: '91340'
 phone: (818) 365-2301
@@ -57,3 +57,5 @@ formatted_day7_open: '6:30am'
 formatted_day7_close: 11pm
 
 ---
+
+

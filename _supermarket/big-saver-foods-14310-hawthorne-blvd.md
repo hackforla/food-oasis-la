@@ -2,7 +2,7 @@
 name: Big Saver Foods
 address_1: 14310 Hawthorne Blvd
 address_2: ''
-city: ''
+city: Lawndale
 state: CA
 zip: '90260'
 phone: (310) 331-4558
@@ -57,3 +57,5 @@ formatted_day7_open: 7am
 formatted_day7_close: 10pm
 
 ---
+
+
