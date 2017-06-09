@@ -9,7 +9,7 @@ zip: '90033'
 phone: (323)331-2752
 latitude: '34.047096'
 longitude: '-118.218686'
-website: 'https://www.facebook.com/Boyle-Heights-Farmers-Market-308825742488228/"'
+website: 'https://www.facebook.com/Boyle-Heights-Farmers-Market-308825742488228/'
 daycode1: Fri
 day1_open: '1500'
 day1_close: '1900'
