@@ -40,7 +40,10 @@ window.oasis = window.oasis || {};
 			}
 
 			// Address
-			if (data.address_1) element.querySelector('.address').innerHTML = data.address_1;
+			var address = '';
+			if (data.address_1) address += data.address_1;
+			if (data.address_2) address += '<br />' + data.address_2;
+			element.querySelector('.address').innerHTML = address;
 
 			// Open Now
 			var open = false;
