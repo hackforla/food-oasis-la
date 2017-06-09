@@ -32,7 +32,6 @@ day6_close: '1400'
 daycode7: Sun
 day7_open: '1130'
 day7_close: '2330'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-1301-e-gage-ave/
 formatted_daycode1: Monday

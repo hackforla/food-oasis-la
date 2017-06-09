@@ -10,7 +10,6 @@ latitude: '34.1117075'
 longitude: '-118.1953492'
 category: Food Pantry
 website: http//www.allsaintsla.net/
-'': ''
 daycode1: Sat4th
 day1_open: 0830
 day1_close: 0900

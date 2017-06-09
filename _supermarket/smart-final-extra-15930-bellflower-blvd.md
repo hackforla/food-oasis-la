@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2200'
-'': ''
 title: 'Smart & Final Extra, Food Oasis Los Angeles'
 uri: /supermarket/smart-final-extra-15930-bellflower-blvd/
 formatted_daycode1: Monday

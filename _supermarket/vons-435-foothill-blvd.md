@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '500'
 day7_close: '2359'
-'': ''
 title: 'Vons, Food Oasis Los Angeles'
 uri: /supermarket/vons-435-foothill-blvd/
 formatted_daycode1: Monday

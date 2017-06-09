@@ -32,7 +32,6 @@ day6_close: '200'
 daycode7: Sun
 day7_open: '0'
 day7_close: '200'
-'': ''
 title: 'Food 4 Less, Food Oasis Los Angeles'
 uri: /supermarket/food-4-less-1821-n-hacienda-blvd/
 formatted_daycode1: Monday

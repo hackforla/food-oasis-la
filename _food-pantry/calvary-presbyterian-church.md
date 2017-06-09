@@ -10,7 +10,6 @@ latitude: '33.9088461'
 longitude: '-118.3520296'
 category: Food Pantry
 website: http//www.calvaryhawthorne.org/Calendar.html
-'': ''
 daycode1: Sat1st
 day1_open: '1200'
 day1_close: '1500'

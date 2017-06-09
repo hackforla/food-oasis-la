@@ -10,7 +10,6 @@ latitude: '34.0991321'
 longitude: '-118.3132449'
 category: Food Pantry
 website: http//firstsouthernbaptist.church/
-'': ''
 daycode1: Sat1st
 day1_open: '1200'
 day1_close: '1300'

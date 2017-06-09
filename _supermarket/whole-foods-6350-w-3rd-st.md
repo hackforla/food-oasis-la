@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2300'
-'': ''
 title: 'Whole Foods, Food Oasis Los Angeles'
 uri: /supermarket/whole-foods-6350-w-3rd-st/
 formatted_daycode1: Monday

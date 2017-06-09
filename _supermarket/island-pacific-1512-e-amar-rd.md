@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Island Pacific Supermarket, Food Oasis Los Angeles'
 uri: /supermarket/island-pacific-1512-e-amar-rd/
 formatted_daycode1: Monday

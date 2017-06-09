@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2359'
-'': ''
 title: 'Vons, Food Oasis Los Angeles'
 uri: /supermarket/vons-2355-e-colorado-blvd/
 formatted_daycode1: Monday

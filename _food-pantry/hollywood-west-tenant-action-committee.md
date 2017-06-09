@@ -10,7 +10,6 @@ latitude: '34.0873928'
 longitude: '-118.3231596'
 category: Food Pantry
 website: ''
-'': ''
 daycode1: Fri3rd
 day1_open: '1600'
 day1_close: '1800'

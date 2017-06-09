@@ -32,7 +32,6 @@ day6_close: '1700'
 daycode7: Sun
 day7_open: '1000'
 day7_close: '1800'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-1000-n-azusa-ave/
 formatted_daycode1: Monday

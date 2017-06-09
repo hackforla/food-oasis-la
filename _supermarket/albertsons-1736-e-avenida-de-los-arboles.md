@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2300'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-1736-e-avenida-de-los-arboles/
 formatted_daycode1: Monday

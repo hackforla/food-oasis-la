@@ -32,7 +32,6 @@ day6_close: '1700'
 daycode7: Sun
 day7_open: '700'
 day7_close: '1700'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-1575-e-holt-ave/
 formatted_daycode1: Monday

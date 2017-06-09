@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2359'
-'': ''
 title: 'Vons, Food Oasis Los Angeles'
 uri: /supermarket/vons-16830-san-fernando-mission-blvd/
 formatted_daycode1: Monday

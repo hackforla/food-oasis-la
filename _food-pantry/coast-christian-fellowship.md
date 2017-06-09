@@ -10,7 +10,6 @@ latitude: '33.8065814'
 longitude: '-118.3566268'
 category: Food Pantry
 website: http//www.coastchristian.org/
-'': ''
 daycode1: Mon
 day1_open: '1600'
 day1_close: '1800'

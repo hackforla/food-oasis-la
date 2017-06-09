@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2300'
-'': ''
 title: 'Jons Marketplace, Food Oasis Los Angeles'
 uri: /supermarket/jons-marketplace-6655-van-nuys-blvd/
 formatted_daycode1: Monday

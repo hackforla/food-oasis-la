@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Smart & Final, Food Oasis Los Angeles'
 uri: /supermarket/smart-final-20410-s-susana-rd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2300'
-'': ''
 title: 'Jons Marketplace 24, Food Oasis Los Angeles'
 uri: /supermarket/jons-marketplace-24-18135-sherman-way/
 formatted_daycode1: Monday

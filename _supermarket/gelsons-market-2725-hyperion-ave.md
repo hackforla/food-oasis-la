@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2359'
-'': ''
 title: 'Gelson''s Market, Food Oasis Los Angeles'
 uri: /supermarket/gelsons-market-2725-hyperion-ave/
 formatted_daycode1: Monday

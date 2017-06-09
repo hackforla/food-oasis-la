@@ -10,7 +10,6 @@ latitude: '34.2496259'
 longitude: '-118.5788499'
 category: Food Pantry
 website: http//chatsworthcongregational.church/
-'': ''
 daycode1: Sat
 day1_open: '1600'
 day1_close: '1700'

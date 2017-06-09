@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2300'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-15202-hawthorne-blvd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2100'
-'': ''
 title: 'Trader Joe''s, Food Oasis Los Angeles'
 uri: /supermarket/trader-joes-3835-e-thousand-oaks-blvd/
 formatted_daycode1: Monday

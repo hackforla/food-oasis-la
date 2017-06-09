@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Jons Marketplace, Food Oasis Los Angeles'
 uri: /supermarket/jons-marketplace-3334-w-8th-st/
 formatted_daycode1: Monday

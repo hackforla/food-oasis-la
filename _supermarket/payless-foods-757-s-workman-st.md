@@ -32,7 +32,6 @@ day6_close: ''
 daycode7: Sun
 day7_open: '800'
 day7_close: '2000'
-'': ''
 title: 'Payless Foods, Food Oasis Los Angeles'
 uri: /supermarket/payless-foods-757-s-workman-st/
 formatted_daycode1: Monday

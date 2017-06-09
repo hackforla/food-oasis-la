@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2200'
-'': ''
 title: 'Food 4 Less, Food Oasis Los Angeles'
 uri: /supermarket/food-4-less-12765-van-nuys-blvd/
 formatted_daycode1: Monday

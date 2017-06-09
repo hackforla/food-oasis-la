@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-7000-s-alameda-st/
 formatted_daycode1: Monday

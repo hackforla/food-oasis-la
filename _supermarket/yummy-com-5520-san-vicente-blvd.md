@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Yummy.com, Food Oasis Los Angeles'
 uri: /supermarket/yummy-com-5520-san-vicente-blvd/
 formatted_daycode1: Monday

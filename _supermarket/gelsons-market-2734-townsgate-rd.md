@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'Gelson''s Market, Food Oasis Los Angeles'
 uri: /supermarket/gelsons-market-2734-townsgate-rd/
 formatted_daycode1: Monday

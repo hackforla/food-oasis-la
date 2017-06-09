@@ -32,7 +32,6 @@ day6_close: '0'
 daycode7: Sun
 day7_open: '600'
 day7_close: '0'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-11873-hawthorne-blvd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: ''
 day7_close: ''
-'': ''
 title: 'Lassen''s Natural Foods, Food Oasis Los Angeles'
 uri: /supermarket/lassens-natural-foods-2150-e-thousand-oaks-blvd/
 formatted_daycode1: Monday

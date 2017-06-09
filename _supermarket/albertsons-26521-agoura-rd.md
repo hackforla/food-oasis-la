@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '500'
 day7_close: '2359'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-26521-agoura-rd/
 formatted_daycode1: Monday

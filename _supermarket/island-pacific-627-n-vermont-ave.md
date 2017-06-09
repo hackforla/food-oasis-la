@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2100'
-'': ''
 title: 'Island Pacific Supermarket, Food Oasis Los Angeles'
 uri: /supermarket/island-pacific-627-n-vermont-ave/
 formatted_daycode1: Monday

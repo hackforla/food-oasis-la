@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '500'
 day7_close: '2359'
-'': ''
 title: 'Pavilions, Food Oasis Los Angeles'
 uri: /supermarket/pavilions-130-w-foothill-blvd/
 formatted_daycode1: Monday

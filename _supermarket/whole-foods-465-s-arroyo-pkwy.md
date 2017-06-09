@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'Whole Foods, Food Oasis Los Angeles'
 uri: /supermarket/whole-foods-465-s-arroyo-pkwy/
 formatted_daycode1: Monday

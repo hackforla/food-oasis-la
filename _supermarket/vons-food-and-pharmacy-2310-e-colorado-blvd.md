@@ -32,7 +32,6 @@ day6_close: '1200'
 daycode7: Sun
 day7_open: '600'
 day7_close: '1200'
-'': ''
 title: 'Vons Food and Pharmacy, Food Oasis Los Angeles'
 uri: /supermarket/vons-food-and-pharmacy-2310-e-colorado-blvd/
 formatted_daycode1: Monday

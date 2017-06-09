@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '0'
 day7_close: '2359'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-2270-lake-ave/
 formatted_daycode1: Monday

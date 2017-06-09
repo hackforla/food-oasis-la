@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Family Market, Food Oasis Los Angeles'
 uri: /supermarket/family-market-4304-floral-dr/
 formatted_daycode1: Monday

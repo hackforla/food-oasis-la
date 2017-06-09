@@ -10,7 +10,6 @@ latitude: '34.0339876'
 longitude: '-118.2697209'
 category: Food Pantry
 website: 'http://sfcla.org'
-'': ''
 daycode1:
 day1_open:
 day1_close:

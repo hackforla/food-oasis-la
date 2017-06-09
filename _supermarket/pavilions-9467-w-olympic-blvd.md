@@ -32,7 +32,6 @@ day6_close: '100'
 daycode7: Sun
 day7_open: '0'
 day7_close: '100'
-'': ''
 title: 'Pavilions, Food Oasis Los Angeles'
 uri: /supermarket/pavilions-9467-w-olympic-blvd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '1000'
 day7_close: '2130'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-2510-pacific-coast-hwy/
 formatted_daycode1: Monday

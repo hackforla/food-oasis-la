@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: ''
 day7_close: ''
-'': ''
 title: 'Lassens Natural Foods & Vitamins, Food Oasis Los Angeles'
 uri: /supermarket/lassens-natural-foods-vitamins-1631-w-sunset-blvd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-14103-ramona-blvd/
 formatted_daycode1: Monday

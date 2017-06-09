@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Super A Foods, Food Oasis Los Angeles'
 uri: /supermarket/super-a-foods-7200-dominion-cir/
 formatted_daycode1: Monday

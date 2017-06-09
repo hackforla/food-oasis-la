@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '0'
 day7_close: '2359'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-23841-malibu-rd/
 formatted_daycode1: Monday

@@ -10,7 +10,6 @@ latitude: '34.0370429'
 longitude: '-118.1792254'
 category: Food Pantry
 website: http//wdacs.lacounty.gov/service-locations/east-los-angeles-service-center/
-'': ''
 daycode1: Mon
 day1_open: 0930
 day1_close: '1200'

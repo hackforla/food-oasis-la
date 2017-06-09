@@ -10,7 +10,6 @@ latitude: '34.1942489'
 longitude: '-118.491725'
 category: Food Pantry
 website: https//www.jfsla.org/page.aspx?pid=300
-'': ''
 daycode1: Sun
 day1_open: 0900
 day1_close: '1200'

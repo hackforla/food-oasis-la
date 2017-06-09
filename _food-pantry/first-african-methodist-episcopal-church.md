@@ -10,7 +10,6 @@ latitude: '34.0344082'
 longitude: '-118.3061942'
 category: Food Pantry
 website: http//www.famechurch.org/
-'': ''
 daycode1: Sat4th
 day1_open: 0900
 day1_close: '1200'

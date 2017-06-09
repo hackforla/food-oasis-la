@@ -32,7 +32,6 @@ day6_close: ''
 daycode7: Sun
 day7_open: ''
 day7_close: ''
-'': ''
 title: 'Smart & Final, Food Oasis Los Angeles'
 uri: /supermarket/smart-final-15214-whittier-blvd/
 formatted_daycode1: Monday

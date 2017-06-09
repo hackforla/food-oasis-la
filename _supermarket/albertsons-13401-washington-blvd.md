@@ -32,7 +32,6 @@ day6_close: '0'
 daycode7: Sun
 day7_open: '0'
 day7_close: '0'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-13401-washington-blvd/
 formatted_daycode1: Monday

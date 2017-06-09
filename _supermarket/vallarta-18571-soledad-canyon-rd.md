@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '630'
 day7_close: '2300'
-'': ''
 title: 'Vallarta Supermarket, Food Oasis Los Angeles'
 uri: /supermarket/vallarta-18571-soledad-canyon-rd/
 formatted_daycode1: Monday

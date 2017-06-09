@@ -32,7 +32,6 @@ day6_close: ''
 daycode7: Sun
 day7_open: '800'
 day7_close: '2000'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-3963-e-thousand-oaks-blvd/
 formatted_daycode1: Monday

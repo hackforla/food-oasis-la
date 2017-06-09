@@ -10,7 +10,6 @@ latitude: '33.9908748'
 longitude: '-118.2822084'
 category: Food Pantry
 website: http//www.figueroacoc.com/
-'': ''
 daycode1: Tue
 day1_open: '0730'
 day1_close: '1100'

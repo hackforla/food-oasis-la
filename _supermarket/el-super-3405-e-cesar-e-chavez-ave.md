@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2100'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-3405-e-cesar-e-chavez-ave/
 formatted_daycode1: Monday

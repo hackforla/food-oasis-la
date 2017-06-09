@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2200'
-'': ''
 title: 'Bristol Farms, Food Oasis Los Angeles'
 uri: /supermarket/bristol-farms-7880-w-sunset-blvd/
 formatted_daycode1: Monday

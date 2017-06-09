@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'Numero Uno Market, Food Oasis Los Angeles'
 uri: /supermarket/numero-uno-market-1831-w-3rd-st/
 formatted_daycode1: Monday

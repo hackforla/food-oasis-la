@@ -32,7 +32,6 @@ day6_close: '100'
 daycode7: Sun
 day7_open: '0'
 day7_close: '100'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-5245-w-centinela-ave/
 formatted_daycode1: Monday

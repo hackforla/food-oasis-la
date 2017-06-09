@@ -10,7 +10,6 @@ latitude: '33.9627706'
 longitude: '-118.0395279'
 category: Food Pantry
 website: http//familychurch.co/
-'': ''
 daycode1: Sun
 day1_open: '1015'
 day1_close: '1045'

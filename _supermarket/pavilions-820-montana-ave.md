@@ -32,7 +32,6 @@ day6_close: '130'
 daycode7: Sun
 day7_open: '0'
 day7_close: '130'
-'': ''
 title: 'Pavilions, Food Oasis Los Angeles'
 uri: /supermarket/pavilions-820-montana-ave/
 formatted_daycode1: Monday

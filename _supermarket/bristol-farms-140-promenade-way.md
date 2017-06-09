@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2100'
-'': ''
 title: 'Bristol Farms, Food Oasis Los Angeles'
 uri: /supermarket/bristol-farms-140-promenade-way/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2300'
-'': ''
 title: 'Albertsons, Food Oasis Los Angeles'
 uri: /supermarket/albertsons-3828-peck-rd/
 formatted_daycode1: Monday

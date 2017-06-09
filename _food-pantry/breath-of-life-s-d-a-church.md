@@ -10,7 +10,6 @@ latitude: '33.9582157'
 longitude: '-118.3536215'
 category: Food Pantry
 website: http//www.breathla.org
-'': ''
 daycode1: Thu1st
 day1_open: '1200'
 day1_close: '1500'

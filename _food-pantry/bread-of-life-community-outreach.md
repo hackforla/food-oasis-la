@@ -10,7 +10,6 @@ latitude: '33.8584858'
 longitude: '-118.0929072'
 category: Food Pantry
 website: http//www.longbeachbreadoflife.com
-'': ''
 daycode1: Wed2nd
 day1_open: 0830
 day1_close: '1200'

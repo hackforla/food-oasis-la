@@ -32,7 +32,6 @@ day6_close: '1730'
 daycode7: Sun
 day7_open: '1000'
 day7_close: '1730'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-20137-pioneer-blvd/
 formatted_daycode1: Monday

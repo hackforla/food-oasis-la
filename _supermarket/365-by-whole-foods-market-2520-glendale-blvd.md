@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2300'
-'': ''
 title: '365 by Whole Foods Market, Food Oasis Los Angeles'
 uri: /supermarket/365-by-whole-foods-market-2520-glendale-blvd/
 formatted_daycode1: Monday

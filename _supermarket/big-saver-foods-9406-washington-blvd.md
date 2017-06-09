@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Big Saver Foods, Food Oasis Los Angeles'
 uri: /supermarket/big-saver-foods-9406-washington-blvd/
 formatted_daycode1: Monday

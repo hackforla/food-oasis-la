@@ -32,7 +32,6 @@ day6_close: '1900'
 daycode7: Sun
 day7_open: '800'
 day7_close: '1800'
-'': ''
 title: 'Bristol Farms, Food Oasis Los Angeles'
 uri: /supermarket/bristol-farms-1700-s-pacific-coast-hwy/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2200'
-'': ''
 title: 'Northgate Super Market, Food Oasis Los Angeles'
 uri: /supermarket/northgate-super-market-9101-telegraph-rd/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'El Super, Food Oasis Los Angeles'
 uri: /supermarket/el-super-10721-atlantic-ave/
 formatted_daycode1: Monday

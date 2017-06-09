@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'Vallarta Supermarkets, Food Oasis Los Angeles'
 uri: /supermarket/vallartas-38118-47th-st-e/
 formatted_daycode1: Monday

@@ -32,7 +32,6 @@ day6_close: '2230'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2230'
-'': ''
 title: 'Northgate Supermarkets, Food Oasis Los Angeles'
 uri: /supermarket/northgates-1222-n-avalon-blvd/
 formatted_daycode1: Monday

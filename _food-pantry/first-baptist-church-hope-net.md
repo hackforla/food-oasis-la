@@ -10,7 +10,6 @@ latitude: '34.0582323'
 longitude: '-118.2886022'
 category: Food Pantry
 website: http//fbcofla.org/community-outreach/hope-net/
-'': ''
 daycode1: Fri
 day1_open: 0800
 day1_close: 0930

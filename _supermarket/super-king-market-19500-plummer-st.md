@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '0'
 day7_close: '2359'
-'': ''
 title: 'Super King Market, Food Oasis Los Angeles'
 uri: /supermarket/super-king-market-19500-plummer-st/
 formatted_daycode1: Monday

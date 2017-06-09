@@ -10,7 +10,6 @@ latitude: '34.0574918'
 longitude: '-118.2904201'
 category: Food Pantry
 website: http//uula.org/
-'': ''
 daycode1: Sat
 day1_open: 0800
 day1_close: '1000'

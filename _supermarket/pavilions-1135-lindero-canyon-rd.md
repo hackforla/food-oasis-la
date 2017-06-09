@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2300'
-'': ''
 title: 'Pavilions, Food Oasis Los Angeles'
 uri: /supermarket/pavilions-1135-lindero-canyon-rd/
 formatted_daycode1: Monday

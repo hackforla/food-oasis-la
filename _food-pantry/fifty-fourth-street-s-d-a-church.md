@@ -10,7 +10,6 @@ latitude: '33.9935442'
 longitude: '-118.3134514'
 category: Food Pantry
 website: http//54stsda.org/
-'': ''
 daycode1: Tue2nd
 day1_open: 0800
 day1_close: '1000'

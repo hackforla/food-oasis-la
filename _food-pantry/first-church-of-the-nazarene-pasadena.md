@@ -10,7 +10,6 @@ latitude: '34.1609763'
 longitude: '-118.0739988'
 category: Food Pantry
 website: http//www.paznaz.org/
-'': ''
 daycode1: Wed
 day1_open: '1400'
 day1_close: '1600'

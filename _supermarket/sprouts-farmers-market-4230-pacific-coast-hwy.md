@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2200'
-'': ''
 title: 'Sprouts Farmers Market, Food Oasis Los Angeles'
 uri: /supermarket/sprouts-farmers-market-4230-pacific-coast-hwy/
 formatted_daycode1: Monday

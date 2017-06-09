@@ -10,7 +10,6 @@ latitude: '33.9624612'
 longitude: '-118.3665755'
 category: Food Pantry
 website: http//firstlutheranofinglewood.org/
-'': ''
 daycode1: Thu2nd
 day1_open: '1000'
 day1_close: '1130'

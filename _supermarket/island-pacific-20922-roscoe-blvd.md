@@ -32,7 +32,6 @@ day6_close: '2000'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2000'
-'': ''
 title: 'Island Pacific Supermarket, Food Oasis Los Angeles'
 uri: /supermarket/island-pacific-20922-roscoe-blvd/
 formatted_daycode1: Monday

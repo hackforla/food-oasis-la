@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '900'
 day7_close: '2100'
-'': ''
 title: 'Gelson''s Market, Food Oasis Los Angeles'
 uri: /supermarket/gelsons-market-1930-century-park-w/
 formatted_daycode1: Monday

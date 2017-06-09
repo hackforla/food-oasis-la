@@ -10,7 +10,6 @@ latitude: '34.56754'
 longitude: '-117.953277'
 category: Food Pantry
 website: http//www.livingstonecathedral.org/index.php
-'': ''
 daycode1: Wed2nd
 day1_open: '1100'
 day1_close: '1300'

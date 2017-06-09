@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '800'
 day7_close: '2359'
-'': ''
 title: 'Yummy.com, Food Oasis Los Angeles'
 uri: /supermarket/yummy-com-6020-seabluff-dr/
 formatted_daycode1: Monday

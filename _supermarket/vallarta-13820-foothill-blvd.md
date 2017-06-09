@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '630'
 day7_close: '2300'
-'': ''
 title: 'Vallarta Supermarket, Food Oasis Los Angeles'
 uri: /supermarket/vallarta-13820-foothill-blvd/
 formatted_daycode1: Monday

@@ -10,7 +10,6 @@ latitude: '34.0896046'
 longitude: '-118.2934993'
 category: Food Pantry
 website: http//catholiccharitiesla.org/where-we-are/program-directory-by-city/
-'': ''
 daycode1: Mon
 day1_open: '1000'
 day1_close: '1500'

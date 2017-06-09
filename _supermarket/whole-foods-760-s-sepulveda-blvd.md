@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '1100'
 day7_close: '1900'
-'': ''
 title: 'Whole Foods, Food Oasis Los Angeles'
 uri: /supermarket/whole-foods-760-s-sepulveda-blvd/
 formatted_daycode1: Monday

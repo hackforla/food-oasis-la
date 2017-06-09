@@ -32,7 +32,6 @@ day6_close: '2359'
 daycode7: Sun
 day7_open: '530'
 day7_close: '2359'
-'': ''
 title: 'Pavilions, Food Oasis Los Angeles'
 uri: /supermarket/pavilions-1213-fair-oaks-ave/
 formatted_daycode1: Monday

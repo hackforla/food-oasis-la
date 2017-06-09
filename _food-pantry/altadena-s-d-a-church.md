@@ -10,7 +10,6 @@ latitude: '34.1906878'
 longitude: '-118.1593398'
 category: Food Pantry
 website: http//altadenasdafamily.org/
-'': ''
 daycode1: Tue2nd
 day1_open: 0900
 day1_close: '1200'

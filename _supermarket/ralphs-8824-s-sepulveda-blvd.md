@@ -32,7 +32,6 @@ day6_close: '200'
 daycode7: Sun
 day7_open: '0'
 day7_close: '200'
-'': ''
 title: 'Ralphs, Food Oasis Los Angeles'
 uri: /supermarket/ralphs-8824-s-sepulveda-blvd/
 formatted_daycode1: Monday

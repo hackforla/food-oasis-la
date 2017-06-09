@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2300'
-'': ''
 title: 'Stater Bros. Markets, Food Oasis Los Angeles'
 uri: /supermarket/stater-bros-markets-1025-e-amar-rd/
 formatted_daycode1: Monday

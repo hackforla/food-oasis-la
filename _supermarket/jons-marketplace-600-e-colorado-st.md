@@ -32,7 +32,6 @@ day6_close: '1900'
 daycode7: Sun
 day7_open: '1100'
 day7_close: '2200'
-'': ''
 title: 'Jons Marketplace, Food Oasis Los Angeles'
 uri: /supermarket/jons-marketplace-600-e-colorado-st/
 formatted_daycode1: Monday

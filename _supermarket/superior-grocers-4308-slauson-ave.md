@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Superior Grocers, Food Oasis Los Angeles'
 uri: /supermarket/superior-grocers-4308-slauson-ave/
 formatted_daycode1: Monday

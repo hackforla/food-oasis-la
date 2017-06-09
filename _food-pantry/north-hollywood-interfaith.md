@@ -10,7 +10,6 @@ latitude: '34.1501988'
 longitude: '-118.3872632'
 category: Food Pantry
 website: http//www.nhifp.org/
-'': ''
 daycode1: Mon
 day1_open: 0900
 day1_close: '1300'

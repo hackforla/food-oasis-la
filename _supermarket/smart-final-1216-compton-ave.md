@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2100'
-'': ''
 title: 'Smart & Final, Food Oasis Los Angeles'
 uri: /supermarket/smart-final-1216-compton-ave/
 formatted_daycode1: Monday

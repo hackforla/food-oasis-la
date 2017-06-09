@@ -32,7 +32,6 @@ day6_close: '2130'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Bristol Farms, Food Oasis Los Angeles'
 uri: /supermarket/bristol-farms-915-e-230th-st/
 formatted_daycode1: Monday

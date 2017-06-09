@@ -32,7 +32,6 @@ day6_close: '2300'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2300'
-'': ''
 title: 'Northgate Gonzalez Markets, Food Oasis Los Angeles'
 uri: /supermarket/northgate-gonzalez-markets-425-s-soto-st/
 formatted_daycode1: Monday

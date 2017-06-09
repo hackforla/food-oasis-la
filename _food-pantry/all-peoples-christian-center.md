@@ -10,7 +10,6 @@ latitude: '34.0257601'
 longitude: '-118.256703'
 category: Food Pantry
 website: https//allpeoplescc.org/
-'': ''
 daycode1: Fri
 day1_open: '1200'
 day1_close: '1700'

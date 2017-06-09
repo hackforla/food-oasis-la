@@ -32,7 +32,6 @@ day6_close: ''
 daycode7: Sun
 day7_open: ''
 day7_close: ''
-'': ''
 title: 'Super A Foods, Food Oasis Los Angeles'
 uri: /supermarket/super-a-foods-300-w-main-st/
 formatted_daycode2: Tuesday

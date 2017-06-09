@@ -32,7 +32,6 @@ day6_close: '2100'
 daycode7: Sun
 day7_open: '700'
 day7_close: '2100'
-'': ''
 title: 'Super King Market, Food Oasis Los Angeles'
 uri: /supermarket/super-king-market-2260-lincoln-ave/
 formatted_daycode1: Monday

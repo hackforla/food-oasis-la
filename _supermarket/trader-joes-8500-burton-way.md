@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '900'
 day7_close: '2200'
-'': ''
 title: 'Trader Joe''s, Food Oasis Los Angeles'
 uri: /supermarket/trader-joes-8500-burton-way/
 formatted_daycode1: Monday

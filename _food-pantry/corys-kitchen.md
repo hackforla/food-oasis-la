@@ -10,7 +10,6 @@ latitude: '34.1146127'
 longitude: '-117.9746909'
 category: Food Pantry
 website: http//www.coryskitchen.org/
-'': ''
 daycode1: Tues
 day1_open: '1800'
 day1_close: '2000'

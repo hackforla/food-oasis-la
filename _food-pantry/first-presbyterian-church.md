@@ -10,7 +10,6 @@ latitude: '34.0405644'
 longitude: '-118.3372555'
 category: Food Pantry
 website: http//fpcofla.org/
-'': ''
 daycode1: Sun3rd
 day1_open: '1300'
 day1_close: '1400'

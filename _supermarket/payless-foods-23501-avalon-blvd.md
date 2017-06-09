@@ -32,7 +32,6 @@ day6_close: '2200'
 daycode7: Sun
 day7_open: '600'
 day7_close: '2200'
-'': ''
 title: 'Payless Foods, Food Oasis Los Angeles'
 uri: /supermarket/payless-foods-23501-avalon-blvd/
 formatted_daycode1: Monday
