@@ -58,7 +58,7 @@
 		line-height: 1.45;
 	}
 	.location-details .copy-paste textarea {
-		min-height: 5.8em;
+		min-height: 7.25em; /* 1.45em x 5 */
 		text-align: center;
 	}
 

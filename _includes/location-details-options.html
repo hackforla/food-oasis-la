@@ -41,14 +41,15 @@ toggleDetailsOnPress('shareable-link');
 		<label>
 			<span>Here’s an address you can copy and paste:</span>
 			<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly">
-{{ page['name'] | escape }}
-{{ page['address_1'] | escape }}{% if page['address_2'] and page['address_2'] != '' %},
-{{ page['address_2'] | escape }}{% endif %}
-{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
+{{ page['name'] }}
+{{ page['address_1'] }}{% if page['address_2'] and page['address_2'] != '' %}
+{{ page['address_2'] }}{% endif %}
+{{ page['city'] }}, California {{ page['zip'] }}
 </textarea>
 		</label>
 	</p>
-	<p><a href="http://maps.google.com/maps/place/{{ page['name'] | escape }} {{ page['address_1'] | escape }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] | escape }} {% endif %} {{ page['city'] | escape }} {{ page['state'] | escape }} {{ page['zipcode'] | escape }}">Get Directions on Google Maps</a></p>
+	{% capture directions_url %}{{ page['latitude'] }},{{ page['longitude'] }},{{ page['name'] }} {{ page['address_1'] }} {% if page['address_2'] and page['address_2'] != '' %} {{ page['address_2'] }} {% endif %} {{ page['city'] }}, California {{ page['zip'] }}{% endcapture %}
+	<p><a href="https://maps.google.com/maps?q={{ directions_url | escape }}">Get Directions on Google Maps</a></p>
 </div>
 <script>
 toggleDetailsOnPress('directions');

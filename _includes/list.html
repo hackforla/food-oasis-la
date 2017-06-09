@@ -12,7 +12,13 @@
 			{% endif %}
 
 			<h2>{{ data['name'] }}</h2>
-			<p class="address">{{ data['address_1'] | escape }}</p>
+			<p class="address">
+				{{ page['address_1'] }}
+				{% if page['address_2'] and page['address_2'] != '' %}
+					<br />
+					{{ page['address_2'] }}
+				{% endif %}
+			</p>
 			<p class="type">{{ data['category'] }}</p>
 			<script type="text/template" class="open-template" data-day="{{ data['day'] }}" data-open="{{ data['open'] }}" data-close="{{ data['close'] }}">
 				<p class="open">Open Now</p>

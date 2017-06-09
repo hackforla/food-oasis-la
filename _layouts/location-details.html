@@ -21,15 +21,15 @@ stylesheets:
 	<h1>{{ page.name }}</h1>
 
 	<p class="address">
-		{{ page['address_1'] | escape }}
+		{{ page['address_1'] }}
 		{% if page['address_2'] and page['address_2'] != '' %}
 			<br />
-			{{ page['address_2'] | escape }}
+			{{ page['address_2'] }}
 		{% endif %}
 
 		{% if page['city'] != '' %}			
 		<br />
-		{{ page['city'] | escape }}, {{ page['state'] | escape }} {{ page['zipcode'] | escape }}
+		{{ page['city'] }}, California {{ page['zip'] }}
 		{% endif %}
 	</p>
 	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
@@ -153,27 +153,27 @@ SHIM: Support days in any order, in the spreadsheet.
 	<dl>
 		{% if page['website'] and page['website'] != '' %}
 		<dt>Web</dt>
-		<dd><a href="{{ page['website'] | escape }}">{{ page['website'] | escape }}</a></dd>
+		<dd><a href="{{ page['website'] }}">{{ page['website'] }}</a></dd>
 		{% endif %}
 
 		{% if page['phone'] and page['phone'] != '' %}
 		<dt>Phone</dt>
-		<dd>{{ page['phone'] | escape }}</dd>
+		<dd>{{ page['phone'] }}</dd>
 		{% endif %}
 
 		{% if page['facebook'] and page['facebook'] != '' %}
 		<dt>Facebook</dt>
-		<dd><a href="{{ page['facebook'] | escape }}">{{ page['facebook'] | escape }}</a></dd>
+		<dd><a href="{{ page['facebook'] }}">{{ page['facebook'] }}</a></dd>
 		{% endif %}
 
 		{% if page['instagram'] and page['instagram'] != '' %}
 		<dt>Instagram</dt>
-		<dd><a href="{{ page['instagram'] | escape }}">{{ page['instagram'] | escape }}</a></dd>
+		<dd><a href="{{ page['instagram'] }}">{{ page['instagram'] }}</a></dd>
 		{% endif %}
 
 		{% if page['twitter'] and page['twitter'] != '' %}
 		<dt>Twitter</dt>
-		<dd><a href="{{ page['twitter'] | escape }}">{{ page['twitter'] | escape }}</a></dd>
+		<dd><a href="{{ page['twitter'] }}">{{ page['twitter'] }}</a></dd>
 		{% endif %}
 	</dl>
 </section>
