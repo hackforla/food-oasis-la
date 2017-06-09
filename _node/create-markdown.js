@@ -64,26 +64,26 @@ function createMarkdownFile(writePath, data, category_uri) {
     var closeKey = 'day' + i + '_close';
 
     if (data[ daycodeKey ] && data[ openKey ] && data[ closeKey ] ) {
-      switch (data[ daycodeKey ].trim()) {
-        case 'Mon':
+      switch (data[ daycodeKey ].trim().toLowerCase()) {
+        case 'mon':
           data[formattedKey] = 'Monday';
           break;
-        case 'Tue':
+        case 'tue':
           data[formattedKey] = 'Tuesday';
           break;
-        case 'Wed':
+        case 'wed':
           data[formattedKey] = 'Wednesday';
           break;
-        case 'Thu':
+        case 'thu':
           data[formattedKey] = 'Thursday';
           break;
-        case 'Fri':
+        case 'fri':
           data[formattedKey] = 'Friday';
           break;
-        case 'Sat':
+        case 'sat':
           data[formattedKey] = 'Saturday';
           break;
-        case 'Sun':
+        case 'sun':
           data[formattedKey] = 'Sunday';
           break;
       }

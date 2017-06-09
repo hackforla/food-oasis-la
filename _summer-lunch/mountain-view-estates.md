@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/19/2017
 season_close: 8/18/2017
-web notes: ''
+notes: ''
 title: 'Mountain View Estates, Food Oasis Los Angeles'
 uri: /summer-lunch/mountain-view-estates/
+formatted_daycode1: Monday
 formatted_day1_open: 11am
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
 formatted_day2_open: 11am
 formatted_day2_close: 12pm
+formatted_daycode3: Wednesday
 formatted_day3_open: 11am
 formatted_day3_close: 12pm
+formatted_daycode4: Thursday
 formatted_day4_open: 11am
 formatted_day4_close: 12pm
+formatted_daycode5: Friday
 formatted_day5_open: 11am
 formatted_day5_close: 12pm
 

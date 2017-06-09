@@ -34,15 +34,19 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/10/2017
-web notes: 'Closed: Fridays, 7/4/2017 Field trip: 8/9/2017'
+notes: 'Closed: Fridays, 7/4/2017 Field trip: 8/9/2017'
 title: 'Eastman Elementary School/Healthy Start, Food Oasis Los Angeles'
 uri: /summer-lunch/eastman-elementary-school-healthy-start/
+formatted_daycode1: Monday
 formatted_day1_open: '11:30am'
 formatted_day1_close: '12:30pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: '11:30am'
 formatted_day2_close: '12:30pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: '11:30am'
 formatted_day3_close: '12:30pm'
+formatted_daycode4: Thursday
 formatted_day4_open: '11:30am'
 formatted_day4_close: '12:30pm'
 

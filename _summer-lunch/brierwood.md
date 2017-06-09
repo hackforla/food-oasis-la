@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/19/2017
 season_close: 7/28/2017
-web notes: 'Closed: 7/4/2017'
+notes: 'Closed: 7/4/2017'
 title: 'Brierwood, Food Oasis Los Angeles'
 uri: /summer-lunch/brierwood/
+formatted_daycode1: Monday
 formatted_day1_open: '1:10pm'
 formatted_day1_close: '2:10pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: '1:10pm'
 formatted_day2_close: '2:10pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: '1:10pm'
 formatted_day3_close: '2:10pm'
+formatted_daycode4: Thursday
 formatted_day4_open: '1:10pm'
 formatted_day4_close: '2:10pm'
+formatted_daycode5: Friday
 formatted_day5_open: '1:10pm'
 formatted_day5_close: '2:10pm'
 

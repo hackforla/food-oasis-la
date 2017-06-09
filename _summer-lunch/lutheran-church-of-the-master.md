@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 7/10/2017
 season_close: 7/28/2017
-web notes: ''
+notes: ''
 title: 'Lutheran Church of the Master, Food Oasis Los Angeles'
 uri: /summer-lunch/lutheran-church-of-the-master/
+formatted_daycode1: Monday
 formatted_day1_open: 12pm
 formatted_day1_close: 1pm
+formatted_daycode2: Tuesday
 formatted_day2_open: 12pm
 formatted_day2_close: 1pm
+formatted_daycode3: Wednesday
 formatted_day3_open: 12pm
 formatted_day3_close: 1pm
+formatted_daycode4: Thursday
 formatted_day4_open: 12pm
 formatted_day4_close: 1pm
+formatted_daycode5: Friday
 formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 

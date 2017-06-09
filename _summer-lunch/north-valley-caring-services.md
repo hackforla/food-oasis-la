@@ -34,15 +34,19 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/19/2017
 season_close: 8/8/2017
-web notes: ''
+notes: ''
 title: 'North Valley Caring Services, Food Oasis Los Angeles'
 uri: /summer-lunch/north-valley-caring-services/
+formatted_daycode1: Monday
 formatted_day1_open: 3pm
 formatted_day1_close: 4pm
+formatted_daycode2: Tuesday
 formatted_day2_open: 3pm
 formatted_day2_close: 4pm
+formatted_daycode3: Wednesday
 formatted_day3_open: 3pm
 formatted_day3_close: 4pm
+formatted_daycode4: Thursday
 formatted_day4_open: 3pm
 formatted_day4_close: 4pm
 

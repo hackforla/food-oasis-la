@@ -97,13 +97,13 @@ window.oasis = window.oasis || {};
 	var isOpenNow;
 	(function() {
 		var DAYS_OF_WEEK = [
-			'Sun',
-			'Mon',
-			'Tue',
-			'Wed',
-			'Thu',
-			'Fri',
-			'Sat'
+			'sun',
+			'mon',
+			'tue',
+			'wed',
+			'thu',
+			'fri',
+			'sat'
 		];
 		function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
 			var hours   = Number(timeString.substring(0, timeString.length - 2));
@@ -120,7 +120,7 @@ window.oasis = window.oasis || {};
 				var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
 
 				if (pacificTime &&
-					DAYS_OF_WEEK[now.getDay()] === data.day &&
+					DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() &&
 					nowSeconds > getSeconds(data.open) &&
 					nowSeconds < getSeconds(data.close) ) {
 					return true;

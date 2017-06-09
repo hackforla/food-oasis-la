@@ -88,10 +88,10 @@
 
 	],
 	uri       : "{{ data.uri }}"
-	{% if data.content and data.content  != '' %}
+	{% unless data.notes == blank and data.content == blank %}
 {% capture nl %}
 {% endcapture %}
-	, content   : "{{ data.content | markdownify | replace: nl, ' ' | replace: '"', '\"' }}"
-	{% endif %}
+	, content   : "{{ data.notes | markdownify | replace: nl, ' ' | replace: '"', '\"' }} {{ data.content | markdownify | replace: nl, ' ' | replace: '"', '\"' }}"
+	{% endunless %}
 }{% unless forloop.last %},{% endunless %}
 {% endfor %}

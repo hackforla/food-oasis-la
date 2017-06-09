@@ -36,19 +36,24 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 6/30/2017
-web notes: >-
+notes: >-
   Cecilia Hernandez (dir), Fernando Delgadillo, Moises (services and report) /
   213.239.6605 x 228 or 114 (F)
 title: 'Para Los Ninos (7th), Food Oasis Los Angeles'
 uri: /summer-lunch/para-los-ninos-7th/
+formatted_daycode1: Monday
 formatted_day1_open: 12pm
 formatted_day1_close: '1:30pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: 12pm
 formatted_day2_close: '1:30pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: 12pm
 formatted_day3_close: '1:30pm'
+formatted_daycode4: Thursday
 formatted_day4_open: 12pm
 formatted_day4_close: '1:30pm'
+formatted_daycode5: Friday
 formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 

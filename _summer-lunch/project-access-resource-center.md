@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/4/2017
-web notes: 'Closed: 6/14, 7/4'
+notes: 'Closed: 6/14, 7/4'
 title: 'Project Access Resource Center, Food Oasis Los Angeles'
 uri: /summer-lunch/project-access-resource-center/
+formatted_daycode1: Monday
 formatted_day1_open: '1:30pm'
 formatted_day1_close: '2:30pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: '1:30pm'
 formatted_day2_close: '2:30pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: '1:30pm'
 formatted_day3_close: '2:30pm'
+formatted_daycode4: Thursday
 formatted_day4_open: '1:30pm'
 formatted_day4_close: '2:30pm'
+formatted_daycode5: Friday
 formatted_day5_open: '1:30pm'
 formatted_day5_close: '2:30pm'
 

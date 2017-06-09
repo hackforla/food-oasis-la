@@ -34,13 +34,16 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 7/10/2017
 season_close: 8/17/2017
-web notes: ''
+notes: ''
 title: 'Richstone Family Center, Food Oasis Los Angeles'
 uri: /summer-lunch/richstone-family-center/
+formatted_daycode1: Monday
 formatted_day1_open: '3:30pm'
 formatted_day1_close: '4:30pm'
+formatted_daycode2: Wednesday
 formatted_day2_open: '3:30pm'
 formatted_day2_close: '4:30pm'
+formatted_daycode3: Friday
 formatted_day3_open: '3:30pm'
 formatted_day3_close: '4:30pm'
 

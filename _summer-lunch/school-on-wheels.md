@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/10/2017
-web notes: 'Closed: 7/4/2017 Field trip: 6/16, 6/23, 6/30, 7/7, 7/14, 7/21, 7/28, 8/4'
+notes: 'Closed: 7/4/2017 Field trip: 6/16, 6/23, 6/30, 7/7, 7/14, 7/21, 7/28, 8/4'
 title: 'School on Wheels, Food Oasis Los Angeles'
 uri: /summer-lunch/school-on-wheels/
+formatted_daycode1: Monday
 formatted_day1_open: '2:45pm'
 formatted_day1_close: '3:45pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: '2:45pm'
 formatted_day2_close: '3:45pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: '2:45pm'
 formatted_day3_close: '3:45pm'
+formatted_daycode4: Thursday
 formatted_day4_open: '2:45pm'
 formatted_day4_close: '3:45pm'
+formatted_daycode5: Friday
 formatted_day5_open: '2:45pm'
 formatted_day5_close: '3:45pm'
 

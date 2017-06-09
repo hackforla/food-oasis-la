@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/26/2017
 season_close: 8/4/2017
-web notes: 'Closed: 7/4, 7/14'
+notes: 'Closed: 7/4, 7/14'
 title: 'KYCC- Wilton, Food Oasis Los Angeles'
 uri: /summer-lunch/kycc-wilton/
+formatted_daycode1: Monday
 formatted_day1_open: 2pm
 formatted_day1_close: 3pm
+formatted_daycode2: Tuesday
 formatted_day2_open: 2pm
 formatted_day2_close: 3pm
+formatted_daycode3: Wednesday
 formatted_day3_open: 2pm
 formatted_day3_close: 3pm
+formatted_daycode4: Thursday
 formatted_day4_open: 2pm
 formatted_day4_close: 3pm
+formatted_daycode5: Friday
 formatted_day5_open: 2pm
 formatted_day5_close: 3pm
 

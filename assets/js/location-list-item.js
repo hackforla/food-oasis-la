@@ -166,26 +166,26 @@ window.oasis = window.oasis || {};
 					dt = document.createElement('dt');
 					dt.innerHTML = data.hours[index].day;
 
-					switch (data.hours[index].day.trim()) {
-						case 'Mon':
+					switch (data.hours[index].day.trim().toLowerCase()) {
+						case 'mon':
 							dt.innerHTML = 'Monday';
 							break;
-						case 'Tue':
+						case 'tue':
 							dt.innerHTML = 'Tuesday';
 							break;
-						case 'Wed':
+						case 'wed':
 							dt.innerHTML = 'Wednesday';
 							break;
-						case 'Thu':
+						case 'thu':
 							dt.innerHTML = 'Thursday';
 							break;
-						case 'Fri':
+						case 'fri':
 							dt.innerHTML = 'Friday';
 							break;
-						case 'Sat':
+						case 'sat':
 							dt.innerHTML = 'Saturday';
 							break;
-						case 'Sun':
+						case 'sun':
 							dt.innerHTML = 'Sunday';
 							break;
 					}

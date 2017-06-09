@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 7/28/2017
-web notes: 'Field Trip: 6/16,6/23, 6/30, 7/7, 7/14, 7/21, 7/28'
+notes: 'Field Trip: 6/16,6/23, 6/30, 7/7, 7/14, 7/21, 7/28'
 title: 'All Peoples Christian Center, Food Oasis Los Angeles'
 uri: /summer-lunch/all-peoples-christian-center/
+formatted_daycode1: Monday
 formatted_day1_open: '12:15pm'
 formatted_day1_close: '1:15pm'
+formatted_daycode2: Tuesday
 formatted_day2_open: '12:15pm'
 formatted_day2_close: '1:15pm'
+formatted_daycode3: Wednesday
 formatted_day3_open: '12:15pm'
 formatted_day3_close: '1:15pm'
+formatted_daycode4: Thursday
 formatted_day4_open: '12:15pm'
 formatted_day4_close: '1:15pm'
+formatted_daycode5: Friday
 formatted_day5_open: '12:15pm'
 formatted_day5_close: '1:15pm'
 

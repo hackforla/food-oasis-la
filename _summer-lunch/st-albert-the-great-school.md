@@ -34,17 +34,22 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/27/2017
 season_close: 7/28/2017
-web notes: 'Field Trips: 7/7,7/14,7/21,7/28'
+notes: 'Field Trips: 7/7,7/14,7/21,7/28'
 title: 'St. Albert the Great School, Food Oasis Los Angeles'
 uri: /summer-lunch/st-albert-the-great-school/
+formatted_daycode1: Monday
 formatted_day1_open: 11am
 formatted_day1_close: 12pm
+formatted_daycode2: Tuesday
 formatted_day2_open: 11am
 formatted_day2_close: 12pm
+formatted_daycode3: Wednesday
 formatted_day3_open: 11am
 formatted_day3_close: 12pm
+formatted_daycode4: Thursday
 formatted_day4_open: 11am
 formatted_day4_close: 12pm
+formatted_daycode5: Friday
 formatted_day5_open: 11am
 formatted_day5_close: 12pm
 

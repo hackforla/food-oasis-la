@@ -34,13 +34,16 @@ day7_close: ''
 year_round (y/n): 'n'
 season_open: 6/26/2017
 season_close: 8/18/2017
-web notes: ''
+notes: ''
 title: 'Greater New Unity B.C., Food Oasis Los Angeles'
 uri: /summer-lunch/greater-new-unity-b-c-/
+formatted_daycode1: Monday
 formatted_day1_open: 12pm
 formatted_day1_close: 1pm
+formatted_daycode2: Wednesday
 formatted_day2_open: 12pm
 formatted_day2_close: 1pm
+formatted_daycode3: Friday
 formatted_day3_open: 12pm
 formatted_day3_close: 1pm
 
