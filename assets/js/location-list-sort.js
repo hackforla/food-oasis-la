@@ -2,18 +2,27 @@ window.oasis = window.oasis || {};
 
 (function() {
 
-	function sortByClosest(latitude, longitude) {
+	// latitude is the position of the center of the map
+	// userLatitude is the position the user searched for
+	function sortByClosest(latitude, longitude, userLatitude, userLongitude) {
+		if (!userLatitude || !userLongitude) {
+			userLatitude  = latitude;
+			userLongitude = longitude;
+		}
 		var list = [];
-		var nextLatitude, nextLongitude, dif;
+		var nextLatitude, nextLongitude, distance, distanceFromUser;
 		for (index = 0; index < locations.length; index++) {
 			nextLatitude  = locations[ index ].latitude;
 			nextLongitude = locations[ index ].longitude;
 			if (nextLatitude != null && nextLatitude != '') {
-				dif = window.oasis.getDistanceInKilometers(latitude, longitude, parseFloat(nextLatitude), parseFloat(nextLongitude));
+				distance       = window.oasis.getDistanceInKilometers(latitude,     longitude,     parseFloat(nextLatitude), parseFloat(nextLongitude));
+				travelDistance = window.oasis.getDistanceInKilometers(userLatitude, userLongitude, parseFloat(nextLatitude), parseFloat(nextLongitude));
 			} else {
-				dif = window.oasis.INFINITY;
+				distance       = window.oasis.INFINITY;
+				travelDistance = window.oasis.INFINITY;
 			}
-			locations[index].distance = dif;
+			locations[index].distance       = distance;
+			locations[index].travelDistance = travelDistance;
 			list.push(locations[index]);
 		}
 		list.sort(function(a, b) {

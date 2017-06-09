@@ -120,7 +120,7 @@ window.oasis = window.oasis || {};
 			}
 
 			// Distance
-			if (data.distance) element.querySelector('.distance span').innerHTML = window.oasis.getDistanceForPresentation(data.distance);
+			if (data.travelDistance) element.querySelector('.distance span').innerHTML = window.oasis.getDistanceForPresentation(data.travelDistance);
 
 			if (detailed) {
 				addDataAttribute(element, data, 'website');
@@ -225,10 +225,23 @@ window.oasis = window.oasis || {};
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
 		var list = document.querySelector('ul.location-list');
+
+		var limitedList = sortedLocations.slice(start, start + limit + 1);
+		limitedList.sort(function(a, b) {
+			if (a.travelDistance > b.travelDistance) {
+				return 1;
+			}
+			if (a.travelDistance < b.travelDistance) {
+				return -1;
+			}
+			// a must be equal to b
+			return 0;
+		});
+
 		if (list) {
 			list.innerHTML = '';
-			for (var index = start; index < sortedLocations.length && index < limit; index++) {
-				list.appendChild(createListItem(sortedLocations[index], 'li'));
+			for (var index = 0; index < limitedList.length; index++) {
+				list.appendChild(createListItem(limitedList[index], 'li'));
 			}
 		}
 

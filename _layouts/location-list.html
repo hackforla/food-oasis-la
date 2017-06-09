@@ -273,10 +273,11 @@ var listOffset = {{ page.list_offset }};
 <script>
 (function() {
 
-	window.oasis.createMap();
-
 	var foodSourcesList = document.querySelector('ul.location-list');
 	if (foodSourcesList) foodSourcesList.classList.add('sorting');
+
+	window.oasis.createMap();
+
 	window.oasis.findUserLocation(function(userLocation) {
 		var list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
 		if (foodSourcesList) foodSourcesList.classList.remove('sorting');

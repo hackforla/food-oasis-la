@@ -7,6 +7,8 @@ window.oasis = window.oasis || {};
 		longitude: -118.243685
 	};
 
+	var lastUserLocation;
+
 	function findUserLocation(callback) {
 		var address = window.oasis.getParameterByName('address');
 
@@ -21,12 +23,13 @@ window.oasis = window.oasis || {};
 			getCoordinatesFromDevice(callback);
 			
 		} else {
-			if (callback) callback({
+			setLastUserLocation({
 				latitude: LOS_ANGELES.latitude,
 				longitude: LOS_ANGELES.longitude,
 				label: 'Downtown Los Angeles',
 				geolocated: false
 			});
+			if (callback) callback(getLastUserLocation());
 		}
 	}
 
@@ -45,21 +48,23 @@ window.oasis = window.oasis || {};
 				var latitude  = results[0].geometry.location.lat();
 				var longitude = results[0].geometry.location.lng();
 
-				if (callback) callback({
+				setLastUserLocation({
 					latitude: latitude,
 					longitude: longitude,
 					label: window.oasis.getParameterByName('address'),
 					geolocated: false
 				});
+				if (callback) callback(getLastUserLocation());
 
 			} else {
 				console.error('Geocode was not successful for the following reason: ' + status);
-				if (callback) callback({
+				setLastUserLocation({
 					latitude: LOS_ANGELES.latitude,
 					longitude: LOS_ANGELES.longitude,
 					label: 'Downtown Los Angeles', 
 					geolocated: false
 				});
+				if (callback) callback(getLastUserLocation());
 			}
 		});
 	}
@@ -76,15 +81,26 @@ window.oasis = window.oasis || {};
 
 		}, function() {
 			console.error("Unable to retrieve your location");
-			if (callback) callback({
+
+			setLastUserLocation({
 				latitude: LOS_ANGELES.latitude,
 				longitude: LOS_ANGELES.longitude,
-				label: 'Downtown Los Angeles',
+				label: 'Downtown Los Angeles', 
 				geolocated: false
 			});
+			if (callback) callback(getLastUserLocation());
 		});
+	}
+
+	function setLastUserLocation(location) {
+		lastUserLocation = location;
+	}
+
+	function getLastUserLocation() {
+		return lastUserLocation;
 	}
 
 	window.oasis.findUserLocation = findUserLocation;
 	window.oasis.getCoordinatesFromAddress = getCoordinatesFromAddress;
+	window.oasis.getLastUserLocation = getLastUserLocation;
 })();

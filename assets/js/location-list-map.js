@@ -28,8 +28,28 @@ window.oasis = window.oasis || {};
 					map.addSource('Food Deserts', FOOD_DESERTS_SOURCE);
 					map.addLayer(FOOD_DESERTS_LAYER);
 				}
+
+				map.on("dragend", updateMarkers);
+				map.on("zoomend", updateMarkers);
 			});
 		}
+	}
+
+	function updateMarkers() {
+		var center = map.getCenter().toArray();
+		var longitude = center[0];
+		var latitude  = center[1];
+
+		var userLocation = window.oasis.getLastUserLocation();
+
+		if (!userLocation) return;
+
+		var list = window.oasis.sortByClosest(latitude, longitude, userLocation.latitude, userLocation.longitude);
+
+		removeAllMarkers();
+
+		window.oasis.addMarkers(list);
+		window.oasis.addListItems(list);
 	}
 
 	function addYouAreHere(coordinates) {
@@ -83,6 +103,7 @@ window.oasis = window.oasis || {};
 		currentMarker.classList.add('active');
 	}
 
+	var markers = [];
 	function addMarker(location, coordinates) {
 		var coordinates = [
 			location.longitude,
@@ -118,11 +139,18 @@ window.oasis = window.oasis || {};
 			marker.setIcon(icon);
 		});
 
+		markers.push(marker);
+
 		return coordinates;
+	}
+	function removeAllMarkers() {
+		for (var index = 0; index < markers.length; index++) {
+			markers[index].remove();
+		}
 	}
 
 	var currentMarker;
-
+	var initializingMarkers = true;
 	function addMarkers(locations, geolocated, latitude, longitude) {
 		if (!map) return;
 
@@ -147,22 +175,26 @@ window.oasis = window.oasis || {};
 			bounds.push(coordinates);
 		}
 
-		// Add a “You are here” marker
-		var coordinates = [longitude, latitude];
-		addYouAreHere(coordinates);
-		bounds.unshift(coordinates);
+		if (latitude && longitude) {
+			// Add a “You are here” marker
+			var coordinates = [longitude, latitude];
+			addYouAreHere(coordinates);
+			bounds.unshift(coordinates);
+		}
 
 		// Increase the size of the viewport to fit the markers
-		fitMarkers(bounds);
+		if (initializingMarkers) fitMarkers(bounds);
 
 		// Show the marker labels
 		setTimeout(function() {
 			updateMarkerLabels();
 		}, 1000);
-		map.on('zoomend', updateMarkerLabels);
+		if (initializingMarkers) map.on('zoomend', updateMarkerLabels);
 
 		// Deselect the current marker if the map is pressed
-		handleMapPress();
+		if (initializingMarkers) handleMapPress();
+
+		initializingMarkers = false;
 	}
 
 	function fitMarkers(bounds) {
