@@ -5,7 +5,7 @@ var fs = require('fs');
 var mkdirp = require('mkdirp');
 var parse = require('csv-parse/lib/sync');
 var yaml = require('js-yaml');
-var request = require("request")
+var request = require("request");
 
 // This is duplicated in /assests/js/map.js
 function stringToURI(str) {

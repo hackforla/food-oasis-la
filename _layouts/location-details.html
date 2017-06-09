@@ -26,11 +26,8 @@ stylesheets:
 			<br />
 			{{ page['address_2'] }}
 		{% endif %}
-
-		{% if page['city'] != '' %}			
 		<br />
 		{{ page['city'] }}, California {{ page['zip'] }}
-		{% endif %}
 	</p>
 	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
 

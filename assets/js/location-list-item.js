@@ -2,7 +2,7 @@ window.oasis = window.oasis || {};
 
 (function() {
 
-	function createListItem(data, containerTagName) {
+	function createListItem(data, containerTagName, detailed) {
 
 		var template = document.getElementById('list-item-template');
 		if (template) {
@@ -43,6 +43,7 @@ window.oasis = window.oasis || {};
 			var address = '';
 			if (data.address_1) address += data.address_1;
 			if (data.address_2) address += '<br />' + data.address_2;
+			if (detailed) address += '<br />' + data.city + ', California ' + data.zip;
 			element.querySelector('.address').innerHTML = address;
 
 			// Open Now

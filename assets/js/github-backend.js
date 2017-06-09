@@ -120,6 +120,7 @@ function submitToGitHub(e) {
 
   var addressForGeocoding = locationAddress1 + ' ' + locationAddress2 + ' ' + locationCity + ' California ' + locationZip;
 
+  // FOLA’s Mapbox Access Token
   var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 
   var MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
