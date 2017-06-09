@@ -72,12 +72,13 @@ window.oasis = window.oasis || {};
 	function getCoordinatesFromDevice(callback) {
 		navigator.geolocation.getCurrentPosition(function(position) {
 
-			if (callback) callback({
+			setLastUserLocation({
 				latitude: position.coords.latitude,
 				longitude: position.coords.longitude,
 				label: 'you',
 				geolocated: true
 			});
+			if (callback) callback(getLastUserLocation());
 
 		}, function() {
 			console.error("Unable to retrieve your location");
