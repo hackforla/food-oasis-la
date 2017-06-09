@@ -3,10 +3,16 @@
 		<a href="{{ data.uri }}" class="location-summary">
 
 			{% assign category = data['category'] | downcase | replace: ' ', '-'  %}
-			{% if category == 'food-pantry' or category == 'community-garden' or category == 'farmers-market' or category == 'supermarket' or category == 'restaurant' or category == 'orchard' or category == 'pop-up-market' %}
-			<img src="/assets/images/home/{{ data['category'] | downcase | replace: ' ', '-' }}.svg" width="100" alt="" />
-			{% else if category == 'free-summer-lunch' %}
-			<img src="/assets/images/home/school-lunches.svg" width="100" alt="" />
+			{% if
+				category == 'food-pantry' or
+				category == 'summer-lunch' or
+				category == 'community-garden' or
+				category == 'farmers-market' or
+				category == 'supermarket' or
+				category == 'restaurant' or
+				category == 'orchard' or
+				category == 'pop-up-market' %}
+			<img src="/assets/images/home/{{ category }}.svg" width="100" alt="" />
 			{% else %}
 			<img src="/assets/images/home/supermarket.svg" width="100" alt="" />
 			{% endif %}

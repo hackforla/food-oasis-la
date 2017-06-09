@@ -126,11 +126,6 @@ function generateCollection(data_name, data_category) {
   return records;
 }
 
-var communityGardens = generateCollection('community-garden', 'Community Garden');
-var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
-var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
-var supermarkets     = generateCollection('supermarket', 'Supermarket');
-
 var ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {
 
@@ -197,12 +192,24 @@ function generatePages(name, uri, size, color) {
   }
 }
 
+/*
+var communityGardens = generateCollection('community-garden', 'Community Garden');
+var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
+var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
+var supermarkets     = generateCollection('supermarket', 'Supermarket');
+var summerLunches    = generateCollection('summer-lunch', 'Summer Lunch');
+*/
+
+/*
 generatePages('Healthy Food', 'locations', communityGardens.length + foodPantries.length + farmersMarkets.length, 'lime');
 generatePages('Community Gardens', 'community-garden', communityGardens.length, 'lime');
 generatePages('Food Pantries', 'food-pantry', foodPantries.length, 'canteloupe');
 generatePages('Farmers’ Markets', 'farmers-market', farmersMarkets.length, 'strawberry');
 generatePages('Supermarkets', 'supermarket', supermarkets.length, 'strawberry');
+generatePages('Summer Lunch', 'summer-lunch', summerLunches.length, 'canteloupe');
+*/
 
+/*
 function generateLocationJSON() {
   var writePath = '../_data';
 
@@ -232,8 +239,9 @@ function generateLocationJSON() {
     }
   });
 }
+*/
 
-generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets))), 'generated-locations-for-jekyll.json');
+// generateLocationJSON(communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets))), 'generated-locations-for-jekyll.json');
 
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118

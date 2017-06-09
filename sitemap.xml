@@ -25,6 +25,9 @@ layout: null
     <loc>https://foodoasis.la/</loc>
   </url>
   <url>
+    <loc>https://foodoasis.la/add/</loc>
+  </url>
+  <url>
     <loc>https://foodoasis.la/organizations/</loc>
   </url>
   <url>
@@ -59,24 +62,22 @@ layout: null
     <loc>https://foodoasis.la/locations/</loc>
   </url>
   <url>
-    <loc>https://foodoasis.la/farmers-market/</loc>
+    <loc>https://foodoasis.la/community-garden/</loc>
   </url>
   <url>
-    <loc>https://foodoasis.la/community-garden/</loc>
+    <loc>https://foodoasis.la/farmers-market/</loc>
   </url>
   <url>
     <loc>https://foodoasis.la/food-pantry/</loc>
   </url>
-
-{% assign data_collection = site.collections | where: "label", "food-pantry" | first %}
-{% assign data_list = data_collection.docs %}
-{% for location in data_list %}
   <url>
-    <loc>https://foodoasis.la{{ location.uri }}</loc>
+    <loc>https://foodoasis.la/summer-lunch/</loc>
   </url>
-{% endfor %}
+  <url>
+    <loc>https://foodoasis.la/supermarket/</loc>
+  </url>
 
-{% assign data_collection = site.collections | where: "label", "farmers-market" | first %}
+{% assign data_collection = site.collections | where: "label", "locations" | first %}
 {% assign data_list = data_collection.docs %}
 {% for location in data_list %}
   <url>
@@ -92,7 +93,7 @@ layout: null
   </url>
 {% endfor %}
 
-{% assign data_collection = site.collections | where: "label", "supermarket" | first %}
+{% assign data_collection = site.collections | where: "label", "farmers-market" | first %}
 {% assign data_list = data_collection.docs %}
 {% for location in data_list %}
   <url>
@@ -100,7 +101,23 @@ layout: null
   </url>
 {% endfor %}
 
-{% assign data_collection = site.collections | where: "label", "locations" | first %}
+{% assign data_collection = site.collections | where: "label", "food-pantry" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "summer-lunch" | first %}
+{% assign data_list = data_collection.docs %}
+{% for location in data_list %}
+  <url>
+    <loc>https://foodoasis.la{{ location.uri }}</loc>
+  </url>
+{% endfor %}
+
+{% assign data_collection = site.collections | where: "label", "supermarket" | first %}
 {% assign data_list = data_collection.docs %}
 {% for location in data_list %}
   <url>

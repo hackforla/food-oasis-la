@@ -43,9 +43,6 @@ window.oasis = window.oasis || {};
 				for (var index = 0; index < types.length; index++) {
 					if (item.category.toLowerCase().replace(/\s/g, '-') === types[index]) {
 						return true;
-					// SHIM: Assume “Free Summer Lunch” is the same as “Kids Lunch”
-					} else if (item.category.toLowerCase().replace(/\s/g, '-') === 'free-summer-lunch' && types[index] === 'kids-lunch') {
-						return true;
 					}
 				}
 

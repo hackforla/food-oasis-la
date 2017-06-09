@@ -151,7 +151,7 @@ window.oasis = window.oasis || {};
 
 	var currentMarker;
 	var initializingMarkers = true;
-	function addMarkers(locations, geolocated, latitude, longitude) {
+	function addMarkers(locations, userLocation) {
 		if (!map) return;
 
 		var limit = window.oasis.getParameterByName('limit') || itemsPerPage;
@@ -175,9 +175,9 @@ window.oasis = window.oasis || {};
 			bounds.push(coordinates);
 		}
 
-		if (latitude && longitude) {
+		if (userLocation && userLocation.latitude && userLocation.longitude) {
 			// Add a “You are here” marker
-			var coordinates = [longitude, latitude];
+			var coordinates = [userLocation.longitude, userLocation.latitude];
 			addYouAreHere(coordinates);
 			bounds.unshift(coordinates);
 		}

@@ -96,7 +96,7 @@
 	.community-garden .location-summary .type {
 		color: rgb(144, 194, 70); /* @lime */
 	}
-	.free-summer-lunch .location-summary .type,
+	.summer-lunch .location-summary .type,
 	.orchard .location-summary .type,
 	.food-pantry .location-summary .type {
 		color: rgb(249, 192, 88); /* @canteloupe */

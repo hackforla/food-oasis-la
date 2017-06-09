@@ -1,0 +1,53 @@
+---
+name: St. Albert the Great School
+address_1: 736 E. Compton Blvd
+address_2: ''
+city: Compton
+state: CA
+zip: '90220'
+phone: 28 Tina Johnson / 310.515.3891
+latitude: 33.895607
+longitude: -118.215201
+category: Summer Lunch
+website: 'https://www.lafoodbank.org/sfsp/'
+active: 'y'
+daycode1: MON
+day1_open: '1100'
+day1_close: '1200'
+daycode2: TUE
+day2_open: '1100'
+day2_close: '1200'
+daycode3: WED
+day3_open: '1100'
+day3_close: '1200'
+daycode4: THU
+day4_open: '1100'
+day4_close: '1200'
+daycode5: FRI
+day5_open: '1100'
+day5_close: '1200'
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+year_round (y/n): 'n'
+season_open: 6/27/2017
+season_close: 7/28/2017
+web notes: 'Field Trips: 7/7,7/14,7/21,7/28'
+title: 'St. Albert the Great School, Food Oasis Los Angeles'
+uri: /summer-lunch/st-albert-the-great-school/
+formatted_day1_open: 11am
+formatted_day1_close: 12pm
+formatted_day2_open: 11am
+formatted_day2_close: 12pm
+formatted_day3_open: 11am
+formatted_day3_close: 12pm
+formatted_day4_open: 11am
+formatted_day4_close: 12pm
+formatted_day5_open: 11am
+formatted_day5_close: 12pm
+
+---
+
+

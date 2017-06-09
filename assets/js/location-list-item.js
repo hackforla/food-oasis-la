@@ -62,7 +62,7 @@ window.oasis = window.oasis || {};
 				case 'farmers-market':
 					element.className += ' buy';
 					break;
-				case 'free-summer-lunch':
+				case 'summer-lunch':
 				case 'food-pantry':
 				case 'orchard':
 					element.className += ' free';
@@ -93,12 +93,18 @@ window.oasis = window.oasis || {};
 			typeElement.textContent = data.category;
 			var img = element.querySelector('img');
 
-			if (category == 'food-pantry' || category == 'community-garden' || category == 'farmers-market' || category == 'supermarket' || category == 'restaurant' || category == 'orchard' || category == 'pop-up-market') {
-				img.src = "/assets/images/home/" + category + ".svg"; // SHIM: Should we handle this in the CSS instead?
-			} else if (category == 'free-summer-lunch') {
-				img.src = "/assets/images/home/school-lunches.svg";
+			// SHIM: Should we handle this in the CSS instead?
+			if (category == 'food-pantry' ||
+				category == 'summer-lunch' ||
+				category == 'community-garden' ||
+				category == 'farmers-market' ||
+				category == 'supermarket' ||
+				category == 'restaurant' ||
+				category == 'orchard' ||
+				category == 'pop-up-market') {
+				img.src = "/assets/images/home/" + category + ".svg";
 			} else {
-				img.src = "/assets/images/home/supermarket.svg";
+				img.src = "/assets/images/home/restaurant.svg";
 			}
 
 			// Address

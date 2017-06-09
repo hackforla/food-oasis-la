@@ -26,8 +26,7 @@ window.oasis = window.oasis || {};
 			setLastUserLocation({
 				latitude: LOS_ANGELES.latitude,
 				longitude: LOS_ANGELES.longitude,
-				label: 'Downtown Los Angeles',
-				geolocated: false
+				label: 'Downtown Los Angeles'
 			});
 			if (callback) callback(getLastUserLocation());
 		}
@@ -52,7 +51,7 @@ window.oasis = window.oasis || {};
 					latitude: latitude,
 					longitude: longitude,
 					label: window.oasis.getParameterByName('address'),
-					geolocated: false
+					wasFound: true
 				});
 				if (callback) callback(getLastUserLocation());
 
@@ -61,8 +60,7 @@ window.oasis = window.oasis || {};
 				setLastUserLocation({
 					latitude: LOS_ANGELES.latitude,
 					longitude: LOS_ANGELES.longitude,
-					label: 'Downtown Los Angeles', 
-					geolocated: false
+					label: 'Downtown Los Angeles'
 				});
 				if (callback) callback(getLastUserLocation());
 			}
@@ -76,7 +74,7 @@ window.oasis = window.oasis || {};
 				latitude: position.coords.latitude,
 				longitude: position.coords.longitude,
 				label: 'you',
-				geolocated: true
+				wasFound: true
 			});
 			if (callback) callback(getLastUserLocation());
 
@@ -86,8 +84,7 @@ window.oasis = window.oasis || {};
 			setLastUserLocation({
 				latitude: LOS_ANGELES.latitude,
 				longitude: LOS_ANGELES.longitude,
-				label: 'Downtown Los Angeles', 
-				geolocated: false
+				label: 'Downtown Los Angeles'
 			});
 			if (callback) callback(getLastUserLocation());
 		});

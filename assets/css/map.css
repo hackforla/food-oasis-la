@@ -251,7 +251,7 @@
 		margin-top: -40px;
 	}
 
-	.free-summer-lunch-marker,
+	.summer-lunch-marker,
 	.orchard-marker,
 	.food-pantry-marker {
 		cursor: pointer;
@@ -299,7 +299,7 @@
 		margin-top: -64px;
 	}
 
-	.free-summer-lunch-marker.active,
+	.summer-lunch-marker.active,
 	.orchard-marker.active,
 	.food-pantry-marker.active {
 		cursor: default;

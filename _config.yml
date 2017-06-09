@@ -46,14 +46,14 @@ keep_files:
 defaults:
   - scope:
       path: ""
-      type: community-garden
+      type: locations
     values:
       layout: location-details
-      classname: location-details community-garden
+      classname: location-details
       color: lime
   - scope:
       path: ""
-      type: community-garden-from-staging-api
+      type: community-garden
     values:
       layout: location-details
       classname: location-details community-garden
@@ -67,13 +67,6 @@ defaults:
       color: strawberry
   - scope:
       path: ""
-      type: supermarket
-    values:
-      layout: location-details
-      classname: location-details supermarket
-      color: strawberry
-  - scope:
-      path: ""
       type: food-pantry
     values:
       layout: location-details
@@ -81,32 +74,39 @@ defaults:
       color: canteloupe
   - scope:
       path: ""
-    values:
-      layout: default
-  - scope:
-      path: ""
-      type: locations
+      type: summer-lunch
     values:
       layout: location-details
-      classname: location-details
-      color: lime
+      classname: location-details summer-lunch
+      color: canteloupe
+  - scope:
+      path: ""
+      type: supermarket
+    values:
+      layout: location-details
+      classname: location-details supermarket
+      color: strawberry
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 collections:
-  community-garden:
-    output: true
-    permalink: /community-garden/:path/
-  community-garden-from-staging-api:
-    output: true
-    permalink: /community-garden-from-staging-api/:path/
-  farmers-market:
-    output: true
-    permalink: /farmers-market/:path/
-  supermarket:
-    output: true
-    permalink: /supermarket/:path/
-  food-pantry:
-    output: true
-    permalink: /food-pantry/:path/
   locations:
     output: true
     permalink: /locations/:path/
+  community-garden:
+    output: true
+    permalink: /community-garden/:path/
+  farmers-market:
+    output: true
+    permalink: /farmers-market/:path/
+  food-pantry:
+    output: true
+    permalink: /food-pantry/:path/
+  summer-lunch:
+    output: true
+    permalink: /summer-lunch/:path/
+  supermarket:
+    output: true
+    permalink: /supermarket/:path/
