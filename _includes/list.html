@@ -13,10 +13,10 @@
 
 			<h2>{{ data['name'] }}</h2>
 			<p class="address">
-				{{ page['address_1'] }}
-				{% if page['address_2'] and page['address_2'] != '' %}
+				{{ data['address_1'] }}
+				{% if data['address_2'] and data['address_2'] != '' %}
 					<br />
-					{{ page['address_2'] }}
+					{{ data['address_2'] }}
 				{% endif %}
 			</p>
 			<p class="type">{{ data['category'] }}</p>
