@@ -2,7 +2,7 @@
 name: Food 4 Less
 address_1: 2090 S Garey Ave
 address_2: ''
-city: ''
+city: Pomona
 state: CA
 zip: '91766'
 phone: (909) 902-0299
@@ -57,3 +57,5 @@ formatted_day7_open: 6am
 formatted_day7_close: '11:59pm'
 
 ---
+
+
