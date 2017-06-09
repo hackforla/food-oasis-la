@@ -70,7 +70,7 @@ window.oasis = window.oasis || {};
 	}
 
 	function showLocationSummary(location) {
-		var item = window.oasis.createListItem(location, 'div');
+		var item = window.oasis.createListItem(location, 'div', true);
 		var summary = document.getElementById('map-location-summary');
 		summary.innerHTML = '';
 		summary.appendChild(item);

@@ -70,6 +70,76 @@ stylesheets:
 	</a>
 </script>
 
+<script type="text/template" id="list-item-template-detailed">
+	<a href="" class="location-summary">
+		<img src="" alt="" />
+		<h2></h2>
+		<p class="address"></p>
+		<p class="type"></p>
+		<p class="open">Open Now</p>
+		<p class="distance"><span></span> <abbr title="miles">m</abbr></p>
+	</a>
+
+	<ul class="options action">
+		<li><a href="#shareable-link"><span><img src="/assets/images/icons/share.svg" height="24" class="icon" alt="" /></span> <span>Share</span></a></li>
+		<li><a href="#directions"><span><img src="/assets/images/icons/directions.svg" height="24" class="icon" alt="" /></span> <span>Directions</span></a></li>
+	</ul><!-- /.options -->
+
+	<div class="shareable-link" id="shareable-link">
+		<h2>Share</h2>
+		<p class="copy-paste">
+			<label>
+				<span>Here’s a link you can copy and paste:</span>
+				<input type="text" onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly" />
+			</label>
+		</p>
+	</div><!-- /.shareable-link -->
+
+	<div class="directions" id="directions">
+		<h2>Directions</h2>
+		<p class="copy-paste">
+			<label>
+				<span>Here’s an address you can copy and paste:</span>
+				<textarea onclick="this.setSelectionRange(0, this.value.length)" readonly="readonly"></textarea>
+			</label>
+		</p>
+		
+		<p><a href="https://maps.google.com/maps?q={ directions_url }">Get Directions on Google Maps</a></p>
+	</div>
+
+	<section class="hours">
+		<h2>Hours</h2>
+		<dl></dl>
+	</section>
+
+	<section class="information">
+		<h2>Information</h2>
+		<dl>
+			<dt class="website">Website</dt>
+			<dd class="website"></dd>
+			<dt class="phone">Phone</dt>
+			<dd class="phone"></dd>
+			<dt class="facebook">Facebook</dt>
+			<dd class="facebook"></dd>
+			<dt class="instagram">Instagram</dt>
+			<dd class="instagram"></dd>
+			<dt class="twitter">Twitter</dt>
+			<dd class="twitter"></dd>
+		</dl>
+	</section>
+
+	<div class="content"></div>
+
+	<section class="location-details-options">
+		<h2>Options</h2>
+
+		<ul class="options action secondary">
+			<li><a href="mailto:contact@foodoasis.la?subject=Claim Business, { data.name }, Food Oasis LA&body=Hello team at Food Oasis LA. I’d like to claim this business… { data.name }: https://foodoasis.la{ data.uri }">Claim Business</a></li>
+			<li><a href="https://form.jotform.com/62638504761156?businessName={ data.name }&amp;address={ data.address_1 }&amp;category={ data.category }&amp;longitude={ data.longitude }&amp;latitude={ data.latitude }">Report Issue</a></li>
+		</ul>
+	</section>
+</script>
+
 <script type="text/template" id="no-results-template">
 	<section role="status" class="message">
 		<h1>Oops! We couldn’t find any matching locations.</h1>

@@ -2,14 +2,76 @@ window.oasis = window.oasis || {};
 
 (function() {
 
+	function toggleDetailsOnPress(element, elementID) {
+		// Hide the details until the link is pressed
+		var link = element.querySelector('a[href="#' + elementID + '"]');
+		var details = element.querySelector('#' + elementID);
+		if (link && details) {
+			details.classList.add('inactive');
+			link.addEventListener('click', function(e) {
+				details.classList.remove('inactive');
+				details.classList.add('active');
+				e.preventDefault();
+				link.classList.add('disabled');
+				details.scrollIntoView(false);
+			}, false);
+		}
+	}
+
+	function addDataAttribute(element, data, attribute) {
+		var dt = element.querySelector('dt.' + attribute);
+		var dd = element.querySelector('dd.' + attribute);
+		if (data[attribute]) {
+			if (attribute === 'website') {
+				dd.innerHTML = '<a href="' + data[attribute] + '">' + data[attribute] + '</a>';
+			} else {
+				dd.innerHTML = data[attribute];
+			}
+		} else {
+			dt.parentNode.removeChild(dt);
+			dd.parentNode.removeChild(dd);
+		}
+	}
+
+	function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
+		var hours   = Number(timeString.substring(0, timeString.length - 2));
+		var minutes = timeString.substring(timeString.length - 2);
+		var ampm = 'am';
+		if (hours >= 12 && hours < 24) {
+			ampm = 'pm';
+		}
+		if (hours >= 13) {
+			hours = hours - 12;
+		}
+		return hours + ((minutes != '00') ? ":" + minutes : '') + ampm;
+	}
+
 	function createListItem(data, containerTagName, detailed) {
 
-		var template = document.getElementById('list-item-template');
+		var template = document.getElementById('list-item-template' + ((detailed) ? '-detailed' : ''));
 		if (template) {
 			var element = document.createElement(containerTagName);
 			var category = data.category.toLowerCase().replace(/\s/g, '-'); // Example: farmers-market
 			element.innerHTML = template.innerHTML;
 			element.className = category;
+
+			switch(category) {
+				case 'supermarket':
+				case 'restaurant':
+				case 'pop-up-market':
+				case 'farmers-market':
+					element.className += ' buy';
+					break;
+				case 'free-summer-lunch':
+				case 'food-pantry':
+				case 'orchard':
+					element.className += ' free';
+					break;
+				case 'community-garden':
+					element.className += ' grow';
+					break;
+				default:
+			}
 
 			// Name
 			var nameElement = element.querySelector('h2');
@@ -40,9 +102,8 @@ window.oasis = window.oasis || {};
 			}
 
 			// Address
-			var address = '';
-			if (data.address_1) address += data.address_1;
-			if (data.address_2) address += '<br />' + data.address_2;
+			var address = data.address_1;
+			if (data.address_2 && data.address_2 != '') address += '<br />' + data.address_2;
 			if (detailed) address += '<br />' + data.city + ', California ' + data.zip;
 			element.querySelector('.address').innerHTML = address;
 
@@ -60,6 +121,93 @@ window.oasis = window.oasis || {};
 
 			// Distance
 			if (data.distance) element.querySelector('.distance span').innerHTML = window.oasis.getDistanceForPresentation(data.distance);
+
+			if (detailed) {
+				addDataAttribute(element, data, 'website');
+				addDataAttribute(element, data, 'phone');
+				addDataAttribute(element, data, 'twitter');
+				addDataAttribute(element, data, 'instagram');
+				addDataAttribute(element, data, 'facebook');
+
+				element.querySelector('.shareable-link input').value = 'https://foodoasis.la' + data.uri;
+
+				var directionsPasteable = 
+				data.name      + '\r\n' +
+				data.address_1 + '\r\n';
+				if (data.address_2 && data.address_2 !== '') {
+					directionsPasteable += data.address_2 + '\r\n';
+				}
+				directionsPasteable += data.city + ', California ' + data.zip;
+				element.querySelector('.directions textarea').value = directionsPasteable;
+
+				var directionsURL = data.latitude + ',' + data.longitude + ',' + data.name + ' ' + data.address_1;
+				if (data.address_2 && data.address_2 !== '') {
+					directionsURL += ' ' + data.address_2;
+				}
+				directionsURL += ' ' + data.city + ', California ' + data.zip;
+				element.querySelector('.directions a').href = 'https://maps.google.com/maps?q=' + encodeURIComponent(directionsURL);
+
+				element.querySelector('.location-details-options .options').innerHTML = element.querySelector('.location-details-options .options').innerHTML.replace(/\{ data.name \}/g, data.name).replace(/\{ data.address_1 \}/g, data.address_1).replace(/\{ data.longitude \}/g, data.longitude).replace(/\{ data.latitude \}/g, data.latitude).replace(/\{ data.uri \}/g, data.uri).replace(/\{ data.category \}/g, data.category);
+
+				//var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+				var hoursHTML = '';
+				var dt;
+				var dd;
+
+				for (var index = 0; index < data.hours.length; index++) {
+
+					dt = document.createElement('dt');
+					dt.innerHTML = data.hours[index].day;
+
+					switch (data.hours[index].day.trim()) {
+						case 'Mon':
+							dt.innerHTML = 'Monday';
+							break;
+						case 'Tue':
+							dt.innerHTML = 'Tuesday';
+							break;
+						case 'Wed':
+							dt.innerHTML = 'Wednesday';
+							break;
+						case 'Thu':
+							dt.innerHTML = 'Thursday';
+							break;
+						case 'Fri':
+							dt.innerHTML = 'Friday';
+							break;
+						case 'Sat':
+							dt.innerHTML = 'Saturday';
+							break;
+						case 'Sun':
+							dt.innerHTML = 'Sunday';
+							break;
+					}
+
+					element.querySelector('.hours dl').appendChild(dt);
+
+					dd = document.createElement('dd');
+					dd.innerHTML = data.hours[index].open === '' ? '<i>Closed</i>' : '<span>' + formatTime(data.hours[index].open) + ' – ' + formatTime(data.hours[index].close) + '</span>';
+					element.querySelector('.hours dl').appendChild(dd);
+
+					if (window.oasis.isOpenNow(data.hours[index])) {
+						dt.className = 'open';
+						dd.className = 'open';
+						dd.innerHTML = dd.innerHTML + ' <i>Open Now</i>';
+					}
+				}
+
+				if (!dt) {
+					element.querySelector('.hours').parentNode.removeChild(element.querySelector('.hours'));
+				}
+
+				if (data.content) {
+					element.querySelector('.content').innerHTML = data.content;
+				}
+
+				toggleDetailsOnPress(element, 'shareable-link');
+				toggleDetailsOnPress(element, 'directions');
+			}
 
 			return element;
 		}

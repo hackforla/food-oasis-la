@@ -8,35 +8,90 @@
 	city      : "{{ data.city }}",
 	zip       : "{{ data.zip }}",
 	category  : "{{ data.category }}",
-	hours     : [{
+	website   : "{{ data.website }}",
+	phone     : "{{ data.phone }}",
+	twitter   : "{{ data.twitter }}",
+	instagram : "{{ data.instagram }}",
+	facebook  : "{{ data.facebook }}",
+	hours     : [
+	{% assign delimiter = '' %}
+
+	{% if data.daycode1 and data.daycode1 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode1 }}",
 		open      : "{{ data.day1_open }}",
 		close     : "{{ data.day1_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode2 and data.daycode2 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode2 }}",
 		open      : "{{ data.day2_open }}",
 		close     : "{{ data.day2_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode3 and data.daycode3 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode3 }}",
 		open      : "{{ data.day3_open }}",
 		close     : "{{ data.day3_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode4 and data.daycode4 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode4 }}",
 		open      : "{{ data.day4_open }}",
 		close     : "{{ data.day4_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode5 and data.daycode5 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode5 }}",
 		open      : "{{ data.day5_open }}",
 		close     : "{{ data.day5_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode6 and data.daycode6 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode6 }}",
 		open      : "{{ data.day6_open }}",
 		close     : "{{ data.day6_close }}"
-	},{
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	{% if data.daycode7 and data.daycode7 != '' %}
+	{{ delimiter }}
+	{
 		day       : "{{ data.daycode7 }}",
 		open      : "{{ data.day7_open }}",
 		close     : "{{ data.day7_close }}"
-	}],
+	}
+	{% assign delimiter = ',' %}
+	{% endif %}
+
+	],
 	uri       : "{{ data.uri }}"
+	{% if data.content and data.content  != '' %}
+{% capture nl %}
+{% endcapture %}
+	, content   : "{{ data.content | markdownify | replace: nl, ' ' | replace: '"', '\"' }}"
+	{% endif %}
 }{% unless forloop.last %},{% endunless %}
 {% endfor %}

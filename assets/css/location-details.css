@@ -2,20 +2,26 @@
 
 	/* =Location Details
 	----------------------------------------------- */
-	.location-details main > section {
+	.location-summary-container > div > section,
+	.location-details main            > section {
 		margin-top: 1.5em;
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 		padding-top: 1.5em;
 	}
-	.location-details section h2 {
+	.location-summary-container section h2,
+	.location-details           section h2 {
 		margin-top: 0;
 	}
+	.location-summary-container .location-details-options h2,
+	.location-summary-container .information              h2,
 	.location-details .location-details-options h2,
 	.location-details .information              h2 {
 		/* @hidden-accessible */
 		position: absolute;
 		left: -9999px;
 	}
+	.location-summary-container .location-details-option h2 + ul,
+	.location-summary-container .information             h2 + dl,
 	.location-details .location-details-option h2 + ul,
 	.location-details .information             h2 + dl {
 		margin-top: 0;
@@ -30,12 +36,12 @@
 		}
 	}
 
-	.location-details .directions.inactive,
-	.location-details .shareable-link.inactive {
+	.directions.inactive,
+	.shareable-link.inactive {
 		display: none;
 	}
-	.location-details .directions.active,
-	.location-details .shareable-link.active {
+	.directions.active,
+	.shareable-link.active {
 		display: block;
 		animation: location-details-fade-in 0.6s;
 	}
@@ -44,8 +50,8 @@
 		margin-top: -0.75em;
 	}
 
-	.location-details .copy-paste input[type="text"],
-	.location-details .copy-paste textarea {
+	.copy-paste input[type="text"],
+	.copy-paste textarea {
 		margin: 0.725em 0 0 0;
 		font-size: inherit;
 		font-family: inherit;
@@ -57,7 +63,7 @@
 		padding: 0.725em 1.45em;
 		line-height: 1.45;
 	}
-	.location-details .copy-paste textarea {
+	.copy-paste textarea {
 		min-height: 7.25em; /* 1.45em x 5 */
 		text-align: center;
 	}
@@ -87,6 +93,15 @@
 		word-wrap     : break-word;
 		overflow-wrap : break-word;
 	}
+
+	.location-summary-container .content {
+
+		/* For long URLs on the detail page */
+		/* @wrap-long-words */
+		word-wrap     : break-word;
+		overflow-wrap : break-word;
+	}
+
 	@media (min-width: 20em) {
 		dl:after {
 			content: "";

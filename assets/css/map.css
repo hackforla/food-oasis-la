@@ -207,7 +207,7 @@
 
 	.has-map-location-summary .location-summary-container {
 		background: rgb(253, 254, 255);
-		padding: 0.75em 1.5em;
+		padding: 0.75em 1.5em 7.25em; /* 1.45em x 5 */
 	}
 	.location-summary-container > div {
 		max-width: 40em;

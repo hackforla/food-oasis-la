@@ -29,20 +29,28 @@
 		color: white;
 	}
 
+	.buy .action a,
 	.strawberry .action a {
 		background: rgb(241, 95, 91); /* @strawberry */
 	}
 
+	.buy .action a:hover,
+	.buy .action a:active,
+	.buy .action a:focus
 	.strawberry .action a:hover,
 	.strawberry .action a:active,
 	.strawberry .action a:focus {
 		background: rgb(221, 75, 71); /* @dark-strawberry */
 	}
 
+	.free .action a,
 	.canteloupe .action a {
 		background: rgb(249, 192, 88); /* @canteloupe */
 	}
 
+	.free .action a:hover,
+	.free .action a:active,
+	.free .action a:focus,
 	.canteloupe .action a:hover,
 	.canteloupe .action a:active,
 	.canteloupe .action a:focus {
