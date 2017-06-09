@@ -1,6 +1,6 @@
 ---
 name: All Peoples Christian Center
-address_1: 822 E. 20th Street
+address_1: 822 East 20th Street
 address_2: ''
 city: Los Angeles
 state: CA
@@ -50,4 +50,14 @@ formatted_day5_close: '1:15pm'
 
 ---
 
+Lunch Times
+: June 12 through July 28, 2017
+: _12:15pm–1:15pm_
 
+Field Trips
+: June 16
+: June 23
+: June 30
+: July 7
+: July 21
+: July 28
