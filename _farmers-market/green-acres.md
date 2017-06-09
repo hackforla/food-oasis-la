@@ -5,7 +5,7 @@ address_1: 5000 East Spring Street
 address_2: ''
 city: Long Beach
 state: California
-zipcode: '90815'
+zip: '90815'
 phone: (562)972-8897
 latitude: '33.8099554'
 longitude: '-118.1376043'

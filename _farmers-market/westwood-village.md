@@ -5,7 +5,7 @@ address_1: 1083 Braxton Avenue
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90024'
+zip: '90024'
 phone: ''
 latitude: '34.057'
 longitude: '-118.4494'

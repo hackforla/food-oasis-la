@@ -5,7 +5,7 @@ address_1: 7000 W Manchester Ave
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90045'
+zip: '90045'
 phone: ''
 latitude: '33.9586'
 longitude: '-118.394'

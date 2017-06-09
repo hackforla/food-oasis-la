@@ -1,4 +1,4 @@
-FM_ID,name,address_1,address_2,city,state,zipcode,phone,latitude,longitude,website,daycode1,day1_open,day1_close,daycode2,day2_open,day2_close
+FM_ID,name,address_1,address_2,city,state,zip,phone,latitude,longitude,website,daycode1,day1_open,day1_close,daycode2,day2_open,day2_close
 ,Adams - Vermont Farmers Market / St. Agnes Church Farmer's Market,1432 W Adams Blvd,,Los Angeles,California,90007,(213)454-8533,34.0326,-118.2926,,Wed,1400,1900,,,
 ,Alhambra Certified Farmers Market,100 S. 2nd Street,,Alhambra,California,91801,(626)570-5081,34.0937,-118.1288,http://www.cityofalhambra.org/page/289/certified_farmers_market/,Sun,830,1300,,,
 1009998,Altadena Farmers Market,600 W. Palm Street,,Altadena,California,91001,(310)595-0272,34.2004,-118.1581,http://altadenafarmersmarket.com/,Wed,1600,1900,,,

@@ -5,7 +5,7 @@ address_1: 24201 Valencia Blvd
 address_2: ''
 city: valencia
 state: California
-zipcode: '91355'
+zip: '91355'
 phone: ''
 latitude: '34.4159'
 longitude: '-118.5582'

@@ -5,7 +5,7 @@ address_1: 1920 S Brea Canyon Cut Off
 address_2: ''
 city: Walnut
 state: California
-zipcode: ''
+zip: ''
 phone: ''
 latitude: '33.9835'
 longitude: '-117.867'

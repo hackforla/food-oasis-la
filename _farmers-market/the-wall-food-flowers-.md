@@ -5,7 +5,7 @@ address_1: 755 Wall Street
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90014'
+zip: '90014'
 phone: ''
 latitude: '34.0408'
 longitude: '-118.2497'

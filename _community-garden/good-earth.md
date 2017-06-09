@@ -4,7 +4,7 @@ address_1: 5990 Boden St
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90016'
+zip: '90016'
 phone: ''
 latitude: '34.03038873'
 longitude: '-118.3676776'

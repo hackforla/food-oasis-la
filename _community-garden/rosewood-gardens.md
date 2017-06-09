@@ -4,7 +4,7 @@ address_1: 4160 Rosewood Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90004'
+zip: '90004'
 phone: (323) 821-7748
 latitude: '34.07572059'
 longitude: '-118.3030171'

@@ -5,7 +5,7 @@ address_1: North Figueroa & Ave. 58
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90042'
+zip: '90042'
 phone: (323)449-4100
 latitude: '34.1106'
 longitude: '-118.1928'

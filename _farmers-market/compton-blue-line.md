@@ -5,7 +5,7 @@ address_1: 101 E Palmer Street
 address_2: ''
 city: Compton
 state: California
-zipcode: '90220'
+zip: '90220'
 phone: (888)353-5554 Ext.9
 latitude: '33.8979'
 longitude: '-118.224'

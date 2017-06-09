@@ -5,7 +5,7 @@ address_1: 5601 De Soto Avenue
 address_2: ''
 city: Woodland Hills
 state: California
-zipcode: '91367'
+zip: '91367'
 phone: ''
 latitude: '34.1709'
 longitude: '-118.5897'

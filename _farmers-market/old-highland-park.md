@@ -5,7 +5,7 @@ address_1: 5703 N Figueroa St
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90042'
+zip: '90042'
 phone: (323)255-5030
 latitude: '34.10988'
 longitude: '-118.192888'

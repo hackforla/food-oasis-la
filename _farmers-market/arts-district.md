@@ -5,7 +5,7 @@ address_1: 740 E 3rd St
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90013'
+zip: '90013'
 phone: ''
 latitude: '34.045502'
 longitude: '-118.236677'

@@ -4,7 +4,7 @@ address_1: 23600 Roscoe Blvd
 address_2: ''
 city: West Hills
 state: CA
-zipcode: '91304'
+zip: '91304'
 phone: ''
 latitude: '34.21913279'
 longitude: '-118.641199'

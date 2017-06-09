@@ -5,7 +5,7 @@ address_1: Bright Ave & Philadelphia St
 address_2: 13018 Philadelphia St.
 city: Whittier
 state: California
-zipcode: '90602'
+zip: '90602'
 phone: (562)696-2662
 latitude: '33.9791'
 longitude: '-118.0362'

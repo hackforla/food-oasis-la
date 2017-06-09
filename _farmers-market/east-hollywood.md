@@ -5,7 +5,7 @@ address_1: 5448 Hollywood Boulevard
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90027'
+zip: '90027'
 phone: ''
 latitude: '34.1015'
 longitude: '-118.308'

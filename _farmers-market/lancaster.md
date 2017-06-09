@@ -5,7 +5,7 @@ address_1: 721 Lancaster Blvd.
 address_2: ''
 city: Lancaster
 state: California
-zipcode: '93534'
+zip: '93534'
 phone: (661)723-6077
 latitude: '34.6968'
 longitude: '-118.1155'

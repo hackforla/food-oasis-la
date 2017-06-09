@@ -5,7 +5,7 @@ address_1: 300 Main St.
 address_2: ''
 city: El Segundo
 state: California
-zipcode: '90245'
+zip: '90245'
 phone: ''
 latitude: '33.9191'
 longitude: '-118.416'

@@ -7,7 +7,7 @@ address_2: >-
   south of E. 2nd St., just west of PCH
 city: Long Beach
 state: California
-zipcode: '90803'
+zip: '90803'
 phone: (562)449-9299
 latitude: '33.7576'
 longitude: '-118.1131'

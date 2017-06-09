@@ -5,7 +5,7 @@ address_1: 600 W. Palm Street
 address_2: ''
 city: Altadena
 state: California
-zipcode: '91001'
+zip: '91001'
 phone: (310)595-0272
 latitude: '34.2004'
 longitude: '-118.1581'

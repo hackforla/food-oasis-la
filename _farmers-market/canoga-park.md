@@ -5,7 +5,7 @@ address_1: On Owensmouth Avenue between Wyandotte Street & Sherman Way
 address_2: 7248 Owensmouth Ave
 city: Canoga Park
 state: California
-zipcode: '91303'
+zip: '91303'
 phone: ''
 latitude: '34.2025'
 longitude: '-118.6014'

@@ -5,7 +5,7 @@ address_1: Baldwin Park - Cesar Chavez & Ramond
 address_2: 1011 Baldwin Park Blvd
 city: Baldwin Park
 state: California
-zipcode: '91706'
+zip: '91706'
 phone: ''
 latitude: '34.0856'
 longitude: '-117.965'

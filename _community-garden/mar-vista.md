@@ -4,7 +4,7 @@ address_1: 5075 S Slauson Avenue
 address_2: ''
 city: Culver City
 state: CA
-zipcode: '90230'
+zip: '90230'
 phone: 310-915-1123
 latitude: '33.9934872'
 longitude: '-118.4068559'

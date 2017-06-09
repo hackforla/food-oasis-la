@@ -5,7 +5,7 @@ address_1: 1335 East 103rd Street
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90002'
+zip: '90002'
 phone: ''
 latitude: '33.9435'
 longitude: '-118.2524'

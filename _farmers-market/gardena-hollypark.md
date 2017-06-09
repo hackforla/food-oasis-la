@@ -5,7 +5,7 @@ address_1: 13000 Van Ness
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90047'
+zip: '90047'
 phone: ''
 latitude: '33.931'
 longitude: '-118.318'

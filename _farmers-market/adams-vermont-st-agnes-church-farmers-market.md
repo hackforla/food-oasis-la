@@ -5,7 +5,7 @@ address_1: 1432 W Adams Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90007'
+zip: '90007'
 phone: (213)454-8533
 latitude: '34.0326'
 longitude: '-118.2926'

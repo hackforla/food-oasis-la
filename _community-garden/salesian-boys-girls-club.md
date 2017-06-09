@@ -4,7 +4,7 @@ address_1: 2228 E 4th Street
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90033'
+zip: '90033'
 phone: ''
 latitude: '34.04122508'
 longitude: '-118.2132207'

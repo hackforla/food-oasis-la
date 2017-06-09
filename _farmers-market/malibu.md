@@ -5,7 +5,7 @@ address_1: 23555 Civic Center Way
 address_2: ''
 city: Malibu
 state: California
-zipcode: '90265'
+zip: '90265'
 phone: (310)428-4262
 latitude: '34.0347'
 longitude: '-118.6912'

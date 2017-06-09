@@ -4,7 +4,7 @@ address_1: 8800 Canterbury Avenue
 address_2: ''
 city: San Fernando Valley
 state: CA
-zipcode: '91331'
+zip: '91331'
 phone: ''
 latitude: '34.22961903'
 longitude: '-118.4245122'

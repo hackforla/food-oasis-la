@@ -4,7 +4,7 @@ address_1: 5620 Fountain Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90028'
+zip: '90028'
 phone: (323) 387-3241
 latitude: '34.09474231'
 longitude: '-118.3117822'

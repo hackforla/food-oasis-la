@@ -7,7 +7,7 @@ address_1: 2200 Crenshaw Blvd
 address_2: ''
 city: Torrance
 state: California
-zipcode: '90501'
+zip: '90501'
 phone: ''
 latitude: '33.8249'
 longitude: '-118.3284'

@@ -5,7 +5,7 @@ address_1: S Figueroa St & W 7th St
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90017'
+zip: '90017'
 phone: ''
 latitude: '34.0494'
 longitude: '-118.2599'

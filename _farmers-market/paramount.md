@@ -5,7 +5,7 @@ address_1: 15500 Downey Ave
 address_2: ''
 city: Paramount
 state: California
-zipcode: '90723'
+zip: '90723'
 phone: (562)220-2224
 latitude: '33.9026'
 longitude: '-118.1602'

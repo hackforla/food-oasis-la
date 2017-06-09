@@ -5,7 +5,7 @@ address_1: 17400 Victory Blvd in Van Nuys
 address_2: ''
 city: Van Nuys
 state: California
-zipcode: '91406'
+zip: '91406'
 phone: ''
 latitude: '34.1862'
 longitude: '-118.5141'

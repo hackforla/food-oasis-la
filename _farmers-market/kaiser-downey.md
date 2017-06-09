@@ -5,7 +5,7 @@ address_1: 9333 E. Imperial Hwy in Kaiser Medical Center
 address_2: ''
 city: Downey
 state: California
-zipcode: '90242'
+zip: '90242'
 phone: ''
 latitude: '33.9192'
 longitude: '-118.1288'

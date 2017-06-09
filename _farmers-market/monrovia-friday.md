@@ -5,7 +5,7 @@ address_1: 200 Block of Myrtle Ave @ Olive
 address_2: ''
 city: Monrovia
 state: California
-zipcode: '91016'
+zip: '91016'
 phone: (626)932-5501
 latitude: '34.1448'
 longitude: '-118.0009'

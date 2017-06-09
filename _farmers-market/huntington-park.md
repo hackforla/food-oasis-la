@@ -5,7 +5,7 @@ address_1: 3401 East Florence Avenue
 address_2: ''
 city: Huntington Park
 state: California
-zipcode: '90255'
+zip: '90255'
 phone: (866)466-3834
 latitude: '33.973'
 longitude: '-118.2048'

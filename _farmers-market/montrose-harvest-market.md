@@ -5,7 +5,7 @@ address_1: Honolulu & Ocean Avenue
 address_2: ''
 city: Santa Barbara
 state: California
-zipcode: '93101'
+zip: '93101'
 phone: (805)637-6635
 latitude: '34.4222'
 longitude: '-119.713'

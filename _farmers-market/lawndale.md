@@ -5,7 +5,7 @@ address_1: 14717 Burin Ave.
 address_2: ''
 city: Lawndale
 state: California
-zipcode: '90260'
+zip: '90260'
 phone: ''
 latitude: '33.8982'
 longitude: '-118.354'

@@ -5,7 +5,7 @@ address_1: 6041 Cadillac Ave
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90034'
+zip: '90034'
 phone: (424)287-2280
 latitude: '34.0381'
 longitude: '-118.3759'

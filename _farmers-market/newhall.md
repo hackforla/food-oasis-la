@@ -5,7 +5,7 @@ address_1: 24500 Main Street
 address_2: ''
 city: Santa Clarita
 state: California
-zipcode: '91321'
+zip: '91321'
 phone: (661)250-3787
 latitude: '34.3815'
 longitude: '-118.5293'

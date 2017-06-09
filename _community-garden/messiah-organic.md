@@ -4,7 +4,7 @@ address_1: 7300 West Manchester Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90045'
+zip: '90045'
 phone: ''
 latitude: '33.95969308'
 longitude: '-118.4225489'

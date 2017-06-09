@@ -5,7 +5,7 @@ address_1: 3700 Sunset Blvd.
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90026'
+zip: '90026'
 phone: (213)484-4002
 latitude: '34.0943'
 longitude: '-118.282'

@@ -5,7 +5,7 @@ address_1: 8838 Valley Blvd.
 address_2: ''
 city: Rosemead
 state: California
-zipcode: '91770'
+zip: '91770'
 phone: ''
 latitude: '34.0803'
 longitude: '-118.0763'

@@ -4,7 +4,7 @@ address_1: 1259 N Mansfield Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90038'
+zip: '90038'
 phone: ''
 latitude: '34.09361321'
 longitude: '-118.3405019'

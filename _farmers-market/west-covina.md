@@ -5,7 +5,7 @@ address_1: 195 S. Glendora Ave.
 address_2: ''
 city: West Covina
 state: California
-zipcode: '91790'
+zip: '91790'
 phone: ''
 latitude: '34.0706'
 longitude: '-117.9215'

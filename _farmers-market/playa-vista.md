@@ -5,7 +5,7 @@ address_1: 12775 W. Millennium Drive
 address_2: ''
 city: Playa Vista
 state: California
-zipcode: '90094'
+zip: '90094'
 phone: ''
 latitude: '33.9726'
 longitude: '-118.4219'

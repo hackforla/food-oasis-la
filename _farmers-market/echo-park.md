@@ -5,7 +5,7 @@ address_1: Logan St. and Sunset Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90026'
+zip: '90026'
 phone: ''
 latitude: '34.0769'
 longitude: '-118.2586'

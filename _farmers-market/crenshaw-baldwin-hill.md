@@ -5,7 +5,7 @@ address_1: 3650 W Martin Luther King Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90008'
+zip: '90008'
 phone: (323)290-6636
 latitude: '34.0112'
 longitude: '-118.3365'

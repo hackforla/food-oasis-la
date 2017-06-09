@@ -5,7 +5,7 @@ address_1: 16614 Clark Ave at Oak Street
 address_2: ''
 city: Bellflower
 state: California
-zipcode: '90706'
+zip: '90706'
 phone: ''
 latitude: '33.8837'
 longitude: '-118.1339'

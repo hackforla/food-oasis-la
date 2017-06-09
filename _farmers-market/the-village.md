@@ -5,7 +5,7 @@ address_1: 6250 Topanga Blvd.
 address_2: ''
 city: Woodland HIlls
 state: California
-zipcode: '91367'
+zip: '91367'
 phone: (818)591-8161
 latitude: '34.1841'
 longitude: '-118.6058'

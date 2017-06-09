@@ -4,7 +4,7 @@ address_1: 6550 W 80th Street
 address_2: ''
 city: Westchester
 state: CA
-zipcode: '90045'
+zip: '90045'
 phone: ''
 latitude: '33.96923397'
 longitude: '-118.4047634'

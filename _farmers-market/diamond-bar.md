@@ -5,7 +5,7 @@ address_1: Calvary Chapel Church
 address_2: ''
 city: Diamond Bar
 state: California
-zipcode: '91765'
+zip: '91765'
 phone: (323)447-6848
 latitude: '36.8199'
 longitude: '-119.781'

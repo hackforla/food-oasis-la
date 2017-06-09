@@ -5,7 +5,7 @@ address_1: 1825 North Vermont Avenue
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90027'
+zip: '90027'
 phone: ''
 latitude: '34.104458'
 longitude: '-118.292219'

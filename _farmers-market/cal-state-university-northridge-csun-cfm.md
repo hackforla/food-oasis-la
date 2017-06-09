@@ -5,7 +5,7 @@ address_1: 18111 Nordhoff Street
 address_2: ''
 city: Northridge
 state: California
-zipcode: '91325'
+zip: '91325'
 phone: ''
 latitude: '34.235933'
 longitude: '-118.528025'

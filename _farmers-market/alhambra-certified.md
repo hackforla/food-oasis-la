@@ -5,7 +5,7 @@ address_1: 100 S. 2nd Street
 address_2: ''
 city: Alhambra
 state: California
-zipcode: '91801'
+zip: '91801'
 phone: (626)570-5081
 latitude: '34.0937'
 longitude: '-118.1288'

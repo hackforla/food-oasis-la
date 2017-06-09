@@ -5,7 +5,7 @@ address_1: 1645 Corinth Avenue at Santa Monica Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90025'
+zip: '90025'
 phone: ''
 latitude: '34.0457'
 longitude: '-118.4505'

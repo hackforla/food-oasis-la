@@ -5,7 +5,7 @@ address_1: Avalon and L St.
 address_2: ''
 city: Wilminton
 state: California
-zipcode: '90744'
+zip: '90744'
 phone: ''
 latitude: '33.7867'
 longitude: '-118.263'

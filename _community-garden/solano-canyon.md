@@ -4,7 +4,7 @@ address_1: 545 Solano Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90012'
+zip: '90012'
 phone: ''
 latitude: '34.07418257'
 longitude: '-118.2314301'

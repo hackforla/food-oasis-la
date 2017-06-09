@@ -5,7 +5,7 @@ address_1: 1440 North Topanga Canyon Blvd.
 address_2: ''
 city: Topanga
 state: California
-zipcode: '90503'
+zip: '90503'
 phone: ''
 latitude: '34.112172'
 longitude: '-118.589828'

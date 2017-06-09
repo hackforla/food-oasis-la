@@ -5,7 +5,7 @@ address_1: 2200 Virginia Avenue
 address_2: (Pico Blvd. @ Cloverfield Blvd.)
 city: Santa Monica
 state: California
-zipcode: '90405'
+zip: '90405'
 phone: (310)458-8712
 latitude: '34.0208'
 longitude: '-118.4677'

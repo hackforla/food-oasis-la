@@ -4,7 +4,7 @@ address_1: 7747 Foothill Blvd
 address_2: ''
 city: Tujunga
 state: CA
-zipcode: '91042'
+zip: '91042'
 phone: ''
 latitude: '34.25813176'
 longitude: '-118.3016987'

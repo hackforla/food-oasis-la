@@ -4,7 +4,7 @@ address_1: 115 S Avenue 56
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90042'
+zip: '90042'
 phone: 323-256-7122
 latitude: '34.08733119'
 longitude: '-118.3206354'

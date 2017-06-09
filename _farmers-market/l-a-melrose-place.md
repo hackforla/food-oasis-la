@@ -5,7 +5,7 @@ address_1: Melrose Place & Croft
 address_2: '8400 Melrose Ave, Los Angeles, CA 90069'
 city: Los Angeles
 state: California
-zipcode: '90069'
+zip: '90069'
 phone: (818)591-8161
 latitude: '34.0841'
 longitude: '-118.374'

@@ -4,7 +4,7 @@ address_1: 3304 Drew Street
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90065'
+zip: '90065'
 phone: ''
 latitude: '34.12005434'
 longitude: '-118.2430059'

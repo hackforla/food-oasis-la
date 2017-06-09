@@ -5,7 +5,7 @@ address_1: 1500 N Ivar Ave
 address_2: ''
 city: Hollywood
 state: California
-zipcode: '90028'
+zip: '90028'
 phone: ''
 latitude: '34.0981'
 longitude: '-118.3287'

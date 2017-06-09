@@ -5,7 +5,7 @@ address_1: Sancola Ave & Riverside Dr
 address_2: ''
 city: Toluca Lake
 state: California
-zipcode: '91610'
+zip: '91610'
 phone: ''
 latitude: '34.1522'
 longitude: '-118.3538'

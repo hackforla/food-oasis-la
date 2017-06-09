@@ -5,7 +5,7 @@ address_1: Market Street and Manchester Blvd.
 address_2: ''
 city: Inglewood
 state: California
-zipcode: '90302'
+zip: '90302'
 phone: (323)952-7363
 latitude: '33.9617'
 longitude: '-118.352'

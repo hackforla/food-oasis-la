@@ -5,7 +5,7 @@ address_1: 363 E. Villa St.
 address_2: ''
 city: Pasadena
 state: California
-zipcode: '91101'
+zip: '91101'
 phone: (626)449-0179
 latitude: '34.1551'
 longitude: '-118.1429'

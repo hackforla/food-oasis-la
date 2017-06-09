@@ -5,7 +5,7 @@ address_1: 11740 Telegraph Road
 address_2: ''
 city: Santa Fe Springs
 state: California
-zipcode: '90670'
+zip: '90670'
 phone: (562)863-4896
 latitude: '33.9456'
 longitude: '-118.0827'

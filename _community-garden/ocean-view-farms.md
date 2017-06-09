@@ -4,7 +4,7 @@ address_1: 3300 S Centinela Avenue
 address_2: ''
 city: Mar Vista
 state: CA
-zipcode: '90066'
+zip: '90066'
 phone: ''
 latitude: '34.01472864'
 longitude: '-118.4419305'

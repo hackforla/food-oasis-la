@@ -5,7 +5,7 @@ address_1: E 46Th St & Atlantic Ave
 address_2: ''
 city: Long Beach
 state: California
-zipcode: '90807'
+zip: '90807'
 phone: (562)449-9299
 latitude: '33.8426'
 longitude: '-118.1849'

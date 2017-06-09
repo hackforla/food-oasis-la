@@ -4,7 +4,7 @@ address_1: 1423 S Crenshaw Blvd
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90019'
+zip: '90019'
 phone: ''
 latitude: '34.04619603'
 longitude: '-118.3276274'

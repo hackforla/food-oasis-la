@@ -5,7 +5,7 @@ address_1: Arizona Ave between 4th St and Ocean
 address_2: ''
 city: Santa Monica
 state: California
-zipcode: '90401'
+zip: '90401'
 phone: (310)458-8712
 latitude: '34.0162'
 longitude: '-118.4986'

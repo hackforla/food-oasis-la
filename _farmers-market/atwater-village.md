@@ -5,7 +5,7 @@ address_1: Wells Fargo Parking Lot
 address_2: 3250 Glendale Blvd
 city: Los Angeles
 state: California
-zipcode: '90039'
+zip: '90039'
 phone: (323)463-3171
 latitude: '34.1182'
 longitude: '-118.2602'

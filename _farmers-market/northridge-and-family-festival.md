@@ -5,7 +5,7 @@ address_1: 9301 Tampa Ave
 address_2: ''
 city: Northridge
 state: California
-zipcode: '91324'
+zip: '91324'
 phone: (805)643-6458
 latitude: '34.2392'
 longitude: '-118.5538'

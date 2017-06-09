@@ -5,7 +5,7 @@ address_1: Citrus Ave and San Bernandino Rd
 address_2: Heritage Plaza
 city: Covina
 state: California
-zipcode: ''
+zip: ''
 phone: (928)854-1105
 latitude: '34.0893'
 longitude: '-117.89'

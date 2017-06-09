@@ -5,7 +5,7 @@ address_1: 23504 Calabasas Rd
 address_2: ''
 city: Calabasas
 state: California
-zipcode: '91302'
+zip: '91302'
 phone: (818)591-8161
 latitude: '34.157224'
 longitude: '-118.63876'

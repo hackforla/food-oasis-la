@@ -4,7 +4,7 @@ address_1: 220 S Spring Street
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90012'
+zip: '90012'
 phone: ''
 latitude: '34.050749'
 longitude: '-118.246015'

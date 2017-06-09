@@ -5,7 +5,7 @@ address_1: 1831 South La Cienega Blvd.
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90035'
+zip: '90035'
 phone: (562) 495-1764
 latitude: '34.044534'
 longitude: '-118.377428'

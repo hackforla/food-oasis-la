@@ -5,7 +5,7 @@ address_1: 27118 Silver Spur Rd
 address_2: ''
 city: Rolling Hills Estates
 state: California
-zipcode: '90274'
+zip: '90274'
 phone: (310)328-8076
 latitude: '33.7767'
 longitude: '-118.3749'

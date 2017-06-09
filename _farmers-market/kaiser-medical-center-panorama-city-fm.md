@@ -5,7 +5,7 @@ address_1: 13652 Cantara Street
 address_2: ''
 city: Panorama City
 state: California
-zipcode: '91402'
+zip: '91402'
 phone: ''
 latitude: '34.2207'
 longitude: '-118.4301'

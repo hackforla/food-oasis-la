@@ -5,7 +5,7 @@ address_1: Beulah Dr. & Foothill Ave.
 address_2: ''
 city: La Canada Flintridge
 state: California
-zipcode: '91011'
+zip: '91011'
 phone: ''
 latitude: '34.2035'
 longitude: '-118.198'

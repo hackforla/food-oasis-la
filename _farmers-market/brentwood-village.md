@@ -5,7 +5,7 @@ address_1: 741 South Gretna Green Way
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90049'
+zip: '90049'
 phone: ''
 latitude: '34.0506'
 longitude: '-118.4751'

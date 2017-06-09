@@ -4,7 +4,7 @@ address_1: 1101 Manzanita Street
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90029'
+zip: '90029'
 phone: (323) 533-3235
 latitude: '34.09348168'
 longitude: '-118.280907'

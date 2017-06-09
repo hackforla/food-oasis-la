@@ -5,7 +5,7 @@ address_1: 1831 E 1st St
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90033'
+zip: '90033'
 phone: (323)331-2752
 latitude: '34.047096'
 longitude: '-118.218686'

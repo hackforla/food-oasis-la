@@ -5,7 +5,7 @@ address_1: courtyard of the Central Avenue Constituent Services Center
 address_2: 4301 Central Ave  at 43rd st
 city: Los angeles  California
 state: California
-zipcode: '90011'
+zip: '90011'
 phone: ''
 latitude: '34.0058'
 longitude: '-118.256'

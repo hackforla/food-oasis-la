@@ -5,7 +5,7 @@ address_1: 6080 Center Drive
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90230'
+zip: '90230'
 phone: ''
 latitude: '33.976'
 longitude: '-118.3867'

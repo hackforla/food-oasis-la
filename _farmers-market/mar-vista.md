@@ -5,7 +5,7 @@ address_1: 3826 Grand View Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90066'
+zip: '90066'
 phone: ''
 latitude: '34.0042'
 longitude: '-118.4305'

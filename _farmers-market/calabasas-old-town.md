@@ -5,7 +5,7 @@ address_1: Calabasas & Mulholland Dr.
 address_2: '23504 Calabasas Rd, Calabasas, 91302'
 city: Calabasas
 state: California
-zipcode: '91303'
+zip: '91303'
 phone: (818)591-8161
 latitude: '34.1587'
 longitude: '-118.636'

@@ -5,7 +5,7 @@ address_1: 9401 S Painter Ave
 address_2: ''
 city: Whittier
 state: California
-zipcode: '90605'
+zip: '90605'
 phone: ''
 latitude: '33.9532'
 longitude: '-118.0443'

@@ -5,7 +5,7 @@ address_1: 4101 Torranc Blvd. @ Hawthorne Blvd
 address_2: ''
 city: Torrance
 state: California
-zipcode: '90503'
+zip: '90503'
 phone: ''
 latitude: '33.8387'
 longitude: '-118.3568'

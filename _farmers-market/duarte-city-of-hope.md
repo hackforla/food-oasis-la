@@ -5,7 +5,7 @@ address_1: 1500 Duarte Rd
 address_2: ''
 city: DUARTE
 state: California
-zipcode: '91010'
+zip: '91010'
 phone: ''
 latitude: '34.1397'
 longitude: '-117.978'

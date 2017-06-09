@@ -5,7 +5,7 @@ address_1: 4394 W Washington Blvd.
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90016'
+zip: '90016'
 phone: ''
 latitude: '34.0398'
 longitude: '-118.3348'

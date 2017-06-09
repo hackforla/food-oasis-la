@@ -5,7 +5,7 @@ address_1: 10100 Santa Monica Blvd.
 address_2: ''
 city: Century City
 state: California
-zipcode: '90037'
+zip: '90037'
 phone: ''
 latitude: '34.061'
 longitude: '-118.4179'

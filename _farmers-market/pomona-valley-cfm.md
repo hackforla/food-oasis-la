@@ -5,7 +5,7 @@ address_1: Corner of Pearl St & Garey Ave
 address_2: ''
 city: Pomona
 state: California
-zipcode: '91767'
+zip: '91767'
 phone: ''
 latitude: '34.064542'
 longitude: '-117.750371'

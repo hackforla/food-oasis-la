@@ -5,7 +5,7 @@ address_1: La Reina Ave & 2nd St
 address_2: ''
 city: Downey
 state: California
-zipcode: '90242'
+zip: '90242'
 phone: (818)591-8161
 latitude: '33.942'
 longitude: '-118.1342'

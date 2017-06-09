@@ -4,7 +4,7 @@ address_1: 2909 Francis Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90005'
+zip: '90005'
 phone: ''
 latitude: '34.05684772'
 longitude: '-118.28942'

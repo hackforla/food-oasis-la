@@ -5,7 +5,7 @@ address_1: 'Larchmont Bldg., Lot #694'
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90042'
+zip: '90042'
 phone: (818)591-8161
 latitude: '34.0834'
 longitude: '-118.324'

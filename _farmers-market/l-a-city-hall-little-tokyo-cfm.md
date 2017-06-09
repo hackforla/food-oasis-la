@@ -5,7 +5,7 @@ address_1: 200 North Main Street
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90012'
+zip: '90012'
 phone: (323)660-8660
 latitude: '34.053106'
 longitude: '-118.241657'

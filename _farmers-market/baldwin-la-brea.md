@@ -5,7 +5,7 @@ address_1: 3601 S. La Brea Ave.
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90016'
+zip: '90016'
 phone: ''
 latitude: '34.0212'
 longitude: '-118.3561'

@@ -5,7 +5,7 @@ address_1: 9701 Las  Tunas Dr
 address_2: ''
 city: Temple City
 state: California
-zipcode: '91780'
+zip: '91780'
 phone: (626)422-1419
 latitude: '34.1077'
 longitude: '-118.0579'

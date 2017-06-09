@@ -5,7 +5,7 @@ address_1: 25825 S. Vermont Avenue
 address_2: ''
 city: Harbor City
 state: California
-zipcode: '90710'
+zip: '90710'
 phone: ''
 latitude: '33.7901'
 longitude: '-118.2937'

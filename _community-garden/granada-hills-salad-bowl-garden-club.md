@@ -4,7 +4,7 @@ address_1: 16003 Rinaldi Street
 address_2: ''
 city: Granada Hills
 state: CA
-zipcode: '91344'
+zip: '91344'
 phone: 818-368-4533
 latitude: '34.27917819'
 longitude: '-118.4808094'

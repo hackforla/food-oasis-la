@@ -5,7 +5,7 @@ address_1: Marine Stadium at Appian Way & Nieto
 address_2: ''
 city: Long Beach
 state: California
-zipcode: '90803'
+zip: '90803'
 phone: (562)449-9299
 latitude: '33.7685'
 longitude: '-118.1329'

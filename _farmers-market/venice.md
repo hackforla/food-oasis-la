@@ -5,7 +5,7 @@ address_1: N Venice Blvd & Venice Way
 address_2: ''
 city: Venice
 state: California
-zipcode: '90291'
+zip: '90291'
 phone: ''
 latitude: '33.9876'
 longitude: '-118.466'

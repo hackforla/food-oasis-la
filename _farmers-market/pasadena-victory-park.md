@@ -5,7 +5,7 @@ address_1: 2900 N. Sierra Madre Blvd between Paloma and Washington Avenues
 address_2: ''
 city: Pasadena
 state: California
-zipcode: '91107'
+zip: '91107'
 phone: ''
 latitude: '34.1604'
 longitude: '-118.0929'

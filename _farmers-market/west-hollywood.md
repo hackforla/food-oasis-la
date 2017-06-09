@@ -5,7 +5,7 @@ address_1: 1200 N Vista St
 address_2: ''
 city: West Hollywood
 state: California
-zipcode: '90046'
+zip: '90046'
 phone: (323)845-6535
 latitude: '34.0926'
 longitude: '-118.3511'

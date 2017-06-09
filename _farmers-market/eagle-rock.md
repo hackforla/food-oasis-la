@@ -5,7 +5,7 @@ address_1: 2035 Colorado Blvd.
 address_2: ''
 city: Eagle Rock
 state: California
-zipcode: '90041'
+zip: '90041'
 phone: ''
 latitude: '34.1392'
 longitude: '-118.214'

@@ -5,7 +5,7 @@ address_1: W 6Th St & S Mesa St
 address_2: ''
 city: San Pedro
 state: California
-zipcode: '90731'
+zip: '90731'
 phone: (310)832-2183
 latitude: '33.7388'
 longitude: '-118.2857'

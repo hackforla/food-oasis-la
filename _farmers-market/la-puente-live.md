@@ -5,7 +5,7 @@ address_1: Main Street & First Street
 address_2: ''
 city: La Puente
 state: California
-zipcode: '91744'
+zip: '91744'
 phone: ''
 latitude: '34.0201'
 longitude: '-117.9523'

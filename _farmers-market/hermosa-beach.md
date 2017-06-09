@@ -5,7 +5,7 @@ address_1: Valley Dr. between 8th St. & 10th St.
 address_2: ''
 city: Hermosa Beach
 state: California
-zipcode: '90254'
+zip: '90254'
 phone: ''
 latitude: '33.862'
 longitude: '-118.3952'

@@ -4,7 +4,7 @@ address_1: 2632 Raymond Avenue
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90007'
+zip: '90007'
 phone: ''
 latitude: '34.03170032'
 longitude: '-118.298016'

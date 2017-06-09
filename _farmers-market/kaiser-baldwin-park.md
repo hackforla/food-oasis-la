@@ -5,7 +5,7 @@ address_1: 1011 Baldwin Park Blvd
 address_2: ''
 city: Baldwin Park
 state: California
-zipcode: '91706'
+zip: '91706'
 phone: (626)851-5223
 latitude: '34.0654'
 longitude: '-117.9859'

@@ -5,7 +5,7 @@ address_1: 42041 20th St. West
 address_2: ''
 city: Lancaster
 state: California
-zipcode: '93534'
+zip: '93534'
 phone: ''
 latitude: '34.647'
 longitude: '-118.1662'

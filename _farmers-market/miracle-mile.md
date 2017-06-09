@@ -5,7 +5,7 @@ address_1: 5700 Wilshire Blvd
 address_2: ''
 city: Los Angeles
 state: California
-zipcode: '90036'
+zip: '90036'
 phone: (818)591-8161
 latitude: '34.0617'
 longitude: '-118.3535'

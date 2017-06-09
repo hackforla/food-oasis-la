@@ -5,7 +5,7 @@ address_1: 4301 S. Central Avenue
 address_2: ''
 city: Hollywood
 state: California
-zipcode: '90028'
+zip: '90028'
 phone: (323)463-3171
 latitude: '38.5706'
 longitude: '-121.448'

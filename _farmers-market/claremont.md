@@ -5,7 +5,7 @@ address_1: N Indian Hill Blvd & W 2Nd St
 address_2: ''
 city: Claremont
 state: California
-zipcode: '91711'
+zip: '91711'
 phone: (714)345-3087
 latitude: '34.0956'
 longitude: '-117.7193'

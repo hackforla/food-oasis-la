@@ -4,7 +4,7 @@ address_1: 5466 Huntington Drive
 address_2: ''
 city: Los Angeles
 state: CA
-zipcode: '90032'
+zip: '90032'
 phone: ''
 latitude: '34.09249662'
 longitude: '-118.1616233'

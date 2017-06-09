@@ -5,7 +5,7 @@ address_1: 326 13th St
 address_2: ''
 city: Manhattan Beach
 state: California
-zipcode: '90266'
+zip: '90266'
 phone: ''
 latitude: '33.8867'
 longitude: '-118.4094'

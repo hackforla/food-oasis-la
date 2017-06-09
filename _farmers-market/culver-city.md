@@ -5,7 +5,7 @@ address_1: Main & Culver
 address_2: ''
 city: Culver City
 state: California
-zipcode: '90232'
+zip: '90232'
 phone: ''
 latitude: '34.0247'
 longitude: '-118.396'

@@ -5,7 +5,7 @@ address_1: S Elena St & Avenida del Norte
 address_2: ''
 city: Redondo Beach
 state: California
-zipcode: '90277'
+zip: '90277'
 phone: ''
 latitude: '33.8193'
 longitude: '-118.3884'
