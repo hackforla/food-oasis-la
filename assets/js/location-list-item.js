@@ -155,7 +155,11 @@ window.oasis = window.oasis || {};
 
 				element.querySelector('.location-details-options .options').innerHTML = element.querySelector('.location-details-options .options').innerHTML.replace(/\{ data.name \}/g, data.name).replace(/\{ data.address_1 \}/g, data.address_1).replace(/\{ data.longitude \}/g, data.longitude).replace(/\{ data.latitude \}/g, data.latitude).replace(/\{ data.uri \}/g, data.uri).replace(/\{ data.category \}/g, data.category);
 
-				//var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+				if (data.season_open && data.season_open != '' && data.season_close && data.season_close != '') {
+					element.querySelector('.dates p').innerHTML = data.season_open + ' – ' + data.season_close;
+				} else {
+					element.querySelector('.dates p').parentNode.removeChild(element.querySelector('.dates p'));
+				}
 
 				var hoursHTML = '';
 				var dt;

@@ -96,6 +96,13 @@ TODO: Consider updating generate-locations.js to make a simple loop like this po
 {% endif %}
 {% endcomment %}
 
+{% if page['season_open'] and page['season_open'] != '' and page['season_close'] and page['season_close'] != '' %}
+<section class="dates">
+	<h2>Dates</h2>
+	<p>{{ page['season_open'] }} – {{ page['season_close'] }}</p>
+</section>
+{% endif %}
+
 {% comment %}
 SHIM: Support days in any order, in the spreadsheet.
 {% endcomment %}
@@ -110,7 +117,9 @@ SHIM: Support days in any order, in the spreadsheet.
 <section class="hours">
 	<h2>Hours</h2>
 	{% assign days = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" | split: ", " %}
+
 	<dl>
+
 	{% for day in days %}
 
 		{% if page['formatted_daycode1'] == day %}
