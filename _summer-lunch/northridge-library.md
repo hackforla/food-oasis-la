@@ -57,4 +57,11 @@ formatted_day5_close: '1:30pm'
 
 ---
 
+[http://www.lapl.org/branches/northridge](http://www.lapl.org/branches/northridge)
+
+Kids and teens ages 5-18 eat lunch FREE at our library. Join us!
+Monday through Friday from 12:30 p.m. to 1:30 p.m.
+
+Servimos almuerzo GRATIS para niños y adolescentes de 5 a 18 años.
+Lunes a viernes de 12:30 a 1:30 p. m.
 
