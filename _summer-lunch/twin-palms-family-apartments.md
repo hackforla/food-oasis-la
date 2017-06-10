@@ -1,13 +1,13 @@
 ---
 name: Twin Palms Family Apartments
-address_1: 1105 East Avenue Q4
+address_1: 1105 E Avenue Q4
 address_2: ''
 city: Palmdale
 state: CA
 zip: '93550'
 phone: Adrian Braxton / 661.538.9995
-latitude: 34.584057
-longitude: -118.108859
+latitude: 34.5841119
+longitude: -118.1088617
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,13 +1,13 @@
 ---
 name: Eastman Elementary School/Healthy Start
-address_1: 4112 E. Olympic Blvd
+address_1: 4112 East Olympic Boulevard
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90023'
 phone: Rachel Jurado / 323.269.0456 / 323.253.6934
-latitude: 34.017375
-longitude: -118.184588
+latitude: 34.018459
+longitude: -118.1856253
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -51,5 +51,15 @@ formatted_day4_open: '11:30am'
 formatted_day4_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

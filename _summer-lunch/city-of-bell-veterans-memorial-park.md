@@ -1,13 +1,13 @@
 ---
 name: City of Bell-Veterans Memorial Park
-address_1: 6500 Wilcox Ave
+address_1: 6500 Wilcox Avenue
 address_2: ''
 city: Bell
 state: CA
 zip: '90201'
 phone: 'Gabino C Luna, Leticia Covarrubias / 323.923.2664'
-latitude: 33.97586
-longitude: -118.176823
+latitude: 33.9764969
+longitude: -118.1762006
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

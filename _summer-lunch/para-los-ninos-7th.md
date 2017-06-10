@@ -1,6 +1,6 @@
 ---
 name: Para Los Ninos (7th)
-address_1: 1617 7th Street
+address_1: 1617 East 7th Street
 address_2: ''
 city: Los Angeles
 state: CA
@@ -8,8 +8,8 @@ zip: '90021'
 phone: >-
   Cecilia Hernandez (dir), Fernando Delgadillo, Moises (services and report) /
   213.239.6605 x 228 or 114 (F)
-latitude: 34.03514
-longitude: -118.236922
+latitude: 34.0351536
+longitude: -118.2369527
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -58,5 +58,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

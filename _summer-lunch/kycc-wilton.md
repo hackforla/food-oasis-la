@@ -1,13 +1,13 @@
 ---
 name: KYCC- Wilton
-address_1: 680 S Wilton Place
+address_1: 680 South Wilton Place
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90005'
 phone: 'Heather Jun, Ernie Yoshikawa / 213.365.7400 Ernie ext: 5132'
-latitude: 34.060595
-longitude: -118.314354
+latitude: 34.0600461
+longitude: -118.3141938
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 2pm
 formatted_day5_close: 3pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

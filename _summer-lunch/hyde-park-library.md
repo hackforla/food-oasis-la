@@ -1,13 +1,13 @@
 ---
 name: Hyde Park Library
-address_1: 2205 W Florence Ave
+address_1: 2205 West Florence Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90043'
 phone: 'Shawn Stamm, Anna-Marie / Staff: 323.752.2712'
-latitude: 33.974588
-longitude: -118.318131
+latitude: 33.9747784
+longitude: -118.3182044
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zip: '90011'
 phone: 'Julia Huerta (service), Deisy Huerta (reports) / 213.747.6357 ext:33'
-latitude: 34.025762
-longitude: -118.256665
+latitude: 34.025793
+longitude: -118.256591
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -55,6 +55,9 @@ formatted_day5_close: '1:15pm'
 
 ---
 
+
+
+
 Lunch Times
 : June 12 through July 28, 2017
 : _12:15pm–1:15pm_
@@ -66,3 +69,6 @@ Field Trips
 : July 7
 : July 21
 : July 28
+
+
+

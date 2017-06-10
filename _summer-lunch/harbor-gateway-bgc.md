@@ -1,13 +1,13 @@
 ---
-name: Harbor Gateway BGC
-address_1: 802 W Gardena Blvd
+name: Harbor Gateway Boys & Girls Club
+address_1: 802 West Gardena Boulevard
 address_2: ''
 city: Gardena
 state: CA
 zip: '90247'
 phone: 'Viridiana Yahuaca (site coordinator), Mireyda Estrada (dir) / 310.523.2173'
-latitude: 33.881372
-longitude: -118.28937
+latitude: 33.8815087
+longitude: -118.2894217
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/12/2017
 notes: 'Closed: 7/4/2017 Field Trip: 6/23, 6/30, 7/7, 7/14, 7/21, 7/28, 8/4, 8/11'
-title: 'Harbor Gateway BGC, Food Oasis Los Angeles'
+title: 'Harbor Gateway Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/harbor-gateway-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,8 +6,8 @@ city: North Hills
 state: CA
 zip: '91343'
 phone: Manuel Flores / 818.891.0481 ext 20
-latitude: 34.231911
-longitude: -118.469087
+latitude: 34.232206
+longitude: -118.469137
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -51,5 +51,15 @@ formatted_day4_open: 3pm
 formatted_day4_close: 4pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

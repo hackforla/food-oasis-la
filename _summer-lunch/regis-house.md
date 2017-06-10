@@ -1,13 +1,13 @@
 ---
 name: Regis House
-address_1: 2212 Beverly Ave
+address_1: 2212 Beverly Boulevard
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90057'
 phone: Sister Teresita Saavedra Maria De Leon / 213.380.8168
-latitude: 34.067374
-longitude: -118.271893
+latitude: 34.0672088
+longitude: -118.2719804
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

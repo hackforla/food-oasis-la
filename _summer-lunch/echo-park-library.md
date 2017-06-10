@@ -1,13 +1,13 @@
 ---
 name: Echo Park Library
-address_1: 1410 W Temple Street
+address_1: 1410 West Temple Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90026'
 phone: Victoria Sikora / 213.580.3738
-latitude: 34.067115
-longitude: -118.257227
+latitude: 34.0670485
+longitude: -118.2574632
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '12:50pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

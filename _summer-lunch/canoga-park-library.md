@@ -6,8 +6,8 @@ city: Canoga Park
 state: CA
 zip: '91303'
 phone: 'Holly Rutan, Patty / 818.346.1197'
-latitude: 34.201107
-longitude: -118.589792
+latitude: 34.2013572
+longitude: -118.5901475
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

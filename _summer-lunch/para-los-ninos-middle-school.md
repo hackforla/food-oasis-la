@@ -1,13 +1,13 @@
 ---
 name: Para Los Ninos (Middle School)
-address_1: 835 Stanford Ave
+address_1: 835 Stanford Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90021'
 phone: Moises Carrillo / 213.896.2640
-latitude: 34.035973
-longitude: -118.247126
+latitude: 34.0357512
+longitude: -118.2474731
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

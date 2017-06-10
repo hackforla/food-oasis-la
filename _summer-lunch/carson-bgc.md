@@ -1,13 +1,13 @@
 ---
-name: Carson BGC
-address_1: 21502 Main St.
+name: Carson Boys & Girls Club
+address_1: 21502 South Main Street
 address_2: ''
 city: Carson
 state: CA
 zip: '90745'
 phone: 'Lisa Mejia (reports), Maria Valdovinos (Dir) / 310.549.7311'
-latitude: 33.833456
-longitude: -118.278422
+latitude: 33.8333496
+longitude: -118.2782185
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/4/2017
 notes: 'Closed: 7/4/2017 Field Trip: 6/21, 6/28, 7/12, 7/19, 7/26'
-title: 'Carson BGC, Food Oasis Los Angeles'
+title: 'Carson Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/carson-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

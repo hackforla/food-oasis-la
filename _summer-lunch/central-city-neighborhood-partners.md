@@ -1,13 +1,13 @@
 ---
 name: Central City Neighborhood Partners
-address_1: 501 S. Bixel Street
+address_1: 501 South Bixel Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90017'
 phone: 'Margarita, Noemy, Irma / 213.482.8618'
-latitude: 34.054836
-longitude: -118.261844
+latitude: 34.05495330000001
+longitude: -118.261983
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

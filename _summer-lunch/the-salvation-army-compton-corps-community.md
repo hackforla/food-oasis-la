@@ -1,13 +1,13 @@
 ---
 name: The Salvation Army Compton Corps Community
-address_1: 5941 Hollywood Blvd
+address_1: 5941 Hollywood Boulevard
 address_2: ''
 city: Los Angeles
 state: CA
-zip: '90221'
+zip: '90028'
 phone: Steven Wimberly Jr./310.639.0362
-latitude: 34.102063
-longitude: -118.319438
+latitude: 34.1020094
+longitude: -118.3194242
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

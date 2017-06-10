@@ -1,6 +1,6 @@
 ---
 name: Salvation Army South LA
-address_1: 7651 S. Central Ave
+address_1: 7651 South Central Avenue
 address_2: ''
 city: Los Angeles
 state: CA
@@ -8,8 +8,8 @@ zip: '90001'
 phone: >-
   Andre Patterson, Lizette Jones (dir), Dora Lopez (reports) / 323.586.0288
   x104, x 103 (Lizette) Lizette: 323.586.0797
-latitude: 33.969836
-longitude: -118.256757
+latitude: 33.9700567
+longitude: -118.2565698
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -56,5 +56,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

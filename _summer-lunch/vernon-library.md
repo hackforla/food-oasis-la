@@ -1,13 +1,13 @@
 ---
 name: Vernon Library
-address_1: 1201 W 48th Street
+address_1: 1201 West 48th Street
 address_2: ''
 city: Los Angeles
 state: CA
-zip: '90011'
+zip: '90037'
 phone: 'Ana Campos, Corinda Humphrey / 323.234.9107'
-latitude: 33.99961
-longitude: -118.295884
+latitude: 33.999846
+longitude: -118.2959017
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,13 +1,13 @@
 ---
 name: Exposition Park Library
-address_1: 3900 S Western Ave
+address_1: 3900 South Western Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90062'
 phone: Joann Morgan / 323.290.3149
-latitude: 34.014402
-longitude: -118.308616
+latitude: 34.0143751
+longitude: -118.3085184
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

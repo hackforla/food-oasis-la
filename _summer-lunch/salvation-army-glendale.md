@@ -1,13 +1,13 @@
 ---
 name: Salvation Army-Glendale
-address_1: 320 W. Windsor Rd
+address_1: 320 West Windsor Road
 address_2: ''
 city: Glendale
 state: CA
 zip: '91204'
 phone: Rick White / 818.246.5586
-latitude: 34.136344
-longitude: -118.258782
+latitude: 34.1364105
+longitude: -118.2589307
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,8 +6,8 @@ city: Los Angeles
 state: CA
 zip: '90032'
 phone: Carlos Martinez/ 323.221.0779 x 309
-latitude: 34.087099
-longitude: -118.176266
+latitude: 34.087439
+longitude: -118.176357
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

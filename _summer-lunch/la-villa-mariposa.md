@@ -1,6 +1,6 @@
 ---
 name: La Villa Mariposa
-address_1: 345 S. Columbia Dr.
+address_1: 345 Columbia Avenue
 address_2: ''
 city: Los Angeles
 state: CA
@@ -8,8 +8,8 @@ zip: '90017'
 phone: >-
   Arturo De La Torre, Elisa Campos, Irma Lopez / Irma: 213.413.7307 (o)
   213.258.0323 (c) 213-484-5247 (Site) Arturo: 213.258.5019
-latitude: 34.0544
-longitude: -118.2439
+latitude: 34.0586382
+longitude: -118.2653523
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -56,5 +56,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

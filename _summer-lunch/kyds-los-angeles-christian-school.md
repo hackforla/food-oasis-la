@@ -1,13 +1,13 @@
 ---
 name: KYDS- Los Angeles Christian School
-address_1: 1620 W 20th St
+address_1: 1620 West 20th Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90007'
 phone: 'Julie Brown, Jasmin Peralta / 818.908.2029 x33'
-latitude: 34.037885
-longitude: -118.292381
+latitude: 34.0378134
+longitude: -118.2924473
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

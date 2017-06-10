@@ -1,13 +1,13 @@
 ---
 name: Panorama City Library
-address_1: 13605 Van Nuys Blvd
+address_1: 14345 Roscoe Boulevard
 address_2: ''
-city: Panorama City
+city: Los Angeles
 state: CA
 zip: '91402'
 phone: Teri Markson / 818.895.0682
-latitude: 34.227817
-longitude: -118.450104
+latitude: 34.2219274
+longitude: -118.4462008
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,7 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
 
 

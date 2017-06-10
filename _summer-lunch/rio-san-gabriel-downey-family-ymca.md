@@ -1,13 +1,13 @@
 ---
 name: Rio San Gabriel (Downey Family YMCA)
-address_1: 9338 Gotham St
+address_1: 9338 Gotham Street
 address_2: ''
 city: Downey
 state: CA
 zip: '90241'
 phone: 'Reyna Villalobos, Maricela Ramos / 562.644.3999'
-latitude: 33.936324
-longitude: -118.112364
+latitude: 33.937697
+longitude: -118.112213
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

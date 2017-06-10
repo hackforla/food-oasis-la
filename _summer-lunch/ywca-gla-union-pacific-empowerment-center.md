@@ -1,13 +1,13 @@
 ---
 name: YWCA-GLA Union Pacific Empowerment Center
-address_1: 4315 Union Pacific Ave
+address_1: 4315 Union Pacific Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90023'
 phone: Rhianna Morales / 323.415.6057
-latitude: 34.016769
-longitude: -118.179274
+latitude: 34.0166993
+longitude: -118.1795315
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

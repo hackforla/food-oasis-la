@@ -1,13 +1,13 @@
 ---
-name: West Valley BGC
-address_1: 7245 Remmet Ave
+name: West Valley Boys & Girls Club
+address_1: 7245 Remmet Avenue
 address_2: ''
-city: Canoga Park
+city: Los Angeles
 state: CA
 zip: '91303'
 phone: 'Ruben Rodriguez(dir), Tim Blaylock (CEO) / office: 818.610.1054'
-latitude: 34.202317
-longitude: -118.600627
+latitude: 34.2024553
+longitude: -118.6004325
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/4/2017
 notes: 'Closed: 7/4/2017'
-title: 'West Valley BGC, Food Oasis Los Angeles'
+title: 'West Valley Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/west-valley-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

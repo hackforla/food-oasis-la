@@ -1,13 +1,13 @@
 ---
-name: Whittier BGC
-address_1: 7905 S. Greenleaf Ave
+name: Whittier Boys & Girls Club
+address_1: 7905 South Greenleaf Avenue
 address_2: ''
 city: Whittier
 state: CA
 zip: '90602'
 phone: '(CEO) / office: 818.610.1054'
-latitude: 33.964211
-longitude: -118.038604
+latitude: 33.969803
+longitude: -118.037795
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): y? call to confirm
 season_open: ''
 season_close: ''
 notes: 'Closed: 7/4/2017'
-title: 'Whittier BGC, Food Oasis Los Angeles'
+title: 'Whittier Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/whittier-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
@@ -54,5 +54,13 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
 
 

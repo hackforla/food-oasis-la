@@ -1,13 +1,13 @@
 ---
 name: Central Library
-address_1: 630 W 5th St
+address_1: 630 West 5th Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90071'
 phone: Diane Olivo-Posner / 213.228.7481
-latitude: 34.05074
-longitude: -118.255134
+latitude: 34.0502687
+longitude: -118.2550433
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

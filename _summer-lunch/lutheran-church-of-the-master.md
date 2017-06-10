@@ -7,7 +7,7 @@ state: CA
 zip: '93535'
 phone: Pat Williams/661.942.6782
 latitude: 34.690442
-longitude: -118.116525
+longitude: -118.116524
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

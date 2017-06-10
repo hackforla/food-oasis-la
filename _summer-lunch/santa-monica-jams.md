@@ -1,6 +1,6 @@
 ---
 name: Santa Monica- JAMS
-address_1: 2441 16th Street
+address_1: 2425 16th Street
 address_2: ''
 city: Santa Monica
 state: CA
@@ -8,8 +8,8 @@ zip: '90405'
 phone: >-
   Erika Mitchell (dir), Shearlena Duty (reports), Jason Hurd / Office:
   310.496.8800 Nadia: 323.365.5150 Jason: 323.683.2481
-latitude: 34.012448
-longitude: -118.469628
+latitude: 34.0132786
+longitude: -118.4695619
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -56,5 +56,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

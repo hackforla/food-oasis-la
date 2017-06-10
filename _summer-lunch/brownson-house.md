@@ -1,13 +1,13 @@
 ---
 name: Brownson House
-address_1: '1307 Warren St,'
+address_1: 1307 Warren Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90033'
 phone: Roberto Ramirez / 213-251-3512
-latitude: 34.052104
-longitude: -118.220178
+latitude: 34.052037
+longitude: -118.220204
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -51,5 +51,15 @@ formatted_day4_open: 12pm
 formatted_day4_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

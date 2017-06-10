@@ -1,13 +1,13 @@
 ---
 name: KYCC- Menlo
-address_1: 1230 S Menlo Ave
+address_1: 1230 Menlo Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90006'
 phone: 'Ernie Yoshikawa, Danielle Joo / 213.365.7400 Ernie ext: 5132'
-latitude: 34.043002
-longitude: -118.290696
+latitude: 34.0479859
+longitude: -118.2902679
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '1:30pm'
 formatted_day5_close: '2:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

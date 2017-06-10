@@ -1,13 +1,13 @@
 ---
-name: Harbor City BGC
-address_1: 1220 W 256th St
+name: Harbor City Boys & Girls Club
+address_1: 1220 256th Street West
 address_2: ''
-city: Harbor City
+city: Los Angeles
 state: CA
 zip: '90710'
 phone: 'Mireyda Estrada(dir), Esther Solis (service) / 310.534.0056'
-latitude: 33.791498
-longitude: -118.307533
+latitude: 33.7915516
+longitude: -118.2983853
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): 'n'
 season_open: 6/12/2017
 season_close: 8/10/2017
 notes: 'Closed: 7/4/2017 Field Trip: Every Thursday (except 1st wk.)'
-title: 'Harbor City BGC, Food Oasis Los Angeles'
+title: 'Harbor City Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/harbor-city-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: 12pm
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

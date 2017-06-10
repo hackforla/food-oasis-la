@@ -1,13 +1,13 @@
 ---
 name: 1st Place Sports Complex
-address_1: 9400 Penfield St
+address_1: 9300 Penfield Avenue
 address_2: ''
-city: Chatsworth
+city: Los Angeles
 state: CA
 zip: '91311'
 phone: Vaughn Mims / 818.280.6410
-latitude: 34.240555
-longitude: -118.569637
+latitude: 34.2416554
+longitude: -118.56875
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

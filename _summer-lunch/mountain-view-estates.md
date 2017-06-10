@@ -1,13 +1,13 @@
 ---
 name: Mountain View Estates
-address_1: 3255 E Ave R
+address_1: 3255 East Avenue R
 address_2: ''
 city: Palmdale
 state: CA
 zip: '93550'
 phone: 'Jessica Vargas, Jonnine Soto / 661.947.4700'
-latitude: 34.575483
-longitude: -118.068273
+latitude: 34.5732296
+longitude: -118.0702004
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 11am
 formatted_day5_close: 12pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

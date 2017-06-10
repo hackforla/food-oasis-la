@@ -1,13 +1,13 @@
 ---
 name: St. Thomas the Apostle School
-address_1: St. Thomas the Apostle School
+address_1: 2632 West 15th Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90006'
 phone: 'Gustavo Beltran, Josefina Colin office:323.737.4730'
-latitude: 34.046444
-longitude: -118.298835
+latitude: 34.04513439999999
+longitude: -118.2990262
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:15pm'
 formatted_day5_close: '1:15pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

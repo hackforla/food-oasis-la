@@ -4,10 +4,10 @@ address_1: 1524 Essex Street
 address_2: ''
 city: Los Angeles
 state: CA
-zip: '93550'
+zip: '90021'
 phone: 'Ann Olmos, Juana Gomez / 213.749.8894'
-latitude: 34.026196
-longitude: -118.250417
+latitude: 34.027191
+longitude: -118.248824
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

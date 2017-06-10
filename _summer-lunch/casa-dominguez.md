@@ -1,13 +1,13 @@
 ---
 name: Casa Dominguez
-address_1: 15727 Atlantic Ave
+address_1: 15727 Atlantic Avenue
 address_2: ''
 city: Compton
 state: CA
 zip: '90221'
 phone: Shannon Kay / 310.667.4063
-latitude: 33.890368
-longitude: -118.193011
+latitude: 33.8897572
+longitude: -118.1935257
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

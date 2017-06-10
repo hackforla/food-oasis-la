@@ -1,13 +1,13 @@
 ---
 name: Para Los Ninos (Gratts Primary Center)
-address_1: 474 S. Hartford Ave
+address_1: 474 Hartford Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90017'
 phone: Karla Lara / 213.481.3200
-latitude: 34.0544
-longitude: -118.2439
+latitude: 34.0560461
+longitude: -118.2638085
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

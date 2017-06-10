@@ -1,6 +1,6 @@
 ---
 name: City of Commerce-Bristow Library
-address_1: 1466 S. McDonnell Ave
+address_1: 1466 South McDonnell Avenue
 address_2: ''
 city: Commerce
 state: CA
@@ -8,8 +8,8 @@ zip: '90040'
 phone: >-
   Luis Martinez, Moyra Garcia, Ted Lujan / 323.265.1787 (outside line)
   323.887.4492 x 4492 (inside)
-latitude: 34.013501
-longitude: -118.169819
+latitude: 34.0130966
+longitude: -118.1692298
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -56,5 +56,15 @@ formatted_day5_open: 11am
 formatted_day5_close: 12pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

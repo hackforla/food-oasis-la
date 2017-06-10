@@ -1,13 +1,13 @@
 ---
 name: PUENTE Learning Center
-address_1: 4504 S Central Ave
+address_1: 501 South Boyle Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90033'
 phone: Rodolfo Acosta / 323.780.7546 x 218 323.780.8900
-latitude: 34.002842
-longitude: -118.256482
+latitude: 34.04137300000001
+longitude: -118.220209
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

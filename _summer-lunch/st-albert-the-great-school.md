@@ -1,13 +1,13 @@
 ---
 name: St. Albert the Great School
-address_1: 736 E. Compton Blvd
+address_1: 804 East Compton Boulevard
 address_2: ''
-city: Compton
+city: West Rancho Dominguez
 state: CA
 zip: '90220'
 phone: 28 Tina Johnson / 310.515.3891
-latitude: 33.895607
-longitude: -118.215201
+latitude: 33.8944697
+longitude: -118.2613875
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 11am
 formatted_day5_close: 12pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 name: School on Wheels
-address_1: 600 E 7th St Ste 109
+address_1: 600 East 7th Street, Ste 109
 address_2: ''
 city: Los Angeles
 state: CA

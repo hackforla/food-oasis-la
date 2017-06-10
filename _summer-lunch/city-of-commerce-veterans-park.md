@@ -1,13 +1,13 @@
 ---
 name: City of Commerce-Veterans Park
-address_1: 6364 Zindell Ave
+address_1: 6364 Zindell Avenue
 address_2: ''
 city: Commerce
 state: CA
 zip: '90040'
 phone: 'Maryanne Griego-Talley, Moyra Garcia / 562.927.1515'
-latitude: 33.972644
-longitude: -118.126773
+latitude: 33.9719459
+longitude: -118.1266146
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

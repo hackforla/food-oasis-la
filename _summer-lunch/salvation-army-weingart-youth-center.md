@@ -1,13 +1,13 @@
 ---
 name: Salvation Army Weingart Youth Center
-address_1: 501 S Boyle Ave
+address_1: 5941 Hollywood Boulevard
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90028'
 phone: Carlos Gonzalez / 323.337.1655
-latitude: 34.041461
-longitude: -118.220134
+latitude: 34.1020094
+longitude: -118.3194242
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 3pm
 formatted_day5_close: 4pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

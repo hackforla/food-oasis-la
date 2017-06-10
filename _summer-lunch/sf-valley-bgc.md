@@ -1,13 +1,13 @@
 ---
-name: SF Valley BGC
-address_1: 11251 Glenoaks Blvd
+name: SF Valley Boys & Girls Club
+address_1: 11251 Glenoaks Boulevard
 address_2: ''
 city: Pacoima
 state: CA
 zip: '91331'
 phone: Ian Smith / 818.896.5261 x110
-latitude: 34.274891
-longitude: -118.412957
+latitude: 34.2743645
+longitude: -118.4131712
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -35,7 +35,7 @@ year_round (y/n): 'n'
 season_open: 6/19/2017
 season_close: 8/11/2017
 notes: Closed 7/4/2017
-title: 'SF Valley BGC, Food Oasis Los Angeles'
+title: 'SF Valley Boys & Girls Club, Food Oasis Los Angeles'
 uri: /summer-lunch/sf-valley-bgc/
 formatted_daycode1: Monday
 formatted_day1_open: '12:30pm'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

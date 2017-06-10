@@ -1,13 +1,13 @@
 ---
 name: Harbor Village
-address_1: 981 Harbor Village Dr
+address_1: 981 Harbor Village Drive
 address_2: ''
 city: Harbor City
 state: CA
 zip: '90710'
 phone: 'Cynthia Lozano, Jessica Sandoval / Office: 310.530.1216'
-latitude: 33.792413
-longitude: -118.292523
+latitude: 33.7927819
+longitude: -118.2925155
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '1:30pm'
 formatted_day5_close: '2:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

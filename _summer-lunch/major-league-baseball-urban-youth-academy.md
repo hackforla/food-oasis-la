@@ -1,13 +1,13 @@
 ---
 name: Major League Baseball Urban Youth Academy
-address_1: 901 E Artesia Blvd
+address_1: 901 East Artesia Boulevard
 address_2: ''
 city: Compton
 state: CA
 zip: '90221'
 phone: 'Yano Alvin, Darrell Miller / 310.763.3479'
-latitude: 33.8743625
-longitude: -118.2168391
+latitude: 33.8756663
+longitude: -118.2131422
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

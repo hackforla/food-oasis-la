@@ -1,13 +1,13 @@
 ---
 name: San Pedro Library
-address_1: 1030 S Alvarado Street
+address_1: 931 South Gaffey Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90731'
 phone: David Ellis / 310.548.7780
-latitude: 34.050765
-longitude: -118.280059
+latitude: 33.7357394
+longitude: -118.2929497
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

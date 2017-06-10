@@ -1,13 +1,13 @@
 ---
 name: Church of the Redeemer
-address_1: 900 E. Rosecrans Ave
+address_1: 900 East Rosecrans Avenue
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90059'
 phone: 'Pastor Kerry Allison, Marian Battle / 310.537.1372 Marian: 310.537.1372'
-latitude: 33.90236
-longitude: -118.263571
+latitude: 33.9022476
+longitude: -118.2606299
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

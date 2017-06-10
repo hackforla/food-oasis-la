@@ -1,13 +1,13 @@
 ---
 name: Friendly Village
-address_1: 1301 East Ave I
+address_1: 1301 East Avenue I
 address_2: ''
 city: Lancaster
 state: CA
 zip: '93535'
 phone: Kristina Wallace (acting mgr) / Christina Payte / 661.946.6267 (o)
-latitude: 34.706691
-longitude: -118.105996
+latitude: 34.70824090000001
+longitude: -118.1056841
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

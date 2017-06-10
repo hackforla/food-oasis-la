@@ -1,13 +1,13 @@
 ---
 name: Lincoln Heights Library
-address_1: 2530 Workman St
+address_1: 2530 Workman Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90031'
 phone: Shirley Ly / 323.226.1692
-latitude: 34.075733
-longitude: -118.214404
+latitude: 34.0761642
+longitude: -118.2140063
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

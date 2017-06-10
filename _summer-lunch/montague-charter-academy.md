@@ -6,8 +6,8 @@ city: Arleta
 state: CA
 zip: '91331'
 phone: 'Edith Ballesteros / 818.899.0215, 213.745.1900'
-latitude: 34.244516
-longitude: -118.415488
+latitude: 34.2444648
+longitude: -118.415015
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '11:30am'
 formatted_day5_close: '12:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

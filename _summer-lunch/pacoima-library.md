@@ -1,13 +1,13 @@
 ---
 name: Pacoima Library
-address_1: 13605 Van Nuys Blvd
+address_1: 13605 Van Nuys Boulevard
 address_2: ''
 city: Pacoima
 state: CA
 zip: '91331'
 phone: Laura Contin / 818.899.3188
-latitude: 34.261035
-longitude: -118.429026
+latitude: 34.2611303
+longitude: -118.4292084
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

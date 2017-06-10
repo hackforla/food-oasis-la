@@ -1,13 +1,13 @@
 ---
 name: Our Saviour Center
-address_1: 4316 Peck Rd
+address_1: 4368 Santa Anita Avenue
 address_2: ''
 city: El Monte
 state: CA
-zip: '91732'
+zip: '91731'
 phone: 'Jose Vega, Marguerite Ponce (reports) / 626.329.0860 x 1203 or x 01'
-latitude: 34.082471
-longitude: -118.018208
+latitude: 34.085222
+longitude: -118.0284116
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -51,5 +51,15 @@ formatted_day4_open: 1pm
 formatted_day4_close: 2pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

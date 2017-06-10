@@ -1,13 +1,13 @@
 ---
 name: Vermont Square Library
-address_1: 931 S Gaffey
+address_1: 931 South Gaffey Street
 address_2: ''
-city: San Pedro
+city: Los Angeles
 state: CA
-zip: '90037'
+zip: '90731'
 phone: 'Martha Sherod / Staff:323.290.7406 / Main: 323.290.7405'
-latitude: 33.735365
-longitude: -118.292349
+latitude: 33.7357394
+longitude: -118.2929497
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,13 +1,13 @@
 ---
 name: Greater New Unity B.C.
-address_1: 9719 S Avalon Blvd
+address_1: 9719 South Avalon Boulevard
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90003'
 phone: 'Randy Allison Sr./ office: 323.757.5094'
-latitude: 33.9163712
-longitude: -118.2652415
+latitude: 33.947664
+longitude: -118.265526
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -48,5 +48,15 @@ formatted_day3_open: 12pm
 formatted_day3_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

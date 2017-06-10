@@ -1,13 +1,13 @@
 ---
 name: Hacienda Estates
-address_1: 2330 East Ave J8
+address_1: 2330 East Avenue J 8
 address_2: ''
 city: Lancaster
 state: CA
 zip: '93535'
 phone: Renate Sauer / 661.945.1597
-latitude: 34.680539
-longitude: -118.088058
+latitude: 34.6797458
+longitude: -118.0883691
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -6,8 +6,8 @@ city: Culver City
 state: CA
 zip: '90230'
 phone: Jesus Gonzales (Jay) / 714.417.3739
-latitude: 33.994124
-longitude: -118.4108
+latitude: 33.9928885
+longitude: -118.4113812
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

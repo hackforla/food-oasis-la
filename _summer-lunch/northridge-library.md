@@ -8,8 +8,8 @@ zip: '91325'
 phone: >-
   Leslie Chudnoff, Cindy Holsey / 818.886.6929 Workroom: 818.886.6090 Main:
   818.886.3640
-latitude: 34.234676
-longitude: -118.533867
+latitude: 34.2350906
+longitude: -118.5340957
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -64,4 +64,12 @@ Monday through Friday from 12:30 p.m. to 1:30 p.m.
 
 Servimos almuerzo GRATIS para niños y adolescentes de 5 a 18 años.
 Lunes a viernes de 12:30 a 1:30 p. m.
+
+
+
+
+
+
+
+
 

@@ -1,13 +1,13 @@
 ---
 name: Mark Twain Library
-address_1: 9621 S Figueroa
+address_1: 9621 South Figueroa Street
 address_2: ''
 city: Los Angeles
 state: CA
 zip: '90003'
 phone: Senele Rios / 323.755.7567
-latitude: 33.948986
-longitude: -118.282688
+latitude: 33.9484352
+longitude: -118.2829768
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '12:30pm'
 formatted_day5_close: '1:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

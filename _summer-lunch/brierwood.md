@@ -6,8 +6,8 @@ city: Lancaster
 state: CA
 zip: '93535'
 phone: 'Sharon Smith, Esmeralda Montez / 661.945.2425'
-latitude: 34.716938
-longitude: -118.1101
+latitude: 34.716831
+longitude: -118.110368
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -54,5 +54,15 @@ formatted_day5_open: '1:10pm'
 formatted_day5_close: '2:10pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

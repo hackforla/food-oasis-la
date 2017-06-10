@@ -8,8 +8,8 @@ zip: '91335'
 phone: >-
   Principal Tedesco, Julie Brown, Rikki Alvarado, Estrella / 818.343.9880 /
   Julie: 818.908.2029
-latitude: 34.2012
-longitude: -118.527852
+latitude: 34.201352
+longitude: -118.528147
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -56,5 +56,15 @@ formatted_day5_open: 12pm
 formatted_day5_close: 1pm
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 

@@ -1,13 +1,13 @@
 ---
 name: Richstone Family Center
-address_1: 13634 Cordary Ave
+address_1: 13634 Cordary Avenue
 address_2: ''
 city: Hawthorne
 state: CA
 zip: '90250'
 phone: Lesley Carrillo / 310.970.1921 x138
-latitude: 33.907182
-longitude: -118.341096
+latitude: 33.9072483
+longitude: -118.3413094
 category: Summer Lunch
 website: 'https://www.lafoodbank.org/sfsp/'
 active: 'y'
@@ -48,5 +48,15 @@ formatted_day3_open: '3:30pm'
 formatted_day3_close: '4:30pm'
 
 ---
+
+
+
+
+
+
+
+
+
+
 
 
