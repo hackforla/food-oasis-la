@@ -35,10 +35,22 @@ window.oasis = window.oasis || {};
 		}
 	}
 
+	var centerMarker;
 	function updateMarkers() {
 		var center = map.getCenter().toArray();
 		var longitude = center[0];
 		var latitude  = center[1];
+
+		var maxZoom = 14;
+		var minZoom = 7.5;
+		var zoomLevels = maxZoom - minZoom;
+		itemsPerPage = (locations.length / zoomLevels) * (zoomLevels - (map.getZoom() >= zoomLevels + 1 ? map.getZoom() - zoomLevels : 1));
+		itemsPerPage = Math.round(itemsPerPage);
+		if (map.getZoom() > maxZoom) itemsPerPage = 20;
+		if (itemsPerPage < 20) itemsPerPage = 20;
+		if (itemsPerPage > 100) itemsPerPage = 100;
+		console.log('map.getZoom(): ' + map.getZoom());
+		console.log('itemsPerPage: ' + itemsPerPage);
 
 		var userLocation = window.oasis.getLastUserLocation();
 
@@ -50,6 +62,21 @@ window.oasis = window.oasis || {};
 
 		window.oasis.addMarkers(list);
 		window.oasis.addListItems(list);
+
+		/*
+		var coordinates = [longitude, latitude];
+		if (!centerMarker) {
+			var template = document.getElementById('you-are-here-template');
+
+			var marker = document.createElement('div');
+			marker.innerHTML = template.innerHTML;
+			centerMarker = new mapboxgl.Marker(marker);
+			centerMarker.setLngLat(coordinates).addTo(map);
+		} else {
+			centerMarker.setLngLat(coordinates);
+		}
+		*/
+
 	}
 
 	function addYouAreHere(coordinates) {
