@@ -35,7 +35,16 @@ stylesheets:
 		<br />
 		{{ page['city'] }}, California {{ page['zip'] }}
 	</p>
-	<p class="type"><a href="/{{ page['category'] | downcase | replace: ' ', '-' }}">{{ page['category'] }}</a></p>
+	{% if
+		category == 'food-pantry' or
+		category == 'summer-lunch' or
+		category == 'community-garden' or
+		category == 'farmers-market' or
+		category == 'supermarket' %}
+	<p class="type"><a href="/{{ category }}">{{ page['category'] }}</a></p>
+	{% else %}
+	<p class="type">{{ page['category'] }}</p>
+	{% endif %}
 
 	<script type="text/template" class="open-template">
 		<p class="open">Open Now</p>

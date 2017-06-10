@@ -165,9 +165,12 @@ function processFile(filename) {
   var data = loadMarkdown(filename);
   if (!data) return;
 
-  addMissingLatitude(data)
+  getAddressFromName(data)
   .then(function() {
-    addMissingCity(data);
+    //addMissingLatitude(data)
+  })
+  .then(function() {
+    //addMissingCity(data);
   })
   .then(function() {
     // Save the file
@@ -177,6 +180,101 @@ function processFile(filename) {
     console.log(errorMessage);
   });
 
+}
+
+function getAddressFromName(data) {
+  return new Promise(function(succeed, fail) {
+
+    var addressForGeocoding = data.yaml.name + ', ' + data.yaml.address_1 + ', ' + data.yaml.address_2 + ', ' + data.yaml.city + ', California ' + data.yaml.zip;
+
+    var JIMS_GOOGLE_API_KEY = 'AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4';
+
+    var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(addressForGeocoding) + '&key=' + JIMS_GOOGLE_API_KEY;
+
+    request({
+      url: url,
+      json: true
+    }, function (error, response, body) {
+      if (!error && response.statusCode === 200 && body.results[0] && body.results[0].geometry) {
+
+        data.yaml.latitude  = body.results[0].geometry.location.lat;
+        data.yaml.longitude = body.results[0].geometry.location.lng;
+
+console.log(
+`---
+${yaml.safeDump(body)}
+---
+`);
+
+        var streetNumber;
+        var route;
+        var neighborhood;
+        var locality;
+        var address = body.results[0].address_components;
+        for (let index = 0; index < address.length; index++) {
+          if (address[index].types.join(',').indexOf('street_number') >= 0) {
+            streetNumber = address[index].long_name;
+          } else if (address[index].types.join(',').indexOf('route') >= 0) {
+            route = address[index].long_name;
+          } else if (address[index].types.join(',').indexOf('neighborhood') >= 0) {
+            neighborhood = address[index].long_name;
+          } else if (address[index].types.join(',').indexOf('locality') >= 0) {
+            locality = address[index].long_name;
+          } else if (address[index].types[0] === 'postal_code') {
+            data.yaml.zip = address[index].long_name;
+          }
+        }
+
+        if (streetNumber && route) {
+          data.yaml.address_1 = streetNumber + ' ' + route;
+        }
+
+        data.yaml.city = locality; //(neighborhood && neighborhood.indexOf('Los Angeles') < 0 && locality === 'Los Angeles') ? neighborhood : locality;
+
+        succeed();
+
+      } else {
+        fail(new Error("error geocoding" + addressForGeocoding));
+      }
+    });
+
+return;
+
+    var url = MAPBOX_URL + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+
+    request({
+      url: url,
+      json: true
+    }, function (error, response, body) {
+      if (!error && response.statusCode === 200) {
+
+console.log(
+`---
+${yaml.safeDump(body)}
+---
+`);
+
+        if (body.features[0].properties.address) data.yaml.address_1 = body.features[0].properties.address;
+        data.yaml.longitude = body.features[0].center[0];
+        data.yaml.latitude  = body.features[0].center[1];
+
+        var context = body.features[0].context;
+        for (let index = 0; index < context.length; index++) {
+          if (context[index].id.indexOf('place') >= 0) {
+            data.yaml.city = context[index].text;
+          } else if (context[index].id.indexOf('postcode') >= 0) {
+            data.yaml.zip = context[index].text;
+          }
+        }
+
+        succeed();
+
+      } else {
+        fail(new Error("Network error"));
+      }
+    });
+
+  });
 }
 
 function getLatitudeFromAddress(data) {
@@ -270,9 +368,9 @@ function updateLocations(folder) {
   }
 }
 
-updateLocations('../_community-garden');
-updateLocations('../_farmers-market');
-updateLocations('../_food-pantry');
-updateLocations('../_summer-lunch');
-updateLocations('../_supermarket');
+//updateLocations('../_community-garden');
+//updateLocations('../_farmers-market');
+//updateLocations('../_food-pantry');
+//updateLocations('../_summer-lunch');
+//updateLocations('../_supermarket');
 

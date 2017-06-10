@@ -158,7 +158,7 @@ window.oasis = window.oasis || {};
 				if (data.season_open && data.season_open != '' && data.season_close && data.season_close != '') {
 					element.querySelector('.dates p').innerHTML = data.season_open + ' – ' + data.season_close;
 				} else {
-					element.querySelector('.dates p').parentNode.removeChild(element.querySelector('.dates p'));
+					element.querySelector('.dates').parentNode.removeChild(element.querySelector('.dates'));
 				}
 
 				var hoursHTML = '';
