@@ -1,8 +1,8 @@
 ---
 name: 1st Place Sports Complex
-address_1: 9300 Penfield Avenue
+address_1: 9400 Penfield Avenue
 address_2: ''
-city: Los Angeles
+city: Chatsworth
 state: CA
 zip: '91311'
 phone: Vaughn Mims / 818.280.6410

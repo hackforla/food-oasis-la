@@ -2,7 +2,7 @@
 name: Harbor City Boys & Girls Club
 address_1: 1220 256th Street West
 address_2: ''
-city: Los Angeles
+city: Harbor City
 state: CA
 zip: '90710'
 phone: 'Mireyda Estrada(dir), Esther Solis (service) / 310.534.0056'
