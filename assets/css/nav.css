@@ -160,10 +160,11 @@
 	.primary-nav .nav-link {
 		order: -1;
 		flex-grow: 0;
-		padding-right: 1.5em;
+	}
+	.primary-nav {
+		padding-left: 0;
 	}
 	.primary-nav .nav-link a {
-		margin: -1.5em;
 		color: inherit;
 		padding: 1.5em;
 		opacity: 0.5;
