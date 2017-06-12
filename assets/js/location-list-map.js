@@ -48,9 +48,9 @@ window.oasis = window.oasis || {};
 		itemsPerPage = Math.round(itemsPerPage);
 		if (map.getZoom() > maxZoom) itemsPerPage = 20;
 		if (itemsPerPage < 20) itemsPerPage = 20;
-		if (itemsPerPage > 100) itemsPerPage = 100;
-		console.log('map.getZoom(): ' + map.getZoom());
-		console.log('itemsPerPage: ' + itemsPerPage);
+		if (itemsPerPage > 50) itemsPerPage = 50;
+		// console.log('map.getZoom(): ' + map.getZoom());
+		// console.log('itemsPerPage: ' + itemsPerPage);
 
 		var userLocation = window.oasis.getLastUserLocation();
 
