@@ -41,7 +41,7 @@ On the donation page, please choose *Los Angeles Brigade* and make it in honor o
 		</svg>
 
 		<h2>Food seekers</h2>
-		<h3>LA community members affected by food insecurity</h3>
+		<h3>LA community members affected by food insecurity and those interested in finding healthy food sources.</h3>
 
 		<p>FOLA is working to unify, process and create datasets that map the range of available Food resources. Customize which datasets are shown so you can see solutions that align with your personal preferences and needs</p>
 	</section>
