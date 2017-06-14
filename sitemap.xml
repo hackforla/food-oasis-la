@@ -16,13 +16,23 @@ layout: null
   <priority>1.0</priority>
 
 {% endcomment %}
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
 {% comment %}
 ######### Pages #########
 {% endcomment %}
   <url>
     <loc>https://foodoasis.la/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://foodoasis.la/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foodoasis.la/"
+                />
   </url>
   <url>
     <loc>https://foodoasis.la/add/</loc>
@@ -35,6 +45,16 @@ layout: null
   </url>
   <url>
     <loc>https://foodoasis.la/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://foodoasis.la/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://foodoasis.la/about/"
+                />  
   </url>
   <url>
     <loc>https://foodoasis.la/team/</loc>
