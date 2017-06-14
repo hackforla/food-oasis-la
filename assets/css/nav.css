@@ -130,7 +130,7 @@
 		margin: 0;
 	}
 	.pagination img,
-	.secondary-nav .back img {
+	.back img {
 		height: 1.5em;
 		width: auto;
 		border: 1px solid rgba(0, 0, 0, 0.5);
@@ -243,6 +243,11 @@
 	/* icon */
 	.secondary-nav img {
 		vertical-align: middle;
+	}
+	.secondary-nav .search a img {
+		height: 1.375em; /* @line-height */
+		width: auto;
+		vertical-align: top;
 	}
 
 

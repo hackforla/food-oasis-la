@@ -65,10 +65,13 @@
 	<nav class="secondary-nav location-list-nav">
 		{% include location-list-nav.html %}
 	</nav>
+	<nav class="secondary-nav back-nav" style="display: none;">
+		<p class="back"><a href="/locations/"><img src="/assets/images/icons/back.svg" /> <span>Back to all results</span></a></p>
+	</nav>
 	{% endif %}
 
 	{% if page.include_back == true or layout.include_back == true %}
-	<nav class="secondary-nav">
+	<nav class="secondary-nav back-nav">
 		<p class="back"><a href="/locations/" id="back-link"><img src="/assets/images/icons/back.svg" /> <span>Find more locations</span></a></p>
 	</nav>
 	{% endif %}

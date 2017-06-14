@@ -46,10 +46,6 @@
 		animation: location-details-fade-in 0.6s;
 	}
 
-	.location-details .location-summary {
-		margin-top: -0.75em;
-	}
-
 	.copy-paste input[type="text"],
 	.copy-paste textarea {
 		margin: 0.725em 0 0 0;

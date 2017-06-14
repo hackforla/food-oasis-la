@@ -1,5 +1,15 @@
 
 
+	body.location-list main > h2:first-child {
+		margin-top: -0.75rem;
+	}
+	body.location-list main > h2:first-child a {
+		color: inherit;
+		text-decoration: none;
+		display: block;
+	}
+
+
 	/* =Location List
 	----------------------------------------------- */
 	ul.location-list {
@@ -9,7 +19,7 @@
 	ul.location-list li + li {
 		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	main > ul.location-list:first-child {
+	main > ul.location-list {
 		margin-top: 0;
 	}
 
@@ -25,10 +35,6 @@
 
 	/* =Location Summary
 	----------------------------------------------- */
-	.location-summary {
-		padding-top: 0.75em;
-		padding-bottom: 0.75em;
-	}
 	a.location-summary {
 		display: block;
 		color: inherit;
@@ -51,7 +57,7 @@
 		font-size: 1.25em;
 		line-height: 1.25;
 		padding-left: 3rem;
-		width:70%;
+		width: 70%;
 	}
 	.location-summary .address {
 		margin-top: 0;
@@ -70,11 +76,13 @@
 		letter-spacing: 1px;
 		margin-bottom: 0;
 		position: absolute;
-		bottom: 1.5rem;
+		bottom: 0.75rem;
 		right: 0;
 	}
 	.location-summary .type {
 		font-style: italic;
+		margin-top: 0;
+		margin-bottom: 0;
 		/*margin-bottom: 2.25em;*/
 	}
 	.location-summary .distance {
@@ -84,7 +92,11 @@
 		position: absolute;
 		bottom: 0.75rem;
 		right: 0;
-		top:8px;
+		top: 0.75em;
+		text-align: right;
+	}
+	.location-summary .distance abbr {
+		display: block;
 	}
 
 	.pop-up-market .location-summary .type,
@@ -105,12 +117,24 @@
 	.location-summary {
 		position: relative;
 	}
+	header.location-summary,
+	.location-list li:first-child .location-summary {
+		margin-top: -1.5em; /* @location-summary-padding */
+	}
+	.location-summary {
+		padding-top: 1.5em; /* @location-summary-padding */
+		padding-bottom: 1.5em;
+	}
 	.location-summary img {
 		position: absolute;
-		top: 1.125em;
+		top: 0.375em;
 		height: 2.25em;
 		width: auto;
 	}
+	.location-summary img {
+		top: 1.875em; /* @location-summary-padding + 0.375em */
+	}
+
 	.location-summary img ~ span,
 	.location-summary img ~ p {
 		padding-left: 3rem;

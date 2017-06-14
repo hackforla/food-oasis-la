@@ -87,11 +87,27 @@ window.oasis = window.oasis || {};
 
 			var link = element.querySelector('a');
 			link.setAttribute('href', data.uri + '?' + queryString);
+			link.addEventListener('click', function(e) {
+
+				// If the user wants to open the link in a new window, let the browser handle it.
+				if (e && (e.shiftKey || e.ctrlKey || e.altKey || e.metaKey)) return;
+
+				if (!detailed) {
+					// Pretend that a map point was clicked
+					var success = window.oasis.simulateMapPointClick(data);
+
+					if (success) {
+						// Scroll to the top of the page, since the page content has changed.
+						window.scrollTo(0, 0);
+						e.preventDefault();
+					}
+				}
+			}, false);
 
 			// Category (Type)
 			var typeElement = element.querySelector('.type');
 			typeElement.textContent = data.category;
-			var img = element.querySelector('img');
+			var img = element.querySelector('.location-summary img');
 
 			// SHIM: Should we handle this in the CSS instead?
 			if (category == 'food-pantry' ||
