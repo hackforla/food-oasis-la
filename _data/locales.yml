@@ -23,18 +23,18 @@ en:
 es:
     nav:
         link_label: Menú
-        headline: Healthy food for all Angelenos
+        headline: Comida sana para todos los Angelenos
         items:
-            map_label: Map
-            organizations_label: Organizations
-            resources_label: Resources
-            about_label: About
-            team_label: Team
-            news_label: News
-            faqs_label: Frequently Asked Questions
+            map_label: Mapa
+            organizations_label: Organización
+            resources_label: Recursos
+            about_label: Acerca de
+            team_label: Equipo
+            news_label: Noticias
+            faqs_label: Preguntas Más frecuentes
             faqs_abbreviated_label: FAQs
     footer:
-        created_at_headline: Created at
-        contact_headline: Have a question? Want to help?
-        join_message: Join us at [Hack for LA](http://www.hackforla.org/civic-hack-nights), Tuesdays at 6pm
-        email_label: Send us a message
+        created_at_headline: Creado en
+        contact_headline: ¿Tengo una pregunta? ¿Quiero ayudar?
+        join_message: Únase a nosotros en [Hack for LA] (http://www.hackforla.org/civic-hack-nights), los martes a las 6 pm
+        email_label: Mandanos un mensaje
