@@ -130,6 +130,8 @@
 		padding-bottom: 0.75em;
 		text-decoration: none;
 	}
+
+	
 	li input[type="checkbox"] {
 		font-size: inherit;
 	}
@@ -177,3 +179,10 @@
 		border-color: rgb(40, 137, 187); /* @blueberry */
 	}
 
+	@media (min-width:1025px) { 
+		
+		li label:hover{
+			background-color: #b3b3b3;	
+		}
+	}
+	
