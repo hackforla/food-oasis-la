@@ -58,10 +58,21 @@
 		height: 50vh;
 	}
 
+  @keyframes map-location-fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 100;
+		}
+	}
+
 	.has-map-location-summary .location-summary-container {
 		background: rgb(253, 254, 255);
 		padding: 0.75em 1.5em 7.25em; /* @location-summary-padding */ /* 1.45em x 5 */
 	}
+
+
 
 	/* SHIM: Reduce the space above the list on small screens */
 	@media (max-height: 45em) {
@@ -411,7 +422,7 @@
 		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
-		animation: fade-in 0.6s;
+		animation: map-location-fade-in 0.4s;
 	}
 
 	/* OPTIONAL: */

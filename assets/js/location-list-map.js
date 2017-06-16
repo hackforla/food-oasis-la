@@ -154,6 +154,7 @@ window.oasis = window.oasis || {};
 		summary.innerHTML = '';
 		summary.appendChild(item);
 		document.body.classList.add('has-map-location-summary');
+    summary.classList.add('map-location-summary-animated');
 		map.resize();
 		document.querySelector('.location-summary-container').scrollTo(0, 0);
 
