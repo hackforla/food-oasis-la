@@ -54,13 +54,14 @@
 	.location-summary h2 {
 		margin-top: 0;
 		margin-bottom: 0;
-		font-size: 1.25em;
+		font-size: 1.125em;
 		line-height: 1.25;
 		padding-left: 3rem;
-		width: 70%;
+		padding-right: 2.25rem;
 	}
 	.location-summary .address {
 		margin-top: 0;
+		margin-bottom: 0;
 	}
 	.location-summary .type a,
 	.location-summary .address a {
@@ -76,7 +77,7 @@
 		letter-spacing: 1px;
 		margin-bottom: 0;
 		position: absolute;
-		bottom: 1.5rem;
+		bottom: 0.75rem; /* @location-summary-padding */
 		right: 0;
 	}
 	.location-summary .type {
@@ -119,11 +120,20 @@
 	}
 	header.location-summary,
 	.location-list li:first-child .location-summary {
-		margin-top: -1.5em; /* @location-summary-padding */
+		margin-top: -0.75em; /* @location-summary-padding */
 	}
+
+	/* SHIM: Reduce the space above the list on small screens */
+	@media (max-height: 45em) {
+		header.location-summary,
+		.location-list li:first-child .location-summary {
+			margin-top: -1.5em; /* @location-summary-padding x 2 */
+		}
+	}
+
 	.location-summary {
-		padding-top: 1.5em; /* @location-summary-padding */
-		padding-bottom: 1.5em;
+		padding-top: 0.75em; /* @location-summary-padding */
+		padding-bottom: 0.75em;
 	}
 	.location-summary img {
 		position: absolute;
@@ -132,7 +142,7 @@
 		width: auto;
 	}
 	.location-summary img {
-		top: 1.875em; /* @location-summary-padding + 0.375em */
+		top: 1.125em; /* @location-summary-padding + 0.375em */
 	}
 
 	.location-summary img ~ span,
