@@ -194,7 +194,6 @@ window.oasis = window.oasis || {};
 		currentMarker.classList.add('active');
 	}
 
-	var markers = [];
 	function addMarker(location, coordinates) {
 		var coordinates = [
 			location.longitude,
@@ -245,8 +244,11 @@ window.oasis = window.oasis || {};
 
 	var currentMarker;
 	var initializingMarkers = true;
+	var markers;
 	function addMarkers(locations, userLocation) {
 		if (!map) return;
+
+		markers = [];
 
 		var limit = window.oasis.getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
