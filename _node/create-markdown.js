@@ -1,11 +1,11 @@
 
 'use strict';
 
-var fs = require('fs');
-var mkdirp = require('mkdirp');
-var parse = require('csv-parse/lib/sync');
-var yaml = require('js-yaml');
-var request = require("request");
+let fs = require('fs');
+let mkdirp = require('mkdirp');
+let parse = require('csv-parse/lib/sync');
+let yaml = require('js-yaml');
+let request = require("request");
 
 // This is duplicated in /assests/js/map.js
 function stringToURI(str) {
@@ -28,9 +28,9 @@ function stringToURI(str) {
 }
 
 function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
-  var hours   = Number(timeString.substring(0, timeString.length - 2));
-  var minutes = timeString.substring(timeString.length - 2);
-  var ampm = 'am';
+  let hours   = Number(timeString.substring(0, timeString.length - 2));
+  let minutes = timeString.substring(timeString.length - 2);
+  let ampm = 'am';
   if (hours >= 12 && hours < 24) {
     ampm = 'pm';
   }
@@ -45,7 +45,7 @@ function createMarkdownFile(writePath, data, category_uri) {
   // Page title
   data.title = data.name + ', Food Oasis Los Angeles';
 
-  var filename = data.name.replace(' ' + data.category, '');
+  let filename = data.name.replace(' ' + data.category, '');
 
   if (category_uri === 'supermarket') {
     filename += '-' + data.address_1;
@@ -56,12 +56,12 @@ function createMarkdownFile(writePath, data, category_uri) {
   data.uri = '/' + category_uri + '/' + filename + '/';
 
 // loop thru days 1 - 7
-  for (var i = 1; i <= 7; i++) {
+  for (let i = 1; i <= 7; i++) {
     // replace hardcoded day1 & daycode 1 with __i
-    var daycodeKey = 'daycode' + i;
-    var formattedKey = 'formatted_daycode' + i;
-    var openKey = 'day' + i + '_open';
-    var closeKey = 'day' + i + '_close';
+    let daycodeKey = 'daycode' + i;
+    let formattedKey = 'formatted_daycode' + i;
+    let openKey = 'day' + i + '_open';
+    let closeKey = 'day' + i + '_close';
 
     if (data[ daycodeKey ] && data[ openKey ] && data[ closeKey ] ) {
       switch (data[ daycodeKey ].trim().toLowerCase()) {
@@ -93,7 +93,7 @@ function createMarkdownFile(writePath, data, category_uri) {
   }
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
-  var output =
+  let output =
 `---
 ${yaml.safeDump(data)}
 ---
@@ -116,9 +116,9 @@ function generateCollection(data_name, data_category) {
 
   console.log('data name: ' + data_name);
 
-  var writePath = '../_' + data_name; // Example: _/community-gardens
-  var input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
-  var records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
+  let writePath = '../_' + data_name; // Example: _/community-gardens
+  let input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
   for (let index = 0; index < records.length; index++) {
     records[index].category = data_category;
     createMarkdownFile(writePath, records[index], data_name);
@@ -126,11 +126,11 @@ function generateCollection(data_name, data_category) {
   return records;
 }
 
-var ITEMS_PER_PAGE = 20;
+let ITEMS_PER_PAGE = 20;
 function createPageFile(writePath, pageNumber, name, uri, size, color) {
 
   // Page title
-  var data = {
+  let data = {
     layout: 'location-list',
     color: color,
     title: name + ' in Los Angeles' + (pageNumber > 1 ? ', Page ' + pageNumber : ''),
@@ -157,10 +157,10 @@ function createPageFile(writePath, pageNumber, name, uri, size, color) {
 
   data.category = name;
 
-  var filename = (pageNumber === 1) ? 'index.md' : 'page' + pageNumber + '.md'; // Example page2.md
+  let filename = (pageNumber === 1) ? 'index.md' : 'page' + pageNumber + '.md'; // Example page2.md
 
    // https://www.npmjs.com/package/js-yaml#safedump-object---options-
-  var output =
+  let output =
 `---
 ${yaml.safeDump(data)}
 ---
@@ -180,12 +180,12 @@ ${yaml.safeDump(data)}
 }
 
 function generatePages(name, uri, size, color) {
-  var writePath = '../' + uri;
+  let writePath = '../' + uri;
 
   // For the number of pages needed for the list of records
     // Write the next page
 
-  var pageNumber = 0;
+  let pageNumber = 0;
   for (let index = 0; index < size; index += ITEMS_PER_PAGE) {
     pageNumber++;
     createPageFile(writePath, pageNumber, name, uri, size, color);
@@ -193,11 +193,11 @@ function generatePages(name, uri, size, color) {
 }
 
 /*
-var communityGardens = generateCollection('community-garden', 'Community Garden');
-var foodPantries     = generateCollection('food-pantry', 'Food Pantry');
-var farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
-var supermarkets     = generateCollection('supermarket', 'Supermarket');
-var summerLunches    = generateCollection('summer-lunch', 'Summer Lunch');
+let communityGardens = generateCollection('community-garden', 'Community Garden');
+let foodPantries     = generateCollection('food-pantry', 'Food Pantry');
+let farmersMarkets   = generateCollection('farmers-market', 'Farmers Market');
+let supermarkets     = generateCollection('supermarket', 'Supermarket');
+let summerLunches    = generateCollection('summer-lunch', 'Summer Lunch');
 */
 
 /*
@@ -211,9 +211,9 @@ generatePages('Summer Lunch', 'summer-lunch', summerLunches.length, 'canteloupe'
 
 /*
 function generateLocationJSON() {
-  var writePath = '../_data';
+  let writePath = '../_data';
 
-  var locations = communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets)));
+  let locations = communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets)));
   locations = locations.sort(function(a, b) {
     if (a.name < b.name) {
       return -1;
@@ -225,7 +225,7 @@ function generateLocationJSON() {
     return 0;
   });
 
-  var output = JSON.stringify(locations);
+  let output = JSON.stringify(locations);
 
   mkdirp(writePath, function (err) {
     if (err) {
@@ -246,18 +246,18 @@ function generateLocationJSON() {
 // TODO: Fetch data from the API, in lieu of the _data folder: https://fola-staging.herokuapp.com/locations
 // http://stackoverflow.com/questions/20304862/nodejs-httpget-to-a-url-with-json-response#20305118
 /*
-var url = "https://fola-staging.herokuapp.com/locations";
+let url = "https://fola-staging.herokuapp.com/locations";
 
 request({
   url: url,
   json: true
 }, function (error, response, body) {
   if (!error && response.statusCode === 200) {
-    var writePath = '../_community-garden-from-staging-api';
+    let writePath = '../_community-garden-from-staging-api';
     for (let index = 0; index < body.length; index++) {
       createMarkdownFile(writePath, body[index], 'community-garden-from-staging-api');
     }
-    var communityGardensFromStagingAPI = body;
+    let communityGardensFromStagingAPI = body;
     generatePages('Community Gardens from Staging API', 'community-garden-from-staging-api', communityGardens.length, 'lime');
     generateLocationJSON(communityGardensFromStagingAPI, 'generated-locations-from-staging-api-for-jekyll.json');
   }

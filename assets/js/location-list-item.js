@@ -1,11 +1,13 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 (function() {
 
 	function toggleDetailsOnPress(element, elementID) {
 		// Hide the details until the link is pressed
-		var link = element.querySelector('a[href="#' + elementID + '"]');
-		var details = element.querySelector('#' + elementID);
+		let link = element.querySelector('a[href="#' + elementID + '"]');
+		let details = element.querySelector('#' + elementID);
 		if (link && details) {
 			details.classList.add('inactive');
 			link.addEventListener('click', function(e) {
@@ -19,8 +21,8 @@ window.oasis = window.oasis || {};
 	}
 
 	function addDataAttribute(element, data, attribute) {
-		var dt = element.querySelector('dt.' + attribute);
-		var dd = element.querySelector('dd.' + attribute);
+		let dt = element.querySelector('dt.' + attribute);
+		let dd = element.querySelector('dd.' + attribute);
 		if (data[attribute]) {
 			if (attribute === 'website') {
 				dd.innerHTML = '<a href="' + data[attribute] + '">' + data[attribute] + '</a>';
@@ -34,9 +36,9 @@ window.oasis = window.oasis || {};
 	}
 
 	function formatTime(timeString) { // Example: 1430 ==> 2:30pm; 0900 ==> 9:00am
-		var hours   = Number(timeString.substring(0, timeString.length - 2));
-		var minutes = timeString.substring(timeString.length - 2);
-		var ampm = 'am';
+		let hours   = Number(timeString.substring(0, timeString.length - 2));
+		let minutes = timeString.substring(timeString.length - 2);
+		let ampm = 'am';
 		if (hours >= 12 && hours < 24) {
 			ampm = 'pm';
 		}
@@ -48,10 +50,10 @@ window.oasis = window.oasis || {};
 
 	function createListItem(data, containerTagName, detailed) {
 
-		var template = document.getElementById('list-item-template' + ((detailed) ? '-detailed' : ''));
+		let template = document.getElementById('list-item-template' + ((detailed) ? '-detailed' : ''));
 		if (template) {
-			var element = document.createElement(containerTagName);
-			var category = data.category.toLowerCase().replace(/\s/g, '-'); // Example: farmers-market
+			let element = document.createElement(containerTagName);
+			let category = data.category.toLowerCase().replace(/\s/g, '-'); // Example: farmers-market
 			element.innerHTML = template.innerHTML;
 			element.className = category;
 
@@ -74,18 +76,18 @@ window.oasis = window.oasis || {};
 			}
 
 			// Name
-			var nameElement = element.querySelector('h2');
+			let nameElement = element.querySelector('h2');
 			nameElement.textContent = data.name;
 
-			var params = [];
+			let params = [];
 			if (PAGE_PARAMETERS.type) params.push('type=' + PAGE_PARAMETERS.type);
 			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 			if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
 
-			var queryString = params.join('&');
+			let queryString = params.join('&');
 
-			var link = element.querySelector('a');
+			let link = element.querySelector('a');
 			link.setAttribute('href', data.uri + '?' + queryString);
 			link.addEventListener('click', function(e) {
 
@@ -94,7 +96,7 @@ window.oasis = window.oasis || {};
 
 				if (!detailed) {
 					// Pretend that a map point was clicked
-					var success = window.oasis.simulateMapPointClick(data);
+					let success = window.oasis.simulateMapPointClick(data);
 
 					if (success) {
 						// Scroll to the top of the page, since the page content has changed.
@@ -105,9 +107,9 @@ window.oasis = window.oasis || {};
 			}, false);
 
 			// Category (Type)
-			var typeElement = element.querySelector('.type');
+			let typeElement = element.querySelector('.type');
 			typeElement.textContent = data.category;
-			var img = element.querySelector('.location-summary img');
+			let img = element.querySelector('.location-summary img');
 
 			// SHIM: Should we handle this in the CSS instead?
 			if (category == 'food-pantry' ||
@@ -124,20 +126,20 @@ window.oasis = window.oasis || {};
 			}
 
 			// Address
-			var address = data.address_1;
+			let address = data.address_1;
 			if (data.address_2 && data.address_2 != '') address += '<br />' + data.address_2;
 			if (detailed) address += '<br />' + data.city + ', California ' + data.zip;
 			element.querySelector('.address').innerHTML = address;
 
 			// Open Now
-			var open = false;
-			for (var index = 0; index < data.hours.length; index++) {
+			let open = false;
+			for (let index = 0; index < data.hours.length; index++) {
 				if (window.oasis.isOpenNow(data.hours[index])) {
 					open = true;
 				}
 			}
 			if (!open) {
-				var openNowElement = element.querySelector('.open');
+				let openNowElement = element.querySelector('.open');
 				openNowElement.parentNode.removeChild(openNowElement);
 			}
 
@@ -153,7 +155,7 @@ window.oasis = window.oasis || {};
 
 				element.querySelector('.shareable-link input').value = 'https://foodoasis.la' + data.uri;
 
-				var directionsPasteable = 
+				let directionsPasteable = 
 				data.name      + '\r\n' +
 				data.address_1 + '\r\n';
 				if (data.address_2 && data.address_2 !== '') {
@@ -162,7 +164,7 @@ window.oasis = window.oasis || {};
 				directionsPasteable += data.city + ', California ' + data.zip;
 				element.querySelector('.directions textarea').value = directionsPasteable;
 
-				var directionsURL = data.latitude + ',' + data.longitude + ',' + data.name + ' ' + data.address_1;
+				let directionsURL = data.latitude + ',' + data.longitude + ',' + data.name + ' ' + data.address_1;
 				if (data.address_2 && data.address_2 !== '') {
 					directionsURL += ' ' + data.address_2;
 				}
@@ -177,11 +179,11 @@ window.oasis = window.oasis || {};
 					element.querySelector('.dates').parentNode.removeChild(element.querySelector('.dates'));
 				}
 
-				var hoursHTML = '';
-				var dt;
-				var dd;
+				let hoursHTML = '';
+				let dt;
+				let dd;
 
-				for (var index = 0; index < data.hours.length; index++) {
+				for (let index = 0; index < data.hours.length; index++) {
 
 					dt = document.createElement('dt');
 					dt.innerHTML = data.hours[index].day;
@@ -239,20 +241,20 @@ window.oasis = window.oasis || {};
 		}
 	}
 
-	var sortedLocations;
+	let sortedLocations;
 	function addListItems(locations) {
 		sortedLocations = locations;
-		var limit = window.oasis.getParameterByName('limit') || itemsPerPage;
+		let limit = window.oasis.getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
 			limit = 10;
 		}
 		limit = Number(limit);
-		var start = window.listOffset || 0;
+		let start = window.listOffset || 0;
 		limit += start;
 		if (limit >= sortedLocations.length) limit = locations.length;
-		var list = document.querySelector('ul.location-list');
+		let list = document.querySelector('ul.location-list');
 
-		var limitedList = sortedLocations.slice(start, start + limit + 1);
+		let limitedList = sortedLocations.slice(start, start + limit + 1);
 		limitedList.sort(function(a, b) {
 			if (a.travelDistance > b.travelDistance) {
 				return 1;
@@ -266,16 +268,16 @@ window.oasis = window.oasis || {};
 
 		if (list) {
 			list.innerHTML = '';
-			for (var index = 0; index < limitedList.length; index++) {
+			for (let index = 0; index < limitedList.length; index++) {
 				list.appendChild(createListItem(limitedList[index], 'li'));
 			}
 		}
 
 		if (sortedLocations.length < 1) {
-			var template = document.getElementById('no-results-template');
-			var map = document.getElementById('map');
+			let template = document.getElementById('no-results-template');
+			let map = document.getElementById('map');
 			if (template && map) {
-				var div = document.createElement('div');
+				let div = document.createElement('div');
 				div.innerHTML = template.innerHTML;
 				map.parentNode.insertBefore(div, map);
 			}

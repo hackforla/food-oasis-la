@@ -15,7 +15,7 @@ layout: default
 
 <!--
 window.oasis.findUserLocation(function(userLocation) {
-		var list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
+		let list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
 		if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 		if (document.getElementById('search-location')) document.getElementById('search-location').textContent = userLocation.label;
 		window.oasis.addMarkers(list, userLocation.geolocated, userLocation.latitude, userLocation.longitude);

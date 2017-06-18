@@ -1,34 +1,36 @@
+'use strict';
+
 // CURRENT SETUP FOR TESTING ON STAGING SITE:
 // GitHub OAuth app points to http://staging.foodoasis.la/add/
 // Gatekeeper hosted at https://jimchat-learntocode.herokuapp.com/
 
 // For testing, we'll use this as the master repo:
-var GITHUB_REPO = 'site';
-var GITHUB_OWNER = 'foodoasisla';
-var GATEKEEPER_URL = 'https://foodoasisla-gatekeeper.herokuapp.com/authenticate/';
+const GITHUB_REPO = 'site';
+const GITHUB_OWNER = 'foodoasisla';
+const GATEKEEPER_URL = 'https://foodoasisla-gatekeeper.herokuapp.com/authenticate/';
 
 // VARIABLES FOR CURRENT USER:
-var gitHubAccessToken;	
-var userName;
-var userProfileLink;
-var userPhoto;
-var userForkedRepoName;
-var pullRequestLink;
+let gitHubAccessToken;	
+let userName;
+let userProfileLink;
+let userPhoto;
+let userForkedRepoName;
+let pullRequestLink;
 
 // VARIABLES FOR GIT COMMIT PROCESS
-var pullRequestTitle = "Suggesting New Location: "; // for testing!
-var pullRequestBody = '';
-var notesFileSha;
-var newCommitSha;
+let pullRequestTitle = "Suggesting New Location: "; // for testing!
+let pullRequestBody = '';
+let notesFileSha;
+let newCommitSha;
 
 // Elements and user input:
-var messageSection = document.getElementById("messageSection");
-var loginSection = document.getElementById("loginSection");
-var inputSection = document.getElementById("inputSection");
-var userNameSpan = document.getElementById("userNameSpan");
+let messageSection = document.getElementById("messageSection");
+let loginSection = document.getElementById("loginSection");
+let inputSection = document.getElementById("inputSection");
+let userNameSpan = document.getElementById("userNameSpan");
 
 // Get the temporary GitHub code from URL params, as in ?code=gitHubTemporaryCodeHere
-var gitHubTemporaryCodeArray = window.location.href.match(/\?code=(.*)/);
+let gitHubTemporaryCodeArray = window.location.href.match(/\?code=(.*)/);
 
 // If code exists (meaning the user clicked the login button, gave access in GitHub, and was redirected):
 if (gitHubTemporaryCodeArray) {
@@ -85,19 +87,19 @@ function submitToGitHub(e) {
   }
 
   // Get user input
-  var userText = document.getElementById("userText").value;
-  var locationTitle = document.getElementById("locationTitle").value;
-  var locationCategory = document.getElementById("locationCategory").value;
-  var locationAddress1 = document.getElementById("locationAddress1").value;
-  var locationAddress2 = document.getElementById("locationAddress2").value;
-  var locationCity = document.getElementById("locationCity").value;
-  var locationZip = document.getElementById("locationZip").value;
-  var locationWebsite = document.getElementById("locationWebsite").value;
-  var locationPhone = document.getElementById("locationPhone").value;
+  let userText = document.getElementById("userText").value;
+  let locationTitle = document.getElementById("locationTitle").value;
+  let locationCategory = document.getElementById("locationCategory").value;
+  let locationAddress1 = document.getElementById("locationAddress1").value;
+  let locationAddress2 = document.getElementById("locationAddress2").value;
+  let locationCity = document.getElementById("locationCity").value;
+  let locationZip = document.getElementById("locationZip").value;
+  let locationWebsite = document.getElementById("locationWebsite").value;
+  let locationPhone = document.getElementById("locationPhone").value;
 	
   pullRequestTitle += locationTitle;
 	
-  var folderName = 'locations';
+  let folderName = 'locations';
   if (locationCategory && locationCategory != '') {
     folderName = String(locationCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase());
   }
@@ -109,21 +111,21 @@ function submitToGitHub(e) {
 
   // Convert to safe (well, safe ENOUGH for now) file name. ❤️
   // via https://stackoverflow.com/questions/8485027/javascript-url-safe-filename-safe-string  
-  var newFileName = '_' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
+  let newFileName = '_' + folderName + '/' + locationTitle.replace(/[^a-z0-9]/gi, '-').toLowerCase() + '.md';
 
   // Display loading message
   messageSection.innerHTML = "<p><em>...Loading...</em></p>";
   messageSection.classList.remove('hidden');
 
-  var latitude = '';
-  var longitude = '';
+  let latitude = '';
+  let longitude = '';
 
-  var addressForGeocoding = locationAddress1 + ' ' + locationAddress2 + ' ' + locationCity + ' California ' + locationZip;
+  let addressForGeocoding = locationAddress1 + ' ' + locationAddress2 + ' ' + locationCity + ' California ' + locationZip;
 
   // FOLA’s Mapbox Access Token
-  var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+  let MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 
-  var MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+  let MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/' + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
 
   get(MAPBOX_URL)
   .then(JSON.parse).then(function (mapboxResponse){
@@ -133,12 +135,12 @@ function submitToGitHub(e) {
   }).catch(logAndDisplayError);
 
   /*
-  var client = new MapboxClient(MAP_ACCESS_TOKEN);
+  let client = new MapboxClient(MAP_ACCESS_TOKEN);
   client.geocodeForward(addressForGeocoding, function(err, data, res) {
     // data is the geocoding result as parsed JSON
     // res is the http response, including: status, headers and entity properties
-    var latitude  = data.features[0].center[0];
-    var longitude = data.features[0].center[1];
+    let latitude  = data.features[0].center[0];
+    let longitude = data.features[0].center[1];
     doTheRest();
    });
    */
@@ -146,7 +148,7 @@ function submitToGitHub(e) {
 function doTheRest() {
 
   // Create and format content for new file with user input
-  var fileContents =
+  let fileContents =
   '---' + '\r\n' + 
   'name: ' + locationTitle + '\r\n' + 
   'address_1: ' + locationAddress1 + '\r\n' + 
@@ -168,7 +170,7 @@ function doTheRest() {
   // https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa#Unicode_strings
   fileContents = window.btoa(unescape(encodeURIComponent(fileContents)));
   
-  var updateFileData = {"path": newFileName, "message": pullRequestTitle, "content": fileContents};      
+  let updateFileData = {"path": newFileName, "message": pullRequestTitle, "content": fileContents};      
 
   // Step 3: Commit to the repo, creating new file
   postWithToken('https://api.github.com/repos/' + userName + '/' + userForkedRepoName + '/contents/' + newFileName, updateFileData, gitHubAccessToken, "PUT")
@@ -177,7 +179,7 @@ function doTheRest() {
     console.log(updateResponse);
     
     // Step 4: Create a new pull request
-    var pullRequestData = {"title": pullRequestTitle, "body": pullRequestBody, "base": "master", "head": userName + ":master"};
+    let pullRequestData = {"title": pullRequestTitle, "body": pullRequestBody, "base": "master", "head": userName + ":master"};
     return postWithToken('https://api.github.com/repos/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/pulls', pullRequestData, gitHubAccessToken);
 
   }).then(JSON.parse).then(function (pullResponse){
@@ -218,7 +220,7 @@ function logAndDisplayError (errorMessage) {
 // via http://eloquentjavascript.net/17_http.html
 function get(url) {
   return new Promise(function(succeed, fail) {
-    var req = new XMLHttpRequest();
+    let req = new XMLHttpRequest();
     req.open("GET", url, true);
     req.addEventListener("load", function() {
       if (req.status < 400)
@@ -235,7 +237,7 @@ function get(url) {
 
 function getWithCustomHeader(url, customHeader) {
   return new Promise(function(succeed, fail) {
-    var req = new XMLHttpRequest();
+    let req = new XMLHttpRequest();
     req.open("GET", url, true);
     
     req.setRequestHeader('Accept', 'application/vnd.github.v3.html');
@@ -256,7 +258,7 @@ function getWithCustomHeader(url, customHeader) {
 // Returns a promise for a POST request
 function postWithToken(url, postDataObject, accessToken, method) {
   return new Promise(function(succeed, fail) {
-    var req = new XMLHttpRequest();    
+    let req = new XMLHttpRequest();    
 
     req.open(method || "POST", url, true);
     

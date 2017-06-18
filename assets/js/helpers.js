@@ -1,13 +1,15 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 (function() {
-	var INFINITY = 9999999;
+	const INFINITY = 9999999;
 
 	// http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript#answer-901144
 	function getParameterByName(name, url) {
 		if (!url) url = window.location.href;
 		name = name.replace(/[\[\]]/g, "\\$&");
-		var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+		let regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
 		results = regex.exec(url);
 		if (!results) return null;
 		if (!results[2]) return '';
@@ -16,16 +18,16 @@ window.oasis = window.oasis || {};
 
 	// http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula/27943#answer-27943
 	function getDistanceInKilometers_Haversine(lat1, lon1, lat2, lon2) {
-		var R = 6371; // Radius of the earth in km
-		var dLat = deg2rad(lat2-lat1);
-		var dLon = deg2rad(lon2-lon1);
-		var a =
+		const R = 6371; // Radius of the earth in km
+		let dLat = deg2rad(lat2-lat1);
+		let dLon = deg2rad(lon2-lon1);
+		let a =
 		Math.sin(dLat/2) * Math.sin(dLat/2) +
 		Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
 		Math.sin(dLon/2) * Math.sin(dLon/2)
 		;
-		var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-		var d = R * c; // Distance in km
+		let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+		let d = R * c; // Distance in km
 		return d;
 	}
 
@@ -38,7 +40,7 @@ window.oasis = window.oasis || {};
 	function getDistanceForPresentation(kilometers) {
 		if (kilometers === window.oasis.INFINITY) return 'unknown';
 
-		var miles = kilometers / 1.609; // kilometers per mile
+		let miles = kilometers / 1.609; // kilometers per mile
 		miles = Math.round10(miles, -1); // Round to one decimal place
 		return parseFloat(miles.toFixed(1));
 	}
@@ -94,9 +96,9 @@ window.oasis = window.oasis || {};
 	})();
 
 
-	var isOpenNow;
+	let isOpenNow;
 	(function() {
-		var DAYS_OF_WEEK = [
+		const DAYS_OF_WEEK = [
 			'sun',
 			'mon',
 			'tue',
@@ -106,18 +108,18 @@ window.oasis = window.oasis || {};
 			'sat'
 		];
 		function getSeconds(timeString) { // Example: 1430 ==> 14.5 hours ==> 52,200 seconds
-			var hours   = Number(timeString.substring(0, timeString.length - 2));
-			var minutes = Number(timeString.substring(timeString.length - 2));
+			let hours   = Number(timeString.substring(0, timeString.length - 2));
+			let minutes = Number(timeString.substring(timeString.length - 2));
 			return (hours * 60 * 60) + (minutes * 60);
 		}
 		isOpenNow = function(data) {
 			if (data.day && data.open && data.close) {
 
-				var now = new Date();
-				var pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
+				let now = new Date();
+				let pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
 
-				var time = now.toTimeString();
-				var nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+				let time = now.toTimeString();
+				let nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
 
 				if (pacificTime &&
 					DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() &&

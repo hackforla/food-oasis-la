@@ -46,7 +46,7 @@ stylesheets:
 	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts) {
 
 		// SHIM: Pass the query string onto the next page
-		var paginationLink = document.querySelector('.pagination a[href]');
+		let paginationLink = document.querySelector('.pagination a[href]');
 		if (paginationLink) {
 			updateLink(paginationLink);
 		}
@@ -184,18 +184,18 @@ stylesheets:
 
 <script>
 // FOLA’s Mapbox API key
-var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+const MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
 
-var MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
+const MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
 
 // Los Angeles County boundaries
-var MAP_BOUNDS = [
+let MAP_BOUNDS = [
 	[-119.9442369,32.7089729], // Southwest coordinates
 	[-116.63282912,35.8275538]  // Northeast coordinates
 ];
 
 // Define the icons
-var MARKER_OPTIONS = {
+let MARKER_OPTIONS = {
 	'Community Garden': {
 		// Specify a class name we can refer to in CSS.
 		className: 'community-garden-marker',
@@ -262,12 +262,12 @@ var MARKER_OPTIONS = {
 	}
 };
 
-var FOOD_DESERTS_SOURCE = {
+let FOOD_DESERTS_SOURCE = {
 	'type': 'vector',
 	'url': 'mapbox://foodoasisla.d040onrj'
 };
 
-var FOOD_DESERTS_LAYER = {
+let FOOD_DESERTS_LAYER = {
 	'id': 'Food Deserts',
 	'type': 'fill',
 	'source': 'Food Deserts',
@@ -284,8 +284,8 @@ var FOOD_DESERTS_LAYER = {
 </script>
 
 <script>
-var itemsPerPage = {{ page.items_per_page }};
-var listOffset = {{ page.list_offset }};
+let itemsPerPage = {{ page.items_per_page }};
+let listOffset = {{ page.list_offset }};
 </script>
 
 {% if page.collection %}
@@ -297,12 +297,12 @@ var listOffset = {{ page.list_offset }};
 <script>
 (function() {
 
-	var foodSourcesList = document.querySelector('ul.location-list');
+	let foodSourcesList = document.querySelector('ul.location-list');
 	if (foodSourcesList) foodSourcesList.classList.add('sorting');
 
 	// If sorting is taking a long time, show the default list again.
 	setTimeout(function() {
-		var foodSourcesList = document.querySelector('ul.location-list');
+		let foodSourcesList = document.querySelector('ul.location-list');
 		if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 	}, 5000);
 
@@ -319,8 +319,8 @@ var listOffset = {{ page.list_offset }};
 	window.oasis.createMap();
 
 	window.oasis.findUserLocation(function(userLocation) {
-		var list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
-		var foodSourcesList = document.querySelector('ul.location-list');
+		let list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
+		let foodSourcesList = document.querySelector('ul.location-list');
 		if (foodSourcesList) foodSourcesList.classList.remove('sorting');
 		if (document.getElementById('search-location')) document.getElementById('search-location').textContent = userLocation.label;
 		window.oasis.addMarkers(list, userLocation);

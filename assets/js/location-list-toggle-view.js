@@ -1,15 +1,17 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 // Toggle between the map and list views
 (function() {
 
-	var views = document.getElementById('search-views');
-	var template = document.getElementById('search-views-template');
+	let views = document.getElementById('search-views');
+	let template = document.getElementById('search-views-template');
 	views.insertAdjacentHTML('beforeend', template.innerHTML);
 
-	var mapButton = document.getElementById('map-button');
-	var listButton = document.getElementById('list-button');
-	var title = document.getElementById('list-results-title');
+	let mapButton = document.getElementById('map-button');
+	let listButton = document.getElementById('list-button');
+	let title = document.getElementById('list-results-title');
 
 	function showMap() {
 		mapButton.style.display = "none";

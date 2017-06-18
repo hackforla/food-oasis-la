@@ -1,3 +1,4 @@
+'use strict';
 
 (function() {
 
@@ -11,23 +12,23 @@
 			Show a closed indicator inline and at the top of the page
 	*/
 
-	var headerOpenNowShowing = false;
+	let headerOpenNowShowing = false;
 	function showOpenNowInHeader() {
 		if (headerOpenNowShowing) return;
-		var openTemplate = document.querySelector('.open-template');
+		let openTemplate = document.querySelector('.open-template');
 		openTemplate.parentNode.insertAdjacentHTML('beforeend', openTemplate.innerHTML);
 		headerOpenNowShowing = true;
 	}
 
 	(function() {
-		var dtElements = document.querySelectorAll('dt[data-day]');
-		var ddElements = document.querySelectorAll('dd[data-day]');
+		let dtElements = document.querySelectorAll('dt[data-day]');
+		let ddElements = document.querySelectorAll('dd[data-day]');
 
-		for (var index = 0; index < dtElements.length; index++) {
+		for (let index = 0; index < dtElements.length; index++) {
 			(function() {
-				var dt = dtElements[index];
-				var dd = ddElements[index];
-				var data = {
+				let dt = dtElements[index];
+				let dd = ddElements[index];
+				let data = {
 					day: dd.getAttribute('data-day'),
 					open: dd.getAttribute('data-open'),
 					close: dd.getAttribute('data-close')
@@ -35,7 +36,7 @@
 				if (window.oasis.isOpenNow(data)) {
 					dt.classList.add('open');
 					dd.classList.add('open');
-					var notice = document.createElement('i');
+					let notice = document.createElement('i');
 					notice.textContent = 'Open Now';
 					dd.appendChild(document.createTextNode(' '));
 					dd.appendChild(notice);
@@ -54,7 +55,7 @@
 		// Create the map
 		mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 
-		var map = new mapboxgl.Map({
+		let map = new mapboxgl.Map({
 			container: 'map', // container id
 			style: MAP_STYLE,
 			center: [LOCATION_DETAILS.longitude, LOCATION_DETAILS.latitude], // starting position
@@ -66,9 +67,9 @@
 		map.addControl(new mapboxgl.NavigationControl( { position: 'top-right' } )); // position is optional
 
 		// Add a marker at the location of the food source
-		var template = document.getElementById('marker-template');
+		let template = document.getElementById('marker-template');
 		if (template) {
-			var marker = document.createElement('div');
+			let marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;
 
 			new mapboxgl.Marker(marker)
@@ -92,7 +93,7 @@
 
 (function() {
 
-	var PAGE_PARAMETERS = {
+	let PAGE_PARAMETERS = {
 		type    : window.oasis.getParameterByName('type'),
 		address : window.oasis.getParameterByName('address'),
 		deserts : window.oasis.getParameterByName('deserts'),
@@ -101,7 +102,7 @@
 
 	// Distance
 	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) { // If the user came from the search page
-		var distance;
+		let distance;
 		window.oasis.findUserLocation(function(userLocation) {
 			if (LOCATION_DETAILS.latitude != null && LOCATION_DETAILS.latitude != '' && userLocation && userLocation.latitude && userLocation.longitude) {
 				distance = window.oasis.getDistanceInKilometers(userLocation.latitude, userLocation.longitude, parseFloat(LOCATION_DETAILS.latitude), parseFloat(LOCATION_DETAILS.longitude));
@@ -110,7 +111,7 @@
 			}
 
 			if (distance && distance != window.oasis.INFINITY) {
-				var distanceTemplate = document.querySelector('.distance-template');
+				let distanceTemplate = document.querySelector('.distance-template');
 				distanceTemplate.parentNode.insertAdjacentHTML('beforeend', distanceTemplate.innerHTML);
 				distanceTemplate.parentNode.querySelector('.distance span').innerHTML = window.oasis.getDistanceForPresentation(distance);
 			}
@@ -118,18 +119,18 @@
 	}
 
 	function updateLink(link) {
-		var params = [];
+		let params = [];
 		if (PAGE_PARAMETERS.type)    params.push('type='    + PAGE_PARAMETERS.type);
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 		if (PAGE_PARAMETERS.open)    params.push('open='    + PAGE_PARAMETERS.open);
 
-		var queryString = params.join('&');
+		let queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
 	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) {
-		var link = document.getElementById('back-link');
+		let link = document.getElementById('back-link');
 		if (link) {
 			updateLink(link);
 			link.querySelector('span').textContent = 'Back to All Results';

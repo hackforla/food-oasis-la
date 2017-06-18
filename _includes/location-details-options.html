@@ -6,8 +6,8 @@
 <script>
 function toggleDetailsOnPress(elementID) {
 	// Hide the details until the link is pressed
-	var link = document.querySelector('a[href="#' + elementID + '"]');
-	var details = document.getElementById(elementID);
+	let link = document.querySelector('a[href="#' + elementID + '"]');
+	let details = document.getElementById(elementID);
 	if (link && details) {
 		details.classList.add('inactive');
 		link.addEventListener('click', function(e) {

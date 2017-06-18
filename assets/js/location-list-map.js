@@ -1,15 +1,17 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 (function() {
 
-	var map;
+	let map;
 	function createMap() {
 
 		if (document.getElementById('map') && 'mapboxgl' in window && mapboxgl.supported()) {
 
 			mapboxgl.accessToken = MAP_ACCESS_TOKEN;
 
-			var container = document.getElementById('map');
+			let container = document.getElementById('map');
 			container.classList.add('active');
 
 			map = new mapboxgl.Map({
@@ -35,9 +37,9 @@ window.oasis = window.oasis || {};
 		}
 	}
 
-	var searchThisArea;
+	let searchThisArea;
 	function addSearchThisArea() {
-		var template = document.getElementById('search-this-area-template');
+		let template = document.getElementById('search-this-area-template');
 
 		searchThisArea = document.createElement('div');
 		searchThisArea.innerHTML = template.innerHTML;
@@ -50,7 +52,7 @@ window.oasis = window.oasis || {};
 			document.querySelector('main').scrollTo(0, 0);
 		}, false);
 
-		var mapContainer = document.getElementById('map');
+		let mapContainer = document.getElementById('map');
 		mapContainer.parentNode.insertBefore(searchThisArea, mapContainer);
 	}
 
@@ -64,16 +66,16 @@ window.oasis = window.oasis || {};
 		document.body.classList.remove('has-search-this-area');
 	}
 
-	var centerMarker;
+	let centerMarker;
 	function updateMarkers() {
-		var center = map.getCenter().toArray();
-		var longitude = center[0];
-		var latitude  = center[1];
+		let center = map.getCenter().toArray();
+		let longitude = center[0];
+		let latitude  = center[1];
 
 		/*
-		var maxZoom = 14;
-		var minZoom = 7.5;
-		var zoomLevels = maxZoom - minZoom;
+		let maxZoom = 14;
+		let minZoom = 7.5;
+		let zoomLevels = maxZoom - minZoom;
 		itemsPerPage = (locations.length / zoomLevels) * (zoomLevels - (map.getZoom() >= zoomLevels + 1 ? map.getZoom() - zoomLevels : 1));
 		itemsPerPage = Math.round(itemsPerPage);
 		if (map.getZoom() > maxZoom) itemsPerPage = 20;
@@ -83,11 +85,11 @@ window.oasis = window.oasis || {};
 		// console.log('map.getZoom(): ' + map.getZoom());
 		// console.log('itemsPerPage: ' + itemsPerPage);
 
-		var userLocation = window.oasis.getLastUserLocation();
+		let userLocation = window.oasis.getLastUserLocation();
 
 		if (!userLocation) return;
 
-		var list = window.oasis.sortByClosest(latitude, longitude, userLocation.latitude, userLocation.longitude);
+		let list = window.oasis.sortByClosest(latitude, longitude, userLocation.latitude, userLocation.longitude);
 
 		removeAllMarkers();
 
@@ -95,11 +97,11 @@ window.oasis = window.oasis || {};
 		window.oasis.addListItems(list);
 
 		/*
-		var coordinates = [longitude, latitude];
+		let coordinates = [longitude, latitude];
 		if (!centerMarker) {
-			var template = document.getElementById('you-are-here-template');
+			let template = document.getElementById('you-are-here-template');
 
-			var marker = document.createElement('div');
+			let marker = document.createElement('div');
 			marker.innerHTML = template.innerHTML;
 			centerMarker = new mapboxgl.Marker(marker);
 			centerMarker.setLngLat(coordinates).addTo(map);
@@ -113,9 +115,9 @@ window.oasis = window.oasis || {};
 
 	function addYouAreHere(coordinates) {
 
-		var template = document.getElementById('you-are-here-template');
+		let template = document.getElementById('you-are-here-template');
 
-		var marker = document.createElement('div');
+		let marker = document.createElement('div');
 		marker.innerHTML = template.innerHTML;
 
 		return new mapboxgl.Marker(marker)
@@ -123,17 +125,17 @@ window.oasis = window.oasis || {};
 		.addTo(map);
 	}
 
-	var markerResetMethods = [];
+	let markerResetMethods = [];
 	function resetMarkers() {
-		for (var index = 0; index < markerResetMethods.length; index++) {
+		for (let index = 0; index < markerResetMethods.length; index++) {
 			markerResetMethods[index]();
 		}
 	}
 
 	function createMarker(options, data) {
-		var marker = document.createElement('div');
+		let marker = document.createElement('div');
 		marker.className = 'marker ' + options.className;
-		var span = document.createElement('span');
+		let span = document.createElement('span');
 		span.textContent = data.name;
 		span.className = 'marker-label';
 		marker.appendChild(span);
@@ -149,8 +151,8 @@ window.oasis = window.oasis || {};
 	}
 
 	function showLocationSummary(location, simulated) {
-		var item = window.oasis.createListItem(location, 'div', true);
-		var summary = document.getElementById('map-location-summary');
+		let item = window.oasis.createListItem(location, 'div', true);
+		let summary = document.getElementById('map-location-summary');
 		summary.innerHTML = '';
 		summary.appendChild(item);
 		document.body.classList.add('has-map-location-summary');
@@ -168,7 +170,7 @@ window.oasis = window.oasis || {};
 	function hideLocationSummary() {
 		if (currentMarker) currentMarker.classList.remove('active')
 
-		var summary = document.getElementById('map-location-summary');
+		let summary = document.getElementById('map-location-summary');
 		summary.innerHTML = '';
 
 		document.body.classList.remove('has-map-location-summary');
@@ -177,9 +179,9 @@ window.oasis = window.oasis || {};
 
 	/*
 	function handleMapPress() {
-		var mapContainer = document.getElementById('map');
+		let mapContainer = document.getElementById('map');
 		mapContainer.addEventListener('click', function(e) {
-			var target = e.target;
+			let target = e.target;
 			if (target.getAttribute('class') === 'mapboxgl-canvas') {
 				hideLocationSummary();
 				//window.oasis.showMap();
@@ -194,13 +196,13 @@ window.oasis = window.oasis || {};
 		currentMarker.classList.add('active');
 	}
 
-	function addMarker(location, coordinates) {
-		var coordinates = [
+	function addMarker(location) {
+		let coordinates = [
 			location.longitude,
 			location.latitude
 		];
 
-		var options = MARKER_OPTIONS[location.category];
+		let options = MARKER_OPTIONS[location.category];
 
 		if (!options) {
 			options = {
@@ -213,20 +215,20 @@ window.oasis = window.oasis || {};
 			}
 		}
 
-		var marker = createMarker(options, location);
+		let marker = createMarker(options, location);
 
 		new mapboxgl.Marker(marker)
 			.setLngLat(coordinates)
 			.addTo(map);
 
 		marker.addEventListener('click', function(e) {
-			var simulated = (e.clientX === 0 && e.clientY === 0); // This event was triggered by an element in the list, and not an actual click on the marker.
+			let simulated = (e.clientX === 0 && e.clientY === 0); // This event was triggered by an element in the list, and not an actual click on the marker.
 			updateCurrentMarker(marker);
 			showLocationSummary(location, simulated);
 		});
 
 		markerResetMethods.push(function() {
-			var icon = icons[location.category];
+			let icon = icons[location.category];
 			marker.setIcon(icon);
 		});
 
@@ -237,43 +239,43 @@ window.oasis = window.oasis || {};
 		return coordinates;
 	}
 	function removeAllMarkers() {
-		for (var index = 0; index < markers.length; index++) {
+		for (let index = 0; index < markers.length; index++) {
 			markers[index].remove();
 		}
 	}
 
-	var currentMarker;
-	var initializingMarkers = true;
-	var markers;
+	let currentMarker;
+	let initializingMarkers = true;
+	let markers;
 	function addMarkers(locations, userLocation) {
 		if (!map) return;
 
 		markers = [];
 
-		var limit = window.oasis.getParameterByName('limit') || itemsPerPage;
+		let limit = window.oasis.getParameterByName('limit') || itemsPerPage;
 		if (!limit) {
 			limit = 10;
 		}
 		limit = Number(limit);
-		var start = window.listOffset || 0;
+		let start = window.listOffset || 0;
 		limit += start;
 		if (limit >= locations.length) limit = locations.length;
-		var bounds = [];
+		let bounds = [];
 
 		document.body.classList.add('hidden-marker-labels');
 
 		// Loop through the locations
-		for (var index = start; index < locations.length && index < limit; index++) {
+		for (let index = start; index < locations.length && index < limit; index++) {
 
 			// Add a marker
-			var coordinates = addMarker(locations[index]);
+			let coordinates = addMarker(locations[index]);
 
 			bounds.push(coordinates);
 		}
 
 		if (userLocation && userLocation.latitude && userLocation.longitude) {
 			// Add a “You are here” marker
-			var coordinates = [userLocation.longitude, userLocation.latitude];
+			let coordinates = [userLocation.longitude, userLocation.latitude];
 			addYouAreHere(coordinates);
 			bounds.unshift(coordinates);
 		}
@@ -290,7 +292,7 @@ window.oasis = window.oasis || {};
 		// Deselect the current marker if the map is pressed
 		if (initializingMarkers) {
 			//handleMapPress();
-			var backNav = document.querySelector('.back-nav a');
+			let backNav = document.querySelector('.back-nav a');
 			if (backNav) backNav.addEventListener('click', function(e) {
 				hideLocationSummary();
 				//window.oasis.showMap();
@@ -309,10 +311,10 @@ window.oasis = window.oasis || {};
 
 		map.setZoom(15);
 
-		var mapLngLatBounds = new mapboxgl.LngLatBounds();
+		let mapLngLatBounds = new mapboxgl.LngLatBounds();
 
-		var limit = 10;
-		for (var index = 0; index < limit && index < bounds.length; index++) {
+		let limit = 10;
+		for (let index = 0; index < limit && index < bounds.length; index++) {
 			mapLngLatBounds.extend(bounds[index]);
 		}
 
@@ -325,7 +327,7 @@ window.oasis = window.oasis || {};
 	}
 
 	function simulateMapPointClick(data) {
-		for (var index = 0; index < markers.length; index++) {
+		for (let index = 0; index < markers.length; index++) {
 			if (markers[index]._data.name === data.name) {
 				markers[index].click();
 				return true;

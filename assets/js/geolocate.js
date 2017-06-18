@@ -1,16 +1,18 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 (function() {
 
-	var LOS_ANGELES = {
+	const LOS_ANGELES = {
 		latitude: 34.052234,
 		longitude: -118.243685
 	};
 
-	var lastUserLocation;
+	let lastUserLocation;
 
 	function findUserLocation(callback) {
-		var address = window.oasis.getParameterByName('address');
+		let address = window.oasis.getParameterByName('address');
 
 		// If the user passed in an address, and if the Google Maps geocoder is available
 		if (address && "google" in window) {
@@ -39,13 +41,13 @@ window.oasis = window.oasis || {};
 			address += ' Los Angeles';
 		}
 
-		var geocoder = new google.maps.Geocoder();
+		let geocoder = new google.maps.Geocoder();
 
 		geocoder.geocode({'address': address}, function(results, status) {
 			if (status === google.maps.GeocoderStatus.OK) {
 
-				var latitude  = results[0].geometry.location.lat();
-				var longitude = results[0].geometry.location.lng();
+				let latitude  = results[0].geometry.location.lat();
+				let longitude = results[0].geometry.location.lng();
 
 				setLastUserLocation({
 					latitude: latitude,

@@ -1,19 +1,19 @@
 
 'use strict';
 
-var fs = require('fs');
-var yaml = require('js-yaml');
-var request = require("request");
+let fs = require('fs');
+let yaml = require('js-yaml');
+let request = require("request");
 
-var UPDATE_LIMIT = 100;
+const UPDATE_LIMIT = 100;
 
 // FOLA’s Mapbox Access Token
-var MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
-var MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/';
+const MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+const MAPBOX_URL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/';
 
 function getYaml(text, filename) {
-  var DELIMITER = '---';
-  var items = text.split('---');
+  const DELIMITER = '---';
+  let items = text.split(DELIMITER);
   if (items.length === 3) {
     return items[1];
   } else {
@@ -25,8 +25,8 @@ function getYaml(text, filename) {
 }
 
 function getContent(text, filename) {
-  var DELIMITER = '---';
-  var items = text.split('---');
+  const DELIMITER = '---';
+  let items = text.split(DELIMITER);
   if (items.length === 3) {
     return items[2];
   } else {
@@ -37,17 +37,17 @@ function getContent(text, filename) {
 }
 
 function loadMarkdown(filename) {
-  var input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  let input = fs.readFileSync(filename, 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
 
   // Get document, or throw exception on error 
   try {
-    var text = fs.readFileSync(filename, 'utf8');
-    var yamlText = getYaml(text, filename);
-    var contentText = getContent(text, filename);
+    let text = fs.readFileSync(filename, 'utf8');
+    let yamlText = getYaml(text, filename);
+    let contentText = getContent(text, filename);
 
     if (!yamlText || !contentText) return;
 
-    var data = {}
+    let data = {}
     data.yaml = yaml.safeLoad(yamlText);
     data.content = contentText;
     return data;
@@ -64,7 +64,7 @@ function saveMarkdown(filename, data) {
   // console.dir(data);
 
   // https://www.npmjs.com/package/js-yaml#safedump-object---options-
-  var output =
+  let output =
 `---
 ${yaml.safeDump(data.yaml)}
 ---
@@ -158,11 +158,11 @@ function addMissingCity(data) {
   });
 }
 
-var updateCount = 0;
+let updateCount = 0;
 function processFile(filename) {
 
   // Load the contents of the file
-  var data = loadMarkdown(filename);
+  let data = loadMarkdown(filename);
   if (!data) return;
 
   getAddressFromName(data)
@@ -185,11 +185,11 @@ function processFile(filename) {
 function getAddressFromName(data) {
   return new Promise(function(succeed, fail) {
 
-    var addressForGeocoding = data.yaml.name + ', ' + data.yaml.address_1 + ', ' + data.yaml.address_2 + ', ' + data.yaml.city + ', California ' + data.yaml.zip;
+    let addressForGeocoding = data.yaml.name + ', ' + data.yaml.address_1 + ', ' + data.yaml.address_2 + ', ' + data.yaml.city + ', California ' + data.yaml.zip;
 
-    var JIMS_GOOGLE_API_KEY = 'AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4';
+    const JIMS_GOOGLE_API_KEY = 'AIzaSyBP5KxqO9v1sLhXlkrG3vDiDdOJvYLJ0H4';
 
-    var url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(addressForGeocoding) + '&key=' + JIMS_GOOGLE_API_KEY;
+    let url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + encodeURIComponent(addressForGeocoding) + '&key=' + JIMS_GOOGLE_API_KEY;
 
     request({
       url: url,
@@ -206,11 +206,11 @@ ${yaml.safeDump(body)}
 ---
 `);
 
-        var streetNumber;
-        var route;
-        var neighborhood;
-        var locality;
-        var address = body.results[0].address_components;
+        let streetNumber;
+        let route;
+        let neighborhood;
+        let locality;
+        let address = body.results[0].address_components;
         for (let index = 0; index < address.length; index++) {
           if (address[index].types.join(',').indexOf('street_number') >= 0) {
             streetNumber = address[index].long_name;
@@ -240,7 +240,7 @@ ${yaml.safeDump(body)}
 
 return;
 
-    var url = MAPBOX_URL + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+    let url = MAPBOX_URL + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
 
     request({
       url: url,
@@ -258,7 +258,7 @@ ${yaml.safeDump(body)}
         data.yaml.longitude = body.features[0].center[0];
         data.yaml.latitude  = body.features[0].center[1];
 
-        var context = body.features[0].context;
+        let context = body.features[0].context;
         for (let index = 0; index < context.length; index++) {
           if (context[index].id.indexOf('place') >= 0) {
             data.yaml.city = context[index].text;
@@ -280,9 +280,9 @@ ${yaml.safeDump(body)}
 function getLatitudeFromAddress(data) {
   return new Promise(function(succeed, fail) {
 
-    var addressForGeocoding = data.address_1 + ' ' + data.address_2 + ' ' + data.city + ' California ' + data.zip;
+    let addressForGeocoding = data.address_1 + ' ' + data.address_2 + ' ' + data.city + ' California ' + data.zip;
 
-    var url = MAPBOX_URL + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+    let url = MAPBOX_URL + encodeURIComponent(addressForGeocoding) + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
 
     request({
       url: url,
@@ -306,7 +306,7 @@ function getLatitudeFromAddress(data) {
 function getCityNameFromLatitude(data) {
   return new Promise(function(succeed, fail) {
 
-    var url = MAPBOX_URL + data.longitude + ',' + data.latitude + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
+    let url = MAPBOX_URL + data.longitude + ',' + data.latitude + '.json?limit=1&access_token=' + MAP_ACCESS_TOKEN;
 
     request({
       url: url,
@@ -315,7 +315,7 @@ function getCityNameFromLatitude(data) {
       if (!error && response.statusCode === 200) {
         //console.log(body.features[0]);
 
-        var context = body.features[0].context;
+        let context = body.features[0].context;
         for (let index = 0; index < context.length; index++) {
           if (context[index].id.indexOf('place') >= 0) {
             // console.log(context[index].text);
@@ -334,13 +334,13 @@ function getCityNameFromLatitude(data) {
 // https://stackoverflow.com/questions/20822273/best-way-to-get-folder-and-file-list-in-javascript#21459809
 function getAllFilesFromFolder(dir) {
 
-    var filesystem = require("fs");
-    var results = [];
+    let filesystem = require("fs");
+    let results = [];
 
     filesystem.readdirSync(dir).forEach(function(file) {
 
         file = dir+'/'+file;
-        var stat = filesystem.statSync(file);
+        let stat = filesystem.statSync(file);
 
         if (stat && stat.isDirectory()) {
             results = results.concat(_getAllFilesFromFolder(file))
@@ -353,7 +353,7 @@ function getAllFilesFromFolder(dir) {
 };
 
 function updateLocations(folder) {
-  var locations = getAllFilesFromFolder(folder);
+  let locations = getAllFilesFromFolder(folder);
 
   //console.log(locations);
 

@@ -26,7 +26,7 @@ classname: home
 
 	/* OPTIONAL: Show a random image behind the introduction
 	----------------------------------------------- */
-	var images = [
+	let images = [
 		'/assets/images/photos/daily-organics/1.jpg',
 		'/assets/images/photos/daily-organics/2.jpg',
 		'/assets/images/photos/santa-monica/1.jpg',
@@ -47,17 +47,17 @@ classname: home
 		'/assets/images/photos/santa-monica/16.jpg',
 		'/assets/images/photos/santa-monica/17.jpg'
 	];
-	var min = 0;
-	var max = images.length - 1;
-	var random = Math.floor(Math.random() * (max - min + 1) + min);
-	var introduction = document.querySelector('.introduction');
+	let min = 0;
+	let max = images.length - 1;
+	let random = Math.floor(Math.random() * (max - min + 1) + min);
+	let introduction = document.querySelector('.introduction');
 	introduction.style.backgroundImage = 'url(' + images[random] + ')';
 
-	var template = document.getElementById('photo-credit-template');
+	let template = document.getElementById('photo-credit-template');
 	introduction.insertAdjacentHTML('beforeend', template.innerHTML);
-	var creditLink = document.querySelector('.photo-credit a');
+	let creditLink = document.querySelector('.photo-credit a');
 
-	var data = {
+	let data = {
 		'santa-monica': {
 			url: 'https://www.smgov.net/portals/farmersmarket/',
 			name: 'Santa Monica Farmers’ Market'
@@ -68,7 +68,7 @@ classname: home
 		}
 	}
 
-	var id = (images[random].indexOf('santa-monica') >= 0) ? 'santa-monica' : 'daily-organics';
+	let id = (images[random].indexOf('santa-monica') >= 0) ? 'santa-monica' : 'daily-organics';
 
 	creditLink.textContent = data[id].name;
 	creditLink.href        = data[id].url;
@@ -95,7 +95,7 @@ classname: home
 	update();
 
 	(function() {
-		var throttle;
+		let throttle;
 		window.addEventListener('scroll', function() {
 			if (throttle) clearTimeout(throttle);
 			throttle = setTimeout(update, 10);
@@ -108,7 +108,7 @@ classname: home
 	window.addEventListener('load', update, false);
 
 	(function() {
-		var throttle;
+		let throttle;
 		window.addEventListener('resize', function() {
 			if (throttle) clearTimeout(throttle);
 			throttle = setTimeout(update, 100);

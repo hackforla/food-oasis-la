@@ -1,3 +1,5 @@
+'use strict';
+
 window.oasis = window.oasis || {};
 
 (function() {
@@ -9,9 +11,9 @@ window.oasis = window.oasis || {};
 			userLatitude  = latitude;
 			userLongitude = longitude;
 		}
-		var list = [];
-		var nextLatitude, nextLongitude, distance, distanceFromUser;
-		for (index = 0; index < locations.length; index++) {
+		let list = [];
+		let nextLatitude, nextLongitude, distance, distanceFromUser;
+		for (let index = 0; index < locations.length; index++) {
 			nextLatitude  = locations[ index ].latitude;
 			nextLongitude = locations[ index ].longitude;
 			if (nextLatitude != null && nextLatitude != '') {
@@ -36,11 +38,11 @@ window.oasis = window.oasis || {};
 			return 0;
 		});
 
-		var type = window.oasis.getParameterByName('type');
+		let type = window.oasis.getParameterByName('type');
 		if (type) {
-			var types = type.split('|');
+			let types = type.split('|');
 			list = list.filter(function(item) {
-				for (var index = 0; index < types.length; index++) {
+				for (let index = 0; index < types.length; index++) {
 					if (item.category.toLowerCase().replace(/\s/g, '-') === types[index]) {
 						return true;
 					}
@@ -55,11 +57,11 @@ window.oasis = window.oasis || {};
 			});
 		}
 
-		var open = window.oasis.getParameterByName('open');
+		let open = window.oasis.getParameterByName('open');
 		if (open) {
 			list = list.filter(function(item) {
-				var open = false;
-				for (var index = 0; index < item.hours.length; index++) {
+				let open = false;
+				for (let index = 0; index < item.hours.length; index++) {
 					if (window.oasis.isOpenNow(item.hours[index])) {
 						open = true;
 					}
