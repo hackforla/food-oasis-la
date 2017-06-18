@@ -58,7 +58,7 @@
 		height: 50vh;
 	}
 
-  @keyframes map-location-fade-in {
+	@keyframes map-location-fade-in {
 		0% {
 			opacity: 0;
 		}
