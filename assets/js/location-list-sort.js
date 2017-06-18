@@ -12,7 +12,7 @@ window.oasis = window.oasis || {};
 			userLongitude = longitude;
 		}
 		let list = [];
-		let nextLatitude, nextLongitude, distance, distanceFromUser;
+		let nextLatitude, nextLongitude, distance, travelDistance, distanceFromUser;
 		for (let index = 0; index < locations.length; index++) {
 			nextLatitude  = locations[ index ].latitude;
 			nextLongitude = locations[ index ].longitude;
