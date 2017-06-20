@@ -6,6 +6,7 @@ en:
         headline: Healthy food for all Angelenos
         items:
             map_label: Map
+            add_location_label: Add a Location
             organizations_label: Organizations
             resources_label: Resources
             about_label: About
@@ -13,10 +14,21 @@ en:
             news_label: News
             faqs_label: Frequently Asked Questions
             faqs_abbreviated_label: FAQs
+            donate_label: Donate
     footer:
         created_at_headline: Created at
+        support_headline: Support this project
+        support_message: >
+            We’re a volunteer-based project and would love your donation!
+
+            On the donation page, please choose _Los Angeles Brigade_ and make it in honor of _Food Oasis LA_ with the email address _info@foodoasis.la_
+        support_label: Donate
+        subscribe_headline: Subscribe to our mailing list
+        subscribe_message: Hear the latest from Food Oasis LA!
+        subscribe_label: Subscribe
         contact_headline: Have a question? Want to help?
-        join_message: Join us at [Hack for LA](http://www.hackforla.org/civic-hack-nights), Tuesdays at 6pm
+        # TODO: Change link to… http://www.hackforla.org
+        join_message: Join us at [Hack for LA](https://www.meetup.com/hackforla/), Tuesdays at 6pm
         email_label: Send us a message
 
 # Español
@@ -26,6 +38,7 @@ es:
         headline: Comida sana para todos los Angelenos
         items:
             map_label: Mapa
+            add_location_label: Add a Location
             organizations_label: Organización
             resources_label: Recursos
             about_label: Acerca de
@@ -33,8 +46,19 @@ es:
             news_label: Noticias
             faqs_label: Preguntas Más frecuentes
             faqs_abbreviated_label: FAQs
+            donate_label: Donate
     footer:
         created_at_headline: Creado en
+        support_headline: Support this project
+        support_message: >
+            We’re a volunteer-based project and would love your donation!
+
+            On the donation page, please choose _Los Angeles Brigade_ and make it in honor of _Food Oasis LA_ with the email address _info@foodoasis.la_
+        support_label: Donate
+        subscribe_headline: Subscribe to our mailing list
+        subscribe_message: Hear the latest from Food Oasis LA!
+        subscribe_label: Subscribe
         contact_headline: ¿Tengo una pregunta? ¿Quiero ayudar?
-        join_message: Únase a nosotros en [Hack for LA] (http://www.hackforla.org/civic-hack-nights), los martes a las 6 pm
+        # TODO: Change link to… http://www.hackforla.org
+        join_message: Únase a nosotros en [Hack for LA](https://www.meetup.com/hackforla/), los martes a las 6 pm
         email_label: Mandanos un mensaje
