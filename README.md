@@ -106,7 +106,7 @@ summer-lunch/*
 supermarket/*
 ```
 
-## How to add new location
+## How to add a new location
 
 The simplest way to add a new location is using the [add form](https://foodoasis.la/add/).
 
