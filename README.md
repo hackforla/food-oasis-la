@@ -108,9 +108,9 @@ supermarket/*
 
 ## How to add a new location
 
-The simplest way to add a new location is using the [add form](https://foodoasis.la/add/).
+You can add a new location with the [add form](https://foodoasis.la/add/).
 
-If you want to add a lot of new locations, these files may help…
+If you want to add a lot of new locations at once, these files may help…
 
 ```
 _node/create-markdown.js
