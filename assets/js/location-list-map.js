@@ -157,7 +157,12 @@ window.oasis = window.oasis || {};
 		summary.appendChild(item);
 		document.body.classList.add('has-map-location-summary');
 		map.resize();
-		document.querySelector('.location-summary-container').scrollTo(0, 0);
+		// document.querySelector('.location-summary-container').scrollTo(0, 0);
+
+    const url = item.querySelector('a').getAttribute('href');
+    console.log(url);
+    window.history.replaceState({}, null, url);
+    console.log(item.querySelector('a').href);
 
 		// SHIM: Center the marker and zoom in
 		if (simulated) {
