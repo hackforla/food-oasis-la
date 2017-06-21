@@ -70,6 +70,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Steve Bradford
 * Ian Carroll
 * Andrew Douglas
+* Mario Esparza
 * Tamura Fatherree
 * Kiki Garrison
 * Melissa Halim
@@ -77,6 +78,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Regan Hutson
 * Jon Kim
 * Stella Kim
+* Liz Krane
 * Michael Kunc
 * Hannah Lazarus
 * Jason Lipshin
@@ -87,6 +89,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Johnny Romano
 * Wesley Rowe
 * JR Ruiz
+* Robert Sandor
 * Jon Schleuss
 * George Syrop
 * Wes Tawfik
