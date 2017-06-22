@@ -14,4 +14,10 @@ uri: /locations/daily-organics/
 ---
 
 ### Hours
-Thursday Friday and Saturday 11 to 6
+
+Thursday, Friday and Saturday, from 11am to 6pm
+
+### Photos
+
+![Apples at the Daily Organics pop up market](/assets/images/photos/daily-organics/1.jpg)
+![Squash at the Daily Organics pop up market](/assets/images/photos/daily-organics/2.jpg)

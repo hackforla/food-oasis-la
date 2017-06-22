@@ -36,11 +36,11 @@
 
 	let data = {
 		'santa-monica': {
-			url: 'https://www.smgov.net/portals/farmersmarket/',
+			url: '/farmers-market/santa-monica-downtown/',
 			name: 'Santa Monica Farmers’ Market'
 		},
 		'daily-organics': {
-			url: 'https://dailyorganicsla.com',
+			url: '/locations/daily-organics/',
 			name: 'Daily Organics'
 		}
 	}

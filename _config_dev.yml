@@ -14,6 +14,7 @@ exclude:
   - food-pantry
   - summer-lunch
   - supermarket
+  - sitemap.xml
 
 keep_files:
   - .git
@@ -28,3 +29,4 @@ keep_files:
   - food-pantry
   - summer-lunch
   - supermarket
+  - sitemap.xml
