@@ -14,4 +14,11 @@
 	<li class="view" id="map-button" style="display: none;"><a href="">Map</button></a>
 </script>
 
+<script>
+// SHIM: Support type by parameter, or as part of the URL
+var PAGE_TYPE
+{% if page.category and page.category != 'Healthy Food' %}
+PAGE_TYPE = '{{ page.collection }}';
+{% endif %}
+</script>
 <script src="/assets/js/location-list-nav.js"></script>

@@ -15,7 +15,7 @@ let updateLink;
 	}
 
 	PAGE_PARAMETERS = {
-		type   : getParameterByName('type') {% if page.category and page.category != 'Healthy Food' %}|| '{{ page.collection }}'{% endif %},
+		type   : getParameterByName('type') || PAGE_TYPE,
 		address: getParameterByName('address'),
 		deserts: getParameterByName('deserts'),
 		open: getParameterByName('open')

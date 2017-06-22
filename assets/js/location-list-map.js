@@ -2,6 +2,105 @@
 
 window.oasis = window.oasis || {};
 
+// FOLA’s Mapbox API key
+const MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+
+const MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
+
+// Los Angeles County boundaries
+let MAP_BOUNDS = [
+	[-119.9442369,32.7089729], // Southwest coordinates
+	[-116.63282912,35.8275538]  // Northeast coordinates
+];
+
+// Define the icons
+let MARKER_OPTIONS = {
+	'Community Garden': {
+		// Specify a class name we can refer to in CSS.
+		className: 'community-garden-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Farmers Market': {
+		// Specify a class name we can refer to in CSS.
+		className: 'farmers-market-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Food Pantry': {
+		// Specify a class name we can refer to in CSS.
+		className: 'food-pantry-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Orchard': {
+		// Specify a class name we can refer to in CSS.
+		className: 'orchard-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Pop Up Market': {
+		// Specify a class name we can refer to in CSS.
+		className: 'pop-up-market-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Restaurant': {
+		// Specify a class name we can refer to in CSS.
+		className: 'restaurant-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Summer Lunch': {
+		// Specify a class name we can refer to in CSS.
+		className: 'summer-lunch-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	},
+	'Supermarket': {
+		// Specify a class name we can refer to in CSS.
+		className: 'farmers-market-marker',
+		// Set marker width and height
+		iconSize: [30, 46],
+		iconAnchor: [15, 40],
+		popupAnchor: [0, -23]
+	}
+};
+
+let FOOD_DESERTS_SOURCE = {
+	'type': 'vector',
+	'url': 'mapbox://foodoasisla.d040onrj'
+};
+
+let FOOD_DESERTS_LAYER = {
+	'id': 'Food Deserts',
+	'type': 'fill',
+	'source': 'Food Deserts',
+	'layout': {
+		'visibility': 'visible'
+	},
+	'paint': {
+		'fill-color': '#FF0000',
+		'fill-opacity': 0.1
+	},
+	'filter': ["==", "LI LA De_4", "1"],
+	'source-layer': 'USDA_Food_Desert_Tracts_2010-65gavx'
+};
+
 (function() {
 
 	let map;
@@ -157,12 +256,12 @@ window.oasis = window.oasis || {};
 		summary.appendChild(item);
 		document.body.classList.add('has-map-location-summary');
 		map.resize();
-		// document.querySelector('.location-summary-container').scrollTo(0, 0);
+		document.querySelector('.location-summary-container').scrollTo(0, 0);
 
-    const url = item.querySelector('a').getAttribute('href');
-    console.log(url);
-    window.history.replaceState({}, null, url);
-    console.log(item.querySelector('a').href);
+		const url = item.querySelector('a').getAttribute('href');
+		// console.log(url);
+		window.history.replaceState({}, null, url);
+		// console.log(item.querySelector('a').href);
 
 		// SHIM: Center the marker and zoom in
 		if (simulated) {
@@ -345,3 +444,14 @@ window.oasis = window.oasis || {};
 	window.oasis.hideLocationSummary = hideLocationSummary;
 	window.oasis.simulateMapPointClick = simulateMapPointClick;
 })();
+
+window.oasis.createMap();
+
+window.oasis.findUserLocation(function(userLocation) {
+	let list = window.oasis.sortByClosest(userLocation.latitude, userLocation.longitude);
+	let foodSourcesList = document.querySelector('ul.location-list');
+	if (foodSourcesList) foodSourcesList.classList.remove('sorting');
+	if (document.getElementById('search-location')) document.getElementById('search-location').textContent = userLocation.label;
+	window.oasis.addMarkers(list, userLocation);
+	window.oasis.addListItems(list);
+});

@@ -1,5 +1,10 @@
 'use strict';
 
+// FOLA’s Mapbox API key
+const MAP_ACCESS_TOKEN = 'pk.eyJ1IjoiZm9vZG9hc2lzbGEiLCJhIjoiY2l0ZjdudnN4MDhpYzJvbXlpb3IyOHg2OSJ9.POBdqXF5EIsGwfEzCm8Y3Q';
+
+const MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
+
 (function() {
 
 	/*

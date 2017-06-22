@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "make-compatible-js": "babel --presets ../../_node/node_modules/babel-preset-env ../assets/js -d ../_site/assets/js"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +13,8 @@
     "js-yaml": "^3.7.0",
     "mkdirp": "^0.5.1",
     "request": "^2.79.0",
-    "stream-transform": "^0.1.1"
+    "stream-transform": "^0.1.1",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
   }
 }
