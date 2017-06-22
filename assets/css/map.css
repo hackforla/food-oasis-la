@@ -39,18 +39,6 @@
 		min-height: 45vh;
 	}
 
-	@supports (display: grid) {
-		.map-container.active {
-			height: calc(100vh - 11em);
-		}
-
-		@media (min-aspect-ratio: 1/1) {
-			.has-map-location-summary .map-container.active {
-				height: calc(100vh - 11em);
-			}
-		}
-	}
-
 	.location-details .map-container {
 		height: 20vh;
 	}
@@ -95,7 +83,7 @@
 	}
 	*/
 
-	@media (max-aspect-ratio: 1/1) {
+	/*@media (max-aspect-ratio: 1/1) {*/
 		.only-list .map-container.active {
 			height: 20vh;
 			min-height: 0;
@@ -128,6 +116,17 @@
 			height: 50vh;
 			height: calc(50vh - 5em);
 			min-height: 0;
+		}
+	/*}*/
+
+	@supports (display: grid) {
+		@media (min-aspect-ratio: 1/1) {
+			/* EXPERIMENTAL */
+			.only-list                .map-container.active,
+			.has-map-location-summary .map-container.active,
+			.only-map.has-map-location-summary .map-container.active  {
+				height: calc(100vh - 11em);
+			}
 		}
 	}
 
@@ -410,19 +409,19 @@
 		display: none;
 	}
 	/* SHIM: Hide marker labels on the tiny map */
-	@media (max-aspect-ratio: 1/1) {
+	/*@media (max-aspect-ratio: 1/1) {*/
 		.only-list                .marker-label,
 		.has-map-location-summary .marker-label {
 			opacity: 0;
 			display: none;
 		}
-	}
+	/*}*/
 
 	.location-summary-container > div {
 		max-width: 40em;
 		margin-left: auto;
 		margin-right: auto;
-		animation: map-location-fade-in 0.4s;
+		animation: map-location-fade-in 0.2s;
 	}
 
 	/* OPTIONAL: */
