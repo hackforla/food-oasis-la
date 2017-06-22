@@ -1,11 +1,15 @@
 ---
 layout: default
 
-title: Redirecting to Survey
-
-redirect: https://foodoasisla.typeform.com/to/ojwSQ9
+title: Survey, Food Oasis Los Angeles
 ---
 
-# Redirecting to Survey…
+# Survey
 
-[https://foodoasisla.typeform.com/to/ojwSQ9](https://foodoasisla.typeform.com/to/ojwSQ9)
+## English
+
+[Food Oasis - Survey (May 2017)](https://foodoasisla.typeform.com/to/ojwSQ9)
+
+## Español
+
+[Oasis de Comida - Encuesta en Espanol (Mayo 2017)](https://foodoasisla.typeform.com/to/dcV8ro)
