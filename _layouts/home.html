@@ -6,18 +6,13 @@ classname: home
 <section class="introduction">
 	<h1>
 		<img src="/assets/images/fola.svg" width="100" alt="FOLA" /><br />
-		Welcome to your Food Oasis,<br />
-		Los Angeles.
+		{{ page.headline }}
 	</h1>
-	<p class="search"><a href="/search/">{{ page.headline }}</a></p>
-	<p class="about">
-		Food Oasis LA (FOLA) shows you the best places to find healthy
-		food in Los Angeles, whether you are looking to buy, grow, or
-		need access to free&nbsp;food. <a href="/about/">Learn more</a>
-	</p>
+	<p class="search"><a href="/search/">{{ page.search_label }}</a></p>
+	<p class="about">{{ page.about }}</p>
 
 	<script type="text/template" id="photo-credit-template">
-		<p class="photo-credit">Produce by <a href=""></a></p>
+		<p class="photo-credit">{{ page.photo_credit }} <a href=""></a></p>
 	</script>
 </section>
 
