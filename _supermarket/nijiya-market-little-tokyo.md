@@ -1,5 +1,5 @@
 ---
-name: Nijiya Market
+name: Nijiya Market, Little Tokyo
 address_1: 124 Japanese Village Plaza
 address_2: 
 city: Los Angeles
@@ -11,7 +11,7 @@ category: Supermarket
 website: http://www.nijiya.com
 phone: (213) 680-3280
 title: Nijiya Market, Food Oasis Los Angeles
-uri: /supermarket/nijiya-market/
+uri: /supermarket/nijiya-market-little-tokyo/
 ---
 ## Hours
 
