@@ -38,7 +38,6 @@ season_open: 6/5/2017
 season_close: 8/4/2017
 notes: 'Closed: 7/3, 7/4'
 title: Boys & Girls Clubs of the Antelope Valley, Hammack Activity Center, Food Oasis Los Angeles
-title: 'AVBGC - Hammack Activity Center, Food Oasis Los Angeles'
 uri: /summer-lunch/avbgc-hammack-activity-center/
 formatted_daycode1: Monday
 formatted_day1_open: 3pm
