@@ -36,6 +36,13 @@ supermarket/*
 
 If those folders are already present, your local website should work just fine (though the files in those folders may not be the latest).
 
+## Handy Guides
+
+* [Markdown](https://guides.github.com/features/mastering-markdown/)
+* [Liquid](https://shopify.github.io/liquid/)
+* [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+* [Jekyll](https://jekyllrb.com/docs/home/)
+
 ## A summary of the project files
 
 ### Files for Jekyll
