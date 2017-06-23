@@ -7,7 +7,6 @@ items_per_page: 20
 list_offset: 680
 first: /supermarket/
 canonical_url: /supermarket/
-next: /supermarket/page36/
 previous: /supermarket/page34/
 collection: supermarket
 category: Supermarkets
