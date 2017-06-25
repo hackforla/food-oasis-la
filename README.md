@@ -18,11 +18,11 @@ Since it takes a while to generate the whole site, you may want to run Jekyll in
 
 ```jekyll serve --incremental```
 
-If you’re working outside of the locations folder, you can speed things up even more by using the development config file…
+If you’re not making changes to a food location, you can speed things up even more with this command…
 
-```jekyll build && jekyll serve --config _config_dev.yml --incremental```
+```rake serve```
 
-The development config file doesn’t create or remove any of the files in these folders…
+That will start Jekyll with a special configuration that skips these files (since they take a long time to create)…
 
 ```
 api/*
@@ -32,9 +32,14 @@ farmers-market/*
 food-pantry/*
 summer-lunch/*
 supermarket/*
+sitemap.xml
 ```
 
-If those folders are already present, your local website should work just fine (though the files in those folders may not be the latest).
+If those folders are already present, your local website should still work great (though the files in those folders may not be the latest).
+
+Here’s one more command skips the initial build of the food location files, if you want to start up quickly.
+
+```rake fast```
 
 ## Handy Guides
 
