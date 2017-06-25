@@ -1,8 +1,12 @@
+
+# This file should be about the sames as “_config.yml”, but skips the “collections”, for faster rendering.
+
 permalink: pretty
 
 exclude:
   - CNAME
   - README
+  - rakefile
   - node_modules
   - package.json
   - webpack.config.js
@@ -15,6 +19,13 @@ exclude:
   - summer-lunch
   - supermarket
   - sitemap.xml
+  - _community-garden
+  - _farmers-market
+  - _food-pantry
+  - _locations
+  - _node
+  - _summer-lunch
+  - _supermarket
 
 keep_files:
   - .git
