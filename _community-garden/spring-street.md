@@ -19,7 +19,7 @@ uri: /community-garden/spring-street/
 
 ---
 
-### Photos
+## Photos
 
 ![Birthday event at the Spring Street Communtiy Garden](/assets/images/photos/community-garden/spring-street/1.jpg)
 ![Tomatoes at the Spring Street Communtiy Garden](/assets/images/photos/community-garden/spring-street/2.jpg)

@@ -50,3 +50,8 @@ formatted_day4_close: '12:30pm'
 For 45 years, St. Francis Center has provided hunger relief and human services to homeless and extremely low-income families and individuals in Los Angeles.
 
 **All program recipients must first register on Tuesdays between 10am-noon.** Please visit the [St. Francis Center website](http://sfcla.org/programs/family-well-being/) for more details.
+
+## Photos
+
+![Window at Saint Francis Center](/assets/images/photos/food-pantry/st-francis-center/1.jpg)
+![Tomatoes at Saint Francis Center](/assets/images/photos/food-pantry/st-francis-center/2.jpg)

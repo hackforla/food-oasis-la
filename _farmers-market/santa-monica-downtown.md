@@ -25,6 +25,8 @@ formatted_day1_close: 1pm
 
 ---
 
-![Fruit at the Santa Monica Farmers Market](/assets/images/photos/santa-monica/1.jpg)
-![Vegetables at the Santa Monica Farmers Market](/assets/images/photos/santa-monica/4.jpg)
-![Beans at the Santa Monica Farmers Market](/assets/images/photos/santa-monica/17.jpg)
+## Photos
+
+![Fruit at the Santa Monica Farmers Market](/assets/images/photos/farmers-market/santa-monica-downtown/1.jpg)
+![Vegetables at the Santa Monica Farmers Market](/assets/images/photos/farmers-market/santa-monica-downtown/4.jpg)
+![Beans at the Santa Monica Farmers Market](/assets/images/photos/farmers-market/santa-monica-downtown/17.jpg)

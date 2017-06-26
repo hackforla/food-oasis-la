@@ -13,11 +13,11 @@ title: Daily Organics, Food Oasis Los Angeles
 uri: /locations/daily-organics/
 ---
 
-### Hours
+## Hours
 
 Thursday, Friday and Saturday, from 11am to 6pm
 
-### Photos
+## Photos
 
-![Apples at the Daily Organics pop up market](/assets/images/photos/daily-organics/1.jpg)
-![Squash at the Daily Organics pop up market](/assets/images/photos/daily-organics/2.jpg)
+![Apples at the Daily Organics pop up market](/assets/images/photos/locations/daily-organics/1.jpg)
+![Squash at the Daily Organics pop up market](/assets/images/photos/locations/daily-organics/2.jpg)
