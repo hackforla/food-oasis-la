@@ -1,0 +1,87 @@
+<section>
+  <h1>Add a Healthy Food Location</h1>
+  <h2>
+    <span class="label">Hi, <span id="userNameSpan">friend</span>!</span>
+  </h2>
+  <p>Please complete this form, to add a new location on the <a href="/locations/">map</a>!</p>
+  <form id="addForm" action="https://foodoasis-contribute.glitch.me/add" method="post" style="margin-top: 3em;">
+    <p>
+      <label>
+        Location Title<br />
+        <input type="text" name="title" id="locationTitle" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Category<br />
+        <input type="text" name="category" id="locationCategory" /><br />
+        <small style="font-style: italic;">Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
+      </label>
+    </p>
+    <p>
+      <label>
+        Street Address<br />
+        <input type="text" name="address_1" id="locationAddress1" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Street Address 2<br />
+        <input type="text" name="address_2" id="locationAddress2" />
+      </label>
+    </p>
+    <p>
+      <label>
+        City<br />
+        <input type="text" name="city" id="locationCity" />
+      </label>
+    </p>
+    <p>
+      State<br />
+      <input type="text" name="state" value="California" disabled />
+    </p>
+    <p>
+      <label>
+        ZIP Code<br />
+        <input type="text" name="zip" id="locationZip" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Website<br />
+        <input type="text" name="website" id="locationWebsite" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Phone<br />
+        <input type="text" name="phone" id="locationPhone" />
+      </label>
+    </p>
+    <p>
+      <label>
+        Is there anything else you’d like to tell us about this location?<br />
+        <textarea name="notes" id="userText"></textarea>
+      </label>
+    </p>
+    <p>
+      <label>
+        Your Name<br />
+        <input type="text" name="contributor_name" />
+      </label>
+    </p>
+    {% comment %}
+    <p>
+      <label>
+        Your Email<br />
+        <input type="text" name="contributor_email" />
+      </label>
+      <br />
+      <em>We’ll only use this to contact you with questions about this submission.</em>
+    </p>
+    {% endcomment %}
+    <p class="action">
+      <button type="submit">Add Location</button>
+    </p>
+  </form>
+</section>
