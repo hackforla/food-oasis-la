@@ -1,6 +1,6 @@
 ---
-title: 'Nijiya Market, Rolling Hills'
-category: supermarket
+name: 'Nijiya Market, Rolling Hills'
+category: Supermarket
 address_1: 2533B Pacific Coast Highway
 address_2: ''
 city: Torrance

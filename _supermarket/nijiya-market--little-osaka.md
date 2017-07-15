@@ -1,6 +1,6 @@
 ---
-title: 'Nijiya Market, Little Osaka'
-category: supermarket
+name: 'Nijiya Market, Little Osaka'
+category: Supermarket
 address_1: '2130 Sawtelle Blvd., #105'
 address_2: ''
 city: Los Angeles

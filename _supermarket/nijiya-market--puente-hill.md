@@ -1,6 +1,6 @@
 ---
-title: 'Nijiya Market, Puente Hill'
-category: supermarket
+name: 'Nijiya Market, Puente Hill'
+category: Supermarket
 address_1: 17869 Colima Rd.
 address_2: ''
 city: City of Industry
