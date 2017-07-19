@@ -99,3 +99,6 @@ Food Oasis Los Angeles was born at a [Hack for LA](http://www.hackforla.org) as 
 ## About Hack for LA
 
 [Hack for LA](http://www.hackforla.org) is the official Los Angeles chapter of Code for America, a national nonprofit that believes government can work for the people, by the people, in the 21st century. At our weekly Civic Hack Nights, we organize groups of volunteers to build technology addressing the LA region's biggest civic issues. We welcome technologists, government officials, designers, students, activists, entrepreneurs and community members to join us and collaboratively create a better Los Angeles.
+
+
+
