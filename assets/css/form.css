@@ -137,7 +137,19 @@
 		position: absolute;
 		top: 50%;
 		right: 1.5em;
-	}
+  }
+  
+  .listHeader {
+    color: white;
+    /* background-color: rgb(249, 192, 88); */
+    margin-left: -27px;
+    margin-right: -27px;
+    /* margin-top: -19px; */
+    height: 32px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+  }
 
 	/* If advanced selectors are supported, hide the checkboxes… */
 	li input[type="checkbox"]:checked,
