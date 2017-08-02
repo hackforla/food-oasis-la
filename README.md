@@ -18,10 +18,6 @@ You can start running the Jekyll application like this...
 
 ```npm start```
 
-If you will be playing around with the data (and don't mind waiting longer for reloads)...
-
-```npm run start-dev```
-
 That will start Jekyll with a special configuration that skips these files (since they take a long time to create)…
 
 ```
