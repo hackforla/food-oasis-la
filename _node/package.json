@@ -4,7 +4,9 @@
   "description": "",
   "main": "",
   "scripts": {
-    "make-compatible-js": "babel --presets ../../_node/node_modules/babel-preset-env ../assets/js -d ../_site/assets/js"
+    "make-compatible-js": "babel --presets ../../_node/node_modules/babel-preset-env ../assets/js -d ../_site/assets/js", 
+    "start-dev": "webpack && jekyll build && npm run make-compatible-js && cd ../",
+    "start": "webpack && jekyll build && jekyll serve --config _config_dev.yml --incremental --host=0.0.0.0"
   },
   "author": "",
   "license": "MIT",
