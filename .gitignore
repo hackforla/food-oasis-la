@@ -2,6 +2,7 @@
 ######################
 .DS_Store
 .DS_Store?
+yarn.lock
 
 # Compiled files, created by Jekyll #
 ######################

@@ -5,7 +5,8 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack && jekyll build && jekyll serve --config _config_dev.yml --incremental"
+    "start-dev": "webpack && jekyll build && cd _node && npm run make-compatible-js && cd ../",
+    "start": "webpack && jekyll build && jekyll serve --config _config_dev.yml --incremental --host=0.0.0.0"
   },
   "repository": {
     "type": "git",
