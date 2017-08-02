@@ -131,16 +131,29 @@
           <li ng-repeat="x in searchResults">{{x}}</li>
         </ul>-->
         <p ng-repeat="x in searchResults">{{x}}</p>
-        <button class="btn btn-primary" type="submit" value="Search">Search Food</button>
-        <button class="btn btn-primary" type="button" ng-click="clearValues()">Clear Search</button>
-      </div>
+        
+        <div class="action">
+          <button class="btn btn-primary" type="submit" value="Search">Search Food</button>
+          <button class="btn btn-primary" type="button" ng-click="clearValues()">Clear Search</button>
+        </div>
+        
+        </div>
       
     </form>
       
   </div>
   
   <div ng-show="searchV">
-    <div ng-repeat="item in organizations | filterBy: ['categories']: searchV">
+    <ul class="organization-list">
+      <li ng-repeat="item in organizations | filterBy: ['categories']: searchV">
+        <a href="{{item.website}}" target="_blank">
+          <h2>{{item.orgName}}</h2>
+          <h3>{{item.website}}</h3>
+          <p><b>Tags: </b><span>{{item.categories}}</span></p>
+        </a>
+      </li>
+    </ul>
+    <!--<div ng-repeat="item in organizations | filterBy: ['categories']: searchV">
         <div class="info">
           <h2>{{item.orgName}}</h2>
           <a href="{{item.website}}" target="_blank">
@@ -148,7 +161,7 @@
           </a>  
           <p><b>Tags: </b><span>{{item.categories}}</span></p>
         </div>
-    </div>
+    </div>-->
   </div>
   
   
