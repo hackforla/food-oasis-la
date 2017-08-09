@@ -16,6 +16,10 @@ If you want to see a preview of your changes while you work, you can [run a Jeky
 
 You can start running the Jekyll application like this...
 
+```git clone https://github.com/foodoasisla/site.git```
+
+```npm install```
+
 ```npm start```
 
 That will start Jekyll with a special configuration that skips these files (since they take a long time to create)…
