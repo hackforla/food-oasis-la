@@ -80,11 +80,9 @@
         <h2>Hours</h2>
         <script type="text/javascript">
                                             function showHideHours(e) {
-        
-                                              console.log(e);
                                               // pass element
                                               // if same is selected show daily-hours-same
-                                                  if(document.getElementById('daily-hours-same-radio').checked){
+                                                  if(e === 'same'){
                                                     document.getElementById('daily-hours-different-radio').checked = false;
                                                     document.getElementById('daily-hours-same').style.display = 'block';
                                                     document.getElementById('daily-hours-different').style.display = 'none';
@@ -104,10 +102,10 @@
           display: none;
         }
         </style>
-        <input type="radio" id="daily-hours-same-radio" onclick="showHideHours(document.getElementById('daily-hours-same-radio').value)" value="daily-hours-same-radio" checked/>
+        <input type="radio" id="daily-hours-same-radio" onclick="showHideHours('same')" value="daily-hours-same-radio" checked/>
         Same Hours Every Day
         <br/>
-        <input type="radio" id="daily-hours-different-radio" onclick="showHideHours(document.getElementById('daily-hours-different-radio').value)" value="daily-hours-different-radio"/>
+        <input type="radio" id="daily-hours-different-radio" onclick="showHideHours('different')" value="daily-hours-different-radio"/>
         Different Hours Every Day
         <div id="daily-hours-same">
             <h2>Same Hours Every Day</h2>
