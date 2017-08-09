@@ -1,87 +1,316 @@
 <section>
-  <h1>Add a Healthy Food Location</h1>
-  <h2>
-    <span class="label">Hi, <span id="userNameSpan">friend</span>!</span>
-  </h2>
-  <p>Please complete this form, to add a new location on the <a href="/locations/">map</a>!</p>
-  <form id="addForm" action="https://foodoasis-contribute.glitch.me/add" method="post" style="margin-top: 3em;">
+    <h1>Add a Healthy Food Location</h1>
+    <h2>
+        <span class="label">
+            Hi,
+            <span id="userNameSpan">friend</span>
+            !
+        </span>
+    </h2>
     <p>
-      <label>
-        Location Title<br />
-        <input type="text" name="title" id="locationTitle" />
-      </label>
+        Please complete this form, to add a new location on the
+        <a href="/locations/">map</a>
+        !
     </p>
-    <p>
-      <label>
-        Category<br />
-        <input type="text" name="category" id="locationCategory" /><br />
-        <small style="font-style: italic;">Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
-      </label>
-    </p>
-    <p>
-      <label>
-        Street Address<br />
-        <input type="text" name="address_1" id="locationAddress1" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Street Address 2<br />
-        <input type="text" name="address_2" id="locationAddress2" />
-      </label>
-    </p>
-    <p>
-      <label>
-        City<br />
-        <input type="text" name="city" id="locationCity" />
-      </label>
-    </p>
-    <p>
-      State<br />
-      <input type="text" name="state" value="California" disabled />
-    </p>
-    <p>
-      <label>
-        ZIP Code<br />
-        <input type="text" name="zip" id="locationZip" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Website<br />
-        <input type="text" name="website" id="locationWebsite" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Phone<br />
-        <input type="text" name="phone" id="locationPhone" />
-      </label>
-    </p>
-    <p>
-      <label>
-        Is there anything else you’d like to tell us about this location?<br />
-        <textarea name="notes" id="userText"></textarea>
-      </label>
-    </p>
-    <p>
-      <label>
-        Your Name<br />
-        <input type="text" name="contributor_name" />
-      </label>
-    </p>
-    {% comment %}
-    <p>
-      <label>
-        Your Email<br />
-        <input type="text" name="contributor_email" />
-      </label>
-      <br />
-      <em>We’ll only use this to contact you with questions about this submission.</em>
-    </p>
-    {% endcomment %}
-    <p class="action">
-      <button type="submit">Add Location</button>
-    </p>
-  </form>
+    <form id="addForm" action="https://foodoasis-contribute.glitch.me/add" method="post" style="margin-top: 3em;">
+        <p>
+            <label>
+                Location Title
+                <br/>
+                <input type="text" name="title" id="locationTitle"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                Category
+                <br/>
+                <input type="text" name="category" id="locationCategory"/>
+                <br/>
+                <small style="font-style: italic;">Examples: Farmers Market, Community Garden, Food Pantry, Supermarket</small>
+            </label>
+        </p>
+        <p>
+            <label>
+                Street Address
+                <br/>
+                <input type="text" name="address_1" id="locationAddress1"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                Street Address 2
+                <br/>
+                <input type="text" name="address_2" id="locationAddress2"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                City
+                <br/>
+                <input type="text" name="city" id="locationCity"/>
+            </label>
+        </p>
+        <p>
+            State
+            <br/>
+            <input type="text" name="state" value="California" disabled/>
+        </p>
+        <p>
+            <label>
+                ZIP Code
+                <br/>
+                <input type="text" name="zip" id="locationZip"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                Website
+                <br/>
+                <input type="text" name="website" id="locationWebsite"/>
+            </label>
+        </p>
+        <p>
+            <label>
+                Phone
+                <br/>
+                <input type="text" name="phone" id="locationPhone"/>
+            </label>
+        </p>
+        <hr/>
+        <h2>Hours</h2>
+        <script type="text/javascript">
+                                            function showHideHours(e) {
+        
+                                              console.log(e);
+                                              // pass element
+                                              // if same is selected show daily-hours-same
+                                                  if(document.getElementById('daily-hours-same-radio').checked){
+                                                    document.getElementById('daily-hours-different-radio').checked = false;
+                                                    document.getElementById('daily-hours-same').style.display = 'block';
+                                                    document.getElementById('daily-hours-different').style.display = 'none';
+                                                    console.log("same is clicked"); 
+                                                  }
+                                                // else show daily-hours-different
+                                                else {
+                                                    document.getElementById('daily-hours-same-radio').checked = false;
+                                                    document.getElementById('daily-hours-same').style.display = 'none';
+                                                    document.getElementById('daily-hours-different').style.display = 'block';
+                                                    console.log("different is clicked"); 
+                                                    }
+                                              }
+                                 </script>
+        <style>
+        #daily-hours-different{
+          display: none;
+        }
+        </style>
+        <input type="radio" id="daily-hours-same-radio" onclick="showHideHours(document.getElementById('daily-hours-same-radio').value)" value="daily-hours-same-radio" checked/>
+        Same Hours Every Day
+        <br/>
+        <input type="radio" id="daily-hours-different-radio" onclick="showHideHours(document.getElementById('daily-hours-different-radio').value)" value="daily-hours-different-radio"/>
+        Different Hours Every Day
+        <div id="daily-hours-same">
+            <h2>Same Hours Every Day</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+        </div>
+        <div id="daily-hours-different">
+            <h2>Sunday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Monday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Tuesday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Wednesday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Thursday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Friday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+            <h2>Saturday</h2>
+            <p>
+                <label>
+                    Open
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+                <label>
+                    Until
+                    <select>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </label>
+            </p>
+        </div>
+        <br/>
+        <br/>
+        <hr/>
+        <p>
+            <label>
+                Is there anything else you’d like to tell us about this location?
+                <br/>
+                <textarea name="notes" id="userText"></textarea>
+            </label>
+        </p>
+        <p>
+            <label>
+                Your Name
+                <br/>
+                <input type="text" name="contributor_name"/>
+            </label>
+        </p>
+        {% comment %}
+        <p>
+            <label>
+                Your Email
+                <br/>
+                <input type="text" name="contributor_email"/>
+            </label>
+            <br/>
+            <em>We’ll only use this to contact you with questions about this submission.</em>
+        </p>
+        {% endcomment %}
+        <p class="action">
+            <button type="submit">Add Location</button>
+        </p>
+    </form>
 </section>
