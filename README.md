@@ -93,6 +93,7 @@ _layouts/*
 
 ### Files for Node.js
 ```
+package.json
 _node/*
 ```
 
