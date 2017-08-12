@@ -15,7 +15,8 @@ uri: /locations/everytable-santa-monica/
 ---
 
 ## Hours
-10:30am - 9pm daily
+
+10:30 a.m. to 9:00 p.m. daily
 
 ## Photos
 

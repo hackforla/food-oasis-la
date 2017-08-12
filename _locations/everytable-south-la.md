@@ -13,5 +13,7 @@ phone: 213-973-5095
 title: Everytable South LA, Food Oasis Los Angeles
 uri: /locations/everytable-south-la/
 ---
-### Hours
-11am - 8pm daily
+
+## Hours
+
+11:00 a.m. to 8:00 p.m. daily

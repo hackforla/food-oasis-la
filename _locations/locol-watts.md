@@ -13,6 +13,7 @@ phone:
 title: Locol, Watts, Food Oasis Los Angeles
 uri: /locations/locol-watts/
 ---
-### Hours
+
+## Hours
 
 Open everyday from 11am–8pm
