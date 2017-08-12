@@ -9,8 +9,8 @@ latitude: 34.049158
 longitude: -118.239798
 category: Supermarket
 website: http://www.nijiya.com
-phone: (213) 680-3280
-title: Nijiya Market, Food Oasis Los Angeles
+phone: 213-680-3280
+title: Nijiya Market, Little Tokyo, Food Oasis Los Angeles
 uri: /supermarket/nijiya-market-little-tokyo/
 ---
 ## Hours
