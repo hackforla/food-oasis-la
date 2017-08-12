@@ -1,6 +1,6 @@
 <!doctype html>
 {% include locale.html %}
-<html ng-app="myApp" lang="{{ locale }}" dir="ltr">
+<html lang="{{ locale }}" dir="ltr"{% if page.angular %} ng-app="myApp"{% endif %}>
 <head>
 
 	<meta charset="utf-8" />
