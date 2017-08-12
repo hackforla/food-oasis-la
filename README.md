@@ -14,11 +14,31 @@ As you make changes and commit/push them to GitHub, the [staging website](https:
 
 If you want to see a preview of your changes while you work, you can [run a Jekyll server](https://jekyllrb.com) on your local machine. [Installing Ruby and Jekyll](https://jekyllrb.com/docs/installation/) is a good place to start.
 
-You can start running the Jekyll application like this...
+After you have Jekyll installed, you can clone this project with Git…
 
 ```git clone https://github.com/foodoasisla/site.git```
 
+And then you can start running the Jekyll application like this...
+
+```jekyll serve```
+
+## Speeding up Jekyll
+
+Since it takes a while to generate the whole site, you may want to run Jekyll in “incremental“ mode, and use our development configuration file…
+
+```
+jekyll build && jekyll serve --config _config_dev.yml --incremental
+```
+
+Wow, that’s a lot to remember! We’re using [Node.js](https://nodejs.org) to manage commands like that one for us. If you’d like to do that as well, here are some steps you can follow…
+
+1. Install [Node.js and NPM](https://nodejs.org/en/download/).
+
+2. Install our project’s dependencies...
+
 ```npm install```
+
+3. Start the application...
 
 ```npm start```
 
@@ -37,9 +57,9 @@ sitemap.xml
 
 If those folders are already present, your local website should still work great (though the files in those folders may not be the latest).
 
-Here’s one more command skips the initial build of the food location files, if you want to start up quickly.
+Here’s one more command skips the initial build of those folders, if you want to start up quickly.
 
-```rake fast```
+```npm run serve```
 
 ## Handy Guides
 
