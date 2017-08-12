@@ -16,11 +16,15 @@ If you want to see a preview of your changes while you work, you can [run a Jeky
 
 After you have Jekyll installed, you can clone this project with [Git](https://git-scm.com) or [GitHub Desktop](https://desktop.github.com)…
 
-```git clone https://github.com/foodoasisla/site.git```
+```
+git clone https://github.com/foodoasisla/site.git
+```
 
-And then you can start running the Jekyll application like this...
+And then start running the Jekyll application like this...
 
-```jekyll serve```
+```
+jekyll serve
+```
 
 ## Speeding up Jekyll
 
@@ -36,11 +40,15 @@ Wow, that’s a lot to remember! We’re using [Node.js](https://nodejs.org) to 
 
 2. Install our project’s dependencies...
 
-```npm install```
+```
+npm install
+```
 
 3. Start the application...
 
-```npm start```
+```
+npm start
+```
 
 That will start Jekyll with a special configuration that skips these files (since they take a long time to create)…
 
@@ -59,7 +67,9 @@ If those folders are already present, your local website should still work great
 
 Here’s one more command skips the initial build of those folders, if you want to start up quickly.
 
-```npm run serve```
+```
+npm run serve
+```
 
 ## Handy Guides
 
