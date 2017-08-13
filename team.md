@@ -82,6 +82,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Michael Kunc
 * Hannah Lazarus
 * Jason Lipshin
+* Gregor Martynus
 * Amanda McGlothlin
 * Rebecca Pizano
 * Danny Prikaz
