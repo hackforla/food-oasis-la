@@ -26,7 +26,7 @@
 		main .header {
 			width: 100vw;
 		}
-		@media (min-width: 46em) {
+		@media (min-width: 43em) {
 			main .header {
 				margin-top: -1.5em;
 				margin-left: calc(-50vw + 20em);
