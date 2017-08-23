@@ -24,10 +24,10 @@ include_footer: false
 		<legend>Hours</legend>
 
 		<p>
-			<label>
-				Open Now
-				<input type="checkbox" disabled="disabled" />
-			</label>
+      <label>
+        Open Now
+        <input type="checkbox" disabled="disabled" />
+      </label> 
 		</p>
 
 		<h3>Open At</h3>
@@ -72,13 +72,28 @@ include_footer: false
 	{% endcomment %}
 
 	<fieldset>
-		<legend>Hours</legend>
+    <legend>Hours</legend>
+     <div style="display:flex; flex-direction: row; justify-content: center">
+        Start<input type="time" name="open_start">
+        End<input type="time" name="open_end">
+    </div> 
+    <div style="text-align:center">
+      <select name="open_days" multiple>
+        <option value="Sunday">Sunday</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+      </select>
+    </div>
 		<ul>
 			<li>
 				<label>
-					<span>Open Now</span>
+					 <span>Open Now</span>
 					<input type="checkbox" name="open" value="1" />
-					<span class="pseudo-checkbox"></span>
+					<span class="pseudo-checkbox"></span> 
 				</label>
 			</li>
 		</ul>

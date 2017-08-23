@@ -55,10 +55,18 @@ window.oasis = window.oasis || {};
 
 				return false;
 			});
-		}
+    }
+    let open = window.oasis.getParameterByName("open");
+    let openStart = window.oasis.getParameterByName("open_start");
+    let openEnd = window.oasis.getParameterByName("open_end");
+    // let openDays = window.oasis.getParameterByName("open_days");
+    if (openStart || openEnd) { 
 
-		let open = window.oasis.getParameterByName('open');
-		if (open) {
+      console.log("startTimes", openStart);
+      console.log("endTimes", openEnd);
+      // console.log("openDays", openDays);
+    }
+		else if (open) {
 			list = list.filter(function(item) {
 				let open = false;
 				for (let index = 0; index < item.hours.length; index++) {
