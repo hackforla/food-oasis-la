@@ -1,0 +1,46 @@
+---
+title: Test
+category: ''
+address_1: ''
+address_2: ''
+city: ''
+state: California
+zip: ''
+website: ''
+phone: ''
+notes: ''
+contributor_name: Jim
+latitude: 37.229564
+longitude: -120.047533
+daycode2: Tue
+day2_open: '1100'
+day2_close: '2230'
+formatted_daycode2: Tuesday
+formatted_day2_open: 11am
+formatted_day2_close: '10:30pm'
+daycode3: Wed
+day3_open: '1100'
+day3_close: 1030pm
+formatted_daycode3: Wednesday
+formatted_day3_open: 11am
+formatted_day3_close: '1018:pmam'
+daycode4: Thu
+day4_open: '1100'
+day4_close: 1030pm
+formatted_daycode4: Thursday
+formatted_day4_open: 11am
+formatted_day4_close: '1018:pmam'
+daycode5: Fri
+day5_open: '1100'
+day5_close: '2230'
+formatted_daycode5: Friday
+formatted_day5_open: 11am
+formatted_day5_close: '10:30pm'
+daycode6: Sat
+day6_open: '1100'
+day6_close: '2230'
+formatted_daycode6: Saturday
+formatted_day6_open: 11am
+formatted_day6_close: '10:30pm'
+
+---
