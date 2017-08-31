@@ -5,8 +5,8 @@ address_2:
 city: Hawthorne
 state: CA
 zip: 90250
-latitude: 33.9857015
-longitude: -118.5110873
+latitude: 33.917812
+longitude: -118.3776767
 category: Orchard
 website: http://parks.lacounty.gov/wps/portal/dpr/parks/del_aire_park
 phone: 
