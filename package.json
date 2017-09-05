@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "make-compatible-js": "babel --presets ../../node_modules/babel-preset-env assets/js -d _site/assets/js",
-    "build": "jekyll build && npm run make-compatible-js",
+    "build": "npm run update-paging && jekyll build && npm run make-compatible-js",
+    "update-paging": "node _node/update-paging.js",
     "serve": "jekyll serve --config _config_dev.yml --incremental --host=0.0.0.0",
     "start": "jekyll build && npm run serve"
   },

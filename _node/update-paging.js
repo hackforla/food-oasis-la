@@ -59,7 +59,7 @@ ${yaml.safeDump(data)}
 }
 
 function generatePages(name, uri, size, color) {
-  let writePath = '../' + uri;
+  let writePath = './' + uri;
 
   // For the number of pages needed for the list of records
     // Write the next page
@@ -95,7 +95,7 @@ function getAllFilesFromFolder(dir) {
 };
 
 function updatePages(name, uri, color) {
-  let locations = getAllFilesFromFolder('../_' + uri);
+  let locations = getAllFilesFromFolder('./_' + uri);
   generatePages(name, uri, locations.length, color);
   return locations;
 }
@@ -148,7 +148,7 @@ function loadMarkdown(filename) {
 }
 
 function generateLocationJSON(locationURIs) {
-  let writePath = '../_data';
+  let writePath = './_data';
 
   let locations = [];
   for (let index = 0; index < locationURIs.length; index++) {
@@ -191,7 +191,7 @@ let farmersMarkets = updatePages('Farmers’ Markets', 'farmers-market', 'strawb
 let supermarkets = updatePages('Supermarkets', 'supermarket', 'strawberry');
 let summerLunches = updatePages('Summer Lunch', 'summer-lunch', 'canteloupe');
 
-let miscLocations = getAllFilesFromFolder('../_locations');
+let miscLocations = getAllFilesFromFolder('./_locations');
 
 let totalSize = 
   communityGardens.length +

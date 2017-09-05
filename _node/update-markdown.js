@@ -368,9 +368,9 @@ function updateLocations(folder) {
   }
 }
 
-//updateLocations('../_community-garden');
-//updateLocations('../_farmers-market');
-//updateLocations('../_food-pantry');
-//updateLocations('../_summer-lunch');
-//updateLocations('../_supermarket');
+//updateLocations('./_community-garden');
+//updateLocations('./_farmers-market');
+//updateLocations('./_food-pantry');
+//updateLocations('./_summer-lunch');
+//updateLocations('./_supermarket');
 

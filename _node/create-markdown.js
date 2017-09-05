@@ -116,8 +116,8 @@ function generateCollection(data_name, data_category) {
 
   console.log('data name: ' + data_name);
 
-  let writePath = '../_' + data_name; // Example: _/community-gardens
-  let input = fs.readFileSync('../_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
+  let writePath = './_' + data_name; // Example: _/community-gardens
+  let input = fs.readFileSync('./_data/' + data_name + '.csv', 'utf8'); // https://nodejs.org/api/fs.html#fs_fs_readfilesync_file_options
   let records = parse(input, {columns: true}); // http://csv.adaltas.com/parse/examples/#using-the-synchronous-api
   for (let index = 0; index < records.length; index++) {
     records[index].category = data_category;
@@ -180,7 +180,7 @@ ${yaml.safeDump(data)}
 }
 
 function generatePages(name, uri, size, color) {
-  let writePath = '../' + uri;
+  let writePath = './' + uri;
 
   // For the number of pages needed for the list of records
     // Write the next page
@@ -211,7 +211,7 @@ generatePages('Summer Lunch', 'summer-lunch', summerLunches.length, 'canteloupe'
 
 /*
 function generateLocationJSON() {
-  let writePath = '../_data';
+  let writePath = './_data';
 
   let locations = communityGardens.concat(foodPantries.concat(farmersMarkets.concat(supermarkets)));
   locations = locations.sort(function(a, b) {
@@ -253,7 +253,7 @@ request({
   json: true
 }, function (error, response, body) {
   if (!error && response.statusCode === 200) {
-    let writePath = '../_community-garden-from-staging-api';
+    let writePath = './_community-garden-from-staging-api';
     for (let index = 0; index < body.length; index++) {
       createMarkdownFile(writePath, body[index], 'community-garden-from-staging-api');
     }
