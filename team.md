@@ -64,6 +64,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 
 * Ahmed Abdulkarim
 * Lori Abichandani
+* Tinuola Awopetu
 * Jessica Ayunani
 * Dan Benson
 * Ebrahim Bhaiji
