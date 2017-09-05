@@ -170,7 +170,7 @@ function generateLocationJSON(locationURIs) {
     return 0;
   });
 
-  let output = JSON.stringify(locations);
+  let output = JSON.stringify(locations, null, 4);
 
   mkdirp(writePath, function (err) {
     if (err) {
