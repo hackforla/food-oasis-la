@@ -33,23 +33,15 @@ layout: null
                 hreflang="en"
                 href="https://foodoasis.la/"
                 />
-    <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/add/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/organizations/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/resources/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/about/</loc>
@@ -63,18 +55,12 @@ layout: null
                 hreflang="en"
                 href="https://foodoasis.la/about/"
                 />  
-    <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/team/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/faqs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 {% comment %}
@@ -82,14 +68,10 @@ layout: null
 {% endcomment %}
   <url>
     <loc>https://foodoasis.la/news/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 {% for post in site.posts %}
   <url>
     <loc>https://foodoasis.la{{ post.url }}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
   </url>
 {% endfor %}
 
@@ -98,33 +80,21 @@ layout: null
 {% endcomment %}
   <url>
     <loc>https://foodoasis.la/locations/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/community-garden/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/farmers-market/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/food-pantry/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/summer-lunch/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://foodoasis.la/supermarket/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 
 {% assign data_collection = site.collections | where: "label", "locations" | first %}
@@ -132,8 +102,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
@@ -142,8 +110,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
@@ -152,8 +118,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
@@ -162,8 +126,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
@@ -172,8 +134,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
@@ -182,8 +142,6 @@ layout: null
 {% for location in data_list %}
   <url>
     <loc>https://foodoasis.la{{ location.uri }}</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
 {% endfor %}
 
