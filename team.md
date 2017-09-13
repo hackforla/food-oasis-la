@@ -98,6 +98,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Jim Thoburn
 * Arlene Waclawek
 * Halina Zarate
+* Patrick Lewis
 
 ## Want to contribute?
 Join us at [Hack for LA](http://www.hackforla.org/), Tuesdays at 6pm!
