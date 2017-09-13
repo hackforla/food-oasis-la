@@ -1,3 +1,4 @@
+name,address_1,address_2,city,state,zip,phone,latitude,longitude,category,website,active,daycode1,day1_open,day1_close,daycode2,day2_open,day2_close,daycode3,day3_open,day3_close,daycode4,day4_open,day4_close,daycode5,day5_open,day5_close,daycode6,day6_open,day6_open,daycode7,day7_open,day7_close,year_round (y/n),season_open,season_close
 Jardin Del Rio,2363 N. Riverdale Avenue,,Los Angeles,CA,,,34.09124006000,-118.23460919000,,,,,,,,,,,,,,,,,,,,,,,,,,
 Long Beach Grows Unity Farm,5450 Atherton Street,,Long Beach,CA,90815,,33.78817769000,-118.12686776000,,,,,,,,,,,,,,,,,,,,,,,,,,
 F And A Nursery,7399 Crider Avenue,,Pico Rivera,CA,,,33.98383095000,-118.11027271000,,,,,,,,,,,,,,,,,,,,,,,,,,
