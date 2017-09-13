@@ -9,7 +9,7 @@ phone: (661)940-5272
 latitude: '34.7030069'
 longitude: '-118.137309'
 category: Food Pantry
-website: ''
+website: 'http://graceresources.org/'
 daycode1: Tue
 day1_open: '1000'
 day1_close: '1100'
@@ -33,8 +33,8 @@ day7_close: ''
 Year_Round (Y/N): ''
 season_open: ''
 season_close: ''
-title: 'Grace Resource Center, Inc., Food Oasis Los Angeles'
-uri: /food-pantry/grace-resource-center-inc-/
+title: 'Grace Resource Center'
+uri: /food-pantry/grace-resource-center/
 formatted_daycode1: Tuesday
 formatted_day1_open: 10am
 formatted_day1_close: 11am
