@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Filters, Food Oasis Los Angeles
+title: How to help Food Oasis Los Angeles
 canonical_url: /help/
 include_header: true
 include_footer: true
