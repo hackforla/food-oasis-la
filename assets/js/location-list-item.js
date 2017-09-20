@@ -121,6 +121,8 @@ window.oasis = window.oasis || {};
 				category == 'orchard' ||
 				category == 'pop-up-market') {
 				img.src = "/assets/images/home/" + category + ".svg";
+			} else if (category == 'cultivate-la') {
+				img.src = "/assets/images/home/community-garden.svg";
 			} else {
 				img.src = "/assets/images/home/restaurant.svg";
 			}

@@ -18,6 +18,7 @@ exclude:
   - food-pantry
   - summer-lunch
   - supermarket
+  - cultivate-la
   - sitemap.xml
   - _community-garden
   - _farmers-market
@@ -40,4 +41,5 @@ keep_files:
   - food-pantry
   - summer-lunch
   - supermarket
+  - cultivate-la
   - sitemap.xml

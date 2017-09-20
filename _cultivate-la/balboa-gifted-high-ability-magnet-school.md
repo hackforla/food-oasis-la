@@ -1,0 +1,40 @@
+---
+name: Balboa Gifted/ High Ability Magnet School
+address_1: 17020 Labrador St.
+address_2: ''
+city: Northridge
+state: CA
+zip: ''
+phone: ''
+latitude: '34.24910009000'
+longitude: '-118.50319144000'
+category: Cultivate LA
+website: ''
+active: ''
+daycode1: ''
+day1_open: ''
+day1_close: ''
+daycode2: ''
+day2_open: ''
+day2_close: ''
+daycode3: ''
+day3_open: ''
+day3_close: ''
+daycode4: ''
+day4_open: ''
+day4_close: ''
+daycode5: ''
+day5_open: ''
+day5_close: ''
+daycode6: ''
+day6_open: ''
+daycode7: ''
+day7_open: ''
+day7_close: ''
+year_round (y/n): ''
+season_open: ''
+season_close: ''
+title: 'Balboa Gifted/ High Ability Magnet School, Food Oasis Los Angeles'
+uri: /cultivate-la/balboa-gifted-high-ability-magnet-school/
+
+---
