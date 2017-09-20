@@ -26,4 +26,4 @@ We are currently inverviewing
 
 This project is an interesting...
 
-# Policy Makers and Non Profits and Commuincations [need more detials]
+# Policy Makers and Non Profits and Communications [need more details]
