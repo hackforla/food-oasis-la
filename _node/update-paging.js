@@ -190,6 +190,7 @@ let foodPantries = updatePages('Food Pantries', 'food-pantry', 'canteloupe');
 let farmersMarkets = updatePages('Farmers’ Markets', 'farmers-market', 'strawberry');
 let supermarkets = updatePages('Supermarkets', 'supermarket', 'strawberry');
 let summerLunches = updatePages('Summer Lunch', 'summer-lunch', 'canteloupe');
+// let cultivateLA = updatePages('Cultivate LA', 'cultivate-la', 'lime');
 
 let miscLocations = getAllFilesFromFolder('./_locations');
 
@@ -199,6 +200,7 @@ let totalSize =
   farmersMarkets.length +
   supermarkets.length +
   summerLunches.length +
+  //cultivateLA.length +
   miscLocations.length;
 
 generatePages('Healthy Food', 'locations', totalSize, 'lime');
