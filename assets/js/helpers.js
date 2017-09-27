@@ -131,11 +131,19 @@ window.oasis = window.oasis || {};
         //   console.log('close', getSeconds(data.close));
         // }
         
-        if (
-					nowSeconds >= getSeconds(data.open) &&
+        if (startTime) {
+          if (nowSeconds >= getSeconds(data.open) &&
 					nowSeconds <= getSeconds(data.close) ) {
-					return true;
-				}
+            return true;
+          }
+        } else {
+          if (pacificTime &&
+					DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() &&
+					nowSeconds > getSeconds(data.open) &&
+					nowSeconds < getSeconds(data.close) ) {
+					  return true;  
+          }
+        }
 
 				// TBD: Should we show a special notice if it’s opening soon or closing soon?
 			}
