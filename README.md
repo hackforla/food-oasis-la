@@ -178,3 +178,17 @@ _supermarket/*
 ```
 
 They were created with `_node/create-markdown.js` and updated with `_node/update-markdown.js`, **but have since been edited by hand**.
+
+## License
+
+This project has an [open source license](https://github.com/foodoasisla/site/blob/master/LICENSE).
+
+### Icons by the Noun Project
+https://thenounproject.com
+
+[Licensed under Creative Commons](https://thenounproject.zendesk.com/hc/en-us/articles/200509798-What-licenses-do-you-use-)
+
+### Icons by Font Awesome, by Dave Gandy
+http://fontawesome.io
+
+[Licensed under the SIL OFL 1.1](http://scripts.sil.org/OFL)

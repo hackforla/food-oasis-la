@@ -82,6 +82,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Liz Krane
 * Michael Kunc
 * Hannah Lazarus
+* Patrick Lewis
 * Jason Lipshin
 * Gregor Martynus
 * Amanda McGlothlin

@@ -59,14 +59,28 @@ window.oasis = window.oasis || {};
     let open = window.oasis.getParameterByName("open");
     let openStart = window.oasis.getParameterByName("open_start");
     let openEnd = window.oasis.getParameterByName("open_end");
-    // let openDays = window.oasis.getParameterByName("open_days");
+    let openDays = window.oasis.getParameterByName("open_days");
+    console.log(typeof openStart);
+
     if (openStart || openEnd) { 
 
-      console.log("startTimes", openStart);
-      console.log("endTimes", openEnd);
+      console.log("openStart", openStart);
+      console.log("openEnd", openEnd);
       // console.log("openDays", openDays);
-    }
-		else if (open) {
+      list.filter(item => {
+        let open = false;
+				for (let index = 0; index < item.hours.length; index++) {
+					if (window.oasis.isOpenNow(item.hours[index], openStart)) {
+						open = true;
+					}
+				}
+
+				return open;
+        // item.hours.reduce((acc, cur) => {
+          
+        // })
+      })
+    } else if (open) {
 			list = list.filter(function(item) {
 				let open = false;
 				for (let index = 0; index < item.hours.length; index++) {

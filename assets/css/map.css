@@ -484,6 +484,17 @@
 		margin-top: -40px;
 	}
 
+	.cultivate-la-marker {
+		cursor: pointer;
+		height: 46px;
+		width: 30px;
+		background-image: url(/assets/images/map/pin-green-small.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -15px;
+		margin-top: -40px;
+	}
+
 	.summer-lunch-marker,
 	.orchard-marker,
 	.food-pantry-marker {
@@ -522,6 +533,17 @@
 	}
 
 	.community-garden-marker.active {
+		cursor: default;
+		height: 70px;
+		width: 42px;
+		background-image: url(/assets/images/map/pin-green-large.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-left: -21px;
+		margin-top: -64px;
+	}
+
+	.cultivate-la-marker.active {
 		cursor: default;
 		height: 70px;
 		width: 42px;

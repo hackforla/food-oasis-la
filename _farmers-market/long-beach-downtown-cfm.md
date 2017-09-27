@@ -2,7 +2,7 @@
 FM_ID: ''
 name: Long Beach Downtown CFM
 address_1: 199 East 5th Street
-address_2: 'Inside City Place Shopping Center, on Promenade north between 3rd and 5th. '
+address_2: 
 city: Long Beach
 state: California
 zip: '90805'
@@ -24,3 +24,4 @@ formatted_day1_open: 10am
 formatted_day1_close: 2pm
 
 ---
+Inside City Place Shopping Center, on Promenade north between 3rd and 5th. 

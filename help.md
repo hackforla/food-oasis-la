@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Filters, Food Oasis Los Angeles
+title: How to help Food Oasis Los Angeles
 canonical_url: /help/
 include_header: true
 include_footer: true
@@ -26,4 +26,4 @@ We are currently inverviewing
 
 This project is an interesting...
 
-# Policy Makers and Non Profits and Commuincations [need more detials]
+# Policy Makers and Non Profits and Communications [need more details]

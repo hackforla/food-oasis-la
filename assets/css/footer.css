@@ -287,6 +287,10 @@
 		margin-right: 0.75em;
 	}
 
+	footer .contact svg.github {
+		border-radius: 0;
+	}
+
 	footer .circle {
 		fill: white;
 	}

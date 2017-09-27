@@ -60,6 +60,13 @@ defaults:
       layout: location-details
       classname: location-details supermarket
       color: strawberry
+  - scope:
+      path: ""
+      type: cultivate-la
+    values:
+      layout: location-details
+      classname: location-details community-garden
+      color: lime
 
 collections:
   locations:
@@ -80,3 +87,6 @@ collections:
   supermarket:
     output: true
     permalink: /supermarket/:path/
+  cultivate-la:
+    output: true
+    permalink: /cultivate-la/:path/
