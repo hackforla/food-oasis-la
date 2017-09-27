@@ -21,13 +21,12 @@ uri: /community-garden/erika-j-glazer/
 
 ## Photos
 
-![Gate Entrance](/assets/images/photos/community-garden/IMG_0492.JPG)
-![Garden and plants growing in boxes](/assets/images/photos/community-garden/IMG_0478.JPG)
-![Garden and plants growing in boxes with a plank on the ground](/assets/images/photos/community-garden/IMG_0476.JPG)
-![Plants growing near a walkway and purple planys growing over the pathway ](/assets/images/photos/community-garden/IMG_0479.JPG)
-![Wide angle shot of garden and nearby houses](/assets/images/photos/community-garden/IMG_0481.JPG)
-![View of full garden, panorama](/assets/images/photos/community-garden/IMG_0485.JPG)
-![Picture of a shed](/assets/images/photos/community-garden/IMG_0487.JPG)
-![Picture of main entrance](/assets/images/photos/community-garden/IMG_0489.JPG)
-![Another picutre of Main entrance](/assets/images/photos/community-garden/IMG_0490.JPG)
-
+![Gate Entrance](/assets/images/photos/community-garden/erika-j-glazer/1.jpg)
+![Garden and plants growing in boxes](/assets/images/photos/community-garden/erika-j-glazer/2.jpg)
+![Garden and plants growing in boxes with a plank on the ground](/assets/images/photos/community-garden/erika-j-glazer/3.jpg)
+![Plants growing near a walkway and purple planys growing over the pathway ](/assets/images/photos/community-garden/erika-j-glazer/4.jpg)
+![Wide angle shot of garden and nearby houses](/assets/images/photos/community-garden/erika-j-glazer/5.jpg)
+![View of full garden, panorama](/assets/images/photos/community-garden/erika-j-glazer/6.jpg)
+![Picture of a shed](/assets/images/photos/community-garden/erika-j-glazer/7.jpg)
+![Picture of main entrance](/assets/images/photos/community-garden/erika-j-glazer/8.jpg)
+![Another picutre of Main entrance](/assets/images/photos/community-garden/erika-j-glazer/9.jpg)
