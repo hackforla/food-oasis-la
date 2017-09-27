@@ -112,20 +112,28 @@ window.oasis = window.oasis || {};
 			let minutes = Number(timeString.substring(timeString.length - 2));
 			return (hours * 60 * 60) + (minutes * 60);
 		}
-		isOpenNow = function(data, time) {
+		isOpenNow = function(data, startTime, item) {
 			if (data.day && data.open && data.close) {
         let nowSeconds;
         let now;
-        now = !time ? new Date() : new Date(`September 1, 2017 ${time}:00`);
+        now = !startTime ? new Date() : new Date(`September 1, 2017 ${startTime}`);
         let pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
-
         nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
-
-				// SHIM: Only proceed if the user is in the same time zone as Los Angeles
-				if (pacificTime &&
-					DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() &&
-					nowSeconds > getSeconds(data.open) &&
-					nowSeconds < getSeconds(data.close) ) {
+        // console.log('nowSeconds:', nowSeconds);
+        // SHIM: Only proceed if the user is in the same time zone as Los Angeles
+        // if (item && item.name === 'Gelsons Market') {
+        //   console.log('nowSeconds', nowSeconds)
+        //   // console.dir(item);
+        //   console.log('startTime:', startTime);
+        //   console.log('nowSeconds:', nowSeconds);
+        // // if (data.name === )
+        //   console.log('open', getSeconds(data.open));
+        //   console.log('close', getSeconds(data.close));
+        // }
+        
+        if (
+					nowSeconds >= getSeconds(data.open) &&
+					nowSeconds <= getSeconds(data.close) ) {
 					return true;
 				}
 

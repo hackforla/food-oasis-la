@@ -56,7 +56,7 @@ window.oasis = window.oasis || {};
 				return false;
 			});
     }
-    let open = window.oasis.getParameterByName("open");
+    let openNow = window.oasis.getParameterByName("open");
     let openStart = window.oasis.getParameterByName("open_start");
     let openEnd = window.oasis.getParameterByName("open_end");
     let openDays = window.oasis.getParameterByName("open_days");
@@ -65,12 +65,13 @@ window.oasis = window.oasis || {};
     if (openStart || openEnd) { 
 
       console.log("openStart", openStart);
-      console.log("openEnd", openEnd);
+      console.log('openDays:', openDays);
+      // console.log("openEnd", openEnd);
       // console.log("openDays", openDays);
       list.filter(item => {
         let open = false;
 				for (let index = 0; index < item.hours.length; index++) {
-					if (window.oasis.isOpenNow(item.hours[index], openStart)) {
+					if (window.oasis.isOpenNow(item.hours[index], openStart, item)) {
 						open = true;
 					}
 				}
@@ -80,7 +81,7 @@ window.oasis = window.oasis || {};
           
         // })
       })
-    } else if (open) {
+    } else if (openNow) {
 			list = list.filter(function(item) {
 				let open = false;
 				for (let index = 0; index < item.hours.length; index++) {
