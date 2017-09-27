@@ -18,3 +18,15 @@ title: 'Erika J. Glazer Community Garden, Food Oasis Los Angeles'
 uri: /community-garden/erika-j-glazer/
 
 ---
+
+## Photos
+
+![Gate Entrance](/assets/images/photos/community-garden/erika-j-glazer/1.jpg)
+![Garden and plants growing in boxes](/assets/images/photos/community-garden/erika-j-glazer/2.jpg)
+![Garden and plants growing in boxes with a plank on the ground](/assets/images/photos/community-garden/erika-j-glazer/3.jpg)
+![Plants growing near a walkway and purple planys growing over the pathway ](/assets/images/photos/community-garden/erika-j-glazer/4.jpg)
+![Wide angle shot of garden and nearby houses](/assets/images/photos/community-garden/erika-j-glazer/5.jpg)
+![View of full garden, panorama](/assets/images/photos/community-garden/erika-j-glazer/6.jpg)
+![Picture of a shed](/assets/images/photos/community-garden/erika-j-glazer/7.jpg)
+![Picture of main entrance](/assets/images/photos/community-garden/erika-j-glazer/8.jpg)
+![Another picutre of Main entrance](/assets/images/photos/community-garden/erika-j-glazer/9.jpg)
