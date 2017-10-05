@@ -69,18 +69,21 @@
 	<meta name="apple-mobile-web-app-title" content="Food Oasis LA">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-touch-fullscreen" content="yes" />
-	{% endcomment %}
 
 	<!-- KUDOS: https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/ -->
 	<script src="/assets/js/dnt-helper.js"></script>
 
 	<!-- Google Tag Manager -->
 	{% include google-tag-mgr-head.html %}
+	{% endcomment %}
 </head>
 <body{% if page.color or layout.color or page.classname or layout.classname %} class="{{ page.color }} {{ layout.color }} {{ page.classname }} {{ layout.classname }}"{% endif %}>
 
+	{% comment %}
+	Commented out by Jim, to protect users privacy, until we post a privacy notice.
 	<!-- Google Tag Manager -->
 	{% include google-tag-mgr-body.html %}
+	{% endcomment %}
 
 	{% if page.include_footer == false or layout.include_footer == false %}
 		{% assign include_footer = false %}
@@ -108,7 +111,10 @@
 		{% include footer.html %}
 	{% endunless %}
 
+	{% comment %}
+	Commented out by Jim, to protect users privacy, until we post a privacy notice.
 	{% include analytics.html %}
+	{% endcomment %}
 
 </body>
 </html>
