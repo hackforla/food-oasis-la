@@ -84,6 +84,7 @@ window.oasis = window.oasis || {};
 			if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 			if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 			if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
+			if (PAGE_PARAMETERS.open_start) params.push('open_start=' + PAGE_PARAMETERS.open_start);
 
 			let queryString = params.join('&');
 

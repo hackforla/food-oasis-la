@@ -18,7 +18,8 @@ let updateLink;
 		type   : getParameterByName('type') || PAGE_TYPE,
 		address: getParameterByName('address'),
 		deserts: getParameterByName('deserts'),
-		open: getParameterByName('open')
+		open: getParameterByName('open'),
+		openStart: getParameterByName('open_start')
 	};
 
 	// SHIM: Make the type persistent
@@ -29,12 +30,13 @@ let updateLink;
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 		if (PAGE_PARAMETERS.open) params.push('open=' + PAGE_PARAMETERS.open);
+		if (PAGE_PARAMETERS.openStart) params.push('open_start=' + PAGE_PARAMETERS.openStart);
 
 		let queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open || PAGE_PARAMETERS.openStart) {
 		let filtersLink = document.getElementById('filters-link');
 		if (filtersLink) {
 			updateLink(filtersLink);

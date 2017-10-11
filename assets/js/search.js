@@ -75,6 +75,16 @@
 		}
 	}
 
+	let openStart = getParameterByName('open_start');
+	if (openStart) {
+		let openField = document.querySelector('select[name="open_start"]');
+		for (let index = 0; index < openField.options.length; index++) {
+			if (openField.options[index].value === openStart) {
+				openField.selectedIndex = index;
+			}
+		}
+	}
+
 	/**
 	 * Uses the browser geolocation method to reverse geocode the user's
 	 * address based on the provided lat/lng.

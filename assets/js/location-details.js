@@ -102,11 +102,12 @@ const MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
 		type    : window.oasis.getParameterByName('type'),
 		address : window.oasis.getParameterByName('address'),
 		deserts : window.oasis.getParameterByName('deserts'),
-		open    : window.oasis.getParameterByName('open')
+		open    : window.oasis.getParameterByName('open'),
+		openStart : window.oasis.getParameterByName('open_start')
 	};
 
 	// Distance
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) { // If the user came from the search page
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open || PAGE_PARAMETERS.openStart) { // If the user came from the search page
 		let distance;
 		window.oasis.findUserLocation(function(userLocation) {
 			if (LOCATION_DETAILS.latitude != null && LOCATION_DETAILS.latitude != '' && userLocation && userLocation.latitude && userLocation.longitude) {
@@ -129,12 +130,13 @@ const MAP_STYLE = 'mapbox://styles/mapbox/basic-v9';
 		if (PAGE_PARAMETERS.address) params.push('address=' + PAGE_PARAMETERS.address);
 		if (PAGE_PARAMETERS.deserts) params.push('deserts=' + PAGE_PARAMETERS.deserts);
 		if (PAGE_PARAMETERS.open)    params.push('open='    + PAGE_PARAMETERS.open);
+		if (PAGE_PARAMETERS.openStart)  params.push('openStart=' + PAGE_PARAMETERS.openStart);
 
 		let queryString = params.join('&');
 		link.setAttribute('href', link.getAttribute('href') + '?' + queryString);
 	}
 
-	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open) {
+	if (PAGE_PARAMETERS.type || PAGE_PARAMETERS.address || PAGE_PARAMETERS.deserts || PAGE_PARAMETERS.open || PAGE_PARAMETERS.openStart) {
 		let link = document.getElementById('back-link');
 		if (link) {
 			updateLink(link);
