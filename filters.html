@@ -24,10 +24,10 @@ include_footer: false
 		<legend>Hours</legend>
 
 		<p>
-      <label>
-        Open Now
-        <input type="checkbox" disabled="disabled" />
-      </label> 
+			<label>
+				Open Now
+				<input type="checkbox" disabled="disabled" />
+			</label> 
 		</p>
 
 		<h3>Open At</h3>
@@ -72,28 +72,62 @@ include_footer: false
 	{% endcomment %}
 
 	<fieldset>
-    <legend>Hours</legend>
-     <div style="display:flex; flex-direction: row; justify-content: center">
-        Start<input type="time" name="open_start">
-        End<input type="time" name="open_end">
-    </div> 
-    <div style="text-align:center">
-      <select name="open_days" multiple>
-        <option value="Sunday">Sunday</option>
-        <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>
-        <option value="Wednesday">Wednesday</option>
-        <option value="Thursday">Thursday</option>
-        <option value="Friday">Friday</option>
-        <option value="Saturday">Saturday</option>
-      </select>
-    </div>
+		<legend>Hours</legend>
+		<!--
+		 <div style="display:flex; flex-direction: row; justify-content: center">
+				Start<input type="time" name="open_start">
+				End<input type="time" name="open_end">
+		</div> 
+		<div style="text-align:center">
+			<select name="open_days" multiple>
+				<option value="Sunday">Sunday</option>
+				<option value="Monday">Monday</option>
+				<option value="Tuesday">Tuesday</option>
+				<option value="Wednesday">Wednesday</option>
+				<option value="Thursday">Thursday</option>
+				<option value="Friday">Friday</option>
+				<option value="Saturday">Saturday</option>
+			</select>
+		</div>
+		-->
 		<ul>
 			<li>
 				<label>
-					 <span>Open Now</span>
+					<span>Only show locations that are open</span>
 					<input type="checkbox" name="open" value="1" />
 					<span class="pseudo-checkbox"></span> 
+				</label>
+			</li>
+			<li>
+				<label>
+					<span>Open at</span>
+					<select name="open_start">
+						<option value="">the current time</option>
+						<option value="01:00 AM">1:00 a.m.</option>
+						<option value="02:00 AM">2:00 a.m.</option>
+						<option value="03:00 AM">3:00 a.m.</option>
+						<option value="04:00 AM">4:00 a.m.</option>
+						<option value="05:00 AM">5:00 a.m.</option>
+						<option value="06:00 AM">6:00 a.m.</option>
+						<option value="07:00 AM">7:00 a.m.</option>
+						<option value="08:00 AM">8:00 a.m.</option>
+						<option value="09:00 AM">9:00 a.m.</option>
+						<option value="10:00 AM">10:00 a.m.</option>
+						<option value="11:00 AM">11:00 a.m.</option>
+						<option value="12:00 PM">noon</option>
+						<option value="01:00 PM">1:00 p.m.</option>
+						<option value="02:00 PM">2:00 p.m.</option>
+						<option value="03:00 PM">3:00 p.m.</option>
+						<option value="04:00 PM">4:00 p.m.</option>
+						<option value="05:00 PM">5:00 p.m.</option>
+						<option value="06:00 PM">6:00 p.m.</option>
+						<option value="07:00 PM">7:00 p.m.</option>
+						<option value="08:00 PM">8:00 p.m.</option>
+						<option value="09:00 PM">9:00 p.m.</option>
+						<option value="10:00 PM">10:00 p.m.</option>
+						<option value="11:00 PM">11:00 p.m.</option>
+						<option value="00:00 AM">midnight</option>
+					</select>
 				</label>
 			</li>
 		</ul>
@@ -102,9 +136,9 @@ include_footer: false
 	<fieldset>
 		<legend>Types</legend>
 		<ul>
-      <li class='listHeader' style='background-color: rgb(249, 192, 88); margin-top: -19px;'>    
-        Free
-      </li>
+			<li class='listHeader' style='background-color: rgb(249, 192, 88); margin-top: -19px;'>    
+				Free
+			</li>
 			<li>
 				<label>
 					<img src="/assets/images/home/food-pantry.svg" width="100" alt="" />
@@ -131,10 +165,10 @@ include_footer: false
 					<input type="checkbox" data-name="type_option" value="summer-lunch" checked="checked" />
 					<span class="pseudo-checkbox"></span>
 				</label>
-      </li>
-      <li class='listHeader' style='background-color: rgb(144, 194, 70);'>
-        Grow
-      </li>
+			</li>
+			<li class='listHeader' style='background-color: rgb(144, 194, 70);'>
+				Grow
+			</li>
 			<li>
 				<label>
 					<img src="/assets/images/home/community-garden.svg" width="100" alt="" />
@@ -143,10 +177,10 @@ include_footer: false
 					<input type="checkbox" data-name="type_option" value="community-garden" checked="checked" />
 					<span class="pseudo-checkbox"></span>
 				</label>
-      </li>
-      <li class='listHeader' style='background-color: rgb(241, 95, 91);'>
-        Buy
-      </li>
+			</li>
+			<li class='listHeader' style='background-color: rgb(241, 95, 91);'>
+				Buy
+			</li>
 			<li>
 				<label>
 					<img src="/assets/images/home/farmers-market.svg" width="100" alt="" />
