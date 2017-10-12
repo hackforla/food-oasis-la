@@ -86,6 +86,7 @@ Graphics were created using Adobe Illustrator, InDesign, and The Noun Project. W
 * Jason Lipshin
 * Gregor Martynus
 * Amanda McGlothlin
+* Robert Nolty
 * Rebecca Pizano
 * Danny Prikaz
 * Joshua Robins
