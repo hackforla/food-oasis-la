@@ -82,6 +82,11 @@
 		padding: 0.75em;
 		margin: -0.75em;
 	}
+	@media (max-width: 35em) {
+		.secondary-nav .filter a svg {
+			display: none;
+		}
+	}
 	.search-nav button,
 	.filter-nav button {
 		/*background-color: rgb(144, 194, 70);*/
