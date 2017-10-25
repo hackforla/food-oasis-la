@@ -116,9 +116,17 @@ window.oasis = window.oasis || {};
 			if (data.day && data.open && data.close) {
         let nowSeconds;
         let now;
-        now = !startTime ? new Date() : new Date(`September 1, 2017 ${startTime}`);
+        now = !startTime ? new Date() : new Date(`October 24, 2017 ${startTime}`);
+        // now = !startTime ? new Date() : new Date('October 17, 2017 01:00:00');
+
         let pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
         nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds();
+        // nowSeconds = 3600;
+        if (startTime) {
+          console.log('version 1????')
+          console.log('nowSeconds:', nowSeconds);
+        }
+        // nowSeconds = 3600;
         // console.log('nowSeconds:', nowSeconds);
         // SHIM: Only proceed if the user is in the same time zone as Los Angeles
         // if (item && item.name === 'Gelsons Market') {
@@ -131,19 +139,21 @@ window.oasis = window.oasis || {};
         //   console.log('close', getSeconds(data.close));
         // }
         
-        if (startTime) {
-          if (nowSeconds >= getSeconds(data.open) &&
-					nowSeconds <= getSeconds(data.close) ) {
-            return true;
-          }
-        } else {
+        // if (startTime) {
+        //   if (nowSeconds >= getSeconds(data.open) &&
+				// 	nowSeconds <= getSeconds(data.close) ) {
+        //     return true;
+        //   }
+        // } else {
+
+        
           if (pacificTime &&
 					DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() &&
 					nowSeconds > getSeconds(data.open) &&
 					nowSeconds < getSeconds(data.close) ) {
 					  return true;  
           }
-        }
+        // }
 
 				// TBD: Should we show a special notice if it’s opening soon or closing soon?
 			}

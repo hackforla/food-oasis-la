@@ -60,32 +60,33 @@ window.oasis = window.oasis || {};
     let openStart = window.oasis.getParameterByName("open_start");
     let openEnd = window.oasis.getParameterByName("open_end");
     let openDays = window.oasis.getParameterByName("open_days");
-    console.log(typeof openStart);
+    // console.log(typeof openStart);
 
-    if (openStart || openEnd) { 
+    // if (openStart || openEnd) { 
 
-      console.log("openStart", openStart);
-      console.log('openDays:', openDays);
-      // console.log("openEnd", openEnd);
-      // console.log("openDays", openDays);
-      list.filter(item => {
-        let open = false;
-				for (let index = 0; index < item.hours.length; index++) {
-					if (window.oasis.isOpenNow(item.hours[index], openStart, item)) {
-						open = true;
-					}
-				}
+    //   console.log("openStart", openStart);
+    //   console.log('openDays:', openDays);
+    //   // console.log("openEnd", openEnd);
+    //   // console.log("openDays", openDays);
+    //   list.filter(item => {
+    //     let open = false;
+		// 		for (let index = 0; index < item.hours.length; index++) {
+		// 			if (window.oasis.isOpenNow(item.hours[index], openStart, item)) {
+		// 				open = true;
+		// 			}
+		// 		}
 
-				return open;
-        // item.hours.reduce((acc, cur) => {
+		// 		return open;
+    //     // item.hours.reduce((acc, cur) => {
           
-        // })
-      })
-    } else if (openNow) {
+    //     // })
+    //   })
+    // } else 
+    if (openNow) {
 			list = list.filter(function(item) {
 				let open = false;
 				for (let index = 0; index < item.hours.length; index++) {
-					if (window.oasis.isOpenNow(item.hours[index])) {
+					if (window.oasis.isOpenNow(item.hours[index], openStart, item)) {
 						open = true;
 					}
 				}
