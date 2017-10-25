@@ -12,3 +12,4 @@ _data/old/
 /.jekyll-metadata
 node_modules
 _node/node_modules
+npm-debug.log
