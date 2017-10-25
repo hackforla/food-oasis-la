@@ -181,9 +181,11 @@ They were created with `_node/create-markdown.js` and updated with `_node/update
 
 ## License
 
-The code, data and design for this project are available under an [open source license](https://github.com/foodoasisla/site/blob/master/LICENSE).
+The code, data and design for this project are available under an [open source license](https://github.com/foodoasisla/site/blob/master/LICENSE). That means you’re free to use them to make a food oasis for your city.
 
-The Food Oasis Los Angeles name and logo are copyright Hack for LA c/o Code for America, and should not be used elsewhere without our permission.
+The Food Oasis Los Angeles name and logo are copyright Hack for LA c/o Code for America. Please check with us first, before using these on a project.
+
+The icons used in this project came from these two sources…
 
 ### Icons by the Noun Project
 https://thenounproject.com
