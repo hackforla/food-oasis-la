@@ -1,6 +1,15 @@
 
 # Food Oasis
 
+* [How to make changes](#license)
+* [How to develop locally](#how-to-develop-locally)
+* [Speeding up Jekyll](#speeding-up-jekyll)
+* [Handy guides](#handy-guides)
+* [A summary of the project files](#a-summary-of-the-project-files)
+* [How to add a new location](#how-to-add-a-new-location)
+* [License](#license)
+
+
 This is a website with a map of food sources in Los Angeles, and list of resources about food deserts and health. You can view the site here…
 https://foodoasis.la
 
@@ -71,7 +80,7 @@ Here’s one more command skips the initial build of those folders, if you want 
 npm run serve
 ```
 
-## Handy Guides
+## Handy guides
 
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Liquid](https://shopify.github.io/liquid/)
