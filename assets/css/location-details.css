@@ -151,3 +151,18 @@
 		display: inline-block;
 	}
 
+	.note {
+		background: rgb(255, 232, 128); /* @canteloupe */
+		padding: 1.5em;
+	}
+	.location-summary-container > div > section.note,
+	.location-details main            > section.note {
+		border-top-width: 0;
+	}
+	.note h2 {
+		margin-top: 0;
+	}
+	.note p {
+		margin-bottom: 0;
+	}
+

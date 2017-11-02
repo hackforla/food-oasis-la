@@ -182,6 +182,26 @@ window.oasis = window.oasis || {};
 					element.querySelector('.dates').parentNode.removeChild(element.querySelector('.dates'));
 				}
 
+				// Add a message encouraging the visitor to call ahead before visiting a location.
+				if (data.phone != '' && data.website != '') {
+					element.querySelector('.note p').innerHTML = `
+						Please call ${data.phone} or
+						<a href="${data.website}">view their website</a> to confirm
+						this location will be open at the time you’d like to visit.
+					`;
+				} else if (data.phone != '') {
+					element.querySelector('.note p').innerHTML = `
+						Please call ${data.phone} to confirm
+						this location will be open at the time you’d like to visit.
+					`;
+				} else if (data.website != '') {
+					element.querySelector('.note p').innerHTML = `
+						Please
+						<a href="${data.website}">view their website</a> to confirm
+						this location will be open at the time you’d like to visit.
+					`;
+				}
+
 				let hoursHTML = '';
 				let dt;
 				let dd;

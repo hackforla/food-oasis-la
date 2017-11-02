@@ -117,6 +117,7 @@ TODO: Consider updating generate-locations.js to make a simple loop like this po
 {% comment %}
 SHIM: Support days in any order, in the spreadsheet.
 {% endcomment %}
+
 {% if 
 	page['formatted_daycode1'] or 
 	page['formatted_daycode2'] or
@@ -127,6 +128,7 @@ SHIM: Support days in any order, in the spreadsheet.
 	page['formatted_daycode7'] %}
 <section class="hours">
 	<h2>Hours</h2>
+
 	{% assign days = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday" | split: ", " %}
 
 	<dl>
@@ -169,6 +171,28 @@ SHIM: Support days in any order, in the spreadsheet.
 	</dl>
 </section>
 {% endif %}
+
+<section class="note">
+	<h2>These hours may have changed.</h2> 
+	{% if page['phone'] != '' and page['website'] != '' %}
+	<p>
+		Please call {{ page['phone'] }} or
+		<a href="{{ page['website'] }}">view their website</a> to confirm
+		this location will be open at the time you’d like to visit.
+	</p>
+	{% elsif page['phone'] != '' %}
+	<p>
+		Please call {{ page['phone'] }} to confirm
+		this location will be open at the time you’d like to visit.
+	</p>
+	{% elsif page['website'] != '' %}
+	<p>
+		Please 
+		<a href="{{ page['website'] }}">view their {{ page['website'] }}</a> to confirm
+		this location will be open at the time you’d like to visit.
+	</p>
+	{% endif %}
+</section>
 
 {% if page['website'] != '' or page['phone'] != '' %}
 <section class="information">
