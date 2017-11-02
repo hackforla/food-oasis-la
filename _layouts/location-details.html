@@ -172,28 +172,6 @@ SHIM: Support days in any order, in the spreadsheet.
 </section>
 {% endif %}
 
-<section class="note">
-	<h2>These hours may have changed.</h2> 
-	{% if page['phone'] != '' and page['website'] != '' %}
-	<p>
-		Please call {{ page['phone'] }} or
-		<a href="{{ page['website'] }}">view their website</a> to confirm
-		this location will be open at the time you’d like to visit.
-	</p>
-	{% elsif page['phone'] != '' %}
-	<p>
-		Please call {{ page['phone'] }} to confirm
-		this location will be open at the time you’d like to visit.
-	</p>
-	{% elsif page['website'] != '' %}
-	<p>
-		Please 
-		<a href="{{ page['website'] }}">view their {{ page['website'] }}</a> to confirm
-		this location will be open at the time you’d like to visit.
-	</p>
-	{% endif %}
-</section>
-
 {% if page['website'] != '' or page['phone'] != '' %}
 <section class="information">
 	<h2>Information</h2>
@@ -229,6 +207,19 @@ SHIM: Support days in any order, in the spreadsheet.
 {{ page['notes'] | markdownify }}
 
 {{ content }}
+
+<section class="note">
+	<h2>This location’s address and hours may have changed.</h2> 
+	{% if page['phone'] != '' %}
+	<p>
+		Before you visit, please call this location’s phone number: {{ page['phone'] }} and ask them for their address and hours.
+	</p>
+	{% else %}
+	<p>
+		Before you visit, please contact this location and ask them for their address and hours.
+	</p>
+	{% endif %}
+</section>
 
 <section class="location-details-options">
 	<h2>Options</h2>

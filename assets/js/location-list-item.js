@@ -183,22 +183,13 @@ window.oasis = window.oasis || {};
 				}
 
 				// Add a message encouraging the visitor to call ahead before visiting a location.
-				if (data.phone != '' && data.website != '') {
+				if (data.phone != '') {
 					element.querySelector('.note p').innerHTML = `
-						Please call ${data.phone} or
-						<a href="${data.website}">view their website</a> to confirm
-						this location will be open at the time you’d like to visit.
+						Before you visit, please call this location’s phone number: ${data.phone} and ask them for their address and hours.
 					`;
-				} else if (data.phone != '') {
+				} else {
 					element.querySelector('.note p').innerHTML = `
-						Please call ${data.phone} to confirm
-						this location will be open at the time you’d like to visit.
-					`;
-				} else if (data.website != '') {
-					element.querySelector('.note p').innerHTML = `
-						Please
-						<a href="${data.website}">view their website</a> to confirm
-						this location will be open at the time you’d like to visit.
+						Before you visit, please contact this location and ask them for their address and hours.
 					`;
 				}
 
