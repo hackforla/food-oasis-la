@@ -112,28 +112,33 @@ window.oasis = window.oasis || {};
 			let minutes = Number(timeString.substring(timeString.length - 2));
 			return (hours * 60 * 60) + (minutes * 60);
 		}
-		isOpenNow = function(data, startTime, item) {
+		isOpenNow = function(data, startTime, item, openDay) {
 			if (data.day && data.open && data.close) {
         let nowSeconds;
         let now;
         const today = new Date();
-        now = !startTime ? new Date() : new Date(`October 24, 2017 ${startTime}`);
-        
+        now = !startTime ? new Date() : new Date(`October 25, 2017 ${startTime}`);
+
         let pacificTime = (now.toString().indexOf('(PDT)') >= 0) || (now.toString().indexOf('(PST)') >= 0);
         nowSeconds = (now.getHours() * 60 * 60) + (now.getMinutes() * 60) + now.getSeconds(); 
-
-        // startTime not yet checking for days of the week
-        if (pacificTime &&
-          (DAYS_OF_WEEK[now.getDay()] === data.day.toLowerCase() || startTime) &&
+        if (openDay) {
+          if (openDay.toLowerCase() === data.day.toLowerCase() &&
           nowSeconds > getSeconds(data.open) &&
           nowSeconds < getSeconds(data.close) ) {
+            // console.log('data:', data);
+            console.log('openDay', openDay, data);
+            return true;
+          } 
+        } else if (
+          nowSeconds > getSeconds(data.open) &&
+          nowSeconds < getSeconds(data.close) ) {
+            // console.log('data:', data);
             return true;  
           }
-        // }
+        }
 				// TBD: Should we show a special notice if it’s opening soon or closing soon?
 			}
 			return false;
-		}
 	})();
 
 	window.oasis.INFINITY = INFINITY;

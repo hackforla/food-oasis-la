@@ -155,6 +155,14 @@
     align-items: center;
   }
 
+  .filterButton {
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid black; 
+    cursor: pointer;
+    /* background-color:  */
+  }
+
 	/* If advanced selectors are supported, hide the checkboxes… */
 	li input[type="checkbox"]:checked,
 	li input[type="checkbox"]:not(:checked) {

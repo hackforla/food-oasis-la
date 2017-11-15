@@ -56,15 +56,16 @@ window.oasis = window.oasis || {};
 				return false;
 			});
     }
-    let openNow = window.oasis.getParameterByName("open");
-    let openStart = window.oasis.getParameterByName("open_start");
-    let openEnd = window.oasis.getParameterByName("open_end");
-    let openDays = window.oasis.getParameterByName("open_days");
+    const openNow = window.oasis.getParameterByName("open");
+    const openStart = window.oasis.getParameterByName("open_start");
+    const openEnd = window.oasis.getParameterByName("open_end");
+    const openDay = window.oasis.getParameterByName("open_days");
+
     if (openNow) {
 			list = list.filter(function(item) {
 				let open = false;
 				for (let index = 0; index < item.hours.length; index++) {
-					if (window.oasis.isOpenNow(item.hours[index], openStart, item)) {
+					if (window.oasis.isOpenNow(item.hours[index], openStart, item, openDay)) {
 						open = true;
 					}
 				}
