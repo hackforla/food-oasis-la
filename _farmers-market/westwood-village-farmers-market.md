@@ -6,7 +6,7 @@ address_2: ''
 city: 'Los Angeles '
 state: California
 zip: '90024'
-website: ''
+website: 'http://www.thewestwoodvillage.com/westwood-village-farmers-market/'
 phone: ''
 notes: ''
 contributor_name: Gregor
