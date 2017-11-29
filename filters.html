@@ -15,6 +15,38 @@ include_footer: false
 			<p><button type="submit">Done</button></p>
 		</div>
 	</header>
+	<fieldset>
+		<legend>Open Times </legend>
+		<ol>
+			<li><label><input type="radio" name="all_day" value="1" checked>All Day </label></li>
+			<li><label><input type="radio" name="all_day" value="0">Selected Times</label>
+				<ol>
+					<li><label><input type="checkbox" name="morning" value="1">Morning <span class="pseudo-checkbox"></span> </label></li>
+					<li><label><input type="checkbox" name="afternoon" value="1">Afternoon <span class="pseudo-checkbox"></span> </label></li>
+					<li><label><input type="checkbox" name="evening" value="1">Evening <span class="pseudo-checkbox"></span> </label></li>
+				</ol>
+
+			</li>
+		</ol>
+	</fieldset>
+	<fieldset>
+		<legend>Open Days </legend>
+		<ol>
+			<li><label><input type="radio" name="all_week" value="1" checked>Anyday </label></li>
+			<li><label><input type="radio" name="all_week" value="0">Selected Days</label>
+				<ol>
+					<li><label><input type="checkbox" name="sunday" value="1">Sunday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="monday" value="1">Monday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="tuesday" value="1">Tuesday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="wednesday" value="1">Wednesday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="thursday" value="1">Thursday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="friday" value="1">Friday <span class="pseudo-checkbox"></span> </label> </li>
+					<li><label><input type="checkbox" name="saturday" value="1">Saturday <span class="pseudo-checkbox"></span> </label> </li>
+				</ol>
+
+			</li>
+		</ol>
+	</fieldset>	
 
 	{% comment %}
 
@@ -71,6 +103,7 @@ include_footer: false
 	</fieldset>
 	{% endcomment %}
 
+	{% comment %}
 	<fieldset>
 		<legend>Hours</legend>
 		<!--
@@ -150,6 +183,7 @@ include_footer: false
       </li>
 		</ul>
 	</fieldset>
+	{% endcomment %}
 
 	<fieldset>
 		<legend>Types</legend>
