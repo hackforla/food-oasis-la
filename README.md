@@ -1,5 +1,6 @@
-
 # Food Oasis
+
+This repository originated from the Food Oasis LA github and has transfered ownership to Hack for LA for posterity. The project has been acquired by the Youth Policy Institute, who will maintain future updates to the live website.
 
 * [How to make changes](#license)
 * [How to develop locally](#how-to-develop-locally)
